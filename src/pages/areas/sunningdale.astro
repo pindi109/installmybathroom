@@ -7,6 +7,7 @@ import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
 import services from "../../data/services.json";
+import images from "../../data/image-manifest.json";
 
 const faqs = [
   {
@@ -58,27 +59,47 @@ const faqs = [
 
   <!-- Local context -->
   <section class="section-sm" style="background: var(--bg-light);">
-    <div class="container max-w-3xl">
-      <h2 class="text-2xl font-bold mb-4 fade-up">Sunningdale's housing stock</h2>
-      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them — a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure.
-      </p>
-      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        What generous plot size doesn't solve on its own is plumbing age. Older detached houses in this part of Berkshire were frequently built with gravity-fed hot water systems and header tanks in the loft, sometimes upgraded to mains pressure at a later date and sometimes not. We measure actual pressure and flow at every survey rather than assuming mains pressure, because it directly affects which showers — particularly digital and thermostatic models — will perform as specified.
-      </p>
-      <p class="leading-relaxed" style="color: var(--text-soft);">
-        A number of the older properties also have suspended timber ground floors rather than a solid concrete slab, which matters for large-format porcelain and for wet room tanking: deflection under a suspended floor needs checking and, where necessary, battening out or boarding to a suitable standard before tiling starts. We flag this at survey rather than discovering it once a floor is opened up.
-      </p>
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 fade-up">Sunningdale's housing stock</h2>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them — a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure.
+        </p>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          What generous plot size doesn't solve on its own is plumbing age. Older detached houses in this part of Berkshire were frequently built with gravity-fed hot water systems and header tanks in the loft, sometimes upgraded to mains pressure at a later date and sometimes not. We measure actual pressure and flow at every survey rather than assuming mains pressure, because it directly affects which showers — particularly digital and thermostatic models — will perform as specified.
+        </p>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          A number of the older properties also have suspended timber ground floors rather than a solid concrete slab, which matters for large-format porcelain and for wet room tanking: deflection under a suspended floor needs checking and, where necessary, battening out or boarding to a suitable standard before tiling starts. We flag this at survey rather than discovering it once a floor is opened up.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/sunningdale-exterior.webp"].path}
+          alt={images["inline/sunningdale-exterior.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 
   <!-- Planning -->
   <section class="section-sm">
-    <div class="container max-w-3xl">
-      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
-      <p class="leading-relaxed" style="color: var(--text-soft);">
-        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — does not normally require planning permission. Where it can matter is on listed properties, or for homes within a designated conservation area, if the work affects the external fabric of the building: a new extraction vent cut through an original wall, or a rooflight added for a loft en-suite, are the kinds of changes that can need separate consent. If your property might be affected, we'll say so plainly at survey rather than assume it's fine, and point you to the local planning authority to confirm before anything is ordered.
-      </p>
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_220px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — does not normally require planning permission. Where it can matter is on listed properties, or for homes within a designated conservation area, if the work affects the external fabric of the building: a new extraction vent cut through an original wall, or a rooflight added for a loft en-suite, are the kinds of changes that can need separate consent. If your property might be affected, we'll say so plainly at survey rather than assume it's fine, and point you to the local planning authority to confirm before anything is ordered.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/period-window-portrait.webp"].path}
+          alt={images["inline/period-window-portrait.webp"].alt}
+          width="540" height="960" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 

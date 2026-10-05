@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import images from "../../data/image-manifest.json";
 
 const faqs = [
   {
@@ -66,15 +67,25 @@ const faqs = [
 
   <!-- Install requirements -->
   <section class="section-sm">
-    <div class="container max-w-3xl">
-      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
-      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Carrier frame fixing:</strong> Duofix and Sigma frames need a structural wall or floor fixing, not a stud wall alone — confirmed at survey against your wall construction.</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply:</strong> AquaClean shower toilets need a dedicated, correctly zoned electrical supply run to the cistern position before tiling closes the wall.</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> standard flush performance is cistern-fed, but AquaClean's wash function needs adequate mains flow, checked at survey.</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste position:</strong> wall-hung pans need the waste set at the correct height within the frame before boarding, not adjusted afterwards.</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Access panel:</strong> the flush plate position is planned so cistern service valves stay reachable after tiling.</li>
-      </ul>
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+        <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Carrier frame fixing:</strong> Duofix and Sigma frames need a structural wall or floor fixing, not a stud wall alone — confirmed at survey against your wall construction.</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply:</strong> AquaClean shower toilets need a dedicated, correctly zoned electrical supply run to the cistern position before tiling closes the wall.</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> standard flush performance is cistern-fed, but AquaClean's wash function needs adequate mains flow, checked at survey.</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste position:</strong> wall-hung pans need the waste set at the correct height within the frame before boarding, not adjusted afterwards.</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Access panel:</strong> the flush plate position is planned so cistern service valves stay reachable after tiling.</li>
+        </ul>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/carrier-frame-fixing.webp"].path}
+          alt={images["inline/carrier-frame-fixing.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 
@@ -82,9 +93,17 @@ const faqs = [
   <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
-      <p class="leading-relaxed" style="color: var(--text-soft);">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
         Confirm the frame model matches the flush plate you've ordered — Sigma plates don't fit older Kappa-generation frames, for example. Check the pan is the correct projection for your frame (short or standard), and that AquaClean units include the full fitting kit and remote. Inspect the cistern and pan for shipping damage before we start; once walls are tiled and the frame is boarded in, a mismatched or damaged part means opening the wall back up, which is a chargeable return visit under client-supplied goods.
       </p>
+      <div class="card overflow-hidden fade-up max-w-sm">
+        <img
+          src={images["inline/shower-toilet-detail.webp"].path}
+          alt={images["inline/shower-toilet-detail.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 

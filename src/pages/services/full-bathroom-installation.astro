@@ -7,6 +7,7 @@ import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
 import areasData from "../../data/areas.json";
+import images from "../../data/image-manifest.json";
 
 const serviceSchema = {
   "@context": "https://schema.org",
@@ -75,17 +76,27 @@ const faqs = [
 
   <!-- What's included -->
   <section class="section-sm">
-    <div class="container max-w-3xl">
-      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
-      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Strip-out of the existing suite, tiling and flooring, with disposal</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix plumbing: supply and waste runs to the positions agreed at survey</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix electrics, coordinated with a registered engineer for any Part P work</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking and waterproofing of the shower area and any other wet zones</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor and wall tiling, set out from centre lines so joints line through</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second fix: WC, basin, bath or shower, taps, towel radiator and mirror</li>
-        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Daily protection and clean-down, and a full snagging walkthrough on completion</li>
-      </ul>
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+        <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Strip-out of the existing suite, tiling and flooring, with disposal</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix plumbing: supply and waste runs to the positions agreed at survey</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix electrics, coordinated with a registered engineer for any Part P work</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking and waterproofing of the shower area and any other wet zones</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor and wall tiling, set out from centre lines so joints line through</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second fix: WC, basin, bath or shower, taps, towel radiator and mirror</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Daily protection and clean-down, and a full snagging walkthrough on completion</li>
+        </ul>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/wall-hung-toilet-detail.webp"].path}
+          alt={images["inline/wall-hung-toilet-detail.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 
@@ -125,9 +136,17 @@ const faqs = [
       <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
         Tanking follows current waterproofing guidance for wet areas (BS 5385), with full-height protection in shower enclosures and a minimum upstand elsewhere. Falls to drain are set before tiling, not adjusted afterwards. Large-format porcelain is checked for lippage as each row goes down, and tile joints are set out from centre lines so they line through from floor to wall rather than being forced to fit at the edges.
       </p>
-      <p class="leading-relaxed" style="color: var(--text-soft);">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
         Any gas work, Part P-notifiable electrical work, or work on an unvented hot water cylinder is carried out by an appropriately registered engineer as part of the project — we coordinate this so you have one point of contact rather than managing separate trades.
       </p>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src={images["inline/underfloor-heating-pipes.webp"].path}
+          alt={images["inline/underfloor-heating-pipes.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 

@@ -1,0 +1,74 @@
+{
+  "heroes/index-hero.webp": {
+    "path": "/assets/heroes/index-hero.webp",
+    "alt": "Finished luxury bathroom with honed stone, large-format porcelain and brushed brass fittings"
+  },
+  "heroes/areas/sunningdale-hero.webp": {
+    "path": "/assets/heroes/areas/sunningdale-hero.webp",
+    "alt": "Large period-house en-suite with stone and porcelain finishes and a walk-in shower"
+  },
+  "heroes/services/full-bathroom-installation-hero.webp": {
+    "path": "/assets/heroes/services/full-bathroom-installation-hero.webp",
+    "alt": "Tiler setting large-format porcelain tiles from a centre line during a bathroom installation"
+  },
+  "inline/wall-hung-toilet-detail.webp": {
+    "path": "/assets/inline/wall-hung-toilet-detail.webp",
+    "alt": "Wall-hung toilet with concealed cistern and brushed brass flush plate"
+  },
+  "inline/survey-flatlay.webp": {
+    "path": "/assets/inline/survey-flatlay.webp",
+    "alt": "Consultation flatlay with tile samples, tape measure and a floor plan sketch"
+  },
+  "inline/brass-tap-macro.webp": {
+    "path": "/assets/inline/brass-tap-macro.webp",
+    "alt": "Macro detail of a brushed brass wall-mounted tap over a stone basin"
+  },
+  "inline/walk-in-shower-wide.webp": {
+    "path": "/assets/inline/walk-in-shower-wide.webp",
+    "alt": "Walk-in shower with large-format porcelain tiling and a frameless glass screen"
+  },
+  "inline/freestanding-bath-portrait.webp": {
+    "path": "/assets/inline/freestanding-bath-portrait.webp",
+    "alt": "Freestanding stone-resin bath beside a window with natural daylight"
+  },
+  "inline/porcelain-corner-detail.webp": {
+    "path": "/assets/inline/porcelain-corner-detail.webp",
+    "alt": "Large-format porcelain tiled corner with a precise mitred edge"
+  },
+  "heroes/brands/geberit-hero.webp": {
+    "path": "/assets/heroes/brands/geberit-hero.webp",
+    "alt": "Wall-hung WC installation mid-fit with carrier frame visible before boarding"
+  },
+  "heroes/guides/cost-hero.webp": {
+    "path": "/assets/heroes/guides/cost-hero.webp",
+    "alt": "Flatlay planning scene for a bathroom installation cost guide with swatches and a floor plan"
+  },
+  "inline/sunningdale-exterior.webp": {
+    "path": "/assets/inline/sunningdale-exterior.webp",
+    "alt": "Large detached period-style home exterior in a leafy Berkshire setting"
+  },
+  "inline/carrier-frame-fixing.webp": {
+    "path": "/assets/inline/carrier-frame-fixing.webp",
+    "alt": "Concealed cistern carrier frame being fixed to a structural wall before tiling"
+  },
+  "inline/shower-toilet-detail.webp": {
+    "path": "/assets/inline/shower-toilet-detail.webp",
+    "alt": "Modern shower toilet unit with a brushed finish and slim remote control"
+  },
+  "inline/underfloor-heating-pipes.webp": {
+    "path": "/assets/inline/underfloor-heating-pipes.webp",
+    "alt": "Underfloor heating pipes laid in a screed bed before stone tiling"
+  },
+  "inline/wet-room-finished.webp": {
+    "path": "/assets/inline/wet-room-finished.webp",
+    "alt": "Finished large stone-tiled wet room with a linear drain and frameless glass partition"
+  },
+  "inline/shower-niche-portrait.webp": {
+    "path": "/assets/inline/shower-niche-portrait.webp",
+    "alt": "Tall stone-clad shower niche with neatly folded towels"
+  },
+  "inline/period-window-portrait.webp": {
+    "path": "/assets/inline/period-window-portrait.webp",
+    "alt": "Large period-house window with stone bathroom tiling visible at the edge of frame"
+  }
+}

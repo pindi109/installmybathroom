@@ -1,1 +1,7 @@
-{}
+{
+  "": "/assets/heroes/index-hero.webp",
+  "areas/sunningdale": "/assets/heroes/areas/sunningdale-hero.webp",
+  "services/full-bathroom-installation": "/assets/heroes/services/full-bathroom-installation-hero.webp",
+  "brands/geberit": "/assets/heroes/brands/geberit-hero.webp",
+  "guides/how-much-does-a-luxury-bathroom-installation-cost-uk": "/assets/heroes/guides/cost-hero.webp"
+}

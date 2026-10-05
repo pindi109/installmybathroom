@@ -8,6 +8,7 @@ import FAQ from "../components/FAQ.astro";
 import { business, entityOneLiner } from "../config/business.ts";
 import services from "../data/services.json";
 import areasData from "../data/areas.json";
+import images from "../data/image-manifest.json";
 
 const faqs = [
   {
@@ -133,7 +134,29 @@ const faqs = [
           Warm stone underfoot from underfloor heating set to the right output, the silence of a soft-close concealed cistern, a rainfall head positioned so the water falls exactly where you stand rather than where the pipe happened to come through the ceiling — these are decisions made at survey stage, not fixed on site.
         </p>
       </div>
-      <div class="card p-8" style="background: var(--bg-light);">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src={images["inline/walk-in-shower-wide.webp"].path}
+          alt={images["inline/walk-in-shower-wide.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- What we check -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-2xl grid md:grid-cols-[180px_1fr] gap-6 items-start">
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/brass-tap-macro.webp"].path}
+          alt={images["inline/brass-tap-macro.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:100%;object-fit:cover;display:block;"
+        />
+      </div>
+      <div class="card p-8">
         <h3 class="font-semibold text-lg mb-4">What we check that others skip</h3>
         <ul class="space-y-3 text-sm" style="color: var(--text-soft);">
           <li class="flex gap-2"><span style="color: var(--teal);">—</span> Water pressure and flow rate before any thermostatic or digital shower is specified</li>
@@ -148,7 +171,7 @@ const faqs = [
 
   <!-- Who this is for -->
   <section class="section" style="background: var(--bg-light);">
-    <div class="container grid md:grid-cols-2 gap-12">
+    <div class="container grid md:grid-cols-[1fr_1fr_220px] gap-8 items-start">
       <div class="fade-up">
         <h2 class="text-2xl font-bold mb-4">Who we fit for</h2>
         <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
@@ -172,6 +195,14 @@ const faqs = [
         <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
           What isn't included is the product itself. You remain responsible for ordering the correct items, for delivery timing, and for inspecting goods on arrival — full detail is in our <a href="/terms/" class="underline" style="color: var(--teal);">terms</a>.
         </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/porcelain-corner-detail.webp"].path}
+          alt={images["inline/porcelain-corner-detail.webp"].alt}
+          width="540" height="960" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
       </div>
     </div>
   </section>

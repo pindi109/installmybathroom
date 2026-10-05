@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import images from "../../data/image-manifest.json";
 
 const LAST_UPDATED = "2026-10-05";
 
@@ -107,7 +108,8 @@ const faqs = [
 
   <!-- How to get an accurate figure -->
   <section class="section-sm">
-    <div class="container max-w-3xl">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
       <h2 class="text-2xl font-bold mb-6 fade-up">How to get an accurate figure</h2>
       <ol class="space-y-4 fade-up">
         <li class="flex gap-4">
@@ -127,6 +129,15 @@ const faqs = [
           <div><strong>Order against the confirmed scope.</strong> <span style="color: var(--text-soft);">Buy exactly what was specified, including carrier frames and fixing kits, and inspect on delivery.</span></div>
         </li>
       </ol>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src={images["inline/survey-flatlay.webp"].path}
+          alt={images["inline/survey-flatlay.webp"].alt}
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
     </div>
   </section>
 
