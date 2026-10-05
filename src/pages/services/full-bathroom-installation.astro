@@ -1,0 +1,178 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Full Bathroom Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What does a full bathroom installation include?",
+    a: "Strip-out of the existing room, first-fix plumbing and electrics, tanking and waterproofing, tiling, and second fix of the sanitaryware, brassware and furniture you've supplied — finished with a full snagging walkthrough.",
+  },
+  {
+    q: "How long does a full bathroom installation take?",
+    a: "A straightforward full bathroom typically runs 2–3 weeks from strip-out to snagging. Wet rooms, layout changes that move waste positions, or natural stone finishes usually add several days.",
+  },
+  {
+    q: "Do I need to be in the house during the installation?",
+    a: "No, but we ask for a key holder or point of contact who can answer questions quickly, particularly on delivery days and at first-fix stage when exact positions are being confirmed.",
+  },
+  {
+    q: "Can you move the toilet, basin or shower to a different wall?",
+    a: "Yes. Moving waste positions is routine, but it needs confirming at survey stage so the fall to drain and any floor buildup can be planned before tanking starts.",
+  },
+  {
+    q: "What if my products haven't all arrived by the start date?",
+    a: "We sequence the installation around what's confirmed on site. Missing or incorrect items cause delays and, where they cause a return visit, that visit is chargeable — which is why we check deliveries against the specification before starting.",
+  },
+  {
+    q: "Is the work guaranteed?",
+    a: "Our workmanship guarantee covers the installation itself. Manufacturer defects in the products you've supplied sit with the manufacturer or retailer, as set out in our terms.",
+  },
+];
+---
+
+<Base
+  title="Full Bathroom Installation | Install My Bathroom"
+  description="Fit-only full bathroom installation across Bracknell and Berkshire. Strip-out, tanking, tiling and second fix of your own sanitaryware. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Full Bathroom Installation", href: "/services/full-bathroom-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Full Bathroom Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A full bathroom installation strips the room back to brick and joist and rebuilds it around the sanitaryware, brassware and tiles you've already bought — strip-out, first fix, tanking, tiling and second fix, typically 2–3 weeks, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Strip-out of the existing suite, tiling and flooring, with disposal</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix plumbing: supply and waste runs to the positions agreed at survey</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix electrics, coordinated with a registered engineer for any Part P work</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking and waterproofing of the shower area and any other wet zones</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor and wall tiling, set out from centre lines so joints line through</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second fix: WC, basin, bath or shower, taps, towel radiator and mirror</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Daily protection and clean-down, and a full snagging walkthrough on completion</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Measurements, water pressure and flow, substrate check, waste routes and electrical supply review. You leave with a written scope.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the products.</strong> <span style="color: var(--text-soft);">We confirm exact models, carrier frames and delivery dates against the scope before strip-out begins.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Strip-out and first fix.</strong> <span style="color: var(--text-soft);">Old suite removed, supply and waste runs adjusted, carrier frames and electrics installed.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tanking and tiling.</strong> <span style="color: var(--text-soft);">Wet areas waterproofed and cured before any tile is laid; set-out checked against centre lines.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix and snagging.</strong> <span style="color: var(--text-soft);">Sanitaryware and brassware fitted, sealed and tested; a full walkthrough before we call it finished.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Tanking follows current waterproofing guidance for wet areas (BS 5385), with full-height protection in shower enclosures and a minimum upstand elsewhere. Falls to drain are set before tiling, not adjusted afterwards. Large-format porcelain is checked for lippage as each row goes down, and tile joints are set out from centre lines so they line through from floor to wall rather than being forced to fit at the edges.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Any gas work, Part P-notifiable electrical work, or work on an unvented hot water cylinder is carried out by an appropriately registered engineer as part of the project — we coordinate this so you have one point of contact rather than managing separate trades.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Sanitaryware, brassware, tiles and furniture are bought by you — from a showroom, a manufacturer direct, or a retailer such as those on our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. At survey stage we confirm exact models, required carrier frames, and delivery timing. Inspect everything on arrival: delays or return visits caused by missing, damaged or incorrect items are chargeable, which is why catching a problem before we're on site matters.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Cost guide</a>
+        <a href="/guides/how-long-does-a-bathroom-installation-take/" class="btn-secondary">Timeline guide</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="full-bathroom-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

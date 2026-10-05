@@ -1,0 +1,135 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Do you cover all of Sunningdale, including the private roads near the golf courses?",
+    a: "Yes. Several properties near Sunningdale's golf courses sit on private or gated roads — let us know at enquiry stage so we can arrange site access in advance.",
+  },
+  {
+    q: "Do older Sunningdale properties need extra checks before a wet room or large-format tiling?",
+    a: "Often, yes. Period and older detached properties can have suspended timber floors rather than solid concrete, which affects deflection under large-format porcelain and needs checking before a wet room is tanked. We assess this at survey.",
+  },
+  {
+    q: "Is planning permission needed for a bathroom installation in Sunningdale?",
+    a: "A like-for-like internal bathroom refit doesn't normally need planning permission. If your property is listed, or sits within the local conservation area, any work affecting the external fabric — a new extraction vent through an original wall, for example — may need separate consent, which we'll flag if we spot it.",
+  },
+  {
+    q: "What water pressure do Sunningdale properties typically have?",
+    a: "It varies by property age and whether the home runs on mains pressure or an older gravity-fed system with a header tank. We measure pressure and flow at every survey before specifying a digital or thermostatic shower.",
+  },
+  {
+    q: "How far is Sunningdale from your base in Bracknell?",
+    a: "Around 15 minutes by road via the A30 — close enough that access and deliveries rarely add to the programme.",
+  },
+  {
+    q: "Can you work around a let property or a managing agent in Sunningdale?",
+    a: "Yes, we regularly coordinate installation dates and access with managing agents and letting arrangements, which are common in this area.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Sunningdale | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Sunningdale, Berkshire. Period and executive homes, private roads, from £3,500. 15 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Sunningdale", href: "/areas/sunningdale/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Sunningdale</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We install luxury, fit-only bathrooms across Sunningdale — a village of large period and executive homes straddling the Berkshire/Surrey border, around 15 minutes from our Bracknell base via the A30. You buy the sanitaryware, brassware and tiles; we handle strip-out through to the final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Sunningdale's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them — a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        What generous plot size doesn't solve on its own is plumbing age. Older detached houses in this part of Berkshire were frequently built with gravity-fed hot water systems and header tanks in the loft, sometimes upgraded to mains pressure at a later date and sometimes not. We measure actual pressure and flow at every survey rather than assuming mains pressure, because it directly affects which showers — particularly digital and thermostatic models — will perform as specified.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A number of the older properties also have suspended timber ground floors rather than a solid concrete slab, which matters for large-format porcelain and for wet room tanking: deflection under a suspended floor needs checking and, where necessary, battening out or boarding to a suitable standard before tiling starts. We flag this at survey rather than discovering it once a floor is opened up.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — does not normally require planning permission. Where it can matter is on listed properties, or for homes within a designated conservation area, if the work affects the external fabric of the building: a new extraction vent cut through an original wall, or a rooflight added for a loft en-suite, are the kinds of changes that can need separate consent. If your property might be affected, we'll say so plainly at survey rather than assume it's fine, and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Sunningdale</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in the neighbouring towns and villages, including Ascot, Virginia Water, Windsor and Camberley, as well as our Bracknell base and Binfield.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/virginia-water/" class="btn-secondary">Virginia Water</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="sunningdale-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Sunningdale</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

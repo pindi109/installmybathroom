@@ -1,0 +1,88 @@
+---
+export interface BreadcrumbItem {
+  label: string;
+  href: string;
+}
+
+export interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const allItems: BreadcrumbItem[] = items[0]?.href === "/" ? items : [{ label: "Home", href: "/" }, ...items];
+
+const siteUrl = "https://installmybathroom.co.uk";
+const schemaItems = allItems.map((item, idx) => ({
+  "@type": "ListItem",
+  position: idx + 1,
+  name: item.label,
+  item: item.href.startsWith("http") ? item.href : `${siteUrl}${item.href}`,
+}));
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: schemaItems,
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<nav aria-label="Breadcrumb" class="py-3">
+  <ol
+    class="flex flex-wrap items-center gap-1 text-sm"
+    style="color: var(--text-soft);"
+    itemscope
+    itemtype="https://schema.org/BreadcrumbList"
+  >
+    {allItems.map((item, idx) => {
+      const isLast = idx === allItems.length - 1;
+      return (
+        <li
+          class="flex items-center gap-1"
+          itemprop="itemListElement"
+          itemscope
+          itemtype="https://schema.org/ListItem"
+        >
+          {isLast ? (
+            <span
+              class="font-medium truncate max-w-[200px]"
+              style="color: var(--text);"
+              aria-current="page"
+              itemprop="name"
+            >
+              {item.label}
+            </span>
+          ) : (
+            <a
+              href={item.href}
+              class="hover:underline transition-colors truncate max-w-[160px]"
+              itemprop="item"
+            >
+              <span itemprop="name">{item.label}</span>
+            </a>
+          )}
+          <meta itemprop="position" content={String(idx + 1)} />
+
+          {!isLast && (
+            <svg
+              class="flex-shrink-0 opacity-40"
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+</nav>

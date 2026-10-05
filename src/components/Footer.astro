@@ -1,0 +1,154 @@
+---
+import { business } from "../config/business.ts";
+const year = new Date().getFullYear();
+---
+
+<footer style="background: #0F172A;" class="text-white">
+
+  <div class="container py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+
+      <!-- Col 1: Logo + strapline + NAP -->
+      <div class="lg:col-span-1">
+        <a href="/" class="inline-flex items-center gap-2 mb-4" aria-label="Install My Bathroom — home">
+          <span class="bg-white rounded-lg p-1 flex-shrink-0 flex items-center justify-center">
+            <img src="/brand/imb-logo.png" alt="Install My Bathroom" class="h-8 w-8 object-contain" width="32" height="32" />
+          </span>
+          <span class="text-white font-bold text-lg leading-tight">Install My Bathroom</span>
+        </a>
+
+        <p class="text-white/60 text-sm leading-relaxed mb-6">
+          Buy your bathroom anywhere.<br />
+          We'll install it to the standard it deserves.
+        </p>
+
+        <address class="not-italic text-sm text-white/70 space-y-2">
+          <div class="flex items-start gap-2">
+            <svg class="mt-0.5 flex-shrink-0" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>{business.locality}, {business.region}, {business.postcode}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="flex-shrink-0" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <a href={`tel:${business.phoneE164}`} class="hover:text-white transition-colors">{business.phone}</a>
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="flex-shrink-0" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href={`mailto:${business.email}`} class="hover:text-white transition-colors break-all">{business.email}</a>
+          </div>
+        </address>
+
+        {business.sameAs.length > 0 && (
+          <div class="flex items-center gap-3 mt-5">
+            {business.sameAs.map((href) => (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener"
+                aria-label="Install My Bathroom social profile"
+                class="w-9 h-9 rounded-full flex items-center justify-center border border-white/20 text-white/60 hover:text-white hover:border-white/50 transition-colors"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <!-- Col 2: Services -->
+      <div>
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Services</h3>
+        <ul class="space-y-2.5 text-sm text-white/70">
+          <li><a href="/services/full-bathroom-installation/" class="hover:text-white transition-colors">Full Bathroom Installation</a></li>
+          <li><a href="/services/wet-room-installation/" class="hover:text-white transition-colors">Wet Room Installation</a></li>
+          <li><a href="/services/shower-toilet-installation/" class="hover:text-white transition-colors">Shower Toilet Installation</a></li>
+          <li><a href="/services/underfloor-heating-installation/" class="hover:text-white transition-colors">Underfloor Heating</a></li>
+          <li><a href="/survey/" class="hover:text-white transition-colors">Survey — £{business.pricing.surveyGBP}</a></li>
+          <li>
+            <a href="/services/" class="font-semibold transition-colors" style="color: #14B8A6;">
+              All Services →
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Brands -->
+      <div>
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Brands We Install</h3>
+        <ul class="space-y-2.5 text-sm text-white/70 mb-6">
+          <li><a href="/brands/geberit/" class="hover:text-white transition-colors">Geberit</a></li>
+          <li><a href="/brands/villeroy-and-boch/" class="hover:text-white transition-colors">Villeroy &amp; Boch</a></li>
+          <li><a href="/brands/hansgrohe/" class="hover:text-white transition-colors">Hansgrohe</a></li>
+          <li>
+            <a href="/brands/" class="font-semibold transition-colors" style="color: #14B8A6;">
+              All Brands →
+            </a>
+          </li>
+        </ul>
+        <p class="text-xs text-white/40 leading-relaxed">
+          Install My Bathroom is an independent installer and is not affiliated with or endorsed by the brands mentioned.
+        </p>
+      </div>
+
+      <!-- Col 4: Areas + Helpful Links -->
+      <div>
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Areas Covered</h3>
+        <ul class="space-y-2.5 text-sm text-white/70 mb-6">
+          <li><a href="/areas/sunningdale/" class="hover:text-white transition-colors">Sunningdale</a></li>
+          <li><a href="/areas/gerrards-cross/" class="hover:text-white transition-colors">Gerrards Cross</a></li>
+          <li><a href="/areas/bracknell/" class="hover:text-white transition-colors">Bracknell</a></li>
+          <li>
+            <a href="/areas/" class="font-semibold transition-colors" style="color: #14B8A6;">
+              All Areas →
+            </a>
+          </li>
+        </ul>
+
+        <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Helpful Links</h3>
+        <ul class="space-y-2.5 text-sm text-white/70">
+          <li><a href="/guides/" class="hover:text-white transition-colors">Guides</a></li>
+          <li><a href="/pricing/" class="hover:text-white transition-colors">Pricing</a></li>
+          <li><a href="/how-it-works/" class="hover:text-white transition-colors">How It Works</a></li>
+          <li><a href="/faqs/" class="hover:text-white transition-colors">FAQs</a></li>
+          <li><a href="/about/facts/" class="hover:text-white transition-colors">About / Facts</a></li>
+          <li><a href="/contact/" class="hover:text-white transition-colors">Contact</a></li>
+        </ul>
+      </div>
+
+    </div><!-- /.grid -->
+
+    <p class="mt-10 pt-8 border-t border-white/10 text-xs text-white/40 leading-relaxed max-w-3xl">
+      {business.legalName}. Fit-only bathroom installation — clients purchase their own sanitaryware, brassware, tiles and furniture; we install.
+    </p>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="border-t border-white/10" style="background: rgba(0,0,0,0.25);">
+    <div class="container py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/50">
+      <div class="flex flex-wrap items-center justify-center sm:justify-start gap-x-4 gap-y-1">
+        <span>&copy; {year} Install My Bathroom. All rights reserved.</span>
+        <a href="/privacy/" class="hover:text-white transition-colors">Privacy</a>
+        <a href="/terms/" class="hover:text-white transition-colors">Terms</a>
+        <a href="/cookies/" class="hover:text-white transition-colors">Cookies</a>
+        <a href="/sitemap-index.xml" class="hover:text-white transition-colors">Sitemap</a>
+      </div>
+      <a
+        href="/survey/"
+        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full font-semibold text-white text-xs transition-all duration-200 hover:-translate-y-0.5 flex-shrink-0"
+        style="background: #D4A017;"
+      >
+        Book a Survey
+      </a>
+    </div>
+  </div>
+
+</footer>

@@ -1,0 +1,245 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import StickyMobileCTA from "../components/StickyMobileCTA.astro";
+import BusinessSchema from "../components/BusinessSchema.astro";
+import FAQ from "../components/FAQ.astro";
+import { business, entityOneLiner } from "../config/business.ts";
+import services from "../data/services.json";
+import areasData from "../data/areas.json";
+
+const faqs = [
+  {
+    q: "Do you supply the bathroom, or just fit it?",
+    a: "We're fit-only. You choose and buy the sanitaryware, brassware, tiles and furniture from the retailer or showroom you prefer, and we install it to a standard that matches what you've bought. This keeps you in control of the products and the budget, and means there's no markup on goods.",
+  },
+  {
+    q: "What does the £125 survey cover?",
+    a: "A qualified installer visits the property, takes exact measurements, checks water pressure and flow, inspects the substrate and structure, maps waste routes, and reviews the electrical supply if you're specifying a shower toilet or underfloor heating. You leave with a written installation scope, which is what we quote against.",
+  },
+  {
+    q: "How much does a bathroom installation cost?",
+    a: "Installation starts from £3,500 for a straightforward fit-only job and rises with the complexity of the layout, the number of services being moved, and the specification of the products supplied. The survey gives you an accurate, written figure rather than a ballpark.",
+  },
+  {
+    q: "What areas do you cover?",
+    a: "We install across Sunningdale, Gerrards Cross, Stoke Poges, Ascot, Windsor, Bracknell and Binfield, and into the surrounding Berkshire and Buckinghamshire towns. If you're nearby and unsure, call us and we'll tell you straight away.",
+  },
+  {
+    q: "Can you install the brand of toilet, bath or shower I've already bought?",
+    a: "In almost all cases, yes. We regularly install Geberit, Villeroy & Boch, Duravit, TOTO, hansgrohe, GROHE, Kaldewei and other major sanitaryware and brassware brands. If a product has an unusual fixing or carrier requirement, we'll flag it at survey stage, not on installation day.",
+  },
+  {
+    q: "Do you handle the gas, electrical and unvented hot water work?",
+    a: "Any gas work, Part P electrical work, or unvented hot water system work is carried out by appropriately registered engineers as part of the project. We manage that coordination so you deal with one point of contact.",
+  },
+  {
+    q: "What happens if something I've ordered arrives damaged or wrong?",
+    a: "Inspect everything on delivery, before the installation date if possible. Because we don't supply the goods, delays or return visits caused by missing, damaged or incorrect client-supplied items are chargeable — but catching it early, before we're on site, avoids that entirely.",
+  },
+  {
+    q: "Is there a minimum spec you'll work with?",
+    a: "No. We fit everything from a considered mid-market bathroom through to a full suite of stone, brass and wall-hung sanitaryware. What matters is that the products are specified correctly and arrive complete before we start.",
+  },
+];
+---
+
+<Base
+  title="Install My Bathroom | Luxury Fit-Only Bathroom Installation, Bracknell"
+  description="Specialist fit-only bathroom installation across Sunningdale, Gerrards Cross, Ascot, Windsor and Bracknell. Client-supplied sanitaryware, 30 years' experience, from £3,500."
+>
+  <Header slot="header" />
+  <BusinessSchema slot="schema" />
+
+  <section class="section-sm" style={`background: var(--hero-gradient);`}>
+    <div class="container">
+      <div class="max-w-3xl">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 fade-up">
+          Luxury bathrooms, installed to the standard they deserve
+        </h1>
+        <p class="text-white/85 text-lg leading-relaxed mb-8 fade-up">
+          {entityOneLiner}
+        </p>
+        <div class="flex flex-wrap gap-4 fade-up">
+          <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+          <a href="/pricing/" class="btn-white">See Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-3xl font-bold mb-4 fade-up">A fit-only model, built around the products you've already chosen</h2>
+      <p class="text-lg leading-relaxed mb-12 max-w-3xl fade-up" style="color: var(--text-soft);">
+        Most bathroom companies want to sell you the suite as well as fit it. We don't. You buy your sanitaryware, brassware, tiles and furniture from whichever showroom, retailer or manufacturer you trust — Sunningdale homeowners buying Villeroy &amp; Boch from a local showroom, a Gerrards Cross client ordering Kaldewei direct from Germany, a Bracknell renovation sourced through a mid-market retailer — and we handle everything from strip-out to the final silicone line.
+      </p>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="card p-6 fade-up">
+          <div class="text-sm font-semibold mb-2" style="color: var(--teal);">01</div>
+          <h3 class="font-semibold text-lg mb-2">Survey — £{business.pricing.surveyGBP}</h3>
+          <p class="text-sm" style="color: var(--text-soft);">Measurements, water pressure and flow, substrate and structure, waste routes, and an electrical supply check for shower toilets or underfloor heating.</p>
+        </div>
+        <div class="card p-6 fade-up">
+          <div class="text-sm font-semibold mb-2" style="color: var(--teal);">02</div>
+          <h3 class="font-semibold text-lg mb-2">Written scope</h3>
+          <p class="text-sm" style="color: var(--text-soft);">You leave the survey with a clear installation scope and a fixed quote, so there's no ambiguity about what's included.</p>
+        </div>
+        <div class="card p-6 fade-up">
+          <div class="text-sm font-semibold mb-2" style="color: var(--teal);">03</div>
+          <h3 class="font-semibold text-lg mb-2">You order the products</h3>
+          <p class="text-sm" style="color: var(--text-soft);">We tell you exactly what to buy, including carrier frames, waste positions and electrical supply requirements, and when it needs to be on site.</p>
+        </div>
+        <div class="card p-6 fade-up">
+          <div class="text-sm font-semibold mb-2" style="color: var(--teal);">04</div>
+          <h3 class="font-semibold text-lg mb-2">Installation</h3>
+          <p class="text-sm" style="color: var(--text-soft);">Strip-out, first fix, tanking, tiling, second fix and snagging — protected, punctual, and finished to tolerances that hold up under a raking light.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services grid -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <h2 class="text-3xl font-bold mb-8 fade-up">Services</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        {services.slice(0, 9).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-5 hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All {services.length} services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sensory / craft section -->
+  <section class="section">
+    <div class="container grid md:grid-cols-2 gap-12 items-center">
+      <div class="fade-up">
+        <h2 class="text-3xl font-bold mb-4">Precision you feel before you notice it</h2>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          A bathroom installed properly disappears into the background: falls to drain that clear standing water in seconds, tile joints that line through from floor to wall, mitred stone edges with no visible seam, concealed fixings that leave nothing to catch a towel on.
+        </p>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          We set out from centre lines before a single tile is cut, tank every wet area to current standards, and check lippage on large-format porcelain as we go rather than at the end. The result is the kind of quiet confidence that only shows up as an absence of problems — no hairline grout cracks six months in, no cistern that hums at 11pm, no shower door that drags on its hinge.
+        </p>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          Warm stone underfoot from underfloor heating set to the right output, the silence of a soft-close concealed cistern, a rainfall head positioned so the water falls exactly where you stand rather than where the pipe happened to come through the ceiling — these are decisions made at survey stage, not fixed on site.
+        </p>
+      </div>
+      <div class="card p-8" style="background: var(--bg-light);">
+        <h3 class="font-semibold text-lg mb-4">What we check that others skip</h3>
+        <ul class="space-y-3 text-sm" style="color: var(--text-soft);">
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Water pressure and flow rate before any thermostatic or digital shower is specified</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor and wall substrate for deflection before large-format porcelain goes down</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Waste routes and falls before a wet room or walk-in shower is tanked</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Electrical supply and zoning before a shower toilet or steam shower is ordered</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Carrier frame and wall construction before a wall-hung WC is hung</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who this is for -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container grid md:grid-cols-2 gap-12">
+      <div class="fade-up">
+        <h2 class="text-2xl font-bold mb-4">Who we fit for</h2>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          Most of our clients are owners of high-value homes in and around Sunningdale, Gerrards Cross, Ascot and Windsor spending £50,000–£100,000 or more on a bathroom, often as part of a wider renovation that includes a kitchen or extension running alongside it. They've already chosen the sanitaryware, the stone and the brassware, sometimes from a local showroom and sometimes imported direct from a manufacturer, and what they need is an installer who treats the specification with the same care they took choosing it.
+        </p>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          A second tier of clients across Bracknell and Binfield start from £3,500 using mid-market suppliers for a full bathroom replacement — new sanitaryware, a walk-in shower, retiling and updated electrics — without the stone and brass specification of the higher tier. The fitting standard doesn't change between the two; the products being fitted do.
+        </p>
+      </div>
+      <div class="fade-up">
+        <h2 class="text-2xl font-bold mb-4">What's included in every installation</h2>
+        <ul class="space-y-3 text-sm" style="color: var(--text-soft);">
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Strip-out and disposal of the existing bathroom</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix plumbing and electrics, coordinated with registered engineers for gas, Part P and unvented hot water work</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking and waterproofing to current standards in every wet area</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tiling set out from centre lines, with joints lined through floor to wall</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second fix of sanitaryware, brassware and furniture supplied by you</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Protection of floors, stairwells and access routes throughout</li>
+          <li class="flex gap-2"><span style="color: var(--teal);">—</span> Daily site clean-down and a full snagging walkthrough on completion</li>
+        </ul>
+        <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+          What isn't included is the product itself. You remain responsible for ordering the correct items, for delivery timing, and for inspecting goods on arrival — full detail is in our <a href="/terms/" class="underline" style="color: var(--teal);">terms</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- From-price -->
+  <section class="section-sm" style="background: var(--navy);">
+    <div class="container text-center">
+      <p class="text-white/70 uppercase tracking-wider text-sm font-semibold mb-2 fade-up">Pricing</p>
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 fade-up">Installation from £{business.pricing.fromGBP.toLocaleString()}</h2>
+      <p class="text-white/70 max-w-2xl mx-auto mb-8 fade-up">
+        Final cost depends on layout, how many services are being moved, and the specification of what you've bought. The £{business.pricing.surveyGBP} survey gives you a fixed, written figure before anything is ordered.
+      </p>
+      <a href="/pricing/" class="btn-white fade-up">See how pricing works</a>
+    </div>
+  </section>
+
+  <!-- Areas grid -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-3xl font-bold mb-8 fade-up">Areas we cover</h2>
+      <div class="grid md:grid-cols-4 gap-4">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{a.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/areas/" class="font-semibold" style="color: var(--teal);">All areas we cover →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands strip -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container text-center">
+      <p class="uppercase tracking-wider text-sm font-semibold mb-6 fade-up" style="color: var(--text-soft);">Brands we install</p>
+      <div class="flex flex-wrap justify-center gap-x-8 gap-y-3 text-lg font-semibold fade-up" style="color: var(--charcoal);">
+        <span>Geberit</span><span>Villeroy &amp; Boch</span><span>hansgrohe</span><span>GROHE</span><span>Kaldewei</span><span>TOTO</span><span>Duravit</span><span>AXOR</span>
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/brands/" class="font-semibold" style="color: var(--teal);">All brands →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-3xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="homepage-faq" />
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section-sm" style={`background: var(--hero-gradient);`}>
+    <div class="container text-center">
+      <h2 class="text-3xl font-bold text-white mb-4 fade-up">Ready to start?</h2>
+      <p class="text-white/80 max-w-xl mx-auto mb-8 fade-up">
+        Book the £{business.pricing.surveyGBP} survey and leave with a written installation scope and a fixed quote.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-white">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

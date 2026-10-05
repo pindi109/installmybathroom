@@ -1,0 +1,24 @@
+{
+  "tier1": [
+    { "slug": "sunningdale", "name": "Sunningdale" },
+    { "slug": "gerrards-cross", "name": "Gerrards Cross" },
+    { "slug": "stoke-poges", "name": "Stoke Poges" },
+    { "slug": "ascot", "name": "Ascot" },
+    { "slug": "windsor", "name": "Windsor" },
+    { "slug": "bracknell", "name": "Bracknell" },
+    { "slug": "binfield", "name": "Binfield" }
+  ],
+  "tier2": [
+    { "slug": "winkfield", "name": "Winkfield" },
+    { "slug": "crowthorne", "name": "Crowthorne" },
+    { "slug": "sandhurst", "name": "Sandhurst" },
+    { "slug": "warfield", "name": "Warfield" },
+    { "slug": "camberley", "name": "Camberley" },
+    { "slug": "virginia-water", "name": "Virginia Water" },
+    { "slug": "eton", "name": "Eton" },
+    { "slug": "twyford", "name": "Twyford" },
+    { "slug": "maidenhead", "name": "Maidenhead" },
+    { "slug": "wokingham", "name": "Wokingham" },
+    { "slug": "reading", "name": "Reading" }
+  ]
+}

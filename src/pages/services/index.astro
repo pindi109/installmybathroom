@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import services from "../../data/services.json";
+---
+
+<Base
+  title="Bathroom Installation Services | Install My Bathroom"
+  description="24 specialist fit-only bathroom installation services across Bracknell and Berkshire, from full bathroom installs to tanking and waterproofing."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Services</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Fit-only installation across every stage of a bathroom project — from a full re-fit to a single specialist element like underfloor heating or tanking.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <div class="grid md:grid-cols-3 gap-4">
+        {services.map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-5 hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{s.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

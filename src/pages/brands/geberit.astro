@@ -1,0 +1,123 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Do you install Geberit AquaClean shower toilets?",
+    a: "Yes. AquaClean models need a dedicated electrical supply run to the cistern position and sufficient clearance behind the pan for the unit — both are confirmed at survey, before you order.",
+  },
+  {
+    q: "What frame does a Geberit wall-hung WC need?",
+    a: "A Geberit Duofix or Sigma carrier frame, fixed to the structural wall or floor, not simply screwed to plasterboard. The frame choice depends on wall construction, which we check at survey.",
+  },
+  {
+    q: "Which Geberit flush plate works with my frame?",
+    a: "Sigma and Omega flush plates are matched to specific frame generations. Tell us the frame model if you already own one; otherwise we'll confirm the compatible plate when we order the frame.",
+  },
+  {
+    q: "Can Geberit concealed cisterns be serviced after tiling?",
+    a: "Yes, through the flush plate access panel. We position the frame so the service valves remain reachable without removing tiles, which matters most on a stone or large-format finish.",
+  },
+  {
+    q: "Does water pressure affect Geberit shower or flush performance?",
+    a: "Flush performance is largely cistern-fed and unaffected by mains pressure, but any Geberit shower toilet function and digital shower pairing does depend on adequate flow, which we measure at survey.",
+  },
+];
+---
+
+<Base
+  title="Geberit Installation | Install My Bathroom"
+  description="Specialist installation of Geberit concealed cisterns, wall-hung WCs and AquaClean shower toilets across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Geberit", href: "/brands/geberit/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Geberit Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the most common sanitaryware brand we fit. Correct frame selection and structural fixing matter more with Geberit than with most brands, because the cistern and pan weight sit entirely on the carrier frame, not the wall tiles.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.geberit.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Geberit →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Duofix and Sigma concealed cistern carrier frames, Sigma and Omega flush plates, wall-hung WC pans, and the AquaClean range of shower toilets (including Mera and Sela). We also fit Geberit's in-wall shower drainage and waste systems where a wet room or walk-in shower is being tanked.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Most of our Geberit installations are specified by the client through a bathroom showroom or direct from Geberit's own retail partners; we fit what you've ordered rather than supplying it ourselves.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Carrier frame fixing:</strong> Duofix and Sigma frames need a structural wall or floor fixing, not a stud wall alone — confirmed at survey against your wall construction.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply:</strong> AquaClean shower toilets need a dedicated, correctly zoned electrical supply run to the cistern position before tiling closes the wall.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> standard flush performance is cistern-fed, but AquaClean's wash function needs adequate mains flow, checked at survey.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste position:</strong> wall-hung pans need the waste set at the correct height within the frame before boarding, not adjusted afterwards.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Access panel:</strong> the flush plate position is planned so cistern service valves stay reachable after tiling.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Confirm the frame model matches the flush plate you've ordered — Sigma plates don't fit older Kappa-generation frames, for example. Check the pan is the correct projection for your frame (short or standard), and that AquaClean units include the full fitting kit and remote. Inspect the cistern and pan for shipping damage before we start; once walls are tiled and the frame is boarded in, a mismatched or damaged part means opening the wall back up, which is a chargeable return visit under client-supplied goods.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The most frequent Geberit problem we're called to fix on other people's work is a carrier frame fixed to plasterboard or a stud wall without adequate bracing — the pan loosens within months under normal use. The second is a flush plate access panel boxed in behind full-height tiling with no route to the service valves, meaning a leak or a failed flush valve means removing tiles to reach it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both are planning problems, not product problems — Geberit's own engineering tolerances are tight when the frame is fixed and positioned correctly. That's why frame fixing and access-panel position are confirmed at survey stage, before the wall is closed up, rather than decided on the day the tiler arrives.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="geberit-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

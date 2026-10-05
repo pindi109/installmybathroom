@@ -1,0 +1,37 @@
+<!--
+  Static form-twin for Netlify's build-time form-detection bot. Netlify only scans
+  rendered static HTML to register Forms schemas, so any form submitted dynamically
+  (the enquiry form on /contact/, the survey form on /survey/, or a lead captured by
+  the Amy chat function) needs an identical field set registered here. This page is
+  never linked and is not meant to be visited.
+-->
+<!doctype html>
+<html lang="en-GB">
+  <head><meta charset="UTF-8" /><title>Form registration</title></head>
+  <body>
+    <form name="enquiry" data-netlify="true" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="postcode" />
+      <input type="text" name="propertyType" />
+      <input type="text" name="rooms" />
+      <input type="text" name="productsPurchased" />
+      <input type="text" name="brands" />
+      <input type="text" name="targetStart" />
+      <input type="text" name="budgetBand" />
+      <textarea name="message"></textarea>
+      <input type="text" name="source" />
+      <input type="text" name="bot-field" />
+    </form>
+    <form name="survey" data-netlify="true" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="postcode" />
+      <input type="text" name="preferredDate" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>

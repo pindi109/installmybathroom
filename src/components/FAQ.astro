@@ -1,0 +1,116 @@
+---
+export interface FAQItem {
+  q: string;
+  a: string;
+}
+
+export interface Props {
+  items: FAQItem[];
+  schemaId?: string;
+}
+
+const { items, schemaId = "faq-schema" } = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": schemaId,
+  mainEntity: items.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.a,
+    },
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<div class="space-y-3" role="list" aria-label="Frequently asked questions">
+  {items.map((item, idx) => {
+    const id = `faq-answer-${idx}`;
+    const btnId = `faq-btn-${idx}`;
+    return (
+      <div
+        class="card border border-gray-100 overflow-hidden"
+        role="listitem"
+      >
+        <button
+          id={btnId}
+          type="button"
+          aria-expanded="false"
+          aria-controls={id}
+          class="w-full flex items-start justify-between gap-4 px-6 py-5 text-left transition-colors duration-200 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-1"
+          data-faq-btn
+        >
+          <span class="font-semibold text-base leading-snug pr-2" style="color: var(--text);">
+            {item.q}
+          </span>
+          <span
+            class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center transition-all duration-300 mt-0.5"
+            style="background: var(--teal); color: white;"
+            aria-hidden="true"
+            data-faq-icon
+          >
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-300" data-faq-chevron>
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </span>
+        </button>
+
+        <div
+          id={id}
+          role="region"
+          aria-labelledby={btnId}
+          data-faq-panel
+          class="overflow-hidden transition-all duration-300 ease-in-out"
+          style="max-height: 0;"
+        >
+          <div class="px-6 pb-5 pt-0">
+            <div class="border-t border-gray-100 mb-4"></div>
+            <p class="text-sm leading-relaxed" style="color: var(--text-soft);" set:html={item.a} />
+          </div>
+        </div>
+      </div>
+    );
+  })}
+</div>
+
+<script>
+  (function () {
+    const allBtns = document.querySelectorAll<HTMLButtonElement>("[data-faq-btn]");
+
+    allBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const isOpen = btn.getAttribute("aria-expanded") === "true";
+        const panelId = btn.getAttribute("aria-controls");
+        const panel = panelId ? document.getElementById(panelId) : null;
+        const chevron = btn.querySelector<SVGElement>("[data-faq-chevron]");
+
+        allBtns.forEach((otherBtn) => {
+          if (otherBtn === btn) return;
+          otherBtn.setAttribute("aria-expanded", "false");
+          const otherId = otherBtn.getAttribute("aria-controls");
+          const otherPanel = otherId ? document.getElementById(otherId) : null;
+          if (otherPanel) otherPanel.style.maxHeight = "0";
+          const otherChevron = otherBtn.querySelector<SVGElement>("[data-faq-chevron]");
+          if (otherChevron) otherChevron.style.transform = "";
+        });
+
+        if (isOpen) {
+          btn.setAttribute("aria-expanded", "false");
+          if (panel) panel.style.maxHeight = "0";
+          if (chevron) chevron.style.transform = "";
+        } else {
+          btn.setAttribute("aria-expanded", "true");
+          if (panel) {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+          if (chevron) chevron.style.transform = "rotate(180deg)";
+        }
+      });
+    });
+  })();
+</script>

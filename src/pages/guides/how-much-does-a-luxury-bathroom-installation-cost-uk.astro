@@ -1,0 +1,161 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Much Does a Luxury Bathroom Installation Cost in the UK?",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Does the £3,500 starting price include the bathroom suite?",
+    a: "No. That figure covers fit-only installation labour for a straightforward layout. Sanitaryware, brassware, tiles and furniture are bought separately by you.",
+  },
+  {
+    q: "Why does moving the toilet or shower position cost more?",
+    a: "Moving waste positions means altering supply and drainage runs, sometimes lifting a floor to adjust falls to drain — more first-fix labour than reconnecting fittings in their existing positions.",
+  },
+  {
+    q: "Is natural stone more expensive to install than porcelain?",
+    a: "Yes, generally. Stone needs more careful handling, sealing, and often slower cutting and polishing of edges and mitres, which adds labour time compared with large-format porcelain.",
+  },
+  {
+    q: "Does a wet room cost more than a standard shower enclosure?",
+    a: "Usually, because a wet room needs full tanking across the whole floor and often a modified floor structure to achieve a fall to a level-access drain, rather than tanking confined to an enclosure.",
+  },
+  {
+    q: "How accurate is a quote before the survey?",
+    a: "Treat it as a ballpark only. Our £125 survey measures the actual space, checks services and substrate, and produces a written, fixed quote against a defined scope — that's the number to budget against.",
+  },
+];
+---
+
+<Base
+  title="Luxury Bathroom Installation Cost UK | Install My Bathroom"
+  description="What a fit-only luxury bathroom installation costs in the UK, what drives the price up, and how to get an accurate figure before you order anything."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Installation Cost", href: "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">How Much Does a Luxury Bathroom Installation Cost in the UK?</h1>
+
+      <!-- Direct answer box -->
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only installation of a client-supplied bathroom starts from £3,500 for a straightforward layout, rising to £10,000–£20,000+ for a full luxury re-fit with moved services, natural stone and underfloor heating. The suite, tiles and brassware are priced and bought separately. A £125 survey gives you an exact, written figure.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What drives the price -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What drives installation cost</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Moving waste positions</td>
+              <td class="py-3" style="color: var(--text-soft);">Supply and drainage runs altered, sometimes floor levels adjusted for falls to drain.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Wet room vs. enclosure</td>
+              <td class="py-3" style="color: var(--text-soft);">Full-floor tanking and a level-access drain take longer than tanking confined to an enclosure.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Natural stone vs. porcelain</td>
+              <td class="py-3" style="color: var(--text-soft);">Stone needs careful handling, sealing and slower mitred edges compared with large-format porcelain.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Underfloor heating</td>
+              <td class="py-3" style="color: var(--text-soft);">Extra first-fix work and a floor build-up allowance, plus electrical or wet-system commissioning.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Shower toilets / digital showers</td>
+              <td class="py-3" style="color: var(--text-soft);">Dedicated electrical supply and, for digital showers, a manifold and control unit to install and commission.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Access and protection</td>
+              <td class="py-3" style="color: var(--text-soft);">Narrow stairwells, listed interiors or shared access can add time for protection and careful handling of stone and glass.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to get an accurate figure -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How to get an accurate figure</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Book the £{business.pricing.surveyGBP} survey.</strong> <span style="color: var(--text-soft);">We measure the room, check water pressure and flow, inspect the substrate, and review the electrical supply.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Confirm your specification.</strong> <span style="color: var(--text-soft);">Have the sanitaryware, brassware and tile selection settled, or close to it — the quote is scoped against what's actually being fitted.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Receive a written scope and fixed quote.</strong> <span style="color: var(--text-soft);">This is the number to budget against, not the initial ballpark.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Order against the confirmed scope.</strong> <span style="color: var(--text-soft);">Buy exactly what was specified, including carrier frames and fixing kits, and inspect on delivery.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tanking and tiling practice referenced in this guide follows BS 5385 (wall and floor tiling). Electrical work referenced follows Building Regulations Part P; ventilation follows Part F; structural considerations follow Part A. Brand-specific fixing requirements follow manufacturer installation guidance current at the time of writing.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="cost-guide-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

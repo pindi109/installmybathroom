@@ -1,0 +1,43 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import brands from "../../data/brands.json";
+---
+
+<Base
+  title="Brands We Install | Install My Bathroom"
+  description="Geberit, Villeroy & Boch, hansgrohe, GROHE, Kaldewei, TOTO and more — bathroom brands we install across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Brands We Install</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit what you've bought. Here's what we have the most hands-on experience installing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <div class="grid md:grid-cols-3 gap-4">
+        {brands.map((b: { slug: string; name: string }) => (
+          <a href={`/brands/${b.slug}/`} class="card p-5 hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{b.name}</span>
+          </a>
+        ))}
+      </div>
+      <p class="mt-8 text-xs fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent installer and is not affiliated with or endorsed by the brands listed.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

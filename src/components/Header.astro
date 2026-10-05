@@ -1,0 +1,264 @@
+---
+import { business } from "../config/business.ts";
+---
+
+<header
+  id="site-header"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+  style="background: #0F172A;"
+>
+  <!-- Top bar: phone number -->
+  <div class="hidden md:flex justify-end items-center px-6 py-1 text-xs border-b border-white/10">
+    <a
+      href={`tel:${business.phoneE164}`}
+      class="text-white/60 hover:text-white transition-colors duration-200 flex items-center gap-1.5"
+    >
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+      {business.phone}
+    </a>
+  </div>
+
+  <!-- Main nav bar -->
+  <div class="container flex items-center justify-between h-16">
+
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2 flex-shrink-0" aria-label="Install My Bathroom — home">
+      <span class="bg-white rounded-lg p-1 flex-shrink-0 flex items-center justify-center">
+        <img src="/brand/imb-logo.png" alt="Install My Bathroom logo" class="h-8 w-8 object-contain" width="32" height="32" />
+      </span>
+      <span class="text-white font-bold text-base leading-tight">
+        Install My<br class="hidden sm:block" />
+        <span class="sm:hidden"> </span>Bathroom
+      </span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden lg:flex items-center gap-1 text-sm font-medium" aria-label="Main navigation">
+
+      <a href="/" class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200">Home</a>
+
+      <!-- Services dropdown -->
+      <div class="relative group">
+        <button
+          class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200 flex items-center gap-1"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Services
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200 group-hover:rotate-180" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div
+          class="absolute left-0 top-full mt-1 w-72 rounded-xl shadow-xl border border-white/10 py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+          style="background: #0F172A;"
+          role="menu"
+        >
+          <a href="/services/full-bathroom-installation/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Full Bathroom Installation</a>
+          <a href="/services/wet-room-installation/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Wet Room Installation</a>
+          <a href="/services/shower-toilet-installation/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Shower Toilet Installation</a>
+          <a href="/services/underfloor-heating-installation/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Underfloor Heating</a>
+          <div class="border-t border-white/10 mt-1 pt-1">
+            <a href="/services/" class="block px-4 py-2 font-semibold hover:bg-white/10 transition-colors text-sm" style="color: #14B8A6;" role="menuitem">All Services →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brands dropdown -->
+      <div class="relative group">
+        <button
+          class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200 flex items-center gap-1"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Brands
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200 group-hover:rotate-180" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div
+          class="absolute left-0 top-full mt-1 w-56 rounded-xl shadow-xl border border-white/10 py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+          style="background: #0F172A;"
+          role="menu"
+        >
+          <a href="/brands/geberit/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Geberit</a>
+          <a href="/brands/villeroy-and-boch/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Villeroy &amp; Boch</a>
+          <a href="/brands/hansgrohe/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors text-sm" role="menuitem">Hansgrohe</a>
+          <div class="border-t border-white/10 mt-1 pt-1">
+            <a href="/brands/" class="block px-4 py-2 font-semibold hover:bg-white/10 transition-colors text-sm" style="color: #14B8A6;" role="menuitem">All Brands →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Areas dropdown -->
+      <div class="relative group">
+        <button
+          class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200 flex items-center gap-1"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Areas
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="transition-transform duration-200 group-hover:rotate-180" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </button>
+        <div
+          class="absolute left-0 top-full mt-1 w-52 rounded-xl shadow-xl border border-white/10 py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
+          style="background: #0F172A;"
+          role="menu"
+        >
+          <a href="/areas/sunningdale/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">Sunningdale</a>
+          <a href="/areas/gerrards-cross/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">Gerrards Cross</a>
+          <a href="/areas/bracknell/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">Bracknell</a>
+          <div class="border-t border-white/10 mt-1 pt-1">
+            <a href="/areas/" class="block px-4 py-2 font-semibold hover:bg-white/10 transition-colors" style="color: #14B8A6;" role="menuitem">All Areas →</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="/guides/" class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200">Guides</a>
+      <a href="/pricing/" class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200">Pricing</a>
+      <a href="/about/" class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200">About</a>
+      <a href="/contact/" class="text-white/80 hover:text-white px-3 py-2 rounded transition-colors duration-200">Contact</a>
+    </nav>
+
+    <!-- Desktop CTA -->
+    <a
+      href="/survey/"
+      class="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold text-sm text-white transition-all duration-200 hover:-translate-y-0.5 flex-shrink-0"
+      style="background: #D4A017;"
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+        <line x1="16" y1="2" x2="16" y2="6"/>
+        <line x1="8" y1="2" x2="8" y2="6"/>
+        <line x1="3" y1="10" x2="21" y2="10"/>
+      </svg>
+      Book a Survey — £{business.pricing.surveyGBP}
+    </a>
+
+    <!-- Mobile hamburger -->
+    <button
+      id="mobile-menu-btn"
+      class="lg:hidden text-white p-2 rounded-md"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg id="hamburger-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+      <svg id="close-icon" class="hidden" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+  </div><!-- /.container -->
+
+  <!-- Mobile full-screen overlay menu -->
+  <div
+    id="mobile-menu"
+    class="lg:hidden fixed inset-0 z-40 flex flex-col overflow-y-auto hidden"
+    style="background: #0F172A; top: 0; padding-top: 5rem;"
+    aria-hidden="true"
+  >
+    <nav class="container py-6 flex flex-col gap-1 text-lg font-medium" aria-label="Mobile navigation">
+      <a href="/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Home</a>
+      <a href="/services/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Services</a>
+      <a href="/brands/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Brands</a>
+      <a href="/areas/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Areas</a>
+      <a href="/guides/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Guides</a>
+      <a href="/pricing/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Pricing</a>
+      <a href="/about/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">About</a>
+      <a href="/contact/" class="text-white/80 hover:text-white py-3 border-b border-white/10 transition-colors">Contact</a>
+
+      <!-- Mobile: phone + CTA -->
+      <div class="pt-6 flex flex-col gap-3">
+        <a
+          href={`tel:${business.phoneE164}`}
+          class="flex items-center justify-center gap-2 py-3 rounded-full border border-white/30 text-white font-semibold"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          {business.phone}
+        </a>
+        <a
+          href="/survey/"
+          class="flex items-center justify-center gap-2 py-3 rounded-full font-semibold text-white"
+          style="background: #D4A017;"
+        >
+          Book a Survey — £{business.pricing.surveyGBP}
+        </a>
+      </div>
+    </nav>
+  </div><!-- /#mobile-menu -->
+</header>
+
+<!-- Spacer so content doesn't sit under fixed header -->
+<div class="h-16 md:h-[calc(4rem+28px)]" aria-hidden="true"></div>
+
+<script>
+  (function () {
+    const header = document.getElementById("site-header");
+    const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const hamburgerIcon = document.getElementById("hamburger-icon");
+    const closeIcon = document.getElementById("close-icon");
+
+    window.addEventListener("scroll", () => {
+      if (!header) return;
+      if (window.scrollY > 10) {
+        header.style.boxShadow = "0 4px 24px rgba(0,0,0,0.4)";
+        header.style.backdropFilter = "blur(8px)";
+      } else {
+        header.style.boxShadow = "";
+        header.style.backdropFilter = "";
+      }
+    }, { passive: true });
+
+    function toggleMobileMenu(open: boolean) {
+      if (!mobileMenu || !mobileMenuBtn || !hamburgerIcon || !closeIcon) return;
+      if (open) {
+        mobileMenu.classList.remove("hidden");
+        mobileMenu.setAttribute("aria-hidden", "false");
+        mobileMenuBtn.setAttribute("aria-expanded", "true");
+        hamburgerIcon.classList.add("hidden");
+        closeIcon.classList.remove("hidden");
+        document.body.style.overflow = "hidden";
+      } else {
+        mobileMenu.classList.add("hidden");
+        mobileMenu.setAttribute("aria-hidden", "true");
+        mobileMenuBtn.setAttribute("aria-expanded", "false");
+        hamburgerIcon.classList.remove("hidden");
+        closeIcon.classList.add("hidden");
+        document.body.style.overflow = "";
+      }
+    }
+
+    mobileMenuBtn?.addEventListener("click", () => {
+      const isOpen = mobileMenuBtn.getAttribute("aria-expanded") === "true";
+      toggleMobileMenu(!isOpen);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (
+        mobileMenu &&
+        !mobileMenu.classList.contains("hidden") &&
+        !mobileMenu.contains(e.target as Node) &&
+        !mobileMenuBtn?.contains(e.target as Node)
+      ) {
+        toggleMobileMenu(false);
+      }
+    });
+
+    mobileMenu?.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => toggleMobileMenu(false));
+    });
+  })();
+</script>

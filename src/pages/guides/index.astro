@@ -1,0 +1,37 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+---
+
+<Base
+  title="Guides | Install My Bathroom"
+  description="Plain-English answers to the real questions buyers ask before a luxury bathroom installation — cost, timelines, tanking, tiling and more."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Guides</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Straight answers to the questions we're asked most before a bathroom installation.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <div class="grid md:grid-cols-2 gap-4">
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="card p-5 hover:-translate-y-1 transition-transform fade-up">
+          <span class="font-semibold">How Much Does a Luxury Bathroom Installation Cost in the UK?</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

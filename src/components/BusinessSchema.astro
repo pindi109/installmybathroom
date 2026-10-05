@@ -1,0 +1,37 @@
+---
+// Site-wide HomeAndConstructionBusiness identity. @id matches the full node on the
+// homepage so Google merges them into one entity rather than seeing two businesses.
+// No streetAddress anywhere — locality/region/postcode only (brief §0.2).
+import { business, entityOneLiner } from "../config/business.ts";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "@id": `${business.url}/#business`,
+  "name": business.name,
+  "url": business.url,
+  "telephone": business.phoneE164,
+  "email": business.email,
+  "description": entityOneLiner,
+  "priceRange": "££££",
+  "image": `${business.url}/brand/imb-logo.png`,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": business.locality,
+    "addressRegion": business.region,
+    "postalCode": business.postcode,
+    "addressCountry": business.country
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Sunningdale" },
+    { "@type": "Place", "name": "Gerrards Cross" },
+    { "@type": "Place", "name": "Stoke Poges" },
+    { "@type": "Place", "name": "Ascot" },
+    { "@type": "Place", "name": "Windsor" },
+    { "@type": "Place", "name": "Bracknell" },
+    { "@type": "Place", "name": "Binfield" }
+  ],
+  "sameAs": business.sameAs
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

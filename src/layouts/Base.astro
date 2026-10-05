@@ -1,0 +1,270 @@
+---
+import "../styles/global.css";
+import heroManifest from "../../public/hero-manifest.json";
+import altTagsData from "../data/alt-tags.json";
+import WhatsAppButton from "../components/WhatsAppButton.astro";
+
+export interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
+  noHero?: boolean; // pass true on pages with their own custom hero section
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogTitle,
+  ogDescription,
+  ogImage,
+  noHero = false,
+} = Astro.props;
+
+const resolvedCanonical = canonical ?? Astro.url.href;
+const resolvedOgTitle = ogTitle ?? title;
+const resolvedOgDescription = ogDescription ?? description;
+
+// Derive slug from URL (strip leading + trailing slashes)
+const pathSlug = Astro.url.pathname.replace(/^\//, "").replace(/\/$/, "");
+const heroSrc: string | undefined = (heroManifest as Record<string, string>)[pathSlug];
+const hasRealHero = Boolean(heroSrc);
+const heroAlt: string =
+  (altTagsData as Record<string, string>)[pathSlug] ??
+  "Luxury bathroom installation — Install My Bathroom";
+
+// og:image priority: explicit prop > page hero (absolute) > logo
+const SITE = "https://installmybathroom.co.uk";
+const resolvedOgImage =
+  ogImage ??
+  (hasRealHero ? `${SITE}${heroSrc}` : `${SITE}/brand/imb-logo.png`);
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- ANALYTICS SLOT: GA4 + Consent Mode v2 added post-launch, not in this build -->
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={resolvedCanonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={resolvedCanonical} />
+    <meta property="og:title" content={resolvedOgTitle} />
+    <meta property="og:description" content={resolvedOgDescription} />
+    <meta property="og:image" content={resolvedOgImage} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Install My Bathroom" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={resolvedOgTitle} />
+    <meta name="twitter:description" content={resolvedOgDescription} />
+    <meta name="twitter:image" content={resolvedOgImage} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/favicon-180.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Amy chat widget styles -->
+    <link rel="stylesheet" href="/css/chat-widget.css" />
+
+    <!-- Global styles are injected by Astro via the frontmatter import below.
+         DECISION: Imported in frontmatter (not <link>) so Astro/Vite bundles and
+         fingerprints the CSS at build time. The <style> tag approach would scope it. -->
+
+    <!-- Schema slot (FAQPage, BreadcrumbList, LocalBusiness, etc.) -->
+    <slot name="schema" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <slot name="header" />
+
+    <!-- Page hero image (manifest-driven, skipped on pages with custom heroes) -->
+    {!noHero && hasRealHero && (
+      <div style="width:100%;height:clamp(240px,38vw,520px);overflow:hidden;line-height:0;">
+        <img
+          src={heroSrc}
+          alt={heroAlt}
+          width="1834"
+          height="1024"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+          style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"
+        />
+      </div>
+    )}
+
+    <!-- Main content -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <slot name="footer" />
+
+    <!-- Sticky mobile CTA (Call / Book Survey / Enquire) — page opt-in -->
+    <slot name="sticky-cta" />
+
+    <!-- WhatsApp floating button — visible on all pages -->
+    <WhatsAppButton />
+
+    <!-- Amy chat widget — visible on all pages -->
+    <script src="/js/chat-widget.js" defer></script>
+
+    <!-- Gold glow cursor + stardust trail -->
+    <canvas id="fx-canvas" aria-hidden="true" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;"></canvas>
+    <script>
+      (function () {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        const canvas = document.getElementById('fx-canvas');
+        const ctx = canvas.getContext('2d');
+
+        let W = canvas.width  = window.innerWidth;
+        let H = canvas.height = window.innerHeight;
+        window.addEventListener('resize', () => {
+          W = canvas.width  = window.innerWidth;
+          H = canvas.height = window.innerHeight;
+        });
+
+        let mx = -300, my = -300, active = false;
+        const particles = [];
+
+        // Gold palette
+        const golds = ['#D4A017','#F0C040','#FFD700','#E8B84B','#FFC857','#FFAA00'];
+
+        function spawn(x, y, count) {
+          for (let i = 0; i < count; i++) {
+            const angle = Math.random() * Math.PI * 2;
+            const speed = 0.4 + Math.random() * 1.8;
+            particles.push({
+              x, y,
+              vx: Math.cos(angle) * speed,
+              vy: Math.sin(angle) * speed - 0.6,
+              life: 1,
+              decay: 0.018 + Math.random() * 0.025,
+              size: 1.5 + Math.random() * 3,
+              color: golds[Math.floor(Math.random() * golds.length)],
+            });
+          }
+        }
+
+        let frame = 0;
+        function draw() {
+          requestAnimationFrame(draw);
+          ctx.clearRect(0, 0, W, H);
+
+          // Glow orb at cursor
+          if (active) {
+            const g = ctx.createRadialGradient(mx, my, 0, mx, my, 28);
+            g.addColorStop(0,   'rgba(255,215,0,0.55)');
+            g.addColorStop(0.4, 'rgba(212,160,23,0.25)');
+            g.addColorStop(1,   'rgba(212,160,23,0)');
+            ctx.beginPath();
+            ctx.arc(mx, my, 28, 0, Math.PI * 2);
+            ctx.fillStyle = g;
+            ctx.fill();
+
+            // Inner bright dot
+            ctx.beginPath();
+            ctx.arc(mx, my, 4, 0, Math.PI * 2);
+            ctx.fillStyle = 'rgba(255,230,80,0.9)';
+            ctx.fill();
+
+            // Spawn particles while moving
+            if (frame % 2 === 0) spawn(mx, my, 2);
+          }
+
+          // Draw + age particles
+          for (let i = particles.length - 1; i >= 0; i--) {
+            const p = particles[i];
+            p.x  += p.vx;
+            p.y  += p.vy;
+            p.vy += 0.04; // gentle gravity
+            p.life -= p.decay;
+            if (p.life <= 0) { particles.splice(i, 1); continue; }
+
+            ctx.globalAlpha = p.life * 0.85;
+            ctx.beginPath();
+            ctx.arc(p.x, p.y, p.size * p.life, 0, Math.PI * 2);
+            ctx.fillStyle = p.color;
+            ctx.fill();
+          }
+          ctx.globalAlpha = 1;
+          frame++;
+        }
+
+        // Mouse
+        document.addEventListener('mousemove', e => {
+          mx = e.clientX; my = e.clientY; active = true;
+          spawn(mx, my, 1);
+        });
+        document.addEventListener('mouseleave', () => { active = false; });
+
+        // Touch
+        document.addEventListener('touchstart', e => {
+          mx = e.touches[0].clientX; my = e.touches[0].clientY; active = true;
+          spawn(mx, my, 4);
+        }, { passive: true });
+        document.addEventListener('touchmove', e => {
+          mx = e.touches[0].clientX; my = e.touches[0].clientY;
+          spawn(mx, my, 3);
+        }, { passive: true });
+        document.addEventListener('touchend', () => {
+          // Burst on lift
+          spawn(mx, my, 10);
+          setTimeout(() => { active = false; }, 400);
+        }, { passive: true });
+
+        draw();
+      })();
+    </script>
+
+    <!-- Fade-up animation (IntersectionObserver, respects prefers-reduced-motion) -->
+    <script>
+      (function () {
+        const prefersReduced = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        ).matches;
+        if (prefersReduced) return;
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12 }
+        );
+
+        document.querySelectorAll(".fade-up").forEach((el) => {
+          observer.observe(el);
+        });
+      })();
+    </script>
+  </body>
+</html>

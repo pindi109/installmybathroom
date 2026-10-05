@@ -1,0 +1,49 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import areasData from "../../data/areas.json";
+---
+
+<Base
+  title="Areas We Cover | Install My Bathroom"
+  description="Fit-only bathroom installation across Sunningdale, Gerrards Cross, Stoke Poges, Ascot, Windsor, Bracknell, Binfield and the surrounding Berkshire and Buckinghamshire towns."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Areas We Cover</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Based in Bracknell, installing across Berkshire and into Buckinghamshire.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <h2 class="text-xl font-bold mb-4 fade-up">Core areas</h2>
+      <div class="grid md:grid-cols-4 gap-4 mb-10">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{a.name}</span>
+          </a>
+        ))}
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Also covered</h2>
+      <div class="grid md:grid-cols-4 gap-4">
+        {areasData.tier2.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{a.name}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

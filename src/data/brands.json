@@ -1,0 +1,20 @@
+[
+  { "slug": "geberit", "name": "Geberit", "url": "https://www.geberit.co.uk/" },
+  { "slug": "villeroy-and-boch", "name": "Villeroy & Boch", "url": "https://www.villeroy-boch.co.uk/" },
+  { "slug": "duravit", "name": "Duravit", "url": "https://www.duravit.co.uk/" },
+  { "slug": "toto", "name": "TOTO", "url": "https://www.totoeurope.com/" },
+  { "slug": "axor", "name": "AXOR", "url": "https://www.axor-design.com/gb" },
+  { "slug": "hansgrohe", "name": "hansgrohe", "url": "https://www.hansgrohe.co.uk/" },
+  { "slug": "dornbracht", "name": "Dornbracht", "url": "https://www.dornbracht.com/en-gb" },
+  { "slug": "grohe", "name": "GROHE", "url": "https://www.grohe.co.uk/" },
+  { "slug": "laufen", "name": "Laufen", "url": "https://www.laufen.com/gb" },
+  { "slug": "kaldewei", "name": "Kaldewei", "url": "https://www.kaldewei.com/en-gb/" },
+  { "slug": "bette", "name": "Bette", "url": "https://www.bette.de/en-gb" },
+  { "slug": "victoria-and-albert", "name": "Victoria + Albert", "url": "https://www.vandabaths.com/" },
+  { "slug": "lefroy-brooks", "name": "Lefroy Brooks", "url": "https://www.lefroybrooks.com/" },
+  { "slug": "burlington", "name": "Burlington", "url": "https://www.burlingtonbathrooms.com/" },
+  { "slug": "crosswater", "name": "Crosswater", "url": "https://www.crosswater.co.uk/" },
+  { "slug": "porcelanosa", "name": "Porcelanosa", "url": "https://www.porcelanosa.com/uk/" },
+  { "slug": "kohler", "name": "Kohler", "url": "https://www.kohler.co.uk/" },
+  { "slug": "matki", "name": "Matki", "url": "https://www.matki.co.uk/" }
+]
