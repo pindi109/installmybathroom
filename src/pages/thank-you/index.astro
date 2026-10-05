@@ -1,0 +1,26 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { business } from "../../config/business.ts";
+---
+
+<Base
+  title="Thank You | Install My Bathroom"
+  description="Thank you for your enquiry — we'll be in touch shortly."
+  noindex={true}
+>
+  <Header slot="header" />
+
+  <section class="section">
+    <div class="container max-w-xl text-center">
+      <h1 class="text-3xl font-bold mb-4 fade-up">Thanks — we've got it</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We'll be in touch shortly. If it's urgent, call us on <a href={`tel:${business.phoneE164}`} class="font-medium" style="color: var(--teal);">{business.phone}</a>.
+      </p>
+      <a href="/" class="btn-primary">Back to homepage</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</Base>

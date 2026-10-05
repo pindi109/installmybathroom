@@ -1,0 +1,113 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const surveySchema = {
+  "@context": "https://schema.org",
+  "@type": "Offer",
+  "name": "Pre-Installation Bathroom Survey",
+  "price": business.pricing.surveyGBP,
+  "priceCurrency": "GBP",
+  "seller": { "@id": `${business.url}/#business` },
+};
+---
+
+<Base
+  title={`Book a Survey — £${business.pricing.surveyGBP} | Install My Bathroom`}
+  description={`What our £${business.pricing.surveyGBP} pre-installation bathroom survey covers, and how to book one across Bracknell and Berkshire.`}
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(surveySchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-5xl">
+      <Breadcrumbs items={[{ label: "Survey", href: "/survey/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Book a Survey — £{business.pricing.surveyGBP}</h1>
+      <p class="text-lg leading-relaxed mb-10 max-w-2xl fade-up" style="color: var(--text-soft);">
+        Every installation starts with a paid, on-site survey. It's the step that turns a ballpark into a fixed, written quote — and it's deducted from nothing, because we don't mark up the goods you're buying anyway.
+      </p>
+
+      <div class="grid md:grid-cols-[1fr_1.2fr] gap-10">
+        <!-- What's included -->
+        <div class="fade-up">
+          <h2 class="text-xl font-bold mb-4">What the survey covers</h2>
+          <ul class="space-y-3 text-sm mb-8" style="color: var(--text-soft);">
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> Exact measurements of the room and fittings</li>
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> Water pressure and flow rate check</li>
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> Substrate and structure inspection</li>
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> Waste routes and falls to drain</li>
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> Electrical supply review for shower toilets and underfloor heating</li>
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> Product compatibility review against what you've bought or are considering</li>
+            <li class="flex gap-2"><span style="color: var(--teal);">—</span> A written installation scope — the document we quote against</li>
+          </ul>
+
+          {business.surveyPaymentUrl ? (
+            <a href={business.surveyPaymentUrl} target="_blank" rel="noopener" class="btn-primary">
+              Pay £{business.pricing.surveyGBP} and book
+            </a>
+          ) : (
+            <p class="text-sm card p-4" style="background: var(--bg-light); color: var(--text-soft);">
+              Book your survey below — we'll confirm a date and send a secure payment link for the £{business.pricing.surveyGBP} fee.
+            </p>
+          )}
+        </div>
+
+        <!-- Booking form -->
+        <form
+          name="survey"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          action="/thank-you/"
+          class="card p-6 md:p-8 fade-up"
+        >
+          <input type="hidden" name="form-name" value="survey" />
+          <p class="hidden">
+            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-4 mb-4">
+            <div>
+              <label for="s-name" class="block text-sm font-medium mb-1">Name *</label>
+              <input id="s-name" name="name" type="text" required class="w-full border rounded-lg px-3 py-2 text-sm" style="border-color: var(--border);" />
+            </div>
+            <div>
+              <label for="s-email" class="block text-sm font-medium mb-1">Email *</label>
+              <input id="s-email" name="email" type="email" required class="w-full border rounded-lg px-3 py-2 text-sm" style="border-color: var(--border);" />
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4 mb-4">
+            <div>
+              <label for="s-phone" class="block text-sm font-medium mb-1">Phone *</label>
+              <input id="s-phone" name="phone" type="tel" required class="w-full border rounded-lg px-3 py-2 text-sm" style="border-color: var(--border);" />
+            </div>
+            <div>
+              <label for="s-postcode" class="block text-sm font-medium mb-1">Postcode *</label>
+              <input id="s-postcode" name="postcode" type="text" required class="w-full border rounded-lg px-3 py-2 text-sm" style="border-color: var(--border);" />
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <label for="s-preferredDate" class="block text-sm font-medium mb-1">Preferred date(s)</label>
+            <input id="s-preferredDate" name="preferredDate" type="text" placeholder="e.g. a weekday morning in the next 2 weeks" class="w-full border rounded-lg px-3 py-2 text-sm" style="border-color: var(--border);" />
+          </div>
+
+          <div class="mb-6">
+            <label for="s-message" class="block text-sm font-medium mb-1">Anything we should know?</label>
+            <textarea id="s-message" name="message" rows="4" class="w-full border rounded-lg px-3 py-2 text-sm" style="border-color: var(--border);"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary w-full justify-center">Request Survey Booking</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -12,6 +12,7 @@ export interface Props {
   ogDescription?: string;
   ogImage?: string;
   noHero?: boolean; // pass true on pages with their own custom hero section
+  noindex?: boolean; // pass true on utility pages (e.g. /thank-you/) that shouldn't be indexed
 }
 
 const {
@@ -22,6 +23,7 @@ const {
   ogDescription,
   ogImage,
   noHero = false,
+  noindex = false,
 } = Astro.props;
 
 const resolvedCanonical = canonical ?? Astro.url.href;
@@ -48,7 +50,7 @@ const resolvedOgImage =
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
 
     <!-- ANALYTICS SLOT: GA4 + Consent Mode v2 added post-launch, not in this build -->
 
