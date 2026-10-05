@@ -1,5 +1,6 @@
 (function(){
   "use strict";
+  var AVATAR="/images/chat/agent-avatar.webp";
   var WELCOME="Hi, I'm Amy, the Install My Bathroom assistant. Ask me about services, pricing, areas we cover or the £125 survey — or tell me about your project and I'll point you the right way.";
   var OPENED_KEY="imbChatOpened";
   var messages=[];
@@ -14,12 +15,14 @@
   }
 
   function build(){
-    var bubble=el("button",{id:"imb-chat-bubble","aria-label":"Chat with Amy from Install My Bathroom",type:"button"},"<span>Amy</span>");
+    var bubble=el("button",{id:"imb-chat-bubble","aria-label":"Chat with Amy from Install My Bathroom",type:"button"});
+    bubble.appendChild(el("img",{src:AVATAR,alt:"",loading:"lazy"}));
 
     var overlay=el("div",{id:"imb-chat-overlay",role:"dialog","aria-modal":"true","aria-label":"Chat with Amy"});
     var modal=el("div",{id:"imb-chat-modal"});
 
     var header=el("div",{id:"imb-chat-header"});
+    header.appendChild(el("img",{src:AVATAR,alt:""}));
     var headerText=el("div",{id:"imb-chat-header-text"},"<strong>Amy</strong><span>Typically replies instantly</span>");
     header.appendChild(headerText);
     var detailsBtn=el("button",{id:"imb-chat-details-btn",type:"button","aria-label":"Leave your details"},"Leave details");
