@@ -7,11 +7,11 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/submit-indexnow.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "qa": "node qa.mjs",
-    "images": "node scripts/generate-all-images.mjs"
+    "images": "node scripts/generate-gold-images.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.3.1",
