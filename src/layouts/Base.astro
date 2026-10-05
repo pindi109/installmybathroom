@@ -52,7 +52,15 @@ const resolvedOgImage =
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
 
-    <!-- ANALYTICS SLOT: GA4 + Consent Mode v2 added post-launch, not in this build -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DY4W7ZMZL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7DY4W7ZMZL');
+    </script>
 
     <title>{title}</title>
     <meta name="description" content={description} />
