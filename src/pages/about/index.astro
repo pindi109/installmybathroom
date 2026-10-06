@@ -1,0 +1,61 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+---
+
+<Base
+  title="About | Install My Bathroom"
+  description="Fit-only bathroom installation based in Bracknell, Berkshire — 30 years' experience, client-supplied products, no sales markup."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "About", href: "/about/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">About Install My Bathroom</h1>
+
+      <p class="text-lg leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is a fit-only installation business based in Bracknell, Berkshire. We don't sell sanitaryware, brassware, tiles or furniture. We fit it. Clients buy the bathroom from whichever showroom, manufacturer or retailer they trust, and our job is to install it to a standard that honours what was chosen and paid for.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Why fit-only</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most bathroom companies want to sell you the suite as well as install it, which means their margin sits on the products as much as the labour. That arrangement tends to steer customers toward whatever's in the showroom or on a supplier deal that quarter, and it blurs who's accountable when something goes wrong — the retailer or the installer. We removed that layer entirely. You choose the exact Villeroy &amp; Boch basin, the exact Kaldewei bath, the exact porcelain, from wherever you want, at whatever price you negotiate, and we quote purely on the labour and site work needed to get it in the ground, on the wall, and running correctly. There's no incentive for us to push a particular brand, because we don't sell any.
+      </p>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        It also means the survey and the written scope we hand over is genuinely about your room and your products, not a generic package. A carrier frame for a wall-hung WC, the waste position for a freestanding bath, the electrical zoning around a steam shower — these all depend on what you've specified, and we work them out before anything is ordered rather than improvising on-site.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">30 years of the same trade</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        {business.experienceYears} years fitting bathrooms covers a lot of changes in the products — concealed cisterns replacing exposed ones, large-format porcelain replacing small tile, shower toilets arriving as a mainstream request rather than a novelty — but the underlying discipline hasn't moved. Falls to drain still have to clear water properly. Tanking still has to be continuous, with no shortcuts at upstands or pipe penetrations. Tile joints still have to line through from floor to wall for the room to read as considered rather than assembled. That discipline is what we charge for, regardless of whether the bathroom in front of us cost £4,000 or £140,000 in products.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Two tiers of client, one fitting standard</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A significant share of our work is for owners of substantial homes across Sunningdale, Gerrards Cross, Ascot and Windsor specifying £50,000–£100,000 or more in sanitaryware, natural stone and brassware — often imported directly from a manufacturer in Germany or Italy, or sourced through a high-end showroom. These jobs usually involve moving services, reinforcing floors for stone, and coordinating electrics for steam rooms or digital showers.
+      </p>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A second tier of clients across Bracknell and Binfield come to us for a full bathroom replacement from £3,500, using mid-market suppliers for a new suite, a walk-in shower, retiling and updated electrics, without the stone and brass specification of the higher tier. What doesn't change between the two is the standard the work is fitted to — the same tanking, the same set-out from centre lines, the same attention to lippage and falls. The products being installed are different; the installation isn't.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What we won't do</h2>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We won't quote a job we haven't surveyed, start before the critical products are confirmed on site, or cut corners on tanking to hit a date. If gas, Part P electrical, or unvented hot water work is needed, it's carried out by appropriately registered engineers as part of the project, not worked around.
+      </p>
+
+      <div class="card p-6 fade-up" style="background: var(--bg-light);">
+        <p class="mb-4" style="color: var(--text-soft);">
+          For the plain facts — pricing, areas, services, brands and contact details in one place — see our <a href="/about/facts/" class="underline" style="color: var(--teal);">facts page</a>. For how we price a job, see <a href="/pricing/" class="underline" style="color: var(--teal);">pricing</a>. To start a project, <a href="/contact/" class="underline" style="color: var(--teal);">get in touch</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

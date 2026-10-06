@@ -1,0 +1,165 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Is a Victoria + Albert bath heavier than acrylic?",
+    a: "Yes, considerably — the stone-resin composite is dense and the baths are genuinely heavy once filled with water and a bather. Floor loading, the route in through doorways and stairwells, and final positioning are all checked at survey before the bath is ordered, not discovered on delivery day.",
+  },
+  {
+    q: "Does a freestanding stone-resin bath need a special floor?",
+    a: "It needs a level, adequately rated floor rather than a special proprietary base. On a timber first-floor structure we confirm joist spans and loading with the client before committing to position, particularly for the larger double-ended baths.",
+  },
+  {
+    q: "Where does the waste and overflow go on a freestanding bath?",
+    a: "Freestanding baths generally take a floor-mounted waste and overflow kit set into the floor beneath the bath, rather than wall-mounted pipework. The exact position is set against the specific model's underside outlet, confirmed before first-fix plumbing is chased in.",
+  },
+  {
+    q: "Can the stone-resin surface be repaired if it's chipped or scratched?",
+    a: "Light surface marks can sometimes be polished out, but a deep chip or crack in the composite isn't something we'd attempt to repair on site — it would need a specialist or a replacement. We protect the bath with board and film throughout the remainder of the build once it's set in position.",
+  },
+  {
+    q: "Do freestanding baths need the floor finished before or after fitting?",
+    a: "The floor is finished first in almost every case, since the bath sits on top of it and the waste connects through the floor void beneath. We agree the sequence with the client and tiler at survey so flooring, waste and final bath positioning happen in the right order.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Victoria + Albert?",
+    a: "No. We're an independent fit-only installer with no commercial relationship with Victoria + Albert. We install the baths our clients buy; we don't sell or supply them.",
+  },
+  {
+    q: "Can a Victoria + Albert bath be fitted in a loft conversion or upper-floor bathroom?",
+    a: "Yes, but floor loading has to be confirmed first — a filled stone-resin bath is genuinely heavy, and on a timber structure we check joist span and loading with the client before the bath is ordered, occasionally recommending floor strengthening ahead of installation rather than after delivery.",
+  },
+  {
+    q: "Do you recommend a particular tap or filler to pair with a Victoria + Albert bath?",
+    a: "We don't sell brassware, so we don't push a particular brand, but we do confirm tap hole or floor-standing filler position against the specific bath model before anything is ordered, since the two have to be measured against each other, not chosen independently.",
+  },
+];
+---
+
+<Base
+  title="Victoria + Albert Installation | Install My Bathroom"
+  description="Specialist installation of Victoria + Albert freestanding stone-resin baths across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Victoria + Albert", href: "/brands/victoria-and-albert/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Victoria + Albert Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, which gives them a solid, cool-to-the-touch surface and genuine weight — a point that matters as much to how we get the bath into the room as it does to how it sits once installed. We fit Victoria + Albert baths with the floor loading, access route and waste position planned before the bath leaves the showroom.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.vandabaths.com/" target="_blank" rel="noopener" class="btn-secondary">Visit Victoria + Albert →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Victoria + Albert is best known for freestanding stone-resin baths in both traditional and contemporary profiles — slipper, double-ended, oval and sculptural shapes — along with matching freestanding and countertop basins made in the same composite material. The baths are typically finished in a matte or gloss white, though coloured and painted exterior finishes are also available through the range.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        As with every brand we work with, the bath or basin is specified and purchased by the client, usually through a bathroom showroom or direct from a Victoria + Albert stockist. Our role begins once the item is on site — unpacking, checking, positioning, connecting and protecting it through to handover. Several ranges are also available in painted exterior finishes, which adds an extra delivery check, since the painted surface is as vulnerable to chips and scuffs as the stone-resin interior.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Floor loading:</strong> stone-resin baths are dense and heavy when full, so on timber upper floors we confirm joist span and loading at survey before the bath is ordered.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Access route:</strong> the bath's size and weight have to pass through doorways, hallways and stairwells intact — we plan the delivery and carry route in advance, particularly in period properties with narrower stairs.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Floor-mounted waste:</strong> most freestanding models take a floor waste and overflow set beneath the bath footprint, so first-fix plumbing has to be chased and capped at the correct point before flooring is laid.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Finished floor sequencing:</strong> flooring is generally completed before the bath is set in its final position, since it sits directly on the finished surface rather than within a tiled upstand.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Surface protection:</strong> the composite surface is protected with board and film from delivery through to final handover to avoid chips, scratches or paint and plaster splashes during later trades.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the model, size, finish and waste position against the order before the bath is carried into the room — these baths are heavy enough that unnecessary extra moves are worth avoiding entirely. Inspect the exterior and interior surface for chips, scratches or surface marks picked up in transit, and check any taps, waste kit or bath filler supplied alongside it, since these are frequently ordered as a separate line and can arrive on a different date. Confirm the floor waste position matches the bath's underside outlet before pipework is finally connected — on a freestanding bath this isn't adjustable once the floor is finished around it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The problem we're most often asked to fix on freestanding baths fitted by others is a floor waste positioned slightly off the bath's actual outlet, because the bath model changed late in the specification process but the plumbing wasn't updated to match. Moving a floor waste after the floor is finished means lifting flooring back up, so we confirm the exact model and outlet centre at survey, before first-fix plumbing is chased in.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is damage during the carry — a heavy stone-resin bath taken up a narrow period staircase without a planned route and enough hands on it is where chips and cracked corners happen. We walk the access route and agree the carry plan before the bath arrives, not on the morning it does. Where a staircase or doorway genuinely can't accommodate the bath's dimensions, we'd rather identify that during planning than after the bath has been delivered and paid for.
+      </p>
+    </div>
+  </section>
+
+  <!-- Positioning and room layout -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Positioning the bath within the room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A freestanding bath is usually the focal point of the room, so its final position is agreed early — before flooring is laid and before the surrounding tiling or decoration is set out — rather than nudged into place once everything else is finished. Clearance around the bath for cleaning and for a towel rail or side table, sightlines from the door, and the relationship to a window or feature wall are all things we walk through with the client at survey stage, using the actual bath dimensions rather than a generic footprint.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Because the floor waste has to land precisely beneath the bath's underside outlet, moving the bath's position after first-fix plumbing is chased in generally isn't practical without lifting flooring. Getting the room layout agreed and measured against the specific model before pipework goes in avoids that entirely.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting the bath through the rest of the build -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting the bath through the rest of the build</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A freestanding bath is often set in position well before a project reaches final decoration, which means it's exposed to paint, plaster dust and the ordinary knocks of other trades working around it for weeks at a time. We board and film the bath immediately once it's positioned and connected, and we agree with the client and any other trades on site where protection stays in place until final handover rather than being removed early for convenience.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The composite surface marks more readily from solvent-based products and abrasive dust than most people expect, so we also flag this to decorators and other trades working in the room, since a surface mark picked up after our part of the job is finished is harder to resolve than one prevented in the first place.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="victoria-and-albert-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Victoria + Albert; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

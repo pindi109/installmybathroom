@@ -1,0 +1,253 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Thermostatic vs Digital Showers Compared",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Does a digital shower need an electrical supply?",
+    a: "Yes. A digital shower's control unit and processor need a dedicated, correctly zoned electrical supply, planned and run at first fix before walls are tiled.",
+  },
+  {
+    q: "Is a thermostatic shower safe without electrics?",
+    a: "Yes, a thermostatic valve is a purely mechanical mixing device — it blends hot and cold water to a set temperature and needs no electrical supply at all, which simplifies first fix.",
+  },
+  {
+    q: "Can a digital shower run two outlets at once, like a rainfall head and a handset?",
+    a: "Many digital shower systems support multiple simultaneous outlets, controlled from a single processor — this is one of their practical advantages over a standard thermostatic valve, which usually needs a diverter to switch between outlets rather than running both together.",
+  },
+  {
+    q: "Which is easier to service if something goes wrong?",
+    a: "A thermostatic valve's mechanical cartridge is a well-understood, widely available part across most manufacturers. A digital shower's processor and wiring add complexity, so access to the control unit and any concealed wiring needs planning at installation to make future servicing straightforward.",
+  },
+  {
+    q: "Does either system need a minimum water pressure to work well?",
+    a: "Yes, both need adequate pressure and flow to perform correctly, and a digital shower in particular relies on consistent supply pressure for its pump and processor to deliver an even temperature. We check pressure and flow at survey before confirming either system will suit your plumbing.",
+  },
+  {
+    q: "Does a gravity-fed system need a pump for a digital shower to work?",
+    a: "Often, yes — gravity-fed systems typically run at lower pressure than mains or unvented systems, and a pumped digital shower boosts that pressure to a level where the processor and multiple outlets perform properly. We check your system's pressure at survey before specifying whether a pump is needed.",
+  },
+  {
+    q: "Can a thermostatic valve be fitted on a combi boiler system?",
+    a: "Yes, thermostatic valves work well on combi systems, provided the boiler delivers adequate pressure and flow at the shower outlet — something we confirm at survey, since combi boiler performance varies by model and by how far the shower is from the boiler.",
+  },
+  {
+    q: "What happens to a digital shower if the processor develops a fault?",
+    a: "The system typically stops delivering water or defaults to a safe low-temperature state rather than risking an inaccurate mix. This is why processor accessibility is planned at first fix — a technician needs to reach the unit to diagnose and fix a fault without disturbing finished tiling.",
+  },
+];
+---
+
+<Base
+  title="Thermostatic vs Digital Showers Compared | IMB"
+  description="How thermostatic and digital shower systems compare for a bathroom installation — electrics, control, multiple outlets, and what we check at survey."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Thermostatic vs Digital Showers", href: "/guides/thermostatic-vs-digital-showers/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Thermostatic vs Digital Showers Compared</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A thermostatic shower is a mechanical valve that mixes hot and cold water to a set temperature, needing no electrical supply. A digital shower uses an electronic processor and control panel to manage temperature and flow, often supporting multiple outlets run simultaneously, but it needs a dedicated electrical circuit planned at first fix. The right choice depends on how many outlets you want running together and whether the extra first-fix electrical work suits your project.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two systems compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Thermostatic</th>
+              <th class="text-left py-3 font-semibold">Digital</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Operating principle</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Mechanical valve mixing hot and cold water to a set temperature.</td>
+              <td class="py-3" style="color: var(--text-soft);">Electronic processor controlling temperature and flow via a control panel.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Electrical supply</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Not required.</td>
+              <td class="py-3" style="color: var(--text-soft);">Dedicated, correctly zoned circuit required for the processor and control unit.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Multiple simultaneous outlets</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Usually needs a diverter to switch between outlets rather than run them together.</td>
+              <td class="py-3" style="color: var(--text-soft);">Many systems support multiple outlets run together from one processor.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">First-fix complexity</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Plumbing first fix only.</td>
+              <td class="py-3" style="color: var(--text-soft);">Plumbing and electrical first fix, with cabling and processor location planned before tiling.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Control location</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Wall-mounted valve, usually within the shower enclosure or wet area.</td>
+              <td class="py-3" style="color: var(--text-soft);">Control panel can be sited inside or outside the enclosure, with the processor housed remotely.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What a digital shower adds at first fix</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A digital shower's processor is usually housed in a nearby void — an airing cupboard or stud wall cavity — connected to the control panel and outlets by cabling and pipework that both need planning before the room is tanked and tiled. The electrical supply to the processor has to be installed and zoned to Building Regulations Part P, and the processor's location needs to remain accessible for any future servicing, similar in principle to a concealed cistern's inspection panel.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This extra first-fix planning is the main practical trade-off against a thermostatic valve, which is a simpler mechanical installation with no electrical requirement at all — useful where electrical first fix is constrained, or where the simplicity of a purely mechanical system is preferred.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing based on how the shower will actually be used</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If you want a single rainfall head and a handset used one at a time, a well-specified thermostatic valve with a diverter does the job without the added complexity of an electrical first fix. If you want a rainfall head, body jets and a handset all running together, or want preset temperature and flow combinations for different household members, a digital system's ability to manage multiple outlets from one processor becomes the more practical choice.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Either system needs adequate water pressure and flow to perform as intended, which is why we check both at survey before confirming a specification — a digital system in particular relies on consistent supply to the pump and processor to hold temperature accurately under multiple outlets.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Safety and scald protection in both systems</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A thermostatic valve includes a mechanical safety stop, usually set around 38°C, that physically limits how far the temperature control can be turned before the user deliberately overrides it — a well-understood, purely mechanical form of scald protection that needs no power to function. A digital shower achieves the same protective outcome electronically, with the processor monitoring and holding the set temperature and cutting the supply if something goes wrong with sensing or flow, such as a cold water interruption elsewhere in the house.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both approaches are considered safe and are widely specified in UK bathrooms, including where young children or vulnerable household members use the shower. The practical difference worth knowing is that a thermostatic valve's safety stop is a fixed mechanical limit that works even during a power cut, whereas a digital shower's temperature control depends on continuous power to the processor — worth factoring in if the property experiences power interruptions, though this is rarely a deciding factor for most households.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing for a specific project</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A smaller en-suite with a single rainfall head is often well served by a well-specified thermostatic valve, keeping first fix simpler and the budget focused on the brassware finish itself. A larger wet room or main bathroom designed around multiple outlets — a rainfall head, body jets and a separate handset, perhaps used by different household members with different preferences — tends to make better use of a digital system's ability to manage all of that from one processor and a simple control panel.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'll talk through which suits your specific layout and household at survey, including whether your existing electrical supply has capacity for a digital system's circuit without further upgrade work, since that's sometimes the deciding practical factor rather than preference alone.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How each system copes with pressure fluctuation</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure in most UK homes isn't perfectly constant — a flush elsewhere in the house, a washing machine filling, or ordinary variation in mains supply through the day can cause a brief dip or spike. A thermostatic valve responds to this mechanically and almost instantly: an internal element reacts to a change in the hot or cold feed and adjusts the mix to hold the set temperature, which is precisely the safety feature the valve is built around.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A digital shower's processor achieves the same outcome electronically, sensing flow and temperature and adjusting valves or, where fitted, a pump to compensate. Where supply pressure is already low or inconsistent, a digital system's pump can actively even out fluctuations in a way a purely mechanical thermostatic valve can't, which is one reason digital showers are often specified in properties with historically weak or variable pressure. Neither system fixes a marginal supply at its source — that's worth addressing directly if it's a persistent problem — but both are designed to manage normal day-to-day fluctuation without the user noticing a change in temperature.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Installation complexity: where the processor box actually goes</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A thermostatic valve's installation is a single first-fix plumbing task: the valve body is set into the wall at the right height and depth, pipework is run to it, and the finished plate is fitted once tiling is complete. A digital shower adds a second component to plan for — the processor unit itself, which needs a location with access to mains electrics, a water supply connection, and, critically, future accessibility, since a processor that develops a fault needs to be reached without removing tiles or cutting into a finished wall.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        An airing cupboard, a utility room stud wall, or a boxed-in void behind the bath panel are typical locations, chosen at first fix and confirmed before any tiling begins. Cable and pipe runs from the processor to the control panel and outlets also need planning at the same stage, since retrofitting them once the room is tiled means disturbing finished surfaces. This additional planning is the main reason a digital shower's first fix takes longer to coordinate than a thermostatic valve's, even though the finished control panel on the wall looks similarly compact in both cases.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Which water system each suits: combi, gravity-fed and unvented cylinder</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A thermostatic valve works across all three common UK water system types, provided pressure and flow at the shower meet the valve manufacturer's minimum requirements — a combi boiler supplying mains pressure hot and cold, a gravity-fed system drawing from a cold water storage tank and a hot water cylinder, or an unvented mains-pressure cylinder. Gravity-fed systems with a low or borderline header tank height sometimes struggle to give a thermostatic valve enough pressure and flow to perform well, which is why we check tank height and pipe sizing at survey rather than assuming any system will suit any valve.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A digital shower's pump, where the system includes one, is specifically useful on a gravity-fed system with naturally low pressure, boosting flow to both outlets and the processor to a level that performs properly — one reason digital systems are often recommended for period properties still running a traditional tank-and-cylinder setup. On a combi or unvented cylinder system, where mains pressure is already strong and consistent, a pumped digital system is less often necessary, though a non-pumped digital system can still be specified for the control and multi-outlet benefits alone. We'll confirm your system type and measure pressure and flow at survey before recommending either option.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Lighting &amp; Electrics</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Plumbing &amp; First Fix</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water pressure for rainfall showers</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+        <a href="/guides/framed-vs-frameless-shower-screens/" class="btn-secondary">Framed vs frameless shower screens</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/hansgrohe/" class="btn-secondary">Hansgrohe</a>
+        <a href="/brands/grohe/" class="btn-secondary">Grohe</a>
+        <a href="/brands/axor/" class="btn-secondary">Axor</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Electrical installation for digital shower processors referenced in this guide follows Building Regulations Part P, applied to the bathroom electrical zone the equipment sits within. Water supply and pressure considerations follow Part G and manufacturer installation guidance current at the time of writing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="thermostatic-digital-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

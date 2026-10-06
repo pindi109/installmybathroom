@@ -1,0 +1,164 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Is Reading too far from Bracknell for you to cover?",
+    a: "No — Reading is within our regular working area, around 25 to 30 minutes from our Bracknell base. The distance doesn't change our pricing, and we programme deliveries and site visits the same way we would for a closer job.",
+  },
+  {
+    q: "What kind of properties do you fit bathrooms in around Reading?",
+    a: "A wide range — Victorian and Edwardian terraces close to the town centre and around the university, inter-war and post-war semis and detached houses in the suburbs, new-build apartments near the town centre, and larger detached homes in the outer villages. We price each on its own merits at survey.",
+  },
+  {
+    q: "Do you fit bathrooms in rental or student properties near the University of Reading?",
+    a: "Yes, we work with both owner-occupiers and landlords. Rental properties sometimes need a more durable specification — robust tiling, simple fixtures that are easy to maintain — which we're happy to discuss at survey if that's relevant to your property.",
+  },
+  {
+    q: "Do older Reading properties need extra checks before a wet room installation?",
+    a: "Often, yes. Victorian and Edwardian terraces can have suspended timber floors, which need checking for deflection before a wet room is tanked or large-format porcelain is laid. We assess floor and wall construction at every survey rather than assuming it from the property's age.",
+  },
+  {
+    q: "Is planning permission needed for a bathroom refit in Reading?",
+    a: "A standard like-for-like internal refit doesn't normally require planning permission. It can matter if your property is listed, within a conservation area, or if the work affects the external fabric of the building — we'll flag this at survey if it applies.",
+  },
+  {
+    q: "What's the water pressure like in Reading?",
+    a: "It varies considerably by property age and type — newer apartments and estate housing are generally on strong mains pressure, while some older terraces and larger period houses may still run partly on a gravity-fed system. We test actual pressure and flow at every survey before specifying a shower.",
+  },
+  {
+    q: "Can you fit a bathroom in a Reading town-centre apartment with limited access?",
+    a: "Yes, though apartment blocks sometimes have specific requirements around lift access, permitted working hours and where waste can connect into a shared riser. We check the building's own rules at survey and plan deliveries accordingly.",
+  },
+  {
+    q: "Can you fit more than one bathroom across the same Reading property?",
+    a: "Yes, we regularly programme a main bathroom, en-suite and cloakroom as a single coordinated job, sequencing the wet trades and dry trades so the house isn't fully out of action at any one point.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Reading | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Reading, Berkshire. Period, suburban and apartment homes, from £3,500. Around 25-30 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Reading", href: "/areas/reading/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Reading</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms across Reading, the Berkshire town and borough home to the University of Reading, around 25 to 30 minutes from our Bracknell base. You buy the sanitaryware, brassware and tiles; we carry out the strip-out, first fix, tiling and final fit, from £{business.pricing.fromGBP.toLocaleString()}. Every job is priced from a survey of your actual property, given how widely construction varies across a town of Reading's size.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Reading's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        As one of the larger towns in our working area, Reading has a genuinely broad mix of housing: dense Victorian and Edwardian terraces close to the centre and around the University of Reading, inter-war and post-war suburban semis and detached houses spreading out from there, newer apartment and town-centre regeneration schemes, and larger detached properties in the outer villages and commuter suburbs on the edge of the borough. We don't assume a single construction type from a Reading postcode — the difference between a converted Victorian terrace and a new-build apartment is significant for how a bathroom gets fitted.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor and wall construction follow that same spread. Victorian and Edwardian terraces are more likely to have suspended timber ground floors and upper floors, which need checking for deflection before large-format porcelain or a tanked wet room goes in; post-war and modern housing more often sits on a solid slab that needs less preparation. Partition walls vary too — older solid masonry or lath-and-plaster internal walls behave differently to modern stud when fixing a wall-hung WC frame or a heavy vanity unit, which we check at survey rather than assume.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A meaningful share of Reading's older terraced housing is let to tenants, including a significant student population close to the university, which affects what we'd typically recommend specifying — durable tiling, straightforward fixtures that are easy to maintain, and layouts that hold up to higher turnover of occupants. Owner-occupied properties, by contrast, tend to be specified for a longer-term, more individual finish. We talk through this at survey so the specification matches how the property is actually used.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Water pressure varies with the same range of property types. Newer apartments and estate housing are generally on strong, consistent mains pressure; some of the older terraces and larger period houses on the edges of town can still have a gravity-fed hot water circuit from a loft tank, even where the incoming mains supply is strong. We measure actual pressure and flow at every survey before specifying a digital or thermostatic shower.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Reading</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        You source the sanitaryware, brassware and tiles; we confirm dimensions and fixing centres against those exact products before delivery, then carry out the strip-out, first-fix plumbing and electrics, tanking where required, tiling and final fix. On town-centre apartments and terraces with restricted parking, we agree delivery timing and access in advance, and check any building-specific rules around permitted working hours, lift access or shared waste risers before work starts.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Throughout the job we protect flooring, stairs and communal areas with boards and sheeting, keep the work area contained and tidy, and leave the property clean at the end of each day — whether we're the only trade on site or sequencing around a wider renovation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — doesn't normally require planning permission. Where it can matter is on listed properties, or homes within one of Reading's conservation areas, if the work affects the external fabric of the building, such as a new extraction vent through an outer wall. If your property might be affected, we'll flag it plainly at survey and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Apartments and converted properties can also have lease terms governing alterations, independent of statutory planning permission — some freeholders or management companies require notice before plumbing or waste connections are changed. We'll ask whether this applies to your property at survey stage.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Reading</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in neighbouring Wokingham, the village of Twyford between Reading and Maidenhead, and Maidenhead itself on the Thames — all within a similar drive time of our Bracknell base.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/wokingham/" class="btn-secondary">Wokingham</a>
+        <a href="/areas/twyford/" class="btn-secondary">Twyford</a>
+        <a href="/areas/maidenhead/" class="btn-secondary">Maidenhead</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="reading-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-center">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        A £{business.pricing.surveyGBP} survey gets a qualified installer out to your Reading property to measure the room, check floor and wall construction, test water pressure and confirm what your chosen products need for a correct installation. You'll come away with an itemised quote and a realistic programme before ordering anything.
+      </p>
+      <a href="/survey/" class="btn-primary">Book a Survey in Reading</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

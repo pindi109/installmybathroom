@@ -1,0 +1,229 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Concealed Cisterns Explained",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Can any wall work as a carrier frame wall?",
+    a: "No. A freestanding carrier frame creates its own structural support and stud wall, so it can go against almost any wall, including a stud partition, provided there's enough depth — typically around 180mm — in front of the existing wall. We confirm this at survey.",
+  },
+  {
+    q: "How do you access a concealed cistern if something goes wrong?",
+    a: "Through the flush plate itself, which lifts or unclips on almost every manufacturer's system, or through a small inspection panel if one was built in. We always confirm access routes with you before the wall is tiled over.",
+  },
+  {
+    q: "Do concealed cisterns fail more often than exposed ones?",
+    a: "Not inherently — the mechanisms are broadly similar, just mounted out of sight. The real risk is poor access for future servicing, which is a specification and installation issue, not a reason to avoid the cistern itself.",
+  },
+  {
+    q: "Can I choose a different flush plate finish to match my brassware?",
+    a: "Yes, on most systems. Flush plates are sold separately from the cistern frame and come in a wide range of finishes — matt black, brushed brass, chrome and more — so you can match or deliberately contrast with your taps.",
+  },
+  {
+    q: "Does the frame height affect anything?",
+    a: "Yes — WC pan height, cistern access and even the fall of tiling can all be affected by where the frame sits relative to the finished floor level. This is set and checked at survey stage, before first fix, not adjusted afterwards.",
+  },
+  {
+    q: "Is a concealed cistern compatible with a shower toilet?",
+    a: "Most shower toilets are designed to sit on a concealed cistern and carrier frame — it's the standard arrangement for a wall-hung shower toilet, giving clean lines and space behind the wall for the unit's electronics housing.",
+  },
+];
+---
+
+<Base
+  title="Concealed Cisterns Explained | Install My Bathroom"
+  description="How concealed cisterns and carrier frames work, what wall depth they need, and how to make sure yours stays serviceable after the wall is tiled."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Concealed Cisterns Explained", href: "/guides/concealed-cisterns-explained/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Concealed Cisterns Explained</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A concealed cistern sits inside a metal carrier frame behind a stud or tiled wall, flushed through a plate at waist height, with the WC pan hung from the same frame. It needs roughly 180mm of depth in front of the existing wall and a serviceable access point — usually the flush plate itself — left clear once tiling is finished.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Concealed cisterns are now the default specification on most luxury bathroom projects, and for good reason — they free the floor beneath a wall-hung WC for cleaning, remove the bulk of a traditional close-coupled cistern from the room, and give a clean run of tile from floor to wall unbroken by plumbing. What's less visible from a showroom brochure is the structural frame and void behind the wall that makes all of that possible, and that's the part worth understanding before you specify one.
+      </p>
+    </div>
+  </section>
+
+  <!-- How the frame works -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How the carrier frame works</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A freestanding carrier frame is a self-supporting steel structure, bolted to the floor and, where possible, to a solid wall or noggin behind it, that carries both the cistern and the full weight of the WC pan and anyone using it. Because it's self-supporting, it can go in front of almost any wall type — masonry, stud partition, or even against an external wall where a close-coupled cistern wouldn't have room — provided there's enough depth in front of the existing surface, typically around 180mm, to build the new stud wall and panel over it.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        The frame sets the WC pan height and fixing centres, both of which are agreed at survey stage against the finished floor level — including any floor build-up for underfloor heating or a wet room fall — so that the pan ends up at the right height once tiling is complete, not adjusted after the fact. Water supply and waste connections are made to the cistern and frame before the wall is closed in, and the whole assembly is pressure-tested before it's boarded over.
+      </p>
+    </div>
+  </section>
+
+  <!-- Flush plates and finishes -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Flush plates, dual flush and finishes</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        The flush plate is usually sold separately from the cistern and frame, which means the mechanism and the visible finish are two different purchasing decisions — you can run a budget-conscious frame with a premium plate finish, or the reverse, and most manufacturers' plates are cross-compatible with their own frame ranges, though not always across brands. Dual-flush plates, offering a reduced-volume flush alongside a full one, are now close to universal on UK installations and support water efficiency requirements under Building Regulations Part G.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Finish options have expanded well beyond chrome — matt black, brushed brass, brushed nickel and stone-effect plates are now widely available, and matching or deliberately contrasting the plate with your brassware is one of the easier high-impact decisions in a bathroom specification, since it's one of the few plumbing fittings visible at eye level.
+      </p>
+    </div>
+  </section>
+
+  <!-- Serviceability -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Keeping it serviceable</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        The one real risk with a concealed cistern is losing access to it. Almost every manufacturer's flush plate is designed to lift, unclip or hinge open to reach the flush valve and inlet mechanism for routine adjustment or repair, and that access point has to stay reachable — not boxed in by a vanity unit, shelf or mirror cabinet fitted afterwards. On installations where the frame sits in an awkward position, a small dedicated access panel, tiled to match or finished with a discreet magnetic cover, is the more robust solution.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We plan access during first fix, not as an afterthought — it's one of the checks we build into the survey and set-out stage, precisely because a cistern that needs the tiled wall opened up to reach it is one of the most disruptive repairs a bathroom can need.
+      </p>
+    </div>
+  </section>
+
+  <!-- Frame types -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Types of carrier frame</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A standard WC frame is the most common type, sized for a single wall-hung pan at a set height and depth. A corner frame is designed specifically to fit into a corner position, angling the cistern and pan to make use of awkward room geometry — useful in a smaller cloakroom or en-suite where a standard frame simply won't fit the available footprint. A basin frame works on the same principle for a wall-hung basin, concealing the waste and supply pipework behind the wall in the same way a WC frame conceals the cistern.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Some manufacturers also offer a combination frame, carrying both a WC cistern and a basin's pipework within a single structure — a useful option in a small cloakroom where two independent stud walls would eat into already limited floor space. The right frame is specified against the room's actual dimensions at survey, not chosen from a catalogue in isolation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common mistakes -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common mistakes we see</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        The most frequent is a vanity unit, shelf or mirror cabinet fitted directly over the flush plate's access point during a later, unrelated update to the room — often years after the original installation, by someone who didn't know what sat behind that section of wall. The second is a frame fixed only to the floor, without a secure fixing back to a solid wall or noggin where one is available, leading to a WC that feels slightly less rigid than it should under load over time. The third is cistern fill noise transmitted through a stud wall into an adjoining room, which can usually be reduced with acoustic insulation within the stud cavity, specified at first fix rather than retrofitted afterwards.
+      </p>
+    </div>
+  </section>
+
+  <!-- Choosing between frame options -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What actually differs between manufacturers</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Frame depth, maximum WC pan weight rating, flush volume options and flush plate compatibility all vary between manufacturers, and not every flush plate fits every frame even within a single brand's range once older and newer product generations are mixed. Geberit's and Grohe's systems are among the most widely specified in UK luxury bathrooms, and while both achieve the same end result, the specific dimensions, fixing method and flush mechanism differ enough that we always confirm which frame a client intends to buy before the stud wall is built, not after. Our <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="underline" style="color: var(--teal);">Geberit vs. Grohe comparison guide</a> goes through the practical differences in more detail.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Weight rating is worth checking specifically if the household includes anyone notably heavier than an average adult user, or if the bathroom is likely to see higher-than-typical use — most mainstream frames are rated well beyond standard domestic use, but it's a specification detail worth confirming rather than assuming, particularly on a shower toilet installation where the unit itself adds weight to what the frame is carrying.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Pan height, projection and comfort</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Because the frame sets the WC's height independently of the pan's own dimensions, a concealed cistern installation is one of the few places in a bathroom where comfort height can be adjusted to suit the household rather than accepting whatever a standard close-coupled unit happens to sit at. A slightly raised pan height is a common, low-key request from taller households or anyone who finds a standard height awkward, and it costs nothing extra to specify correctly at survey — it simply needs deciding before the frame is fixed and the finished floor level set around it, not after tiling is complete.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Pan projection — how far the WC extends into the room from the wall — is a separate dimension worth checking against the room's actual floor area, particularly in a smaller cloakroom where a few centimetres can be the difference between comfortable clearance and a cramped feel once the door is fitted and swinging into the room.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Flush volumes and water efficiency referenced here follow Building Regulations Part G. Structural fixing of carrier frames to floors and walls follows manufacturer installation guidance and, where load-bearing elements are altered, Part A. Any notifiable electrical work carried out alongside the installation follows Part P.
+      </p>
+    </div>
+  </section>
+
+  <!-- Noise and acoustics -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Noise, acoustics and shared walls</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Cistern fill noise — the sound of the tank refilling after a flush — is the most common acoustic complaint we hear about concealed cisterns, and it travels through a stud wall more readily into an adjoining bedroom or landing than most clients expect before they've lived with it. Acoustic insulation within the stud cavity around the frame, specified and fitted at first fix, meaningfully reduces this without changing anything about the cistern itself. It's an inexpensive addition at the construction stage and a disruptive one to retrofit afterwards, which is why we raise it specifically on any installation where the frame backs onto a bedroom, landing, or another room where noise would actually be noticed.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Basin frames and wall-hung vanity units</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        The same carrier frame principle applies to wall-hung basins and vanity units, concealing waste and supply pipework behind the wall in exactly the way a WC frame conceals a cistern, and giving the same clean, unbroken run of tile beneath the unit. A wall-hung vanity also leaves the floor beneath it clear for cleaning, which many clients find as practically useful as the visual benefit — no plinth trapping water or dust, and a floor that reads as continuous rather than interrupted by furniture legs or a boxed-in cabinet base.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+        <a href="/services/bidet-installation/" class="btn-secondary">Bidet Installation</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="btn-secondary">Geberit vs Grohe concealed cisterns</a>
+        <a href="/guides/shower-toilets-explained/" class="btn-secondary">Shower toilets explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/geberit/" class="btn-secondary">Geberit</a>
+        <a href="/brands/grohe/" class="btn-secondary">Grohe</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="concealed-cisterns-explained-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

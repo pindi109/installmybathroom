@@ -1,0 +1,231 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Natural Stone and Marble Bathrooms",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Does natural stone need sealing in a bathroom?",
+    a: "Yes, almost always. Marble, limestone and travertine are porous and will absorb water, soap residue and oils if left unsealed, leading to staining and etching over time. We seal with a penetrating sealer appropriate to the stone type as part of installation, and advise on reseal intervals for ongoing maintenance.",
+  },
+  {
+    q: "Is marble suitable for a shower floor?",
+    a: "It can be, but it needs the right finish — honed or textured rather than polished, for slip resistance — and a sealer regime that's kept up to date, since a shower floor sees constant water contact. Some clients prefer to confine marble to walls and vanity tops and use porcelain on the shower floor itself for lower maintenance.",
+  },
+  {
+    q: "Why is natural stone more expensive to install than porcelain?",
+    a: "Stone slabs are heavier, more variable in thickness, and need cutting, honing or polishing tools different from those used for porcelain. Book-matching and edge mitring, both common on stone, take considerably longer than straightforward tile laying, and the material itself typically costs more per square metre than porcelain.",
+  },
+  {
+    q: "What is book-matching and can you do it?",
+    a: "Book-matching lays adjacent slabs cut from the same block so their veining mirrors across the joint, creating a symmetrical pattern. It requires slabs to be laid in the sequence they were cut, which has to be planned and confirmed with the supplier before delivery — we coordinate this at survey if book-matching is part of your specification.",
+  },
+  {
+    q: "Does natural stone work with underfloor heating?",
+    a: "Yes, though stone's higher thermal mass means it takes longer to warm and cool than porcelain, so the control settings and expected warm-up time are different. We factor this into thermostat programming as part of the underfloor heating installation.",
+  },
+  {
+    q: "Can natural stone be used with tanking and waterproofing systems?",
+    a: "Yes, and it has to be — natural stone itself is not waterproof, so the tanking system beneath it does the structural waterproofing job regardless of what finish sits on top. We tank wet areas to the same standard under stone as under porcelain, before any stone is laid.",
+  },
+  {
+    q: "How often does natural stone need resealing?",
+    a: "This depends on the stone, the sealer used and how heavily the room is used, but a typical interval is every twelve to twenty-four months for a bathroom floor or shower area, longer for a lightly used vanity top. A simple water-bead test — splash some water on the surface and see whether it beads or soaks in — is a reasonable way to judge when resealing is due.",
+  },
+];
+---
+
+<Base
+  title="Natural Stone & Marble Bathrooms | Install My Bathroom"
+  description="Fit-only natural stone and marble bathroom installation across Bracknell and Berkshire. Sealing, book-matching and mitred edges done properly. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Natural Stone & Marble Bathrooms", href: "/services/natural-stone-and-marble-bathrooms/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Natural Stone &amp; Marble Bathrooms</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Natural stone asks more of the installer than porcelain at every stage — heavier slabs, variable thickness, sealing before and after fitting, and mitred or book-matched edges that have to be planned before the stone is cut. Fitted properly, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Marble, limestone and travertine remain the materials clients reach for when they want a principal bathroom that reads as genuinely luxurious rather than merely well-specified. They're also materials with real technical requirements — porosity, weight, and natural variation between slabs — that need to be understood and planned for, not worked around after the stone's arrived.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Stone is usually one element within a wider bathroom installation rather than the whole scope, most often specified for the floor, a feature wall, or a vanity top while porcelain or paint handles the remaining surfaces. The list below covers the stone-specific work within that wider project.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Structural check that floor and wall construction can carry the stone's weight</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking and waterproofing of wet areas to the same standard regardless of finish</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Set-out and book-matching sequence planning before any slab is cut</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Mitred edges on upstands, windowsills and shower thresholds where specified</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Full-coverage, stone-rated adhesive application and precise, consistent joint width</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Grouting with a colour and width suited to the stone, not a default porcelain spec</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Sealing with a penetrating sealer matched to the stone type, applied before and after grouting</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Weight, thickness and structural checks</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Natural stone slabs are significantly heavier than porcelain of the same dimensions, and their thickness can vary more between pieces from the same batch — both of which matter for floor loading and for achieving a flat, consistent finished surface. On an upper-floor bathroom, particularly in an older property, we check the floor structure's suitability for the additional load at survey, something that's rarely necessary with porcelain but shouldn't be skipped with stone.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Thickness variation between slabs is managed by back-buttering generously and adjusting the adhesive bed per tile rather than applying a uniform thickness throughout, which would leave thinner slabs sitting proud or thicker ones recessed. This is more labour-intensive than laying porcelain of consistent, factory-controlled thickness, and it's one of the main reasons stone installation takes longer per square metre, both in material handling and in the extra checking of level and lippage as each piece goes down.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Floor structure, substrate flatness and wet area layout checked against your chosen stone and finish.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Tanking and preparation.</strong> <span style="color: var(--text-soft);">Wet areas are tanked to full standard before any stone is laid, since stone itself isn't waterproof.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Set-out and sequencing.</strong> <span style="color: var(--text-soft);">Slabs are laid out dry in their cut sequence to confirm book-matching and joint positions before fixing.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Fixing and mitring.</strong> <span style="color: var(--text-soft);">Slabs are back-buttered and fixed, with mitred edges cut and fitted at upstands and thresholds.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Grouting and sealing.</strong> <span style="color: var(--text-soft);">Joints are grouted and the full surface sealed with a penetrating sealer suited to the stone.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Tiling follows BS 5385 guidance, with stone-specific adhesive selected for its bond strength and low shrinkage — standard porcelain adhesives are not always appropriate for stone, particularly for lighter-coloured or more translucent marbles where certain adhesives can cause shadowing visible through the stone once cured. Tanking beneath stone in wet areas is installed to the same specification as under any other finish, because stone is porous and water passing through it still has to be stopped by the membrane beneath, not the stone itself.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Sealing is carried out in at least two stages: before grouting, to protect the stone's surface and edges from grout pigment staining, and again after grouting and full cure, to seal the finished surface against water and everyday contaminants. The sealer type — impregnating or topical — and the number of coats are matched to the specific stone, since marble, limestone and travertine all have different porosity and absorb sealer at different rates.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Mitred edges, where specified on upstands or windowsills, are cut at 45 degrees and polished on the cut face to match the slab's finish, then joined with a colour-matched adhesive so the mitre reads as a continuous, seamless corner rather than a visible joint.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Movement joints are planned in the same way as for porcelain, positioned at substrate junctions and around the room's perimeter, but with the joint sealant colour-matched to the stone rather than a standard grey or white, since an unmatched sealant line is far more noticeable against a light natural stone than against most porcelain finishes. Where natural stone meets a different material — a timber vanity unit, a glass shower screen — the junction is detailed with the stone's edge profile in mind, since a raw cut edge left visible at a junction looks unfinished compared with the polished or honed face shown elsewhere.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Marble, limestone and travertine: choosing between them</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Marble is the material most clients picture first — polished, often white or grey with distinctive veining, and genuinely striking in a principal bathroom. It's also the most reactive stone of the three to acidic substances: citrus, certain cleaning products and some cosmetics can etch its surface, leaving a dull mark that sealing reduces the risk of but doesn't eliminate entirely. It suits a bathroom where it's used thoughtfully and maintained, not a high-traffic family bathroom with less considered day-to-day use.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Limestone offers a softer, more muted palette and is generally more forgiving than marble, though still porous and requiring the same sealing discipline. Travertine, with its characteristic pitted texture, is often finished filled and honed for bathroom use, giving a warmer, more tactile surface that also tends to be the most slip-resistant of the three in its honed or tumbled finish, making it a sound choice for a wet room or shower floor where that matters.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        None of the three is objectively "better" — the right choice depends on how the room is used, how much maintenance you're willing to commit to, and the look you're after. We'll talk through all three honestly at survey rather than defaulting to whichever is easiest to source, and we'll say so plainly if a client's chosen stone isn't well suited to how they've described using the room.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Stone type is the first variable — travertine and limestone generally cost less than premium marbles, and material cost itself varies considerably by origin, grade and finish (honed, polished or tumbled). Beyond the material, book-matching, mitred edges and complex set-outs all add labour time compared with a straightforward run of stone laid in a simple pattern. Floor structural checks and any reinforcement needed on an upper floor also factor in. We confirm the specifics at survey once your stone choice and the room's layout are known.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The stone itself is bought by you, typically from a stone merchant or specialist showroom rather than a standard tile retailer. If book-matching is part of the design, confirm with the supplier that slabs will be delivered in their cut sequence and clearly numbered — once slabs are mixed up out of sequence, book-matching often can't be recovered without ordering more stone.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Order a realistic overage given natural variation between slabs — more than you'd allow for porcelain — since replacing a single damaged piece later with an exact colour and vein match from a new batch is often impossible. Check slabs on delivery for consistent sequence numbering, correct finish, and transit damage before we arrive.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If you're sourcing stone from overseas or from a specialist quarry supplier, build the longer lead time into your project schedule — natural stone for a bespoke order can take considerably longer to arrive than a stocked porcelain range, and booking an installation date before the stone's confirmed on a delivery schedule is a common cause of avoidable delay. Ask the supplier to hold your slabs together as a single lot rather than releasing them individually from stock, so the batch and sequence numbering stays consistent right through to delivery.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/choosing-natural-stone-for-a-bathroom/" class="btn-secondary">Choosing natural stone for a bathroom</a>
+        <a href="/guides/porcelain-vs-natural-stone-tiles/" class="btn-secondary">Porcelain vs natural stone</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="natural-stone-and-marble-bathrooms-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

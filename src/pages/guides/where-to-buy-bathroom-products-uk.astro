@@ -1,0 +1,252 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Where to Buy Bathroom Products in the UK",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "As a fit-only installer, why do you point people to specific retailers?",
+    a: "Because you buy the bathroom and we fit it, so where you buy from genuinely affects how smoothly the job goes. We'd rather you know what to expect from each type of retailer before you order than find out mid-installation.",
+  },
+  {
+    q: "Is it less expensive to buy everything from one retailer?",
+    a: "Not necessarily. Many clients mix a showroom for sanitaryware and brassware with a separate specialist for tiles, and a builders' merchant for fixings and adhesives. What matters more than any single source is that everything arrives in time and matches the specification agreed at survey.",
+  },
+  {
+    q: "Should I buy own-brand or budget-friendly ranges for a luxury installation?",
+    a: "Budget-friendly ranges can work well for ancillary items — fixings, adhesive, backer board — where brand matters less. For the sanitaryware and brassware that define the room, we'd encourage you to spend where it shows: in weight, finish and the quality of the mechanism inside a concealed cistern or thermostatic valve.",
+  },
+  {
+    q: "Do showrooms help with technical specification, or just sell the display model?",
+    a: "Good showrooms will help confirm things like projection dimensions, waste positions and whether a model needs a specific carrier frame or fixing kit — details that matter to us as installers. Ask these questions before you order, and bring the answers to your survey.",
+  },
+  {
+    q: "What should I check before placing a large order?",
+    a: "Confirm lead times against your proposed start date, check the retailer's returns policy for faulty or wrong items, and make sure quantities for tiles include an allowance for cuts and wastage — covered in more detail in our delivery checklist guide.",
+  },
+  {
+    q: "The product listing doesn't say whether a carrier frame is included — what do I do?",
+    a: "Don't assume. Wall-hung pans, bidets and some concealed cisterns are sold with the frame bundled by some manufacturers and sold separately by others, and the difference isn't always obvious from a thumbnail image. Check the spec sheet or exploded diagram, or contact the retailer directly and get the answer in writing before you order.",
+  },
+  {
+    q: "Will I have to pay for returns on heavy items like a bath or vanity unit?",
+    a: "It varies by retailer and depends on why you're returning it. A genuinely faulty item is normally collected and refunded at no cost, but a change-of-mind return on a bulky item can carry a collection charge, and bespoke or made-to-size pieces — a cut-to-fit vanity top, for instance — are often non-returnable once the order is confirmed. Check this before you customise a size or finish, not after.",
+  },
+];
+
+const retailers = [
+  {
+    name: "Victoria Plum",
+    url: "https://www.victoriaplum.com",
+    desc: "A large online bathroom retailer covering sanitaryware, brassware, furniture and tiles across a wide range of price points, useful for comparing options before committing to a specification. Product pages generally list fixing centres and projection dimensions in full, which is useful for checking compatibility before you buy, though it's still worth confirming a wall-hung pan's carrier frame against what was discussed at survey rather than assuming it's bundled.",
+  },
+  {
+    name: "Bathstore",
+    url: "https://www.bathstore.com",
+    desc: "A long-established UK bathroom specialist with showrooms and online ordering, carrying a mix of own-brand and recognised manufacturer ranges across most budgets. The showroom network is genuinely useful if you want to see a shower enclosure's glass thickness or a bath's depth in person before ordering online, since in-store staff can usually talk through fixing kits and carrier frame compatibility directly.",
+  },
+  {
+    name: "Wickes",
+    url: "https://www.wickes.co.uk",
+    desc: "A builders' merchant and DIY retailer, genuinely budget-friendly for ancillary items — tile adhesive, grout, backer board, silicone and basic fixings — alongside a more affordable bathroom suite range. Most branches hold trade stock of the consumables a bathroom installation gets through in quantity, so it's a sensible same-day top-up option if an estimate for adhesive or grout runs short mid-job.",
+  },
+  {
+    name: "B&Q",
+    url: "https://www.diy.com",
+    desc: "A general DIY retailer with a broad bathroom and tiling range, useful for trade basics and own-brand fittings at accessible prices. Larger stores often carry a reasonable in-stock range of tile trim, sealants and basic brassware, which can help if a small item needs replacing quickly rather than waiting on a specialist order.",
+  },
+  {
+    name: "Screwfix",
+    url: "https://www.screwfix.com",
+    desc: "A trade-focused retailer for fixings, sealants, tools and plumbing consumables — genuinely inexpensive for the small items a bathroom installation gets through in quantity. Click-and-collect from a local branch within minutes of ordering makes it a practical source for the odds and ends that only become obvious once strip-out is under way, rather than something to plan a whole specification around.",
+  },
+  {
+    name: "Porcelanosa",
+    url: "https://www.porcelanosa.com/gb",
+    desc: "A premium showroom specialising in large-format porcelain and natural stone tiling, alongside coordinated bathroom furniture ranges, for clients prioritising a considered, high-end finish. Showroom staff can usually advise on batch availability for large-format tiles, which matters because a reorder months later to cover an unexpected breakage may not match the original batch's shade.",
+  },
+];
+---
+
+<Base
+  title="Where to Buy Bathroom Products in the UK | Install My Bathroom"
+  description="Where to buy sanitaryware, brassware, tiles and fixings for a fit-only bathroom installation — from budget-friendly basics to premium showrooms."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Where to Buy Bathroom Products", href: "/guides/where-to-buy-bathroom-products-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Where to Buy Bathroom Products in the UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Most clients buy from a mix of sources: a showroom or online retailer for sanitaryware and brassware, a tile specialist for porcelain or stone, and a budget-friendly builders' merchant for adhesives, fixings and basic trade items. What matters most is that everything is ordered against the specification agreed at your survey, with enough lead time before your installation start date.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why where you buy from matters to a fit-only job</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        As a fit-only installer, we don't supply your bathroom — you buy the sanitaryware, brassware, tiles and furniture, and we install them. That means the retailer you choose affects us too: lead times determine whether your start date holds, accurate dimensions determine whether a carrier frame or cistern fits the space surveyed, and a sensible returns policy determines what happens if something arrives damaged.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        There's no single right answer here. Some clients buy everything from one premium showroom for consistency of style and a single point of contact; others mix a specialist tile supplier with a budget-friendly merchant for the items that don't affect the finished look — grout, adhesive, backer board and fixings.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Retailers worth knowing</h2>
+      <div class="space-y-5 fade-up">
+        {retailers.map((r) => (
+          <div class="card p-5">
+            <h3 class="font-semibold text-lg mb-1">
+              <a href={r.url} target="_blank" rel="noopener" style="color: var(--teal);">{r.name} →</a>
+            </h3>
+            <p class="text-sm leading-relaxed" style="color: var(--text-soft);">{r.desc}</p>
+          </div>
+        ))}
+      </div>
+      <p class="text-xs mt-4" style="color: var(--text-soft);">
+        These are independent retailers. Install My Bathroom is not affiliated with, sponsored by, or commissioned by any retailer listed here — links are provided for convenience only.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Where to spend, and where budget-friendly is fine</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A luxury finish doesn't require every single item to come from the most expensive range on the shelf. Ancillary items — tile adhesive, grout, backer board, silicone, screws and brackets — do their job regardless of brand, and a budget-friendly merchant like Wickes or Screwfix is a sensible place to buy them without compromising the finished room.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The items that define how the room looks and performs over years — sanitaryware, brassware, the concealed cistern mechanism, the tile itself — are where spending more tends to show. Heavier porcelain, a better-finished brassware surface, and a cistern with a genuinely reliable flush mechanism all cost more to fit correctly if they're not specified well in the first place, so this is where it's worth taking more time over the decision.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Checking before you order</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Confirm lead times against your agreed start date before placing a large order — a long-lead item arriving late can push your whole installation back. For tiles, order enough for cuts and wastage, and check all boxes are from the same batch to avoid visible shade variation across the room. For sanitaryware with a specific waste or fixing position, double-check the dimensions against what was confirmed at survey, particularly for concealed cisterns and wall-hung units that need a matching carrier frame.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        When deliveries arrive, inspect them before the installation date rather than on the morning work is due to start — our delivery checklist guide below covers exactly what to look for.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Showroom versus online retailer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A physical showroom lets you see a brassware finish or a tile under real light, handle the weight of a bath panel, and stand inside a display shower enclosure to judge scale before you commit — genuinely useful for a luxury specification where the tactile quality of a finish is part of what you're paying for. Online retailers tend to offer a wider catalogue, clearer pricing comparisons, and faster ordering once you already know exactly what you want, which suits items you're confident about from a sample or swatch.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A sensible approach for many clients is to use a showroom to settle on finishes and confirm scale for the items that matter most to the room's overall look — the bath, the vanity, the tiles — then order ancillary items and fixings online or from a local merchant once the main specification is locked in. Either route is fine, provided the dimensions and waste positions are confirmed against what was agreed at survey before you place a large order.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Buying across multiple retailers without losing track</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Splitting an order across several retailers is common and sensible, but it does mean more coordination falls to you as the client. Keep a single master list of every item, its retailer, order reference, and expected delivery date, and check it against the installation start date agreed at survey — a late-arriving vanity or a backordered tile batch is one of the most common causes of a delayed start once everything else is ready to go.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also worth confirming each retailer's policy on faulty or incorrect items before you order, not after a problem arises. A showroom with a slower but more personal returns process might suit a considered, lower-volume order; a large online retailer's standardised policy might suit smaller ancillary items bought in bulk. Either way, knowing the process in advance means a problem on delivery day doesn't turn into a delay to your installation date.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Verifying carrier frames, fixing kits and returns before you click buy</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A wall-hung WC, bidet or basin needs a carrier frame to fix to, and whether that frame is included with the pan or sold as a separate line item varies by manufacturer and even by range within the same manufacturer. A product thumbnail rarely makes this clear. Check the full spec sheet or exploded diagram on the product page, and if it isn't obvious, ask the retailer directly and get the answer in writing by email rather than relying on a verbal confirmation over the phone — it's the kind of detail that's far easier to resolve before an order ships than after a fitting day is lost waiting for a missing part.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The same applies to fixing kits for vanity units, mirrors and heated towel rails — some arrive with wall plugs, brackets and a template included, others assume you'll source your own, and the difference matters when a fixing needs to suit a stud wall, a tiled masonry wall, or a reinforced area behind the tiling that was discussed at survey. If a listing doesn't specify, treat it as a question worth asking rather than a detail to discover once the item is unboxed on site.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        On returns, read the policy for genuinely faulty or wrong items separately from the policy for a simple change of mind — the two are often treated very differently. A faulty item is normally collected and refunded or replaced at no cost, but a change-of-mind return on something bulky like a bath or vanity unit can carry a collection charge, and bespoke or cut-to-size pieces are frequently excluded from returns altogether once the order is confirmed. If you're customising a finish, size or configuration, check this before you confirm rather than after.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Whichever retailer you order from, photograph every item as it's unpacked and before installation begins, and note any visible damage on the delivery note itself at the point of signing. This single habit does more than almost anything else to make a faulty-item claim straightforward rather than a drawn-out argument about whether the damage happened in transit or afterwards.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large-Format Porcelain Tiling</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">What to check on delivery</a>
+        <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="btn-secondary">Fit-only vs design and build</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/wokingham/" class="btn-secondary">Wokingham</a>
+        <a href="/areas/reading/" class="btn-secondary">Reading</a>
+        <a href="/areas/maidenhead/" class="btn-secondary">Maidenhead</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Retailer names referenced are correct and independently verifiable at the time of writing. Tiling quantity and wastage allowances follow BS 5385 recommended practice; installation requirements for carrier frames and cisterns follow manufacturer guidance current at the time of writing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="where-to-buy-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

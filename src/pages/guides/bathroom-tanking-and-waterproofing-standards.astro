@@ -1,0 +1,270 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Tanking and Waterproofing Standards",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is tanking a legal requirement in a UK bathroom?",
+    a: "There's no single law mandating a specific tanking system, but Building Regulations Part C requires floors and walls to resist moisture, and tile adhesive and membrane manufacturers make their warranties conditional on tanking being installed to BS 5385 guidance. In practice, it's not optional on a wet area that's done properly.",
+  },
+  {
+    q: "How long does tanking need to cure before tiling?",
+    a: "It depends on the system, but most liquid membranes need each coat touch-dry before the next, and full cure — typically 24 to 48 hours per coat, more in cold or humid conditions — before tiling begins. We follow the manufacturer's data sheet for the specific product used, not a generic timeline.",
+  },
+  {
+    q: "Does the whole bathroom need tanking, or just the shower?",
+    a: "A walk-in shower or enclosure needs tanking within its footprint and a surrounding splash zone; a wet room needs the full floor and often the full wall height. A bathroom with a bath and no shower over it needs less, but splashback zones around basins and baths still benefit from it.",
+  },
+  {
+    q: "Can tanking be applied over old tiles?",
+    a: "Not reliably. Old tiles and adhesive can trap moisture or delaminate once compressed under a new membrane, and most tanking systems specify a sound, primed substrate. We strip back to a stable surface before tanking rather than build over an unknown base.",
+  },
+  {
+    q: "What's the difference between tanking and a waterproof board system?",
+    a: "A liquid or sheet membrane is painted or bonded directly to the existing substrate; a waterproof tile backer board is a pre-waterproofed panel fixed in place of standard plasterboard, with joints and penetrations sealed separately. Both meet the same end requirement — a continuous waterproof layer — by different methods, and we choose based on the substrate and programme.",
+  },
+  {
+    q: "How do you know tanking has been done properly once it's tiled over?",
+    a: "You largely have to trust the process, which is why the sequence matters — pressure-testing waste connections before boarding, photographing the tanked surface before it's covered, and never tiling over a membrane that hasn't fully cured. We document this stage so there's a record if it's ever needed.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Tanking & Waterproofing Standards | IMB"
+  description="How bathroom tanking actually works — coverage, cure times and the standards it's measured against — and why it's done before a single tile is laid."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Tanking & Waterproofing Standards", href: "/guides/bathroom-tanking-and-waterproofing-standards/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Tanking and Waterproofing Standards</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Tanking is a continuous waterproof membrane applied to floors and walls before tiling, stopping water reaching the structure beneath. Coverage and cure times are set by BS 5385 and manufacturer guidance, not by how it's tiled over. A shower needs tanking within its footprint; a wet room needs the whole floor and often the full wall height.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Tiles themselves aren't waterproof — grout joints and the porosity of the tile allow some moisture through over time, and it's the layer beneath that actually keeps water out of the floor and wall structure. Get tanking wrong and the problem rarely shows up straight away; it surfaces months or years later as a damp patch on a ceiling below, a soft floor, or grout that keeps blackening no matter how often it's cleaned. Because the evidence of good tanking is invisible once the room is finished, it's one of the few parts of an installation where the standard genuinely matters more than the finish on top of it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Coverage requirements -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Coverage by area type</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Area</th>
+              <th class="text-left py-3 font-semibold">Typical tanking coverage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Shower enclosure floor</td>
+              <td class="py-3" style="color: var(--text-soft);">Full enclosure footprint plus upstand onto adjoining walls</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Shower enclosure walls</td>
+              <td class="py-3" style="color: var(--text-soft);">Full height within the enclosure, typically to ceiling in a cubicle, minimum 1800mm elsewhere</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Wet room floor</td>
+              <td class="py-3" style="color: var(--text-soft);">Entire room floor, not just the shower area, with falls formed before the membrane goes on</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Wet room walls</td>
+              <td class="py-3" style="color: var(--text-soft);">Often full room perimeter to a minimum height, higher within direct spray zones</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bath surround / splashback</td>
+              <td class="py-3" style="color: var(--text-soft);">Upstand around the bath edge and tap area, less extensive than a shower</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">General floor (bathroom, no shower over)</td>
+              <td class="py-3" style="color: var(--text-soft);">Decoupling or moisture-resistant membrane at floor level, particularly over timber substrates</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How a tanking system is applied</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Substrate preparation.</strong> <span style="color: var(--text-soft);">Surface checked for soundness, cracks and movement, primed where the manufacturer's system requires it.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Corner and junction reinforcement.</strong> <span style="color: var(--text-soft);">Waterproof tape or fleece bedded into the membrane at every internal corner, floor-to-wall junction and pipe penetration — these points fail more often than open flat surfaces.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>First coat applied.</strong> <span style="color: var(--text-soft);">Liquid membrane rolled or brushed to an even thickness, or sheet membrane bonded, across the full area defined by the coverage requirement.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Second coat, cross-direction.</strong> <span style="color: var(--text-soft);">Applied once the first is touch-dry, usually at right angles to the first pass to eliminate pinholes and thin spots.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Full cure before tiling.</strong> <span style="color: var(--text-soft);">Left for the manufacturer's stated cure time — not rushed to hit a programme date — before any adhesive or tile touches it.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">6</span>
+          <div><strong>Flood test where appropriate.</strong> <span style="color: var(--text-soft);">On wet room floors in particular, standing water left overnight before tiling confirms there's no leak path to the structure below.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Membrane vs board -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Liquid membrane vs. waterproof tile backer board</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A liquid or sheet membrane is applied to an existing substrate — plasterboard, plywood, screed or masonry — once it's prepared, and is the more flexible option where the substrate is sound and the room's geometry is straightforward. A waterproof tile backer board replaces standard plasterboard or floor decking entirely with a pre-waterproofed panel, with joints taped and sealed and penetrations individually treated — a good option where the substrate itself needs replacing anyway, such as during a full strip-out, since it combines the board and the waterproofing into a single fixing stage.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Neither is inherently better; the choice depends on the substrate condition, the room's shape, and the programme. A straightforward rectangular shower enclosure on a sound masonry wall might suit either equally well, while a complex wet room floor with multiple penetrations for waste pipework often favours a liquid membrane's ability to flow into and seal around awkward details more readily than a cut board edge.
+      </p>
+    </div>
+  </section>
+
+  <!-- Failure signs -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Signs of a tanking failure after the fact</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Because tanking sits behind the finished surface, failure rarely announces itself where you'd expect. A damp patch or discolouration on a ceiling below a bathroom, grout that darkens and won't lighten again no matter how it's cleaned, a faint musty smell that wasn't there before, or tiles that sound hollow when tapped are all signs worth investigating rather than dismissing as cosmetic. None of these prove a tanking failure on their own, but together, or persisting after cleaning, they're reason enough to have the area properly assessed before the problem spreads to the floor structure itself.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        The cost of investigating and, if needed, redoing tanking that's failed is substantially higher than doing it properly the first time, simply because by the time it's noticed, finished tiling, grout and sometimes floor structure have to come out to get at the membrane beneath — which is really the whole argument for not treating this stage of a bathroom installation as one to rush.
+      </p>
+    </div>
+  </section>
+
+  <!-- Penetrations and junctions -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why penetrations and junctions matter more than flat surfaces</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A flat, uninterrupted expanse of floor or wall is the easiest part of any tanking job to get right — roll or brush an even coat, let it cure, move on. Almost every tanking failure we've been asked to investigate over the years traces back to a junction instead: the corner where floor meets wall, the point where a waste pipe passes through the membrane, the gap behind a bath upstand, or the seam where two sheets of membrane overlap. These points need dedicated reinforcement — waterproof tape or fleece bedded into the membrane itself, not just a slightly thicker coat of the same liquid — because they're where the substrate moves slightly, where cuts are made, and where a membrane is most likely to be thinned or missed during application.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        This is also why we treat every pipe penetration — waste outlets, supply pipes, any fixing point for a frame or bracket that passes through the tanked zone — individually, sealing around it before the surrounding area is coated, rather than hoping a general coat of membrane will adequately cover an irregular opening. It takes longer than tanking a flat wall, but it's the stage that actually determines whether the room stays dry.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Tanking on timber floors versus solid floors</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A solid concrete floor gives a stable, largely static substrate for tanking to bond to, which is one reason ground-floor wet rooms are generally the more straightforward installation. A timber floor moves slightly under load and with changes in humidity, and that movement has to be accommodated rather than ignored — typically through a decoupling layer beneath the tanking membrane, or a tanking system specifically rated for flexible substrates, so that normal floor deflection doesn't crack a rigid membrane over time. This is confirmed at survey against your specific floor build-up, since the wrong assumption here is one of the more consequential mistakes to make before a floor's been opened up for closer inspection.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tanking coverage and application referenced here follows BS 5385-1 (ceramic tiling to walls), BS 5385-3 (floor tiling) and BS 5385-4 (tanking and wet rooms specifically). Resistance to moisture penetration through floors and walls follows Building Regulations Part C. Specific cure times and primer requirements follow the manufacturer's data sheet for the membrane system used on your project.
+      </p>
+    </div>
+  </section>
+
+  <!-- Documentation -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why we photograph tanking before it's covered</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Once tiling goes down, tanking becomes invisible for the working life of the room, which means there's no way to inspect it again without taking the finished surface back up. We photograph the completed, cured membrane before any tile adhesive touches it — covering every wall, the floor, and particularly the corner and penetration details — and keep that record against your project. It's a small additional step that costs nothing in time, but it's the only evidence either of us has, years later, of exactly how the waterproofing beneath a finished floor was actually done, which matters if a future question ever arises about where water might be getting in.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Tanking around baths and vanity units, not just showers</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A bath without a shower over it still benefits from tanking at the surrounding upstand and behind the tap area, since splashing from bathing and the occasional overflow test the same junctions as a shower would, just less intensively. A wall-hung vanity unit positioned above a tiled floor doesn't usually need tanking of its own, but the floor beneath and around it still needs the general moisture-resistant treatment appropriate to a bathroom floor, particularly where a water-fed appliance such as a washing machine shares the same room, as is common in a combined bathroom-utility layout in some homes.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        None of this needs the same intensity of coverage as a wet room or shower enclosure, but treating a bathroom's non-shower areas as needing zero waterproofing at all is a common oversight worth avoiding, particularly on a ground floor above a cellar or crawl space where any moisture ingress has somewhere unwelcome to travel to.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/wet-room-vs-walk-in-shower/" class="btn-secondary">Wet room vs walk-in shower</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Large format tile tolerances</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="tanking-standards-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

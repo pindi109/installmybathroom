@@ -1,0 +1,172 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Do you fit bathrooms in the riverside properties along the Thames in Maidenhead?",
+    a: "Yes, we regularly work on properties close to the river as well as further into the town — riverside plots can bring their own access considerations, which we talk through at survey before pricing the job.",
+  },
+  {
+    q: "What kind of properties do you typically fit in Maidenhead?",
+    a: "A wide range, from larger detached houses near the Thames to Victorian and Edwardian town housing and more recent suburban and town-centre development. We price each property individually rather than assuming a single build type.",
+  },
+  {
+    q: "Do older Maidenhead properties need extra checks before a wet room installation?",
+    a: "Often, yes. Period properties, particularly larger older houses near the river, can have suspended timber floors that need checking for deflection before a wet room is tanked or large-format porcelain is laid. We assess this at survey.",
+  },
+  {
+    q: "Is planning permission needed for a bathroom refit in Maidenhead?",
+    a: "A standard like-for-like internal refit doesn't normally need planning permission. It can matter if your property is listed, within a conservation area, or if the work affects the external fabric of the building — we'll flag that at survey if it applies.",
+  },
+  {
+    q: "What's the water pressure like in Maidenhead?",
+    a: "It varies by property age and location — newer housing is generally on consistent mains pressure, while some older riverside and town properties may still run partly on a gravity-fed system. We measure pressure and flow at every survey before specifying a shower.",
+  },
+  {
+    q: "How far is Maidenhead from your Bracknell base?",
+    a: "Around 20 to 25 minutes by road.",
+  },
+  {
+    q: "Can you fit a bathroom in a Maidenhead town-centre apartment?",
+    a: "Yes, though newer apartment schemes sometimes have specific requirements around noise transmission between floors and where waste can connect into a shared riser — both of which we check against the building's own rules at survey.",
+  },
+  {
+    q: "What does your installation include day to day on a Maidenhead job?",
+    a: "Strip-out, first-fix plumbing and electrics, tanking where needed, tiling, and final fix and snagging, with floors and stairs protected throughout and the site left clean at the end of each day.",
+  },
+  {
+    q: "Can you coordinate a Maidenhead installation around a wider renovation or extension?",
+    a: "Yes, we regularly sequence our work around builders, electricians and other trades on larger projects, agreeing a clear programme at survey so the bathroom fit slots in at the right point rather than causing delays.",
+  },
+  {
+    q: "Do you fit shower toilets and smart bathroom technology in Maidenhead properties?",
+    a: "Yes, including shower toilets, digital shower systems and underfloor heating controls. These usually need a dedicated electrical supply run to the right point in the room, which we plan for at first fix once your exact model is confirmed.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Maidenhead | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Maidenhead, Berkshire. Riverside and town homes, from £3,500. 20-25 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Maidenhead", href: "/areas/maidenhead/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Maidenhead</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms across Maidenhead, the Berkshire town on the River Thames, around 20 to 25 minutes from our Bracknell base. You buy the sanitaryware, brassware and tiles; we carry out the strip-out, first fix, tiling and final fit, from £{business.pricing.fromGBP.toLocaleString()}. From a single riverside en-suite to a full renovation across a larger family house, every job is priced from a survey of the actual room and building, not a standard rate card.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Maidenhead's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Maidenhead's position on the Thames has shaped much of its more prestigious housing — larger detached properties along and near the river, some period, some built more recently, generally on generous plots that give more freedom over bathroom layout than a terraced property allows. Away from the riverside, the town has a substantial core of Victorian and Edwardian housing, along with extensive post-war and modern suburban development and newer town-centre apartment schemes, so the range of construction types we work with here is wide.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        That range means floor and wall construction has to be checked on a property-by-property basis rather than assumed from the area. Older riverside and Victorian houses are more likely to have suspended timber floors, which need assessing for deflection before large-format porcelain or a tanked wet room goes in. More recent housing and apartment conversions generally sit on solid concrete floors, which usually need less preparation, though apartment conversions can bring their own constraints around waste runs and shared risers that we check at survey.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bathroom layouts in Maidenhead span a similarly wide range. Larger riverside and Victorian houses often have the room to accommodate a freestanding bath alongside a separate walk-in shower, or a dedicated wet room off a principal bedroom; more compact Edwardian terraces and suburban semis tend to need a tighter layout built around a single fixed bathroom footprint; newer apartment schemes usually come with a standard en-suite layout that leaves limited scope for repositioning drainage. We work out what's genuinely achievable for your room at survey before any products are ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Water systems vary similarly — some of the larger, older properties can still have a gravity-fed hot water circuit from a loft tank, even where the incoming mains is strong, which affects shower performance if it isn't measured. We test actual pressure and flow at every survey before specifying a digital or thermostatic shower.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Maidenhead</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        You source the sanitaryware, brassware and tiles; we confirm dimensions and fixing centres against those exact products before delivery, then carry out the strip-out, first-fix plumbing and electrics, tanking where required, tiling and final fix. On riverside properties and newer apartment schemes we also check waste connection points and any building-specific requirements around noise transmission between floors before work starts, since these can affect how a wet room or walk-in shower is built up.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Throughout the job we protect flooring, stairs and communal areas with boards and sheeting, agree parking and delivery access in advance where that's a constraint, and leave the site clean and tidy at the end of each working day.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit doesn't normally require planning permission. It can become relevant on listed buildings, within conservation areas, or where work affects the external fabric of the building — a new extraction vent through an outer wall is the most common example. If your Maidenhead property might be affected, we'll flag it plainly at survey and point you to the local planning authority to confirm before any materials are ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Apartments and converted properties can also have lease terms governing alterations, independent of statutory planning permission — some management companies require notice, or sign-off, before plumbing or waste connections are altered. We'll ask whether this applies to your property at survey stage.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Maidenhead</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in Windsor, home to Windsor Castle, its neighbouring town of Eton across the Thames, and the village of Twyford further along the river towards Reading — all within a similar drive time of our Bracknell base.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/eton/" class="btn-secondary">Eton</a>
+        <a href="/areas/twyford/" class="btn-secondary">Twyford</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="maidenhead-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        A £{business.pricing.surveyGBP} survey brings a qualified installer to your Maidenhead property to measure the room, check the floor and wall construction, test water pressure, and confirm exactly what your chosen bathroom needs to go in correctly. You'll get a clear, itemised quote and a realistic start date before committing to anything, whether the job is a single en-suite or a full house of bathrooms.
+      </p>
+      <a href="/survey/" class="btn-primary">Book a Survey in Maidenhead</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

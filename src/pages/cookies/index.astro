@@ -1,0 +1,68 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+---
+
+<Base
+  title="Cookie Policy | Install My Bathroom"
+  description="What cookies and local storage installmybathroom.co.uk uses, including the Amy chat widget, and how to control them in your browser."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Cookies", href: "/cookies/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Cookie Policy</h1>
+      <p class="text-sm mb-10 fade-up" style="color: var(--text-soft);">Last updated: {LAST_UPDATED}</p>
+
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        This page explains what cookies and similar storage technologies installmybathroom.co.uk uses, and what control you have over them.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What are cookies</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        A cookie is a small text file a website can store in your browser, typically used to remember information between visits. Some sites also use similar technologies, such as browser local storage, for the same kinds of purposes.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Cookies we use</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        This site doesn't set advertising or tracking cookies by default. We may use Google Analytics to understand general site usage — which pages are visited, roughly how people reach the site — to help us improve it. Where Google Analytics is active, it may set cookies to distinguish visitors and sessions. We're in the process of ensuring this is properly consent-gated; if you'd prefer not to be included, you can block analytics cookies using the browser controls described below.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We don't use advertising or remarketing cookies, and we don't sell data collected through any analytics tool to third parties.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">The Amy chat widget</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        The "Amy" chat widget on this site uses your browser's local storage, not a cookie, to keep track of your conversation while you're on the site. This storage is held client-side in your own browser and isn't a tracking cookie shared with advertising networks. Your messages may be sent to the Anthropic Claude API to generate a response — see our <a href="/privacy/" class="underline" style="color: var(--teal);">privacy policy</a> for how that's handled.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Forms</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Our enquiry and survey booking forms are processed via Netlify Forms, which may use a small amount of browser storage or a cookie for spam protection when you submit a form. This is functional, not advertising-related.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Controlling cookies</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        You can control or delete cookies through your browser settings. Most browsers let you see what cookies are stored, remove some or all of them, and block cookies from being set in future. Doing so may affect how some features of this or other sites behave, though the core content of this site will still work with cookies disabled.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Instructions vary by browser — check your browser's help documentation (Chrome, Safari, Firefox and Edge all publish their own guidance) for how to manage cookie settings.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Questions</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        If you have questions about this policy, email <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a>. See also our <a href="/privacy/" class="underline" style="color: var(--teal);">privacy policy</a> and <a href="/terms/" class="underline" style="color: var(--teal);">terms</a>.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

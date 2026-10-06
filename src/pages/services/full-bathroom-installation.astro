@@ -50,6 +50,18 @@ const faqs = [
     q: "Is the work guaranteed?",
     a: "Our workmanship guarantee covers the installation itself. Manufacturer defects in the products you've supplied sit with the manufacturer or retailer, as set out in our terms.",
   },
+  {
+    q: "Does my existing floor type affect cost or timeline?",
+    a: "It can. A suspended timber floor sometimes needs additional stiffening, an uncoupling membrane, or a smaller tile format to suit large-format porcelain or natural stone, which is assessed at survey rather than discovered after tiling has started. A solid concrete floor is generally more straightforward, though moisture readings are still taken before tanking.",
+  },
+  {
+    q: "How do you protect the rest of my home while work is ongoing?",
+    a: "Floor protection boards and taped-down dust sheets cover the full route from the access point to the bathroom — hallway, stairs, landing — not just the room itself, and stay in place for the whole project. Daily clean-down keeps communal areas usable each evening rather than only at completion.",
+  },
+  {
+    q: "What happens if strip-out finds something the survey couldn't see?",
+    a: "Work on the affected area pauses while we show you what's been found and agree how to proceed. Genuine substrate issues — a damp patch, a joist needing attention, a waste run in poor condition — are priced and agreed with you before the programme continues, rather than absorbed silently into the original scope.",
+  },
 ];
 ---
 
@@ -66,6 +78,9 @@ const faqs = [
       <h1 class="text-4xl font-bold mb-4 fade-up">Full Bathroom Installation</h1>
       <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
         A full bathroom installation strips the room back to brick and joist and rebuilds it around the sanitaryware, brassware and tiles you've already bought — strip-out, first fix, tanking, tiling and second fix, typically 2–3 weeks, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's the service most clients mean when they say they're "redoing the bathroom" — a complete rebuild rather than a cosmetic refresh, so every element from the waste routes under the floor to the last mitred tile edge is set out, checked and signed off as one continuous project rather than a sequence of separate trades booked in and hoped to line up. We coordinate the sequencing, the substrate checks, and the trades that need registration — gas, Part P electrics, unvented cylinders — so you have one point of contact for the whole project rather than a different number to call for each stage.
       </p>
       <div class="flex flex-wrap gap-4 fade-up">
         <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
@@ -129,12 +144,31 @@ const faqs = [
     </div>
   </section>
 
-  <!-- Technical standards -->
+  <!-- Sequencing -->
   <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Sequencing, week by week</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The five stages above run to a tighter internal sequence than they first appear, and it's this sequence — not just the headline 2–3 week figure — that determines whether a project stays on programme.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Week one is strip-out, first-fix plumbing and first-fix electrics, with any substrate findings surfacing and being resolved inside the same week rather than carried into week two. The dustiest, messiest work is front-loaded here, so protection measures are at their most robust early rather than relaxed over time.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Week two begins once tanking has cured — a day or two depending on the product and ambient temperature — before tiling starts. Floor tiling is generally set and checked for falls before wall tiling begins in a wet area, with centre-line set-out marked before the first tile is cut, so joints are checked against the room's true centre rather than whichever wall happens to be squarest.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Week three, where needed, is second fix — sanitaryware, brassware, lighting, towel radiator, mirror — followed by sealant, testing and snagging. Shorter projects without a layout change or a wet room floor often complete second fix within week two instead, which is why the published range is 2–3 weeks rather than a single fixed figure. Any change in scope found during strip-out is confirmed with you before the following stage starts, never absorbed into the programme silently.
+      </p>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
       <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        Tanking follows current waterproofing guidance for wet areas (BS 5385), with full-height protection in shower enclosures and a minimum upstand elsewhere. Falls to drain are set before tiling, not adjusted afterwards. Large-format porcelain is checked for lippage as each row goes down, and tile joints are set out from centre lines so they line through from floor to wall rather than being forced to fit at the edges.
+        Tanking follows current waterproofing guidance for wet areas (BS 5385) — see our <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="underline" style="color: var(--teal);">tanking and waterproofing standards</a> guide for the detail — with full-height protection in shower enclosures and a minimum upstand elsewhere. Falls to drain are set before tiling, not adjusted afterwards. Large-format porcelain is checked for lippage as each row goes down, with tolerances covered in our <a href="/guides/large-format-tile-installation-tolerances/" class="underline" style="color: var(--teal);">tile installation tolerances</a> guide, and tile joints are set out from centre lines so they line through from floor to wall rather than being forced to fit at the edges.
       </p>
       <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
         Any gas work, Part P-notifiable electrical work, or work on an unvented hot water cylinder is carried out by an appropriately registered engineer as part of the project — we coordinate this so you have one point of contact rather than managing separate trades.
@@ -150,12 +184,47 @@ const faqs = [
     </div>
   </section>
 
-  <!-- What you supply -->
+  <!-- Substrate -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Solid concrete and suspended timber floors need different approaches</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        What's underneath the existing floor finish changes how we approach tanking, movement and tile selection — confirmed at survey, not assumed from the finish you can currently see.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A solid concrete floor — a ground-bearing slab, or a suspended concrete floor in a flat or newer build — is rigid and generally the more forgiving substrate for large-format porcelain and natural stone, since there's negligible deflection under normal domestic loading. Moisture readings are still taken before tanking, since a slab that looks dry can be carrying residual construction moisture for longer than expected, particularly in newer builds.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A suspended timber floor moves under load in a way concrete doesn't, and that movement is what cracks grout joints and, eventually, tiles, if it isn't designed out before tiling begins. We check joist spacing, span and general stiffness at survey; depending on what we find, the fix might be additional noggins between joists, an uncoupling membrane beneath the tile bed, a stiffer sub-floor board, or in some cases a recommendation to use a smaller tile format than originally specified. Deflection that feels negligible underfoot can still exceed the tolerance a rigid porcelain or stone floor needs to stay crack-free over years rather than months.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a layout change or a wet-area floor level change is part of the brief, substrate type also affects how a fall to drain is achieved: a concrete floor is more commonly cut back or built up with screed, while a timber floor is more commonly adjusted by notching or dropping joists under building control guidance. Both routes are confirmed at survey, before tiling is ordered, since tile format and floor build-up interact with each other more than most clients expect.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting the house -->
   <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting the rest of the home during the work</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A full bathroom installation runs for several weeks inside an occupied home, and most of the risk to the rest of the property sits outside the room being worked on — the hallway, stairs and landing that materials, old suite sections and debris travel through, repeatedly, for the length of the project.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor protection boards go down on hard flooring and dust sheets are taped to carpet along the full route from the access point to the bathroom, not just inside the room itself, and this stays in place for the whole project rather than being removed once strip-out finishes. Door linings, bannisters and any furniture close to the route are padded where materials are likely to catch against them on the way past.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Daily clean-down is part of the programme, not an afterthought at the end: dust is controlled at source where possible, and communal areas of the house are left usable at the end of each working day rather than handed back only at project completion. Where access is tight — a narrow staircase, a period property with limited turning space for a bath or full sheets of tile — this is assessed at survey, since it can affect which products fit through the house at all, as well as how carefully they need to travel once inside.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
       <p class="leading-relaxed" style="color: var(--text-soft);">
-        Sanitaryware, brassware, tiles and furniture are bought by you — from a showroom, a manufacturer direct, or a retailer such as those on our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. At survey stage we confirm exact models, required carrier frames, and delivery timing. Inspect everything on arrival: delays or return visits caused by missing, damaged or incorrect items are chargeable, which is why catching a problem before we're on site matters.
+        Sanitaryware, brassware, tiles and furniture are bought by you — from a showroom, a manufacturer direct, or a retailer such as those on our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. At survey stage we confirm exact models, required carrier frames, and delivery timing. Inspect everything on arrival — our <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="underline" style="color: var(--teal);">delivery checklist guide</a> covers what to look for — since delays or return visits caused by missing, damaged or incorrect items are chargeable, which is why catching a problem before we're on site matters.
       </p>
     </div>
   </section>
@@ -169,11 +238,18 @@ const faqs = [
         <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
         <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
         <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Bathroom Strip-Out &amp; Preparation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
       </div>
       <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
       <div class="flex flex-wrap gap-3 mb-10 fade-up">
         <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Cost guide</a>
         <a href="/guides/how-long-does-a-bathroom-installation-take/" class="btn-secondary">Timeline guide</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking standards guide</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Tile tolerances guide</a>
+        <a href="/guides/what-our-125-survey-includes/" class="btn-secondary">What the survey includes</a>
+        <a href="/guides/questions-to-ask-a-bathroom-installer/" class="btn-secondary">Questions to ask an installer</a>
       </div>
       <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
       <div class="flex flex-wrap gap-3 fade-up">

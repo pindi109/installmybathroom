@@ -1,0 +1,267 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What Our £125 Survey Includes",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is the £125 survey fee deducted from the installation cost if I book?",
+    a: "Ask us when you book the survey — the current arrangement is confirmed at that point so there's no ambiguity about how it applies to your project.",
+  },
+  {
+    q: "Do I need to have chosen my bathroom suite before the survey?",
+    a: "It helps, but it isn't essential. A firm layout and specification lets us give you an exact quote on the day; if you're still deciding, we'll survey the room's constraints and follow up once your choices are settled.",
+  },
+  {
+    q: "How long does the survey itself take?",
+    a: "It depends on the room and the scope being considered, but most surveys take under an hour on site, covering measurements, services checks, and a walk-through of the proposed layout.",
+  },
+  {
+    q: "Can the survey tell me if my chosen layout won't work?",
+    a: "Yes — that's one of its main purposes. If a wet room needs a floor built up more than the space allows, or a wall won't take the weight of a planned stone vanity, we'll flag it at survey, before you've bought anything.",
+  },
+  {
+    q: "What if I haven't decided between a few different layouts?",
+    a: "Bring the options to the survey. We can look at the room against two or three layouts and talk through what each one involves in terms of waste moves, floor build-up and likely cost difference.",
+  },
+  {
+    q: "Does the survey cover water pressure for a rainfall shower or digital shower?",
+    a: "Yes. We check static pressure and flow rate at the relevant outlets, which determines whether a rainfall head or digital shower will perform as expected, or whether a pump or other intervention is needed first.",
+  },
+  {
+    q: "What should I have ready before the surveyor arrives?",
+    a: "Access to the room itself, obviously, plus details of your proposed layout or specification if you've settled on one — a plan, a showroom quote, or even a rough sketch all help. It's also useful to know roughly when you'd like the work to start, and to have cleared the room of anything that would obstruct measuring, such as stored boxes or furniture.",
+  },
+  {
+    q: "Who needs to be present during the survey?",
+    a: "Ideally, whoever's making the decisions on layout and specification, since we'll often talk through two or three options on the day and it helps to have that conversation with the person who'll actually be living with the result. It isn't essential for every household member to attend, but it avoids a second visit if a decision needs revisiting afterwards.",
+  },
+  {
+    q: "Will I get anything in writing on the day, or does it follow afterwards?",
+    a: "The written scope and fixed quote follow after the visit, once measurements and findings have been worked through properly rather than estimated on the spot. We'll usually give you a realistic indication of cost and timescale before we leave, with the full written document to follow.",
+  },
+];
+---
+
+<Base
+  title="What Our £125 Survey Includes | Install My Bathroom"
+  description="What happens during our £125 pre-installation survey — measurements, services checks, substrate inspection, and how it turns into a fixed written quote."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "What Our £125 Survey Includes", href: "/guides/what-our-125-survey-includes/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">What Our £{business.pricing.surveyGBP} Survey Includes</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Our £{business.pricing.surveyGBP} survey is a site visit that measures the room, checks water pressure and the electrical supply, inspects the floor and wall substrate, and reviews your proposed layout against the practical constraints of the space. It produces a written scope and a fixed quote — the figure to actually budget against, rather than a ballpark given sight unseen.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why a site visit, not a photo quote</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A photograph shows you what a room looks like, not whether a wall is plumb, a floor is level, or a pipe run behind the plaster will support a moved waste position without lifting the floor. Pressure and flow rate at the shower outlet can't be read from an image either, and that single figure determines whether a rainfall head or digital shower will perform the way the brochure suggests. A site visit catches these things before you've ordered anything, not after a delivery sits in your hallway waiting for a start date that has to be pushed back.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It also means the quote you receive is scoped against your actual room and your actual specification, rather than a generic figure that gets revised upwards once work starts and the real conditions are found.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What actually happens during the visit, step by step</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The surveyor walks the room with you first, talking through how you use the space and what you want from the finished installation, before any tape measure comes out. From there, the visit follows a reasonably consistent sequence: room dimensions, door swing, ceiling height and any sloped or restricted areas are measured and recorded; existing service positions are located, including the stopcock, soil pipe route, and what's available at the consumer unit; water pressure and flow rate are tested at a relevant outlet; and, where access allows, the floor and wall substrate is checked — lifting an existing tile at an inconspicuous point, or probing at skirting level, to see what's actually underneath rather than guessing from what's visible on the surface.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Your proposed layout, or the two or three options you're weighing up, gets talked through against those findings while we're still on site, so you hear directly what each option would involve — a waste move, a change to floor build-up, a different fixing requirement — rather than receiving that as a surprise in the quote later. Before leaving, we'll give you a realistic steer on likely cost and timescale, with the full written scope and fixed quote to follow once we've worked through the detail properly back at the office.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Measurements and layout</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We take accurate room dimensions, door swing, ceiling height and any sloped or restricted areas, and set these against your proposed layout — whether that's a straight like-for-like refit or a full reconfiguration with moved waste positions. Where a layout is still undecided, we'll talk through two or three options against the room's actual constraints, including what each one means for waste runs, floor build-up and finished floor height relative to an adjoining room.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Set-out from centre lines is considered here too — where tile joints will land relative to the vanity, bath panel and door, so the finished room reads as a deliberate, considered layout rather than tiles cut awkwardly at the edges to fit whatever was there before.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Water pressure, supply and drainage</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We check static water pressure and flow rate at the relevant points, since this governs whether a rainfall shower head, twin-outlet system or digital shower will deliver the performance shown in a showroom. Older properties, particularly large detached and period homes with narrower-bore original pipework, sometimes show lower pressure than a modern estate house, which can mean a pump or alternative specification is worth discussing before you order a specific shower system.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also check existing drainage — waste pipe diameter, fall, and the practicality of achieving a correct fall to drain for a wet room or level-access shower, particularly on upper floors or over an existing timber joist structure.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Electrical supply and substrate</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A digital shower, underfloor heating, a shower toilet or a heated towel radiator each need a correctly zoned and sized electrical supply. We check what's currently available at the consumer unit and in the room, and flag early if a dedicated circuit needs adding — this is first-fix work that needs planning before walls are closed up, not discovered partway through.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also inspect the floor and wall substrate — what's beneath existing tiles, whether a wall will take the fixing load of a wall-hung vanity or a concealed cistern frame, and whether an older floor needs levelling before large-format porcelain or natural stone can be laid flat and true.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What the survey doesn't do</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A survey is not a design consultation in the sense of choosing tile colours or sanitaryware styles — that part of the decision is yours, and we're happy to talk through it, but the survey itself is focused on the practical, technical question of whether the room and its services can support what you're planning to install. If you're still deciding on a specification, bring your shortlist rather than a finished decision; we can talk through how different options affect first fix, but the final product choice remains yours.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also not a structural survey in the sense a surveyor would carry out for a mortgage or extension. If something during our visit suggests a wider structural question — an unusually deflecting floor, visible movement in a wall — we'll flag it and recommend you get a structural engineer's opinion before proceeding, rather than attempting to diagnose it ourselves.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What to have ready before the surveyor arrives</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A few minutes of preparation makes the visit more useful. Clear access to the room itself — move anything stored in front of the bath, basin or WC that would get in the way of measuring. If you've settled on a specification, have it to hand: a showroom quote, a product list, or even a rough sketch of the layout you have in mind. If you're still deciding, a shortlist of two or three directions is just as useful, since that's exactly the kind of decision we can help narrow down against the room's real constraints while we're there.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It also helps to know roughly when you'd like work to start, whether the property has any relevant restrictions worth flagging — a managing agent, a conservation area, a shared freehold — and where the main stopcock and consumer unit are located if that isn't obvious. None of this is essential; we'll find what we need regardless. It simply means less time spent locating things on the day and more time spent on the parts of the visit that actually shape your quote.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why the fee exists, rather than a free quote</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A free quote given without a site visit is usually a rough estimate dressed up as a firm figure — it has to assume a standard room, standard services, and no hidden complications, because nobody has actually looked. The £{business.pricing.surveyGBP} fee covers the time needed to measure accurately, test pressure and flow, inspect substrate condition, and think through your specific layout properly, rather than reading a photo and guessing.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        In practice this protects you more than it costs you. A written quote based on an actual site visit is far less likely to change once work starts, because the things that typically cause price changes — hidden pipework, a floor that needs more levelling than expected, a wall that won't take a planned fixing load — have already been checked before the figure was given, not discovered halfway through strip-out.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-6 fade-up">What you get afterwards</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>A written scope of works.</strong> <span style="color: var(--text-soft);">Exactly what's being done — strip-out, first fix, tanking, tiling, second fix — against your confirmed layout.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>A fixed price.</strong> <span style="color: var(--text-soft);">Not a ballpark — a figure you can budget against with confidence once your specification is settled.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Guidance on what to buy.</strong> <span style="color: var(--text-soft);">Confirmation of items like fixing kits, carrier frames or waste positions that need to match the agreed layout exactly.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>An indicative start date.</strong> <span style="color: var(--text-soft);">Based on your delivery timescale and our schedule, so you can plan around it with confidence.</span></div>
+        </li>
+      </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What the written scope document actually contains</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The document itself is more than a one-line quote. It sets out the work stage by stage — strip-out and disposal, first-fix plumbing and electrics, tanking, tiling, second fix — against the layout confirmed at survey, so you can see exactly what each stage involves rather than a single lump figure. Where the layout involves a waste move, floor build-up change, or new electrical circuit, that's itemised specifically rather than folded into a generic "plumbing" or "electrical" line.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It also states the assumptions the quote is built on — the substrate condition found at survey, for instance — so that if something different turns up once strip-out begins, there's a clear written reference point for what was assumed versus what's actually there. Where you're sourcing sanitaryware, tiles or brassware yourself, the scope lists the specific compatibility requirements you need to buy against: carrier frame model, waste position, tap connection type and similar details, so what arrives on delivery day actually fits the room it's being installed into.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Finally, it notes any pre-conditions that need resolving before work starts — a floor that needs levelling, a wall that needs reinforcing before a wall-hung vanity can be fitted — so nothing on that list arrives as a surprise once the team is on site.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Plumbing &amp; First Fix</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Lighting &amp; Electrics</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Bathroom installation cost UK</a>
+        <a href="/guides/questions-to-ask-a-bathroom-installer/" class="btn-secondary">Questions to ask an installer</a>
+        <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water pressure for rainfall showers</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Electrical zoning and supply checks referenced in this guide follow Building Regulations Part P; ventilation and drainage considerations follow Part F and manufacturer waste pipe guidance respectively. Tiling and tanking follow BS 5385, applied against the substrate found at survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="survey-includes-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

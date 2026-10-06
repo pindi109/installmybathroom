@@ -1,0 +1,250 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Toto vs Geberit Shower Toilets Compared",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Do both Toto and Geberit shower toilets need a power supply?",
+    a: "Yes. Both rely on an electric pump and heater for the wash and dry functions, so a dedicated, correctly zoned electrical supply has to be run to the pan position at first fix, whichever brand you choose.",
+  },
+  {
+    q: "Can either brand be fitted onto a concealed cistern frame?",
+    a: "Yes, both are designed to work with a wall-hung, concealed-cistern installation as well as back-to-wall and close-coupled formats, depending on the specific model chosen.",
+  },
+  {
+    q: "Is a wired or wireless remote control available on both brands?",
+    a: "Both manufacturers offer models with a wall-mounted or handheld remote as well as side-panel controls built into the pan itself, varying by model and price point within each range.",
+  },
+  {
+    q: "Which is easier to service if a part fails?",
+    a: "Both brands are established in the UK market with available spare parts and service support. The practical factor that matters most is leaving a correctly sized, accessible panel for any concealed cistern or plumbing connection behind the unit.",
+  },
+  {
+    q: "Do shower toilets need a different water supply to a standard WC?",
+    a: "Yes — in addition to the standard cold feed for flushing, a shower toilet needs a connection for the wash function, and some models heat water internally rather than requiring a separate hot feed. We confirm the exact supply requirement for your chosen model at survey.",
+  },
+  {
+    q: "What's the practical difference between a remote-controlled and a panel-controlled shower toilet?",
+    a: "A remote sits within easy reach regardless of how you're seated and suits anyone who prefers not to reach to the side of the pan, but it needs a wall-mounted holder fitted at first fix and a battery replaced periodically. An in-built panel control has no battery to manage but means reaching to a fixed point on the pan itself.",
+  },
+  {
+    q: "Can a shower toilet be fitted onto a carrier frame installed for a previous, different installation?",
+    a: "Sometimes, but it has to be checked model by model. Fixing centres, waste outlet position and the water connection for the wash function need to match what the new pan expects, and a frame fitted for a standard WC or a different brand's shower toilet won't always suit the replacement without an adapter or, in some cases, a new frame.",
+  },
+  {
+    q: "Do remote-controlled models need anything extra from the electrical supply compared with panel-controlled ones?",
+    a: "No — the electrical demand comes from the wash, dry and heating functions inside the unit itself, which is the same whichever control format sits on top. The remote handset runs on a battery rather than drawing from the mains supply.",
+  },
+];
+---
+
+<Base
+  title="Toto vs Geberit Shower Toilets Compared | IMB"
+  description="How Toto and Geberit shower toilet ranges compare for a fit-only bathroom installation — power supply, water connection, and fitting considerations."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Toto vs Geberit Shower Toilets", href: "/guides/toto-vs-geberit-shower-toilets/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Toto vs Geberit Shower Toilets Compared</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Toto is the Japanese originator of the modern washlet category and offers some of the most established integrated shower toilet models on the market; Geberit's AquaClean range is the more commonly specified option on UK bathroom jobs, often chosen to sit on a Geberit concealed cistern frame as part of a single-brand WC installation. Both need a dedicated electrical supply and a confirmed water connection, planned at first fix.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two ranges compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Toto</th>
+              <th class="text-left py-3 font-semibold">Geberit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Origin and heritage</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Japanese manufacturer credited with popularising the integrated washlet category globally.</td>
+              <td class="py-3" style="color: var(--text-soft);">Swiss manufacturer, AquaClean range built to integrate with its own concealed cistern system.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Typical format</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Integrated one-piece units and washlet seats fitted to a standard pan, depending on the model.</td>
+              <td class="py-3" style="color: var(--text-soft);">Wall-hung pan designed to pair with a Geberit concealed cistern and frame.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Power requirement</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Dedicated electrical supply required for wash, dry and heated seat functions.</td>
+              <td class="py-3" style="color: var(--text-soft);">Dedicated electrical supply required for wash, dry and heated seat functions.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Control options</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Side-panel and remote control options, varying by model within the range.</td>
+              <td class="py-3" style="color: var(--text-soft);">Side-panel and remote control options, varying by model within the range.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">UK trade familiarity</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Well recognised, particularly for its premium integrated models.</td>
+              <td class="py-3" style="color: var(--text-soft);">Very widely specified on UK projects, often as part of a single-brand WC and cistern package.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Remote vs in-built control hardware</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Available with a wall-mounted or handheld remote on select models, alongside integrated side-panel control.</td>
+              <td class="py-3" style="color: var(--text-soft);">AquaClean range also offers remote-handset models alongside models with controls built into the pan's side panel.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Carrier frame requirement</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Compatible carrier frame confirmed against the specific integrated model or seat conversion chosen.</td>
+              <td class="py-3" style="color: var(--text-soft);">Designed to pair with the Geberit Duofix frame range; confirmed against the specific AquaClean model at survey.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What a shower toilet needs from first fix, regardless of brand</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Every shower toilet, whichever manufacturer, needs an electrical supply run to the pan position — fitted and zoned to Building Regulations Part P, since the unit sits in a bathroom and is considered a wet-zone appliance. This is planned at first fix, before walls are closed up and tiled, because retrofitting a power supply to an already-finished room means cutting into tiling that's just been laid.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A water connection for the wash function is also required in addition to the standard flush supply, and some models include an internal heater rather than needing a separate hot feed — we confirm the specific requirement for your chosen model before first fix, not after.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing between an integrated one-piece unit and a seat conversion</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Some ranges from both manufacturers are available as a fully integrated one-piece shower toilet, and separately as a washlet seat designed to retrofit onto a compatible existing pan. An integrated unit tends to give a cleaner overall appearance and is the more common choice in a new luxury installation; a seat conversion can suit a situation where the existing pan and cistern are being kept and only the seat function is being upgraded. We'll confirm compatibility between a chosen seat and your existing pan at survey if that's the route being considered.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What first fix looks like for a shower toilet, whichever brand</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The electrical circuit feeding the unit needs to be run and zoned before the wall is tiled, terminating at a position confirmed against the specific model's connection point — this varies slightly between an integrated unit and a frame-mounted pan, so we confirm the exact model before first fix rather than assuming a generic position will suit whatever arrives later. The supply typically needs isolation accessible without disturbing the pan itself, so a fault can be isolated safely for future servicing.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where the unit pairs with a concealed cistern frame, the same inspection panel principles apply as with any concealed system — sized correctly to the frame manufacturer's specification and left genuinely accessible, not reduced to preserve a particular tile layout. Getting this sequencing right at first fix avoids a scenario where a fault with the wash function months later means disturbing finished tiling to reach a connection that should have been left accessible from the start.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Water supply for the wash function sometimes needs a separate isolation valve from the flush supply, again depending on the specific model — we check the manufacturer's current installation guidance for your chosen unit rather than relying on a generic shower toilet specification, since requirements do vary meaningfully between models even within the same brand's range.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Remote control versus in-built panel control: what it means living with the unit</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Both Toto and Geberit offer shower toilet models with two broadly different ways of operating the wash, dry and seat-heat functions: a wall-mounted or handheld remote control, and controls built directly into a side panel on the pan itself. Neither approach is universally better — the right one depends on who's using the bathroom and how the room is laid out.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A remote control sits within easy reach of the seated position, which suits anyone with limited mobility or reach, and avoids having to twist to find a control on the pan itself. It does introduce two small practical considerations: the remote needs a wall-mounted holder or cradle positioned at first fix, and it runs on a battery that needs replacing occasionally rather than being hard-wired. An in-built panel control, by contrast, has no battery to think about and nothing to mislay, but does mean reaching to the side of the pan rather than a fixed, consistent position — fine for most users, less so for someone who finds reaching down to seat height from a standing position difficult. We talk through which format suits the room and the people using it at survey, rather than assuming one is the default.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Carrier frame compatibility and what it means for installation complexity</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where a shower toilet pairs with a concealed cistern frame — as most wall-hung installations do — the carrier frame itself has to be compatible with the specific pan being fitted, not just with "a shower toilet" in general. Fixing centres, the waste outlet position, and the water connection point for the wash function all have to line up with what the chosen model expects, and these details differ between manufacturers and even between models within the same range.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This matters most in a retrofit situation, where an existing frame from a previous installation is already in place and the plan is to upgrade the pan to a shower toilet. A frame originally fitted for a standard WC pan doesn't automatically have the water connection or electrical routing a shower toilet needs, and a frame built for one brand's integrated unit won't necessarily suit another brand's model without an adapter, or in some cases without replacing the frame entirely. We check the existing frame against the specific shower toilet model being proposed at survey, rather than assuming compatibility and discovering a mismatch once the old pan has already been removed.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing between the two for your bathroom</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If your WC installation already centres on a Geberit concealed cistern and frame, the AquaClean range sits naturally alongside it as a single-brand solution, often simplifying sourcing and warranty queries to one manufacturer. If you're drawn to a specific integrated washlet model or a particular control format Toto offers, that's a reasonable basis for the decision too — both brands are well represented in the UK market and neither presents a meaningfully different servicing burden over the life of the product.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Room depth and the pan's projection from the wall are worth checking against your specific room at survey, since a shower toilet unit — particularly an integrated one-piece model — is often larger front-to-back than a standard WC pan, which can affect clearance in a smaller cloakroom or en-suite.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Lighting &amp; Electrics</a>
+        <a href="/services/bidet-installation/" class="btn-secondary">Bidet Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/shower-toilets-explained/" class="btn-secondary">Shower toilets explained</a>
+        <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="btn-secondary">Geberit vs Grohe cisterns</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/toto/" class="btn-secondary">Toto</a>
+        <a href="/brands/geberit/" class="btn-secondary">Geberit</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Electrical installation referenced in this guide follows Building Regulations Part P, covering the bathroom electrical zones applicable to a wet-zone appliance. Water supply connections follow Part G. Specific model requirements follow manufacturer installation guidance current at the time of writing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="toto-geberit-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

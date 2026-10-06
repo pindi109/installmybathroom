@@ -1,0 +1,219 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Ventilation Regulations: What Part F Requires",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Do I legally need an extractor fan if my bathroom has a window?",
+    a: "An openable window can satisfy ventilation requirements in some circumstances, but most refurbishments still fit mechanical extraction, because a window is rarely opened during a shower in winter and humidity still needs clearing afterwards.",
+  },
+  {
+    q: "What extraction rate does a wet room or en-suite need?",
+    a: "Part F sets minimum extract rates for sanitary accommodation, with higher continuous or boosted rates expected where there's no openable window. We confirm the right fan and ducting specification for your room at survey, based on room volume and layout.",
+  },
+  {
+    q: "Can the extractor fan be on the same switch as the light?",
+    a: "It can be wired to come on with the light switch, but a humidistat or timer that keeps the fan running after the light goes off clears residual humidity far better than a fan that stops the moment someone leaves the room.",
+  },
+  {
+    q: "Where should ventilation ducting discharge?",
+    a: "To external air — through a wall or roof terminal — never into a loft void or roof space, where discharged humidity condenses on cold timber and insulation and causes its own damp problems over time.",
+  },
+  {
+    q: "Does a windowless internal bathroom need different ventilation to one with a window?",
+    a: "Yes. Internal, windowless rooms rely entirely on mechanical extraction and typically need a higher specification — continuous background extraction with a boost function — since there's no passive ventilation route at all.",
+  },
+  {
+    q: "Does fitting a steam shower or steam room change the ventilation requirement?",
+    a: "Yes, steam rooms generate significantly more sustained humidity than a standard shower, so extraction needs to be sized and run for longer to clear the room fully afterwards — covered in more detail in our steam shower requirements guide.",
+  },
+  {
+    q: "What's the difference between an axial, a centrifugal and an in-line fan?",
+    a: "An axial fan moves air directly through a wall or short duct and suits simple, short runs. A centrifugal fan generates more static pressure, so it copes better with longer ducting and bends. An in-line fan sits remotely within the duct run, often in a loft, which keeps fan noise out of the room and lets one unit serve more than one extract point.",
+  },
+  {
+    q: "Can one extractor fan serve two rooms, such as an en-suite and a dressing room?",
+    a: "Sometimes, using an in-line fan with ducting branched to two grilles, but it needs sizing for the combined extract rate of both rooms rather than either room alone, and the branching has to be arranged so one room doesn't simply draw air from the other. We assess whether this is appropriate at survey rather than assuming it will work for any given layout.",
+  },
+  {
+    q: "Does the fan need to run continuously, or is intermittent extraction enough?",
+    a: "It depends on the room. A windowed bathroom with intermittent, higher-boost extraction triggered by the light or a humidistat is often sufficient. A windowless room or one with heavy use typically needs continuous low-level background extraction with a boost function, since there's no passive ventilation to fall back on between uses.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Ventilation Regulations UK | Install My Bathroom"
+  description="What Part F actually requires for bathroom ventilation — extraction rates, ducting routes, humidity control and windowless rooms, explained plainly."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Ventilation Regulations", href: "/guides/bathroom-ventilation-regulations/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Ventilation Regulations: What Part F Requires</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Building Regulations Part F sets minimum mechanical extraction standards for bathrooms, en-suites and wet rooms, with higher requirements where a room has no openable window. In practice this means a correctly sized extractor fan, ducted to outside air, run by a humidistat or timer rather than a simple on/off switch tied to the light.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why ventilation is a regulated part of a bathroom fit</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A bathroom or en-suite produces far more airborne moisture than any other domestic room — a hot shower alone can put litres of water vapour into the air within minutes. Without adequate extraction that moisture settles on cold surfaces: mirrors, tiled grout lines, ceiling paint and, over time, timber structure behind plasterboard. Part F of the Building Regulations exists to make sure extraction is specified and installed to actually clear that moisture, not just moved around the room by an undersized fan.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This matters practically, not just as a compliance exercise. Undersized or badly ducted extraction is one of the most common causes of mould returning to a newly tiled bathroom within a year or two of a refurbishment — and it's avoidable at the planning stage, before tiling closes the walls up.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Windowed vs windowless rooms</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A bathroom with an openable window has a passive ventilation route in theory, but in practice most households don't open a window mid-shower in January, and a window alone does nothing to clear humidity once it's closed again. Most refurbishments we carry out fit mechanical extraction regardless of whether there's a window, because it's the only ventilation route that works reliably all year round.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A windowless internal bathroom or en-suite has no passive route at all, so the mechanical extraction specification carries the entire ventilation requirement. These rooms typically need a higher-capacity fan, run continuously at a low background rate with a boost triggered by a humidistat or pull-cord, rather than the simpler intermittent extraction sometimes acceptable in a windowed room.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Ducting routes and fan location</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        An extraction system is only as good as its ducting. Long duct runs, tight bends and badly sealed joints all reduce the actual airflow reaching outside, even when the fan itself is correctly specified. Ducting should take the shortest practical route to an external wall or roof terminal, with bends minimised and joints sealed — discharging into a loft void is not acceptable, since the moisture simply condenses on cold roof timbers and insulation instead of leaving the building.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Fan placement also matters for electrical safety. A fan sited within a shower zone needs an appropriate IP rating for that zone, and the electrical supply feeding it needs to be installed and tested to Building Regulations Part P. We confirm duct route, fan specification and electrical zoning at survey, before any wall is closed up around the ducting.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Humidistats, timers and run-on</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A fan wired to switch off the instant someone leaves the room rarely has time to clear the humidity that's built up during a shower. A humidistat senses relative humidity and keeps the fan running until it drops back to a set level; a run-on timer achieves a similar result by keeping the fan running for a fixed period after the light switches off. Either is a meaningful improvement over a bare on/off switch, and we'll recommend whichever suits your room and existing wiring at survey.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Shared extraction systems — common in flats and some period conversions — pull air from multiple rooms through one central fan. These need checking at survey too, since altering one bathroom's ductwork can affect airflow balance elsewhere in the system.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Extraction rates: what Part F specifies</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Approved Document F sets minimum mechanical extract rates in litres per second (l/s), and these rates differ by room type and by whether the extraction is continuous or intermittent. A kitchen, where cooking produces significantly more airborne grease and moisture, is generally set a higher extract rate than a bathroom or a separate WC, and continuous background extraction is typically specified at a lower rate than an intermittent boost triggered by a light switch or humidistat. Because the Approved Document is periodically revised, we don't treat a figure quoted in general guidance as gospel — the current edition of Part F, and the tested extract rate stated on the fan manufacturer's own specification sheet, are what we size the installation against at survey, matched to your room's measured volume and layout.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Extraction also needs somewhere for replacement air to come from. A bathroom sealed too tightly — a new, well-fitted door with no undercut, no trickle vent, draught-proofing everywhere — can starve the fan of make-up air, which reduces how much moisture it actually removes regardless of how well it's specified on paper. An undercut to the door, a trickle vent, or a gap under the door is usually enough to let air back in without compromising warmth, and it's worth checking this hasn't been lost if a bathroom has had its door replaced or draught-proofed since the fan was last working well.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Types of extractor fan: axial, centrifugal and in-line</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        An axial fan pulls air straight through its own casing, usually mounted directly on an external wall or a short duct run through to the outside. It's simple, inexpensive to fit and perfectly adequate where the duct run is short and fairly direct, but its performance drops off quickly over longer runs or where there are several bends, since it generates relatively little static pressure to push air through resistance.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A centrifugal fan uses a different impeller design that generates considerably more static pressure, so it copes far better with a longer ducting run, multiple bends, or ducting that rises before it falls to an external terminal. This makes it the more common choice in bathrooms where the fan can't be sited directly on an external wall and ducting has to travel through a ceiling void to reach the outside.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        An in-line fan sits remotely within the ducting itself — typically in a loft space — rather than at the extract point in the room. This keeps the fan's own motor noise out of the bathroom, since only an unobtrusive grille is visible at ceiling or wall level, and a single, more powerful in-line unit can sometimes serve more than one extract point if the ducting is branched and sized correctly. We'll specify whichever type suits your room's duct run, noise expectations and layout at survey, rather than defaulting to one type regardless of the circumstances.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Humidity, condensation and mould prevention</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Condensation forms when moisture-laden air meets a surface cold enough to bring it below its dew point — the point at which air can no longer hold all the water vapour it's carrying, so some of it condenses out as liquid. In a bathroom, the surfaces most likely to fall below dew point are the ones with the least insulation behind them: a single-glazed or poorly sealed window, an external wall with a cold bridge at a lintel or corner, and tiled surfaces directly over an uninsulated solid wall. Mould tends to appear first at these exact points — around window reveals, in grout lines on external walls, in the corner where a ceiling meets an external wall — because that's where the surface temperature drops soonest after a hot shower.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Anti-condensation or anti-mould paint can mask the symptom for a while, but it doesn't address the underlying cause, which is moisture-laden air not being cleared quickly enough and finding a cold surface to settle on. Correctly sized extraction, run for long enough after use via a humidistat or timer, addresses the actual cause by removing the moisture before it has the chance to condense anywhere.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Ducting itself needs attention too, particularly where it passes through a cold loft space. Warm, moist extracted air travelling through an uninsulated duct in a cold loft can condense inside the duct itself, and that water can run back down the ducting into the fan housing or the ceiling void rather than reaching the outside — causing exactly the damp problem the extraction was meant to prevent. Insulated flexible or rigid ducting, fitted with a slight fall towards the external terminal so any condensation drains outward rather than back into the room, avoids this.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/bathroom-ventilation/" class="btn-secondary">Bathroom Ventilation</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/steam-shower-and-steam-room-installation/" class="btn-secondary">Steam Shower &amp; Steam Room</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Lighting &amp; Electrics</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/steam-shower-requirements/" class="btn-secondary">Steam shower requirements</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/crowthorne/" class="btn-secondary">Crowthorne</a>
+        <a href="/areas/sandhurst/" class="btn-secondary">Sandhurst</a>
+        <a href="/areas/warfield/" class="btn-secondary">Warfield</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Ventilation requirements referenced in this guide follow Building Regulations Part F (ventilation). Electrical installation of fans and controls follows Part P. Fan sizing and ducting specification follow manufacturer guidance current at the time of writing, applied against the actual room volume and layout confirmed at survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="ventilation-regulations-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

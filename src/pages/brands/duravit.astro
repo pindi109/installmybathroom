@@ -1,0 +1,174 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Does Duravit supply its own cistern frame, or do you use a universal one?",
+    a: "Duravit offers its own DuraSystem installation elements for WCs and basins, and its wall-hung pans are also compatible with standard concealed cistern frames. We confirm which route your order uses at survey, since fixing centres differ slightly between the two.",
+  },
+  {
+    q: "What does a SensoWash shower toilet seat need before it's fitted?",
+    a: "A SensoWash seat, fitted to a compatible Duravit pan, needs a switched electrical spur run to the pan position and a dedicated water supply tee with its own isolation valve — both planned before the wall is tiled or boarded.",
+  },
+  {
+    q: "Are Duravit basins and baths heavy to install?",
+    a: "DuraCeram basins are a reinforced ceramic that allows thinner rims without extra weight, so they're no heavier to fix than standard vitreous china. Duravit's steel and acrylic baths vary by model — we check the support frame requirement against the specific bath before delivery.",
+  },
+  {
+    q: "Can I match a new Duravit pan to an older Happy D or Starck 3 basin?",
+    a: "Usually yes for the visual range, but fixing centres and tap hole configurations can change between generations within the same collection name. We check the current model number against your existing piece before ordering rather than assuming the range name guarantees a match.",
+  },
+  {
+    q: "What should I check when my Duravit order arrives?",
+    a: "Check pan projection and fixing centres against your chosen frame, inspect the DuraCeram or ceramic surface for transit chips under raking light, and confirm SensoWash seats and remote controls are boxed with the correct pan model before we start fitting.",
+  },
+  {
+    q: "Will you fit Duravit furniture alongside sanitaryware from a different brand?",
+    a: "Yes. It's common for a Duravit basin and furniture run to be paired with a WC or shower toilet from another manufacturer. We set everything out from one shared datum line regardless of brand, so the finished room reads as a single considered scheme.",
+  },
+];
+---
+
+<Base
+  title="Duravit Installation | Install My Bathroom"
+  description="Installation of Duravit sanitaryware, SensoWash shower toilets and DuraSystem frames across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Duravit", href: "/brands/duravit/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Duravit Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Duravit sanitaryware turns up on a good number of the bathrooms we fit, usually specified through a showroom alongside SensoWash shower toilet seats or a full ME by Starck suite. The part worth getting right before anything is ordered is the installation route — Duravit offers its own DuraSystem frame for some pans as well as compatibility with standard concealed cistern frames, and the two aren't interchangeable once a wall is boarded.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.duravit.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Duravit →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Frame or DuraSystem element:</strong> confirmed against the exact pan model before boarding — DuraSystem fixing centres differ from standard carrier frames.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>SensoWash electrics:</strong> a switched spur routed to the pan position before the wall is closed, not surface-run afterwards.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water supply tee:</strong> SensoWash seats need their own isolation valve off the WC supply, plumbed at first fix.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Bath support:</strong> steel and acrylic bath ranges each take a model-specific leg or frame kit, confirmed against the exact bath before delivery.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tap hole configuration:</strong> basin tap hole count and centres checked against the chosen brassware before the basin is ordered or a worktop is cut.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wall-hung and close-coupled WCs across the ME by Starck, Happy D.2, Vero, D-Neo and Darling New collections, SensoWash electronic shower toilet seats, and basins from countertop bowls to wall-hung and furniture-set designs in DuraCeram. On the bathing side we fit Paiova and P3 Comforts baths along with Duravit shower trays and enclosures where they're ordered as part of the same suite.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also fit Duravit's XViu and L-Cube furniture ranges where a vanity unit, basin and mirror cabinet are specified together, setting them out from a single datum line so the finished run sits level and consistent across basin height, tap centres and cabinet position.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        On larger en-suite and family bathroom projects, it's common for a client to run Duravit sanitaryware alongside a separate brand for tiling-adjacent fittings — a Duravit basin with a Hansgrohe or GROHE mixer, for instance, or a Duravit WC paired with a shower enclosure from a different manufacturer. We treat the room as one installation regardless of how many brands are involved, coordinating waste positions, tap centres and electrical runs across all of them at survey stage rather than fitting each item in isolation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We open every box on arrival, before fitting starts. Pan projection and fixing centres are checked against the frame or DuraSystem element, the ceramic surface is inspected under raking light for hairline chips from transit, and SensoWash seats are confirmed as the correct generation for the pan — seat hinge positions have changed across model updates and aren't always backward compatible. On baths, we check the leg kit, waste and overflow have travelled with the bath rather than arriving separately, which happens more often than you'd expect on multi-pallet deliveries. Faults found before we start are a straightforward exchange; faults found once the wall is tiled mean lifting tiles, which is a chargeable return visit under our fit-only model, since the goods are client-supplied.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Most Duravit orders we fit have come through a bathroom showroom rather than a trade counter, and showroom deliveries are generally well packed and complete — but the same checks apply regardless of where the goods were bought. If a showroom has part-delivered an order to keep a project moving, we note exactly what's outstanding and confirm it's on site before the wall it depends on is closed up, rather than discovering a missing waste kit mid-fit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Finish and furniture considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">DuraCeram, set-out and furniture runs</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        DuraCeram is a reinforced ceramic body that lets Duravit produce thinner basin rims and sharper edge profiles without the wall thickening older vitreous china would need — useful where a basin sits close to a window reveal or a run of fitted furniture and every millimetre of clearance counts. The surface still chips on a hard knock in exactly the way standard ceramic does, so protective packaging stays on until final fix rather than coming off the moment the piece is unboxed.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where an XViu or L-Cube vanity run includes a mirror cabinet and wall lighting, we agree the shared set-out line on the wall before any fixing goes in. Moving a basin bracket after the furniture carcass is built and scribed to the wall means remaking the cut-out, so basin height, tap centres and cabinet position are measured together, once, at first fix.
+      </p>
+    </div>
+  </section>
+
+  <!-- Brassware pairing -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Pairing brassware, baths and waste runs</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Duravit doesn't manufacture taps or shower valves, so basins and baths are nearly always specified with brassware from a separate maker — GROHE, Hansgrohe and Axor are the three we see most often paired with Duravit sanitaryware. We check the basin's tap hole count and centres against the brassware's spindle spacing before anything is ordered, because a single-tap-hole basin won't take a three-hole deck-mounted set without cutting or replacing the basin.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Waste falls matter as much as the visible fittings. A wall-hung pan's waste runs through the frame or DuraSystem element at a set fall to the stack, fixed before boarding rather than adjusted once the pan is hung. On Paiova and P3 Comforts baths, the waste and overflow kit is matched to the bath's pre-formed tap bank, so we confirm the correct kit has been supplied rather than fitting a generic universal part that may not seal properly against the bath's moulding.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's Duravit fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The recurring issue on Duravit installations we're called out to correct is a DuraSystem or frame ordered against the collection name alone, without checking the specific pan's fixing centres — the pan ends up sitting slightly off the tiled wall face once everything is closed in. The second is a SensoWash electrical point added as a surface-mounted cable after tiling, because the supply wasn't planned at first fix.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Neither is a defect in the product — Duravit's tolerances are tight when the frame, pan and electrics are planned in the right order. We confirm fixing centres, water tees and electrical runs against the exact model numbers at survey, before any wall is closed, so nothing needs correcting once the room is finished.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for Duravit; we install client-supplied Duravit products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+      <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large-Format Porcelain Tiling</a>
+      <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed Cisterns Explained</a>
+      <a href="/guides/questions-to-ask-a-bathroom-installer/" class="btn-secondary">Questions to Ask a Bathroom Installer</a>
+      <a href="/brands/geberit/" class="btn-secondary">Geberit Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="duravit-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,248 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bathroom Ventilation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Do I legally need an extractor fan in my bathroom?",
+    a: "Building Regulations Part F sets minimum extract rates for rooms containing a bath or shower, and in practice almost every bathroom without a suitably sized openable window needs mechanical extraction to meet it. We size the fan to your room and confirm the requirement at survey.",
+  },
+  {
+    q: "Can I rely on a window instead of a fan?",
+    a: "An openable window can contribute to ventilation strategy, but it has to be a specific minimum size relative to the floor area and most clients don't want to leave a bathroom window open in winter. In practice, mechanical extraction is the reliable route and is what Part F defaults to for most layouts.",
+  },
+  {
+    q: "How noisy will the fan be?",
+    a: "Fan noise is rated in sone or decibels and varies a great deal between budget and quieter, better-specified units. Where noise matters — an en-suite next to a bedroom, for example — we specify a quieter inline or remote fan rather than a basic ceiling unit, and discuss the trade-off with you before you buy.",
+  },
+  {
+    q: "What if there's no external wall nearby for ducting?",
+    a: "Ducting can be run through a ceiling void to a roof termination, or horizontally to a wall some distance away, within the fan manufacturer's maximum duct-length guidance. We assess the realistic route at survey rather than assuming an external wall is the only option.",
+  },
+  {
+    q: "Do steam showers or steam rooms need extra ventilation?",
+    a: "Yes. A steam enclosure generates far more moisture than a standard shower, and the room around it needs ventilation sized accordingly, plus a vapour-sealed enclosure to stop steam migrating into the wider room. We cover this in detail on our steam shower and steam room page.",
+  },
+  {
+    q: "Can the fan run on a timer so it keeps extracting after I've left?",
+    a: "Yes — an overrun timer or humidistat control is standard practice and is often what Part F compliance depends on where there's no separate switch. We set this up as part of the installation and explain the controls at handover.",
+  },
+  {
+    q: "Is my old bathroom fan likely to be undersized by today's standards?",
+    a: "Often, yes. Extract rate guidance and the products available have both moved on, and a fan fitted years ago may have been sized to a smaller or simpler bathroom than the one it's now serving, especially if the room's been extended or a shower's been added since. We measure the room and the fan's actual output at survey rather than assuming the original installation was correct.",
+  },
+  {
+    q: "Will the fan installation make noticeable mess in the rest of the house?",
+    a: "Running new ducting sometimes means a small amount of work in a loft space or an adjoining room's ceiling void, which we protect and clean down as part of the job, the same as any other first-fix work.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Ventilation Installation | Install My Bathroom"
+  description="Extractor fan and ducting installation across Bracknell and Berkshire, sized to Part F requirements and fitted to control condensation properly. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Bathroom Ventilation", href: "/services/bathroom-ventilation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Ventilation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Extraction sized to the room, ducted to a sensible termination, and controlled so it keeps running after you've left — ventilation is the part of a bathroom nobody notices when it's done properly and everybody notices when it isn't. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why it's underrated -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The service nobody budgets for, until the ceiling shows it</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A bathroom produces a surprising volume of water vapour — a single hot shower can put a litre or more of moisture into the air — and that moisture has to go somewhere. Without adequate extraction it condenses on the coldest surfaces in the room: the mirror first, then the ceiling, then eventually the grout lines and the timber behind a boxed-in bath panel. None of that is dramatic in isolation, but over years it's how mould takes hold and how sealant and grout fail early. A correctly sized fan on a sensible control is one of the most cost-effective ways to insure against all of it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also one of the few parts of a bathroom install that's genuinely regulated — Building Regulations Part F sets minimum extract rates for any room containing a bath or shower — so getting it right isn't just good practice, it's what keeps the finished room compliant. It's easy to treat ventilation as an afterthought on a refurbishment where the focus is on tiling and fittings, but it's one of the least expensive elements of the job relative to how much it protects everything else you've spent money on.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Extractor fan supplied and sized to your room's extract rate requirement</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Ducting run to a sensible external termination, insulated where it passes through cold roof voids</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Humidistat or timer/overrun control so the fan keeps extracting after the light goes off</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Inline or remote fan specification where duct runs are long or noise is a concern</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Coordination with a registered electrical engineer for the Part P-notifiable connection</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Commissioning: airflow and control check before handover</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey.</strong> <span style="color: var(--text-soft);">We calculate room volume, assess realistic duct routes, and check whether the room is a bathroom, en-suite or separate WC — each has its own extract rate requirement.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Fan specified.</strong> <span style="color: var(--text-soft);">Extract rate, noise rating and control type agreed against the room and its position relative to bedrooms or living spaces.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>First fix.</strong> <span style="color: var(--text-soft);">Ducting routed, fan housing fitted, cabling run to a fused spur ready for connection.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Ceiling or wall finished.</strong> <span style="color: var(--text-soft);">Fan grille set flush and level, finished around to match the surrounding ceiling or wall surface.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Commissioning.</strong> <span style="color: var(--text-soft);">Airflow checked, humidistat or timer calibrated, and controls explained before we leave.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Building Regulations Part F sets minimum intermittent extract rates for sanitary accommodation — typically higher for a room with a bath or shower than a separate WC — and we size the fan to meet this against the specific room's volume, not a generic figure. Fans positioned within the shower or bath's splash zones are rated to the appropriate IP standard for that location, in line with the same zoning principles that apply to bathroom electrics generally.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Duct runs are kept as short and as free of bends as the building allows, since every bend and every extra metre reduces the effective extract rate the fan can deliver — a fan rated for a given flow at the unit doesn't deliver that same flow at the grille if the ducting fights it. Where a run has to pass through an unheated roof void, we specify insulated ducting to stop condensation forming inside the duct and dripping back through the fan.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The electrical connection — a fused spur, and any isolator required — is Part P-notifiable work and is carried out by an appropriately registered electrical engineer as part of the project, coordinated so it happens alongside the rest of the electrical first fix.
+      </p>
+    </div>
+  </section>
+
+  <!-- Choosing a fan -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Matching the fan to the room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A compact cloakroom WC and a large en-suite with a walk-in shower don't need the same fan, even though both are technically "bathroom ventilation". The cloakroom needs a modest extract rate and can usually run a simple, inexpensive axial fan on a basic timer. A large en-suite adjoining a bedroom benefits from a quieter, better-specified unit — often an inline or remote fan mounted away from the room itself, ducted in, so the only thing audible from the bed is a faint hum rather than the fan motor directly overhead.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where several wet rooms sit close together — a family bathroom and two en-suites off the same landing, say — it's sometimes more efficient to run a single centralised extract unit with ducted branches to each room than to fit three separate fans. We'll flag this option at survey where the layout suits it, rather than defaulting to one fan per room regardless of the building.
+      </p>
+    </div>
+  </section>
+
+  <!-- Steam and humidity -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Steam rooms and high-humidity enclosures</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A steam shower or steam room generates substantially more moisture than a standard shower and needs ventilation specified for that higher load, plus a vapour-sealed enclosure so steam doesn't migrate into the surrounding room and find its way into places it shouldn't — behind boxing, into a ceiling void, or into an adjoining room through gaps around a door. If you're planning a steam enclosure alongside general ventilation work, it's worth reading our steam shower and steam room page, since the extraction strategy for the two is closely linked.
+      </p>
+    </div>
+  </section>
+
+  <!-- Older houses -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Ventilation in period and solid-wall houses</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Older properties — and there are plenty across Berkshire's period housing stock — often have solid masonry walls with little natural background ventilation compared with a modern cavity-built house with trickle vents and a more airtight build. That combination can make condensation worse rather than better if the extraction isn't sized with the building in mind: a solid wall holds less residual heat near the surface, so it's often the coldest surface in the room and the first place moisture condenses if the fan isn't pulling enough air through quickly enough.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We take this into account at survey rather than applying the same fan spec to every house regardless of its construction. In a solid-wall period property, we'll sometimes specify a higher extract rate or a continuous low-level background extraction mode, rather than relying purely on intermittent operation when the light's on.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Most clients are happy for us to specify and supply the fan itself as part of the installation, since extract rate and duct compatibility matter more here than brand. If you want a particular designer fan or one integrated into a ceiling panel — some architects specify this on larger projects — you supply that unit and we confirm its extract rate and electrical requirements meet what the room needs before committing to it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Maintenance -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Keeping it working</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A bathroom fan's performance drops gradually as dust and grease build up on the impeller and grille, which is easy to miss since the fan still runs — it just moves less air than it used to. We fit grilles that can be removed for cleaning without tools where the product allows it, and explain this at handover so the fan keeps performing to its rated extract rate rather than quietly underperforming for years before anyone notices the ceiling starting to mark.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/steam-shower-and-steam-room-installation/" class="btn-secondary">Steam Shower &amp; Steam Room Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Bathroom ventilation regulations</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+        <a href="/guides/steam-shower-requirements/" class="btn-secondary">Steam shower requirements</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-ventilation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

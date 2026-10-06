@@ -1,0 +1,253 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Electric vs Wet Underfloor Heating for Bathrooms",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Which heats up faster, electric or wet underfloor heating?",
+    a: "Electric, generally — a thin heating mat or cable responds within 20 to 40 minutes on a timer, which suits a bathroom used in short bursts morning and evening. Wet systems carry more thermal mass and are better suited to running for longer, steadier periods.",
+  },
+  {
+    q: "Is wet underfloor heating cheaper to run than electric?",
+    a: "Usually, yes, where it's fed from an efficient central heating system, because it's using the same heat source as the rest of the house rather than drawing electricity directly. Electric systems have a lower installation cost but typically cost more per hour to run.",
+  },
+  {
+    q: "Can electric underfloor heating go under natural stone or large format porcelain?",
+    a: "Yes, provided the mat or cable system and its floor build-up are accounted for in the tile and adhesive buildup at survey stage — stone and large format tiles are denser and take longer to warm through than a thin porcelain tile.",
+  },
+  {
+    q: "Does wet underfloor heating need a boiler, or can it run from an electric system?",
+    a: "Most are fed from a gas or electric central heating system via a manifold, though a dedicated electric water heater can supply a small wet loop. The right source depends on what's already in the house and is confirmed at survey.",
+  },
+  {
+    q: "Can underfloor heating be the only heat source in a bathroom?",
+    a: "On a well-insulated floor with good build-up, yes, though most luxury bathrooms still include a heated towel radiator for both practical warmth and somewhere to dry towels — underfloor heating warms the room from below, a radiator warms it from a defined point.",
+  },
+  {
+    q: "Does underfloor heating affect floor height?",
+    a: "Electric systems add relatively little — often just a few millimetres for the mat itself. Wet systems need more build-up for the pipe loops and screed, which matters most where floor levels have to match an adjoining room or a step-free wet room threshold.",
+  },
+];
+---
+
+<Base
+  title="Electric vs Wet Underfloor Heating for Bathrooms | IMB"
+  description="How electric and wet underfloor heating compare for a bathroom — heat-up time, running cost, floor build-up and which suits your project."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Electric vs Wet Underfloor Heating", href: "/guides/electric-vs-wet-underfloor-heating/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Electric vs Wet Underfloor Heating for Bathrooms</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Electric underfloor heating uses a thin mat or cable, heats up quickly on a timer, and adds little floor build-up — well suited to most bathroom refits. Wet underfloor heating runs pipe loops from the central heating system, costs more to install and needs more floor depth, but is often cheaper to run and better suited to larger rooms used for longer periods.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Underfloor heating has become close to a default specification on luxury bathroom projects, and for good reason on a tiled floor — stone and porcelain conduct heat readily, which makes them feel noticeably colder underfoot than carpet or vinyl without some form of heating beneath them. The choice between electric and wet systems isn't really about which is "better"; it's about which fits your floor build-up, your existing heating system, and how the room is actually used.
+      </p>
+    </div>
+  </section>
+
+  <!-- Comparison table -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Electric vs. wet, side by side</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Electric</th>
+              <th class="text-left py-3 font-semibold">Wet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Heat source</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Direct electrical supply via a dedicated thermostat</td>
+              <td class="py-3" style="color: var(--text-soft);">Hot water piped from the central heating system via a manifold</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Floor build-up</td>
+              <td class="py-3" style="color: var(--text-soft);">Minimal — a few millimetres for the mat or cable</td>
+              <td class="py-3" style="color: var(--text-soft);">More significant — pipe loops and screed depth to accommodate</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Heat-up time</td>
+              <td class="py-3" style="color: var(--text-soft);">Faster, suited to timed bursts of use</td>
+              <td class="py-3" style="color: var(--text-soft);">Slower, suited to steadier background heat</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Installation cost</td>
+              <td class="py-3" style="color: var(--text-soft);">Lower — simpler first fix, no connection to the heating system</td>
+              <td class="py-3" style="color: var(--text-soft);">Higher — manifold, pipework and commissioning against the existing system</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Running cost</td>
+              <td class="py-3" style="color: var(--text-soft);">Typically higher per hour, lower if used in short bursts</td>
+              <td class="py-3" style="color: var(--text-soft);">Typically lower per hour where the central heating system is efficient</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Best suited to</td>
+              <td class="py-3" style="color: var(--text-soft);">En-suites, cloakrooms, refits with limited floor depth</td>
+              <td class="py-3" style="color: var(--text-soft);">Larger family bathrooms, full re-fits where floor depth isn't constrained</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Install considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What each system needs from the installation</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Electric underfloor heating is fitted directly beneath the tile bed, wired back to a dedicated thermostat positioned within the bathroom's permitted electrical zones, and connected by a registered electrician as notifiable work under Part P. It's a relatively self-contained addition to a refit — no connection to the central heating system is needed, which is why it's the more common choice on a refit where existing pipework isn't being touched.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Wet underfloor heating needs a manifold, usually positioned in or near the bathroom, feeding pipe loops set into a screed at a depth the floor build-up has to accommodate from day one. Because it draws from the same heat source as the rest of the house, it's commissioned and balanced against the existing system rather than installed as a standalone circuit, which is why it tends to suit a full re-fit or a new-build extension rather than a drop-in addition to an existing floor.
+      </p>
+    </div>
+  </section>
+
+  <!-- Thermostats and controls -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Thermostats, timers and smart controls</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most electric systems are controlled by a dedicated thermostat with a floor sensor, a timer, or both — the floor sensor measures the tile surface temperature directly rather than relying on air temperature alone, which gives more consistent results on a floor that's also losing heat into a cold subfloor below. Smart thermostats, controllable from a phone app, have become a common upgrade, letting you schedule the floor to warm up ahead of a morning routine without leaving it running constantly through the day. Positioning matters here too — the thermostat itself sits outside the bathroom's zoned areas, which usually means just outside the door or on a wall away from any water source.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Wet systems are typically controlled at the manifold, either by a simple thermostatic valve balancing flow to the loop, or by a zone controller if the house runs multiple heating zones from one boiler. Because a wet system carries more thermal mass in the screed, it responds more slowly to a thermostat change than an electric system does — turning it up doesn't produce a quick result the way flicking on an electric mat's timer does, which is worth knowing if you're used to one system and specifying the other for the first time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Retrofitting heating into an existing floor</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Adding underfloor heating to a bathroom that's already being stripped back to the substrate as part of a wider refit is relatively straightforward, since the floor build-up is being decided from scratch anyway. Retrofitting it into a floor that isn't otherwise being touched is more constrained — electric mat systems are thin enough to sit under a new tile layer without raising the floor height significantly, which is why they're the more common retrofit choice, while a wet system's pipework and screed depth usually make it impractical to add without also lifting the existing floor covering and, in some cases, the floor structure beneath it.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Where floor height is a hard constraint — meeting an adjoining room's floor level, or keeping a level threshold into a wet room — this is one of the clearest practical reasons an electric system gets chosen over a wet one even where running cost alone might otherwise favour the wet option.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Combining underfloor heating with a heated towel radiator</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Most luxury bathrooms run underfloor heating alongside a heated towel radiator rather than choosing one over the other, because the two solve different problems — underfloor heating takes the chill off the floor and warms the room generally from below, while a towel radiator provides a defined heat source for drying towels and a visible warmth point in the room. An electric towel radiator pairs naturally with electric underfloor heating on a simple, independent circuit; a water-fed towel radiator pairs naturally with a wet underfloor system off the same central heating supply, though a water-fed radiator can equally run alongside electric underfloor heating if that suits the property better — the two systems don't have to match.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Electric underfloor heating installation and thermostat positioning follow Building Regulations Part P and the zoning requirements of BS 7671. Wet systems connected to a central heating source follow manufacturer commissioning guidance and relevant Part L energy efficiency considerations. Floor build-up and tanking beneath either system follow BS 5385.
+      </p>
+    </div>
+  </section>
+
+  <!-- Energy efficiency -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Energy efficiency and running both sensibly</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Neither system is efficient left running continuously at full output around the clock, and both perform better on a timer matched to when the room is actually used — a short warm-up before a morning routine rather than an all-day background heat that's largely wasted once the room is empty. Electric systems respond quickly enough that a tight, short timer window works well; wet systems, carrying more thermal mass, benefit from a slightly longer lead time before use is expected, since the floor takes longer to release stored heat as well as to absorb it.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Good floor insulation beneath either system — whether that's an insulation board under a screed, or simply ensuring there's no significant heat loss into an unheated space below — makes a bigger difference to running cost over time than the choice between electric and wet alone, and is worth getting right at the floor build-up stage regardless of which heating type is ultimately specified.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we check before specifying either system</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        At survey, we check the existing floor build-up and available depth, the finished floor level needed to match an adjoining room or a wet room threshold, the tile or stone specification being laid over the top — since denser materials need more output to warm through at the same rate as a thinner porcelain — and, for a wet system, the central heating setup already in the house and whether it has capacity and a sensible connection point for an additional zone. These four checks, done properly at survey rather than assumed from a product brochure, are what actually determine which system is the right fit for your specific room, more than a general preference for one type over the other.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+        <a href="/services/heated-towel-radiator-installation/" class="btn-secondary">Heated Towel Radiator Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testing after fitting -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Testing before the floor is covered</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Whichever system is chosen, it's tested and running correctly before tiling begins, not after — an electric mat is checked for continuity and correct resistance against its installation certificate, and a wet system is pressure-tested and run through a heating cycle to confirm there are no leaks in the loop, both while the element is still fully accessible. Finding a fault once tiling is complete means lifting finished work to get at it; finding it beforehand means a straightforward repair with nothing covering it yet, which is exactly why this check happens at first fix rather than being assumed and left until commissioning at the very end of the job.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="electric-vs-wet-ufh-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

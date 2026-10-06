@@ -1,0 +1,221 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bidet Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What's the difference between a standalone bidet and a bidet toilet?",
+    a: "A standalone bidet is a separate fitting next to the WC, plumbed with its own hot and cold supply and waste — it needs floor space and a second set of pipework. A bidet toilet (or shower toilet) combines both functions in one pan with an integral nozzle and needs power as well as water. We size and quote each very differently because the plumbing and space requirements aren't comparable.",
+  },
+  {
+    q: "Does a standalone bidet need its own hot water supply?",
+    a: "Most do — a mixer bidet takes both hot and cold feeds, the same as a basin. If the bathroom only has a cold supply nearby, we run a hot feed back to the nearest point, which is confirmed at survey so it's priced before work starts rather than discovered as an extra on install day.",
+  },
+  {
+    q: "Can a bidet be fitted in a small cloakroom?",
+    a: "It depends on the room's floor area and door swing — building regulations and practical use both require clear space in front of the bidet to sit and rise comfortably. We measure this at survey against the specific model you're considering before you order it.",
+  },
+  {
+    q: "Do I need special waste pipework for a bidet?",
+    a: "A standalone bidet needs its own trapped waste connection, routed to fall correctly to the existing soil stack or a new branch. Where the bathroom's waste layout wasn't designed with a bidet in mind, this sometimes means lifting a section of floor to run the new pipe — again, confirmed at survey.",
+  },
+  {
+    q: "Can you fit a bidet as part of a wider bathroom refit?",
+    a: "Yes, and it's usually more cost-effective that way, since the floor and walls are already open for other first-fix work. We factor a bidet into the overall pipework layout from the start when it's part of a full installation rather than treating it as an add-on.",
+  },
+  {
+    q: "Does a bidet need backflow protection?",
+    a: "Most ascending-spray bidets do, because the outlet can sit below the fitting's flood level, which creates a theoretical risk of contaminated water being drawn back into the mains under certain fault conditions. We fit an appropriate check valve or air gap arrangement in line with Water Regulations guidance as standard, so this isn't something you need to specify separately.",
+  },
+];
+---
+
+<Base
+  title="Bidet Installation | Install My Bathroom"
+  description="Fit-only standalone bidet and bidet toilet installation across Bracknell and Berkshire. Hot/cold supply, waste routing and space checked at survey. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Bidet Installation", href: "/services/bidet-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bidet Installation</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Fitting a bidet properly means a trapped waste connection, a hot and cold supply run to the right height, and enough clear floor space in front of it to use comfortably — all confirmed at survey, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Standalone bidets have fallen in and out of fashion in UK bathrooms for decades, but they're a genuinely practical fitting when the room has the space for one, and a growing number of our clients are specifying them again alongside a WC in a main bathroom or principal en-suite. The installation itself is straightforward plumbing, but it only goes smoothly when the waste run and supply positions are worked out before the floor's finished.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most bidet installations we're asked for fall into one of two categories: a new bidet added alongside an existing WC in a bathroom that's otherwise staying as it is, or a bidet specified as part of a full refit where the pipework is being planned from scratch. The scope below covers both, with the difference being how much of the first-fix plumbing is already in place.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Confirmation of floor space, door swing and clearance against Building Regulations guidance</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix hot and cold supply runs, including extending a hot feed where none exists nearby</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Trapped waste connection routed to the soil stack or an agreed new branch, set to fall correctly</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor lifting and making good where new pipework has to be run beneath an existing floor</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Fixing of the bidet to floor or wall, level and secure, with the pan sealed to the floor finish</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Connection and testing of the mixer tap or thermostatic valve you've supplied</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Leak test of all new joints before the floor or tiling is closed up around them</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Standalone bidet or bidet toilet?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        These are two different fittings solving the same need in different ways, and conflating them at the planning stage is the most common mistake we see. A standalone bidet sits next to the WC as a separate unit and needs its own floor space — typically the same footprint as the WC itself, plus clearance in front. It's a purely mechanical fitting: hot and cold supply, a trapped waste, a mixer tap.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A bidet toilet, by contrast, is a WC pan with the washing function built in — no second fitting, no extra floor space, but it needs power as well as water, and the pan and cistern are usually deeper than a standard WC. If floor space is tight, a bidet toilet is almost always the better fit; if space allows and you want the traditional arrangement, a standalone bidet remains a straightforward, long-lived fitting with nothing electronic to go wrong. We'll talk through which suits your room at survey — see our <a href="/services/shower-toilet-installation/" class="underline" style="color: var(--teal);">shower toilet installation</a> page if the combined option is what you're considering.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        There's also a cost and complexity difference worth knowing before you choose. A standalone bidet is purely a plumbing job — no electrician, no commissioning of electronics, nothing to pair or configure. A bidet toilet draws in an electrical first fix and a longer commissioning stage at the end. Neither is inherently more expensive once you account for the full scope, but the trades involved and the lead time for ordering the right model differ, which is why we ask which direction you're leaning before booking survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">We measure available floor space, check the nearest hot and cold points, and establish where the waste can connect.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>First-fix plumbing.</strong> <span style="color: var(--text-soft);">Hot, cold and waste pipework is run to the agreed position, lifting floor sections where needed and making good as we go.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Fixing the bidet.</strong> <span style="color: var(--text-soft);">The pan is set level, fixed securely to floor or wall, and sealed around the base.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tap and waste connection.</strong> <span style="color: var(--text-soft);">Your mixer or thermostatic valve is fitted and connected, and the trapped waste joined and tested.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Leak test and handover.</strong> <span style="color: var(--text-soft);">Every joint is run and checked under full flow before floor coverings or tiling close the area up.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bidet waste connections are trapped in the same way as a basin, with a fall to the soil stack or new branch calculated before any pipe is cut — not adjusted after the fact by forcing a shallower gradient. Where backflow protection is required between the mains supply and the bidet (because the spray outlet sits below the flood level of the fitting, as it does on most ascending-spray bidets), an appropriate check valve or air gap arrangement is fitted in line with Water Regulations guidance.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor penetrations for new pipework in a tiled or tanked floor are sealed back through the waterproofing layer, not simply covered over, so the tanking's integrity isn't compromised by a pipe run added after the membrane went down. Where the bidet sits on an underfloor heating zone, fixing positions are agreed before the heating pipework or mat is laid, to avoid drilling into a live circuit later.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Supply pipework is sized to maintain adequate flow and pressure at the bidet without starving other fittings on the same circuit when used simultaneously — a common oversight when a bidet is added to an older system that was only ever designed around a basin and bath. We check this at survey rather than assuming the existing pipework has spare capacity, because in older properties with narrower-bore supply runs it sometimes doesn't, and the fix is easier to plan before the floor's open than after.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A bidet fitted alongside other first-fix plumbing during a full bathroom installation adds relatively little, because the floor's already open and the trades are already on site. Fitted on its own into an existing, finished bathroom, the cost depends heavily on how far the nearest hot and cold supply sit from the new position, and whether floor coverings need lifting and relaying around the new waste run. We confirm this at survey rather than quoting a flat figure that doesn't reflect your pipework.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Where a standalone bidet fits well — and where it doesn't</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Larger period bathrooms around Sunningdale, Ascot and Gerrards Cross often have the floor area to accommodate a bidet alongside the WC without crowding the room, and it's in these principal bathrooms and main en-suites that we fit them most often. A compact family bathroom or a cloakroom under the stairs rarely has the clearance, and trying to force one in tends to compromise the door swing or leave too little space to use the fitting properly — in those rooms a bidet toilet usually serves the same purpose without the extra footprint.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also worth thinking about who uses the room. A standalone bidet with simple mechanical taps has no electronics to service or replace over its lifetime, which makes it a sound long-term choice in a guest bathroom or principal suite where simplicity and durability matter more than the additional wash and dry functions a bidet toilet offers. We'll talk through both options honestly at survey rather than steering you toward whichever is easier for us to fit.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The bidet itself, its tap or thermostatic valve, and any waste fittings are bought by you. Brands such as Villeroy & Boch, Duravit and Laufen all produce bidets that match their WC ranges if you want a matched suite — see our <a href="/brands/" class="underline" style="color: var(--teal);">brands</a> pages for individual ranges. Confirm the tap hole configuration (single hole or three-hole) matches what you're ordering for the tap, since the two have to be bought as a pair.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the bidet, tap and any waste kit on delivery against the specification agreed at survey, including the fixing kit and any wall brackets supplied with it. A mismatched tap hole configuration or a damaged pan discovered only once we're on site, where it causes a return visit, is chargeable. If you're buying a matched suite, order the bidet, WC and basin together from the same range so overflow positions, fixing centres and finish all line up — mixing a bidet from one manufacturer with a WC from another occasionally causes a mismatch in fixing centres that only shows up once both are on site.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">What to check on delivery</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bidet-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

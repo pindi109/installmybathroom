@@ -1,0 +1,235 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bathroom Lighting and Electrics",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What are bathroom electrical zones?",
+    a: "Zones 0, 1 and 2 define areas of a bathroom by their proximity to water — inside the bath or shower itself, directly above and around it, and a wider surrounding area — each requiring fittings with a minimum IP (ingress protection) rating. Anything outside these zones is unrestricted. We assess every fitting's position against the zones it falls within before specifying it.",
+  },
+  {
+    q: "Do I need a registered electrician for bathroom electrical work?",
+    a: "Yes, for notifiable work under Part P of the Building Regulations, which covers most new circuits and any work within bathroom zones. We coordinate a registered electrician as part of the installation so all notifiable work is certified on completion.",
+  },
+  {
+    q: "Can I choose any light fitting for my bathroom?",
+    a: "No — the fitting's IP rating has to match the zone it's installed in. A pendant or fitting rated only for dry, unrestricted areas can't legally or safely be installed directly above a bath or inside a shower enclosure. We check this against your chosen fittings before they're installed.",
+  },
+  {
+    q: "What's the right way to light a vanity mirror?",
+    a: "Lighting from the sides or positioned to illuminate the face evenly, rather than a single downlight above the mirror that casts shadows under the eyes and chin, generally gives the best result for grooming tasks. We discuss layout against your specific vanity position at survey rather than applying one standard layout to every room.",
+  },
+  {
+    q: "Can bathroom lighting be put on a dimmer?",
+    a: "Yes, provided the fittings and dimmer switch are compatible — not all LED fittings dim smoothly with every dimmer type, and mismatches can cause flickering. We check compatibility between your chosen fittings and control before installation.",
+  },
+  {
+    q: "Does a bathroom need an extractor fan wired separately from the lights?",
+    a: "It depends on the specification — some extractor fans are wired to run with the light switch, others on a separate switch or a humidity sensor with a timed overrun. We'll discuss which suits your usage pattern and ventilation needs at survey; see our ventilation service for more detail.",
+  },
+  {
+    q: "What happens if the existing consumer unit doesn't have spare capacity?",
+    a: "We check this at survey, before any work is costed. If spare ways or RCD protection are lacking, the options are usually a consumer unit upgrade or, in some cases, a dedicated board for the new bathroom circuits — both are things to know and price in before work starts, not discover mid-installation.",
+  },
+  {
+    q: "Can existing bathroom light switches stay outside the room if I'm changing the layout?",
+    a: "Generally yes, and it's good practice — a switch outside the bathroom's door, in a dry, unrestricted area, avoids zoning complications entirely. Where a switch does need to be inside the room, it's specified and positioned to meet the zone requirement for its exact location.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Lighting & Electrics | Install My Bathroom"
+  description="Fit-only bathroom lighting and electrical installation across Bracknell and Berkshire. Zoned to BS 7671, Part P certified. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Bathroom Lighting & Electrics", href: "/services/bathroom-lighting-and-electrics/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Lighting &amp; Electrics</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Every fitting in a bathroom — downlight, shaver socket, extractor, heated towel radiator — sits within an electrical zone defined by its distance from water, and the correct IP rating for that zone isn't optional. Specified and certified correctly, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Lighting and electrics underpin almost everything else in a bathroom installation, from the shaver socket by the mirror to the circuit feeding underfloor heating. Getting the zoning, circuit design and fitting specification right at first-fix stage is what lets every other trade that follows — tiling, second fix, final snagging — proceed without rework, and it's where most of the avoidable delays on a badly planned bathroom actually originate.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Lighting and electrics are almost always part of a wider bathroom installation rather than a stand-alone job, since they interact with every other trade — first fix has to happen before tanking, second fix after tiling. The scope below covers the electrical element of that sequence specifically.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Electrical zone assessment for every fitting position in the room</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix wiring for lighting, extraction, shaver sockets, heated radiators and any underfloor heating</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Circuit design and consumer unit assessment for spare capacity on new circuits</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Coordination of a registered electrician for all Part P-notifiable work</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second-fix installation of light fittings, switches, sockets and controls</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Testing and certification of all new and altered circuits on completion</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Building Control notification or certificate as required for the work carried out</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Understanding electrical zones</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bathroom electrical zones exist because water and electricity in close proximity are genuinely dangerous, and the zoning system under BS 7671 gives a precise, measurable way to decide what's safe where. Zone 0 is inside the bath or shower itself, where only low-voltage, fully water-rated fittings are permitted. Zone 1 extends above the bath or shower to a set height, and Zone 2 extends further out around that. Each zone has a minimum IP rating that any electrical fitting installed within it must meet.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This isn't a theoretical exercise we apply loosely — every downlight, extractor fan, shaver socket and switch position is checked against the room's actual layout at survey, because moving a basin, enlarging a shower enclosure, or repositioning a bath changes where the zones fall. A fitting that was compliant in the old layout isn't automatically compliant once the room's reconfigured, which is one reason we re-assess zoning from scratch on any full bathroom refit rather than simply mirroring what was there before.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Room layout, new fitting positions and consumer unit capacity are assessed together.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Circuit design.</strong> <span style="color: var(--text-soft);">New circuits are planned for lighting, extraction, sockets and any heating elements, checked against the zones they'll fall within.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>First fix.</strong> <span style="color: var(--text-soft);">Cabling is run to agreed positions ahead of tanking and tiling, by a registered electrician.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Second fix.</strong> <span style="color: var(--text-soft);">Light fittings, switches, sockets and controls are installed once tiling is complete.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Testing and certification.</strong> <span style="color: var(--text-soft);">Every circuit is tested, and a certificate issued for all notifiable work before handover.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        All bathroom electrical work follows BS 7671 (the IET Wiring Regulations) for special locations, with IP ratings specified per fitting according to the zone it occupies. Work that's notifiable under Part P of the Building Regulations — which covers the great majority of new circuits and alterations within a bathroom — is carried out by a registered electrician and certified on completion, either through self-certification under a competent person scheme or via Building Control notification.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Supplementary bonding, where required by the specific installation, connects exposed metalwork to reduce the risk of a dangerous voltage difference between simultaneously touchable surfaces — this is assessed as part of the overall circuit design rather than applied as a blanket rule, since modern consumer units with appropriate RCD protection sometimes remove the need for it, depending on the installation's specifics.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Consumer unit capacity is checked before any new circuit is added. An older consumer unit without spare ways, or without RCD protection on existing circuits, sometimes needs upgrading alongside the bathroom work — we'll flag this at survey rather than discover it once first fix is already underway.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        In many of the larger period properties we work in around Sunningdale, Ascot and Gerrards Cross, the existing wiring and consumer unit predate current RCD and zoning requirements by decades, having been installed or last rewired under an earlier edition of the Wiring Regulations. This doesn't mean a full rewire of the house is needed to add a new bathroom circuit, but it does mean the existing system's condition is assessed honestly at survey — an older installation that technically still functions isn't automatically suitable to extend without upgrade.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Layering light: ambient, task and feature</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A single row of downlights across the ceiling is the default most bathrooms are built with, and it's rarely the best result. General ceiling lighting (ambient) gives overall room illumination but tends to create flat, downward shadows that aren't flattering at a mirror. Task lighting — positioned specifically at the vanity, either side of or above a mirror — addresses that directly, and is worth planning as its own circuit or switch rather than tied to the main ceiling lights.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Feature lighting — a recessed niche light in a shower, a plinth light beneath a vanity unit, or an LED strip defining a bath surround — adds depth and atmosphere, particularly useful in the evening when full brightness isn't wanted. None of these layers are essential, but combining even two of them on separate switches, with dimming where appropriate, makes a noticeable difference to how a finished bathroom actually feels to use, versus simply looking good in daylight photographs.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'll talk through a layered plan at survey if you haven't already fixed on a lighting scheme, since it affects how many circuits and switch positions are needed at first fix — a decision that's far cheaper to make before cabling goes in than afterward, and one that's much harder to revisit once the ceiling and walls are plastered and tiled.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        As with most of our pricing, the figure depends on scope and condition rather than a flat rate. A straightforward like-for-like rewire of existing fitting positions sits at the lower end. Cost rises with the number of new circuits needed, whether the consumer unit requires upgrading for capacity or RCD protection, how many separately controlled lighting zones or dimming circuits are specified, and whether smart or app-based controls are being integrated alongside standard switching. We confirm the specific scope and cost at survey once your lighting plan and fitting choices are known.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Light fittings, switches (where a specific finish or design is wanted beyond standard), and any smart controls are bought by you. Confirm the IP rating of every fitting against the zone it's intended for before ordering — a beautiful fitting that isn't rated for its intended position simply can't be installed there, regardless of how it looks in the showroom.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Check fittings on delivery against the specification agreed at survey, including IP rating marked on the packaging or fitting itself. A fitting with the wrong rating discovered on install day, where it causes a return visit, is chargeable.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If you're specifying smart lighting controls or app-based dimming, check compatibility with your home's existing wiring and any hub system before ordering — some smart dimmers need a neutral wire present at the switch position, which older properties don't always have without additional cabling. We'll flag this at survey if it affects your chosen control system, and where a neutral isn't present we'll agree an alternative before fittings are ordered rather than after they've arrived and don't work as expected.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/mirrored-cabinets-and-illuminated-mirrors/" class="btn-secondary">Mirrored Cabinets &amp; Illuminated Mirrors</a>
+        <a href="/services/bathroom-ventilation/" class="btn-secondary">Bathroom Ventilation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+        <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+        <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Bathroom ventilation regulations</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-lighting-and-electrics-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

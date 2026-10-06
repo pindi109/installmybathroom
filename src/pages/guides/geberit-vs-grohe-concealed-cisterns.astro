@@ -1,0 +1,255 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Geberit vs Grohe Concealed Cisterns Compared",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Can I mix a Geberit frame with a Grohe flush plate, or vice versa?",
+    a: "Some cross-compatibility exists between frame and plate ranges, but it isn't universal. We check the exact models against each other at survey, or you should confirm compatibility with the manufacturer before ordering a mismatched pair.",
+  },
+  {
+    q: "Which brand is easier to service if something goes wrong?",
+    a: "Both brands are widely fitted in the UK, so spare mechanisms and replacement parts are generally available for either. The more important factor for future servicing is leaving a correctly sized, accessible inspection panel at installation — which we plan regardless of brand.",
+  },
+  {
+    q: "Does the wall need to be different for a Geberit versus a Grohe frame?",
+    a: "Both are free-standing steel frames that support the pan and cistern independently of the wall itself, fixed to the floor and, where needed, braced back to a stud or masonry wall. The structural requirement is broadly similar; the exact frame dimensions and fixing centres differ by model.",
+  },
+  {
+    q: "Do both brands offer dual-flush options?",
+    a: "Yes, dual-flush is standard across current ranges from both manufacturers, with flush plates offering a choice of a full and reduced flush volume to manage water use.",
+  },
+  {
+    q: "Is one brand quieter in operation than the other?",
+    a: "Noise in a concealed cistern is driven more by the quality of the inlet valve and how well the frame is isolated from the surrounding structure than by brand alone. We detail fixing and isolation at first fix to minimise noise transfer regardless of which cistern is specified.",
+  },
+  {
+    q: "Can I replace just the flush plate without replacing the whole cistern mechanism?",
+    a: "Usually, yes, provided the replacement plate is compatible with the actuator and flush valve already fitted inside the cistern. This is one of the more common servicing requests we see — a client wanting to update the finish without disturbing a mechanism that's otherwise working fine — and we check the existing cistern model before ordering a replacement plate.",
+  },
+  {
+    q: "How often does a concealed cistern typically need servicing?",
+    a: "There's no fixed interval — a well-installed cistern with clean mains water can run for years without intervention. The parts most likely to need attention over time are the fill valve and the flush valve seal, both of which are straightforward to replace when the inspection panel has been left properly accessible.",
+  },
+  {
+    q: "Does the frame fixing method differ between a stud wall and a masonry wall?",
+    a: "Yes. Against a masonry wall, the frame is typically floor-fixed and braced back to the wall with fixings suited to that substrate; built into a stud wall, the frame's floor fixing still carries the load, with the studwork built around it rather than relied on to bear weight itself. We confirm the correct fixing approach for your specific wall type at survey.",
+  },
+];
+---
+
+<Base
+  title="Geberit vs Grohe Concealed Cisterns Compared | IMB"
+  description="How Geberit and Grohe concealed cistern and frame systems compare for a fit-only bathroom installation — frame type, flush plates, and what we check before fitting."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Geberit vs Grohe Cisterns", href: "/guides/geberit-vs-grohe-concealed-cisterns/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Geberit vs Grohe Concealed Cisterns Compared</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Geberit and Grohe both make widely specified concealed cistern and frame systems for wall-hung toilets. Geberit is the more commonly specified concealed cistern mechanism in the UK trade, with a long track record and broad flush plate choice; Grohe's Rapid SL range is also well established, often chosen to match a wider Grohe brassware scheme. Both need the same first-fix planning: a free-standing frame, correct fixing centres, and an accessible inspection panel.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two systems compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Geberit</th>
+              <th class="text-left py-3 font-semibold">Grohe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Frame system</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Duofix and GIS frame ranges, free-standing steel, floor and wall fixed.</td>
+              <td class="py-3" style="color: var(--text-soft);">Rapid SL frame range, also free-standing steel, floor and wall fixed.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Market position in the UK</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">The most commonly specified concealed cistern mechanism on UK bathroom jobs, with wide trade familiarity.</td>
+              <td class="py-3" style="color: var(--text-soft);">Well established, frequently specified alongside Grohe brassware for a matched-brand scheme.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Flush plate choice</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Broad range of Sigma flush plate finishes and designs, sold separately from the cistern itself.</td>
+              <td class="py-3" style="color: var(--text-soft);">Skate Cosmopolitan and related plate ranges, generally styled to coordinate with Grohe brassware.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Flush type</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Dual-flush standard across current ranges.</td>
+              <td class="py-3" style="color: var(--text-soft);">Dual-flush standard across current ranges.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Access for servicing</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Requires an accessible inspection panel sized to the specific frame model.</td>
+              <td class="py-3" style="color: var(--text-soft);">Requires an accessible inspection panel sized to the specific frame model.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What matters more than the badge</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Both brands build a frame that's structurally independent of the wall it sits against — the frame itself carries the weight of the pan, cistern and anyone using it, fixed to the floor and braced back to a stud or masonry wall. That means the wall build behind the frame needs to be planned correctly regardless of which cistern you choose: a stud wall deep enough to house the frame and services, or a masonry wall with the frame furred out in front of it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The single most common servicing problem we see with any concealed cistern, whatever the brand, isn't the mechanism itself failing — it's an inspection panel that was never left accessible, meaning a straightforward valve replacement years later turns into removing tiled panelling. We plan the access panel position and size at first fix, before the frame is boxed in and tiled over.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Matching to the rest of your specification</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If your brassware scheme is already built around one brand, choosing the matching concealed cistern and flush plate keeps the finish visually coordinated — a Grohe flush plate sitting alongside Grohe tap and shower fittings, for example. If your brassware is from a different manufacturer entirely, either cistern brand will sit comfortably alongside it; the flush plate finish (chrome, matt black, brushed brass and similar) is usually the detail worth matching to your other fittings rather than the cistern brand itself.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We confirm your exact frame and pan model against the fixing centres and projection at survey, since even within one brand's range, different frame heights and pan projections exist for different room depths and user requirements.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">First-fix sequencing: what has to happen before the frame is boxed in</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Whichever cistern you choose, the sequence of work is largely the same. The frame is fixed to the floor and, where needed, braced back to a supporting wall before any water supply or waste connection is made. Supply pipework to the cistern's fill valve and the waste connection down to the soil pipe both need to be pressure-tested and checked before the frame is boxed in with studwork or blockwork and tiled over, because once that cladding is finished and tiled, any leak behind it becomes expensive and disruptive to trace and fix.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The flush plate itself is one of the last items fitted, after tiling is complete, since it sits flush against the finished wall surface. This is also when the dual-flush mechanism is calibrated to the correct water volumes for both the full and reduced flush settings — a small adjustment that affects both water use and how quickly the cistern refills between uses.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A detail that catches out some retrofits is the inspection panel size. Both Geberit and Grohe frames have a minimum panel size specified for genuine access to the cistern mechanism, and a panel cut smaller than that — sometimes done to preserve a particular tile layout — can mean a straightforward valve replacement years later becomes a difficult, time-consuming job. We size the panel to the frame manufacturer's specification first, and work the tile layout around it, rather than the other way round.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Flush plate compatibility and aesthetic differences in more detail</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The flush plate is the one part of a concealed cistern system you actually see and touch day to day, and it's sold as a separate item from the cistern and frame themselves. Geberit's Sigma plate range covers a wide spread of designs and finishes, from simple twin-button versions through to touchless and illuminated options on higher-specification models. Grohe's Skate and Cosmopolitan plate ranges are generally styled to sit visually alongside Grohe's own brassware collections, which is part of why they're often specified together on a single-brand scheme.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Cross-brand compatibility between a plate and a cistern from a different manufacturer does exist in some cases, since the actuator mechanism — the part that links the visible plate to the flush valve inside the cistern — follows a few common formats across the industry. It isn't universal, though, and fitting an incompatible plate to the wrong cistern can mean the flush either doesn't actuate correctly or doesn't seal back flush with the wall. We check the actual cistern model against any plate being considered before ordering, rather than assuming a plate will simply fit because it looks like a standard rectangular design.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Frame fixing differences: what changes between the two systems</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Both Geberit and Grohe frames are floor-fixed first, since the floor fixing is what actually carries the working load of the pan, cistern and anyone using it — the wall bracing exists to stop the frame rocking or flexing side to side, not to bear weight. Against a masonry wall, the frame is typically floor-fixed and then braced back to the wall using fixings suited to blockwork or brick. Built into a stud wall, the floor fixing still does the structural work, with the studwork built around and against the frame rather than relied on to carry the pan's weight itself.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Fixing centres — the exact spacing of the floor and wall fixing points — differ between frame models within each brand's range, not just between the two brands, so the frame has to be matched to the specific pan being hung from it. Getting this wrong at first fix is one of the more disruptive mistakes to correct later, since it usually means re-opening a floor or wall that's already been tiled.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Servicing and access considerations in practice</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        In practice, the two parts of a concealed cistern most likely to need attention over the years are the fill valve, which controls water entering the cistern after a flush, and the flush valve seal, which can wear and cause a slow trickle into the pan if it degrades. Both are routine, inexpensive parts to replace — provided the inspection panel gives genuine, unobstructed access to reach them.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A plumber attending a service call needs to remove the flush plate, reach into the cistern through the panel opening, and work on the valve without the panel opening fighting them for space or requiring tiles to be chipped away first. This is why we treat the inspection panel size specified by the frame manufacturer as non-negotiable at first fix, whichever brand is chosen — it's the detail that determines whether a ten-minute valve swap in five years' time stays a ten-minute job.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing between the two for a specific room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        For most clients, the deciding factor isn't a meaningful performance difference between the brands — both are well-engineered, widely fitted systems with long service lives when installed and serviced correctly. The decision usually comes down to how the flush plate finish and design coordinate with the rest of the room's brassware and fittings, and sometimes simply which range your chosen showroom stocks and can supply within your installation timescale.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where it does matter more is in rooms with restricted depth behind the wall, since different frame models within each range have different minimum depth requirements — something we check against the room's actual wall build-up at survey rather than assuming a standard depth will work. For a loft conversion or an en-suite built into an existing void with limited depth, this can be the factor that decides which specific model, rather than which brand, ends up being specified.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Plumbing &amp; First Fix</a>
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed cisterns explained</a>
+        <a href="/guides/toto-vs-geberit-shower-toilets/" class="btn-secondary">Toto vs Geberit shower toilets</a>
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/geberit/" class="btn-secondary">Geberit</a>
+        <a href="/brands/grohe/" class="btn-secondary">Grohe</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Frame and cistern installation referenced in this guide follows manufacturer installation guidance current at the time of writing. Supporting wall and structural fixings follow Building Regulations Part A; water supply and waste connections follow Part G and Part H respectively.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="geberit-grohe-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

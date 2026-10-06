@@ -1,0 +1,181 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Does Laufen sanitaryware need a particular carrier frame?",
+    a: "Laufen's wall-hung WCs and some basin ranges are fitted to a standard concealed cistern carrier frame (such as Geberit Duofix or an equivalent) rather than a Laufen-specific frame, since Laufen produces sanitaryware rather than its own cistern systems. We confirm frame and fixing against the exact pan model at survey.",
+  },
+  {
+    q: "What makes Laufen's SaphirKeramik material different to install?",
+    a: "SaphirKeramik is a thinner, higher-strength ceramic that allows finer rims and sharper edges than standard vitreous china. It's handled with the same care as any ceramic sanitaryware during transport and fitting, but its thinner sections mean it marks and chips more visibly if knocked, so we keep packaging on until the final stage of the fit.",
+  },
+  {
+    q: "Can Laufen basins be fitted as countertop or semi-recessed units?",
+    a: "Yes, Laufen offers countertop, semi-recessed, wall-hung and pedestal basins across most collections. The worktop or vanity cut-out is set out from the exact basin template before the stone or timber top is cut, since Laufen's basin footprints vary across ranges.",
+  },
+  {
+    q: "Do Laufen baths need a particular waste and overflow position?",
+    a: "Waste and overflow positions vary by bath model and are confirmed against the manufacturer's template before the floor is finished, since Laufen's bath ranges include both standard and asymmetric shapes with different outlet positions.",
+  },
+  {
+    q: "What should I check when my Laufen order is delivered?",
+    a: "Inspect sanitaryware for hairline cracks and chips under good light before installation — SaphirKeramik pieces show stress marks differently to standard ceramic — and confirm the pan projection and fixing centres match the frame or wall fixings ordered for it.",
+  },
+  {
+    q: "Can Laufen furniture be fitted to a tiled wall rather than a stud wall?",
+    a: "Yes, with the correct fixings for the substrate behind the tile — batten, plasterboard or masonry all take a loaded vanity unit differently. We confirm the wall construction at survey and specify fixings accordingly, since a fixing suited to masonry won't hold the same load safely in a timber stud wall.",
+  },
+];
+---
+
+<Base
+  title="Laufen Installation | Install My Bathroom"
+  description="Installation of Laufen sanitaryware, SaphirKeramik basins and wall-hung WCs across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Laufen", href: "/brands/laufen/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Laufen Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Laufen is a Swiss sanitaryware manufacturer whose SaphirKeramik material lets it produce basins and pans with noticeably finer rims and sharper geometry than standard vitreous china allows. That thinness is the main thing we plan around: it's a strong material once fitted and fixed, but the pieces are less forgiving of a knock in transit or on site than a heavier, more conventional basin, so handling and sequencing get more attention than with a standard ceramic range.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.laufen.com/gb" target="_blank" rel="noopener" class="btn-secondary">Visit Laufen →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wall-hung, close-coupled and back-to-wall WCs, countertop, semi-recessed, wall-hung and pedestal basins across the SaphirKeramik-based Kartell by Laufen and Il Bagno Alessi collections, plus Laufen's acrylic and steel-enamel bath ranges and matching bathroom furniture. We also fit Laufen's shower trays on wet room and walk-in shower projects where that's the sanitaryware brand specified.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Laufen doesn't manufacture its own concealed cistern and carrier frame system, so wall-hung pans are fitted to a standard frame — most commonly a Geberit or Grohe carrier — chosen to suit the wall construction confirmed at survey. The pan itself needs checking against the frame manufacturer's fixing centres before either is ordered, since projection and fixing points vary between sanitaryware brands.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Frame and fixing compatibility:</strong> wall-hung pans are matched to the chosen carrier frame's fixing centres and pan projection before either is ordered.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Basin cut-out templates:</strong> countertop and semi-recessed basins need the exact manufacturer template used for the stone or timber worktop cut-out, not a generic basin size.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste and overflow position:</strong> bath waste and overflow positions are confirmed against the specific model's template before the floor finish is laid.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Handling of SaphirKeramik pieces:</strong> thinner-rimmed basins and pans are kept in original packaging until the final stage of fitting and lifted by their structural points, not their rims.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Shower tray falls:</strong> where a Laufen shower tray is specified, the sub-floor fall to waste is set before the tray is bedded, checked against the tray's own waste position.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We inspect every piece of sanitaryware under good, raking light before installation — SaphirKeramik's thinner sections can carry a hairline stress crack from transit that's harder to spot than a crack in a heavier ceramic basin. We confirm the pan's fixing centres and projection match the frame it's being fitted to, and check basin cut-out dimensions against the actual piece delivered rather than the published spec sheet, since manufacturing tolerances mean a worktop cut to a generic drawing can be a poor fit for the piece that actually arrives. Damage found after fitting starts is far costlier to resolve than damage caught at the door.
+      </p>
+    </div>
+  </section>
+
+  <!-- Furniture coordination -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Coordinating sanitaryware with matching furniture</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Laufen's collections are typically designed as coordinated ranges — a basin, vanity unit, mirror cabinet and WC sharing the same design language — and most of the projects we fit specify the full set rather than a basin alone. Where a vanity unit is being wall-hung to match a countertop or semi-recessed basin, the wall fixing is checked against the combined weight of unit, basin and any stone top before installation, since a lightweight stud wall sometimes needs additional bracing to carry a fully loaded vanity safely.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We confirm this at survey against the actual wall construction, rather than assuming a standard fixing will do, because a loaded vanity unit coming away from a wall is a far more serious failure than a loose basin tap.
+      </p>
+    </div>
+  </section>
+
+  <!-- Material handling -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why SaphirKeramik changes the sequencing</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A conventional vitreous china basin tolerates a certain amount of knock-about during a build; a SaphirKeramik piece, with its finer rim and thinner wall section, doesn't tolerate the same handling, even though it's a genuinely strong material once installed. We bring Laufen sanitaryware onto site later in the sequence where the schedule allows, after the heaviest and dirtiest trades have finished, rather than storing it on site through demolition and first fix.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also lift and fit these pieces by their structural fixing points rather than their rims, and keep protective packaging on basins and pans until tiling, grouting and decorating are complete — the rim is the most visible part of the piece and the part most likely to show a chip if handled carelessly during the build.
+      </p>
+    </div>
+  </section>
+
+  <!-- Pairing with brassware and tiling -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Pairing Laufen sanitaryware with brassware and tiling</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because Laufen doesn't make brassware, the basin mixer, bath filler and shower valve are almost always sourced separately, which means tap hole count and centre spacing have to be checked both ways — against the basin or bath actually delivered, not just the published spec sheet, since minor manufacturing variances can shift a hole position by a few millimetres from one production run to the next on finer ceramic pieces.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a Kartell by Laufen or Il Bagno Alessi basin is being set into a stone or large-format porcelain vanity top, we template directly from the physical piece once it's on site rather than from a drawing, and we sequence the worktop cut after the basin has been inspected and confirmed free of transit damage — cutting an expensive stone top to a basin that later turns out faulty is an avoidable cost.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's Laufen fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The most common issue we're asked to put right is a worktop cut to a generic basin dimension rather than the manufacturer's exact template, leaving a visible gap or an overly tight fit around a countertop basin. The second is chip damage to a basin rim from being left unprotected on site during later trades.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Neither reflects on the product. Laufen's tolerances are tight and the finish quality is high when the cut-out is templated correctly and the piece is protected until the room around it is finished — which is how we sequence every SaphirKeramik installation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for Laufen; we install client-supplied Laufen products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+      <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+      <a href="/guides/where-to-buy-bathroom-products-uk/" class="btn-secondary">Where to Buy Bathroom Products UK</a>
+      <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying Your Own Bathroom Checklist</a>
+      <a href="/brands/duravit/" class="btn-secondary">Duravit Installation</a>
+      <a href="/brands/villeroy-and-boch/" class="btn-secondary">Villeroy &amp; Boch Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="laufen-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

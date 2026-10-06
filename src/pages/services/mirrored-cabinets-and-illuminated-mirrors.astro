@@ -1,0 +1,241 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Mirrored Cabinets and Illuminated Mirrors",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Does an illuminated mirror need an electrician?",
+    a: "Yes. Illuminated mirrors need a mains connection, usually via a fused spur or a shaver socket depending on the model, positioned and wired by a registered electrician as Part P-notifiable work within the bathroom's electrical zones.",
+  },
+  {
+    q: "Can a mirrored cabinet be recessed into the wall?",
+    a: "Yes, if the wall has a stud cavity of sufficient depth and there's nothing — a pipe, cable or structural element — in the way. We check this at survey; where the wall won't accommodate a recess, the cabinet is surface-mounted instead, which we'll confirm before you order.",
+  },
+  {
+    q: "What's the difference between a shaver socket and a fused spur for a mirror?",
+    a: "A shaver socket is a low-current, isolated supply designed specifically for shavers and some low-wattage mirror lighting; a fused spur is a standard mains connection suited to mirrors with heated demisting pads or higher-wattage LED systems. Which your mirror needs depends on its specification, confirmed before the electrical first fix.",
+  },
+  {
+    q: "Do illuminated mirrors need to be positioned at a specific height?",
+    a: "There's no fixed regulation, but positioning is usually set to the user's eye line relative to the basin, and we check this against your actual standing height at survey rather than a generic average, particularly where the mirror is over a vanity unit with a specific worktop height.",
+  },
+  {
+    q: "Can a demisting mirror pad be added to any mirror?",
+    a: "Not retrospectively to a mirror that wasn't designed for one — a demisting pad needs to be built into the mirror during manufacture. If you want this feature, it needs specifying when you order the mirror, not added afterward.",
+  },
+  {
+    q: "What colour temperature should bathroom mirror lighting be?",
+    a: "A neutral to warm white, typically in the 3000K to 4000K range, gives the most natural and flattering light for grooming tasks like shaving or applying make-up — colder, bluer light tends to be less forgiving. Many illuminated mirrors now offer adjustable colour temperature, letting you set this to preference rather than being locked to one tone.",
+  },
+  {
+    q: "Can two illuminated mirrors be fitted over a double vanity?",
+    a: "Yes, and it's a common specification over a double basin unit. Each mirror typically needs its own electrical connection unless the manufacturer's design links them, so we confirm wiring requirements for both at survey before the electrical first fix is run.",
+  },
+  {
+    q: "What happens if the wall behind a mirror position has a pipe or cable in it?",
+    a: "We check this at survey, before any wall is cut or recessed, using the knowledge of what was installed during first fix along with a cable and pipe detector. If something's in the way of a planned recess, the position is adjusted, or the cabinet is surface-mounted instead — far cheaper to resolve on paper at survey than discovered mid-cut.",
+  },
+];
+---
+
+<Base
+  title="Mirrored Cabinets & Illuminated Mirrors | Install My Bathroom"
+  description="Fit-only mirrored cabinet and illuminated mirror installation across Bracknell and Berkshire. Electrical zones, recessing and positioning checked. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Mirrored Cabinets & Illuminated Mirrors", href: "/services/mirrored-cabinets-and-illuminated-mirrors/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Mirrored Cabinets &amp; Illuminated Mirrors</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        An illuminated mirror or mirrored cabinet needs a correctly zoned electrical connection, a wall that can take the fixing load, and positioning set to how the room's actually used — confirmed at survey, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        These are among the most frequently specified bathroom fittings and also among the most commonly mispositioned, because the electrical connection and recess depth needed are easy to overlook until the wall's already plastered. We check both before you order, not after, so the position, height and connection type are all settled before the rest of the bathroom's first fix is finished.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Whether it's a single mirror replacing a non-illuminated one on an existing shaver socket, or a pair of cabinets over a new double vanity needing fresh wiring entirely, the scope below covers both ends of that range — the detail depends on what's already in the wall.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Confirmation of electrical zone and connection type (shaver socket or fused spur) needed</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Coordination of a registered electrician for the mains connection, certified on completion</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Wall survey for recessing depth or surface-mount fixing load, whichever applies</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Cutting and making good the wall opening where a cabinet is being recessed</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Positioning set to eye line relative to the basin or vanity worktop height</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Fixing, levelling and wiring connection, including any Bluetooth speaker or sensor pairing</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Function test of lighting, demister pad and any additional features before handover</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Recessed or surface-mounted</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A recessed cabinet sits flush within the wall, giving a cleaner line and extra storage without the cabinet's full depth projecting into the room — a genuine benefit in a smaller en-suite where every centimetre of floor space counts. It needs a stud cavity of sufficient depth, free from pipes, cables or noggins in the wrong place, which is why we check the wall's construction at survey rather than assuming a recess is possible once a cabinet's already been bought.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A surface-mounted mirror or cabinet is more flexible — it works against masonry, dot-and-dab or stud walls equally, and doesn't depend on what happens to be behind the plasterboard. Most illuminated mirrors, as opposed to cabinets, are surface-mounted by design since they're thinner and don't offer storage, so the recess question usually only applies when a cabinet with internal shelving is being specified.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Wall construction, electrical zone and preferred position checked against your chosen mirror or cabinet.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Electrical first fix.</strong> <span style="color: var(--text-soft);">A registered electrician runs the shaver socket or fused spur to the confirmed position.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Wall preparation.</strong> <span style="color: var(--text-soft);">A recess is cut and made good where specified, or fixing points prepared for surface mounting.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Fixing and wiring.</strong> <span style="color: var(--text-soft);">The mirror or cabinet is fixed level and the electrical connection made and tested.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Testing and handover.</strong> <span style="color: var(--text-soft);">Lighting, demister and any additional features are tested and talked through before we leave.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Electrical connections for mirrors and cabinets are positioned and rated according to the bathroom's electrical zones under BS 7671, which set out what level of water protection (IP rating) is required at different distances from a bath, basin or shower. A shaver socket is specifically designed to be safe within zones that a standard mains socket could not occupy, which is why the two aren't interchangeable regardless of what the mirror's cable looks like. This work is Part P-notifiable and certified by a registered electrician on completion.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Recessed cabinets are fixed to a sound frame within the stud cavity, not simply supported by the plasterboard cut edge, so the cabinet's weight — heavier once loaded with bathroom contents — is properly carried. Surface-mounted mirrors, particularly larger illuminated ones, are fixed with wall plugs and screws rated for the actual substrate and the mirror's weight, checked at survey rather than assumed from the fixing kit supplied in the box, which is sometimes generic rather than matched to your specific wall type.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Any cable or junction left inside a recessed cabinet's cavity is terminated and enclosed appropriately rather than left exposed, and the connection point is positioned so it remains accessible for future servicing without requiring the cabinet to be fully removed from the wall. Where a cabinet includes a built-in socket for a shaver or toothbrush charger, that socket itself is rated for the bathroom zone it sits within, separate from the main lighting or demister connection feeding the unit.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Choosing the right features</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The range of features on illuminated mirrors now extends well beyond basic edge lighting: demisting pads, colour-adjustable LEDs, dimmer or touch controls, built-in Bluetooth speakers, and motion or proximity sensors that switch the light on as you approach. Each adds a layer of electrical complexity, and some — particularly Bluetooth speakers — can need an additional low-voltage connection or a different socket type to the lighting circuit alone.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'd rather you specify what you actually want before ordering than discover at survey that a feature-rich mirror needs wiring the existing socket can't support. If a client is choosing between two similar-looking mirrors, we'll usually ask to see the installation manual for both before survey, since the electrical requirement is sometimes the deciding factor rather than appearance alone.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A surface-mounted mirror connecting to an existing shaver socket in the same position as the old one sits at the lower end. Cost rises where a recess needs cutting into a solid or unsuitable wall, where a new electrical circuit has to be run from further away, or where the mirror includes additional features — Bluetooth audio, a demister pad, colour-adjustable lighting — needing more involved commissioning. We confirm the specifics at survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Positioning: getting it right the first time</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The single most common regret clients mention after fitting a mirror themselves, or through a trade who didn't check first, is height — too high relative to the basin for comfortable daily use, or positioned without accounting for the vanity worktop's actual finished height once tiles and the basin are fitted. We measure from the agreed basin and worktop height at survey, not from a generic standard, since worktop heights vary considerably between vanity units and wall-hung basin installations.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second common issue is lighting glare — a mirror light positioned to shine directly at eye level, rather than illuminating the face evenly from the sides or top, can be uncomfortable to use despite looking good switched off in a showroom. We'll talk through mounting height and light direction together at survey, since the two decisions are connected rather than separate, and getting both right the first time avoids the cost and disruption of repositioning a wired fitting later.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The mirror or cabinet is bought by you. Confirm the connection type (shaver socket or fused spur), dimensions, and whether it's designed for recessed or surface mounting before ordering — all three affect what first-fix work is needed and, in the case of recessing, whether the wall can actually accommodate it.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Check the mirror or cabinet on delivery for the correct size, finish and connection type, and that the glass hasn't been cracked in transit. A wrong or damaged item discovered on site, where it causes a return visit, is chargeable.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If you're buying a cabinet designed for recessing, double-check the manufacturer's specified recess depth against the wall thickness confirmed at survey before you order — a cabinet designed for a standard 75mm stud cavity won't fit in a thinner partition wall without either a shallower model or building out the wall, and the latter changes the room's finished dimensions, which is worth knowing before committing to a specific product. Keep the manual and any warranty documentation that arrives with the unit, since some manufacturers require proof of professional installation to validate the warranty on built-in electrical components.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones</a>
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="mirrored-cabinets-and-illuminated-mirrors-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

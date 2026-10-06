@@ -1,0 +1,181 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "What rough-in does a hansgrohe concealed shower need?",
+    a: "Most concealed hansgrohe valves are built around the iBox Universal rough-in body, fitted and pressure-tested before the wall is tiled. The visible trim — a Croma, Raindance or Pulsify finish set, for example — is selected and fitted afterwards, matched to the iBox generation already in the wall.",
+  },
+  {
+    q: "How much water pressure does a hansgrohe rainfall head need?",
+    a: "Larger overhead and rainfall shower heads, particularly Raindance and Rainmaker models, need a minimum flow rate to deliver the coverage shown in the brochure. We measure static and running pressure at survey, before the head is ordered, because a combi boiler or long pipe run can leave a property short of what a large head needs.",
+  },
+  {
+    q: "Can hansgrohe brassware be mixed with sanitaryware from other manufacturers?",
+    a: "Yes, this is normal. We check tap hole count and centre spacing on the basin or bath against the hansgrohe mixer specified, since hole spacing isn't universal across manufacturers, before either item is ordered.",
+  },
+  {
+    q: "Do hansgrohe thermostatic valves need servicing access?",
+    a: "The valve's cartridge and non-return valves are serviceable from the front through the trim plate, but we still plan tile cuts and any boxing-in so the valve body itself isn't fully encased, in case a deeper repair is ever needed.",
+  },
+  {
+    q: "What should I check when my hansgrohe order arrives?",
+    a: "Confirm the rough-in or valve body model matches the trim plate ordered, check the finish code against the sample — chrome, brushed nickel and matte black all ship under slightly different codes within the same collection — and inspect visible trims for scratches before we begin fitting.",
+  },
+  {
+    q: "Can a hansgrohe shower system be added to an existing bathroom without a full refit?",
+    a: "Yes, where the existing pipework route is accessible, but the wall usually needs opening to fit a concealed valve correctly rather than surface-mounting it as an afterthought. We assess the existing plumbing at survey and advise honestly on whether a concealed or exposed valve is the more practical route for that specific wall.",
+  },
+];
+---
+
+<Base
+  title="hansgrohe Installation | Install My Bathroom"
+  description="Installation of hansgrohe shower systems, concealed valves and basin mixers across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "hansgrohe", href: "/brands/hansgrohe/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">hansgrohe Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        hansgrohe brassware and shower systems turn up on more of our specification sheets than almost any other single brand, usually as the shower and basin mixer package sitting alongside sanitaryware from Duravit, Villeroy &amp; Boch or Laufen. The engineering is consistent across the range, which makes fitting predictable — the variables that actually decide how well it performs are water pressure, rough-in depth and whether the valve body was set correctly before the wall closed up.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.hansgrohe.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit hansgrohe →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Basin, bath and shower mixers from the Logis, Metris, Talis and Focus collections, concealed and exposed thermostatic shower valves, and the Croma, Raindance, Rainmaker and Pulsify families of overhead and hand shower sets. We also fit hansgrohe's shower pipes, rails, shelf systems and the ShowerTablet range of digital and thermostatic shower controls.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        hansgrohe's concealed valve platform, the iBox Universal, is shared across much of the range and also underpins its sister brand AXOR, so a rough-in fitted early in a project can sometimes be matched to either a hansgrohe or an AXOR trim later, depending on how the specification evolves. We confirm this compatibility at survey rather than assuming it, since not every generation of trim fits every iBox revision.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Rough-in depth:</strong> the iBox or equivalent valve body is set to the exact finished wall thickness — tile, adhesive and board build-up — before boarding, since depth can't be corrected once the wall is finished.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> larger rainfall and multi-function heads need a measured minimum flow, checked at survey against the specific model ordered.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tap hole compatibility:</strong> basin and bath mixer hole count and centre spacing are checked against the sanitaryware before ordering either item.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Shower outlet set-out:</strong> overhead and rail positions are set from the same centre line as the enclosure or wet room glass, agreed before first fix.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply for digital units:</strong> where a ShowerTablet Select digital control is specified, a dedicated electrical supply is run to the control position before tiling, matched to the manufacturer's zoning requirements.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We check the rough-in or valve body model against the visible trim before installation begins — hansgrohe's trims are matched to specific iBox generations, and an older rough-in won't always accept a current trim plate. We confirm the finish code on the packaging matches the sample chosen, since chrome, brushed and matte finishes ship under distinct codes even within the same collection, and we inspect every visible trim and shower head under raking light for scratches or handling marks before fitting starts. Once a valve body is plastered or tiled in, swapping a mismatched part means reopening the wall, which is a chargeable return visit on client-supplied goods.
+      </p>
+    </div>
+  </section>
+
+  <!-- Dual and multi-outlet systems -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Dual-outlet and multi-head shower systems</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where a bathroom is specified with both an overhead and a handshower run from one hansgrohe valve, or a system feeding body jets as well, the pipe runs for every outlet are planned and pressure-tested together at first fix, not added one at a time as the project progresses. This matters because adding an outlet after the wall is tiled means breaking back into a finished surface, which is far costlier than a few extra minutes of planning before boarding starts.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We confirm at survey which outlets the client actually intends to use day to day, since a system with several outlets but only enough flow for one at a time disappoints in use even though every component is correctly fitted — this is a water pressure and pipe-sizing question we flag before anything is ordered.
+      </p>
+    </div>
+  </section>
+
+  <!-- Water pressure and performance -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Water pressure and shower performance</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A large overhead or rainfall head looks the part in a showroom, but its real performance depends entirely on what's feeding it. We measure static mains pressure and running flow rate at the survey stage, before anything is ordered, so a client specifying a Raindance or Rainmaker head on a combi boiler or a long run from the stopcock knows in advance whether it will perform as shown, or whether a pump or a different head size is the better choice.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where pressure is marginal, we'll say so before the shower is bought rather than after it's fitted and underperforming — that conversation belongs at survey, not on install day.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mixing valve families -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Matching valve families across a project</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        hansgrohe's shower control range runs from simple single-lever thermostatic valves through to ShowerSelect push-button and digital controls with multiple outlets — body jets, a handshower and an overhead run from a single valve. The more outlets a valve controls, the more first-fix pipework has to be routed and pressure-tested before the wall closes, and the more important it is to confirm every outlet's final position against the enclosure or wet room layout before any of it is buried in the wall.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On a project with two bathrooms specified in hansgrohe, we also check whether the client wants the valve family and trim finish to match across both rooms or to vary — a decision worth settling before either is ordered, since changing a finish mid-project after one room is already fitted means a visible inconsistency if the client later wants to match it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's hansgrohe fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The recurring fault is a concealed valve set to the wrong finished depth, leaving the trim proud of the tile or recessed into it rather than sitting flush. The second is a large rainfall head specified without checking pressure first, leaving a client with a shower that looks right but trickles rather than performs.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both are planning failures rather than product faults. hansgrohe's tolerances are tight when the rough-in depth is correct and pressure has been measured against the specific model before it's ordered — which is exactly what we check at survey, before either the valve or the shower head is bought.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for hansgrohe; we install client-supplied hansgrohe products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water Pressure for Rainfall Showers</a>
+      <a href="/guides/thermostatic-vs-digital-showers/" class="btn-secondary">Thermostatic vs Digital Showers</a>
+      <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+      <a href="/brands/axor/" class="btn-secondary">AXOR Installation</a>
+      <a href="/brands/grohe/" class="btn-secondary">Grohe Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="hansgrohe-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

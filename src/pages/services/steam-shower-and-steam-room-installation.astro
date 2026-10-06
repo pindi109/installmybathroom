@@ -1,0 +1,281 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Steam Shower and Steam Room Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What does a steam shower installation need that a normal shower doesn't?",
+    a: "A fully sealed enclosure with no gaps above the door or panel, a sealed ceiling, a drain in the floor for condensate, and a dedicated electrical supply for the steam generator — usually on its own circuit, sized to the generator's output.",
+  },
+  {
+    q: "Where does the steam generator get installed?",
+    a: "Generators are typically housed in an adjacent cupboard, airing cupboard or loft void within the maximum pipe run specified by the manufacturer — usually a few metres. We confirm a suitable location at survey before you order a generator sized for the room.",
+  },
+  {
+    q: "Does a steam room need different ventilation to a normal bathroom?",
+    a: "Yes. A steam room needs to hold steam in rather than extract it during use, but still needs a way to dry out and ventilate between sessions — typically a timed extractor set to run after the generator switches off, not during.",
+  },
+  {
+    q: "Can an existing shower enclosure be converted into a steam shower?",
+    a: "Sometimes, but most standard enclosures have gaps at the top or around the door that let steam escape, so a true conversion usually means replacing the enclosure with a sealed steam-rated unit and checking the ceiling and walls can be sealed too.",
+  },
+  {
+    q: "How long do steam rooms take to install compared to a standard shower?",
+    a: "Allow extra time over a standard enclosure — generator location, dedicated electrics, additional sealing at every joint and a commissioning test of the whole system typically add several days to the programme.",
+  },
+  {
+    q: "What ceiling height or material issues come up with steam rooms?",
+    a: "A sealed, moisture-resistant ceiling is essential — standard plasterboard without the right membrane behind it will absorb moisture over time. Sloped or low ceilings also affect steam distribution, which is why ceiling condition and height are checked at survey.",
+  },
+  {
+    q: "What's the difference between a steam shower and a full steam room?",
+    a: "A steam shower is a sealed shower enclosure that also generates steam — typically used by one person at a time within a conventional bathroom footprint. A steam room is a larger, dedicated space, sometimes with bench seating, built as its own room rather than a shower cubicle. Both use the same generator principle, but a steam room needs considerably more sealed surface area and a larger generator.",
+  },
+  {
+    q: "How much does running a steam generator add to household energy bills?",
+    a: "It depends on frequency of use and generator size, but a typical domestic steam shower used several times a week adds a modest amount to electricity costs compared with the water heating demand of a long power shower — we can talk through generator sizing options at survey if running cost is a priority alongside performance.",
+  },
+  {
+    q: "Can a steam shower be added as part of a wider bathroom renovation rather than a standalone project?",
+    a: "Yes, and it's often more efficient to do it this way — the dedicated electrical circuit, tanking and ventilation work can be sequenced alongside the rest of the room's first fix rather than as a separate, later addition, which usually saves both time and cost compared with retrofitting a steam enclosure into an already-finished bathroom.",
+  },
+];
+---
+
+<Base
+  title="Steam Shower &amp; Steam Room Installation | Install My Bathroom"
+  description="Fit-only steam shower and steam room installation across Bracknell and Berkshire. Sealed enclosures, dedicated electrics, tested commissioning. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Steam Shower & Steam Room Installation", href: "/services/steam-shower-and-steam-room-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Steam Shower &amp; Steam Room Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A steam installation stands or falls on what you can't see — a sealed enclosure with no escape point for steam, a dedicated electrical supply for the generator, and ventilation that dries the room out rather than fighting the steam while it's running. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's one of the more specialist installations we carry out, closer in some respects to a small wet room than a conventional shower, because the enclosure itself has to perform a job most bathroom fittings never have to — holding a controlled atmosphere at temperature rather than simply directing water to a drain. It's a request we get more often for principal suites and larger family bathrooms than compact en-suites, since the generator location, sealed ceiling and extraction route all need genuine space to work with.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Steam installations fail quietly, usually through a gap that was never noticed because it's above eye level or behind a panel — which is why every stage of this installation is built around sealing and testing rather than assuming a product will perform correctly out of the box.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Survey of generator location, maximum pipe run and available electrical supply</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Dedicated electrical circuit for the steam generator, coordinated with a registered electrician for Part P notification</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Fully sealed enclosure installation — ceiling, walls and door junctions sealed with no gaps for steam to escape</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking of the full enclosure, including ceiling where specified by the manufacturer</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor drain positioned for condensate run-off, with a correct fall checked before tiling</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Steam generator installation and pipe run to the steam head, following the manufacturer's maximum distance</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Full commissioning test — steam output, seal integrity and ventilation timing checked before handover</li>
+      </ul>
+      <p class="leading-relaxed mt-6" style="color: var(--text-soft);">
+        We also install any aromatherapy reservoir, lighting and control panel specified as part of the enclosure, sequencing their wiring with the generator circuit so everything is tested together rather than piecemeal. Where a control panel is positioned outside the enclosure for convenience, we route its cabling to avoid the sealed wall entirely, rather than compromising the seal for the sake of a shorter cable run.
+      </p>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Generator location, pipe run distance, available circuit capacity and ceiling condition are all checked before a generator size is confirmed. We also assess the room's existing extraction route for reuse.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the enclosure and generator.</strong> <span style="color: var(--text-soft);">Generator output is matched to enclosure volume — oversized or undersized units both cause problems, so this is confirmed against our survey figures before you commit to an order.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>First fix and sealed enclosure build.</strong> <span style="color: var(--text-soft);">Electrics run, generator positioned, enclosure structure built to be fully sealable, with particular attention to the ceiling junction.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tanking and tiling.</strong> <span style="color: var(--text-soft);">Full enclosure waterproofed including ceiling where required, floor fall to drain set and checked before any tile is fixed in place.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Commissioning and snagging.</strong> <span style="color: var(--text-soft);">Generator run at full output, seals checked under steam for any leak point, ventilation timing set, full walkthrough with you before handover.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The steam generator sits on a dedicated electrical circuit sized to its output, installed and certified by a registered electrician where the work is Part P-notifiable. Pipe runs from generator to steam head follow the manufacturer's maximum distance — exceed it and output drops, or condensate builds up in the pipe before it reaches the head. Every enclosure joint, including the ceiling-to-wall junction, is sealed to hold steam at temperature rather than leaking it into the surrounding room.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The floor drain is set to a fall that clears condensate without pooling, and ventilation is timed to run after the generator switches off, giving the enclosure a chance to dry fully between uses rather than trapping moisture that encourages mould.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The generator's steam pipe is insulated along its run where it passes through an unheated void, since a cold section of pipe causes condensate to form before the steam reaches the head — reducing both the temperature and the volume of steam actually delivered into the enclosure.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Where a sloped or vaulted ceiling forms part of the enclosure, steam distribution needs particular attention, since steam naturally rises and collects at the highest point — we'll advise at survey whether a second steam head, or a different head position, gives more even coverage than a single outlet at a standard wall height.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sizing the generator -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Sizing the generator correctly</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Generator output is specified in kW and matched to the enclosure's internal volume in cubic metres, not its floor area — ceiling height matters as much as footprint, and a room with a sloped or vaulted ceiling needs the actual air volume calculated rather than estimated by eye. An undersized generator will run almost continuously trying to reach temperature and never quite managing it, while an oversized one can overwhelm a small enclosure and shorten the unit's working life through excessive cycling.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We measure the enclosure's actual internal volume at survey, including any recess, bench or shelf that adds or subtracts air space, and use that figure — alongside the manufacturer's sizing tables — to confirm a generator output before you order. This is one specification detail we won't leave to a showroom estimate, because getting it wrong is expensive to correct after installation.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        It's also worth considering how quickly you want the enclosure to reach temperature. A generator sized toward the upper end of the recommended range for its volume will heat the space faster and hold temperature more consistently through a longer session, at a modest increase in running cost — a trade-off worth discussing honestly if you know the household will use it most mornings before work rather than occasionally at weekends.
+      </p>
+    </div>
+  </section>
+
+  <!-- Ventilation and mould prevention -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Ventilation and preventing mould between uses</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A sealed enclosure that holds steam in brilliantly during use can hold moisture in just as effectively afterwards if there's no way for it to escape between sessions. We fit a timed extraction solution that activates once the generator cycle ends, running for long enough to clear the enclosure fully rather than a fixed, arbitrary time — and we check it's actually reaching the enclosure's furthest corner, not just the point nearest the extractor.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Grout and silicone specification also matters more here than in a standard shower — a mould-resistant, steam-rated silicone at every joint, and a grout that's been sealed appropriately, both help the room cope with repeated exposure to sustained high humidity rather than the brief exposure of a normal shower cycle.
+      </p>
+    </div>
+  </section>
+
+  <!-- Steam shower vs steam room -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Steam shower or full steam room — which suits your space?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A steam shower occupies broadly the same footprint as a conventional shower enclosure — a sealed cubicle with a shower valve and a steam head, usable as a normal shower day to day and switched to steam mode when wanted. It's the more practical choice for most households, since it doesn't demand a dedicated room and fits within an existing bathroom renovation without requiring extra floor area.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A dedicated steam room is a different proposition — a standalone sealed space, sometimes with bench seating for two, built as its own room rather than retrofitted into a shower footprint. It needs considerably more sealed surface area, a larger generator, and usually its own ventilation strategy separate from the rest of the house. It suits a basement conversion, a dedicated spa room, or a larger principal suite with space to spare, more than a standard family bathroom refurbishment.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'll help you weigh up which fits your available space and budget honestly at survey — a steam shower delivers most of the same experience for considerably less disruption and cost in a typical home, and a full steam room is worth the additional investment only where there's genuinely the space and intended use to justify it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Door and seating -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Doors, seating and finishing details</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Steam-rated doors and panels are built to a tighter seal specification than a standard shower enclosure, typically with a continuous gasket around the full frame rather than a simple wipe seal — this is one of the areas where buying a genuine steam-rated enclosure rather than adapting a standard one pays off, since the gasket is designed to hold temperature and pressure rather than just direct water downward.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bench seating, where specified, is built from a material that tolerates sustained heat and moisture without degrading — natural stone, engineered stone, or a purpose-made composite are the usual choices, fixed with a waterproof adhesive system compatible with the tanking beneath. Timber slatted seating looks attractive in photographs but needs very careful material selection and ventilation to avoid warping or mould over time, and we'll advise honestly if a particular timber choice looks like a poor long-term fit for a steam environment.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Lighting inside a steam enclosure needs to be rated for the wet, high-humidity environment — standard bathroom zone-rated fittings aren't automatically suitable for sustained steam exposure, and we'll confirm the correct ingress protection rating for any light fitted inside the enclosure itself as part of the specification check before ordering.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        A handrail or grab point near the bench is worth considering for a steam room used by older household members, since surfaces become genuinely slippery underfoot in a sustained steam environment in a way a quick shower rarely matches — a small, inexpensive addition at first fix that's far more disruptive to retrofit later.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The sealed enclosure, steam generator, control panel, tiles and any seating are bought by you — see our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. Generator sizing against room volume and pipe run distance is confirmed at survey before you buy; an undersized generator forced to run constantly is a common and avoidable complaint we hear about installations elsewhere.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Our <a href="/guides/steam-shower-requirements/" class="underline" style="color: var(--teal);">steam shower requirements</a> guide sets out the full specification checklist before you order, and our <a href="/guides/bathroom-ventilation-regulations/" class="underline" style="color: var(--teal);">ventilation regulations</a> guide covers the Part F requirements that apply to the wider room alongside the steam enclosure itself.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        It's worth checking the generator manufacturer's warranty terms before ordering too — many require the unit to be installed and commissioned by a suitably qualified installer to keep the warranty valid, so confirm this detail with the supplier at the point of purchase rather than after the unit has already been fitted.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        If you're choosing between a steam shower and a more conventional digital shower upgrade for the same room, it's worth reading both specification routes side by side before committing budget to one over the other — the two solve different problems, and the right answer depends on how the room will genuinely be used day to day.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+        <a href="/services/bathroom-ventilation/" class="btn-secondary">Bathroom Ventilation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/steam-shower-requirements/" class="btn-secondary">Steam shower requirements</a>
+        <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Ventilation regulations</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="steam-shower-and-steam-room-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

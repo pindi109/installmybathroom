@@ -1,0 +1,181 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Does Dornbracht brassware use a different rough-in to mainstream brands?",
+    a: "Dornbracht's concealed installation bodies are specific to its own platform rather than shared with mass-market brands, so the rough-in is ordered and fitted as a Dornbracht part from the outset, not substituted later. We confirm the exact model against the trim at specification stage.",
+  },
+  {
+    q: "How is a Dornbracht finish different to chrome in terms of care during fitting?",
+    a: "Dornbracht's PVD finishes — including its darker brushed and matte options — are durable once cured but can mark from careless handling before that. We fit with soft-jaw tools, keep protective film in place until decorating and tiling dust has cleared, and handle trims by their edges rather than their faces.",
+  },
+  {
+    q: "Can a Dornbracht rain system or overhead be retrofitted into an existing ceiling?",
+    a: "Yes, where there's accessible ceiling void or the ceiling is being opened up as part of the wider project, but the waterproofing and structural fixing for a ceiling-mounted head need planning before the ceiling is closed, not after.",
+  },
+  {
+    q: "Do Dornbracht's digital shower and smart products need a dedicated electrical supply?",
+    a: "Yes. Dornbracht's electronic and digital control products need a correctly zoned electrical supply run to the control position before the wall or floor is finished, confirmed at survey against Building Regulations Part P requirements for bathroom electrics.",
+  },
+  {
+    q: "What should I check when my Dornbracht order is delivered?",
+    a: "Confirm the rough-in body matches the trim or handle set ordered, check the finish reference against the sample, and inspect the visible surface under raking light before installation starts — a mark on a Dornbracht finish is a costly and conspicuous thing to live with.",
+  },
+  {
+    q: "Does Dornbracht brassware need any particular water treatment or filtration?",
+    a: "No specific filtration is required beyond what any high-end brassware benefits from in hard water areas. We discuss local water hardness at survey, since scale build-up affects the visible finish and internal cartridges of any brassware over time, regardless of manufacturer.",
+  },
+];
+---
+
+<Base
+  title="Dornbracht Installation | Install My Bathroom"
+  description="Installation of Dornbracht brassware, shower systems and digital controls across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Dornbracht", href: "/brands/dornbracht/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Dornbracht Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Dornbracht sits at the top end of the projects we fit — a German brassware house known for sculptural handle and spout design and for finishes that are genuinely difficult to replicate elsewhere. Nothing about fitting it is unusual on its own terms, but the margin for error is smaller: a scuff on a brushed Dark Platinum finish or a rough-in set a few millimetres wrong is far more visible, and far more expensive to put right, than the same mistake on a mainstream brand.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.dornbracht.com/en-gb" target="_blank" rel="noopener" class="btn-secondary">Visit Dornbracht →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Basin, bath and shower mixers in both deck-mounted and wall-mounted formats, concealed thermostatic and manual shower valves, overhead rain systems and handshower sets, and Dornbracht's freestanding and floor-standing bath fillers. We also fit the brand's electronic and digital shower controls on projects where that level of specification has been chosen.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Most of the Dornbracht work that comes to us is specified through an architect, interior designer or high-end bathroom showroom rather than bought directly by the client, and it's almost always paired with sanitaryware from another manufacturer — Dornbracht makes brassware and shower systems, not WCs or basins, so set-out and tap hole compatibility are checked against whatever sanitaryware the client has chosen separately.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Rough-in depth and model:</strong> concealed valve bodies are specific to Dornbracht's own platform and are set to the exact finished wall build-up before boarding — this is confirmed at survey, not adjusted later.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> rain systems and larger overhead heads need a measured minimum flow, checked against the specific model before it's ordered.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply:</strong> digital and electronic shower controls need a dedicated, correctly zoned supply run before the wall or floor is finished.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Floor-standing filler position:</strong> pipework for freestanding bath fillers is routed and fixed before the floor finish is laid, set against the bath's actual footprint.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Finish protection:</strong> all visible trims are fitted last, handled by their edges and kept in protective film until tiling, grouting and decorating are complete.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We check the rough-in body against the trim or handle set ordered before anything is fitted, since Dornbracht's concealed products are matched to specific installation units that aren't interchangeable across collections. We confirm the finish reference on the packaging against the physical sample the client approved — Dornbracht's brushed and matte finishes vary subtly between collections and can look different under different lighting to a showroom sample — and we inspect every visible surface under raking light for marks before the room is finished around it. Once tiled in, a mismatched rough-in or a damaged trim means opening the wall back up, which is a chargeable return visit under client-supplied goods.
+      </p>
+    </div>
+  </section>
+
+  <!-- Lead times -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Lead times and programme planning</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Dornbracht products, particularly less common finishes or made-to-order configurations, can carry longer lead times than mainstream brassware. We factor this into the programme at survey stage, sequencing first fix plumbing and any structural work so the project isn't held up waiting on brassware that was ordered late relative to the rest of the build.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a client is still deciding between collections or finishes, we'd rather have that conversation before the rough-in is bought than find a delivery delay pushing back the installation date once walls are already open and other trades are waiting on us to finish.
+      </p>
+    </div>
+  </section>
+
+  <!-- Finish handling -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Finish handling and sequencing</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Dornbracht's PVD finishes are applied to a high standard and wear well once the room is finished and in normal use, but they're vulnerable during the build itself — grout haze, silicone smears and dropped tools do more damage to a brushed or dark finish than to chrome, because the marks show against the matte surface rather than disappearing into a reflective one. We fit visible trims and handles as close to the final stage of the project as practical, after tiling, grouting and decorating, rather than leaving them exposed through the rest of the build.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a ceiling-mounted rain system is specified, the structural fixing and waterproofing for the ceiling penetration are agreed before the ceiling is closed — retrofitting a rain head into a finished ceiling is possible but adds cost and disruption that's avoidable with earlier planning.
+      </p>
+    </div>
+  </section>
+
+  <!-- Working with the wider design team -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Working alongside an architect or designer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Dornbracht projects usually arrive with a specification already set by an architect or interior designer, down to the exact collection, finish and handle profile. Our role is to fit that specification accurately and flag anything that conflicts with the realities of the particular wall, floor or ceiling we're working with — a specified ceiling-mounted rain head above a structural beam with no accessible void, for instance, needs resolving with the design team before first fix, not discovered once the valve has arrived.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We're comfortable working to a detailed designer's spec and keeping to it precisely, including matching set-out dimensions given in a drawing pack rather than our own default positions, since on a Dornbracht-level project the design intent is usually as considered as the brassware itself.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's Dornbracht fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The fault we're called to fix most often is finish damage from fitting trims too early in the build, before tiling and decorating were complete — grout and silicone residue on a matte or brushed finish is genuinely difficult to fully remove. The second is a rough-in ordered without first confirming it matched the trim collection, leaving a mismatch that only becomes obvious once the wall is already tiled.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Neither is a fault in the product. Dornbracht's engineering holds its tolerances well when the rough-in is correctly specified and the visible trim goes on last — which is how we sequence every fit, regardless of how far through the project the brassware arrives.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for Dornbracht; we install client-supplied Dornbracht products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+      <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water Pressure for Rainfall Showers</a>
+      <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom Electrical Zones Explained</a>
+      <a href="/brands/axor/" class="btn-secondary">AXOR Installation</a>
+      <a href="/brands/hansgrohe/" class="btn-secondary">hansgrohe Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="dornbracht-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

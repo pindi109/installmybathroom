@@ -1,0 +1,104 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+---
+
+<Base
+  title="How It Works | Install My Bathroom"
+  description="The fit-only installation process from survey to aftercare: what happens at each stage and what you're responsible for along the way."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "How It Works", href: "/how-it-works/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">How it works</h1>
+      <p class="text-lg leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        A fit-only installation runs in a fixed order: survey, written scope, you order the products, we install them, and we hand the room back clean, tested and signed off. Here's each stage in detail.
+      </p>
+
+      <ol class="space-y-10 fade-up">
+        <li>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">1</div>
+            <div>
+              <h2 class="text-xl font-bold mb-2">Survey — £{business.pricing.surveyGBP}</h2>
+              <p class="leading-relaxed" style="color: var(--text-soft);">
+                An installer visits the property and takes exact measurements of the room, checks water pressure and flow rate at the relevant outlets, inspects the floor and wall substrate for deflection and suitability for large-format tile or stone, maps waste routes and the falls available to drain, and reviews the electrical supply if a shower toilet, underfloor heating or steam shower is being considered. If products have already been chosen, we check them against the room — carrier frame compatibility, waste positions, door swing clearances. The survey fee is not refunded if you decide not to proceed, because the time and expertise are spent either way.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">2</div>
+            <div>
+              <h2 class="text-xl font-bold mb-2">Written scope and fixed quote</h2>
+              <p class="leading-relaxed" style="color: var(--text-soft);">
+                You receive a written installation scope covering exactly what will be done — strip-out, first fix, tanking, tiling, second fix, and any coordination needed with registered gas, electrical or plumbing engineers — along with a fixed price. This is the document both sides work to, so there's no ambiguity later about what was included and what wasn't.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">3</div>
+            <div>
+              <h2 class="text-xl font-bold mb-2">You order the products</h2>
+              <p class="leading-relaxed" style="color: var(--text-soft);">
+                With the scope agreed, you order the sanitaryware, brassware, tiles and furniture — from a local showroom, a direct manufacturer order, or an online retailer, whatever suits the specification and budget. We tell you precisely what's needed: carrier frame models, tile quantities including an allowance for cuts and breakage, waste and supply positions, and critically, the date everything needs to be on site before we start. A missing item on day one of a fitted programme is the single most common cause of delay on fit-only jobs, so we're specific about timing.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">4</div>
+            <div>
+              <h2 class="text-xl font-bold mb-2">Installation</h2>
+              <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+                The installation itself runs through a fixed sequence, each stage protected so the next can be done properly:
+              </p>
+              <ul class="space-y-3 text-sm" style="color: var(--text-soft);">
+                <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Strip-out</strong> — removal and disposal of the existing bathroom, with floors, stairwells and access routes protected throughout</li>
+                <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>First fix</strong> — plumbing runs, waste repositioning, electrical cabling, and any structural work to support carrier frames or stone, coordinated with registered engineers where gas, Part P electrical or unvented hot water work is involved</li>
+                <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tanking</strong> — waterproofing applied continuously across floor and wall junctions, upstands and pipe penetrations in every wet area, left to cure before tiling begins</li>
+                <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tiling</strong> — set out from centre lines before the first cut is made, with falls built into wet room and shower floors, joints checked for lippage as the work progresses rather than at the end</li>
+                <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Second fix</strong> — sanitaryware, brassware, vanity units and accessories you've supplied are fitted, tested and sealed</li>
+                <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Snagging</strong> — a full walkthrough before handover, checking door swings, silicone lines, flush function, drainage and finish under good light</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">5</div>
+            <div>
+              <h2 class="text-xl font-bold mb-2">Aftercare</h2>
+              <p class="leading-relaxed" style="color: var(--text-soft);">
+                The workmanship guarantee covers the installation — the tanking, the tiling, the fixing and sealing. Product warranties for the sanitaryware, brassware and furniture itself sit with the manufacturer or the retailer you bought from, which is why we recommend registering products on arrival and keeping receipts. If something related to the installation needs attention after handover, contact us directly and we'll arrange a visit.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ol>
+
+      <div class="card p-6 mt-12 fade-up" style="background: var(--bg-light);">
+        <p style="color: var(--text-soft);">
+          See how the fee structure works on <a href="/pricing/" class="underline" style="color: var(--teal);">pricing</a>, what the survey covers in more detail on the <a href="/survey/" class="underline" style="color: var(--teal);">survey page</a>, or read the full <a href="/terms/" class="underline" style="color: var(--teal);">terms</a> covering client-supplied goods. Ready to start? <a href="/contact/" class="underline" style="color: var(--teal);">Get in touch</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

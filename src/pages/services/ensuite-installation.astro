@@ -1,0 +1,258 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "En-Suite Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "How small can an en-suite be and still work well?",
+    a: "We've fitted compact en-suites from around 1.6m x 2.2m with a shower, WC and basin. Below that, layout drives everything — door swing, carrier frame depth and shower tray size need checking against the room at survey stage before you commit to products.",
+  },
+  {
+    q: "Will an en-suite installation disturb the rest of the bedroom?",
+    a: "We protect the bedroom carpet, flooring and furniture with dust sheets and board for the duration, and most noisy work — cutting, chasing, drilling — happens during the day. Dust is contained with sheeting across the doorway and a daily clean-down.",
+  },
+  {
+    q: "Can you fit an en-suite where there's no existing drainage?",
+    a: "Yes, but it depends on the route back to a soil stack and the fall available. We check this at survey — sometimes it means a macerator unit for the WC, or a raised floor to achieve the fall for a shower waste. We'll tell you honestly if a layout isn't achievable before you buy anything.",
+  },
+  {
+    q: "Do en-suites need the same waterproofing as a main bathroom?",
+    a: "Yes — tanking standards don't change because a room is smaller. Full-height waterproofing in the shower enclosure, a tested fall to the gully, and sealed upstands at every junction, regardless of room size.",
+  },
+  {
+    q: "What's the typical timeline for an en-suite?",
+    a: "A straightforward en-suite usually runs 8–12 working days from strip-out to snagging — shorter than a full family bathroom because there's less floor area to tile and fewer fixtures, but tanking and curing times don't shrink.",
+  },
+  {
+    q: "Can you reposition the door or add a stud wall to create an en-suite from a bedroom corner?",
+    a: "Stud wall partitioning and door repositioning are both within scope, coordinated with first-fix plumbing and electrics so the new wall carries supply and waste where needed. This is confirmed and costed at survey.",
+  },
+  {
+    q: "Does losing floor area to a partition wall make the bedroom feel noticeably smaller?",
+    a: "It depends on the room, but we'll walk through the plan with you before committing — sometimes a sliding or pocket door recovers enough floor area to offset the stud wall, and sometimes a smaller en-suite footprint with a larger shower is the better trade.",
+  },
+  {
+    q: "Why does an en-suite sometimes cost close to the same as a larger family bathroom?",
+    a: "Tanking, first fix, electrics and snagging all take broadly similar time regardless of floor area — a smaller room reduces tiling and sanitaryware quantities, but doesn't reduce the fixed labour of waterproofing, testing and finishing a room properly. That's why cost doesn't scale down in direct proportion to square footage.",
+  },
+];
+---
+
+<Base
+  title="En-Suite Installation | Install My Bathroom"
+  description="Fit-only en-suite installation across Bracknell and Berkshire. Compact layouts, tanking, tiling and second fix of your own products. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "En-Suite Installation", href: "/services/ensuite-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">En-Suite Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        An en-suite asks more of a small footprint than any other room in the house — a shower, WC and basin packed into a space that often started life as a bedroom corner. We fit the layout around the plumbing and drainage that's actually achievable, not the one on the mood board, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Most en-suites also do double duty as the main wash-down shower for a guest bedroom or a principal suite, so ventilation, sound and privacy from the landing matter as much as the sanitaryware itself. We treat those details as part of the specification, not an afterthought once the tiling is finished. Equally, a principal-suite en-suite attached to a large main bedroom is often the room where clients choose to spend proportionally more — on larger format tiling, a better shower valve, or an illuminated mirror cabinet — because it's used daily rather than occasionally, so it's worth specifying it properly rather than treating it as the secondary bathroom by default.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Because an en-suite is rarely more than a few square metres, every decision has knock-on effects elsewhere in the room — move the shower six inches and the basin position, the door swing and the towel radiator all have to be rechecked. We plan the whole sequence before a single wall is opened up, rather than solving problems as they appear. This is the single biggest difference between an en-suite that feels considered and one that feels like a family bathroom squeezed into the wrong space — the layout has to be worked out as one interconnected plan, not fixture by fixture.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Strip-out where an en-suite already exists, or stud wall and door opening where it's being created from a bedroom corner</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix plumbing routed to a soil stack or, where the run won't allow it, a macerator solution confirmed at survey</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix electrics for shaver sockets, extractor fan and lighting, coordinated for any Part P-notifiable work</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Full-height tanking in the shower enclosure, with sound-deadening consideration where the en-suite sits above a living room</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tiling set out to minimise cut pieces in a tight footprint, joints lining through where walls meet floor</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second fix of your WC, basin, shower enclosure and towel radiator, snugged into a compact layout</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Daily protection of bedroom carpets and furniture, and a snagging walkthrough on completion</li>
+      </ul>
+      <p class="leading-relaxed mt-6" style="color: var(--text-soft);">
+        Because the en-suite sits off a bedroom rather than a hallway, protection extends beyond the room itself — dust sheets across the bedroom floor and furniture, a sealed barrier at the doorway during cutting and tiling, and a daily sweep-up rather than leaving mess to accumulate across a multi-week programme. It's a small thing, but it's the difference between a bedroom you can still sleep in comfortably during the works and one you can't.
+      </p>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">We check available floor area, door swing, drainage route to the soil stack, and water pressure, then confirm whether your intended layout is achievable. In a tight footprint this often means testing two or three layout options against the same measurements before settling on one.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order to confirmed dimensions.</strong> <span style="color: var(--text-soft);">Shower tray, enclosure and vanity sizes are checked against the room before you buy, so nothing arrives too large for the space. We'll also flag where a slightly smaller model would give you better clearance around the door or basin.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Partition, strip-out and first fix.</strong> <span style="color: var(--text-soft);">Stud wall or opening formed if needed, old fittings removed, supply and waste runs installed. Electrics for the extractor fan and lighting circuit are run at this stage too, ahead of any boarding.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tanking and tiling.</strong> <span style="color: var(--text-soft);">Waterproofing cured before tiling, set-out planned to avoid narrow cut tiles against the enclosure. In a small room, we plan tile layout from the most visible wall first so any unavoidable cut piece ends up somewhere less noticeable.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix and snagging.</strong> <span style="color: var(--text-soft);">Fittings installed and sealed, door hung and checked for clearance, full walkthrough before handover, including a check that the extractor fan clears the room within the time expected for its rated extraction volume.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Small rooms don't excuse small tolerances. Falls to the shower waste are set before tiling begins, checked with a spirit level and string line rather than adjusted by eye afterwards. Where an en-suite sits above a bedroom or living space, we consider impact noise from the shower tray and plan isolation accordingly. Tanking follows the same BS 5385 waterproofing principles as a full bathroom — full height in the enclosure, a minimum upstand elsewhere, and every pipe penetration sealed before the first tile goes down.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a macerator is the only realistic drainage solution, we size it correctly for the run length and number of bends, and confirm an accessible isolation point — a detail that's easy to miss and expensive to retrofit.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Extraction is sized to the room volume in line with Part F guidance, with ducting run as directly as possible to an external wall or soffit — a long, winding duct run with several bends cuts real-world extraction performance well below the fan's rated figure, which is one reason a persistently steamy en-suite often traces back to ductwork rather than the fan unit itself.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Water pressure and flow also deserve a second look in an en-suite serving a principal bedroom, since it's often the shower used first thing in the morning, sometimes at the same time as another bathroom elsewhere in the house. We check flow rate and, where the property runs on a combi boiler or a older gravity-fed system, confirm whether a pump or a pressure-boosting solution is worth including before any rainfall shower head is specified — a generously sized head fed by poor pressure is a common and avoidable disappointment.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning and layout -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning permission and building regulations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Converting a bedroom corner or a redundant box room into an en-suite is internal work, so it doesn't generally trigger planning permission in the way an extension or loft conversion would — you're not changing the external envelope of the house. Building Regulations still apply, though: any new electrical circuit for lighting, shaver sockets or an extractor fan needs to be Part P-compliant and signed off by a registered electrician, and ventilation needs to meet Part F requirements for a room with no openable window, which most internal en-suites don't have.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If the property is listed or sits within a conservation area, additional consent can sometimes apply even to internal alterations, particularly where a protected staircase, historic partition wall or original joinery would be affected. We flag this at survey if it looks relevant to your property, and recommend checking with the local authority before committing to a layout that involves structural change.
+      </p>
+    </div>
+  </section>
+
+  <!-- Design considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Design considerations for a compact footprint</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Door swing is usually the single biggest constraint in a small en-suite — an inward-opening door needs clear floor space to swing through, which in a 1.6m-wide room can mean the difference between fitting a 760mm shower and only managing 700mm. Sliding doors, pocket doors built into a stud wall, or an outward swing into the bedroom are all options worth discussing at survey rather than defaulting to the obvious choice because it's what the previous layout used.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Mirror and storage placement also matters more in a small room: a mirrored cabinet recessed into a stud wall rather than surface-mounted can claw back several centimetres of usable space, and a heated towel radiator sized correctly for the room avoids it becoming the one fixture everyone has to walk around. None of this needs to be decided before survey — it's exactly the kind of detail we work through with you once we know the real dimensions.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Lighting is worth getting right too. A single centre ceiling light in a windowless en-suite tends to leave the mirror and shaving area under-lit; a dedicated light above or beside the mirror, on a separate switch to the main ceiling light, makes a noticeable difference to daily use without adding much to the first-fix electrical work.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Finally, think about where towels actually go day to day. A heated towel radiator positioned behind the door, or anywhere it competes with the door swing or shower enclosure, ends up underused regardless of how good it looks on a specification sheet — it's worth agreeing its final position on the same visit where the shower and basin positions are confirmed, not as an afterthought once everything else is fixed in place.
+      </p>
+    </div>
+  </section>
+
+  <!-- Cost considerations -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why cost doesn't scale down with room size</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It's a fair question: if an en-suite is a third the floor area of a family bathroom, why isn't it a third of the price? The honest answer is that most of the cost in any bathroom installation sits in labour that doesn't shrink with the room — strip-out, first-fix plumbing and electrics, tanking, and the testing and snagging that come at the end all take broadly similar time whether the room is three square metres or nine. What does scale down is the quantity of tiles, the size of the sanitaryware, and the overall materials bill.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where an en-suite does genuinely cost less than a full bathroom is in simpler projects — a straightforward like-for-like refit with no layout changes, existing drainage already in a sensible position, and no partition wall to build. That's the scenario where the smaller footprint translates most directly into a shorter programme and a lower overall figure.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        For a fuller breakdown of where the money in a bathroom project actually goes, our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">cost guide</a> sets out typical ranges by project type, and our <a href="/guides/water-pressure-for-rainfall-showers/" class="underline" style="color: var(--teal);">water pressure guide</a> is worth reading before you specify a shower head for a principal-suite en-suite.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Compact-format sanitaryware, a shower enclosure sized to the room, brassware and tiles are bought by you. For guidance on sourcing, see our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. At survey we confirm exact dimensions against the available space — a shower tray that's a few centimetres too large for a box-room en-suite is one of the most common and costly ordering mistakes we see, so check against our written scope before you order.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also worth checking tap and shower valve reach against the confirmed basin and enclosure positions before ordering — in a tight footprint, a valve with a long reach or a basin mixer with a tall spout can clash with a mirror cabinet or a sloped ceiling in a way that's only obvious once you see the dimensions laid out together.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's worth buying a small surplus of your chosen tile — enough for a few spare pieces beyond the calculated area — since en-suite tile runs are short and a dye-lot mismatch years later, when you need one replacement tile after a repair, is very hard to match from a discontinued batch. We'll confirm the quantity needed at survey, but the spare allowance is worth factoring into your order from the outset.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Cost guide</a>
+        <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed cisterns explained</a>
+        <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water pressure guide</a>
+        <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Ventilation regulations</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="ensuite-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

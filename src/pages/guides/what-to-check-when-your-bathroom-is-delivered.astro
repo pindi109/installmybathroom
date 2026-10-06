@@ -1,0 +1,281 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What to Check When Your Bathroom Is Delivered",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Who's responsible if a product arrives damaged?",
+    a: "The retailer or manufacturer you bought from, under the Consumer Rights Act 2015. We'll always point out damage we find, but checking the goods and raising a claim with the seller is on you as the buyer — the sooner it's reported, the easier the replacement.",
+  },
+  {
+    q: "Should I unbox everything before we arrive on site?",
+    a: "Unbox and inspect, yes — but repack carefully in the original packaging with any foam or corner protection back in place. Loose sanitaryware stored unpacked in a garage or hallway is far more likely to pick up a chip before install day.",
+  },
+  {
+    q: "What if I don't notice a crack until we're fitting it?",
+    a: "We stop and show you before fitting anything we're not satisfied with — a hairline crack in a basin or a chipped WC pan rim gets flagged on the spot. Fitting a damaged item and discovering it later makes a return much harder to argue.",
+  },
+  {
+    q: "Do tile batch numbers really matter that much?",
+    a: "Yes. Porcelain and natural stone are manufactured in batches, and shade or tone can vary noticeably between them. Mixing batches across a floor is one of the most common causes of a tiling job looking patchy despite being laid perfectly.",
+  },
+  {
+    q: "What should I do with fixing kits, waste and overflow parts?",
+    a: "Keep them with their matching item, in the box, not loose in a drawer. A concealed cistern frame, flush plate, waste trap or tap connector hose going missing between delivery and install day is one of the most common causes of a delayed second fix.",
+  },
+  {
+    q: "Can you check the delivery for me?",
+    a: "We're happy to look over anything already on site when we arrive for survey or start of works, but goods are usually delivered to you well before that. Checking on the day, while the driver is still there, is the only point you have real leverage with the courier or retailer.",
+  },
+];
+---
+
+<Base
+  title="What to Check When Your Bathroom Is Delivered | IMB"
+  description="A practical inspection checklist for sanitaryware, brassware, tiles and screens on delivery day — before they're unpacked and stored, not after they're fitted."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Checking Your Delivery", href: "/guides/what-to-check-when-your-bathroom-is-delivered/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">What to Check When Your Bathroom Is Delivered</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Open every box before we arrive, not after. Check for cracks, chips and scratches, confirm the model, size and finish match your spec, count every fixing kit and ancillary part, and note the batch number on tiles and stone. A problem caught at delivery is a free swap; one caught mid-install is a delay you pay for.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Under a fit-only arrangement, the goods are yours from the moment they leave the retailer — we install what arrives, and a delay or a return visit caused by a missing, damaged or incorrect item is chargeable because it's labour we can't use productively elsewhere that day. None of this is about catching anyone out; it's simply that the delivery van is the easiest point in the whole project to put something right, because the item hasn't been cut, bonded, wired or sealed into the room yet.
+      </p>
+    </div>
+  </section>
+
+  <!-- Numbered checklist -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">The delivery-day checklist</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Match the delivery note to your order.</strong> <span style="color: var(--text-soft);">Check model numbers, colours, sizes and quantities line by line before the driver leaves — once they've gone, a shortage becomes a phone call and a wait rather than an on-the-spot fix.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Inspect the outer packaging first.</strong> <span style="color: var(--text-soft);">Crushed corners, punctured cardboard or a wet pallet are all signs the item inside may have taken an impact in transit, even if the box looks intact from the other side.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Unbox sanitaryware fully and check all visible faces.</strong> <span style="color: var(--text-soft);">Run a hand along rims and edges — hairline cracks in vitreous china and chips on a WC pan or basin edge are easier to feel than see under indoor lighting.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Check brassware finish and consistency.</strong> <span style="color: var(--text-soft);">Brushed brass, matt black and polished nickel finishes should look consistent across every tap, shower valve and accessory in the room — compare items against each other, not just against a sample in a showroom.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Confirm the exact variant, not just the product name.</strong> <span style="color: var(--text-soft);">Basin tap-hole configuration, WC pan projection, bath length and shower tray waste position all have multiple variants under the same product name — the wrong one can mean a wall or stud position that doesn't work.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">6</span>
+          <div><strong>Count every ancillary part.</strong> <span style="color: var(--text-soft);">Concealed cistern frames, flush plates, waste traps, overflow kits, tap connector hoses and fixing screws are easy to lose once separated from their box — keep each with its matching item.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">7</span>
+          <div><strong>Check tile and stone batch numbers.</strong> <span style="color: var(--text-soft);">Written on the box label — every box for a single room should carry the same batch, and if a shortfall means a later top-up order, flag it before any tile is laid, not after.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">8</span>
+          <div><strong>Inspect shower screen and mirror glass for edge chips.</strong> <span style="color: var(--text-soft);">Corners and cut edges take the force of an impact — a small chip there can propagate into a crack once the glass is under load from fixings or a door hinge.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">9</span>
+          <div><strong>Repack and store everything securely until install day.</strong> <span style="color: var(--text-soft);">Original packaging, kept flat and off a garage floor, protects far better than a blanket — and keep the room dry and above freezing if it includes electrical items such as a shower toilet or digital shower controller.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">10</span>
+          <div><strong>Photograph anything you're unsure about.</strong> <span style="color: var(--text-soft);">A dated photo of a mark on arrival is the clearest evidence if you need to raise it with the retailer later, and it lets us look at it with you before we commit to fitting.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- What to check per product type -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What to check, by product type</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Product</th>
+              <th class="text-left py-3 font-semibold">Specific checks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">WC pan / basin</td>
+              <td class="py-3" style="color: var(--text-soft);">Rim and base for hairline cracks, glaze consistency, projection and fixing centres match the survey measurements.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bath</td>
+              <td class="py-3" style="color: var(--text-soft);">Surface for scratches, feet and frame kit included, waste and overflow position matches drawings, correct length and tap-hole layout.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Brassware</td>
+              <td class="py-3" style="color: var(--text-soft);">Finish consistent across all pieces, cartridge and flow controls move freely, all fixing and connector hoses present.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Concealed cistern and frame</td>
+              <td class="py-3" style="color: var(--text-soft);">Frame height matches the finished floor level agreed at survey, flush plate finish correct, actuator and seals included.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Tiles / stone</td>
+              <td class="py-3" style="color: var(--text-soft);">Batch number consistent across all boxes, sufficient quantity plus wastage allowance, edges undamaged, correct size and finish.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Shower screen / enclosure</td>
+              <td class="py-3" style="color: var(--text-soft);">Glass free of edge chips, correct width and handing, all brackets and seals present, profile finish matches brassware.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Vanity units and mirrors</td>
+              <td class="py-3" style="color: var(--text-soft);">Carcass square and undamaged, soft-close mechanisms working, mirror glass free of silvering defects, electrics present on illuminated mirrors.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why it matters -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why this matters more than it seems to</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A damaged WC pan, a wrong-size bath or a missing waste kit discovered on the morning of second fix doesn't just lose you that item — it can stall the whole programme, because the team on site that day is scheduled against other work the following week. We'll always try to work around a gap where we can, finishing other parts of the room first, but a missing concealed cistern frame or the wrong basin tap-hole configuration can mean an entire stage has to wait.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        This is also why we confirm exact model numbers and carrier frame requirements with you at survey stage, before you order — it's far cheaper to catch a mismatch between what you're planning to buy and what the room actually needs on paper than to discover it once the item is unpacked and the receipt's long gone.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common problems -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common delivery problems, and what to do about each</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A wrong item is the easiest to spot and the easiest to resolve, provided it's caught before the box is broken down and the packaging thrown away — most retailers want the original packaging back for a collection and swap, and without it a return becomes far harder to argue. Keep the box, the polystyrene corners and any protective film until the correct item is confirmed on site and fitted.
+      </p>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A damaged item is slightly more involved, because the damage isn't always obvious under a single light source. We'd suggest checking visible faces under both natural daylight and the room's existing artificial light, since a hairline crack in white vitreous china can be almost invisible under one and obvious under the other. Photograph any mark you're unsure about, including a wide shot showing the item's position and a close-up of the mark itself with something for scale, such as a coin or tape measure, next to it.
+      </p>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A finish mismatch is more subtle still — brushed brass from one manufacturer can read warmer or cooler than brushed brass from another, and even within a single product range, taps and accessories ordered at different times can come from different production runs with a slightly different tone. Lay every brass or black item for the room out together before accepting delivery, rather than checking each piece in isolation as it's unpacked.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A missing part is the quietest problem of the four, because nothing looks wrong until the day it's needed — a waste kit left in a separate, smaller box that got set aside, or a fixing template that was packed loose in a larger delivery and never opened. Checking the parts list against the box contents on delivery day, not assuming everything listed is present because the main item arrived intact, is what catches this before it becomes a hold-up on-site.
+      </p>
+    </div>
+  </section>
+
+  <!-- Staging larger deliveries -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Staging deliveries across a larger project</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        On a full re-fit with multiple suppliers — sanitaryware from one retailer, tiles from another, a vanity unit from a specialist furniture maker — deliveries rarely all land on the same day, and storing everything safely until it's needed becomes part of the planning. We agree a delivery schedule against the installation programme at survey stage, so first-fix items such as the concealed cistern frame arrive ahead of strip-out, and finishing items such as mirrors and accessories arrive closer to handover, rather than everything turning up at once and competing for space in a house that's also being lived in.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Where space is tight, a spare room, garage or even a neighbour's outbuilding temporarily pressed into service works better than leaving boxes in a hallway that's also meant to stay clear for daily access — and anything left outside, even briefly under a gazebo or in a garden store, needs checking for damp ingress before it's brought in and fitted.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tile and natural stone shade and batch consistency referenced here follows BS 5385 (wall and floor tiling), which recommends laying from a single batch wherever possible. Your statutory rights over faulty, damaged or misdescribed goods sit with the retailer under the Consumer Rights Act 2015, separate from our fit-only installation guarantee.
+      </p>
+    </div>
+  </section>
+
+  <!-- Who to contact -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Who to contact, and how quickly</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most online retailers and showrooms give a short window — often 24 to 48 hours — to report damage or shortages before their standard returns process becomes more involved, so the sooner an issue is logged, the simpler it usually is to resolve. Keep the order confirmation and delivery note together with any photographs, since most retailers ask for the order reference before they'll act on a claim. If a courier rather than the retailer caused visible damage to packaging, note it on the delivery paperwork at the point of signing where possible — a signature marked "unchecked" or "damaged packaging" carries more weight with a claim than a clean signature followed by a complaint days later.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We're glad to look at anything you're unsure about and give an honest opinion on whether it's fit to install, but the contractual relationship for a faulty or incorrect product sits between you and the seller, not us — we didn't sell it, so we can't authorise a return or refund on your behalf. What we can do is make sure nothing goes into the wall or floor that we wouldn't be happy to put our name to.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+        <a href="/guides/where-to-buy-bathroom-products-uk/" class="btn-secondary">Where to buy bathroom products</a>
+        <a href="/guides/how-long-does-a-bathroom-installation-take/" class="btn-secondary">Timeline guide</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/gerrards-cross/" class="btn-secondary">Gerrards Cross</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="delivery-check-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

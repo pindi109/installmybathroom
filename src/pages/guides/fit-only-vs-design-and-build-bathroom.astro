@@ -1,0 +1,250 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Fit-Only vs Design-and-Build Bathroom Installation",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is fit-only cheaper than design-and-build?",
+    a: "Usually, because you're buying sanitaryware, tiles and brassware at retail or trade prices rather than through a contractor's margin on supplied goods. Labour cost for the install itself is broadly comparable — the saving is on the products, not the fitting.",
+  },
+  {
+    q: "Who's responsible if a tap or shower toilet develops a fault?",
+    a: "The manufacturer, under their warranty, since you bought the product directly. We register no warranties on your behalf for client-supplied goods, but we keep a record of what we installed and when, which you'll need for any claim.",
+  },
+  {
+    q: "Can I use a fit-only installer if I've never bought a bathroom before?",
+    a: "Yes — most of our clients haven't. We tell you exactly what to buy, in what order, and flag anything incompatible with the layout or your concealed cistern frame before you order, so you're not learning this alone.",
+  },
+  {
+    q: "Does fit-only mean I get less aftercare than design-and-build?",
+    a: "No. Our installation workmanship is guaranteed in the same way a design-and-build contractor would guarantee their fitting — the difference is only in who supplies the products, not in the standard of the work.",
+  },
+  {
+    q: "Why would someone choose design-and-build over fit-only?",
+    a: "If you want a single point of contact for everything — design, product selection and installation — and are happy to pay for that convenience, design-and-build removes the legwork of sourcing products yourself.",
+  },
+  {
+    q: "Can I switch from a design-and-build quote to fit-only partway through planning?",
+    a: "Yes, as long as nothing has been ordered yet. Bring us your layout and spec, and we'll quote the installation against it directly — you then buy the products yourself at whatever price and lead time suits you.",
+  },
+];
+---
+
+<Base
+  title="Fit-Only vs Design-and-Build Bathroom Installation | IMB"
+  description="What fit-only and design-and-build bathroom installation actually mean, who each suits, and where responsibility sits if something goes wrong."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Fit-Only vs Design-and-Build", href: "/guides/fit-only-vs-design-and-build-bathroom/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Fit-Only vs Design-and-Build Bathroom Installation</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only means you buy your own sanitaryware, tiles and brassware and pay an installer purely for labour; design-and-build means one company sources the products and fits them, usually for a single combined price. Fit-only generally gives more control over product choice and price; design-and-build trades some of that control for convenience.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Neither route is universally better — they suit different clients, and the right one depends on how much time you want to spend sourcing products, how particular you are about specific brands and finishes, and how much you value having a single company responsible for everything from drawing to handover.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two routes compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Fit-only</th>
+              <th class="text-left py-3 font-semibold">Design-and-build</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Who chooses the products</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">You, from any supplier or brand</td>
+              <td class="py-3" style="color: var(--text-soft);">The contractor, usually from their supplier network</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Typical product cost</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Retail or trade price, no mark-up from the installer</td>
+              <td class="py-3" style="color: var(--text-soft);">Often marked up to cover sourcing, delivery and risk</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Point of contact</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">You liaise with suppliers and the installer separately</td>
+              <td class="py-3" style="color: var(--text-soft);">One company handles both</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Product warranty claims</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">You claim directly with the manufacturer or retailer</td>
+              <td class="py-3" style="color: var(--text-soft);">Usually routed through the contractor</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Lead times</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">You control ordering, so you can plan around stock</td>
+              <td class="py-3" style="color: var(--text-soft);">Managed by the contractor, less visibility for you</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Best suited to</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Clients with a clear specification or a specific brand in mind</td>
+              <td class="py-3" style="color: var(--text-soft);">Clients who want one call to make and no sourcing to do</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What fit-only means in practice</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A fit-only installer is quoting and charging for labour, plumbing, electrics, tanking, tiling and second fix — not for the sanitaryware, brassware, tiles or furniture themselves. You buy those from whichever showroom, online retailer or brand you choose, at whatever price and finish you want, and we install them to the standard the manufacturer specifies. That's why installation starts from £{business.pricing.fromGBP}: it's a labour figure against a defined scope, not a package price that bundles in products at a margin.
+      </p>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        This suits anyone who already has a brand or finish in mind — a particular Geberit cistern frame, a Villeroy & Boch basin shape, a specific stone from a supplier they trust — and doesn't want that choice narrowed down to whatever a contractor happens to stock or have an arrangement with. It also suits anyone comfortable doing some of their own research and ordering, in exchange for a lower overall cost and full control over exactly what arrives at the house.
+      </p>
+      <h2 class="text-2xl font-bold mb-4 fade-up">What design-and-build means</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A design-and-build contractor specs the bathroom, sources the products from their own supplier relationships, and fits them — usually for one combined price that covers both. The appeal is convenience: one conversation, one invoice, one company to call if something isn't right. The trade-off is that you're generally choosing from a narrower range than the whole market offers, and the combined price makes it harder to see exactly what you're paying for labour versus product.
+      </p>
+      <h2 class="text-2xl font-bold mb-4 fade-up">Where responsibility sits if something goes wrong</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        This is the question that matters most once the room is finished. With fit-only, a product fault — a cracked basin, a cartridge failing in a mixer, a shower toilet electronics fault — is a manufacturer warranty claim, made directly by you as the purchaser; our responsibility covers the workmanship of the install itself, to the standard the manufacturer's fitting instructions require. With design-and-build, product faults are usually routed back through the contractor first, which can be simpler for you but adds a layer between you and the manufacturer, and ties the speed of resolution to that company's relationship with their supplier.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Neither arrangement changes your statutory rights as a consumer under the Consumer Rights Act 2015 — those apply regardless of which company sold you the product or did the fitting. What changes is the practical route you take to exercise them, and how many parties are involved in getting a fault resolved.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Which route suits you</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        If you already know you want a specific brand, have strong views on finish and layout, or simply want the lowest overall cost for a given specification, fit-only puts you in control of every pound spent on products. If you'd rather hand the whole decision over to one company and pay for that convenience, design-and-build removes the legwork — at the cost of some choice and, typically, a higher overall price for the same end result.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Many of our clients land on fit-only after getting a design-and-build quote first and finding the product mark-up higher than expected once they priced the same suite themselves. Others come to us already having bought everything, simply needing the labour. Either route is a reasonable way to get a bathroom built — the right one depends on how much control over sourcing you want to keep.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How the quoting conversation actually differs</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A fit-only quote is scoped against a defined specification — the actual model numbers, finishes and quantities you've chosen or are close to choosing — which is why we ask for as much of that detail as possible before survey, even if it's still provisional. A design-and-build quote more often starts from a budget or a room brief, with product selection happening as part of the design process rather than before it. Neither approach is wrong, but it changes what the first number you're given actually represents: with fit-only it's a labour figure you can check against a receipt pile; with design-and-build it's usually a combined figure that bundles product cost, margin and labour into one line.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        This matters most when comparing quotes from different companies. Two design-and-build quotes for the "same" bathroom can vary significantly simply because of what each contractor's supplier relationships cost them, with no easy way to isolate how much of the difference is labour versus product margin. Two fit-only quotes for the same scope are more directly comparable, because the products aren't part of either number — you're pricing labour against labour.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What stays the same whichever route you choose</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Regardless of who supplies the products, the technical standard the installation is built to doesn't change — tanking still needs to follow BS 5385, electrical work within bathroom zones still needs to meet Part P and BS 7671, and a concealed cistern still needs the same depth and access considerations whether it was bought by you directly or supplied by a design-and-build contractor. The route you choose affects who sources the products and who you deal with if something goes wrong with them; it doesn't lower or raise the bar for the workmanship itself.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        It's also worth saying that the two routes aren't always mutually exclusive across a single property. Some clients use a design-and-build contractor for a kitchen or a larger renovation elsewhere in the house, where they're happy to hand over the decisions, and choose fit-only specifically for the bathroom, where they already know exactly what they want. There's no rule that the whole project has to follow one model.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Questions worth asking any installer, whichever route you take</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Whether you go fit-only or design-and-build, a short list of questions is worth asking before you commit to either: what happens if a product you've bought turns out to be faulty after fitting, who is responsible for notifiable electrical and plumbing work and how is that certified, what's included in the written quote versus what counts as an extra, and what the programme looks like in writing before a deposit changes hands. Our separate guide on <a href="/guides/questions-to-ask-a-bathroom-installer/" class="underline" style="color: var(--teal);">questions to ask a bathroom installer</a> goes through this in more depth and applies equally to either model.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom: checklist</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Cost guide</a>
+        <a href="/guides/where-to-buy-bathroom-products-uk/" class="btn-secondary">Where to buy bathroom products</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/gerrards-cross/" class="btn-secondary">Gerrards Cross</a>
+        <a href="/areas/stoke-poges/" class="btn-secondary">Stoke Poges</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">A worked example of where the money goes</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Take a mid-range en-suite with a wall-hung WC, basin, walk-in shower and large format porcelain. Fit-only, you might spend a given sum directly with a sanitaryware retailer, a tile supplier and a brassware brand, each at their own retail price, with no single party marking up the total — then pay installation labour from £{business.pricing.fromGBP} against the confirmed scope on top. Design-and-build for the equivalent spec, from the same or similar products, typically rolls both figures into one invoice, with the contractor's sourcing margin folded into the product line rather than shown separately — not hidden exactly, just harder to isolate, since the one number covers everything.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Neither figure is wrong or dishonest — a design-and-build contractor is entitled to a margin on products they've sourced, vetted and are standing behind as part of their own offering. The point of this example is simply that the two invoices aren't directly comparable line for line, and a client weighing up two quotes needs to know which model each one represents before comparing the bottom line.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Consumer protection referenced here follows the Consumer Rights Act 2015, which applies to goods and services regardless of whether they're bought separately or as part of a combined contract. Notifiable electrical and plumbing work remains subject to Building Regulations Part P under either route — the party carrying out that work is responsible for compliance, not the party who sold the products.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="fit-only-vs-design-build-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

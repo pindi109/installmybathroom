@@ -1,0 +1,222 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Shower Toilet Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Do I need a special toilet for a shower toilet installation?",
+    a: "Yes, usually. Shower toilets (sometimes called bidet toilets or washlets) need a power supply within reach of the pan, a water supply to the unit, and in most cases a specific wall-hung frame or floor outlet compatible with the model you've bought. We confirm all three against your chosen spec at survey, because the frame that suits a standard wall-hung WC won't necessarily suit a shower toilet with a bulkier cistern and electronics housing.",
+  },
+  {
+    q: "Does a shower toilet need an electrician?",
+    a: "Yes. A fused spur or switched socket is required within the permitted zone distance from the WC, installed by a registered electrician as Part P-notifiable work. We coordinate this as part of the installation so you have one point of contact rather than booking a separate trade and hoping the timings line up.",
+  },
+  {
+    q: "Can a shower toilet be fitted to an existing concealed cistern?",
+    a: "Sometimes, but not always — it depends on whether the cistern and frame are compatible with the shower toilet's connection points, whether there's room behind the wall for the unit's internal tank or electronics, and whether the existing waste outlet position matches the new pan. This is checked at survey before we commit to a start date, so there are no surprises once the wall is open.",
+  },
+  {
+    q: "Will a shower toilet work with low water pressure?",
+    a: "Most shower toilets need a minimum flow and pressure to operate the wash and dry functions properly — this varies by model and is stated in the manufacturer's installation manual. We test your supply at survey; where it falls short, a pumped or boosted supply can be specified before the unit is ordered, not discovered as a problem on install day.",
+  },
+  {
+    q: "How long does a shower toilet take to install?",
+    a: "On an existing bathroom with suitable power and water already nearby, fitting typically takes a day. Where new electrics or pipework need running back to source, or where the shower toilet is going in as part of a wider refit, it's scheduled into that wider programme instead of as a standalone visit.",
+  },
+  {
+    q: "Can you fit Toto or Geberit shower toilets specifically?",
+    a: "Yes — Toto Washlet and Geberit AquaClean are the two ranges we fit most often, and their installation requirements differ: different frame depths, different control positions, different power specifications. We check the exact model and its manual at survey rather than quoting generically for 'a shower toilet'.",
+  },
+];
+---
+
+<Base
+  title="Shower Toilet Installation | Install My Bathroom"
+  description="Fit-only shower toilet installation in Bracknell and Berkshire. Power, water supply and concealed cistern compatibility checked at survey. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Shower Toilet Installation", href: "/services/shower-toilet-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Shower Toilet Installation</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A shower toilet replaces a standard WC with a unit that washes and dries, which means power to the pan, a dedicated water feed, and a concealed cistern or frame built to suit — checked and confirmed at survey, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        These units ask more of a bathroom than a conventional WC does. There's a control panel or wireless remote to position, a seat that needs continuous low-voltage power even when not in use, and — on most models — a nozzle and reservoir that need servicing access behind the pan. None of that is difficult to accommodate, but it has to be planned before the wall closes up, not worked out afterwards.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Every shower toilet installation is built around the specific unit you've bought, so the scope below is what we check and fit on a typical job — the detail changes model to model, which is exactly why survey comes before order.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Removal of the existing WC, cistern or frame where it's being replaced, with disposal</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Confirmation of power and water connection points against your chosen model's manual</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Coordination of a registered electrician for the fused spur or switched socket, certified on completion</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Fitting of the concealed cistern, frame or in-wall tank, fixed to structure and set level</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Connection of the water supply through an isolation valve, the waste, and any remote control or sensor</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Function test of wash, dry, seat heating, deodoriser and dryer settings before handover</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Sealing around the pan base against the floor finish, and a full snagging check</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why a shower toilet needs more planning than a standard WC</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A conventional wall-hung WC needs a soil connection, a water feed and a level frame. A shower toilet needs all of that plus a live electrical supply that's continuously available rather than switched off between uses, because the seat heating and reservoir warming run in the background. That supply has to sit outside the bathroom's splash zones or be rated for the zone it falls into — there's no version of this where power is an afterthought.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The second thing people underestimate is servicing access. Most shower toilets have a filter or descaler cartridge that needs replacing periodically, and the unit itself may need to be unclipped from the wall for maintenance. We leave enough clearance around the pan and avoid boxing the cistern in so tightly that a future service call means re-opening tiled work.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We fit shower toilets most often as part of a full en-suite or main bathroom refit, where the wall is already open and running new power and water is straightforward, but we also fit them as a standalone upgrade to an existing WC position, often alongside a wider programme of smaller bathroom improvements planned over time. In that second case, the survey is where we establish whether the existing stud wall has room for a deeper frame, whether the soil pipe run allows the new pan's outlet position, and whether the nearest power circuit has spare capacity for the spur — three questions that are far cheaper to answer with a tape measure than with the wall already closed up.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">We check your chosen model's power, water and clearance requirements against the room as it stands, and test flow and pressure at the point the unit will connect.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Electrical and plumbing first fix.</strong> <span style="color: var(--text-soft);">A spur is run to the correct position by a registered electrician, and a dedicated, isolatable water feed is installed where none exists.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Frame and cistern fitting.</strong> <span style="color: var(--text-soft);">The concealed frame or in-wall tank is set, levelled and pressure tested before any tiling closes it in, with the access panel positioned for future servicing.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Pan and function fitting.</strong> <span style="color: var(--text-soft);">The shower toilet pan is connected, sealed to the floor finish, and the control panel or remote paired and positioned within comfortable reach.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Testing and handover.</strong> <span style="color: var(--text-soft);">Every function is cycled — wash, dry, heated seat, dryer, any night light — seals checked, and settings talked through before we leave.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The fused spur or switched socket serving a shower toilet sits outside the bathroom's electrical zones wherever the layout allows, in line with BS 7671 requirements for special locations. Where that's not possible, the point of connection is rated and positioned to suit the zone it falls within. This is Part P-notifiable work, so it's carried out by a registered electrician and certified on completion — not treated as an optional extra bolted on after the plumbing's done.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water supply to the unit is taken from an isolatable point, not spliced into an existing feed without one, so the unit can be shut down independently for servicing without draining the whole bathroom's supply. Where the concealed cistern or frame is being installed fresh, it's fixed to structure — noggins or a dedicated support frame — rather than relying on the tiling or plasterboard to carry the load, and checked for level with a spirit level, not by eye, before the wall is closed up.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where the pan sits on a floor with underfloor heating or a tanked wet room floor, the fixing method is agreed at survey so the tanking membrane isn't compromised by fixings going in blind after the floor's finished.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A straightforward swap, where power and water are already close by and the existing frame is compatible, sits at the lower end. Cost rises where new circuits need running from the consumer unit, where the existing stud wall has to be opened up to fit a deeper frame, or where the installation is part of a full refit and shares scaffolding of trades rather than being a single visit. We confirm which of these applies at survey, before you commit to a model, so the quote reflects your actual wall rather than a generic average.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Living with a shower toilet: servicing and day-to-day use</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Once it's in, a shower toilet behaves like any other high-use bathroom fitting with a small amount of ongoing care. Nozzle cartridges and inline filters are designed to be user-replaceable on most ranges, but only if the access panel behind the pan was left clear during installation — which is why we agree panel position and size at first fix rather than tiling over it and cutting an access hatch as an afterthought. We also label the isolation valve clearly, so if a seal ever needs attention the water supply to just that fitting can be shut off without affecting the rest of the bathroom.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Noise and vibration are worth a mention too: the water heater and pump inside most shower toilets run intermittently, and in a quiet en-suite adjoining a bedroom this is sometimes audible. Where that matters to a client, we talk through pan positioning relative to a shared wall at survey, and check the manufacturer's stated noise rating before the unit is ordered, rather than after it's already fixed to the wall.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The shower toilet pan, remote or control panel, and any matching furniture are bought by you — most commonly from Toto or Geberit; see our <a href="/guides/toto-vs-geberit-shower-toilets/" class="underline" style="color: var(--teal);">comparison guide</a> if you haven't decided between the two. We'll confirm the exact model number, required frame or cistern, and power specification at survey so nothing is ordered that won't fit the room or the existing wall structure.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the unit on delivery before we arrive — model number, colour, and that the carton hasn't been crushed in transit. A wrong model or a pan damaged before we even open the box, where it causes a return visit, is chargeable, which is why we ask clients to open and check deliveries against the specification rather than leaving boxes sealed until install day. If you're ordering from a showroom rather than online, ask them to confirm the frame or cistern model number alongside the pan — some shower toilet ranges are sold with a choice of two or three compatible frames, and the wrong one won't necessarily be obvious until it's unboxed on site.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+        <a href="/services/bidet-installation/" class="btn-secondary">Bidet Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/accessible-luxury-bathrooms/" class="btn-secondary">Accessible Luxury Bathrooms</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/shower-toilets-explained/" class="btn-secondary">Shower toilets explained</a>
+        <a href="/guides/toto-vs-geberit-shower-toilets/" class="btn-secondary">Toto vs Geberit shower toilets</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="shower-toilet-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

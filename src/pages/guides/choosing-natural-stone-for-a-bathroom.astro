@@ -1,0 +1,256 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Choosing Natural Stone for a Bathroom",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is marble too soft and porous for a bathroom floor?",
+    a: "Marble is softer and more porous than granite or quartzite, and it etches on contact with acidic products, but properly sealed and resealed periodically it's used in bathrooms successfully — the trade-off is acceptance of some patina over time, not a barrier to using it.",
+  },
+  {
+    q: "How often does natural stone need resealing?",
+    a: "It depends on the stone's porosity and how much traffic and moisture the surface sees — anywhere from annually for a porous limestone floor to several years for a dense granite. A simple water-bead test tells you when a surface needs attention: if water stops beading and soaks in, it's time to reseal.",
+  },
+  {
+    q: "Can natural stone be used on a wet room floor?",
+    a: "Yes, provided it's suitable for wet, trafficked use — typically a honed or textured finish rather than polished, for slip resistance — and sealed appropriately before grouting. The tanking beneath it works the same way as under porcelain.",
+  },
+  {
+    q: "Why do natural stone tiles cost more to install than porcelain?",
+    a: "Stone needs more careful handling to avoid chipping edges, often requires mitred joints at corners and upstands, and takes longer to seal before and after grouting. The material itself also varies tile to tile, needing more time spent on layout to balance veining and tone across the room.",
+  },
+  {
+    q: "Does every natural stone need sealing before grouting?",
+    a: "Almost all do, to prevent grout haze and staining from penetrating the stone's surface during installation. The specific sealer and number of coats depends on the stone type and finish, following the sealer manufacturer's guidance for that material.",
+  },
+  {
+    q: "Can I mix natural stone with porcelain in the same bathroom?",
+    a: "Yes — a common approach is a porcelain floor with natural stone used selectively, for example a feature wall, a vanity top, or a shower niche, balancing the character of stone against the lower-maintenance demands of porcelain elsewhere.",
+  },
+];
+---
+
+<Base
+  title="Choosing Natural Stone for a Bathroom | IMB"
+  description="How marble, limestone, travertine, granite and quartzite compare for bathroom use — porosity, sealing, slip resistance and installation demands."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Choosing Natural Stone", href: "/guides/choosing-natural-stone-for-a-bathroom/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Choosing Natural Stone for a Bathroom</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Marble, limestone and travertine are softer, more porous and need regular sealing; granite and quartzite are denser and lower-maintenance but cost more and are harder to cut. All need sealing before grouting and a slip-rated honed or textured finish on wet floors. The right choice is a trade-off between character, maintenance and budget, not a single "best" stone.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        No two slabs of natural stone are identical, which is precisely why clients choose it over porcelain — the veining, tone and subtle variation that large format porcelain now reproduces convincingly in print still can't fully replicate the depth you get from light passing through real crystalline structure. That same variability is also what makes specifying stone for a bathroom more involved than picking a porcelain tile from a sample board: porosity, hardness and finish all differ significantly between stone types, and each has real consequences for how the room performs day to day.
+      </p>
+    </div>
+  </section>
+
+  <!-- Comparison table -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Common bathroom stone types compared</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Stone</th>
+              <th class="text-left py-3 pr-4 font-semibold">Porosity / hardness</th>
+              <th class="text-left py-3 font-semibold">Best suited to</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Marble</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Porous, relatively soft, etches with acidic products</td>
+              <td class="py-3" style="color: var(--text-soft);">Feature walls, vanity tops, low-traffic floors with regular sealing</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Limestone</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Porous, soft to moderate, often with a matte, honed finish</td>
+              <td class="py-3" style="color: var(--text-soft);">Floors and walls where a soft, even tone is wanted over dramatic veining</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Travertine</td>
+              <td class="py-3" style="color: var(--text-soft);">Porous with natural surface pitting, moderate hardness</td>
+              <td class="py-3" style="color: var(--text-soft);">Walls and dry-adjacent floors; pitted finishes need filling before sealing in wet areas</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Granite</td>
+              <td class="py-3" style="color: var(--text-soft);">Dense, hard, low porosity</td>
+              <td class="py-3" style="color: var(--text-soft);">High-traffic floors, vanity tops, areas needing minimal ongoing maintenance</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Quartzite</td>
+              <td class="py-3" style="color: var(--text-soft);">Very dense and hard, low porosity, but difficult to cut</td>
+              <td class="py-3" style="color: var(--text-soft);">Feature surfaces and floors wanting a crystalline, marble-like look with better durability</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Finish and slip resistance -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Finish, slip resistance and sealing</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A polished finish shows a stone's depth and colour at its best but becomes genuinely slippery once wet, which rules it out for a shower or wet room floor regardless of the material beneath it. Honed, leathered or lightly textured finishes trade some of that glossy depth for grip, and are the sensible choice for any floor that gets walked on wet. Walls and vanity tops, which don't get walked on, can carry a polished finish without the same risk.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Sealing is non-negotiable on almost every natural stone used in a bathroom — applied before grouting to stop grout haze penetrating the stone's surface, and again afterwards once the installation is complete. The sealer, number of coats and resealing interval all depend on the specific stone's porosity, which is why we follow the sealer manufacturer's guidance for the exact material rather than a single blanket rule across every stone type.
+      </p>
+    </div>
+  </section>
+
+  <!-- Installation considerations -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What this means for installation</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Natural stone is handled, cut and set differently from porcelain at every stage: slabs are heavier and need careful lifting to avoid edge chips, mitred joints at external corners need precise cutting to achieve a seamless-looking mitre, and layout is planned in advance to balance veining and tone across the visible field rather than laying tiles in delivery order. Our <a href="/guides/large-format-tile-installation-tolerances/" class="underline" style="color: var(--teal);">large format tile tolerances guide</a> covers the levelling and flatness requirements that apply equally to stone, and our <a href="/guides/porcelain-vs-natural-stone-tiles/" class="underline" style="color: var(--teal);">porcelain vs natural stone comparison</a> goes further into cost and maintenance trade-offs if you're still deciding between the two.
+      </p>
+    </div>
+  </section>
+
+  <!-- Living with natural stone -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Living with natural stone day to day</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Day-to-day care for most sealed natural stone is simpler than people expect — a pH-neutral cleaner rather than anything acidic or heavily alkaline, since both can strip a sealer prematurely or etch the stone's surface directly, and a soft cloth or mop rather than an abrasive scourer. Standing water left on a porous stone for extended periods, such as a bath mat left wet on a limestone floor overnight, is worth avoiding where practical, since it's exactly the kind of prolonged contact that tests a sealer's limits.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A simple test for whether a sealed surface still needs attention is to splash a small amount of water onto it and watch what happens — if it beads and sits on the surface, the seal is still doing its job; if it darkens the stone and soaks in within a minute or two, it's time to reseal. This takes seconds, costs nothing, and is a far more reliable guide than a fixed resealing calendar, since actual wear depends on how much the surface is used and cleaned, not just how much time has passed.
+      </p>
+    </div>
+  </section>
+
+  <!-- Vein matching and layout -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Vein matching and layout planning</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Because no two pieces of natural stone are identical, laying out the whole job dry before any adhesive is applied matters more here than with a uniform porcelain tile. We lay slabs or tiles out in the order they'll be fixed, checking that veining runs in a consistent direction and that any dramatic or unusual markings are distributed deliberately rather than landing by chance in a prominent position — directly above a basin, say, or across a feature wall's centre line. Book-matching, where two adjacent slabs are cut from the same block and mirrored to create a symmetrical pattern across a joint, is a specific technique worth discussing at specification stage if it's an effect you want, since it depends on ordering sequential slabs from the same block rather than individual pieces chosen at random.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Budgeting for natural stone realistically</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Stone's cost varies more widely than porcelain's, driven by quarry origin, slab size, finish and how much wastage a particular veining pattern creates once cutting and matching begins — two stones that look similar in a brochure photograph can carry quite different price tags once these factors are accounted for. It's worth ordering slightly more than the measured area to allow for both cutting wastage and future repairs, since stone from the same quarry batch may not be available years later if a replacement is ever needed, unlike a mass-produced porcelain tile that's usually easier to re-source.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Where budget is a genuine constraint, using stone selectively — a feature wall or a vanity top, rather than the entire floor and wall area — gives much of the visual impact at a fraction of the material and installation cost of tiling a whole wet room in stone, and it's a specification approach we're happy to talk through at survey if cost and character both matter to the brief.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Natural stone tiling practice referenced here follows BS 5385-5 (natural stone cladding and lining), alongside the general tiling requirements of BS 5385-1 and -3. Sealer selection and application intervals follow manufacturer guidance specific to the stone type and finish used.
+      </p>
+    </div>
+  </section>
+
+  <!-- Period properties -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Natural stone in period and listed properties</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Stone often suits a period property's character better than a contemporary large format porcelain, and clients renovating a listed or conservation-area home frequently gravitate towards it for that reason. Worth checking early, though, is floor loading — stone is considerably heavier than porcelain of the same area, and an older timber floor structure that's perfectly adequate for a lighter tile may need checking or reinforcing before a full stone floor is specified, particularly on an upper storey. This is exactly the kind of structural question that's worth raising at survey before falling in love with a specific slab, since the answer can affect which rooms in an older house are realistic candidates for stone at all.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Engineered and composite stone as a middle ground</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Where a client likes the look of natural stone but is less drawn to the maintenance it asks for, an engineered quartz or composite stone surface is worth considering, particularly for a vanity top — manufactured from crushed natural stone bound with resin, giving a consistent, non-porous surface that needs no sealing at all, at the cost of some of the depth and individuality a genuine slab offers. It isn't a substitute for natural stone on a floor or a feature wall where the material itself is the point, but on a surface valued mainly for practicality, such as a vanity top that sees daily splashing and toiletries, it's a sensible middle ground many clients are glad to have discussed before committing either way.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/porcelain-vs-natural-stone-tiles/" class="btn-secondary">Porcelain vs natural stone tiles</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Large format tile tolerances</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/virginia-water/" class="btn-secondary">Virginia Water</a>
+        <a href="/areas/gerrards-cross/" class="btn-secondary">Gerrards Cross</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Edge details -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Edge profiles and mitred corners</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A mitred edge, where two slabs are cut at matching 45-degree angles and joined to form what looks like a single continuous piece of solid stone around a corner, is one of the details that distinguishes a considered natural stone installation from a straightforward tiled finish — commonly used on a vanity top's front edge, a bath upstand, or a shower niche return. Getting a mitre to close tightly without a visible seam takes precise cutting and careful fitting, and it's worth asking any installer directly about their experience with it specifically, since it's a skill distinct from general tiling competence.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="choosing-natural-stone-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,252 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Vanity Unit Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Can a wall-hung vanity unit take real weight, or will it sag over time?",
+    a: "A correctly fixed wall-hung vanity, with fixings into solid blockwork or a dedicated backing board rather than plasterboard alone, carries everyday use without sagging. The backing is checked at survey — stud walls need a noggin or board fitted before the unit goes up.",
+  },
+  {
+    q: "How do you hide the pipework behind a vanity unit?",
+    a: "Supply and waste are routed within the wall or boxed in behind the unit at first-fix stage, positioned to match the specific basin and tap holes on your chosen model, so nothing is visible once the unit is fixed.",
+  },
+  {
+    q: "What's the right height for a vanity unit and basin?",
+    a: "Standard basin height sits around 800–850mm to the rim, but we'll confirm what suits the household — taller occupants or households with younger children sometimes prefer a different height, agreed at survey before first fix is set.",
+  },
+  {
+    q: "Can a countertop basin be fitted onto any vanity unit?",
+    a: "Only if the unit top and basin are matched for cut-out size and overhang — this is checked before ordering, since a countertop basin needs the unit's work surface cut precisely to the basin's footprint.",
+  },
+  {
+    q: "Is silicone or grout used around the basin and vanity top?",
+    a: "Silicone, not grout, at any junction where two different materials meet or where slight movement is expected — basin-to-worktop and worktop-to-wall are both silicone joints, kept slim and consistent rather than over-filled.",
+  },
+  {
+    q: "Can an existing stud wall support a heavy stone vanity top?",
+    a: "Usually yes with the right backing, but very heavy natural stone tops sometimes need additional support brackets beneath, assessed against the specific unit and top weight at survey rather than assumed.",
+  },
+  {
+    q: "What's the difference between a wall-hung and a freestanding floor-standing vanity unit?",
+    a: "A wall-hung unit leaves a visible gap beneath for an open, lighter look and is easier to clean underneath, but needs the solid backing described above. A floor-standing unit carries its own weight on the floor and is generally more forgiving of wall type, which can suit an older property with less predictable wall construction.",
+  },
+  {
+    q: "Can a double basin vanity unit fit in a standard-sized family bathroom?",
+    a: "It depends on the room — a double basin unit typically needs at least 1200–1500mm of wall width to work comfortably, with enough clearance either side for two people to use it at once. We'll check available width against your intended model at survey before you order.",
+  },
+];
+---
+
+<Base
+  title="Vanity Unit Installation | Install My Bathroom"
+  description="Fit-only vanity unit installation across Bracknell and Berkshire. Wall-hung or floor-standing, concealed pipework, basin and worktop fitted to spec. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Vanity Unit Installation", href: "/services/vanity-unit-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Vanity Unit Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A vanity unit carries the basin, the worktop and whatever's stored beneath it — none of which stays solid for long if the wall fixing was an afterthought. We check the backing before the unit goes up, not after it starts to move. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's also the fixture used most often, every single day, by everyone in the household — which is why the small decisions around height, basin type and storage layout are worth getting right rather than treating as an afterthought once the bigger items like the bath or shower have been chosen.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most vanity unit problems we're called out to fix elsewhere trace back to one issue: the wall behind it wasn't prepared to take the load. We treat the backing as part of the specification, not an afterthought solved with a few extra screws.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Wall backing check, with a noggin or board fitted behind stud walls where a wall-hung unit is specified</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix supply and waste positioned to match the basin and tap hole layout of your chosen unit</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Unit fixing at the agreed height, levelled and checked for load before the basin is dropped in</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Basin or countertop fitting, including cut-outs confirmed against the matched worktop</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tap, waste and trap connection with a leak test before the cabinet doors are closed up</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Silicone sealing at basin-to-worktop and worktop-to-wall junctions</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Door and drawer alignment check, and a snagging walkthrough on completion</li>
+      </ul>
+      <p class="leading-relaxed mt-6" style="color: var(--text-soft);">
+        Where storage is a priority, we'll also check drawer runner quality and soft-close mechanisms against the model specified — a detail easy to overlook in a showroom but one that's noticed daily once the unit is in regular use.
+      </p>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Wall construction, available width, and basin height preference are confirmed before you order a specific unit.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the unit, basin and tap.</strong> <span style="color: var(--text-soft);">We confirm tap hole position and basin cut-out against the unit before you commit to all three together.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Backing and first fix.</strong> <span style="color: var(--text-soft);">Wall prepared with solid fixing points, supply and waste routed to the confirmed position.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Unit fixing and levelling.</strong> <span style="color: var(--text-soft);">Cabinet fixed at the agreed height, checked level and secure under load before anything is connected.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Basin, tap and snagging.</strong> <span style="color: var(--text-soft);">Basin or countertop fitted, tap and waste connected and tested, final sealing and walkthrough.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wall-hung units are fixed into solid blockwork or a dedicated plywood backing board set behind the finished wall at first fix — plasterboard and dot-and-dab fixings alone are not load-rated for a filled basin cabinet carrying everyday use. Fixing centres and screw type are matched to the manufacturer's weight rating rather than whatever's fastest to hand. Supply pipework is positioned precisely to the tap hole centres of the specified basin, confirmed before chasing walls, since adjusting pipe position after tiling means cutting back into finished work.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Basin and worktop junctions are sealed with silicone sized to a slim, consistent bead — wide, uneven silicone lines are one of the most common complaints about rushed vanity fits, and one of the easiest to avoid with the right prep.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a countertop basin sits above the worktop rather than inset, the worktop surface itself needs sealing against water ingress at the basin's base — otherwise splash finds its way under the basin and into the cabinet below over time, a slow failure that often isn't noticed until the cabinet base has already suffered damage.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        A cistern or supply isolation valve positioned inside the vanity cabinet is deliberately left accessible rather than boxed in completely, so a future repair or isolation in an emergency doesn't mean removing the whole unit — a small planning detail at first fix that saves real disruption years down the line.
+      </p>
+    </div>
+  </section>
+
+  <!-- Basin types -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Inset, countertop, semi-recessed or integrated basins</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        An inset basin drops into a cut-out in the worktop, sitting flush or slightly recessed — the most common and generally the easiest to keep clean, since there's no raised lip collecting water at the basin edge. A countertop basin sits entirely above the worktop surface, giving a striking visual statement but requiring more careful sealing at its base, and slightly less practical splash containment day to day. A semi-recessed basin sits partly into the worktop and partly proud of it, a middle option that suits a shallower vanity depth. An integrated basin is moulded as one continuous surface with the worktop — no joint at all between basin and top, which removes the sealing question entirely but limits material choice to whatever the integrated top is made from.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'll talk through which suits your household's daily use and cleaning preferences at survey — a striking countertop basin photographs beautifully but is worth choosing with eyes open about the slightly higher maintenance it demands compared with a simple inset basin.
+      </p>
+    </div>
+  </section>
+
+  <!-- Storage and layout -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning storage and layout around the vanity</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A vanity unit is often the main storage in a bathroom, so it's worth thinking beyond the basin itself to what actually needs to live in or around it day to day — toiletries, cleaning products, spare towels, hairdryers and the various odds and ends every household accumulates. Drawer-based storage generally makes better use of the internal space than a single cupboard with shelves, since drawers avoid the awkward reaching-to-the-back problem that a deep cupboard creates.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If a mirrored cabinet is also being fitted above the basin, it's worth coordinating the two at the same time rather than as separate decisions — a cabinet that opens into a light fitting, or a vanity unit whose drawers can't open fully because of a radiator positioned too close, are both avoidable clashes we check for at survey when the whole room is being planned together.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        In a shared family bathroom, a double basin unit or two separate basins set apart on a longer run of worktop can meaningfully reduce the morning queue — worth considering if wall width allows, even if it means a slightly smaller shower or bath footprint elsewhere in the room. We'll help you weigh that trade-off against the room's overall layout at survey, rather than treating basin count as a fixed decision made before you've seen how the rest of the space works together.
+      </p>
+    </div>
+  </section>
+
+  <!-- Hard water and material care -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Hard water and worktop material care</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Berkshire generally sits in a moderately hard water area, which means limescale build-up around the basin and tap base is worth factoring into material choice. Natural stone worktops need sealing periodically to resist staining and limescale penetration, while engineered quartz and solid surface materials are generally more resistant to both without ongoing maintenance. Polished chrome taps show limescale spotting more visibly than a brushed finish, which is worth knowing if low-maintenance cleaning matters more to you than a particular finish.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        None of this should put you off natural stone — many clients prefer its look and are happy with the occasional reseal — but it's worth going in with clear expectations about upkeep rather than discovering them after the first few months of use. A good plumbed-in water softener elsewhere in the house will also reduce limescale across every tap and basin, worth considering as a separate decision if hard water is a recurring frustration throughout the property rather than just in one bathroom.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The vanity unit, basin or countertop, and tap are bought by you — see our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. Confirm basin and tap hole configuration against the unit before ordering all three separately: a basin with a different tap hole spacing to the worktop cut-out is a mismatch we see fairly often, and it's far cheaper to catch before delivery.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Our <a href="/guides/buying-your-own-bathroom-checklist/" class="underline" style="color: var(--teal);">buying your own bathroom checklist</a> is worth working through before you place any order, and our <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="underline" style="color: var(--teal);">delivery checklist</a> guide covers what to inspect the moment the vanity unit arrives, before it's unpacked and installed.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        It's also worth double-checking door and drawer handle finish against your tap and towel radiator before the order is placed, and confirming whether soft-close hinges are included as standard or need specifying separately — some ranges treat this as an upgrade rather than a default feature, which is easy to miss when comparing prices across different suppliers.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/mirrored-cabinets-and-illuminated-mirrors/" class="btn-secondary">Mirrored Cabinets &amp; Illuminated Mirrors</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/where-to-buy-bathroom-products-uk/" class="btn-secondary">Where to buy guide</a>
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying checklist</a>
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">Delivery checklist</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="vanity-unit-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

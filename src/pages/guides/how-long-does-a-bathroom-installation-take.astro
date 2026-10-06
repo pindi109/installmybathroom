@@ -1,0 +1,254 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Long Does a Bathroom Installation Take?",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Can you install a bathroom in a week?",
+    a: "A straightforward like-for-like refit in a small room can be done in five to seven working days. Anything involving moved waste positions, a wet room, or natural stone needs longer — rushing tanking or tile set-out time is how lippage and cracked grout lines happen later.",
+  },
+  {
+    q: "Does moving the toilet or shower add much time?",
+    a: "Usually two to four extra days. Supply and drainage runs have to be re-routed and, where floor levels change to keep the correct fall to drain, floor structure may need adjusting before tiling can start.",
+  },
+  {
+    q: "Why do wet rooms take longer than a shower enclosure?",
+    a: "A wet room needs tanking across the entire floor and often a modified deck to form a fall to a level-access drain, rather than tanking confined to one enclosure footprint. That's more preparation and more drying time between coats.",
+  },
+  {
+    q: "What's the single biggest cause of delay?",
+    a: "Products not on site when needed. If a vanity unit, shower screen or tile batch arrives late or damaged, the programme stalls at that fix stage. We agree a delivery schedule with you before start so everything is on site ahead of the day it's needed.",
+  },
+  {
+    q: "Do you work one bathroom at a time or run multiple trades in parallel?",
+    a: "One bathroom, one team, start to finish. We don't double-book a room across overlapping jobs — the programme we give you at survey is the one we work to.",
+  },
+  {
+    q: "Can I still use another bathroom in the house during the work?",
+    a: "In almost all cases, yes. We dust-sheet and protect hallways and staircases, and the rest of the house carries on as normal — only the room being worked on is out of use.",
+  },
+  {
+    q: "Does a period or listed property take longer to work on?",
+    a: "Often, yes. Solid floors, uneven walls and narrower access for protecting staircases all add time to strip-out and first fix. We flag anything unusual at survey stage so it's in the programme from day one, not discovered halfway through.",
+  },
+];
+---
+
+<Base
+  title="How Long Does a Bathroom Installation Take? | IMB"
+  description="Typical timelines for fit-only bathroom installation in the UK, from a simple refit to a full wet room with natural stone — day by day."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "How Long Does Installation Take", href: "/guides/how-long-does-a-bathroom-installation-take/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">How Long Does a Bathroom Installation Take?</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A straightforward fit-only bathroom with fittings staying in their existing positions typically takes five to seven working days. A full luxury re-fit with moved waste runs, a wet room and natural stone tiling usually runs two to three weeks. Your survey produces a day-by-day programme, not a guess.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Timelines get asked about more than almost anything else, usually by clients juggling the rest of a renovation, a holiday booked for the week after handover, or a single family bathroom that the household can't be without for long. The honest answer is that duration is driven far more by what's being built than by the size of the room — a small en-suite with a wet room floor and natural stone can take longer than a larger family bathroom with a simple like-for-like swap.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Typical programme by project type</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Project type</th>
+              <th class="text-left py-3 font-semibold">Typical duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Like-for-like refit, fittings in same positions</td>
+              <td class="py-3" style="color: var(--text-soft);">5–7 working days</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Refit with moved toilet, basin or shower waste</td>
+              <td class="py-3" style="color: var(--text-soft);">7–10 working days</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Wet room with full-floor tanking</td>
+              <td class="py-3" style="color: var(--text-soft);">10–14 working days</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Full luxury re-fit, moved services, natural stone, underfloor heating</td>
+              <td class="py-3" style="color: var(--text-soft);">14–20 working days</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">En-suite or cloakroom, no major service changes</td>
+              <td class="py-3" style="color: var(--text-soft);">3–5 working days</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-6 text-sm fade-up" style="color: var(--text-soft);">
+        These figures assume products are on site when needed and the substrate is in reasonable condition once stripped out. Older floor joists, unexpected damp, or lead supply pipework found during strip-out can add time — we flag this to you as soon as it's found, before continuing.
+      </p>
+      <p class="mt-4 leading-relaxed fade-up" style="color: var(--text-soft);">
+        Figures in the table are working days on site, not calendar days. A programme that runs Monday to Friday over two weeks is ten working days; if a delivery is delayed and we have to step off site for a day while it's sorted, the calendar slips but the labour total doesn't change. We agree at survey which of those scenarios is more likely for your project and build a small amount of float into the programme rather than promising a date we can't guarantee.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What happens in each stage</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Strip-out and protection (day 1).</strong> <span style="color: var(--text-soft);">Existing suite, tiles and flooring removed; hallways and stairs protected with boards and sheeting; waste cleared from site at the end of the day so the house isn't left looking like a building site overnight.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>First-fix plumbing and electrics.</strong> <span style="color: var(--text-soft);">Supply and waste pipework set out from centre lines, cables run for lighting, shower toilets or underfloor heating controls, and any new waste runs pressure-tested before they're boxed in.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Boarding, tanking and falls to drain.</strong> <span style="color: var(--text-soft);">Waterproofing applied to floor and wall zones, with drying time between coats before tiling can begin — this stage is not one to compress, and we won't be rushed into tiling over a membrane that hasn't cured.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tiling.</strong> <span style="color: var(--text-soft);">Set-out from centre lines so joints line through from floor to wall; large format porcelain and natural stone need careful handling, levelling systems to control lippage, and curing time for adhesive before grouting.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix.</strong> <span style="color: var(--text-soft);">Sanitaryware, brassware, vanity units, mirrors and towel radiators fitted and connected, concealed cistern flush plates aligned, and shower screens set plumb and true.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">6</span>
+          <div><strong>Commissioning and handover.</strong> <span style="color: var(--text-soft);">Water tested at full pressure, electrics checked, silicone run along every junction, and the room walked through with you before we leave — any snags are agreed and closed out, not left open.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What can extend the programme</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most delays on a bathroom installation trace back to one of a handful of causes, and almost all of them can be avoided with planning before we start on site. The most common is a product arriving late, in the wrong finish, or damaged — if a vanity unit or shower screen isn't on site the day it's needed, the team either has to work around it or step off, and stepping off and back on again costs more time than the wait itself. Agreeing a delivery schedule against the programme at survey stage, and checking deliveries as they land rather than the morning they're needed, removes most of this risk.
+      </p>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        The second is what we find once the old suite and tiles come off the wall. Floor joists softened by a historic leak, damp in a solid floor, or old lead supply pipework hiding behind a boxed-in bath are not visible until strip-out, and they have to be dealt with properly rather than tiled over. We stop, show you what we've found, and agree the extra work and time before continuing — never afterwards.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Access can also add time in older or larger properties: narrow staircases, awkward turns for bringing in a cast-iron or stone bath, or protecting a hallway with a period finish all slow the first day or two of a project down, though they rarely affect the stages after that. None of this is unusual — it's simply the difference between a quote written before the room is opened up and a programme confirmed once it is.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Living around the works</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        If the bathroom being installed is the only one in the house, the days without a working toilet or shower are the ones to plan your week around — we agree these in advance, usually clustered around the strip-out and tanking stages, so you know exactly which mornings to plan differently rather than finding out on the day. In a house with more than one bathroom, the rest of the property carries on largely as normal; protection boards go down on the route from the front door to the working room, stairs and carpets are sheeted, and anything either side of that route stays untouched.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Pets and young children are worth a specific mention — a bathroom mid strip-out has open floor penetrations, exposed pipework and tools left in position overnight, so the room is kept closed off between working hours rather than left accessible. We're happy to talk through any specific access or timing constraints at survey, whether that's a dog that needs the back door kept clear or a guest arriving partway through the programme.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How weather and season affect the programme</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Tanking membranes and tile adhesives cure by chemical reaction, not simply by drying out, but both are still affected by ambient temperature and humidity. A cold snap in winter can extend a cure time that would otherwise be met comfortably in milder weather, particularly in a property without heating running yet, such as an extension or a loft conversion ahead of first use. We build a small allowance into a winter programme for exactly this reason, and we won't tile over a membrane simply because the calendar says the cure period should be finished — the manufacturer's data sheet, checked against actual site conditions, is what decides that, not the diary.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Humidity has a smaller but real effect too — a bathroom in a property undergoing other wet trades at the same time, such as plastering elsewhere in the house, can hold more moisture in the air than a finished, heated home, which can slow surface drying slightly. None of this usually moves a programme by more than a day or two, but it's part of why we quote a realistic range rather than a single rigid date, and why we'd rather tell you a stage needs an extra day than hand over a bathroom with tiling laid over a membrane that hasn't properly gone off.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="btn-secondary">Fit-only vs design-and-build</a>
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">Checking your delivery</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Cost guide</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">When to book your start date</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A written programme is only useful once it's got a real start date attached, and the gap between booking and starting varies through the year — quieter in deep winter, busier in spring and early autumn when a lot of renovation work gets planned around school terms and holidays. Booking your slot as soon as your specification is settled, even before every item has actually been delivered, keeps your place in the programme and gives a firm date to order your long-lead products against, rather than ordering first and hoping a start date lines up afterwards.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        If your date needs to move once it's booked — a delivery slips, or your own availability changes — the earlier we know, the easier it is to rearrange around other work already scheduled. A programme is a working document right up until the morning we arrive on site, not a fixed promise that can't flex if something genuinely outside anyone's control changes first.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tiling sequencing and drying times referenced here follow BS 5385 (wall and floor tiling). Electrical first-fix timing follows Building Regulations Part P; ventilation installation follows Part F. Adhesive and tanking system cure times follow manufacturer guidance current at the time of writing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="install-time-guide-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

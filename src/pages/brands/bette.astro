@@ -1,0 +1,157 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Why does a steel bath or shower tray need extra support?",
+    a: "Bette's steel is thin by design — a few millimetres of titanium-steel with a fused glass-enamel surface, not the thicker, more flexible shell of an acrylic bath. Without a level, fully supported base underneath, that thinness can flex and the panel can drum when water hits it. We build a solid, level substructure to the manufacturer's bearing points before the bath or tray ever goes in.",
+  },
+  {
+    q: "Do Bette trays really sit flush with the floor?",
+    a: "The ultra-flat trays are designed to sit close to finished floor level with a shallow upstand, which is what gives a wet room or walk-in shower its clean, level threshold. Achieving that look means the subfloor has to be built down or up to the exact height the tray needs, planned before tiling starts, not discovered on the day.",
+  },
+  {
+    q: "Can a chipped enamel be repaired?",
+    a: "Small chips in vitreous enamel can sometimes be filled and refinished by a specialist repairer, but the colour match and durability are rarely as good as the factory finish. We protect every Bette surface with board and film from the moment it's unboxed until final handover, because prevention is far more reliable than repair.",
+  },
+  {
+    q: "Will a steel bath feel colder than an acrylic one?",
+    a: "Steel conducts heat faster than acrylic, so a Bette bath cools slightly quicker once drained, though the enamel surface itself stays warm to the touch during a normal bath. This is a genuine material trade-off against steel's strength and scratch resistance — worth knowing before you choose, not something we can change at install.",
+  },
+  {
+    q: "Do you supply Bette products?",
+    a: "No. We're a fit-only installer, so you buy your Bette bath or shower tray through a bathroom retailer or direct from Bette's own sales channels, and we handle delivery checks, waste positioning, substructure and the install itself.",
+  },
+  {
+    q: "What waste and overflow do Bette baths use?",
+    a: "Most Bette baths take a standard click-clack or pop-up waste and overflow kit, bought separately from the bath itself unless your retailer bundles one in. We confirm the waste position against your pipework at survey so first fix lands in the right place before the bath arrives.",
+  },
+  {
+    q: "Can a Bette bath or tray be installed in a loft conversion or upper floor?",
+    a: "Yes, but floor loading and joist span need checking before the bath is ordered, since a full steel bath with water and a bather adds real weight to a timber structure. We confirm this at survey, and in some cases will recommend strengthening the floor before installation rather than after.",
+  },
+  {
+    q: "Do Bette products come with a manufacturer's warranty we should be aware of before fitting?",
+    a: "Bette's own warranty terms apply to the product itself and are set by the manufacturer, not by us — we'd recommend checking the current terms with your retailer or Bette directly before you buy. Our responsibility is correct, properly specified installation, which is itself usually a condition of any manufacturer's warranty remaining valid.",
+  },
+  {
+    q: "Does a Bette bath or tray need any particular cleaning or maintenance once installed?",
+    a: "The glass-enamel surface generally only needs a standard non-abrasive bathroom cleaner — abrasive pads and harsh descalers can dull the finish over time. We'd point you to Bette's own care guidance for specifics, since maintenance advice for the product itself falls outside our installation role.",
+  },
+];
+---
+
+<Base
+  title="Bette Installation | Install My Bathroom"
+  description="Specialist installation of Bette steel baths and shower trays, including acoustic isolation and substructure preparation, across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Bette", href: "/brands/bette/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bette Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Bette manufactures baths and shower trays from titanium-steel finished with fused glass enamel — a material that's harder and more scratch-resistant than acrylic, but unforgiving of a poorly built base underneath it. We fit Bette baths and trays with the substructure, levelling and acoustic isolation the material actually needs, rather than treating it like any other bath.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.bette.de/en-gb" target="_blank" rel="noopener" class="btn-secondary">Visit Bette →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bette's range splits broadly into built-in and freestanding steel baths, and ultra-flat shower trays designed for level-access wet rooms and walk-in showers. The enamel-on-steel surface is non-porous and resistant to abrasion, UV fading and most household chemicals, which is why it's a common choice for a bath or tray that's expected to look the same in ten years as it did on day one.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also fit Bette's shower trays as part of a wider wet room build, usually alongside tanking, a linear or point drain, and large-format porcelain or natural stone tiling run up to the tray edge. Basins from the range are generally wall-mounted or set into a vanity top, and share the same fixing considerations as the baths and trays — a solid, level support behind the finished surface rather than relying on the enamel shell for structural strength.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Level, continuous bearing:</strong> steel baths and trays need a fully supported, dead-level base — point-loading on feet alone, without a built substructure beneath, risks flex and eventual cracking of the enamel at stress points.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Acoustic isolation:</strong> thin steel transmits the sound of running water more readily than acrylic, so we fit isolation pads or an acoustic underlay beneath the shell to reduce drumming, particularly on upper floors or over habitable rooms below.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tray height and fall:</strong> ultra-flat trays need the subfloor built to a precise height to achieve a level threshold, and the floor fall to the waste is set before the tray goes down, not adjusted after.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Weight and handling:</strong> some freestanding steel baths are heavier than their slim profile suggests; we plan the carry route and final positioning before delivery to avoid repeated lifting near finished surfaces.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste alignment:</strong> waste and overflow positions are confirmed against the specific Bette model at survey, because tray and bath footprints vary between ranges.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Steel baths and trays arrive heavy for their size and the enamel can chip if a corner is knocked on a door frame or stair rail, so check the packaging for impact damage before signing for delivery and keep the protective film and edge board in place until we're ready to fit. Confirm the model, size and colour match your order exactly — Bette finishes include several white tones that look similar in a showroom but aren't interchangeable once tiling is set out around them. Have the waste and overflow kit on site, as it's usually sold separately. Once the substructure is built and tiling is run to the tray or bath edge, swapping for a different size means breaking back finished work, so we check everything against the order before committing to the build.
+      </p>
+    </div>
+  </section>
+
+  <!-- Technical note -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why the substructure matters more than the bath</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        With acrylic, a slightly uneven base can be masked by the material's own give. Steel doesn't offer that margin — it transmits any unevenness in the base straight back through the shell, which over time shows up as a hairline crack in the enamel at the stress point, usually near a foot or support bracket. We build the base to be dead level and fully bearing before the bath or tray ever touches it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second common fault we see on other people's work is a tray set without isolation, which turns an otherwise excellent shower into something that sounds like rain on a tin roof whenever it's used. Isolation pads cost very little against the overall job; omitting them is a false saving that shows up the first time someone showers after 10pm.
+      </p>
+    </div>
+  </section>
+
+  <!-- Where Bette sits alongside other finishes -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Where Bette sits alongside tiling and brassware</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A Bette bath or tray is usually one element within a wider room, so the sequencing around it matters as much as the item itself. We typically set the tray or bath base, run first-fix plumbing and acoustic isolation, then bring tiling up to the finished edge once the substructure is proven level and watertight — rather than tiling first and hoping the tray fits the gap left for it. On a wet room floor, the tray or linear drain position is agreed with the tiler at survey stage so the screed fall is built around it from day one.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Brassware — bath fillers, waste kits and shower valves — is frequently bought from a different supplier to the bath itself, which is entirely normal under a fit-only model. What matters is that waste centres, tap hole positions and any overflow cut-out are checked against each other before anything is drilled or plumbed, since a Bette bath's fixed waste position doesn't move to suit a tap you've chosen afterwards.
+      </p>
+    </div>
+  </section>
+
+  <p class="container max-w-3xl text-sm fade-up" style="color: var(--text-soft);">
+    Install My Bathroom is an independent bathroom installation company. We are not affiliated with, endorsed by, or acting on behalf of Bette; we install Bette products that our clients have purchased themselves.
+  </p>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+      <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bette-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

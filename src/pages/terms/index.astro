@@ -1,0 +1,98 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+---
+
+<Base
+  title="Terms & Conditions | Install My Bathroom"
+  description="Terms of business for Install My Bathroom, trading as Bhupinder Sahota: client-supplied goods, delivery, guarantees and chargeable delays."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Terms", href: "/terms/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Terms & Conditions</h1>
+      <p class="text-sm mb-10 fade-up" style="color: var(--text-soft);">Last updated: {LAST_UPDATED}</p>
+
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        These terms apply to installation work carried out by {business.legalName} ("we", "us", "the installer"), a sole trader based in {business.locality}, {business.region}, {business.postcode}, for any client ("you") who books a survey or commissions installation work. By booking a survey or confirming a quote, you accept these terms.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">1. Fit-only basis</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We operate on a fit-only basis. We do not sell, supply or hold stock of sanitaryware, brassware, tiles or furniture. All products installed as part of your project are purchased by you, directly from the manufacturer, retailer or showroom of your choice. Our quote covers installation labour and associated site work only, unless a specific additional service is agreed in writing.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">2. Your responsibility for ordering, delivery and defects</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Because we do not supply the goods, you are responsible for ordering the correct products, in the correct quantities, specification and finish, and for arranging delivery in time for the agreed installation date. You are also responsible for any manufacturer defect in the goods you've purchased — a product fault is a matter between you and the manufacturer or retailer, not something we can resolve through our workmanship guarantee.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We will advise at survey stage on technical requirements — carrier frame compatibility, waste positions, clearances, electrical supply needs — to help you order correctly, but the final ordering decision and responsibility for its accuracy rests with you.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">3. Inspecting goods on delivery</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        All client-supplied goods must be inspected on delivery, ideally before the installation start date. Check that items match the order, that quantities are correct, and that nothing has been damaged in transit. Faults, damage or shortages are far easier to resolve with the supplier before we're on site than once installation has begun.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">4. Chargeable delays and return visits</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Where a delay, return visit, or additional labour is caused by goods you've supplied being missing, damaged, incorrect, or arriving later than the date confirmed for installation to begin, this is chargeable at our standard rate and is not covered by the original quote. We will tell you as soon as a supply issue is identified and give you an estimate of any additional cost or rescheduling before proceeding, where that's practical.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">5. Installation to manufacturer instructions</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        All products are installed in accordance with the relevant manufacturer's installation instructions and current UK building standards and regulations applicable to the work. If a product's installation requirements conflict with the space available, the structure, or regulations, we'll raise this with you before installation rather than proceeding with a fix that doesn't meet the manufacturer's requirements — in some cases this may mean a product needs to be exchanged.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">6. Workmanship guarantee and product warranty</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Our guarantee covers the quality of the installation work itself — fixing, sealing, tanking, tiling and connections carried out by us. It does not extend to the products installed. Any warranty on the sanitaryware, brassware, tiles or furniture you've purchased is provided by the manufacturer or the retailer you bought it from, and any claim relating to a product fault should be directed to them.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        If you believe an issue after completion relates to our workmanship rather than the product itself, contact us and we'll assess it and, where it is a workmanship issue, put it right.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">7. Regulated trades</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Gas work, Part P notifiable electrical work, and unvented hot water cylinder installation are carried out by appropriately registered engineers, coordinated by us as part of your project. These engineers are responsible for their own regulated work and certification.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">8. Access, permissions and consents</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        You are responsible for obtaining any consent required for the work — including listed building consent, conservation area consent, or freeholder/management company permission for leasehold properties — before installation begins. We'll flag anything we identify at survey stage that's likely to require consent, but obtaining it is your responsibility.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">9. Quotes and payment</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Quotes are provided in writing following a paid survey and are valid for the period stated on the quote. Payment terms, including any deposit and staged payments, are set out in your written quote. The £{business.pricing.surveyGBP} survey fee is payable regardless of whether you proceed to booking installation work.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">10. Cancellation and rescheduling</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Installation dates are booked around your project and may involve coordinating other trades. Cancelling or moving a confirmed date with limited notice may incur a charge, as set out in your written quote.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">11. Governing law</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        These terms are governed by the law of England and Wales.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Contact</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Questions about these terms can be sent to <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a> or <a href={`tel:${business.phoneE164}`} class="underline" style="color: var(--teal);">{business.phone}</a>. See also our <a href="/privacy/" class="underline" style="color: var(--teal);">privacy policy</a> and <a href="/how-it-works/" class="underline" style="color: var(--teal);">how the installation process works</a>.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

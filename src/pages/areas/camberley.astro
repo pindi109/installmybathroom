@@ -1,0 +1,168 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Do you fit bathrooms in Camberley even though it's just over the border in Surrey?",
+    a: "Yes, Camberley is well within our working area — it sits right next to Sandhurst and is around 20 minutes from our Bracknell base, so county lines make no practical difference to coverage or pricing.",
+  },
+  {
+    q: "What kind of properties do you typically fit in Camberley?",
+    a: "A broad mix — Victorian and Edwardian terraces and villas closer to the town centre, inter-war semis and detached houses further out, and more recent estate development on the edges of the town. We price and survey each property on its own merits rather than assuming a single build type.",
+  },
+  {
+    q: "Will an older Camberley property need extra checks before a wet room installation?",
+    a: "Possibly. Victorian and Edwardian houses in this area can have suspended timber floors, which need checking for deflection before large-format porcelain or a tanked wet room goes in. We assess floor construction at survey and specify boarding or battening where it's needed.",
+  },
+  {
+    q: "Do I need planning permission for a bathroom refit in Camberley?",
+    a: "A like-for-like internal refit — new suite, retiling, updated electrics — doesn't normally need planning permission. It can become relevant if work alters the external fabric of the building, such as a new vent through an outer wall, which we'll flag at survey if it applies.",
+  },
+  {
+    q: "What's the water pressure like in Camberley?",
+    a: "It varies with property age — newer homes are generally on strong mains pressure, while some older houses may still have a gravity-fed hot water circuit from a loft tank. We measure actual pressure and flow at every survey before specifying a shower.",
+  },
+  {
+    q: "How far is Camberley from Bracknell?",
+    a: "Around 20 minutes by road, which keeps deliveries and site visits straightforward throughout the programme.",
+  },
+  {
+    q: "Can you fit a bathroom in a Camberley apartment or converted flat?",
+    a: "Yes, though apartment conversions sometimes have constraints around shared waste risers and where a new WC or shower can physically drain to. We check this at survey, particularly on conversions of older villas into flats, which are common in parts of the town.",
+  },
+  {
+    q: "How do you protect the rest of the house during a Camberley installation?",
+    a: "We sheet and board floors, stairs and hallways for the duration of the job, and keep materials and waste contained to the work area. On terraced and semi-detached properties with limited side access, we also plan skip placement and parking in advance.",
+  },
+  {
+    q: "Can you fit a bathroom in Camberley to a tight completion date?",
+    a: "We'll always be honest at survey about what's realistic given the scope of work and your chosen products' lead times, and agree a programme you can rely on rather than promise a date we might miss.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Camberley | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Camberley, Surrey. Period and modern homes, from £3,500. Around 20 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Camberley", href: "/areas/camberley/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Camberley</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms in Camberley, the Surrey town neighbouring Sandhurst, around 20 minutes from our Bracknell base. You source the sanitaryware, brassware and tiles; we carry out the strip-out, first fix, tiling and final fit, from £{business.pricing.fromGBP.toLocaleString()}. Whether your project is a single en-suite refresh or a full house of bathrooms fitted to a coordinated programme, every job starts with a proper survey of the room, the existing plumbing and the building's construction.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Camberley's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Camberley grew substantially through the Victorian and Edwardian periods, and its housing still reflects that — brick terraces and detached villas on tree-lined roads near the town centre, with inter-war semis and larger detached houses spreading out towards Sandhurst and the surrounding commuter suburbs. More recent decades have added estate housing on the fringes of the town, giving us a genuine spread of building ages and construction types to work with across different jobs.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The practical consequence is that we rarely assume anything about floor or wall construction before survey. A Victorian villa might have a suspended timber ground floor that needs checking for deflection before a wet room is tanked, while a post-war semi or a newer estate house is more likely to have a solid slab that takes large-format porcelain without additional preparation. Partition walls vary too — older lath-and-plaster or solid brick internal walls behave very differently to modern stud when it comes to fixing a wall-hung frame or a heavy vanity unit.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bathroom size and layout vary with the same building eras. A Victorian terrace close to the centre may have a single, fairly compact bathroom carved out of a converted bedroom decades ago, with limited scope to move the soil pipe without opening up the floor below; a 1930s semi further out often has a more generously sized original bathroom that gives more room to reconfigure; newer estate housing on the fringes of town typically comes with an en-suite as well as a family bathroom, built to a standard modern layout. We work out what's achievable within your actual walls and drainage at survey, rather than assuming a layout from the property's age alone.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Plumbing age tracks the same pattern. Older Camberley properties can still run on a gravity-fed hot water system with a loft tank, even where the cold mains supply is strong, which affects shower performance if it isn't accounted for. We test actual pressure and flow at every survey so a digital or thermostatic shower is specified against real numbers rather than an assumption.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Camberley</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        You buy the suite, brassware and tiles from the supplier or showroom of your choice; we work to the exact specification of those products rather than a generic layout, checking fixing centres, tile dimensions and furniture clearances before anything is delivered. On terraced and semi-detached properties close to the town centre, side access and skip or waste placement often need planning in advance — something we discuss at survey rather than discover on the first morning.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The job itself runs from strip-out through first-fix plumbing and electrics, tanking where required, tiling, and final fix and snagging. We protect flooring and stairs for the duration of the work and keep the site clean at the end of each day, which matters whether we're the only trade in the house or working alongside a wider renovation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit doesn't normally require planning permission. It can become relevant on some of Camberley's older Victorian and Edwardian properties if work affects the external fabric of the building — a new extraction vent cut through an outer wall, for instance. If your property might be affected, we'll flag it plainly at survey and direct you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a property has been converted into flats — not unusual among Camberley's larger older villas — any change to shared drainage, waste risers or the building's external appearance can involve the freeholder or management company as well as the local planning authority. We'll flag this at survey if it looks relevant to your property.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Camberley</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in neighbouring Sandhurst, home to the Royal Military Academy, as well as Crowthorne and our Bracknell base — all within a similar drive time, which means scheduling site visits or coordinating a second property rarely adds complexity to the programme.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/sandhurst/" class="btn-secondary">Sandhurst</a>
+        <a href="/areas/crowthorne/" class="btn-secondary">Crowthorne</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="camberley-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        A £{business.pricing.surveyGBP} survey gets a qualified installer into your Camberley property to measure the room, check floor and wall construction, test water pressure and talk through what your chosen products need to work properly on installation day. You'll come away with a clear, itemised quote and a realistic programme before you commit to anything.
+      </p>
+      <a href="/survey/" class="btn-primary">Book a Survey in Camberley</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

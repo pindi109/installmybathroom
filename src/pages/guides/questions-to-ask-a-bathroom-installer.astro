@@ -1,0 +1,220 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Questions to Ask a Bathroom Installer Before You Book",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Should I ask for photos of previous work?",
+    a: "Yes, and look at the detail rather than the overall room — tile joint lines at internal corners, the gap around a shower screen fixing, and how a skirting meets a tiled floor tell you more about quality than a wide shot ever will.",
+  },
+  {
+    q: "Is it reasonable to ask who will actually be on site each day?",
+    a: "Yes. Ask whether the same person oversees the job from strip-out to handover, or whether different trades come and go with no single point of contact — continuity usually means fewer gaps between first fix, tiling and snagging.",
+  },
+  {
+    q: "What should a written quote actually include?",
+    a: "A clear scope of works, a start date, an estimated duration, payment stages, and what happens if something unexpected is found once strip-out begins — such as a damaged subfloor or legacy pipework. A vague one-line price is a reason to ask more questions, not book.",
+  },
+  {
+    q: "Should an installer visit before quoting, or is a photo quote enough?",
+    a: "For a full bathroom refit, a site visit matters. Water pressure, wall plumb, floor level and the condition of the substrate under old tiles can't be assessed accurately from photographs alone.",
+  },
+  {
+    q: "What's a reasonable question about protecting the rest of my home?",
+    a: "Ask specifically how floors, stairwells and doorways are protected during strip-out and delivery of heavy items like stone baths or large tiles, and how dust is contained — particularly if other rooms stay in use during the work.",
+  },
+  {
+    q: "Should I ask what happens if I supply a damaged or incorrect item?",
+    a: "Yes — ask in advance, not after it happens. A fit-only installer should tell you clearly whether they check deliveries against the order before installing, and what the process is if something arrives damaged or wrong.",
+  },
+];
+---
+
+<Base
+  title="Questions to Ask a Bathroom Installer | Install My Bathroom"
+  description="The practical questions worth asking before you book a bathroom installer — about scope, site presence, protection, timescales and what's not included."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Questions to Ask an Installer", href: "/guides/questions-to-ask-a-bathroom-installer/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Questions to Ask a Bathroom Installer Before You Book</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Before booking, ask what exactly is included in the price, who will be on site day to day, how the home is protected, what happens if a delivered item is damaged or wrong, and what the payment schedule looks like. Vague answers to any of these are worth probing further before you commit a deposit.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What's actually included in the price?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A quote that simply says "bathroom installation — £X" tells you almost nothing. Ask for the scope broken down: strip-out and disposal of the old suite, first-fix plumbing and electrics, tanking, tiling, second fix, and snagging. Ask specifically whether moving a waste position, fitting underfloor heating, or working with natural stone rather than porcelain changes the figure — these are the items that most often turn into disputes later if they weren't clarified up front.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also worth asking what isn't included. A fit-only installer doesn't supply the sanitaryware, brassware, tiles or furniture — that's the client's responsibility to source and buy — so a clear answer here avoids confusion about who's ordering what, and by when, relative to the fitting start date.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Who is actually doing the work?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Some bathroom jobs are run by a single installer who oversees the whole sequence from strip-out to final snagging; others are coordinated loosely between separate plumbers, tilers and electricians who may never meet each other on site. Neither approach is automatically wrong, but you should know which one you're getting, because it affects how problems get caught and resolved. A tiler who doesn't know why the plumber set a particular waste height can tile straight over a problem that should have been flagged first.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Ask who your point of contact is once work starts, and how quickly they respond if something needs a decision mid-job — a delivery query, an unexpected finding behind an old tile, or a change you want to make once you see the room stripped back.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How is the rest of my home protected?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A bathroom refit generates dust, debris and heavy deliveries that travel through the rest of the house before they reach the room being worked on. Ask how floors and stair treads are protected during strip-out, how doorways are managed to limit dust spreading to other rooms, and how a stone bath or large tiles are moved through the property without marking walls or skirting on the way in.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If you're living in the house while the work happens, ask how daily access and noise are managed, and whether water and electricity to the rest of the property stay on throughout, or whether there are planned interruptions you need to know about in advance.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What happens when something doesn't go to plan?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Older properties in particular throw up surprises once strip-out starts — a subfloor that needs more than a skim before tiling, legacy pipework that doesn't match the as-built drawings, or a wall that isn't as plumb as it looked. Ask how these are handled: is there a process for raising it, pricing any extra work, and getting your sign-off before it proceeds, or does extra work simply appear on the final invoice?
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The same question applies to deliveries. Client-supplied items sometimes arrive damaged, short, or not quite matching the order — a cistern frame missing a fixing kit, a tile batch with a shade variation. Ask whether deliveries are checked against the order before installation begins, and what the installer does if something's wrong: pause and wait for a replacement, or carry on and leave you to sort it out afterwards.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Timescale, payment stages and the written quote</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Ask for a realistic start date and an estimated duration based on the actual scope of your room, not a generic figure. A straightforward refit and a full luxury re-fit with moved services, stone and underfloor heating are very different jobs in terms of time on site, and a credible installer should be able to explain the difference rather than quote the same number for everything.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Ask how payment is staged — a deposit, interim payments tied to progress, and a final balance on completion and snagging sign-off is a reasonable structure. Be cautious of anyone asking for the full amount upfront before any work has started. A written quote tying all of this together — scope, price, stages and timescale — is what you should be comparing between installers, not a verbal figure given over the phone.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Judging past work, not just a portfolio gallery</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most installers can show you photographs of finished rooms, but a polished wide shot taken under good lighting tells you very little about the quality of the work underneath it. Ask instead about specific detail: how tile joints line through from the floor onto the wall, whether grout lines at internal corners are consistent in width, how a shower screen's fixing channel sits against the tiled wall, and whether skirting meets tiled flooring with a clean, level junction. These are the details that separate a genuinely careful fit from one that merely photographs well.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also reasonable to ask how long a previous installation has been in place and whether the installer has been back to address anything afterwards. A bathroom that still looks and performs well several years after fitting — no failed silicone joints, no cracked grout at movement points, no cloudy shower screens from poor glass coating — says more about the standard of work than any single photograph taken on handover day.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Red flags worth noticing early</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A quote with no breakdown at all, a start date that keeps slipping before work has even begun, or reluctance to put anything in writing are all worth treating as warning signs rather than minor inconveniences. The same goes for an installer who can't clearly explain why a particular layout change costs more, or who waves away questions about tanking, falls to drain, or electrical zoning as unnecessary detail — these are exactly the technical points that determine whether a bathroom performs well for years rather than developing problems within months.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Equally, be cautious of a quote that seems unusually low compared with others you've received for the same scope. A luxury installation involves genuine skilled labour — tanking a wet room correctly, setting out large-format porcelain so joints line through, running first-fix electrics to Part P standard — and a price that undercuts everyone else by a wide margin usually means something in that list is being skipped, rushed, or substituted for a lesser approach that won't show until months later.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Finally, ask what happens at the end of the job — is there a formal snagging walk-through before final payment, and how quickly are any issues found during that walk-through addressed? A clear, confident answer to this question is often the clearest signal of how an installer actually thinks about quality, rather than simply moving on to the next job.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Questions about aftercare and snagging</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A snagging walk-through shouldn't be a five-minute glance around the room before you're asked to sign off. Ask how it's actually conducted — does the installer walk the room with you pointing out grout lines, silicone joints, door and drawer alignment on vanity units, and the operation of every valve and shower control, or is it left to you to spot problems afterwards and raise them separately? A considered walk-through at handover catches far more than a casual look a few days later once furniture and towels are back in the room.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Ask what the workmanship guarantee actually covers, how long it runs for, and who you contact if something needs attention after you've moved back in — a hairline movement crack at a corner joint, a tap that develops a slight drip, a shower door that needs re-aligning. It's also worth asking how this sits alongside the manufacturer's warranty on the products themselves: a faulty thermostatic cartridge or a shower pump fault is usually a manufacturer issue rather than an installation one, and a good installer will tell you clearly which is which rather than leaving you to work out who's responsible.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Finally, ask what you'll be left with at handover beyond the finished room — manuals for any mixer valves or electric showers, warranty registration cards, and a record of the exact tile and grout batch used, in case a repair is ever needed years later and a shade match matters. Keeping this paperwork together from day one saves a scramble if you ever need to make a claim or book a follow-up visit.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Plumbing &amp; First Fix</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/what-our-125-survey-includes/" class="btn-secondary">What our £125 survey includes</a>
+        <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="btn-secondary">Fit-only vs design and build</a>
+        <a href="/guides/how-long-does-a-bathroom-installation-take/" class="btn-secondary">How long does installation take</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        General good-practice guidance for commissioning domestic building work is published by Citizens Advice and the Competition and Markets Authority. Technical standards referenced elsewhere in our guides — tiling, tanking, electrical and ventilation work — follow BS 5385 and Building Regulations Parts P and F respectively.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="questions-to-ask-installer-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,244 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Digital and Smart Shower Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Will a digital shower work with my combi boiler?",
+    a: "Most digital showers are designed to work across combi, gravity-fed and unvented systems, but the processor needs configuring for the system type it's fed from. We confirm your system and the valve's requirements at survey before you commit to a particular model.",
+  },
+  {
+    q: "Where does the processor go, and can it be hidden?",
+    a: "The processor usually sits in a wall or ceiling void close to the controls, behind a removable access panel. It needs to stay accessible for servicing — fully boxing it in behind fixed tiling isn't something we'll do, even if asked, because it leaves no route to a fault without breaking into finished work.",
+  },
+  {
+    q: "Do I need Wi-Fi for a smart shower?",
+    a: "Only for app-based features such as remote start or usage history. The core digital valve itself typically runs on a wired or paired wireless controller independent of your home network, so the shower still works if the Wi-Fi is down.",
+  },
+  {
+    q: "What happens if the processor needs servicing later?",
+    a: "It's accessed through the panel installed at second fix. Because we know exactly where every unit sits and how it was wired, a service call is straightforward rather than a guessing exercise.",
+  },
+  {
+    q: "Can you retrofit a digital shower into an existing wet room or enclosure?",
+    a: "Usually, yes, provided there's a viable void near the enclosure for the processor and a route for low-voltage cabling. We check this at survey — in some older layouts it means a short section of wall needs opening up to create that void.",
+  },
+  {
+    q: "Do I need a pump for a digital shower on low mains pressure?",
+    a: "It depends on the model and your incoming flow rate. Pumped systems can boost a weak gravity feed, but combi and unvented systems usually deliver enough pressure unassisted — we measure your actual flow at survey rather than guessing from the postcode.",
+  },
+  {
+    q: "Can one processor run more than one outlet?",
+    a: "Many digital systems can run a handset and an overhead rainfall, or two separate outlets in a shared en-suite layout, from a single processor with independent control. Whether your chosen model supports this, and how many outlets it's rated for, is in the manufacturer's specification — we check it against your intended layout before first fix.",
+  },
+];
+---
+
+<Base
+  title="Digital & Smart Shower Installation | Install My Bathroom"
+  description="Digital and app-controlled shower installation across Bracknell and Berkshire. Processor siting, access panels and commissioning done properly. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Digital & Smart Shower Installation", href: "/services/digital-and-smart-shower-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Digital & Smart Shower Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Digital and app-controlled showers replace a mechanical valve with an electronic processor — which means a void to house it, low-voltage cabling to the controls, and a serviceable access panel, planned in before tiling begins. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">More than a tap on a wall</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A digital shower looks, from the outside, like a control pad and a couple of outlets. Behind the wall it's a different proposition from a mechanical mixer: a processor unit that regulates temperature and flow electronically, wired to a 230V supply on a fused spur, paired to one or more control pads, and connected to the plumbing on both the high-pressure and, in some systems, a boosted low-pressure side. None of that is visible once the room is finished, but all of it has to be planned before first fix, because the processor needs a void to sit in and a route back out for servicing.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The installation itself isn't dramatically different in sequence from a conventional shower valve — survey, first fix, tanking and tiling, second fix, commissioning — but at almost every one of those stages there's a decision that doesn't come up with a mechanical valve: where the processor lives, how it's accessed, whether the system needs a pump, and how the controls are paired once the room is finished.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why digital -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a digital valve actually changes day to day</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A mechanical thermostatic valve does one job well: it blends hot and cold to a set temperature and holds it there, within a degree or two, as pressure elsewhere in the house changes. A digital valve does the same blending electronically and adds memory — presets for different household members, start-from-outside-the-room so the water's at temperature before you step in, and in some ranges, separate control of a handset and an overhead rainfall from the same control pad rather than two mechanical valves on the wall.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        None of that changes the plumbing fundamentals — fall to drain, waterproofing, tile set-out are identical to any other shower installation — but it does add an electrical and low-voltage dimension that has to be planned alongside the wet trades rather than bolted on afterwards. That's the main difference in how we sequence the job compared with a standard mixer shower, and it's why the survey for a digital installation spends longer on electrics and voids than a conventional one would.
+      </p>
+    </div>
+  </section>
+
+  <!-- Void location -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Choosing where the processor lives</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The best location for a processor is close enough to the shower to keep pipe runs short, but in a void that doesn't double as a show surface — an adjoining airing cupboard, a stud wall behind the shower that backs onto a landing, or a boxed-in section beside the enclosure. In a lot of Berkshire houses with period proportions, that void already exists; in newer, tightly built en-suites it sometimes has to be created by adjusting a stud wall by a few centimetres, which is a conversation we'd rather have at survey than once tiling has started.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Once the void is agreed, the access panel is set out as part of the tile plan from the beginning — sized to the manufacturer's clearance requirement, positioned so its grout lines align with the surrounding tiling rather than sitting as an obvious afterthought, and fitted with a mechanism that allows it to be removed without damaging the tile around it.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Siting of the processor unit in an accessible void, confirmed at survey</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Low-voltage wiring to the processor and any wired or wireless control pads</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> A 230V fused spur to the processor, coordinated with a registered engineer for the Part P-notifiable element</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Pipework for both the mains and, where the system needs one, the pumped or boosted side</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> A properly sized, properly positioned access panel built into the tiling layout, not an afterthought</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Commissioning: pairing controls, setting presets, and flow-and-temperature testing across every outlet</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey.</strong> <span style="color: var(--text-soft);">We confirm your hot water system type, measure actual flow and pressure, and identify a viable void for the processor close to the shower position.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the system.</strong> <span style="color: var(--text-soft);">Processor, controls and outlets confirmed against the survey findings before anything is delivered to site.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>First fix.</strong> <span style="color: var(--text-soft);">Pipework, low-voltage cabling and the fused spur installed; the access panel frame built into the stud or dry-lining.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tanking and tiling.</strong> <span style="color: var(--text-soft);">Waterproofing and tiling carried out around the access panel so it sits flush and square with the surrounding joint lines.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix and commissioning.</strong> <span style="color: var(--text-soft);">Processor and outlets connected, controls paired, presets set, and the system tested for stable flow and temperature across every mode.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Almost every digital shower processor on the market requires a removable access panel positioned where it can realistically be reached after the room is finished — not tucked behind a fixed vanity unit or a full-height run of tiling with no break in it. We size and position the panel against the manufacturer's stated clearance requirements and agree its exact location with you at the design stage, since it is, by necessity, a visible feature of the finished room rather than something that disappears.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The low-voltage control wiring is SELV and kept separate from the 230V supply run, which itself is installed as Part P-notifiable work by an appropriately registered electrical engineer and tested before the panel is closed up. Backflow prevention and any non-return valves required by the Water Regulations are fitted according to the specific system's design, since this varies between pumped and unpumped digital valves.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Flow and temperature are tested across every outlet and every preset before handover, including a check that simultaneous demand — a handset and an overhead rainfall running together, for example — doesn't drop performance below what the valve is rated for.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        You choose and order the digital valve, processor, control pads and outlets. Before you order, it's worth checking whether the model you've chosen is designed for gravity, combi or unvented systems, and whether it needs a pump — the product literature usually states this, and we're happy to check it against your survey findings before you buy. Getting this wrong after delivery can mean returning a product that's already been unboxed, which slows the programme down.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If the system includes app control, you'll also need the manufacturer's app and a home Wi-Fi network reaching the bathroom — we'll wire and plumb the system regardless, but pairing the app itself is between you and your phone.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's worth noting that Wi-Fi reach inside a tiled bathroom can be weaker than elsewhere in the house, particularly in rooms with stone or large-format porcelain cladding most of the wall surface, since dense tile and any metal backing mesh behind it can attenuate a signal more than plasterboard does. If app features matter to you, flag it at survey — a wireless control pad paired directly to the processor rather than relying on the home network is usually the more reliable route, and some systems default to this anyway.
+      </p>
+    </div>
+  </section>
+
+  <!-- Running costs -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Servicing and running a digital system</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Digital processors have a longer-term maintenance profile than a purely mechanical valve: solenoids and electronic components can eventually need replacing, and most manufacturers sell the processor as a serviceable or replaceable unit rather than something bonded permanently into the wall. This is the practical reason the access panel isn't optional — without one, any future fault means breaking into finished tiling to reach a part that was designed to be swapped out.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Day to day, running a digital shower is no more involved than a conventional one — presets mean less fiddling with a dial to find the right temperature, and most systems default sensibly if a control pad ever needs replacing or re-pairing.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/steam-shower-and-steam-room-installation/" class="btn-secondary">Steam Shower &amp; Steam Room Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/thermostatic-vs-digital-showers/" class="btn-secondary">Thermostatic vs digital showers</a>
+        <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water pressure for rainfall showers</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="digital-and-smart-shower-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

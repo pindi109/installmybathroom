@@ -39,6 +39,22 @@ const faqs = [
     q: "How accurate is a quote before the survey?",
     a: "Treat it as a ballpark only. Our £125 survey measures the actual space, checks services and substrate, and produces a written, fixed quote against a defined scope — that's the number to budget against.",
   },
+  {
+    q: "How long does a luxury bathroom installation take?",
+    a: "A straightforward refit within an existing layout typically runs two to three weeks from strip-out to completion. A full luxury re-fit with moved waste, a tanked wet room and natural stone commonly extends to four to six weeks, driven mainly by stone fabrication lead times and curing time for tanking and screed before tiling can start.",
+  },
+  {
+    q: "What happens if an issue is found behind the walls once work has started?",
+    a: "Older plumbing, uneven floors or unexpected joist positions sometimes only become visible once the room is stripped back. We flag any issue of this kind before proceeding, explain what it means for the scope, and agree any variation in writing before extra work goes ahead — nothing is added to the bill without that conversation first.",
+  },
+  {
+    q: "Can I order sanitaryware and tiles in stages rather than all at once?",
+    a: "You can, but the installation programme is built around a confirmed scope, so anything ordered after work starts needs to arrive in time for its fitting stage. We'll give you a delivery schedule against the programme at the point the quote is confirmed, so nothing holds the job up.",
+  },
+  {
+    q: "Does the cost differ much between a straightforward en-suite and a larger family bathroom?",
+    a: "Room size itself has a smaller effect than most people expect, since labour is driven more by what's being installed than by floor area alone. A compact en-suite with moved waste, a wet room floor and natural stone can cost more to fit than a larger family bathroom kept to a straightforward like-for-like layout with porcelain tiles.",
+  },
 ];
 ---
 
@@ -67,6 +83,9 @@ const faqs = [
   <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-6 fade-up">What drives installation cost</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        Two rooms of identical size can cost very differently to install, and it almost never comes down to the installer — it comes down to how much of the work sits outside a straightforward like-for-like swap. The table below sets out the factors we see move a quote most often, roughly in order of how significant their effect tends to be. None of them are reasons to avoid a particular finish or layout; they're simply what the labour and time actually involves, so you can see where your own specification sits before the survey confirms the figure.
+      </p>
       <div class="overflow-x-auto fade-up">
         <table class="w-full text-sm border-collapse">
           <thead>
@@ -96,9 +115,29 @@ const faqs = [
               <td class="py-3 pr-4 font-medium">Shower toilets / digital showers</td>
               <td class="py-3" style="color: var(--text-soft);">Dedicated electrical supply and, for digital showers, a manifold and control unit to install and commission.</td>
             </tr>
-            <tr>
+            <tr class="border-b" style="border-color: var(--border);">
               <td class="py-3 pr-4 font-medium">Access and protection</td>
               <td class="py-3" style="color: var(--text-soft);">Narrow stairwells, listed interiors or shared access can add time for protection and careful handling of stone and glass.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bathroom size and fitting count</td>
+              <td class="py-3" style="color: var(--text-soft);">More sanitaryware in the same room — a separate bath and shower, double basins, a bidet — multiplies first-fix connections, waste runs and commissioning time.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Structural alterations</td>
+              <td class="py-3" style="color: var(--text-soft);">Removing or moving a stud wall, forming a new opening, or adjusting a joist for a drain run needs extra carpentry and sometimes building control sign-off before tiling can start.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bespoke glass</td>
+              <td class="py-3" style="color: var(--text-soft);">A frameless walk-in panel cut to an exact, sometimes non-square wall takes longer to measure, order and fit accurately than an off-the-shelf framed enclosure.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Lighting and electrical circuits</td>
+              <td class="py-3" style="color: var(--text-soft);">Separate circuits for general, task and mood lighting, shaver sockets and underfloor heating thermostats each need their own first-fix run and testing to Part P.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Plumbing and heating upgrades</td>
+              <td class="py-3" style="color: var(--text-soft);">Replacing old narrow-bore supply pipework, adding a towel rail on its own thermostatic zone, or upgrading to a mains-pressure system adds first-fix time beyond a like-for-like swap.</td>
             </tr>
           </tbody>
         </table>
@@ -111,6 +150,9 @@ const faqs = [
     <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
       <div>
       <h2 class="text-2xl font-bold mb-6 fade-up">How to get an accurate figure</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        An online estimate or a figure quoted over the phone can only ever be a starting range, because it's based on a description rather than a measured room. Getting from that range to a number you can actually budget and order against takes a short, structured process:
+      </p>
       <ol class="space-y-4 fade-up">
         <li class="flex gap-4">
           <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
@@ -138,6 +180,38 @@ const faqs = [
           style="width:100%;height:auto;display:block;"
         />
       </div>
+    </div>
+  </section>
+
+  <!-- What a fit-only quote includes -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What a fit-only quote does and doesn't include</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Fit-only pricing like ours covers labour — first and second fix, tanking, tiling and commissioning — not the bathroom suite itself. That's different from a supply-and-fit quote, where a retailer or contractor prices the whole project with sanitaryware, tiles and brassware bundled into one figure. Comparing a fit-only number directly against a supply-and-fit number without separating out the cost of goods is the single most common way people misjudge a renovation budget. When you're weighing up quotes from different sources, always ask exactly what's included — a fit-only price from us and a supply-and-fit price from elsewhere can look very different on paper while costing roughly the same once you account for what you'd be buying yourself either way.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A handful of costs are also easy to overlook when budgeting, fit-only or otherwise. Skip hire or waste removal for the old suite, tiles and rubble isn't usually part of an installation quote and needs pricing separately, particularly where limited access means waste has to be carried out by hand. Where electrical or drainage work needs notifying to building control rather than signing off under a competent person scheme, there can be a notification fee. If your home has only one bathroom, you may want to budget for a portable shower or washing facility for the duration of the work. And once plumbing and electrical first fix is finished, making good the surrounding decoration — a hallway wall disturbed by a new waste run, for example — is worth pricing in if it isn't already covered by your decorator.
+      </p>
+    </div>
+  </section>
+
+  <!-- Three cost scenarios -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Three realistic cost scenarios</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Cost drivers are easier to picture against real scenarios than against a table alone. The three examples below describe typical specifications at different budget levels — not quotes for a specific job, since every room and every property varies.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        <strong>A straightforward mid-market refit, from around £3,500.</strong> The room keeps its existing footprint — the bath, basin and WC stay where the waste and supply already run — and the client has bought a well-specified but not bespoke suite: a framed shower enclosure over the bath or a pre-formed shower tray, large-format porcelain tiles rather than natural stone, and standard chrome brassware. The work involves stripping out the old suite, first-fixing to the existing waste and supply positions, tanking the shower area to BS 5385, tiling, then fitting and commissioning the new suite, extraction and lighting. Because none of the major price drivers above apply — no waste movement, no structural work, no stone — this is the fastest and most predictable type of job to price and programme.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        <strong>A higher-specification family bathroom, typically £7,000–£10,000.</strong> The brief usually includes moving the WC or basin to improve the layout, replacing a bath with a walk-in shower, adding underfloor heating, and fitting a towel rail on its own thermostatic zone separate from the main heating system. Moving waste positions means altering drainage falls and sometimes lifting part of the floor; underfloor heating adds a floor build-up allowance and a separate commissioning stage, whether it's an electrical mat or a water-fed system tied into the heating; and splitting lighting into separate circuits for general, task and mood lighting means more first-fix runs and testing to Part P than a single pendant and a shaver socket. None of these are exotic specifications, but each adds first-fix labour on top of the baseline refit, which is why this tier typically runs two to three times the straightforward refit figure.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        <strong>A full luxury re-fit with a wet room and underfloor heating, commonly £15,000–£20,000 or more.</strong> This is where most of the cost drivers in the table above apply at once: a full-floor wet room needs tanking across the entire room to a level-access drain rather than tanking confined to an enclosure; natural stone on walls and floor needs careful handling, sealing and mitred edges rather than straight porcelain cuts; a digital shower needs a concealed manifold and control unit installed and commissioned; underfloor heating needs its own build-up and commissioning; and bespoke glass — a frameless walk-in panel cut to an exact, sometimes non-square wall — takes longer to fit accurately than an off-the-shelf enclosure. In a period property, access and protection add further time again, particularly where stone has to be carried through a narrow stairwell or historic joinery needs protecting throughout. No single element here is unreasonable on its own; it's the combination, each adding its own first-fix, tanking or commissioning stage, that moves a job from the lower tiers into this bracket.
+      </p>
     </div>
   </section>
 

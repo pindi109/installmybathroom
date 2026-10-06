@@ -1,0 +1,247 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Water Pressure for Rainfall Showers",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "What water pressure do I need for a rainfall shower?",
+    a: "Most large rainfall heads want a minimum of around 1 to 1.5 bar, and perform noticeably better above 2 bar. Below that, flow can feel weak despite the head looking impressive — checking actual pressure and flow at survey, not assuming from the boiler type, is the only reliable way to know.",
+  },
+  {
+    q: "Does a combi boiler give enough pressure for a rainfall shower?",
+    a: "Often, yes — combi boilers deliver mains pressure directly, which is usually sufficient, though actual pressure still depends on your incoming mains supply and pipe sizing, not the boiler alone. We measure it rather than assume.",
+  },
+  {
+    q: "I have a gravity-fed system with a loft tank — can I still have a rainfall shower?",
+    a: "Yes, but it typically needs a pump to boost pressure to a usable level for a large head, since gravity-fed pressure depends on the height of the tank above the shower and is often too low on its own for a full rainfall experience.",
+  },
+  {
+    q: "Can low water pressure be fixed without replumbing the whole house?",
+    a: "Sometimes — a shower pump, a pressure-boosting unit, or in some cases simply upsizing the pipe run to the shower can solve it without a full system replumb. What's right depends on your specific setup, which is exactly what the survey establishes.",
+  },
+  {
+    q: "Do digital showers need more pressure than a standard mixer?",
+    a: "Not necessarily more, but they do need the incoming pressure and flow to be within the specific range stated by the manufacturer for that unit, since the digital valve and pump, where fitted, are calibrated to work within defined limits.",
+  },
+  {
+    q: "Will two showers running in the house at once affect my rainfall shower?",
+    a: "It can, particularly on a gravity-fed or combi system without a pump, where pressure is shared across simultaneous demand. We factor this into the specification if more than one bathroom is likely to be in use at the same time.",
+  },
+];
+---
+
+<Base
+  title="Water Pressure for Rainfall Showers | IMB"
+  description="How much water pressure a rainfall shower actually needs, how combi, gravity-fed and pumped systems compare, and how to check before you buy."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Water Pressure for Rainfall Showers", href: "/guides/water-pressure-for-rainfall-showers/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Water Pressure for Rainfall Showers</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Large rainfall heads generally need a minimum of around 1 to 1.5 bar to perform properly, with noticeably better results above 2 bar. Combi boilers usually supply enough; gravity-fed systems with a loft tank often need a pump. We measure actual pressure and flow at survey — the boiler or cylinder type alone doesn't tell you enough.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A large rainfall head looks spectacular in a showroom and underwhelming on a wall if the pressure feeding it isn't enough to drive water through its full surface area — a wide, flat spray pattern needs considerably more flow than a traditional handheld head to feel like anything more than a drizzle. This is one of the most common gaps between what's specified and what's actually achievable in a given house, and it's rarely obvious until the shower is running.
+      </p>
+    </div>
+  </section>
+
+  <!-- System types table -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How your hot water system affects pressure</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">System type</th>
+              <th class="text-left py-3 pr-4 font-semibold">Typical pressure behaviour</th>
+              <th class="text-left py-3 font-semibold">Rainfall shower suitability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Combi boiler</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Delivers at mains pressure, consistent but dependent on incoming supply</td>
+              <td class="py-3" style="color: var(--text-soft);">Usually good, subject to confirmed mains pressure and pipe sizing</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Unvented cylinder (mains-fed)</td>
+              <td class="py-3" style="color: var(--text-soft);">Also runs at mains pressure, stored rather than instantaneous</td>
+              <td class="py-3" style="color: var(--text-soft);">Usually good, and able to supply multiple outlets simultaneously</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Gravity-fed with loft tank, no pump</td>
+              <td class="py-3" style="color: var(--text-soft);">Pressure depends on tank height above the shower, often low</td>
+              <td class="py-3" style="color: var(--text-soft);">Often insufficient for a large rainfall head without a pump</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Gravity-fed with shower pump</td>
+              <td class="py-3" style="color: var(--text-soft);">Boosted to a usable level, sized to the shower's demand</td>
+              <td class="py-3" style="color: var(--text-soft);">Good, provided the pump is correctly sized for the head and any additional outlets</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we check -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we actually check at survey</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Rather than relying on the type of boiler or cylinder as a proxy, we measure pressure and flow directly at the point the shower will connect to, using a gauge rather than guesswork. This catches issues a boiler specification alone won't reveal — undersized pipe runs from an otherwise strong mains supply, shared demand with other outlets in the house, or a historic system that's been partially upgraded over the years with a mix of pipe diameters.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Where pressure falls short of what your chosen shower needs, the fix is usually one of three things: a shower pump sized to the specific head and flow rate, upsizing the pipe run feeding the shower, or in some cases reconsidering the head size itself in favour of one matched to what the house can actually deliver. We'd rather flag this before you've bought a shower that can't perform in your property than after.
+      </p>
+    </div>
+  </section>
+
+  <!-- Flow rate vs pressure -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Flow rate and pressure aren't the same thing</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Pressure, measured in bar, is the force pushing water through the pipework; flow rate, measured in litres per minute, is how much water actually arrives at the outlet in a given time. A system can have reasonable pressure but still deliver a disappointing flow rate if the pipe run feeding the shower is too narrow, has too many bends, or is shared with other demand elsewhere in the house — which is why checking pressure alone at the mains doesn't tell the whole story for a specific shower position. We measure both at the point of use, not just at the stopcock, because that's the only figure that actually predicts how the shower will perform once it's fitted.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Manufacturers specify large rainfall heads against a minimum flow rate as well as a minimum pressure, and it's possible to meet one figure without comfortably meeting the other — a common reason a shower that tested fine on paper still underwhelms once installed, if the pipe sizing wasn't checked carefully enough beforehand.
+      </p>
+    </div>
+  </section>
+
+  <!-- Boosting options -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Practical ways to boost pressure where it falls short</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Where a survey finds pressure or flow below what a specified shower needs, three practical options generally come up, in rough order of how disruptive they are. The simplest is a shower pump, sized to the specific head and installed close to the point of use, which works well on gravity-fed systems and some combi setups. Next is upsizing the pipe run feeding the shower, replacing a narrow, older diameter pipe with a wider modern one over the relevant section — more disruptive since it usually means lifting a floor or opening a wall, but it solves the problem at the source rather than adding a pump. Last, and sometimes the right answer anyway, is reconsidering the head itself in favour of a model matched to what the house can actually deliver, since a smaller or differently designed head can still feel generous at a lower flow rate than a very large flat rainfall plate needs to perform properly.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Hard water and its effect on flow over time</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Berkshire sits within a predominantly hard water area, and limescale build-up inside pipework and shower valves over years can gradually reduce flow even where pressure at the mains hasn't changed at all — a shower that performed well when first installed can feel noticeably weaker years later purely from internal scale narrowing the effective bore of the pipe or clogging the fine nozzles of a rainfall head. Periodic descaling of the shower head itself, following the manufacturer's cleaning guidance, is a simple piece of maintenance that keeps the nozzles clear, though it won't address scale building up further back in the supply pipework, which is a less visible and more involved issue to resolve.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A whole-house water softener or a scale-reduction device fitted at the point the mains enters the property is worth considering on a full re-fit if hard water is a known issue in your specific road or area, since it protects not just the shower but brassware, the hot water system and tiled surfaces from scale build-up more broadly — a conversation worth having at survey if you've noticed scale problems in the existing bathroom already.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Minimum pressure and flow figures referenced here are typical manufacturer requirements for large-format rainfall heads and vary by model — the specific unit's installation instructions are the figure that matters. Plumbing installation and backflow prevention follow Building Regulations Part G and the Water Supply (Water Fittings) Regulations 1999.
+      </p>
+    </div>
+  </section>
+
+  <!-- Multiple heads and bodyjets -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Multiple outlets on one shower system</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A specification combining a large rainfall head with a separate handheld shower and body jets multiplies the demand on the system if more than one outlet can run simultaneously, and this needs checking against available flow at survey, not assumed from the rainfall head's spec sheet alone. Thermostatic shower valves designed for multiple outlets are built to maintain consistent temperature across combinations, but they can't create flow that isn't available from the supply — if the incoming pressure and pipe sizing can comfortably support only one or two outlets at once, that's the figure to design the specification around, even if the valve itself is rated for more.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        This is one of the more common gaps between a showroom display, where every outlet runs beautifully because the display is plumbed to generous, dedicated supply, and a real house where the same combination has to share whatever the existing mains and pipework can actually deliver.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a pressure upgrade involves, practically</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Where a shower pump is the recommended fix, it's typically installed close to the hot water cylinder or in an accessible void near the bathroom, wired to a dedicated switched supply, and commissioned to the specific flow rate the chosen shower needs — a straightforward addition on most refits rather than a major undertaking, and one we coordinate as part of the wider installation rather than treating as a separate job. Pipe upsizing is more involved, since it usually means accessing the run between the supply and the shower position, which can mean lifting floorboards or opening a chased wall depending on how the original pipework was routed through the house.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We'd rather identify which of these is needed at survey, price it into the quote from the outset, and have the shower perform as specified from day one, than have a client discover a pressure shortfall only once an expensive shower head is already fitted and underperforming.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/thermostatic-vs-digital-showers/" class="btn-secondary">Thermostatic vs digital showers</a>
+        <a href="/guides/what-our-125-survey-includes/" class="btn-secondary">What our £125 survey includes</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testing before handover -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we test before calling the job finished</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        At commissioning, we run every outlet in the room at once where more than one is fitted, check the shower at both minimum and maximum settings, and confirm temperature stability holds when another tap elsewhere in the house is opened — a basic test of whether the thermostatic valve is doing its job under realistic household conditions, not just in isolation. This is walked through with you before we consider the installation complete, so you've seen the shower actually perform under the conditions it'll face day to day, not just a single quiet test run with nothing else in the house drawing water.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="water-pressure-rainfall-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

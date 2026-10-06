@@ -1,0 +1,254 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Kaldewei Steel vs Stone Resin Baths Compared",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is a Kaldewei steel bath heavier or lighter than a stone resin bath?",
+    a: "Generally lighter, which makes it easier to carry through tight stairwells and doorways. Stone resin baths, especially large freestanding models, are considerably heavier and need more people and more care to manoeuvre into position.",
+  },
+  {
+    q: "Does a steel bath feel colder to the touch than stone resin?",
+    a: "Steel can feel cooler initially since it's a highly conductive material, though it also warms quickly once water is run. Stone resin tends to retain heat for longer once warmed through, which some bathers prefer for a long soak.",
+  },
+  {
+    q: "Which is more resistant to chips and scratches?",
+    a: "Kaldewei's enamelled steel surface is hard-wearing and resistant to most everyday wear, though a sharp, heavy impact can chip enamel. Stone resin is also durable and some surface marks can be polished out, but both benefit from the same basic care — avoiding dropped heavy objects and abrasive cleaners.",
+  },
+  {
+    q: "Do both bath types need the same support structure underneath?",
+    a: "No. Steel baths are lighter and typically need a standard framed support; stone resin baths, being considerably heavier, need a more substantial support frame and sometimes additional floor strengthening checked at survey, particularly on a timber suspended floor.",
+  },
+  {
+    q: "Can either type be installed as a freestanding bath away from the wall?",
+    a: "Yes, both are available in freestanding formats. Waste and overflow pipework still needs to run to the bath's actual position, so the floor build-up and access for that pipe run is planned at survey regardless of which material is chosen.",
+  },
+  {
+    q: "Does a steel bath sound different when it's filled or used compared with stone resin?",
+    a: "It can. A lighter, thinner material transmits more sound from running water and from contact — a dropped bottle, for instance — unless an acoustic insulation pad is fitted to the underside as the manufacturer specifies. A denser stone resin bath is inherently more sound-deadening simply through its mass and wall thickness, so the difference is more noticeable on a steel bath that's missing its insulation layer than on one that's correctly fitted.",
+  },
+  {
+    q: "Will a stone resin bath need additional floor strengthening on every upper-floor installation?",
+    a: "Not necessarily — it depends on the existing joist span, condition and spacing, and on the bath's specific weight once filled. We check the floor structure against the chosen bath at survey rather than assuming strengthening is needed as a blanket rule, since many upper-floor structures are perfectly capable of carrying a stone resin bath without alteration.",
+  },
+  {
+    q: "Does Kaldewei fit a sound-insulation layer to its steel baths as standard?",
+    a: "Many Kaldewei steel bath models include a factory-applied anti-slip and sound-insulation coating to the underside as part of the product. We fit the bath and its support frame exactly as the manufacturer specifies, so that coating does its job rather than being left out to save a few minutes on site.",
+  },
+];
+---
+
+<Base
+  title="Kaldewei Steel vs Stone Resin Baths Compared | IMB"
+  description="How Kaldewei enamelled steel baths compare with stone resin baths — weight, support structure, surface feel and what we check before installation."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Kaldewei Steel vs Stone Resin", href: "/guides/kaldewei-steel-vs-stone-resin-baths/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Kaldewei Steel vs Stone Resin Baths Compared</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Kaldewei's enamelled steel baths are lighter, easier to manoeuvre into position, and hard-wearing against everyday use; stone resin baths are considerably heavier, feel different underfoot and retain warmth differently, and generally need a more substantial support structure beneath them. Neither is simply "better" — the right choice depends on the room's access, floor structure, and the feel you want from the finished bath.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two materials compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Kaldewei enamelled steel</th>
+              <th class="text-left py-3 font-semibold">Stone resin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Relative weight</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Significantly lighter, easier to carry through tight access and up stairs.</td>
+              <td class="py-3" style="color: var(--text-soft);">Considerably heavier, particularly in larger freestanding formats.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Support structure needed</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Standard framed support, straightforward on most floor types.</td>
+              <td class="py-3" style="color: var(--text-soft);">More substantial support frame; floor strengthening sometimes needed on a timber suspended floor.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Surface feel and heat retention</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Cooler to the touch initially, warms quickly once filled.</td>
+              <td class="py-3" style="color: var(--text-soft);">Warmer underfoot once filled, tends to retain heat for longer during a soak.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Surface durability</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Hard-wearing vitreous enamel, resistant to most everyday wear; a sharp heavy impact can chip it.</td>
+              <td class="py-3" style="color: var(--text-soft);">Durable, with some surface marks able to be polished out depending on the specific material.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Access considerations</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Easier to manoeuvre through narrow stairwells and doorways on delivery day.</td>
+              <td class="py-3" style="color: var(--text-soft);">Needs careful route planning and usually more people to move safely without damage.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Acoustic / sound-deadening</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Relies on a correctly fitted anti-slip and sound-insulation coating to the underside, as specified by the manufacturer.</td>
+              <td class="py-3" style="color: var(--text-soft);">Inherently more sound-deadening through its greater mass and wall thickness.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why weight matters before delivery day, not just on it</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A stone resin bath's weight isn't just a manual-handling consideration on the day it's carried in — it affects the floor structure it sits on afterwards too. On a solid concrete ground floor this is rarely an issue, but on an upper floor over a timber joist structure, a heavy stone resin bath filled with water and a bather can represent a meaningful point load that needs checking against the span and condition of the joists beneath. We assess this at survey, not after the bath has already been delivered to site.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A Kaldewei steel bath, being considerably lighter even once filled, is the more straightforward option where access is tight or where an upper-floor installation makes structural loading a bigger consideration.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Acoustic difference: how each material sounds and feels in use</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Beyond temperature, the two materials behave differently acoustically. A thinner, lighter material such as steel can transmit more sound — running water, a tap turning on, a shampoo bottle set down on the bath's edge — unless it's damped correctly. That's why a quality enamelled steel bath is fitted with an anti-slip and sound-insulation coating to its underside as standard; without that layer, or if it's installed carelessly over the support frame, a steel bath can sound noticeably more resonant than it should.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Stone resin, being considerably denser and generally thicker-walled, deadens sound more inherently through its own mass — there's less for the material itself to resonate against. In practice this means a correctly fitted Kaldewei bath and a stone resin bath should both feel solid and quiet in use; the acoustic difference only becomes noticeable where a steel bath's insulation layer has been omitted or poorly fitted, which is a fitting standard issue rather than an inherent flaw in the material.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What we check before either bath is fitted</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Regardless of material, we check the bath's actual dimensions and waste position against the room surveyed, confirm the support frame specified by the manufacturer is the correct one for the model, and plan the route the bath will travel from delivery point to final position — particularly important for a large stone resin freestanding bath, where a wrong turn on a tight staircase isn't something you want to discover on the day.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Waste and overflow pipework, and any tiling or panel detail around the bath, is set out from the confirmed position so the finished installation sits level, true, and correctly sealed at every edge.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What a structural floor-loading check actually involves</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        When we assess a heavier stone resin bath for an upper-floor room, the check isn't a single yes-or-no judgement — it's a look at several things together. We note the joist span and direction relative to where the bath will sit, since a bath positioned over the centre of an unsupported span places more demand on the floor than one positioned close to a bearing wall where the joists are better supported. We look at joist spacing and depth where it's visible or can be reasonably inferred, and we consider the bath's filled weight together with a bather, rather than just the empty weight quoted in a brochure.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where there's genuine doubt, the sensible step is additional noggining or doubling up joists beneath the bath's footprint, which a competent carpenter can usually build in during first fix without disrupting the rest of the room's structure. In older properties, or where a floor already shows some deflection, we'll say so plainly and suggest a structural engineer's opinion before committing to a particular bath, rather than making an assumption and hoping it holds. A Kaldewei steel bath sidesteps this question for most rooms simply by weighing meaningfully less once filled, which is why it's often the pragmatic choice on an upper floor with an older or lighter joist structure.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Panel and surround detailing for each material</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A built-in Kaldewei steel bath is usually finished with a tiled or panelled surround fixed to a timber or metal frame, with an access panel left for the waste trap and overflow — a detail that's easy to overlook until a blockage needs clearing and there's no way to reach it without removing tiling. We plan that access point at first fix, sized and positioned so it stays genuinely useful rather than symbolic.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A freestanding stone resin bath, by contrast, often sits clear of any surround, with its underside and feet visible, so the finished floor around it needs to be laid and finished to the same standard as the rest of the room — there's no panel to hide an uneven edge or an awkward cut. Waste and overflow pipework for a freestanding stone resin bath typically runs through the floor rather than behind a panel, which needs planning into the floor build-up before tiling, particularly where underfloor heating is also being installed in the same room.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Living with each material day to day</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A Kaldewei enamelled steel bath's surface is straightforward to clean with a standard non-abrasive bathroom cleaner, and its enamel finish resists staining from most everyday products. Stone resin surfaces are generally similarly easy to maintain, though some specific stone resin composites benefit from a particular cleaning product recommended by the manufacturer to avoid dulling the surface finish over time — worth checking against the specific product you've chosen rather than assuming all stone resin baths are cared for identically.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both materials are available in a genuinely wide range of shapes, from traditional roll-top profiles to contemporary rectangular and oval forms, so the choice between them rarely needs to compromise the overall design direction of the room — it's more a question of weight, budget and the specific tactile feel you want underfoot and against your back during a long soak.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Weighing the decision</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If your room is on an upper floor, access is tight, or you simply want one less thing to think about structurally, a Kaldewei steel bath's lower weight makes it the straightforward choice. If you're on a solid ground floor, want the fullest possible sense of warmth and mass underfoot, and are drawn to a freestanding silhouette, stone resin earns its extra weight and cost. Neither choice is wrong — the factors that should decide it are the ones specific to your room: the floor beneath it, the access to it, and how you actually want the finished bath to feel against your skin during the twenty minutes you'll spend in it most evenings.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Plumbing &amp; First Fix</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">What to check on delivery</a>
+        <a href="/guides/choosing-natural-stone-for-a-bathroom/" class="btn-secondary">Choosing natural stone</a>
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/kaldewei/" class="btn-secondary">Kaldewei</a>
+        <a href="/brands/victoria-and-albert/" class="btn-secondary">Victoria + Albert</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Structural floor loading considerations referenced in this guide follow Building Regulations Part A. Bath support frame installation follows manufacturer guidance current at the time of writing. Waste and overflow connections follow Part H.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="kaldewei-stone-resin-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

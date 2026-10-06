@@ -1,0 +1,242 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Freestanding Bath Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Can any floor take a freestanding bath, particularly cast iron or stone resin ones?",
+    a: "A filled bath can weigh well over 300kg including two people, so joist condition and span matter more than it does for a standard panelled bath. We check this at survey, especially upstairs, and will tell you if strengthening is needed before you order.",
+  },
+  {
+    q: "Where does the waste and overflow go on a freestanding bath?",
+    a: "Freestanding baths typically have a floor-standing waste and overflow kit routed beneath the bath rather than through a side panel, so the floor void or void beneath needs enough depth for that pipework — confirmed against your chosen model at survey.",
+  },
+  {
+    q: "Do freestanding taps need to be floor-mounted or deck-mounted?",
+    a: "Both exist — freestanding floor-mounted tap sets need pipework rising through the floor at a precise position set before tiling, while deck-mounted or wall-mounted options are more forgiving of small positioning adjustments. The choice affects first-fix planning significantly.",
+  },
+  {
+    q: "Is a freestanding bath harder to keep clean around compared to a built-in bath?",
+    a: "The underside and the gap between bath and wall need to be accessible for cleaning, so we plan a small clearance gap rather than pushing the bath tight to the wall — a detail worth agreeing before the final position is set.",
+  },
+  {
+    q: "Can a freestanding bath sit in the centre of a room away from walls?",
+    a: "Yes, provided the waste, overflow and any floor-mounted tap pipework can reach that position, which usually means more first-fix pipe run than a wall-adjacent bath. This is planned at survey around your intended layout.",
+  },
+  {
+    q: "How long does fitting a freestanding bath take compared to a built-in one?",
+    a: "On its own, usually 1–2 days for waste connection, tap fitting and sealing once the floor and supply positions are prepared — but it's rarely installed in isolation, so timing is usually folded into the wider bathroom programme.",
+  },
+  {
+    q: "How do you get a heavy cast iron bath into a first or second floor bathroom?",
+    a: "Access is checked at survey — stairs, doorway widths and any tight turns on the landing all matter for a bath that can weigh well over 100kg empty. Some cast iron models can be carried in two sections or need a door temporarily removed; we plan this before delivery day, not on the morning the bath arrives.",
+  },
+  {
+    q: "Does a freestanding bath need its own dedicated hot water supply?",
+    a: "Not a dedicated supply as such, but a large bath takes considerably more hot water to fill than a standard bath, so we check your hot water cylinder or combi boiler capacity against the bath's fill volume at survey — a result worth knowing before you choose a particularly large model.",
+  },
+];
+---
+
+<Base
+  title="Freestanding Bath Installation | Install My Bathroom"
+  description="Fit-only freestanding bath installation across Bracknell and Berkshire. Floor loading, waste routing and precise tap positioning. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Freestanding Bath Installation", href: "/services/freestanding-bath-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Freestanding Bath Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A freestanding bath carries real weight once it's filled, and its waste, overflow and tap pipework all run beneath or through the floor rather than hiding behind a panel — which means the floor structure and first-fix positions matter more here than on any other fixture. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's also usually the single statement piece in a luxury bathroom, which means the position has to be right visually as well as structurally — close enough to the floor-mounted tap, square to the room, and with enough clearance around it to actually get in and out comfortably, rather than centred purely because that looked best on a plan. We see this fitted most often as the centrepiece of a larger principal-suite bathroom, replacing a built-in bath-and-shower-over combination that no longer suits how the room is actually used.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Because a freestanding bath has no panel to hide an imperfect first fix, every supply, waste and overflow connection beneath it needs to be right first time — there's no boxing-in to fall back on if a position shifts by a few centimetres partway through.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor loading assessment, including joist span and condition where the bath sits upstairs</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> First-fix supply and waste routed to the bath's actual position, including floor-mounted tap pipework where specified</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor preparation and protection around the final bath position, including access points left for the waste</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Levelling of the bath on its feet or plinth, checked front-to-back and side-to-side</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Waste, overflow and tap connection, with a full-fill leak test before sealing</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Silicone sealing at the wall junction where the bath sits close to a wall, sized for a clean, consistent bead</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Snagging walkthrough covering fill, drain-down and tap operation</li>
+      </ul>
+      <p class="leading-relaxed mt-6" style="color: var(--text-soft);">
+        Delivery and handling are planned in advance too — a cast iron or stone resin bath is awkward to move safely, and we'll confirm access route, final position and who's on site to receive it before the delivery date is booked. Large baths are usually delivered on a pallet and need a clear, obstruction-free route from the vehicle to the room, which is worth checking against your own driveway, front door width and any internal doorways well before the delivery van arrives.
+      </p>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Floor loading, joist condition, and the exact bath position relative to supply and waste are confirmed before you order a specific model. Delivery access is checked at the same visit.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the bath and tap set.</strong> <span style="color: var(--text-soft);">Material (cast iron, stone resin or steel), weight, and tap mounting type are all checked against the survey findings before you commit to an order.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Floor preparation and first fix.</strong> <span style="color: var(--text-soft);">Strengthening work carried out if required, supply and waste run to the confirmed position ahead of flooring or tiling.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Bath positioning and levelling.</strong> <span style="color: var(--text-soft);">Bath brought into its final position, levelled precisely — this step is often done by two installers given the weight involved, and after the floor finish is complete.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Connection, testing and snagging.</strong> <span style="color: var(--text-soft);">Waste and taps connected, full-fill leak test run, sealing finished, final walkthrough including a check of drain-down time.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A full bath with two occupants can exceed 300kg, so point loads at the bath's feet are checked against joist span and condition rather than assumed safe. Where the existing floor isn't adequate, options include strengthening the joists or repositioning the bath closer to a load-bearing wall — both confirmed before you commit to a model. Floor-mounted tap pipework is set out to a precise position before tiling or flooring goes down, because moving it afterwards means lifting the finished floor.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Every freestanding bath is full-fill tested before the final seal is applied, checking the waste, overflow and any floor penetrations for leaks while they're still accessible.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Levelling is checked in both directions — front to back and side to side — since even a small lean becomes very obvious on a freestanding bath with no surrounding panel to disguise it, both visually and in how water sits at the plughole end once filled.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Flooring beneath and around a freestanding bath needs to be fully finished — tiled, stone or timber — before the bath is moved into final position, since there's no panel afterward to hide an unfinished edge. We sequence the programme so flooring is complete and cured before the bath goes in, rather than working around it and risking a scratched or chipped finish during the final fit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Choosing a material -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Choosing between cast iron, stone resin and steel</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Cast iron holds heat exceptionally well and has real heft and solidity, but it's also the heaviest option by a significant margin, which makes floor loading and delivery access the two biggest practical questions before ordering one. Stone resin composite baths are lighter than cast iron while still feeling substantial, and they hold heat better than steel — a sensible middle ground for many upper-floor installations where cast iron would need significant floor strengthening. Steel baths are the lightest of the three and the easiest to handle on site, though they lose heat from the bath water faster than the other two materials.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        None of these is a wrong choice — it genuinely depends on the floor you're working with, the access route for delivery, and how much weight the room can realistically take. We'll give you an honest view at survey based on the actual joists involved, rather than a generic recommendation that ignores your specific property.
+      </p>
+    </div>
+  </section>
+
+  <!-- Floor-mounted vs wall-mounted taps -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Floor-mounted vs wall-mounted taps</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor-mounted freestanding tap sets give the cleanest, most uncluttered look — no pipework visible at the wall, just the tap rising from the floor beside the bath. The trade-off is that the exact position has to be fixed before flooring goes down, with no scope to adjust once tiling or boards are laid, so the bath model and its filler position both need confirming well in advance of first fix.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wall-mounted or deck-mounted taps are more forgiving of small adjustments later and simpler to service if a valve ever needs replacing, since the connection sits behind an accessible wall rather than beneath a floor. They suit a bath positioned against or near a wall more naturally than a true centre-of-room placement, where floor-mounted taps tend to look more deliberate.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Either way, the tap's reach and spout height need checking against the specific bath's rim height and width before ordering — a spout that's too short will splash against the inside of the bath rather than filling it cleanly, which is a surprisingly common mismatch when tap and bath are bought from different suppliers without cross-checking dimensions.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Fill rate is also worth a thought for a genuinely large bath — a standard bath filler can take noticeably longer to fill a large-capacity freestanding tub than a conventional bath, and a higher flow rate tap, or a tap designed specifically for larger bath volumes, is worth discussing at survey if waiting for the bath to fill is a real household frustration rather than a minor one.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The bath, waste and overflow kit, and tap set are bought by you — our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide covers sourcing. Confirm the bath's weight (empty and full) and its waste outlet position against our survey measurements before ordering: a floor-mounted tap set bought without confirming the pipe run can mean an expensive change to the first-fix plan.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If you're deciding between a steel and stone resin bath, our <a href="/guides/kaldewei-steel-vs-stone-resin-baths/" class="underline" style="color: var(--teal);">Kaldewei steel vs stone resin baths</a> guide sets out the practical differences in weight, heat retention and feel underfoot, and is worth reading before you commit to a specific model and finish.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Check the delivery lead time on your chosen bath before fixing a start date for the wider project, especially for a bespoke colour finish or a heavier cast iron model shipped from overseas — these can run to several weeks longer than a standard stock model, and the programme is built around the bath's confirmed delivery date rather than an assumed one.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/heated-towel-radiator-installation/" class="btn-secondary">Heated Towel Radiator Installation</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Bathroom Strip-Out &amp; Preparation</a>
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/kaldewei-steel-vs-stone-resin-baths/" class="btn-secondary">Kaldewei steel vs stone resin baths</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Cost guide</a>
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying checklist</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="freestanding-bath-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

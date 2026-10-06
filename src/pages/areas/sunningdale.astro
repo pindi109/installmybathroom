@@ -34,6 +34,22 @@ const faqs = [
     q: "Can you work around a let property or a managing agent in Sunningdale?",
     a: "Yes, we regularly coordinate installation dates and access with managing agents and letting arrangements, which are common in this area.",
   },
+  {
+    q: "Do you need to park on site, and is that a problem on private roads?",
+    a: "A small van parked considerately for the duration of the job is usual. On gated or private roads we confirm parking and access arrangements with you or the managing agent before work starts, rather than assuming it on the day.",
+  },
+  {
+    q: "Can you install a wet room in a Sunningdale property with a suspended timber floor?",
+    a: "Usually, yes, once the floor structure is assessed at survey. It typically means additional noggins or boarding to stiffen the deck, a suitable tanking build-up, and sometimes a slightly raised floor level to achieve a correct fall to the drain — all planned before any tiling starts.",
+  },
+  {
+    q: "Do you offer evening or weekend access for occupied Sunningdale homes?",
+    a: "Our core hours are daytime on weekdays, but for occupied homes where the household needs the bathroom kept usable at certain times, we'll agree a sequence at survey that minimises disruption rather than working to a rigid daily pattern.",
+  },
+  {
+    q: "Can you install a bathroom in a new-build or recently extended Sunningdale property?",
+    a: "Yes — new-build and extension bathrooms are usually the most straightforward projects we take on here, since the structure, waste positions and electrical first fix are typically already correct for modern fittings. The survey still happens, mainly to confirm the exact specification and carrier frame requirements against what's actually been built.",
+  },
 ];
 ---
 
@@ -48,7 +64,7 @@ const faqs = [
       <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Sunningdale", href: "/areas/sunningdale/" }]} />
       <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Sunningdale</h1>
       <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
-        We install luxury, fit-only bathrooms across Sunningdale — a village of large period and executive homes straddling the Berkshire/Surrey border, around 15 minutes from our Bracknell base via the A30. You buy the sanitaryware, brassware and tiles; we handle strip-out through to the final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+        We install luxury, fit-only bathrooms across Sunningdale — a village of large period and executive homes straddling the Berkshire/Surrey border, around 15 minutes from our Bracknell base via the A30. You buy the sanitaryware, brassware and tiles from whichever showroom or supplier you trust; we handle strip-out through to the final snag, from £{business.pricing.fromGBP.toLocaleString()}.
       </p>
       <div class="flex flex-wrap gap-4 fade-up">
         <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
@@ -68,8 +84,11 @@ const faqs = [
         <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
           What generous plot size doesn't solve on its own is plumbing age. Older detached houses in this part of Berkshire were frequently built with gravity-fed hot water systems and header tanks in the loft, sometimes upgraded to mains pressure at a later date and sometimes not. We measure actual pressure and flow at every survey rather than assuming mains pressure, because it directly affects which showers — particularly digital and thermostatic models — will perform as specified.
         </p>
-        <p class="leading-relaxed" style="color: var(--text-soft);">
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
           A number of the older properties also have suspended timber ground floors rather than a solid concrete slab, which matters for large-format porcelain and for wet room tanking: deflection under a suspended floor needs checking and, where necessary, battening out or boarding to a suitable standard before tiling starts. We flag this at survey rather than discovering it once a floor is opened up.
+        </p>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          Sunningdale Golf Club's two courses sit at the heart of the village, and the roads immediately around them — many unadopted or privately maintained — carry some of the largest plots we work on anywhere in Berkshire. That scale cuts both ways on a bathroom project: there's usually room to reconfigure a layout properly, add a dressing area alongside an en-suite, or run a separate shower and bath without compromise, but it also means service runs from the existing plant room or boiler can be longer than on a standard-sized plot, which is a first-fix planning question rather than anything that affects day-to-day running once finished.
         </p>
       </div>
       <div class="card overflow-hidden fade-up hidden md:block">
@@ -100,6 +119,51 @@ const faqs = [
           style="width:100%;height:auto;display:block;"
         />
       </div>
+    </div>
+  </section>
+
+  <!-- How a fit-only installation runs here -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How a fit-only installation runs in Sunningdale</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most Sunningdale projects start the same way: a client has already chosen — or is close to choosing — sanitaryware and brassware from a showroom in Ascot, Windsor or further into London, sometimes alongside natural stone sourced direct from a supplier. The £{business.pricing.surveyGBP} survey happens before any of that is finalised where possible, because carrier frame dimensions, waste positions and electrical supply requirements for a shower toilet or steam shower all need confirming against the actual room, not a showroom mock-up.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On larger properties with more than one bathroom in scope, we sequence the programme so occupied parts of the house stay usable — protection boards and dust sheets run the full route from the access point to the room being worked on, not just the room itself, and site is cleaned down daily. Where a property is let or managed on the owner's behalf, we coordinate access and key arrangements directly with the managing agent so the owner isn't the single point of contact for every site query.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why fit-only suits this area -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why fit-only suits Sunningdale's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company selling its own bathroom package makes most sense when every job looks similar. Sunningdale's housing stock doesn't: a Victorian villa with suspended timber floors and a header-tank system, an inter-war house already upgraded to mains pressure, and a newer executive build on a concrete slab all need a different approach to tanking, waste routing and floor build-up before a single tile is cut. Fit-only works well here precisely because the installation is planned around the property as it actually is, rather than around a standard package the installer would rather sell.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It also means you keep control of the specification. If you've found a specific freestanding bath, a particular stone, or brassware from a showroom that isn't on anyone's standard supplier list, that's not a problem for us — we fit what you've bought, to the tolerances the product deserves, rather than steering you toward a narrower range because it's easier for us to source.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The trade-off of fit-only is that the result depends on two things happening properly: an accurate survey before anything is ordered, and a specification that's genuinely confirmed by the time first fix starts. We treat both as part of the installation rather than a formality — the written scope from your survey lists exact models, carrier frames and fixing kits rather than general categories, and we'd rather flag a mismatch between what's been ordered and what the room can take before a pipe is cut than part-way through the job.
+      </p>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Sunningdale</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Full bathroom re-fits in period properties make up a large share of the work — strip-out of a dated suite, re-routing waste to suit a new layout, tanking and large-format porcelain or natural stone, and a second fix built around wall-hung sanitaryware and concealed cisterns. Where a property has more than one bathroom, we're often asked to sequence a master en-suite first, then return for a family bathroom once the first room is signed off, so the household isn't left without a working bathroom at any point during the programme.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wet room conversions are common in the larger detached homes, usually replacing an existing bath-and-shower combination with a single level-access shower area — this is where the suspended-timber-floor checks mentioned above matter most, since achieving a correct fall to drain on an older floor structure takes more planning than on a solid slab. We also fit a steady run of shower toilet and underfloor heating installations, both of which need the electrical supply confirming at survey before any product is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A smaller but regular share of the work is cloakroom and guest WC installation — often squeezed into a former store cupboard or under-stairs space in an older house, where the limiting factor is usually waste routing rather than available floor area. These smaller rooms need the same survey discipline as a full bathroom despite the modest footprint, since a wrongly specified macerator unit or an awkwardly positioned waste run is just as disruptive and costly to correct afterwards in a small cloakroom as it would be in a much larger room.
+      </p>
     </div>
   </section>
 

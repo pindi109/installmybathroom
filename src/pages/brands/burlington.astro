@@ -1,0 +1,169 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Do Burlington's traditional WCs need a specific cistern setup?",
+    a: "Burlington offers both close-coupled and high-level, exposed-cistern WCs. High-level units need the cistern bracket fixed securely to the wall and the flush pipe set out before tiling, which we confirm at survey against your wall construction.",
+  },
+  {
+    q: "Can a Burlington basin be fitted on a pedestal or as a countertop basin?",
+    a: "Both options exist within the range. Pedestal basins need the waste and tap holes aligned to the pedestal's fixed centres, while countertop and semi-recessed basins need the vanity or worktop cut-out sized to the basin before it's delivered, so we confirm the exact model early.",
+  },
+  {
+    q: "What wall fixing does a Burlington wall-hung basin need?",
+    a: "A wall-hung basin needs a solid fixing point capable of carrying the basin and a user leaning on the edge — timber noggin, structural wall, or a bracket system fixed through to blockwork, confirmed at survey rather than assumed from the stud wall alone.",
+  },
+  {
+    q: "Does Burlington traditional brassware need the same care as other period-style taps?",
+    a: "Yes — exposed pipework, cross-head handles and decorative finishes are fitted and protected the same way across any traditional range: pipe runs set out square and level at first fix, and finishes protected with non-marking tools throughout the build.",
+  },
+  {
+    q: "Where do you buy Burlington products from?",
+    a: "Burlington is sold through bathroom showrooms, specialist retailers and online stockists. You purchase the sanitaryware and brassware directly or through a retailer of your choice; we install what arrives on site. We're happy to look over a specification before you order if you'd like a second opinion on fixing compatibility.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Burlington?",
+    a: "No. We're an independent fit-only installer with no commercial relationship with Burlington. We install the products our clients have purchased.",
+  },
+  {
+    q: "Can Burlington sanitaryware be combined with contemporary brassware or tiling?",
+    a: "Yes — many of our Burlington installations sit within a room that mixes a classic basin or WC with more contemporary tiling or lighting, which is entirely a matter of taste. What we check is that fixing centres and waste positions are confirmed against the exact sanitaryware model regardless of the wider style chosen.",
+  },
+  {
+    q: "How long does a Burlington high-level WC installation typically take?",
+    a: "A high-level suite generally takes longer to fit than a standard close-coupled WC, since the cistern bracket, flush pipe run and alignment all need setting out individually rather than installing as a single pre-assembled unit. We allow for this at the planning stage so it isn't rushed on the day.",
+  },
+  {
+    q: "Do Burlington basins and WCs need a specific type of grout or sealant around fixings?",
+    a: "We use a flexible, mould-resistant sanitary sealant at the junction between sanitaryware and wall or floor, rather than a rigid grout, since any genuine movement between the fixed item and the building fabric needs to be absorbed rather than cracking a hard joint. This is standard practice across all the sanitaryware we fit, not unique to Burlington.",
+  },
+];
+---
+
+<Base
+  title="Burlington Installation | Install My Bathroom"
+  description="Specialist installation of Burlington traditional-style sanitaryware and brassware across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Burlington", href: "/brands/burlington/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Burlington Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Burlington's range is built around classic bathroom forms — pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware — reproduced with a modern fixing standard underneath the traditional silhouette. Getting the period look right on site depends on fixing choices that aren't visible once the room is finished: a high-level cistern bracket, a wall-hung basin's hidden support, or the exact pedestal alignment behind a classic profile.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.burlingtonbathrooms.com/" target="_blank" rel="noopener" class="btn-secondary">Visit Burlington →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We fit Burlington's pedestal, semi-recessed and wall-hung basins, close-coupled and high-level WCs with exposed cistern and flush pipe, traditional roll-top and cast-style baths, and the matching cross-head and lever-handled brassware finished in chrome, nickel and gold-toned options. Many of our Burlington installations sit within a wider period or classic-style bathroom, alongside natural stone or small-format tiling that suits the traditional profile.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        As with every brand we work with, Burlington sanitaryware and brassware is purchased by the client through a showroom, specialist retailer or online stockist. We don't supply Burlington products ourselves — our work begins once the pieces are on site, ready for first fix. Furniture pieces within the range, including vanity units and freestanding cabinets, are generally delivered flat-packed or pre-assembled depending on the model, and we confirm which before the install date so the right lifting and assembly time is allowed for.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>High-level cistern fixing:</strong> exposed cisterns and flush pipes need a securely fixed wall bracket and a flush pipe set out before tiling closes around it.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Wall-hung basin support:</strong> a wall-hung basin needs a structural fixing or noggin capable of carrying real user load, confirmed against the actual wall construction at survey.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Pedestal alignment:</strong> waste and tap holes have to align precisely to the pedestal's fixed centres, so the basin model is confirmed before first-fix plumbing is set out.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Exposed pipe runs:</strong> traditional taps and shower valves with visible pipework are set out square and level at first fix, since the finished run can't be adjusted later.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Finish protection:</strong> nickel, gold-toned and other decorative finishes are protected with non-marking tools and flux-free jointing throughout the install.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Confirm the exact model and finish against your order — Burlington's traditional ranges include several closely related basin and WC styles that look alike but have different fixing centres and cistern types. Check sanitaryware for hairline cracks or glaze faults before we start, since any defect found after installation means a chargeable return visit under client-supplied goods. Verify that cistern fittings, pedestal fixings and any matching accessories are present, as traditional ranges often ship these as separate components rather than a single packaged unit. A few minutes checking boxes against the order confirmation on delivery day is time well spent against the disruption of discovering a fault mid-install.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The fault we most often see on other installers' high-level WC work is a cistern bracket fixed to plasterboard alone, which loosens under the repeated pull of the flush chain or lever within a year or two. We fix the bracket to a structural point confirmed at survey, not to whatever happens to be behind the tile on the day.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is a wall-hung basin that rocks slightly under hand pressure because the support behind it wasn't sized for real use, only for the basin's static weight. We size the fixing to carry a person leaning on the basin edge, which is how these basins are actually used, not just how they sit when empty. Both faults are straightforward to avoid at first fix and considerably more disruptive to correct once tiling and decoration are complete, which is why they're checked at survey rather than left to be discovered later.
+      </p>
+    </div>
+  </section>
+
+  <!-- Suited projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Where Burlington fits within a wider renovation</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Burlington is most often specified for a cloakroom, family bathroom or period-style ensuite where the client wants a traditional silhouette without sacrificing modern performance underneath — a concealed cistern inside a high-level unit's casing, for example, or a wall-hung basin on a discreet modern bracket. We treat the visible detailing and the hidden fixing as equally important, because a period look depends on both.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a Burlington suite is part of a larger project alongside new tiling, underfloor heating or a full re-plumb, we sequence the WC and basin fixing to land after first-fix plumbing and electrics are tested, but before final decoration — the same approach we take with every brand, adjusted for the specific fixing points a traditional range needs.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting traditional finishes on site -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting traditional sanitaryware and brassware on site</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Vitreous china sanitaryware and decorative brassware are both vulnerable to chips and scratches from other trades working nearby, so we board and protect fitted sanitaryware immediately and keep it covered until the room is genuinely finished, not just until our own part of the install looks complete. Door frames, stair rails and floor runs between the delivery point and the bathroom are also protected before anything heavy is carried through, since a damaged corner on a pedestal basin or a scraped high-level cistern is far costlier to replace than a few sheets of protective board.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We take the same approach on every brand we fit, but it matters particularly with a traditional range like Burlington, where decorative finishes and classic profiles show marks more visibly than a plain modern equivalent.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+      <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="burlington-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Burlington; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

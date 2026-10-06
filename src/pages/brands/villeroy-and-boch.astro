@@ -1,0 +1,170 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Does Villeroy & Boch make its own concealed cistern frame?",
+    a: "Villeroy & Boch's ViConnect flush plates and wall-hung WC pans are designed to pair with a standard concealed cistern carrier frame, most commonly a Geberit-type frame fixed to a structural wall or floor. We confirm frame compatibility against the pan model before ordering.",
+  },
+  {
+    q: "What does a ViClean shower toilet seat need on site?",
+    a: "A ViClean seat is fitted to a compatible wall-hung pan and needs a water supply tee at the isolation valve plus a nearby switched electrical socket, usually run to a point behind or beside the pan before the wall is closed up.",
+  },
+  {
+    q: "Can I fit a Villeroy & Boch Quaryl bath myself and have you connect it?",
+    a: "We handle the full installation, not just the final connection. Quaryl is a mineral-cast material that's lighter than steel or cast iron but still needs the correct support frame and a level sub-floor, which we check before the bath goes in.",
+  },
+  {
+    q: "Will my Villeroy & Boch basin need a specific waste and tap setup?",
+    a: "Most V&B basins take a standard click-clack or slotted waste and a single-lever or wall-mounted mixer, but countertop and semi-recessed basins on the Antao and Finion ranges need the worktop cut-out and waste position confirmed before the vanity unit arrives.",
+  },
+  {
+    q: "What should I check when my Villeroy & Boch order is delivered?",
+    a: "Check the pan projection and fixing centres match your frame, that the CeramicPlus or TitanCeram glaze finish has no hairline marks from transit, and that ViClean seats and ViConnect plates arrive as matched sets rather than mixed generations, which aren't always interchangeable.",
+  },
+  {
+    q: "Do you fit Villeroy & Boch furniture and mirror cabinets as well as sanitaryware?",
+    a: "Yes. Where a Finion or Antao suite includes a vanity unit and mirror cabinet, we fit the whole set against one shared set-out line, so basin height, tap centres and cabinet position are planned together rather than measured separately on different days.",
+  },
+];
+---
+
+<Base
+  title="Villeroy & Boch Installation | Install My Bathroom"
+  description="Installation of Villeroy & Boch sanitaryware, ViClean shower toilets and Quaryl baths across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Villeroy & Boch", href: "/brands/villeroy-and-boch/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Villeroy &amp; Boch Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit Villeroy & Boch sanitaryware, basins, baths and ViClean shower toilet seats bought through showrooms and retailers across Berkshire. The ceramics are precise and the glaze finishes are hard-wearing, but the detail that catches people out is matching flush plate, pan and frame generations correctly — V&B doesn't manufacture its own carrier frame, so compatibility is confirmed before anything is ordered, not discovered on fitting day.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.villeroy-boch.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Villeroy & Boch →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wall-hung and close-coupled WC pans from the Subway, Avento, Venticello, O.novo and Architectura collections, along with the Finion and Antao ranges where a washbasin, vanity unit and mirror cabinet are specified as a set. We fit ViClean electronic shower toilet seats to compatible pans, ViConnect flush plates, and basins ranging from countertop bowls to wall-hung and semi-recessed designs.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On the bathing side, we install Quaryl baths — Squaro Edge 12, Oberon 2.0 and the Loop & Friends collections — and Villeroy & Boch's own shower trays and enclosures where they form part of the same order. Most clients specify through a bathroom showroom or order direct; we install what arrives, we don't supply it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Frame compatibility:</strong> V&B wall-hung pans are designed around a standard concealed cistern frame rather than a proprietary one — we confirm fixing centres and projection against the frame you've chosen before boarding the wall.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrics for ViClean:</strong> a switched spur or socket needs to reach the pan position before tiling closes the wall — retrofitting a cable after the fact means lifting tiles.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water supply tee:</strong> ViClean seats need a dedicated tee off the WC's water supply with its own isolation valve, positioned and plumbed at first fix.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Bath support:</strong> Quaryl baths use a manufacturer-specific leg and frame kit; a generic universal frame doesn't always sit flush, so the correct kit is ordered against the exact bath model.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Worktop cut-outs:</strong> countertop and semi-recessed basins on the Antao and Finion ranges need the vanity worktop cut to the basin's template before the unit is built in, not trimmed on site afterwards.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Finish and furniture considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Finishes, furniture and set-out</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Villeroy & Boch's CeramicPlus coating is applied to resist limescale and make day-to-day cleaning easier, but it doesn't change how the ceramic needs handling on site — pans and basins still chip on a sharp impact, so we keep protective packaging on until the final fix rather than removing it the moment a piece arrives. TitanCeram, used on some of the thinner-rimmed basin designs, is a reinforced body that allows a slimmer visual profile without the wall thickening that older vitreous china would need, which matters when a basin is set close to a window reveal or a run of fitted furniture.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a full Finion or Antao suite is specified — basin, vanity carcass, mirror cabinet and WC together — we set the basin height and tap centres from the same datum line as the mirror cabinet and any wall-mounted lighting, so the finished run reads as one considered composition rather than three separately measured items. That set-out is agreed and marked on the wall before a single fixing goes in, because moving a basin bracket after the vanity carcass is built in means remaking the cut-out.
+      </p>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Open every box before we start, not after. Check the pan's fixing centres and projection match your frame, that the CeramicPlus or TitanCeram surface has no transit marks or glaze faults — these sit under raking light and are easy to miss indoors under standard lighting — and that a ViClean seat is the correct generation for the pan it's being paired with. On Quaryl baths, check the panel and leg kit have arrived together with the bath itself; they're often boxed separately and occasionally shipped on a different pallet. Any damage or mismatch found before we start is a straightforward exchange; found after tiling, it's a chargeable return visit, because the goods are client-supplied under our fit-only model.
+      </p>
+    </div>
+  </section>
+
+  <!-- Plumbing and brassware pairing -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Pairing brassware and checking waste runs</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Villeroy & Boch doesn't manufacture taps or shower valves, so basins and baths are almost always paired with brassware from a separate brand — commonly Hansgrohe, GROHE or Axor. We confirm tap hole counts and centres on the basin against the brassware's spindle spacing before the vanity top is drilled or the basin is ordered pre-drilled, because a one-tap-hole basin can't take a three-hole deck-mounted set without extensive remedial work.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Waste runs matter just as much as the visible fittings. Wall-hung pans route their waste through the carrier frame at a fixed fall to the stack, which has to be set correctly before the frame is boarded in — not adjusted once the pan is hung. On Quaryl baths, the waste and overflow kit is specific to the bath's pre-formed tap bank and overflow position, so we check the kit supplied matches the bath model rather than assuming a universal fitting will do.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we check before tiling closes the wall</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The most common problem we're called to put right on V&B installations fitted elsewhere is a ViClean electrical point added after the wall was tiled — a surface-mounted cable run that should have sat inside the stud wall or behind the cistern access panel. The second is a frame bought generically without checking the exact pan's projection, leaving the pan sitting slightly proud of or recessed from the wall face once tiled.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both are sequencing issues rather than product faults. We plan electrical runs, water tees and frame fixing centres at survey stage, before plasterboard or backer board goes up, so the finished wall has no visible retrofitting and the access panel still reaches the service valves.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        We also check model numbers rather than range names when ordering replacement parts or a second fitting at a later date — Villeroy & Boch updates fixing centres and seat hinge positions within the same collection name over the years, so a Subway pan bought now and a Subway seat bought five years later aren't guaranteed to be the same generation. Where a client is matching new sanitaryware to an existing suite, we confirm the model number against the current catalogue before ordering rather than assuming the range name is enough.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for Villeroy & Boch; we install client-supplied Villeroy & Boch products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+      <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Bath Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/guides/toto-vs-geberit-shower-toilets/" class="btn-secondary">TOTO vs Geberit Shower Toilets</a>
+      <a href="/brands/hansgrohe/" class="btn-secondary">Hansgrohe Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="villeroy-and-boch-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

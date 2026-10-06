@@ -1,0 +1,210 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How far is Windsor from your Bracknell base?",
+    a: "Around 20 minutes by road. We treat this as routine travel, so it has no bearing on scheduling, deliveries, or how quickly we can return for a snag once the main installation is complete.",
+  },
+  {
+    q: "Do you work on period town houses near Windsor Castle and the river?",
+    a: "Yes. Central Windsor has a concentration of Georgian and Victorian town houses close to the Castle and the river, and we're used to the narrower access, period staircases and older construction typical of this part of town.",
+  },
+  {
+    q: "Do riverside properties in Windsor need extra checks before bathroom work?",
+    a: "Where a property sits close to the Thames, we pay particular attention to ground-floor damp-proofing and drainage falls before starting any wet work, since river-adjacent ground floors can behave differently to a standard inland property. We check this at survey rather than assume it's not relevant.",
+  },
+  {
+    q: "Will a bathroom refit in Windsor need planning permission?",
+    a: "A standard internal refit — new sanitaryware, retiling, updated electrics — doesn't normally need permission. Windsor has listed buildings and conservation areas in its historic core, so if your property might be affected, we'll flag this plainly at survey and point you to the local planning authority to confirm.",
+  },
+  {
+    q: "What water pressure do Windsor properties typically have?",
+    a: "It depends heavily on the age of the property. Period town houses sometimes still run on older plumbing with inconsistent pressure, while more recently built or renovated homes are usually on mains-fed, unvented systems. We test actual pressure and flow at survey before specifying any shower.",
+  },
+  {
+    q: "Do older Windsor houses need extra checks before large-format tiling or a wet room?",
+    a: "Often, yes. Where a ground floor is suspended timber rather than solid concrete, we check deflection before specifying large-format porcelain or a tanked wet room, and build in additional support where needed rather than tiling straight onto the existing boards.",
+  },
+  {
+    q: "Can you work around limited parking in central Windsor?",
+    a: "Yes, this is common in the town centre and near the Castle. We agree parking, loading and skip arrangements with you at survey, and where restrictions apply we plan deliveries for times that avoid the worst of it.",
+  },
+  {
+    q: "How long does a typical Windsor bathroom installation take?",
+    a: "A single bathroom strip-out and refit usually runs two to three weeks, longer where natural stone, a steam shower or underfloor heating is specified. We confirm a realistic programme once we've seen the room and the products involved at survey.",
+  },
+  {
+    q: "Can you fit a bathroom into an awkward period room in a Windsor town house?",
+    a: "Yes, this is a regular request. Period town houses near the centre often have irregular room shapes, low door heads or sloped ceilings under a roofline, and we adapt sanitaryware positioning and tiling set-out to work with the room rather than force a standard layout that doesn't fit.",
+  },
+  {
+    q: "Can you match an installation to sanitaryware bought from several different suppliers?",
+    a: "Yes, this is the norm for most of our Windsor clients, who often buy a bath from one supplier, brassware from another, and tiles from a specialist stone or porcelain merchant. We check waste sizes, tap centres and fixing requirements across all of them before strip-out starts, so nothing arrives on site as a surprise.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Windsor | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Windsor, Berkshire. Client-supplied bathrooms, wet rooms, from £3,500. Around 20 min from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Windsor", href: "/areas/windsor/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Windsor</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms across Windsor, the historic Thames-side town best known for Windsor Castle, directly across the river from Eton, around 20 minutes by road from our Bracknell base. You buy the sanitaryware, brassware, tiles and furniture; we handle strip-out through to the final snag, from £{business.pricing.fromGBP.toLocaleString()}. With 30 years fitting high-end bathrooms, we're comfortable in both period town houses and newer family homes on the edge of town.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Windsor's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Windsor's housing splits fairly cleanly into two character types. Close to the Castle and the historic centre, there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes, with a scattering of newer residential developments on sites that have been redeveloped over the years.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The period town houses need a different approach to access and sequencing than a detached suburban property would. Narrow hallways and tight stair turns mean we plan deliveries in smaller batches rather than one large drop, and protect every surface a bath, cistern or stack of tiles will pass over on its way to the room. Floor construction in these properties is also frequently suspended timber rather than solid concrete, which we check for deflection before specifying large-format porcelain or a tanked wet room floor.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Being a Thames-side town, a number of properties in Windsor sit close enough to the river that ground-floor damp-proofing and drainage falls need particular attention before any wet work begins. We check this at survey — looking at how the existing floor is built up, where the damp-proof course sits, and how waste water will fall to the existing drain run — rather than assume a riverside property behaves the same as one further inland. Where a ground-floor shower or wet room is proposed close to the river, we'll also talk through fall direction and tanking upstands in more detail than we would for an upper-floor bathroom, since the margin for error is smaller.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure in Windsor varies with the age and history of the property, much as it does elsewhere in this part of Berkshire. Some period houses still run on older plumbing with inconsistent pressure; others, particularly where a full renovation has taken place, are now on mains-fed, unvented systems. We test actual pressure and flow at every survey before specifying a digital or thermostatic shower, because it determines whether the installed system will perform as the manufacturer promises.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Newer family homes on the edge of Windsor are generally more straightforward: solid concrete ground floors, modern first-fix plumbing laid out sensibly, and better access for deliveries and skips. That doesn't mean the finished specification is any less ambitious — we fit natural stone, steam showers and wall-hung shower toilets in these houses just as often as in the period stock closer to the centre.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated lighting and extraction — does not normally require planning permission. Windsor's historic core includes listed buildings and conservation areas, so where a property might be affected, the questions that matter are whether the work touches the external fabric of the building: a new mechanical extraction vent cut through an original wall, or a rooflight added for a loft en-suite, are the kinds of changes that can need separate consent. We'll flag this plainly at survey if we think it applies, and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        For projects touching a listed building or a property within a conservation area, our guide to <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" style="color: var(--teal); font-weight: 600;">bathroom renovation in listed and conservation properties</a> sets out the questions worth raising with the local authority before you commit to a layout.
+      </p>
+    </div>
+  </section>
+
+  <!-- How installation runs -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How a fit-only installation runs in Windsor</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because you've already bought the sanitaryware, brassware and tiles, our first task at survey is to check what's been ordered against the room — waste positions, tap hole centres, and the support weight needed for a wall-hung WC or vanity unit — before any wall is opened. Catching a mismatch at this stage avoids an expensive delay once strip-out has started.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        From there the sequence runs strip-out and first-fix plumbing and electrics, tanking to a recognised standard where a wet room or shower area needs it, tiling set out from a true centre line so joints line through from floor to wall, then second-fix sanitaryware and brassware, and a final snag. We protect floors, stairwells and hallways throughout, and keep the site tidy at the end of each working day.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Parking and loading in central Windsor takes more planning than it would on a suburban drive. We agree parking, loading and skip arrangements with you at survey, and where restrictions near the Castle or the town centre apply, we plan deliveries for times that avoid the worst of it rather than discovering the problem on the first morning.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why Windsor homeowners choose a fit-only installer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company typically marks up every product it supplies, and its showroom range — however well curated — is still a limited selection. Buying your own sanitaryware, brassware and tiles directly from specialist suppliers means you aren't restricted to one company's stock, and you keep control of the budget on the most expensive line items yourself.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What that model needs from the installer is a team comfortable working to someone else's specification, and confident enough to flag a problem — a tap with the wrong reach for a basin, a shower valve needing a different cable gland — before it becomes an expensive change once walls are open. That's the model we've worked to for 30 years, and the quote you get from us covers labour, first-fix materials and finishing, and waste removal, not a product margin folded into a bundled price. It also means we have no stake in steering you towards one brand over another — our job is to fit what you've bought, well.
+      </p>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Windsor</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Enquiries from central Windsor often involve fitting a modern bathroom into a period shell — a town house en-suite squeezed into an awkward former box room, or a ground-floor cloakroom added where the original layout never had one. Further out, the projects look more like other parts of Berkshire: principal en-suites upgraded to a walk-in shower and concealed cistern, wet rooms, and whole-house refurbishments running across several bathrooms in sequence.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Underfloor heating comes up often, particularly in rooms with a tiled floor and no existing radiator to relocate, and we size the system to the room at first-fix before tying it into the existing heating controls. Natural stone and large-format porcelain both feature regularly across the properties we work on here, reflecting the quality of finish most Windsor clients are specifying.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Whatever the brief, the installation discipline stays the same — set-out from a true centre line, tanking to a recognised standard behind any tiled shower or wet room, and every tap and waste position checked against the actual products before we cut anything. In period properties we also pay close attention to how a new layout interacts with existing joinery, skirting and cornicing, so the finished room still feels proportionate to the rest of the house.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Windsor</h2>
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        We cover the full range of fit-only bathroom work in Windsor, from a single cloakroom refit through to a wet room, steam shower or natural stone installation spanning several rooms, along with the plumbing, electrical and tiling trades behind each finish.
+      </p>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(6, 18).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+      <p class="mt-6 leading-relaxed" style="color: var(--text-soft);">
+        If you're weighing up finishes before you order, our guides on <a href="/guides/porcelain-vs-natural-stone-tiles/" style="color: var(--teal); font-weight: 600;">porcelain vs natural stone tiles</a> and <a href="/guides/shower-toilets-explained/" style="color: var(--teal); font-weight: 600;">shower toilets explained</a> cover the practical differences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install bathrooms in neighbouring areas including Eton, directly across the river, Ascot, and our Bracknell base. The checks we carry out at survey — floor structure, water pressure, listed building status — apply equally whichever side of the Thames the project sits on, and we're just as comfortable in a period Eton property as a riverside Windsor one.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/eton/" class="btn-secondary">Eton</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="windsor-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Windsor</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

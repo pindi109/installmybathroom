@@ -1,0 +1,276 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Buying Your Own Bathroom: A Checklist",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "What should I order first?",
+    a: "Anything with a long lead time or that affects the layout — shower trays, wetroom formers, concealed cistern frames and baths. Tiles, brassware and lighting can usually follow once the first-fix measurements are confirmed.",
+  },
+  {
+    q: "Do I need to buy fixing kits and waste traps separately?",
+    a: "Sometimes. Some sanitaryware and furniture ranges include fixings and waste kits, others don't. We check this with you against the spec sheet before you order, since a missing fixing kit on delivery day can hold up second fix.",
+  },
+  {
+    q: "How do I know if a concealed cistern frame will fit my wall?",
+    a: "Frame depth and height vary by model — some need a minimum 100mm stud wall, others fit against a solid wall with a smaller void. We confirm this against your actual wall construction at survey before you commit to a frame.",
+  },
+  {
+    q: "Should I buy extra tiles in case of breakages?",
+    a: "Yes — we recommend ordering 10% over the measured area to allow for cuts, breakages and future repairs, and checking the batch number matches across every box so shade is consistent.",
+  },
+  {
+    q: "Can you tell me what to order, or do I need to know this myself?",
+    a: "We'll go through the full specification with you before you order anything, flagging compatibility issues — frame depth, tile format versus levelling systems, flow rate requirements — so you're not guessing.",
+  },
+];
+---
+
+<Base
+  title="Buying Your Own Bathroom: A Checklist | IMB"
+  description="Everything to confirm before you order a client-supplied bathroom, in the right sequence, so nothing holds up fit-only installation."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Buying Your Own Bathroom Checklist", href: "/guides/buying-your-own-bathroom-checklist/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Buying Your Own Bathroom: A Checklist</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Buying a client-supplied bathroom means confirming measurements, waste positions and technical compatibility before you order, then sequencing deliveries so long-lead items arrive first. Get the sanitaryware, brassware, tiles and furniture specification agreed with your installer before committing, not after.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Fit-only installation puts you in charge of sourcing, which is where most of the cost saving comes from — but it only works smoothly if the right things are ordered in the right order, against measurements that have actually been checked on site. This checklist is the sequence we walk clients through at survey stage, before a single item goes in a basket.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Before you order anything</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Book the survey first.</strong> <span style="color: var(--text-soft);">A £{business.pricing.surveyGBP} survey measures the actual room, checks water pressure and flow, and confirms waste and supply positions — ordering against assumed measurements is the single biggest cause of returns.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Confirm door swing and clearance.</strong> <span style="color: var(--text-soft);">Freestanding baths, large vanity units and shower enclosures all have minimum clearances — check these against the room plan, not just the floor area.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Check wall construction for concealed cisterns.</strong> <span style="color: var(--text-soft);">Frame depth and fixing method vary by model and by whether the wall is stud or solid — this needs confirming before a frame is chosen, not after it arrives.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Confirm electrical supply for shower toilets or digital showers.</strong> <span style="color: var(--text-soft);">These need a dedicated, correctly zoned electrical supply — check this is achievable in your layout before specifying the product.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What to order, and in what sequence</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Order long-lead and layout-critical items first.</strong> <span style="color: var(--text-soft);">Concealed cistern frames, shower trays, wetroom formers, baths and large format tiles often have the longest lead times and the layout can't be finalised without them.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">6</span>
+          <div><strong>Order tiles with 10% over the measured area.</strong> <span style="color: var(--text-soft);">This covers cuts, breakages and future repairs. Check the batch number is consistent across every box — different batches can show a visible shade difference once laid.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">7</span>
+          <div><strong>Confirm brassware and fixing kits are included.</strong> <span style="color: var(--text-soft);">Some ranges bundle waste traps and fixing kits, others sell them separately — check the spec sheet, since a missing kit on second-fix day stalls the programme.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">8</span>
+          <div><strong>Order furniture, mirrors and lighting last.</strong> <span style="color: var(--text-soft);">These are the least likely to affect first fix, so they can be confirmed once the room's layout and tiling plan are settled.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">9</span>
+          <div><strong>Agree a delivery schedule against the installation programme.</strong> <span style="color: var(--text-soft);">Stagger deliveries so items arrive shortly before they're needed, not weeks early — a hallway full of boxed baths and vanity units for a fortnight isn't practical in most homes.</span></div>
+        </li>
+      </ol>
+      <p class="mt-6 leading-relaxed fade-up" style="color: var(--text-soft);">
+        Once an order is placed, check every delivery against the original spec as it arrives — model number, finish code and box count — rather than waiting until installation day to open the packaging for the first time. Our guide on <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="underline">what to check when your bathroom is delivered</a> covers this in detail.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Common compatibility issues worth checking</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A surprising number of returns and delays come down to compatibility rather than damage or taste. A basin chosen for its shape may need a specific waste position that doesn't match a wall-hung frame's outlet. A large format porcelain slab may need a levelling system the tile's edge profile doesn't support. A digital shower may need a flow rate your home's water system can't deliver without a pump. None of these are reasons to avoid a product — they're reasons to confirm compatibility with your installer before paying for it.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We go through the full specification with you ahead of ordering precisely to catch this kind of mismatch early, when it costs nothing to change the plan, rather than at second fix, when it costs a delivery delay and sometimes a restocking fee.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">A simple way to keep track of your order</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most clients find a single running spreadsheet or document easier to manage than scattered order confirmation emails, especially once three or four suppliers are involved. Against each item, worth noting: the supplier, the order date, the expected delivery window, the model and finish code, whether fixing kits and wastes are included, and a column to tick off once it's been checked on arrival. It sounds like overkill for a single bathroom until the week deliveries actually start landing — a basin from one supplier, a bath from another, tiles from a third, often within days of each other.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We're happy to work from your list at survey and flag anything that looks like it might not match the room — a tap-hole configuration that doesn't suit the basin you've picked, a flush plate finish that won't match the brassware, or a carrier frame depth that needs more stud wall than the current partition allows. Catching a mismatch on paper, before an order is placed, costs nothing. Catching the same mismatch once the item is on site costs a delay.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What we flag most often at the specification stage</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Item</th>
+              <th class="text-left py-3 font-semibold">Common issue we catch before ordering</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Freestanding bath</td>
+              <td class="py-3" style="color: var(--text-soft);">Floor loading and access route width — some stone or cast-iron baths need two or more people and a clear path through doorways.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Wall-hung basin</td>
+              <td class="py-3" style="color: var(--text-soft);">Waste position against the chosen frame, and whether the basin's fixing centres match the frame's bracket spacing.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Shower tray</td>
+              <td class="py-3" style="color: var(--text-soft);">Waste position relative to existing drainage, and whether a low-profile tray needs a recessed sub-floor to sit flush.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Large format tile</td>
+              <td class="py-3" style="color: var(--text-soft);">Whether the edge profile supports a standard levelling clip system, and whether the substrate needs extra levelling first.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Digital shower</td>
+              <td class="py-3" style="color: var(--text-soft);">Minimum flow rate against your home's actual water pressure, and clearance behind the wall for the processor unit.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Returns, restocking fees and change of mind</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Bespoke or made-to-order items — a cut-to-size vanity unit, a specific stone slab, a custom shower screen — are rarely returnable once ordered, since they've been produced specifically against your measurements or finish choice, so these are the items most worth being completely certain about before confirming. Standard stocked products usually carry a more conventional returns policy, but often with a restocking fee once the item has left the warehouse, and original packaging is frequently a condition of any return being accepted at all — another reason to keep boxes intact until an item is confirmed correct and ready to fit.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        It's worth reading a retailer's returns policy before ordering rather than after a change of mind, particularly for anything with a long lead time, since a mid-order change of heart on a bespoke item can be far more costly than simply taking a little longer to be sure of the specification in the first place.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">A note on showroom visits versus buying online</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Seeing sanitaryware, tiles and brassware in person before ordering — particularly finishes like brushed brass or matt black, which photograph inconsistently between retailers and screens — remains worth the time where a showroom is practical to visit, since colour and texture are genuinely hard to judge accurately from a product listing alone. Where a showroom visit isn't practical, ordering a sample tile or a small finish swatch before committing to a full order is the next best option, and most reputable suppliers offer this specifically because they'd rather you were certain before a larger order is placed than returning it afterwards.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Concealed Cistern Installation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">Checking your delivery</a>
+        <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="btn-secondary">Fit-only vs design-and-build</a>
+        <a href="/guides/where-to-buy-bathroom-products-uk/" class="btn-secondary">Where to buy bathroom products</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Budgeting for what isn't always obvious upfront</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Beyond the headline items — suite, tiles, brassware, furniture — a handful of smaller purchases are easy to forget when putting a first budget together, and all of them have a habit of surfacing late if they're not planned for from the start. Fixing kits sold separately from sanitaryware, silicone and grout colour-matched to the chosen tile rather than a generic white, extractor fan ducting and vent covers, and extra tile adhesive if the room's actual area turns out larger once measured than first assumed from a rough sketch — none of these cost a great deal individually, but added together they can move a budget by a few hundred pounds if they're discovered at the final order rather than the first one.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We flag this kind of detail at survey specifically so it's accounted for in your initial spend plan, not so it feels like a surprise add-on once the main items have already been ordered and paid for.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Ordering for an en-suite or cloakroom versus a full family bathroom</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A small en-suite or cloakroom generally has fewer items to coordinate and a shorter lead-time critical path, since there's often no bath, no large shower tray, and a smaller tiled area — which makes it a reasonable first project if you haven't bought a bathroom before and want to get a feel for the process before tackling a larger family bathroom. A full family bathroom, by contrast, usually has more items with genuinely different lead times running in parallel — a freestanding bath, a separate shower enclosure, a larger floor area of tile, sometimes underfloor heating — so the sequencing in this checklist matters more, not less, the bigger and more complex the room.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Waste pipe sizing and sanitary pipework referenced here follow Building Regulations Part H and BS 6465 (sanitary installations). Electrical supply for shower toilets and digital showers follows Building Regulations Part P. Product-specific fixing and compatibility requirements follow manufacturer installation guidance current at the time of writing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="buying-checklist-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

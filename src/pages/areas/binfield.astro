@@ -1,0 +1,213 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How far is Binfield from your base?",
+    a: "Binfield sits immediately next to Bracknell, where we're based, so journey times are short — typically 5 to 15 minutes depending on which part of the village you're in. That makes a short-notice survey or a snagging visit easy to arrange.",
+  },
+  {
+    q: "Is Binfield mostly older housing or new estates?",
+    a: "Both. Binfield has an older village core with period cottages and farmhouses, alongside substantial newer housing estates built over recent decades as the village has grown outward from Bracknell. We treat these very differently at survey — older buildings need floor and plumbing checks that newer estate housing generally doesn't.",
+  },
+  {
+    q: "Do I need planning permission for a bathroom refit in Binfield?",
+    a: "A standard internal refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission. Some of the older parts of the village, particularly period cottages, may be listed or sit near a conservation boundary, in which case any work affecting the external fabric needs checking with the local planning authority first. We'll flag this at survey if it's relevant to your property.",
+  },
+  {
+    q: "What water pressure should I expect in Binfield?",
+    a: "It depends which part of the village your home is in. Newer estate housing is typically mains pressure via a combi or pressurised cylinder; older cottages and farmhouses can still run on older gravity-fed systems. We measure actual pressure and flow at every survey before specifying a shower.",
+  },
+  {
+    q: "Can you fit a wet room in an older Binfield cottage?",
+    a: "Usually yes, subject to checking the floor at survey. Older cottages in this part of Berkshire often have suspended timber floors, which need assessing for deflection before a wet room is tanked, and sometimes battening out or overboarding first.",
+  },
+  {
+    q: "Do you cover the newer housing developments as well as the village centre?",
+    a: "Yes, across all of Binfield — the older village core and the newer estates alike.",
+  },
+  {
+    q: "Can you match work to a wider house extension or renovation in Binfield?",
+    a: "Yes. Where a bathroom is one part of a larger extension or refurbishment, we're happy to work to someone else's programme and liaise with the builder, architect or project manager, sequencing our trades around the rest of the build.",
+  },
+  {
+    q: "How long does a typical Binfield bathroom installation take?",
+    a: "A single bathroom strip-out and refit usually runs two to three weeks depending on scope, longer where natural stone, underfloor heating or a steam shower is specified, since those need drying and curing time built into the programme. We confirm a realistic timeline at survey once we've seen the room and the products involved.",
+  },
+  {
+    q: "What does the £125 survey actually check?",
+    a: "Existing plumbing routes and condition, floor construction, electrical zoning and circuit capacity, actual water pressure and flow, and the dimensions and fixing requirements of the sanitaryware, brassware and tiles you've chosen or are considering. You get a written summary covering anything that needs resolving before products are ordered.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Binfield | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Binfield, Berkshire. Period cottages and newer estates, from £3,500. Minutes from our Bracknell base."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Binfield", href: "/areas/binfield/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Binfield</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Binfield sits right on our doorstep, just outside Bracknell, and we're there within minutes whether that's for a first survey or a quick check once products have been delivered. Our fit-only model stays the same regardless of distance: you source the sanitaryware, brassware, tiles and furniture, and we handle strip-out, first fix, tanking, tiling and the final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Binfield's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Binfield has grown considerably over recent decades, but it hasn't lost its older centre entirely — period cottages, former farmhouses and other pre-war buildings sit alongside the large housing estates that now make up the bulk of the village. These two building types need handling quite differently when it comes to a bathroom installation, and we don't apply the same assumptions to both.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The newer estate housing is generally straightforward: solid concrete ground floors, modern first-fix plumbing in a sensible layout, and mains water pressure that usually suits digital and thermostatic showers without needing a pump. The older cottages and farmhouses are a different proposition — suspended timber floors are common, walls can be solid masonry of varying thickness, and plumbing has often been altered and extended multiple times over the building's life, which means we spend longer at survey tracing what's actually behind the walls before we quote.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure follows a similar split. Estate housing built with a combi boiler or pressurised cylinder from the outset tends to deliver strong, consistent mains pressure. Older properties, particularly where no major re-plumb has taken place, sometimes still rely on a gravity-fed system with a loft tank. We test actual pressure and flow at every survey, because it's the only reliable way to know whether a digital or thermostatic shower will perform as specified, or whether a pump needs adding first.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Plot sizes also vary across the village. Estate housing tends to have more standardised room dimensions, which usually means a bathroom layout is constrained by what the original builder designed in, though a stud wall can often be moved where there's genuine benefit to doing so. Older cottages and farmhouses, by contrast, sometimes have bathrooms squeezed into converted box rooms or former sculleries, where the real limiting factor is getting a waste run to fall correctly to the existing stack rather than available floor space.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission, and that covers most of Binfield's housing. Where it can matter is on the older cottages and farmhouses near the village centre, some of which are listed or sit close to a conservation boundary. If the work would affect the external fabric of the building — a new extraction vent through an original wall, for instance — separate consent can be needed, and we'll say so plainly at survey rather than assume it's fine, pointing you to the local planning authority to confirm before anything is ordered.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why Binfield homeowners choose a fit-only installer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company marks up every product it supplies, and its range is still only ever a selection from a limited number of suppliers it has agreements with. Buying sanitaryware, brassware and tiles yourself — from a specialist showroom, a tile merchant, or direct from a manufacturer — means you're choosing from the whole market rather than one company's catalogue, and you keep control of spend on the largest line items in the project yourself.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What that model asks of the installer is a willingness to work to your specification, and the experience to spot a problem — a basin with the wrong waste size, a shower valve needing a different type of cable gland — before it becomes a costly delay. That's the discipline we've built over 30 years of fit-only installation, and being based next door in Bracknell means we can usually turn around a query or a short-notice visit quickly.
+      </p>
+    </div>
+  </section>
+
+  <!-- What fit-only looks like -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Binfield</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because you've bought the products independently, our first task at survey is checking what you've chosen against the room and against each other — waste positions, tap hole centres, support requirements for a wall-hung WC or vanity unit — before any wall is opened. Being so close to our base means we can often do this quickly and with short notice if a delivery arrives ahead of schedule.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        On site, the sequence runs strip-out, first-fix plumbing and electrics, tanking where needed, tiling set out from a true centre line so joints run through from floor to wall, then second-fix sanitaryware and brassware, followed by a final snag. We protect floors and stairs on the route in, keep the site clean at the end of every day, and agree parking and access with you before work starts — straightforward on most Binfield estate roads, and something we check in advance for the narrower lanes near the older village centre.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Most of the households we work with in Binfield are still living in the property while we're on site, so clear daily communication matters as much as the trade work itself. We agree which rooms and access routes stay usable throughout, keep genuinely noisy work — breaking out an old shower tray or chasing a wall for new pipework, for example — to sensible hours, and flag anything unexpected, such as a waste run that doesn't fall the way the original drawings suggested, as soon as we find it rather than waiting until the end of the week.
+      </p>
+    </div>
+  </section>
+
+  <!-- Standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The standards we work to</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Whichever part of Binfield a property sits in, the underlying standards are the same: waterproofing to a recognised tanking standard in any wet area, electrical work carried out and certified in line with the relevant bathroom zoning rules, and ventilation sized to actually clear moisture rather than simply satisfy a checklist. Our survey covers all three before we confirm a quote, and for anyone weighing up the full scope of a tanked wet room our guide on <a href="/guides/bathroom-tanking-and-waterproofing-standards/" style="color: var(--teal); font-weight: 600;">bathroom tanking and waterproofing standards</a> sets out what a properly tanked floor and shower area actually involves.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Binfield</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 12).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extensions and conversions -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Extensions, loft conversions and new en-suites</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A good proportion of our Binfield enquiries come from households part-way through a wider project — a rear or side extension that creates space for a new ground-floor shower room, or a loft conversion that includes an en-suite off a new principal bedroom. These projects usually mean extending plumbing runs further than the original house was designed for, and sometimes adding a macerator or small pump where gravity alone won't get waste back to the main stack.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where that applies, we size and route the system at survey with noise in mind as much as capacity — a pump serving a loft en-suite directly above a bedroom needs quieter operation and better sound insulation under the floor than one feeding a utility room or landing WC. We also check ceiling heights and roof pitch early on, since a loft shower or wet room sometimes needs the drainage point and shower head position adjusted to work within a sloped ceiling without the client having to duck under it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also cover our Bracknell base itself, as well as the neighbouring villages of Warfield and Winkfield, and further out towards Ascot. If your road sits right on a parish boundary, don't worry about which page to book from — get in touch and we'll confirm coverage before arranging a survey.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/warfield/" class="btn-secondary">Warfield</a>
+        <a href="/areas/winkfield/" class="btn-secondary">Winkfield</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="binfield-faq" />
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Binfield</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Most enquiries from Binfield's newer estates involve replacing a builder-standard three-piece bathroom suite with a walk-in shower, concealed cistern and freestanding bath, or adding an en-suite to a bedroom that never had one. In the older part of the village, projects more often involve reworking a bathroom inside a period layout — fitting modern sanitaryware and underfloor heating into a room with established floor joists and solid walls, which takes more care at first fix than a straightforward estate-house refit. We also see a steady number of downstairs cloakroom conversions on both estate and older housing, usually fitting a WC and basin into an understairs space or a small utility area for the first time. Across all of these, the same discipline applies at survey and on site: set-out from a true centre line, tanking to a recognised standard, and tap and waste positions checked against your actual products before any cutting starts.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Binfield</a>
+      <p class="mt-4 text-sm" style="color: var(--text-soft);">Serving the whole of Binfield, from the older village centre to the newer estates on its edges.</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

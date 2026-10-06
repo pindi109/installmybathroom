@@ -1,0 +1,204 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How long does it take you to get to Stoke Poges from Bracknell?",
+    a: "Around 30 minutes by road. We build this into the day's schedule as a matter of course, so it doesn't affect start times, deliveries, or how quickly we can return if a snag needs attention after practical completion. We keep a toolkit and common fixings in the van specifically so a short return visit doesn't need a full day booked out.",
+  },
+  {
+    q: "Do you install bathrooms in the large detached properties near Stoke Park?",
+    a: "Yes. Properties in this part of Stoke Poges tend to be larger detached and period houses on generous plots, and we regularly fit wet rooms, natural stone and multiple en-suites across projects of that scale.",
+  },
+  {
+    q: "Will I need planning permission for a bathroom refit in Stoke Poges?",
+    a: "A standard internal refit — new sanitaryware, tiling, electrics — doesn't normally need permission. If your property is listed, or the work changes the external fabric of the building such as a new extraction vent, separate consent can apply, and we'll flag this at survey rather than assume it's not needed.",
+  },
+  {
+    q: "What's the water pressure like in older Stoke Poges homes?",
+    a: "It varies considerably. Some larger period properties still run on a gravity-fed system with a loft header tank, while others have been upgraded to mains-fed, unvented hot water. We test actual pressure and flow at survey before specifying any digital or thermostatic shower.",
+  },
+  {
+    q: "Do older Stoke Poges houses need extra checks before large-format tiling?",
+    a: "Often, yes. Where a ground floor is suspended timber rather than solid concrete, we check deflection before specifying large-format porcelain or a tanked wet room floor, and build in additional support where needed rather than tiling straight onto the existing boards.",
+  },
+  {
+    q: "Can you coordinate with a managing agent or architect on a Stoke Poges project?",
+    a: "Yes, this is routine for us. Where a property is let, or a bathroom forms part of a wider refurbishment overseen by an architect or project manager, we coordinate directly with them on programme and access.",
+  },
+  {
+    q: "Do you offer the £125 survey before I've chosen all my products?",
+    a: "We can carry out the survey with a shortlist rather than a final order, checking the room's dimensions, plumbing and electrics against what you're considering, though a confirmed specification lets us give the most accurate programme and quote.",
+  },
+  {
+    q: "How long does a bathroom installation in Stoke Poges usually take?",
+    a: "A single bathroom strip-out and refit typically runs two to three weeks, longer where natural stone, a steam shower or underfloor heating is specified, since those trades need drying and curing time built into the programme. We confirm a realistic timeline once we've seen the room and the products at survey.",
+  },
+  {
+    q: "Can you match an installation to sanitaryware bought from several different suppliers?",
+    a: "Yes, this is the norm for most of our Stoke Poges clients, who often buy a bath from one supplier, brassware from another, and tiles from a specialist stone or porcelain merchant. We check waste sizes, tap centres and fixing requirements across all of them before strip-out starts, so nothing arrives on site as a surprise.",
+  },
+  {
+    q: "Do you fit bathrooms in garden rooms and converted outbuildings as well as the main house?",
+    a: "Yes, we regularly do. A garden room, pool house or converted outbuilding needs its own waste run back to the main drainage and, often, a dedicated hot water cylinder rather than a long pipe run from the house. We size this at survey once we know the distance involved and how the space will be used day to day.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Stoke Poges | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Stoke Poges, Buckinghamshire. Client-supplied bathrooms, from £3,500. Around 30 min from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Stoke Poges", href: "/areas/stoke-poges/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Stoke Poges</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms for homeowners across Stoke Poges, the Buckinghamshire village best known for Stoke Park and its golf and country club, close to Gerrards Cross and Slough, around 30 minutes by road from our Bracknell base. You buy the sanitaryware, brassware, tiles and furniture; we handle strip-out through to final snagging, from £{business.pricing.fromGBP.toLocaleString()}. With 30 years fitting high-end bathrooms, we're used to the scale and specification that comes with this part of Buckinghamshire.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Stoke Poges's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club giving the area its best-known identity. The housing around it ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        What generous plot size doesn't resolve on its own is the age of the plumbing. A number of the older detached houses in this part of Buckinghamshire were built, or later extended, with gravity-fed hot water systems and a header tank in the loft. Some have since been converted to mains-fed, unvented systems; others haven't. We measure actual pressure and flow at every survey rather than assuming either, because it has a direct bearing on whether a digital or thermostatic shower will perform to its specification once fitted.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor construction is the other thing we check carefully. Older properties in Stoke Poges often have suspended timber ground floors rather than a solid slab, which matters for large-format porcelain and for a tanked wet room: too much deflection under the tile can crack grout lines or stress a membrane at a joint over time. We assess this at survey and, where necessary, specify additional noggins or a rigid tile backer board rather than tiling directly onto joists and boards.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also see a reasonable number of newer, architect-designed rebuilds on older plots in this area, where an original house has been replaced entirely. These generally arrive with solid concrete floors throughout and modern first-fix plumbing already laid out sensibly, which tends to make for a more straightforward containment and waste run — even where the finished specification, a steam shower or a book-matched stone wall, say, is considerably more ambitious than the shell around it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Generous gardens in this part of Buckinghamshire also mean we're regularly asked to fit a bathroom into a garden room, pool house, or an outbuilding converted to a gym or guest annexe, as well as inside the main house. These standalone structures often need their own waste run back to the main drainage, and sometimes a dedicated hot water cylinder rather than relying on a long, slow pipe run from the house — something we size and specify at survey once we know the distance involved and how the space will be used.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated lighting and extraction — does not normally require planning permission. Where it can matter in Stoke Poges is on a listed property, or where work affects the external fabric of a building within a designated conservation area: a new mechanical extraction vent cut through an original wall, or a rooflight added for a loft en-suite, are the kinds of changes that can need separate consent. We'll say so plainly at survey if we think it applies, and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If your project touches a listed or particularly sensitive building, our guide to <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" style="color: var(--teal); font-weight: 600;">bathroom renovation in listed and conservation properties</a> covers the questions worth raising with the local authority before you finalise a layout. It's a short, practical read written for exactly this kind of property, not a generic planning overview.
+      </p>
+    </div>
+  </section>
+
+  <!-- How installation runs -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How a fit-only installation runs in Stoke Poges</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        With a fit-only project, you've already chosen and bought the sanitaryware, brassware and tiles, so our first task at survey is to check those products against the room — waste positions, tap hole centres, and the support weight needed for a wall-hung WC or vanity unit — before any wall is opened. Catching a mismatch here avoids an expensive mid-project delay later.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        From there the sequence runs strip-out and first-fix plumbing and electrics, tanking to a recognised standard where a wet room or shower area needs it, tiling set out from a true centre line so joints line through from floor to wall, then second-fix sanitaryware and brassware, and a final snag. We protect floors, stairwells and hallways throughout, keep the site tidy at the end of each working day, and work to the programme agreed at survey.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Many Stoke Poges properties are large enough that a bathroom project runs alongside family life elsewhere in the house, rather than the whole building being vacated. We sheet and board protected routes on day one, agree parking for the van and any skip in advance, and keep disruptive work — breaking out an old shower tray or bath — to sensible hours. Where a property is let or managed, we coordinate access and dates directly with the managing agent.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why Stoke Poges homeowners choose a fit-only installer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company typically marks up every product it supplies, and its showroom range — however well curated — is still a limited selection. Buying your own sanitaryware, brassware and tiles directly from specialist suppliers means you aren't restricted to one company's stock, and you keep control of the budget on the most expensive line items yourself, which matters more the larger and more ambitious the specification becomes.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What that model needs from the installer is a team comfortable working to someone else's product specification, and confident enough to flag a problem — a tap with the wrong reach for a basin, a shower valve needing a different cable gland — before it turns into an expensive change once walls are open. That's the model we've worked to for 30 years, and most of our Stoke Poges clients already hold a shortlist or a confirmed order before they ever book a survey. It also means the quote you get from us covers labour, materials for first-fix and finishing, and waste removal — not a product margin baked into a bundled price.
+      </p>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Stoke Poges</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Enquiries from this area tend to cluster around a few recognisable projects: a principal en-suite upgraded from a dated three-piece suite to a walk-in shower, concealed cistern and double vanity; a multi-bathroom refurbishment running across a whole house in sequence; and the addition of a wet room or steam shower where space and budget allow it. Natural stone, large-format porcelain and freestanding baths come up regularly given the scale of the properties involved.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Whatever the brief, the installation discipline stays the same — set-out from a true centre line so joints line through consistently from floor to wall, tanking to a recognised standard behind any tiled shower or wet room, and every tap and waste position checked against the actual products before we cut anything. We'd rather spend an extra hour confirming a dimension at first-fix than discover a mismatch once tiles are on the wall.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Stoke Poges</h2>
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        We cover the full range of fit-only bathroom work in Stoke Poges, from a single cloakroom refit through to a wet room, steam shower or natural stone installation spanning several rooms.
+      </p>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(2, 14).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install bathrooms in neighbouring areas including Gerrards Cross, Windsor and our Bracknell base, and we're glad to discuss projects just outside these pages — the survey and installation standard don't change from one village to the next. The wider Buckinghamshire and Berkshire commuter belt around Stoke Poges shares much of the same mix of large detached houses, generous plots and older plumbing systems, so the checks we carry out at survey tend to look familiar whichever of these villages a project sits in.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/gerrards-cross/" class="btn-secondary">Gerrards Cross</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="stoke-poges-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Stoke Poges</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

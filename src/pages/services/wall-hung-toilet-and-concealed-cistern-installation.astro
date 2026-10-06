@@ -1,0 +1,252 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Wall-Hung Toilet and Concealed Cistern Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What's inside the wall behind a wall-hung toilet?",
+    a: "A carrier frame — a steel or reinforced frame bolted to the floor and wall that actually bears the weight, with the cistern mounted inside it. The toilet pan simply hangs on brackets fixed to that frame, not on the plasterboard or tiling.",
+  },
+  {
+    q: "How much weight can a wall-hung toilet take?",
+    a: "A correctly installed carrier frame is rated well in excess of normal domestic use, typically 400kg or more, because the load path goes through the frame into the floor and wall structure rather than relying on the finished wall surface at all.",
+  },
+  {
+    q: "Can you access a concealed cistern if it needs a repair later?",
+    a: "Yes — every concealed cistern has an access panel, either the flush plate itself or a separate inspection panel, positioned and sized at installation so a plumber can reach the valve and mechanism without removing tiles.",
+  },
+  {
+    q: "How much of a false wall or duct is needed for a carrier frame?",
+    a: "Most frames need around 150–200mm of depth once finished, which is built as a stud duct or block wall in front of the original wall — this needs planning into the room layout at survey, since it does reduce usable floor area slightly.",
+  },
+  {
+    q: "Is a wall-hung toilet easier to clean than a floor-standing one?",
+    a: "Yes — the gap beneath the pan means no base trapping dirt and grime at floor level, which is part of why wall-hung units are now the standard choice in higher-end bathroom fit-outs.",
+  },
+  {
+    q: "Can an existing floor-standing toilet be converted to wall-hung?",
+    a: "Generally yes, provided there's a wall available to build the carrier duct against and the waste route still works with the new pan height — this is assessed at survey rather than assumed possible in every layout.",
+  },
+  {
+    q: "What happens if the flush mechanism fails years after installation?",
+    a: "Most concealed cisterns are designed for the flush valve and fill mechanism to be replaceable through the access panel alone, without disturbing tiling or the carrier frame — one of the main advantages of a quality carrier system over a cheaper alternative, and worth checking before you choose a specific product.",
+  },
+  {
+    q: "Do all wall-hung pans fit all carrier frames?",
+    a: "No — fixing centres and the pan's waste outlet position vary between manufacturers, so the frame and pan need to be confirmed as compatible before either is ordered. We check this against the manufacturer's specification at survey rather than assuming cross-brand compatibility.",
+  },
+  {
+    q: "How long does a typical wall-hung toilet and cistern conversion take?",
+    a: "On its own, allow around 3–5 days for the frame, duct build, tiling and pan fitting once drainage and wall condition are confirmed. It's rarely installed in isolation though, so timing is usually folded into the wider bathroom or cloakroom programme.",
+  },
+];
+---
+
+<Base
+  title="Wall-Hung Toilet &amp; Concealed Cistern Installation | Install My Bathroom"
+  description="Fit-only wall-hung toilet and concealed cistern installation across Bracknell and Berkshire. Carrier frame, access panel and precise set-out. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Wall-Hung Toilet & Concealed Cistern Installation", href: "/services/wall-hung-toilet-and-concealed-cistern-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Wall-Hung Toilet &amp; Concealed Cistern Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A wall-hung toilet looks weightless because the real structure is hidden — a steel carrier frame bolted into the floor and wall, bearing the load the pan only appears to carry on its own. Get the frame and duct wrong and no amount of careful tiling fixes it later. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's now the standard specification in almost every higher-end bathroom we fit, for the simple reason that the gap beneath the pan makes the floor easier to clean and the room look less cluttered — but that clean look depends entirely on structural work most clients never see. We're asked about this installation at least as often as any single other item on a bathroom specification, usually because clients have seen it in a hotel or showroom and want the same uncluttered feel at home.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A concealed cistern installation is really two jobs in one — a structural frame that has to be fixed correctly first time, and a finished duct face that needs to look seamless once tiled. We treat both with equal care, since a mistake in either shows up eventually.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Carrier frame installation, bolted to the floor and to a solid wall or noggin, not reliant on the finished surface</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Concealed cistern fitting inside the frame, with supply and waste connected and pressure-tested</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Stud or block duct built in front of the frame, sized correctly for the cistern and access panel</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Set-out of pan height and projection to match the specified model before tiling closes the duct</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tiling of the duct face, with the flush plate or access panel positioned and sealed cleanly</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Pan fitting onto the frame brackets, with a load check before final sealing</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Flush mechanism test and snagging walkthrough, confirming access panel operation</li>
+      </ul>
+      <p class="leading-relaxed mt-6" style="color: var(--text-soft);">
+        Where a bidet function, shower toilet seat or other electrical accessory is specified alongside the pan, we also coordinate the additional supply and electrical work needed within the same duct, so nothing needs opening up again later. This kind of coordination is one of the genuine advantages of planning the whole room as one project, rather than separate trades each solving their own piece of the job in isolation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Available duct depth, floor and wall fixing points, and waste route are checked against the frame and pan you're considering.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the frame, cistern, pan and flush plate.</strong> <span style="color: var(--text-soft);">We confirm the frame model is compatible with the pan's fixing centres before you buy — not every pan fits every frame.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Frame installation and first fix.</strong> <span style="color: var(--text-soft);">Frame bolted in, cistern connected and pressure-tested, duct built around it to the confirmed depth.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tiling and access panel.</strong> <span style="color: var(--text-soft);">Duct face tiled, flush plate and access panel set in cleanly for future serviceability without disturbing the tiling.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Pan fitting and snagging.</strong> <span style="color: var(--text-soft);">Pan hung on the frame brackets, flush tested, load checked, final walkthrough with you present.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The carrier frame is fixed to the structural floor and to a solid wall or a noggin built specifically for that purpose, rated well beyond normal domestic loading. Pan fixing centres and projection depth are checked against the frame manufacturer's specification before the duct is closed up, because a mismatch only becomes visible — expensively — once the tiling is finished. The cistern is pressure-tested before the duct face is tiled over, and the access panel is positioned so a future repair needs no retiling at all.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where the carrier sits against a party wall or a wall shared with a living space, we take basic steps to reduce flush noise transmission, discussed at survey if it's relevant to your layout.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The duct itself is built to a consistent, checked depth across its full width, not just at the points where the frame sits — an uneven duct depth is a common cause of a tile line that doesn't sit flush with the surrounding wall once finished.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        We also check the cistern's internal volume calibration before closing the duct, confirming the dual-flush markings correspond to a genuinely different water volume rather than a cosmetic button split — a detail that matters for households conscious of water usage and increasingly relevant given ongoing supply pressures in parts of the region.
+      </p>
+    </div>
+  </section>
+
+  <!-- Choosing a frame and cistern -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Choosing a frame, cistern and flush plate</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Carrier frames vary in duct depth requirement, floor-fixing versus floor-and-wall-fixing design, and maximum load rating — some are better suited to a stud partition wall, others need a solid masonry wall to anchor into properly. The cistern itself varies in flush volume options, typically dual-flush with a reduced-volume option for water efficiency, and in how the fill valve and flush mechanism are serviced through the access panel.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Flush plates range from simple dual-button designs to larger panel-style plates and, increasingly, sensor-operated or app-connected options. Each has different access panel size requirements, so the plate needs choosing before the duct opening is finalised, not after tiling has already set the opening size.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Sensor and app-connected flush plates need a power supply routed to the duct at first fix, usually a low-voltage transformer rather than mains directly at the plate — a detail worth confirming at survey if you're considering this type of plate, since it changes what first-fix electrical work is needed before the duct is closed up.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Our <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="underline" style="color: var(--teal);">Geberit vs Grohe concealed cisterns</a> comparison covers the two most common systems we fit and where they genuinely differ in practice, beyond marketing claims.
+      </p>
+    </div>
+  </section>
+
+  <!-- Converting from floor-standing -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Converting from a floor-standing toilet</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most of the conversions we carry out start from an existing floor-standing close-coupled toilet, where the cistern sits visibly on the back of the pan. Converting to a wall-hung, concealed arrangement means losing that visible cistern and gaining a false wall or duct in its place — typically somewhere between 120mm and 200mm of additional depth depending on the frame chosen, which reduces the room's floor area by a modest but real amount.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        In a small cloakroom or compact en-suite, this reduction matters more than in a larger family bathroom, so we'll always measure the actual available depth at survey and confirm whether a slimmer frame option exists that still meets the weight and access requirements — some ranges offer a reduced-depth frame specifically for tighter rooms, at a modest trade-off in access panel size.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The waste route also needs checking during a conversion — a floor-standing toilet typically uses a different outlet height and position to a wall-hung pan, so the soil pipe connection is usually adjusted as part of the first-fix work rather than assumed to line up without any changes.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        On an older property, we sometimes find the existing soil stack itself is undersized or in poor condition once the floor is opened up — not something visible until the old fittings are removed. We'll always tell you straight away if this turns up, along with a clear cost and time impact, rather than quietly working around a problem that should be fixed properly while the floor is already open.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The carrier frame, cistern, pan, seat and flush plate are bought by you — see our <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="underline" style="color: var(--teal);">Geberit vs Grohe concealed cisterns</a> guide and our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide. Confirm pan and frame compatibility before ordering either separately — fixing centres differ between manufacturers, and a pan that doesn't match the frame is a problem discovered only once the duct is already built.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If a shower toilet or bidet function is being specified instead of, or alongside, a conventional pan, check our <a href="/guides/toto-vs-geberit-shower-toilets/" class="underline" style="color: var(--teal);">Toto vs Geberit shower toilets</a> comparison before ordering, since these units have additional power and water supply requirements that need confirming at survey ahead of first fix.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        It's worth checking the flush plate finish against your taps and towel radiator before ordering — chrome, brushed nickel, matte black and brass finishes are all common now, and a mismatched finish on the one fitting positioned at eye height on the wall is more noticeable than most people expect once the room is finished.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+        <a href="/services/bidet-installation/" class="btn-secondary">Bidet Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="btn-secondary">Geberit vs Grohe concealed cisterns</a>
+        <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed cisterns explained</a>
+        <a href="/guides/toto-vs-geberit-shower-toilets/" class="btn-secondary">Toto vs Geberit shower toilets</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="wall-hung-toilet-and-concealed-cistern-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

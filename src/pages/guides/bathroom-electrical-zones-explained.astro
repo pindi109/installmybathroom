@@ -1,0 +1,250 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Electrical Zones Explained",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Can I have a socket in my bathroom?",
+    a: "A standard 13A socket isn't permitted within the zoned area around a bath or shower, but one can usually be fitted further away, outside the zones, subject to minimum distance from any water source. A shaver socket, which is current-limited, is treated differently and can go closer.",
+  },
+  {
+    q: "What IP rating do bathroom light fittings need?",
+    a: "It depends on the zone. Fittings directly above a bath or shower, or inside an enclosure, need a higher water-resistance rating than fittings mounted well away from any water source — your electrician specifies the correct rating for each fitting's exact position.",
+  },
+  {
+    q: "Does a heated towel radiator need special electrical consideration?",
+    a: "If it's electric or dual-fuel, yes — its position relative to the bath or shower determines whether it can be a fixed, permanently wired appliance in that location or whether it needs to sit outside the zoned area.",
+  },
+  {
+    q: "Can I install bathroom lighting myself?",
+    a: "Work within the zoned areas around a bath or shower is notifiable electrical work under Part P and needs to be carried out or certified by a competent, registered electrician. We coordinate this as part of every installation that includes new electrics.",
+  },
+  {
+    q: "Does zoning apply to a wet room the same way as a standard bathroom?",
+    a: "Yes, though in a wet room with no enclosure, the zoned area can extend further across the room since there's no fixed shower tray or screen defining its boundary — your electrician assesses the actual layout, not just the room type.",
+  },
+  {
+    q: "What happens if an existing bathroom has a socket or fitting in the wrong place?",
+    a: "It's flagged at survey and corrected as part of the works where it falls within the scope — older bathrooms, particularly in period properties, were sometimes wired before current zoning rules existed, and bringing it up to standard is part of doing the job properly.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Electrical Zones Explained | IMB"
+  description="How bathroom electrical safety zones work — what's permitted near a bath or shower, and why IP ratings and positioning matter under Part P and BS 7671."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Electrical Zones", href: "/guides/bathroom-electrical-zones-explained/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Electrical Zones Explained</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          UK bathrooms are divided into zones based on distance from a bath or shower, each with its own rules on what electrical equipment can be fitted and what water-resistance rating it needs. Zone 0 is inside the bath or shower itself; Zone 1 is the space directly above it; Zone 2 extends a short distance beyond that. Anything closer to water needs a higher IP rating and, in most cases, lower voltage.
+      </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Electrical zoning in bathrooms exists for an obvious reason — water and mains electricity are a genuinely dangerous combination, and the closer a fitting sits to a bath, basin or shower, the more protection it needs against moisture and the more restricted the voltage and current it can safely carry. It's the reason you'll never find a standard socket beside a bath, why a specific downlight is rated for use directly above a shower while a similar-looking one from a different range isn't, and why the position of a towel radiator, mirror cabinet or shower toilet matters as much as the product itself.
+      </p>
+    </div>
+  </section>
+
+  <!-- Zones table -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">The zones, in practical terms</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Zone</th>
+              <th class="text-left py-3 pr-4 font-semibold">Roughly where it covers</th>
+              <th class="text-left py-3 font-semibold">What it means in practice</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Zone 0</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Inside the bath tub or shower tray itself</td>
+              <td class="py-3" style="color: var(--text-soft);">The highest water-resistance rating applies; only low-voltage, purpose-designed equipment is permitted here</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Zone 1</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">The space directly above the bath or shower, up to a set height</td>
+              <td class="py-3" style="color: var(--text-soft);">Fittings need a high water-resistance rating; most shower-rated lights and extractor fans are designed for this zone</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Zone 2</td>
+              <td class="py-3" style="color: var(--text-soft);">A band extending a short distance beyond Zone 1, and around a basin</td>
+              <td class="py-3" style="color: var(--text-soft);">Moderate water-resistance rating required; still no standard socket permitted</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Outside the zones</td>
+              <td class="py-3" style="color: var(--text-soft);">The remainder of the room, beyond the zoned distance from any water source</td>
+              <td class="py-3" style="color: var(--text-soft);">Standard fittings and sockets can generally be used, subject to minimum distance rules and RCD protection</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-6 text-sm fade-up" style="color: var(--text-soft);">
+        Exact zone boundaries and permitted equipment depend on the specific layout of your bathroom and are assessed by a registered electrician against current wiring regulations — this table is a practical overview, not a substitute for that assessment.
+      </p>
+    </div>
+  </section>
+
+  <!-- What falls where -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What typically falls into each zone</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Digital and smart shower controllers, if their control panel sits inside or close to the enclosure, are specified and positioned to the relevant zone's requirements — this is one of the reasons we confirm exact fitting positions at survey rather than letting a client fix a screen position independently once the room is tiled. Shaver sockets are an exception to the general ban on sockets near water, since they're current-limited by design, but even these have a defined minimum distance from a bath or basin.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Heated towel radiators, illuminated mirror cabinets, underfloor heating thermostats and shower toilet fused spurs all need their position checked against the zoned areas before first fix — not an afterthought once the room is tiled and the only remaining wall space happens to be inside Zone 1.
+      </p>
+    </div>
+  </section>
+
+  <!-- IP ratings explained -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What IP ratings actually mean</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        An IP rating is two digits following the letters "IP" — the first indicates protection against solid objects and dust, the second against moisture and water ingress. A light fitting rated for Zone 1, directly above a shower, needs a higher second digit than one rated only for use outside the zones, reflecting its ability to withstand direct water spray rather than just occasional splashing. The two digits aren't interchangeable with a general sense of "waterproof" — a fitting rated for driving rain outdoors isn't automatically suitable for a steam-filled Zone 1 position, since the conditions and the relevant parts of the standard differ.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We select fittings against the specific zone they'll actually sit in once the room is finished, cross-checked against the manufacturer's stated rating for that product, rather than assuming a "bathroom-rated" label on packaging is sufficient on its own — ratings vary meaningfully between products marketed broadly as suitable for wet rooms.
+      </p>
+    </div>
+  </section>
+
+  <!-- RCD protection -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">RCD protection and why it matters alongside zoning</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Zoning governs where equipment can go and what rating it needs; residual current device protection is a separate, complementary layer that cuts power rapidly if current starts flowing somewhere it shouldn't — through a person, for instance, rather than through the intended circuit. Circuits supplying bathroom equipment are required to have RCD protection specifically because the combination of water and electricity reduces the body's natural resistance, making a fault more dangerous than the same fault elsewhere in the house. Both layers — correct zoning and RCD protection — are checked and certified together as part of any notifiable electrical work in a bathroom, not treated as alternatives to each other.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Zoning in period and older properties</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Older bathrooms, particularly in properties renovated before current zoning rules existed, sometimes have sockets, light switches or fittings positioned in locations that wouldn't be permitted under today's regulations — a pull-cord switch where a wall switch now sits too close to a basin, for instance, or a socket within what would now be classed as Zone 2. Finding this during a survey isn't unusual, and it's treated as part of bringing the room up to current standard as part of the works, rather than as a separate problem to solve afterwards. We'd rather flag it and correct it as part of a planned installation than leave it in place because it predates the current rules.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        This is one of several reasons a full rewire of the room's electrics, even where some existing wiring looks serviceable, is often the more sensible approach on an older property rather than attempting to work around legacy positions that no longer meet today's zoning and protection requirements.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Bathroom zoning, IP rating requirements and permitted equipment referenced here follow BS 7671 (the IET Wiring Regulations) and Building Regulations Part P, which governs notifiable electrical work in UK dwellings including bathrooms. All zoned electrical work on our projects is carried out or signed off by a registered, competent electrician.
+      </p>
+    </div>
+  </section>
+
+  <!-- Who signs off the work -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Who actually signs off bathroom electrical work</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Notifiable electrical work in a bathroom needs either carrying out by an electrician registered with a competent person scheme, who self-certifies the work and notifies building control directly, or carrying out by someone else and then separately inspected and certified by a registered electrician before use. Either route satisfies the regulations, but the paperwork trail differs, and you're entitled to see the certificate for any notifiable work completed in your home — it's worth keeping safe alongside other home improvement documentation, since it's often asked for when a property is sold.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        We coordinate this as standard on every installation that includes new bathroom electrics, so the certificate exists and is handed to you at the end of the project rather than being something you have to chase up separately afterwards.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why zoning decisions are made before first fix, not during tiling</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Every fitting position in a bathroom — a light, a towel radiator, a shaver socket, a thermostat for underfloor heating — has to be agreed against the zoned layout before cables are run and chased into walls, because moving a position once the wall is tiled means breaking back into finished work rather than simply adjusting a drawing. This is one of the reasons we walk through the full lighting and electrical layout with you at survey, position by position, rather than leaving fitting positions to be decided once the room is partway through construction, when the zoned areas are far less forgiving of a late change of mind.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        It's also why we ask for your product specification — including anything electrical, such as a shower toilet, illuminated mirror or digital shower — as early in the process as possible, since each of these has its own exact positioning requirements that need to be known before, not after, the electrician has already been and gone.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+        <a href="/services/mirrored-cabinets-and-illuminated-mirrors/" class="btn-secondary">Mirrored Cabinets &amp; Illuminated Mirrors</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/electric-vs-wet-underfloor-heating/" class="btn-secondary">Electric vs wet underfloor heating</a>
+        <a href="/guides/shower-toilets-explained/" class="btn-secondary">Shower toilets explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Smart and digital equipment -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Smart and digital equipment within the zones</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A growing number of bathroom products now carry some form of electronics — digital shower processors, illuminated mirrors with demister pads and Bluetooth speakers, smart thermostats for underfloor heating — and each needs assessing on its own merits against the zone it will actually sit in, rather than assumed safe simply because it's marketed as a "smart bathroom" product. Manufacturers generally state clearly which zones a given product is rated for, but it's the installer's job to confirm the product chosen actually matches the specific position it's going into in your room, not just that a similar-sounding product exists somewhere in the zone-rated range.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="electrical-zones-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

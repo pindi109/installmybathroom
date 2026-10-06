@@ -1,0 +1,171 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Do you cover the newer estates in Warfield as well as the older village area?",
+    a: "Yes. We fit in both the established village core around Warfield and the newer residential estates that have grown up around it, including Warfield Park and the surrounding developments.",
+  },
+  {
+    q: "Is a bathroom in a newer Warfield house any different to fit than one in an older property?",
+    a: "The groundwork is usually more straightforward — newer homes tend to have solid concrete floors and modern stud partitions, which suits large-format tiling and wet rooms well. Older properties nearby can have timber floors that need checking for deflection before tiling, which we assess at survey either way.",
+  },
+  {
+    q: "Do I need planning permission for a bathroom refit in Warfield?",
+    a: "A standard like-for-like bathroom refit doesn't normally need planning permission. It becomes relevant only if work affects the external fabric of the building — a new extraction vent through an outer wall, for example — and we'll flag that at survey if it applies to your property.",
+  },
+  {
+    q: "What's the water pressure like in Warfield?",
+    a: "It depends on the property and its age — newer estate homes are usually on mains pressure throughout, while some older houses nearby may still run partly on a gravity-fed system. We test actual pressure and flow at survey before specifying any shower.",
+  },
+  {
+    q: "How far is Warfield from your Bracknell base?",
+    a: "Around 10 minutes by road — Warfield sits immediately adjacent to Bracknell, so access and material deliveries are straightforward.",
+  },
+  {
+    q: "Can you work to a tight programme if we're coordinating with other trades in Warfield?",
+    a: "Yes, we regularly sequence our fit around other trades — electricians, plasterers, flooring contractors — and will agree a clear programme with you before we start on site.",
+  },
+  {
+    q: "Do I need all my bathroom products on site before you start in Warfield?",
+    a: "Ideally yes, or at least ordered with confirmed delivery dates. We plan delivery timing against the installation programme at survey so nothing holds up the job, and we'll flag any item that looks like a risk to the schedule before work begins.",
+  },
+  {
+    q: "Does a Warfield bathroom need Building Regulations sign-off as well as the fit itself?",
+    a: "A bathroom fitted within the existing footprint doesn't usually trigger a separate Building Regulations application, though the electrical and ventilation work within it must still meet current standards. If your bathroom is part of a loft conversion or extension, that wider project will have its own Building Regulations approval, which sits apart from our installation work.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Warfield | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Warfield, Berkshire. Village and newer estate homes, from £3,500. 10 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Warfield", href: "/areas/warfield/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Warfield</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms across Warfield, a village and surrounding residential area just outside Bracknell, around 10 minutes from our base. You choose and buy the sanitaryware, brassware and tiles; we handle everything from strip-out to final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Warfield's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Warfield has an older village core — a scattering of period cottages and farmhouses around the church and high street — alongside substantial later development, including the Warfield Park area and other estates built from the latter part of the twentieth century onwards. The mix means we see two quite different sets of conditions on site: newer houses with solid floors, modern partition walls and straightforward service runs, and older properties where floor construction, wall thickness and existing pipework need a closer look before any work is priced.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        For the newer estate homes, the main variables are usually layout and first-fix routing — where the soil stack sits relative to a new WC position, or whether a stud wall can take a wall-hung frame and concealed cistern without additional bracing. For the older cottages and farmhouses, we're more likely to be checking suspended timber floors for deflection before specifying large-format porcelain, and tracing existing pipe runs that may not match what's shown on any plan.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Water pressure follows a similar split. Most of the newer housing is on consistent mains pressure throughout, which suits digital and thermostatic showers without complication. Some of the older properties nearby can still have a header tank and a gravity-fed hot water circuit, even where the cold mains itself is strong — so we measure pressure and flow at every survey rather than assuming either way.
+      </p>
+    </div>
+  </section>
+
+  <!-- Water pressure -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Water pressure and plumbing in Warfield</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A fair amount of Warfield's newer housing runs on a combination boiler or an unvented cylinder feeding strong, consistent mains pressure throughout the property, which is exactly what a digital or thermostatic shower needs to perform as specified. Some of the older cottages and farmhouses nearer the original village centre still have a vented cylinder fed from a cold water tank in the loft — a leftover of an older gravity-fed layout — even where the incoming mains supply itself is perfectly adequate. The two systems need different shower specifications, so we test actual pressure and flow at survey rather than inferring it from the age or style of the house.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Warfield</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because you supply the bathroom and we supply the labour, a precise specification matters more than it would on a supply-and-fit job — we confirm dimensions and fixing centres against the products you've actually bought before anything arrives on site, rather than against a generic layout. On most of Warfield's newer estate housing this is straightforward, since the plumbing and drainage are set out to a fairly standard pattern; on older village properties, or where a bathroom is being reconfigured into a different footprint, we check that your chosen furniture and sanitaryware will genuinely fit before you commit to an order.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On site we protect flooring, stairs and hallways with boards and sheeting for the duration of the job, work to the programme agreed at survey, and leave the property clean and tidy at the end of each day — particularly important where we're fitting around other trades on a wider renovation or extension.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — doesn't normally require planning permission, regardless of the age of the property. Where it can matter is if the work affects the external fabric of the building, such as a new extraction vent cut through an outer wall, particularly on the older village properties. If that applies to your home, we'll say so clearly at survey stage and point you to the local planning authority to confirm before any materials are ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a bathroom forms part of a larger project — a loft conversion adding an en-suite, or an extension housing a new ground-floor shower room — Building Regulations approval covering ventilation, electrical safety zones and drainage will usually apply even when planning permission itself doesn't. That approval sits separately from our installation work, but we'll always say plainly if we think your project needs sign-off beyond the bathroom fit, so it can be arranged before work starts.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Warfield</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in the surrounding villages and towns, including our Bracknell base, Binfield, and Winkfield.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
+        <a href="/areas/winkfield/" class="btn-secondary">Winkfield</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="warfield-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        A £{business.pricing.surveyGBP} survey gets a qualified installer out to your Warfield property to measure the room, check floor and wall construction, test water pressure and confirm what your chosen products need for a correct installation. You'll come away with an itemised quote and a realistic start date.
+      </p>
+      <a href="/survey/" class="btn-primary">Book a Survey in Warfield</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,173 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "What's the difference between fitting a TOTO Washlet and a Neorest?",
+    a: "A Washlet is an electronic seat added to a separate pan, so it needs the usual electrical and water tee at the pan position. A Neorest is a fully integrated one-piece unit — pan, cistern and wash function built as a single floor-standing fixture — so it's set directly on a prepared waste and supply outlet rather than hung on a carrier frame.",
+  },
+  {
+    q: "Does a Neorest need a carrier frame like a wall-hung WC?",
+    a: "No. Most Neorest models are floor-standing, one-piece units that connect to a floor or wall waste outlet and a water supply, with no concealed cistern frame involved. The waste position and floor level still need confirming against the unit's template before the floor finish goes down.",
+  },
+  {
+    q: "What electrical supply does a TOTO shower toilet need?",
+    a: "A dedicated, correctly zoned fused electrical connection run to the unit's position, installed before the floor or wall finish is complete. We confirm the exact connection point against the specific model's installation manual at survey.",
+  },
+  {
+    q: "Does CeFiONtect glaze change how the ceramic should be handled during fitting?",
+    a: "CeFiONtect is a glaze finish designed to reduce particle adhesion for easier cleaning — it doesn't change handling requirements on site. The ceramic still needs protecting from impact in exactly the way any fine glazed surface does, so packaging stays on until final fix.",
+  },
+  {
+    q: "What should I check when my TOTO order is delivered?",
+    a: "Check the model number and waste outlet position (back-to-wall, close-coupled or floor outlet) match what was surveyed, confirm the fused electrical connection kit and remote are included with Washlet or Neorest units, and inspect the ceramic for transit chips before we begin fitting.",
+  },
+  {
+    q: "Will low water pressure stop a Neorest from working properly?",
+    a: "The wash function needs adequate dynamic pressure to perform as designed, even though the standard flush doesn't. We measure pressure at the proposed supply point at survey, and flag any property where a boost may be needed before the unit is ordered.",
+  },
+];
+---
+
+<Base
+  title="TOTO Installation | Install My Bathroom"
+  description="Installation of TOTO Washlet and Neorest shower toilets and sanitaryware across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "TOTO", href: "/brands/toto/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">TOTO Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        TOTO's Washlet and Neorest ranges are among the most technically involved products we fit, because the electronics sit inside the fixture rather than bolted on afterwards. A Washlet seat adds to a conventional pan; a Neorest is a single integrated unit that replaces the pan, cistern and seat entirely. The two have different structural and electrical requirements, and knowing which one you've ordered changes how the room is first-fixed.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.totoeurope.com/" target="_blank" rel="noopener" class="btn-secondary">Visit TOTO →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Washlet electronic bidet seats fitted to a compatible pan, and Neorest fully integrated shower toilets, which combine the pan, cistern and wash function as one floor-standing fixture with no visible flush plate or frame. We also fit TOTO's standard ceramic WC pans, basins and washbasin ranges finished in CeFiONtect glaze, specified by clients either as a full suite or alongside sanitaryware from other manufacturers.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        TOTO's catalogue in the UK leans heavily toward the shower toilet side of the business — Washlet and Neorest account for most of the orders we see — with basin and furniture ranges typically specified in smaller quantities alongside them rather than as standalone suites.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        It's common for a client to specify a TOTO Neorest as the centrepiece of an en-suite and pair it with sanitaryware, brassware and tiling from entirely different manufacturers. We treat the Neorest's requirements as the fixed point in the room's first fix — its waste outlet, electrical supply and water tee are set first, to its own template, with everything else in the room planned around that position.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Dedicated electrical supply:</strong> a fused, correctly zoned connection run to the unit's exact position before the wall or floor finish is complete — essential for both Washlet and Neorest.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water supply tee:</strong> a dedicated isolation valve off the WC's water line, positioned to the manufacturer's specified clearance from the unit.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste outlet position:</strong> Neorest units are floor-standing and connect to a prepared waste outlet rather than a carrier frame — the outlet position and floor level are set before the floor finish goes down, to the unit's own template.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Floor loading and level:</strong> a one-piece Neorest is heavier than a conventional pan and needs a level, solid floor fixing — we check sub-floor condition at survey, particularly on older timber floors.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> wash function performance depends on adequate incoming flow, measured at survey against the specific model's minimum requirement.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        TOTO units are precision electronic fixtures, so the delivery check is more involved than for standard ceramic sanitaryware. We confirm the model number and waste configuration (back-to-wall, close-coupled or floor outlet) match what was agreed at survey, check the electrical connection kit, remote control and all mounting hardware are present, and inspect the CeFiONtect glaze for transit chips under raking light before fitting starts.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Because Neorest units arrive as a single heavy, boxed fixture rather than separate parts, we also check the packaging for impact damage along the base and rear panel — a knock in transit can crack the internal plumbing manifold without visibly marking the outer casing, so we test the unit's function before the room is considered finished and the packaging is disposed of.
+      </p>
+    </div>
+  </section>
+
+  <!-- Electrical and water considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Electrics, water zones and sequencing</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Both Washlet and Neorest units sit in a wet environment next to a mains electrical connection, so the supply has to comply with the bathroom electrical zones set out in BS 7671 — the right zone, the right IP rating of connection, and RCD protection on the circuit. We plan this at first fix, before plastering or tiling closes the wall, because moving a fused spur after the room is finished means opening the wall or floor back up.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Sequencing matters just as much on the water side. A Neorest's supply and waste positions are fixed by the unit's own template, which we work to before the floor finish is laid — large-format porcelain or natural stone flooring, in particular, needs the outlet position confirmed to the millimetre before tiles are cut, since repositioning after tiling means recutting the floor.
+      </p>
+    </div>
+  </section>
+
+  <!-- Water pressure -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Water pressure and servicing access</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The wash function on a Washlet or Neorest is pressure-dependent in a way that a standard flush isn't. We measure static and dynamic pressure at the proposed supply point during survey, because a property on a gravity-fed system or at the end of a long run from the stopcock can fall short of what the manufacturer specifies for the wash cycle, even if the standard toilet flush works perfectly well on the same supply. Where pressure is marginal, we discuss options — a pressure-boosting pump or confirming the mains supply route — before the unit is ordered, rather than after it's delivered and found not to perform as expected.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Access for servicing is the other detail worth planning early. Both ranges have a filter and internal components that need periodic cleaning or replacement, reached from the rear or underside of the unit rather than through a separate access panel. We leave clearance to the walls either side of a Neorest, and avoid boxing the unit in with fixed furniture, so a future service visit doesn't mean disassembling joinery.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's TOTO fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The most common fault we're called to correct is a Neorest fitted on a waste outlet positioned for a standard pan rather than to the unit's own template, leaving the unit slightly off-centre against the tiled floor pattern or skirting line. The second is an electrical supply run after the floor was finished, resulting in a visible surface-mounted cable or conduit where a concealed run was intended.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both come down to treating a Neorest like a conventional WC during first fix, when it's closer in planning terms to a piece of integrated appliance plumbing. We confirm the exact model's template, waste position and electrical zone requirements before any floor or wall finish is laid.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for TOTO; we install client-supplied TOTO products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+      <a href="/guides/toto-vs-geberit-shower-toilets/" class="btn-secondary">TOTO vs Geberit Shower Toilets</a>
+      <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom Electrical Zones Explained</a>
+      <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water Pressure Explained</a>
+      <a href="/brands/geberit/" class="btn-secondary">Geberit Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="toto-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

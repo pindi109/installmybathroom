@@ -1,0 +1,94 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const bands = [
+  {
+    label: "From £3,500",
+    desc: "A straightforward fit-only installation: existing layout kept, no waste positions moved, mid-market sanitaryware and porcelain tiling to a standard wet area.",
+  },
+  {
+    label: "£10,000–£25,000",
+    desc: "A full re-fit with some repositioning — typically a new shower enclosure replacing a bath, updated electrics, and a higher tile specification across a larger floor and wall area.",
+  },
+  {
+    label: "£25,000–£50,000",
+    desc: "Layout changes with moved waste and supply runs, a wet room or large walk-in shower with full tanking, underfloor heating, and a mix of porcelain and natural stone.",
+  },
+  {
+    label: "£50,000–£100,000",
+    desc: "A high-specification suite with natural stone throughout, a freestanding bath, shower toilet, digital shower, and coordinated electrical and structural work to support the products chosen.",
+  },
+  {
+    label: "£100,000+",
+    desc: "Multiple wet areas, bespoke stone fabrication and fitting, steam room or steam shower installation, and the kind of services coordination that comes with a wider renovation running alongside the bathroom.",
+  },
+];
+---
+
+<Base
+  title="Pricing | Install My Bathroom"
+  description="Fit-only bathroom installation from £3,500, plus a £125 survey. What drives price up and the budget bands we typically quote against."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Pricing", href: "/pricing/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Pricing</h1>
+      <p class="text-lg leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Installation starts from £{business.pricing.fromGBP.toLocaleString()}. That figure covers labour and site work only — fit-only means the sanitaryware, brassware, tiles and furniture are priced and bought separately, by you, so there's no markup for us to add on top of a showroom's own price.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Why we quote this way</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A design-and-build bathroom company typically bundles the products into the price, which means you can't easily see what you're paying for the labour versus what you're paying for the suite. Because we only fit, our price is a direct reflection of time on site: how many trades are involved, how much of the existing room needs to be stripped and altered, and how carefully the products being installed need to be handled. Two bathrooms with an identical floor plan can cost very different amounts to fit if one has a freestanding bath needing four people to carry it safely and the other has a standard back-to-wall WC.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We don't publish a single number because there isn't one that's honest. Instead we price every job from a written scope produced at survey stage, so the figure you're given reflects your room, not an average.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">The £{business.pricing.surveyGBP} survey</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Every quote starts with a paid site visit. An installer measures the room, checks water pressure and flow at the outlets that matter, inspects the floor and wall substrate, maps the waste routes and the falls available to drain, and reviews the electrical supply for anything that needs dedicated power — a shower toilet, underfloor heating, a steam shower. You leave with a written installation scope and a fixed price against it. The survey fee isn't credited against the job if you go ahead and isn't refunded if you don't; it pays for the time and the written document either way, and it's the only way we'll put a number in writing.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        <a href="/survey/" class="underline" style="color: var(--teal);">Book a survey</a> directly, or read what it covers in more detail on the <a href="/guides/what-our-125-survey-includes/" class="underline" style="color: var(--teal);">survey guide</a>.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-6 mt-10 fade-up">Budget bands we typically quote against</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        These are the bands we ask new enquiries to pick from — useful as a reference point, not a price list. Where your project lands depends on the scope, not just the specification.
+      </p>
+      <div class="space-y-4 mb-10">
+        {bands.map((b) => (
+          <div class="card p-5 fade-up">
+            <h3 class="font-semibold text-lg mb-1" style="color: var(--teal);">{b.label}</h3>
+            <p class="text-sm" style="color: var(--text-soft);">{b.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What changes the number most</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        In our experience, three things move a quote more than anything else on the product list. Moving a waste position — taking a WC or shower from one wall to another — means altering drainage runs and sometimes lifting a floor to reset falls, which is first-fix labour that a like-for-like replacement never needs. Converting an enclosure to a full wet room means tanking the entire floor and building a fall to a level-access drain rather than tanking a confined tray area. And bringing in any regulated trade — an electrician for a new circuit, a gas engineer, a plumber for an unvented cylinder — adds coordination and their own labour cost on top of ours, even though we manage the scheduling so you only deal with one point of contact.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        None of that is guesswork once the survey's done. It's why we won't give a binding figure without one.
+      </p>
+
+      <div class="card p-6 fade-up" style="background: var(--bg-light);">
+        <p style="color: var(--text-soft);">
+          Ready for a fixed quote? <a href="/survey/" class="underline" style="color: var(--teal);">Book the £{business.pricing.surveyGBP} survey</a>, or <a href="/contact/" class="underline" style="color: var(--teal);">get in touch</a> first if you have questions. See also how products and installation fit together in <a href="/how-it-works/" class="underline" style="color: var(--teal);">how it works</a> and our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">full cost guide</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

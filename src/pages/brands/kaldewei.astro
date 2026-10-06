@@ -1,0 +1,181 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Why does a Kaldewei steel bath need a different support frame to acrylic?",
+    a: "Kaldewei baths are pressed from titanium-enamelled steel, which is rigid rather than flexible like acrylic, so the support structure is about accurate, even bearing across the base rather than preventing flex. We fit the manufacturer's own support feet or frame system, levelled and packed to the actual floor rather than assumed flat.",
+  },
+  {
+    q: "Can a Kaldewei bath be installed as a flush, floor-level step-in?",
+    a: "Yes, several Kaldewei models support a low-profile or flush installation detail, but the floor build-up and waste fall need planning before the sub-floor is finished, since there's less tolerance to adjust height once the surrounding floor is laid.",
+  },
+  {
+    q: "Do Kaldewei's steel shower trays need tanking underneath?",
+    a: "Yes. Even though the tray itself is non-porous enameled steel, the surrounding floor, upstands and waste connection are tanked to current standards, because the junctions around the tray — not the tray material — are where leaks actually occur.",
+  },
+  {
+    q: "Does Kaldewei's enamel finish need special cleaning or care after fitting?",
+    a: "No special regime beyond normal non-abrasive cleaning, but during the build itself we protect the enamel surface from other trades — dropped tools, tile offcuts and plaster splashes can chip vitreous enamel in a way that's not repairable on site, unlike a scratch in acrylic.",
+  },
+  {
+    q: "What should I check when my Kaldewei bath is delivered?",
+    a: "Inspect the enamel surface under good light for chips or scratches before installation, confirm the waste and overflow position matches the model ordered, and check the support feet or frame kit is complete, since a missing bracket means a delayed fit while a replacement is sourced.",
+  },
+  {
+    q: "Are Kaldewei baths heavier to handle than standard acrylic baths?",
+    a: "Yes, noticeably — a steel enamel bath is heavier than acrylic though still considerably lighter than cast iron. This affects the number of people and the route needed to move it into position, which we plan at survey rather than on delivery day, particularly for upper-floor installations.",
+  },
+];
+---
+
+<Base
+  title="Kaldewei Installation | Install My Bathroom"
+  description="Installation of Kaldewei steel baths, shower trays and enamel sanitaryware across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Kaldewei", href: "/brands/kaldewei/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Kaldewei Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Kaldewei baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded like most bathroom sanitaryware, which changes how they're handled and supported on site. The material is rigid, so the installation detail is about even, accurate bearing across the full base — not preventing flex the way an acrylic bath support does — and about protecting a hard but chip-sensitive enamel surface from the other trades still working around it.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.kaldewei.com/en-gb/" target="_blank" rel="noopener" class="btn-secondary">Visit Kaldewei →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Built-in, freestanding and bath-in-bath steel enamel baths, including low-profile and flush-fit models, Kaldewei's range of steel shower trays in both standard and low-profile formats, and matching panel systems and support frame kits. We also fit Kaldewei's combination bath and shower tray units where a project calls for a single enamelled piece doing both jobs.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Kaldewei doesn't produce brassware, so baths and trays are fitted alongside taps, fillers and shower valves from whichever brand the client has specified separately — waste and overflow positions, and any tap-hole requirements for a deck-mounted filler, are checked against the exact Kaldewei model before the brassware is ordered.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Level, even bearing:</strong> steel baths and trays are supported on the manufacturer's own feet or frame system, shimmed to the actual sub-floor rather than assumed level — an uneven bearing point can cause the steel to flex and, over time, the enamel to crack.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Floor build-up for low-profile models:</strong> flush and low-profile trays and baths need the sub-floor height and waste fall planned before the finished floor is laid, since there's little room to adjust afterwards.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tanking around trays:</strong> the floor, upstands and waste connection around a shower tray are tanked to current standards regardless of the tray's own non-porous surface.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste and filler compatibility:</strong> waste, overflow and any tap-hole positions are checked against the exact model before brassware is ordered.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Panel and access:</strong> bath panels are fitted with removable access where the waste trap or filler pipework may need future servicing.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We inspect the enamel surface of every bath and tray under raking light before installation — chips and scratches in vitreous enamel aren't repairable the way a scratch in acrylic sometimes can be, so damage caught before fitting is the only point at which it can be resolved without cost or delay. We confirm the support foot or frame kit is complete and matched to the model, check the waste and overflow position against the brassware already ordered, and verify the panel (where supplied) fits the bath's actual dimensions rather than a generic size.
+      </p>
+    </div>
+  </section>
+
+  <!-- Weight and access considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Weight and access on upper floors</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Steel enamel baths are considerably lighter than cast iron but heavier and less flexible than acrylic, which affects how they're moved through a property rather than how they perform once fitted. On period properties with narrow staircases, tight turns onto a landing, or an upper-floor en-suite reached through a loft conversion stair, we check access dimensions against the bath's actual packaged size at survey, because a steel bath can't be flexed or angled through a tight opening the way an acrylic shell sometimes can.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where access is genuinely tight, this is worth knowing before the bath is ordered rather than on delivery day, since the options at that point — a different model, or structural alterations to widen an opening — are both easier to plan for in advance.
+      </p>
+    </div>
+  </section>
+
+  <!-- Steel enamel and site protection -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why steel enamel needs different site protection</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Vitreous enamel on steel is extremely hard-wearing once the bathroom is finished and in daily use — it resists scratching, staining and heat far better than acrylic over the long term. During the build, though, it's more vulnerable to a specific kind of damage: a dropped tile, a tool set down carelessly, or a sharp edge dragged across the surface can chip the enamel down to the steel base, and that's a permanent mark rather than something that buffs out.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We protect the bath or tray surface with board or heavy sheeting for the remainder of the build once it's installed, and we sequence the heaviest trade work — tiling cuts, stone fabrication, any making good — to happen before the enamel surface goes in wherever the programme allows, rather than around it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Bath-in-bath and panel options -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Bath-in-bath builds and panel finishing</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Several Kaldewei models are designed for a bath-in-bath approach, where the steel bath is set into a tiled or panelled surround rather than finished with a standard manufacturer's panel. Where a client wants a fully tiled front — matching the floor or wall tiling rather than a plain panel — the surrounding studwork and waterproofing membrane are built and tanked before the bath itself goes in, with removable access built into the structure for the waste trap underneath.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This detail is worth settling at survey rather than once tiling has started, because retrofitting an access panel into an already-tiled bath surround means cutting back finished tiling to create one, which is avoidable with earlier planning.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's Kaldewei fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The recurring issue is a bath or tray set on an uneven or inadequately packed support, which over time flexes the steel at one point and stresses the enamel until it cracks — a fault that can take months to appear and is then blamed on the product rather than the support beneath it. The second is enamel chip damage from being left unprotected through later stages of the build.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both are installation and site-management issues, not product faults — Kaldewei's enamel holds up for decades when it's properly supported and protected during the build, which is the standard we fit to on every project.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for Kaldewei; we install client-supplied Kaldewei products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+      <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+      <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Bathroom Tanking &amp; Waterproofing Standards</a>
+      <a href="/guides/kaldewei-steel-vs-stone-resin-baths/" class="btn-secondary">Kaldewei Steel vs Stone Resin Baths</a>
+      <a href="/brands/bette/" class="btn-secondary">Bette Installation</a>
+      <a href="/brands/duravit/" class="btn-secondary">Duravit Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="kaldewei-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

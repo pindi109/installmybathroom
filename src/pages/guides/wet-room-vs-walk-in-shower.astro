@@ -1,0 +1,267 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Wet Room vs Walk-In Shower: Which Is Right for You?",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is a wet room more expensive to install than a walk-in shower?",
+    a: "Usually, yes. A wet room needs tanking across the entire floor and a modified deck or screed to achieve a fall to a level-access drain, rather than tanking confined to the footprint of an enclosure. More preparation and more drying time between coats means more labour.",
+  },
+  {
+    q: "Can I have a wet room on an upper floor?",
+    a: "Often, but it needs checking at survey. Forming a fall to drain on a timber floor usually means lowering joists or building up the deck, and the structure has to take the loading. On a solid ground floor it's generally more straightforward.",
+  },
+  {
+    q: "Does a wet room need a door or screen at all?",
+    a: "Not necessarily — a true wet room can be fully open, but most UK installations include a glass screen or low barrier to control water spread and keep the rest of the room dry underfoot, without the full upstand of a shower tray.",
+  },
+  {
+    q: "Which is easier to keep clean?",
+    a: "A wet room has fewer junctions and no tray lip to trap water and grime, which many clients find easier to keep clean day to day. A walk-in shower with a tray has a defined footprint that can be quicker to squeegee after use.",
+  },
+  {
+    q: "Does a wet room reduce the resale value of a family bathroom?",
+    a: "Not inherently, but converting the only bathroom in a smaller family home into a wet room with no bath can be a harder sell to future buyers with young children. In an en-suite or additional bathroom, it's rarely an issue.",
+  },
+  {
+    q: "Can a walk-in shower be upgraded to a wet room later?",
+    a: "Only by stripping back to the floor structure and starting the tanking and falls again — the two aren't a simple swap. If there's a chance you'll want a wet room eventually, it's worth deciding before the first fit, not after.",
+  },
+];
+---
+
+<Base
+  title="Wet Room vs Walk-In Shower: Which Is Right? | IMB"
+  description="How a wet room and a walk-in shower differ in cost, floor structure, maintenance and suitability — and which fits your bathroom and floor type."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Wet Room vs Walk-In Shower", href: "/guides/wet-room-vs-walk-in-shower/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Wet Room vs Walk-In Shower: Which Is Right for You?</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A walk-in shower uses a tray or formed upstand and tanking confined to the enclosure; a wet room tanks the whole floor and falls to a level-access drain with no tray at all. Wet rooms cost more and need more floor build-up, but give a level, barrier-free finish. Floor structure and ceiling height usually decide which one suits your room.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Both rely on the same underlying principle — waterproofing applied before any tile goes down, with a fall that carries water to a drain rather than letting it pool. Where they differ is how much of the floor that waterproofing and fall has to cover, and that difference drives almost everything else: cost, build-up height, suitability for upper floors, and how the finished room looks and feels underfoot.
+      </p>
+    </div>
+  </section>
+
+  <!-- Comparison table -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Wet room vs. walk-in shower, side by side</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Wet room</th>
+              <th class="text-left py-3 font-semibold">Walk-in shower</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Tanking coverage</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Entire floor, often up the walls of the whole room</td>
+              <td class="py-3" style="color: var(--text-soft);">Confined to the shower footprint and surrounding splash zone</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Floor structure</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Usually needs a formed fall, often lowered joists on timber floors</td>
+              <td class="py-3" style="color: var(--text-soft);">Sits on a tray or upstand; minimal structural change</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Drain</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Level-access linear or point drain set into the floor</td>
+              <td class="py-3" style="color: var(--text-soft);">Tray waste, usually with a small step or kerb</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Suitability for upper floors</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Possible but needs structural checking and build-up allowance</td>
+              <td class="py-3" style="color: var(--text-soft);">Straightforward on almost any floor type</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Installation time</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Longer — more tanking, drying time and floor preparation</td>
+              <td class="py-3" style="color: var(--text-soft);">Shorter — tray fitted and tanked within its own footprint</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Accessibility</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Level, barrier-free entry throughout</td>
+              <td class="py-3" style="color: var(--text-soft);">Low-profile trays available, but a small upstand usually remains</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Typical cost impact</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Higher — more tanking, screed and drainage labour</td>
+              <td class="py-3" style="color: var(--text-soft);">Lower — a simpler tray and enclosure installation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep dive sections -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How the floor build-up actually works</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A wet room needs a fall of roughly 1:80 to 1:100 running from the room's perimeter towards the drain — enough to clear standing water without being so steep that the floor feels uneven underfoot. On a solid concrete floor that fall is usually formed with a screed before tanking and tiling. On a timber floor it's more involved: joists are often notched or lowered locally to create a shallow recess for the drain and fall, which needs checking against the joist span and loading, not just cut on site.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A walk-in shower avoids most of this by using a preformed tray or a built-up upstand with its own integral fall, so the surrounding floor stays flat. That's why a walk-in shower is generally the more practical choice on an upper floor or where ceiling height below is tight, while a wet room suits a ground-floor bathroom or an en-suite with a solid floor and no height constraint below.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Who tends to choose which</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Wet rooms suit larger bathrooms and en-suites where the open, level finish is part of the design — no tray lip to step over, no visual break between the shower area and the rest of the floor, and tile running continuously from wall to wall. They also suit anyone planning for long-term accessibility, since a level floor removes a step that can matter later even if it isn't a concern today.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A walk-in shower suits a smaller room, a renovation on a tighter budget, or an upper-floor bathroom where lowering joists isn't practical. A low-profile tray gives most of the visual openness of a wet room — a near-flush entry with a slim upstand — without the structural work underneath.
+      </p>
+    </div>
+  </section>
+
+  <!-- Drainage options -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Drainage options compared</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A wet room's drain is either a point drain, a single outlet set at the lowest point of the fall, or a linear drain, a channel typically run along one edge of the room with the fall directed towards it from all sides. A linear drain generally allows a shallower, more even fall across a wider floor area, which is why it's become the more common choice on larger wet rooms, while a point drain suits a smaller, simpler footprint and is usually the less expensive option of the two.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A walk-in shower's tray waste is a simpler, smaller-diameter outlet sized to the tray manufacturer's specification, positioned centrally or towards one edge depending on the tray design. Because the fall is built into the tray itself rather than formed in the floor, there's less for an installer to get wrong on site — one of the reasons a walk-in shower is generally the quicker of the two to fit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Maintenance and longevity -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Maintenance and longevity</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A wet room's continuous tiled floor has fewer silicone joints than a tray-and-enclosure setup, and fewer silicone joints generally means less routine maintenance — silicone around a shower tray is one of the first things to need attention as a bathroom ages, since it sits directly in the path of running water and takes more wear than a vertical joint on a wall. A linear drain grate also tends to be easier to lift out and clean than the smaller grille on a tray waste.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A walk-in shower's tray, by contrast, is a single manufactured unit that can be replaced on its own if it's ever damaged or if trends change, without disturbing the surrounding floor tiling — a wet room floor, being one continuous tiled and tanked surface, is a bigger undertaking to alter later since there's no clean edge to work back to.
+      </p>
+    </div>
+  </section>
+
+  <!-- Which suits which room -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Which tends to suit which room</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        In a family bathroom that still needs a bath, a wet room typically isn't the right call for the whole room — most clients in this position choose a walk-in shower or enclosure alongside the bath, reserving the wet room treatment for an en-suite or a dedicated shower room elsewhere in the house. A principal en-suite with no bath and a solid ground or first-floor slab is usually the strongest candidate for a full wet room, since there's no competing fixture and the floor structure can typically take the fall and tanking without major alteration.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A loft conversion or an attic en-suite, where ceiling height below is already a constraint and joists are closer to the surface than on a lower floor, is usually better suited to a walk-in shower with a low-profile tray — forming a wet room fall in that situation can mean losing more headroom in the room below than the project can accommodate.
+      </p>
+    </div>
+  </section>
+
+  <!-- Screens and glass -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Screens, glass and controlling water spread</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A wet room doesn't need a screen to function, but almost every UK installation includes one, because splashback from an open shower head can carry further than most clients expect — particularly with a large rainfall head run at full flow. A fixed glass panel positioned to intercept the main spray direction, sometimes paired with a shallow glass upstand rather than a full enclosure, controls most of that spread while keeping the open, level-floor look intact. Full-height glass on two or three sides, closer to a conventional enclosure but without a tray, is the other common approach, generally chosen where the wet room sits within a larger bathroom rather than being the whole room.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A walk-in shower's screen does more structural work, since it's also what keeps water within the tray's footprint rather than relying on fall and floor area alone — glass height, return panels and the gap at the base are all sized against the tray dimensions and the fitting's flow rate, which is one of the reasons a tray and screen are usually specified together rather than chosen independently.
+      </p>
+    </div>
+  </section>
+
+  <!-- Underfloor heating interaction -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Combining either option with underfloor heating</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Both a wet room and a walk-in shower can be combined with underfloor heating, but the sequencing differs slightly. In a wet room, the heating element or pipe loop sits beneath the tanking and screed across the whole floor, which needs accounting for in the fall calculation from day one — the heated zone and the drainage fall are designed together, not as two separate layers bolted on independently. In a walk-in shower, the heating typically runs across the room floor outside the tray's footprint only, since the tray itself usually sits on its own waterproofed base rather than directly over a heated floor zone. Either way, this is confirmed at survey alongside the shower type decision, because retrofitting heating after a floor build-up has already been finalised usually isn't practical.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Waterproofing design and application for both room types follows BS 5385-4 (wet rooms) and the general tiling requirements of BS 5385-1/-2. Resistance to moisture penetration through floors follows Building Regulations Part C; any structural alteration to joists to form a fall follows Part A.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+        <a href="/services/accessible-luxury-bathrooms/" class="btn-secondary">Accessible Luxury Bathrooms</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+        <a href="/guides/framed-vs-frameless-shower-screens/" class="btn-secondary">Framed vs frameless shower screens</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/stoke-poges/" class="btn-secondary">Stoke Poges</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="wet-room-vs-walk-in-shower-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

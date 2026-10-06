@@ -1,0 +1,103 @@
+---
+import Base from "../../../layouts/Base.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
+import StickyMobileCTA from "../../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../../components/Breadcrumbs.astro";
+import { business } from "../../../config/business.ts";
+import services from "../../../data/services.json";
+import areasData from "../../../data/areas.json";
+import brands from "../../../data/brands.json";
+
+const allAreas = [...areasData.tier1, ...areasData.tier2];
+---
+
+<Base
+  title="Facts | Install My Bathroom"
+  description="Plain facts about Install My Bathroom: fit-only model, pricing, areas covered, services offered, brands installed, and contact details."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "About", href: "/about/" }, { label: "Facts", href: "/about/facts/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Facts about Install My Bathroom</h1>
+      <p class="text-lg leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        A plain, scannable summary of who we are, what we do, where we work and what it costs. No marketing language — just the facts, kept current.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Business</h2>
+      <ul class="space-y-2 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+        <li>Trading name: {business.name}</li>
+        <li>Legal entity: {business.legalName} (sole trader)</li>
+        <li>Location: {business.locality}, {business.region}, {business.postcode}. No street address is published; site visits are arranged by appointment.</li>
+        <li>Years trading in bathroom installation: {business.experienceYears}</li>
+        <li>Phone: <a href={`tel:${business.phoneE164}`} style="color: var(--teal);">{business.phone}</a></li>
+        <li>WhatsApp: <a href={`https://wa.me/${business.whatsapp}`} target="_blank" rel="noopener" style="color: var(--teal);">{business.phone}</a></li>
+        <li>Email: <a href={`mailto:${business.email}`} style="color: var(--teal);">{business.email}</a></li>
+      </ul>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Business model</h2>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        {business.model} There is no product markup, because no product is sold. Quotes cover labour, site preparation, waste disposal, and coordination of any regulated trades (gas, Part P electrical, unvented hot water) required for the project.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Pricing</h2>
+      <ul class="space-y-2 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+        <li>Installation: from £{business.pricing.fromGBP.toLocaleString()}</li>
+        <li>Pre-installation survey: £{business.pricing.surveyGBP}</li>
+        <li>Typical budget bands quoted on our enquiry form: From £3,500 / £10,000–£25,000 / £25,000–£50,000 / £50,000–£100,000 / £100,000+</li>
+        <li>Full explanation of what drives price: <a href="/pricing/" style="color: var(--teal);">/pricing/</a></li>
+      </ul>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Areas covered</h2>
+      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+        Primary areas (Tier 1):
+      </p>
+      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-4 fade-up" style="color: var(--text-soft);">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <li><a href={`/areas/${a.slug}/`} style="color: var(--teal);">{a.name}</a></li>
+        ))}
+      </ul>
+      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+        Extended areas (Tier 2):
+      </p>
+      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+        {areasData.tier2.map((a: { slug: string; name: string }) => (
+          <li><a href={`/areas/${a.slug}/`} style="color: var(--teal);">{a.name}</a></li>
+        ))}
+      </ul>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Services offered</h2>
+      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+        {services.map((s: { slug: string; name: string }) => (
+          <li><a href={`/services/${s.slug}/`} style="color: var(--teal);">{s.name}</a></li>
+        ))}
+      </ul>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Brands installed</h2>
+      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+        We install products from the following manufacturers, among others, when supplied by the client. Install My Bathroom is independent and not affiliated with any of these manufacturers.
+      </p>
+      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+        {brands.map((b: { slug: string; name: string }) => (
+          <li><a href={`/brands/${b.slug}/`} style="color: var(--teal);">{b.name}</a></li>
+        ))}
+      </ul>
+
+      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Regulated trades</h2>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Gas work, Part P notifiable electrical work, and unvented hot water cylinder installation are carried out by appropriately registered engineers coordinated as part of the project. They are not performed outside those registrations.
+      </p>
+
+      <div class="card p-6 fade-up" style="background: var(--bg-light);">
+        <p style="color: var(--text-soft);">
+          More context on how we work: <a href="/about/" class="underline" style="color: var(--teal);">About</a> · <a href="/how-it-works/" class="underline" style="color: var(--teal);">How it works</a> · <a href="/contact/" class="underline" style="color: var(--teal);">Contact</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

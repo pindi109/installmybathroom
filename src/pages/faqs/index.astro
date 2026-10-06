@@ -1,0 +1,120 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "How long does a bathroom installation take?",
+    a: "A straightforward like-for-like replacement typically runs 5–7 working days. A full re-fit with moved services, a wet room, and natural stone can run 3–4 weeks. The written scope from your survey includes a programme specific to your project, since the biggest variable is how much first-fix and tanking work is needed, not the size of the room.",
+  },
+  {
+    q: "Do I need to be in the house while the work is being done?",
+    a: "No, as long as we have reliable access and a working water and power supply. Many clients go to work as normal. We do ask for a point of contact reachable by phone during the day in case a decision is needed on site — for example confirming a tile layout detail or a fixing position.",
+  },
+  {
+    q: "Can I live in the house during the installation?",
+    a: "Usually yes, if you have another bathroom or facilities available. We protect floors, stairwells and access routes for the duration of the job and keep dust contained with sheeting where cutting is taking place, but a bathroom strip-out is still noisy and dusty work, so plan around that rather than expecting business as usual in the rest of the house.",
+  },
+  {
+    q: "Do you remove the old bathroom and dispose of it?",
+    a: "Yes. Strip-out and disposal of the existing suite, tiling and any waste generated during installation is included in the installation price, not charged separately.",
+  },
+  {
+    q: "What hours do you work, and do you work weekends?",
+    a: "Standard working hours are weekdays during the day. We don't routinely work weekends, though exceptions can sometimes be arranged for access-restricted properties — ask at enquiry stage if this matters to your project.",
+  },
+  {
+    q: "Do I pay a deposit, and when is the balance due?",
+    a: "Payment terms are confirmed in your written quote, typically a deposit to secure the install date followed by staged payments tied to progress and a final balance on completion and snagging sign-off. We don't request full payment upfront.",
+  },
+  {
+    q: "What if I'm not ready to choose products yet — can I still book a survey?",
+    a: "Yes. The survey measures the room and checks services regardless of specification, and we'll advise on what to look for when you do order — carrier frame compatibility, waste positions, clearances. Having at least a rough idea of layout and key items (bath, shower, WC type) helps us scope accurately, but full product selection isn't a prerequisite.",
+  },
+  {
+    q: "Do you offer design advice or can you recommend what to buy?",
+    a: "We'll advise on what will and won't work technically in your space — clearances, waste positions, structural limits for stone — and can point you toward the kind of product that suits a layout, but we don't sell or specify brands on your behalf, since we have no commercial relationship with any manufacturer or retailer.",
+  },
+  {
+    q: "Can you fit a bathroom I've already had quoted or designed by someone else?",
+    a: "Yes. Many clients arrive with a layout already drawn up by a showroom or designer. We review it at survey stage for technical feasibility — waste runs, structural support, access — before confirming the scope and price.",
+  },
+  {
+    q: "Can you install two bathrooms at the same time?",
+    a: "Yes, multiple bathrooms or a bathroom alongside an en-suite or cloakroom can be programmed together, which is often more efficient than separate projects since site protection and some first-fix work can be shared.",
+  },
+  {
+    q: "Will you work in a listed building or conservation area?",
+    a: "Yes, with the usual caveats — any structural alteration, change to windows or external fabric, or work affecting a protected feature needs the appropriate consent before we start, and that's your responsibility to obtain. We'll flag anything at survey stage that's likely to need permission so it doesn't hold up the programme later.",
+  },
+  {
+    q: "I live in a flat — do I need permission from a freeholder or management company?",
+    a: "Possibly, particularly for anything affecting shared pipework, flooring (noise regulations in many blocks require specific underlay or acoustic flooring), or waste connections. That consent sits with you as leaseholder; we can advise technically on what the work involves but can't obtain permissions on your behalf.",
+  },
+  {
+    q: "Do you offer a guarantee on the installation?",
+    a: "Yes, the workmanship is guaranteed — the tanking, tiling, fixing and sealing we carry out. This is separate from the product warranty on the sanitaryware, brassware or furniture itself, which sits with the manufacturer or the retailer you bought it from. Full terms are on our terms page.",
+  },
+  {
+    q: "What happens if a problem shows up after the job is finished?",
+    a: "Contact us directly and we'll assess whether it relates to the installation or the product. If it's workmanship — a silicone line failing, a fixing working loose — we'll arrange a visit to put it right. If it's a product fault, we'll help you identify what's covered under the manufacturer or retailer warranty, since that claim sits with them.",
+  },
+  {
+    q: "Are you insured for work on site?",
+    a: "Yes, appropriate trade insurance is in place for work carried out on your property. Specific policy figures aren't published online, but documentation can be provided on request before a job starts.",
+  },
+  {
+    q: "What if I need to cancel or move my installation date?",
+    a: "Let us know as early as possible. Moving a confirmed date affects scheduling for other clients and any subcontracted trades booked around your job, so late changes may be subject to a charge — this is set out in your written quote.",
+  },
+  {
+    q: "Do you subcontract any of the work?",
+    a: "Regulated trades — gas, Part P electrical, and unvented hot water cylinder work — are carried out by appropriately registered engineers coordinated as part of the project, since we're not ourselves registered in those specific disciplines. Core installation work (strip-out, tanking, tiling, fixing) is carried out directly.",
+  },
+  {
+    q: "Is VAT included in your prices?",
+    a: "Our current VAT position is confirmed at quote stage. Ask when you book your survey if this affects your budgeting, particularly for larger projects.",
+  },
+  {
+    q: "Can you match an existing tile or extend an existing installation?",
+    a: "Sometimes, if the original tile is still in production or a close match can be sourced — this is something to check with the tile supplier directly before ordering, since we can't guarantee availability. For a seamless result on a partial re-tile, lining through existing joints and matching grout colour matters as much as matching the tile itself, and we'll advise on that at survey stage.",
+  },
+  {
+    q: "What's the difference between your two client tiers mentioned on the site?",
+    a: "There's no formal tier system or different service level — it simply reflects that clients spend very different amounts depending on the products they choose, from a mid-market full replacement around £3,500 up to £100,000+ for stone, brass and bespoke fittings. The fitting standard and process are identical regardless of budget.",
+  },
+];
+---
+
+<Base
+  title="FAQs | Install My Bathroom"
+  description="Answers to common questions about fit-only bathroom installation: timing, access, payment, guarantees, listed buildings, leasehold flats and more."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "FAQs", href: "/faqs/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Frequently asked questions</h1>
+      <p class="text-lg leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Questions about the basics of our fit-only model, the survey and pricing are answered on the <a href="/" class="underline" style="color: var(--teal);">homepage</a>. Below are the questions that come up once a project's actually underway — logistics, responsibilities, guarantees and edge cases.
+      </p>
+
+      <FAQ items={faqs} schemaId="site-faqs-hub" />
+
+      <div class="card p-6 mt-10 fade-up" style="background: var(--bg-light);">
+        <p style="color: var(--text-soft);">
+          Didn't find your answer? Call <a href={`tel:${business.phoneE164}`} class="underline" style="color: var(--teal);">{business.phone}</a>, email <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a>, or <a href="/contact/" class="underline" style="color: var(--teal);">send an enquiry</a>. For the process end to end, see <a href="/how-it-works/" class="underline" style="color: var(--teal);">how it works</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

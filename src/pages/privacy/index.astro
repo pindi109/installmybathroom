@@ -1,0 +1,84 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+---
+
+<Base
+  title="Privacy Policy | Install My Bathroom"
+  description="How Install My Bathroom collects, uses and stores personal data from enquiries, surveys, calls, WhatsApp messages and the website chat widget."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Privacy", href: "/privacy/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Privacy Policy</h1>
+      <p class="text-sm mb-10 fade-up" style="color: var(--text-soft);">Last updated: {LAST_UPDATED}</p>
+
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        This policy explains what personal data {business.legalName} ("we", "us") collects through installmybathroom.co.uk and in the course of dealing with enquiries, surveys and installations, why we collect it, and how it's handled. We're a small, UK-based installation business and we keep data handling as simple and limited as the work requires.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What we collect</h2>
+      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+        Depending on how you contact us, we may collect:
+      </p>
+      <ul class="space-y-2 text-sm mb-6 fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Name, email address, phone number and postcode, submitted through our enquiry or survey booking forms</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Project details you choose to share — property type, rooms, product and brand preferences, budget band, target start date, and any message or photo you attach</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Records of phone calls and WhatsApp messages where you've contacted us directly on those channels</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Messages exchanged with the "Amy" chat widget on the site, if you choose to use it</li>
+      </ul>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We don't collect payment card details through the website — any survey or project payment is handled through a separate, secure payment provider.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">How we use it</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Personal data submitted through an enquiry, survey booking, call, WhatsApp message or the chat widget is used to respond to your enquiry, arrange and carry out a site survey, prepare a written installation scope and quote, and — where a project goes ahead — to deliver and manage the installation, including any necessary coordination with registered gas, electrical or plumbing engineers working on your project. We don't use your data for purposes unrelated to responding to you or delivering a project you've asked for.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Form submissions and third-party processing</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Enquiry and survey booking forms on this site are processed using Netlify Forms, which receives and stores your submission so we can read and respond to it. Netlify acts as a data processor for this purpose.
+      </p>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        If you use the "Amy" chat widget, your messages may be sent to Anthropic's Claude API to generate a response. Anthropic processes that conversation as a data processor acting on our instructions, in order to answer your question. Avoid sharing sensitive personal information in the chat widget beyond what's needed to answer your query.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What we don't do</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We don't sell, rent or trade your personal data to third parties for marketing purposes. We don't share your details with other businesses except where necessary to deliver your project — for example passing your address and relevant project details to a registered engineer who needs to attend site as part of the installation.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">How long we keep data</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        We retain enquiry and project data for as long as reasonably necessary to deliver the project, deal with any aftercare or warranty matter, and meet our legal and accounting obligations. Data relating to enquiries that don't proceed to a project is retained for a limited period and then deleted.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Your rights</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        Under UK GDPR, you have the right to ask what personal data we hold about you, to ask us to correct inaccurate data, to ask us to delete data we no longer need, and to object to how we're using it. To make any of these requests, email <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a>. We'll respond within a reasonable timeframe.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Cookies</h2>
+      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+        For details of cookies and similar technologies used on this site, see our <a href="/cookies/" class="underline" style="color: var(--teal);">cookie policy</a>.
+      </p>
+
+      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">Contact</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Questions about this policy, or requests relating to your personal data, can be sent to <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a> or by post to {business.locality}, {business.region}, {business.postcode}.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

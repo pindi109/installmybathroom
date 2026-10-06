@@ -1,0 +1,262 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Shower Toilets Explained",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Do shower toilets need a separate electrical circuit?",
+    a: "Yes, almost always — a dedicated, switched fused spur installed by a registered electrician within the bathroom's safe zones, not shared with another appliance. We coordinate this as part of the installation, so it's agreed and in place before second fix.",
+  },
+  {
+    q: "Can any shower toilet connect to mains water, or does it need a special supply?",
+    a: "Most connect directly to the existing cold mains feed to the WC via a standard isolation valve, the same as a conventional toilet. No separate plumbing run is usually needed, though we check incoming pressure at survey to confirm it meets the unit's minimum requirement.",
+  },
+  {
+    q: "What happens to a shower toilet in a power cut?",
+    a: "The unit still flushes mechanically in most designs, but washing, drying and heated seat functions stop working until power is restored. It isn't left unusable as a toilet — just without its electronic features.",
+  },
+  {
+    q: "Is a shower toilet harder to fit than a standard WC?",
+    a: "It takes longer because of the extra electrical first fix and the need for a wall-hung pan and carrier frame in most installations, but it isn't a fundamentally different skill — supply, waste, fixing and commissioning, just with one more trade coordinated alongside it.",
+  },
+  {
+    q: "Do shower toilets need ongoing maintenance?",
+    a: "Periodic nozzle cleaning and occasional limescale descaling, particularly in hard water areas common across parts of Berkshire, keeps the washing function working properly. Manufacturer guidance for your specific model covers the service interval.",
+  },
+  {
+    q: "Can a shower toilet be fitted into an existing bathroom, or only a full refit?",
+    a: "It can usually be retrofitted, provided there's a nearby switched electrical supply or one can be run to the position, and the WC position allows for a carrier frame if you're moving from a close-coupled pan. We confirm feasibility at survey.",
+  },
+];
+---
+
+<Base
+  title="Shower Toilets Explained | Install My Bathroom"
+  description="How shower toilets work, what power and water supply they need, and what to check before buying one for a UK bathroom installation."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Shower Toilets Explained", href: "/guides/shower-toilets-explained/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Shower Toilets Explained</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A shower toilet is a WC with an integrated water wash and dry function, controlled electronically from a remote or side panel. It needs a dedicated switched electrical supply and a standard cold mains connection. Most are wall-hung on a carrier frame with a concealed cistern, and installation takes longer than a standard WC because of the extra first-fix electrics.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Shower toilets — sometimes called washlets, after the term popularised by manufacturers who pioneered the category — have moved from a niche import to a mainstream specification on luxury UK bathroom projects over the last decade. The appeal is straightforward: a heated seat, an adjustable water wash in place of or alongside paper, and in higher-end models a warm-air dry, deodoriser and self-cleaning nozzle. What's less obvious from a showroom display is what the unit actually needs behind the wall to work properly.
+      </p>
+    </div>
+  </section>
+
+  <!-- How they work -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's actually inside the unit</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Water is drawn from the existing cold mains supply to the WC, filtered, and in most models warmed internally before being delivered through a retractable nozzle at an adjustable pressure and position. A small reservoir or in-line heater — the method varies by manufacturer and model — brings the water to a comfortable temperature rather than using the cold feed directly. Electronics handle seat heating, nozzle position, water temperature, optional warm-air drying and, in some models, automatic lid operation and a self-cleaning cycle for the nozzle between uses.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Two broad formats are available in the UK. A full shower toilet replaces the entire pan, integrating the WC and the washing function into one unit, typically wall-hung on a concealed cistern and carrier frame. A washlet-style seat attaches to an existing close-coupled or wall-hung pan and adds the wash and dry function without replacing the toilet itself — a simpler retrofit, though with fewer features than a dedicated unit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What the installation actually needs</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> A dedicated, switched fused spur on its own circuit, positioned and routed by a registered electrician within the bathroom's permitted electrical zones</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> A standard cold mains connection to the WC position, with isolation valve, and confirmed mains pressure within the unit's minimum spec</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> A concealed cistern and carrier frame for most full shower toilets, set at the correct height and fixing centres agreed at survey</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Clearance behind the pan for the unit's electronics housing, which is bulkier than a standard cistern void</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Commissioning and testing of the wash, dry, heating and remote or panel functions before handover</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Feature comparison -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Typical feature tiers</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Tier</th>
+              <th class="text-left py-3 font-semibold">Typical features</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Washlet seat (retrofit)</td>
+              <td class="py-3" style="color: var(--text-soft);">Water wash, heated seat, fits to an existing pan, simplest electrical and plumbing requirement.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Mid-range integrated unit</td>
+              <td class="py-3" style="color: var(--text-soft);">Wall-hung pan with built-in wash, adjustable temperature and pressure, warm-air dry, remote control.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Premium integrated unit</td>
+              <td class="py-3" style="color: var(--text-soft);">All of the above plus automatic lid, self-cleaning nozzle, deodoriser, night light and memory settings for multiple users.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-6 leading-relaxed fade-up" style="color: var(--text-soft);">
+        Across manufacturers such as TOTO and Geberit, the fundamentals above hold true even though the engineering differs — our <a href="/guides/toto-vs-geberit-shower-toilets/" class="underline" style="color: var(--teal);">TOTO vs. Geberit comparison guide</a> covers the differences in more detail if you're choosing between the two.
+      </p>
+    </div>
+  </section>
+
+  <!-- Retrofit vs full unit -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Retrofit seat or full unit — which to choose</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A washlet-style seat is the lower-cost, lower-disruption option, fitting to an existing WC pan without replacing it — a sensible choice where the rest of the bathroom isn't being touched, or where budget is tighter but the wash-and-dry function still matters. The trade-off is a visibly bulkier profile behind the seat housing the electronics, and a feature set generally a step below a dedicated integrated unit.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        A full integrated shower toilet, wall-hung on a carrier frame with a concealed cistern, is the choice on a full re-fit where the room is being opened up anyway — the electrical and plumbing first fix is no more disruptive than any other wall-hung WC installation at that stage, and the finished result reads as a single, considered piece of sanitaryware rather than a retrofit addition to an existing pan.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common pitfalls -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common installation pitfalls</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        The most frequent issue we see on shower toilet installations isn't the unit itself, it's the electrical first fix being an afterthought — a client specifies a shower toilet after the room's electrics have already been planned and first-fixed for a standard WC, leaving no switched spur anywhere near the pan position. Confirming the WC type before electrical first fix, not after, avoids a second visit from the electrician and a chased wall that's already been tiled.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        The second is clearance behind the pan — the electronics housing on a full shower toilet is deeper than a standard cistern void, and a stud wall built to the minimum depth for an ordinary concealed cistern can be too shallow once the specific unit's dimensions are checked against the manufacturer's installation template. We check this against the actual product, not a generic carrier frame depth, before the wall is built.
+      </p>
+    </div>
+  </section>
+
+  <!-- Hygiene and maintenance -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Hygiene, descaling and day-to-day care</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        The nozzle on most shower toilets retracts into a small housing between uses and, on mid-range and premium units, runs a self-cleaning rinse cycle automatically — but this doesn't remove the need for periodic manual cleaning of the nozzle and surrounding area, which most manufacturers recommend monthly as a minimum. Hard water, common across much of Berkshire, leaves limescale on the nozzle and internal waterways faster than in soft water areas, which is why manufacturer descaling guidance exists specifically for areas like ours and shouldn't be skipped on the assumption that a self-cleaning cycle covers it.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Most units also carry a filter on the water inlet, catching sediment before it reaches the internal heater or pump — checking and replacing this per the manufacturer's service schedule is a straightforward task but an easy one to forget, since nothing about the unit's day-to-day performance signals clearly when it's due.
+      </p>
+    </div>
+  </section>
+
+  <!-- Who benefits most -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Who tends to specify a shower toilet, and why</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Clients planning for long-term accessibility are one of the most consistent groups specifying shower toilets, since the wash-and-dry function reduces reliance on grip and mobility compared with conventional paper use — this is often discussed alongside wider accessible bathroom planning, where height, clearance and support are also considered together rather than as separate decisions. A second, broader group is simply clients who've experienced a shower toilet while travelling or staying somewhere that had one and decided they didn't want to go back to a bathroom without it.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Either way, the earlier it's decided, the more straightforwardly it fits into the rest of the room's first fix — deciding after the electrician has already left site is the single most common reason a shower toilet installation ends up needing a second visit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Retrofitting into an older bathroom</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Where a client wants a shower toilet in a bathroom that isn't otherwise being refitted, the main question at survey is simply whether a switched electrical supply can reasonably be run to the WC position without major disruption — sometimes that's a short, straightforward cable run behind an accessible stud wall, and sometimes it means lifting a section of flooring or chasing a solid wall, which changes the scope and cost of what might otherwise look like a simple swap. The second question is pan position: a close-coupled WC swapped for a wall-hung shower toilet usually needs a carrier frame, which in turn needs enough depth in front of the existing wall, exactly as with any other concealed cistern conversion.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Neither issue rules out a retrofit — most are entirely achievable — but both are worth confirming before a specific shower toilet model is purchased, since the answer can affect which unit actually fits the space available once the practicalities are accounted for.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Electrical installation and the permitted location of the fused spur follow Building Regulations Part P and the bathroom zoning rules in BS 7671. Water supply connection follows Part G and the Water Supply (Water Fittings) Regulations 1999, which govern backflow prevention on appliances connected to the mains.
+      </p>
+    </div>
+  </section>
+
+  <!-- Cost expectations -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a shower toilet adds to the budget</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A washlet-style seat sits closest in price to a good-quality standard WC seat upgrade, while a full integrated unit is priced closer to a premium sanitaryware item, reflecting its electronics, concealed cistern compatibility and typically longer manufacturer warranty. On top of the product cost, budget for the additional electrical first fix — a dedicated spur run and tested by a registered electrician — as a distinct labour item within your installation quote, since it's extra work beyond fitting a standard WC and is priced as such rather than folded invisibly into a generic WC installation charge.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Factoring this in at the budgeting stage, rather than discovering it once the quote is itemised, avoids the shower toilet line becoming the one unexpected cost in an otherwise carefully planned specification.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/shower-toilet-installation/" class="btn-secondary">Shower Toilet Installation</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/bidet-installation/" class="btn-secondary">Bidet Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/toto-vs-geberit-shower-toilets/" class="btn-secondary">TOTO vs Geberit shower toilets</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones explained</a>
+        <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed cisterns explained</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/toto/" class="btn-secondary">TOTO</a>
+        <a href="/brands/geberit/" class="btn-secondary">Geberit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="shower-toilets-explained-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

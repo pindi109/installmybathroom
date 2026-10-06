@@ -1,0 +1,161 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How far is Sandhurst from your Bracknell base?",
+    a: "Around 15 minutes by road — close enough that it rarely adds anything meaningful to the programme, and we can usually arrange a short-notice survey or snagging visit without a long wait.",
+  },
+  {
+    q: "What kind of housing is typical in Sandhurst?",
+    a: "A mix of established twentieth-century family housing, newer estate developments, and pockets of older property closer to the town centre and towards the Royal Military Academy. Plumbing age and floor construction vary accordingly, which we check at survey rather than assume.",
+  },
+  {
+    q: "Is planning permission needed for a bathroom refit in Sandhurst?",
+    a: "A standard internal refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission. If your property is listed or in a conservation area, work affecting the external fabric can need separate consent, which we'll flag at survey if it's relevant.",
+  },
+  {
+    q: "What water pressure can I expect in a Sandhurst property?",
+    a: "Most of the estate and later-twentieth-century housing runs on mains pressure via a combi or pressurised cylinder, which generally suits digital and thermostatic showers well. Older properties can vary, so we measure actual pressure and flow at every survey rather than assuming.",
+  },
+  {
+    q: "Do you cover properties close to Sandhurst and Camberley alike?",
+    a: "Yes. Sandhurst and neighbouring Camberley sit close together, and we cover both — the fit-only approach and the checks we carry out at survey are the same regardless of which side of the boundary a property falls on.",
+  },
+  {
+    q: "How long does a typical Sandhurst bathroom installation take?",
+    a: "A single bathroom strip-out and refit usually runs two to three weeks depending on scope, longer where natural stone, underfloor heating or a steam shower is specified, since those need drying and curing time built into the programme. We confirm a realistic timeline at survey once we've seen the room and the products involved.",
+  },
+  {
+    q: "Can you fit a wet room in an older Sandhurst property?",
+    a: "Usually yes, subject to checking the floor construction at survey. Older properties in this part of Berkshire sometimes have suspended timber floors rather than a solid slab, which affects how a wet room is tanked and supported, occasionally needing additional noggins or overboarding first.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Sandhurst | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Sandhurst, Berkshire. Family and estate homes, from £3,500. Around 15 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Sandhurst", href: "/areas/sandhurst/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Sandhurst</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Sandhurst is a Berkshire town best known for the Royal Military Academy, surrounded by a mix of established family housing and newer estate development, around 15 minutes from our Bracknell base by road. We install luxury, fit-only bathrooms here on the same terms as everywhere else we cover: you source the sanitaryware, brassware, tiles and furniture, we handle strip-out, first fix, tanking, tiling and the final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Sandhurst's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Sandhurst's housing is a genuine mix rather than one dominant style — established twentieth-century family housing forms much of the town, with newer estate developments on its edges and pockets of older property closer to the centre and towards the Royal Military Academy. The right approach at survey depends on which of these a property falls into: newer estate housing is generally solid concrete floors and straightforward modern plumbing, while older stock can still have suspended timber floors that need checking for deflection before a wet room or large-format tiling goes in.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure mostly reflects the same pattern — estate and later-twentieth-century housing is typically mains pressure through a combi boiler or pressurised cylinder, which tends to suit digital and thermostatic showers well without additional pumping. We still measure actual pressure and flow at every survey, since individual properties and boiler ages vary, and it's the only reliable way to specify a shower that performs as promised.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A number of our Sandhurst enquiries involve replacing a dated three-piece family bathroom with a walk-in shower, wall-hung WC and concealed cistern, or adding an en-suite to a bedroom that never had one — typically needing a new waste run tied into the existing stack. Whatever the layout, the discipline at survey and on site stays the same: set-out from a true centre line, tanking to a recognised standard, and tap and waste positions checked against the actual products you've bought before anything is cut.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission, and this covers the great majority of Sandhurst's housing stock. Where a property is listed, or sits within a conservation area, work affecting the external fabric — a new extraction vent through an original wall, for example — can need separate consent. We'll flag this plainly at survey if it looks relevant, and point you to the local planning authority to confirm before anything is ordered rather than assume it's fine and risk an expensive change later.
+      </p>
+    </div>
+  </section>
+
+  <!-- What fit-only looks like -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because you've bought the sanitaryware, brassware and tiles independently, our first job at survey is checking what you've chosen against the room and against each other — waste positions, tap hole centres, support requirements for a wall-hung WC or vanity unit — before any wall is opened. That avoids discovering a mismatch once strip-out has already started.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On site we protect floors and stairs on the route in, keep the site clean at the end of every day, and agree parking and access with you in advance, which is usually straightforward on Sandhurst's estate roads. Being within easy reach of our Bracknell base also means we can turn around a short-notice visit quickly if a delivery arrives early or a snag needs a quick revisit, and if your project is part of a wider extension or refurbishment we're happy to sequence our trades around a builder's or architect's existing programme rather than impose our own.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Sandhurst</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in neighbouring Crowthorne, Camberley and our Bracknell base. If you're just outside Sandhurst's boundary, get in touch and we'll confirm coverage before you book a survey — the standards and checks we apply don't change from one town to the next.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/crowthorne/" class="btn-secondary">Crowthorne</a>
+        <a href="/areas/camberley/" class="btn-secondary">Camberley</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="sandhurst-faq" />
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why choose a fit-only installer</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A design-and-build company marks up every product it supplies and works from a limited showroom range. Buying your own sanitaryware, brassware and tiles directly from specialist suppliers means you're not restricted to one company's stock, and you keep control of the budget on the most expensive line items yourself. What that model needs on the installation side is a team confident working to your specification and quick to flag a mismatch — a basin with the wrong waste size, a shower valve needing a different cable gland — before it becomes a costly delay mid-project. That's the discipline we've built over 30 years of fit-only installation across Sandhurst and the surrounding towns.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Sandhurst</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

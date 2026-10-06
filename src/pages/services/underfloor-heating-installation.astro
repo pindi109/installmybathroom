@@ -1,0 +1,228 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Underfloor Heating Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Electric or wet underfloor heating — which is better for a bathroom?",
+    a: "Electric mats suit most bathroom refits: low build-up height, straightforward to install under tile, and cost-effective for a single room. Wet (water-fed) systems cost more to install and need connecting into the central heating, but run more cheaply over time and suit a full renovation where the floor's already being built up. We cover the full comparison in our electric vs wet underfloor heating guide.",
+  },
+  {
+    q: "How much floor height does underfloor heating add?",
+    a: "Electric mats typically add only a few millimetres on top of the insulation board and adhesive. Wet systems need a screed or low-profile system laid over the pipework, which adds considerably more — this is checked at survey against your door thresholds and adjoining floor levels before work starts.",
+  },
+  {
+    q: "Does underfloor heating work under natural stone as well as porcelain?",
+    a: "Yes, both take underfloor heating well, though natural stone's higher thermal mass means it takes longer to warm up and cool down than porcelain. We factor this into the control settings so the room reaches temperature in good time rather than running hotter than needed to compensate.",
+  },
+  {
+    q: "Can underfloor heating be the only heat source in a bathroom?",
+    a: "On a well-insulated floor in a smaller room, sometimes. For larger bathrooms, rooms with extensive glazing, or where the floor's thermal output alone can't realistically meet target temperature, we recommend it alongside a heated towel radiator rather than as the sole source — we calculate this at survey rather than assuming either way.",
+  },
+  {
+    q: "Does underfloor heating need its own thermostat?",
+    a: "Yes, and ideally one with a floor sensor rather than just an air sensor, so the system responds to actual floor temperature and doesn't overheat natural stone or certain adhesives. We fit and commission the thermostat as part of the installation.",
+  },
+  {
+    q: "Will underfloor heating damage my tiles over time?",
+    a: "Not if it's installed and commissioned correctly. The main risk is thermal shock from heating the floor too quickly after tiling, which is why we follow the adhesive and tile manufacturer's curing times before commissioning the system, gradually bringing it up to temperature rather than switching straight to full heat.",
+  },
+  {
+    q: "What happens if a heating element fails after the floor is tiled?",
+    a: "This is rare if continuity and insulation resistance are checked at each stage before covering, which is exactly why we test repeatedly during installation rather than once at the end. If an element does fail later, a recorded layout and photographs taken during installation let a fault be located without lifting the entire floor to find it.",
+  },
+];
+---
+
+<Base
+  title="Underfloor Heating Installation | Install My Bathroom"
+  description="Fit-only electric and wet underfloor heating installation across Bracknell and Berkshire, under porcelain or natural stone. Correctly commissioned. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Underfloor Heating Installation", href: "/services/underfloor-heating-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Underfloor Heating Installation</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Underfloor heating has to be sized to the room, suited to electric or wet depending on the build-up available, and commissioned gradually once the tile adhesive has cured — not switched straight to full heat on day one. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A cold tiled floor is one of the most common complaints we hear about an otherwise well-finished bathroom, and underfloor heating is the fix most clients ask for once they've lived with it. The system itself — mat, cable or pipe — is only half the job; getting the floor build-up, insulation and control right is what decides whether it actually warms the room or just takes the chill off the tile surface, particularly first thing in the morning when the difference is most noticeable.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The scope below covers an electric mat installation, which is what most bathroom refits specify; a wet system follows the same principles but adds pipework first-fix and a connection to the central heating manifold.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor preparation and insulation board fitting to reduce heat loss downward</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Mat or cable layout planned around fixed fittings (WC, vanity unit) that don't need heating beneath them</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Electrical connection by a registered electrician, including the floor sensor and thermostat</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Continuity and insulation resistance testing before any tile adhesive is applied over the mat</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Coordination with the tiling schedule so adhesive and grout are given correct cure time</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Gradual commissioning of the system once tiling has fully cured</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Thermostat programming and handover talk-through</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Electric or wet: which suits your project</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Electric underfloor heating is the right call for the majority of bathroom refits. It has a low build-up height, so it rarely causes a problem with door thresholds or adjoining floor levels, it's cheaper to install, and for a room that's only occupied for short periods each day, its slightly higher running cost per hour isn't usually significant. It's also the only realistic option when retrofitting into an existing floor without opening up the whole structure.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Wet underfloor heating costs more to install because it needs pipework, a manifold, and usually a screed floor build-up, but it runs more cheaply over time and suits a larger bathroom or a full renovation where the floor is already being rebuilt from joist level. If you're planning a full strip-out and the budget allows, it's worth discussing at survey — but retrofitting a wet system into a finished floor rarely makes sense once the build-up height is accounted for. See our <a href="/guides/electric-vs-wet-underfloor-heating/" class="underline" style="color: var(--teal);">electric vs wet underfloor heating guide</a> for the full comparison.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        There's a middle ground worth knowing about too: low-profile wet systems with thinner pipework and a reduced screed depth, designed specifically for renovation projects where a full structural floor build-up isn't practical. They cost more than electric mats and still need a connection to the heating system, but add less height than a conventional wet install. We'll discuss whether this fits your floor at survey if a wet system is what you're leaning toward.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Floor construction, available build-up height and electrical capacity are checked against electric and wet options.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Insulation and layout.</strong> <span style="color: var(--text-soft);">Insulation board is fitted and the mat or pipe run planned around fixed fittings.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Fitting and testing.</strong> <span style="color: var(--text-soft);">The system is laid, connected, and electrically tested or pressure tested before anything covers it.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tiling over the system.</strong> <span style="color: var(--text-soft);">Floor tiling proceeds once the heating element is confirmed intact and protected from damage during laying.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Cure and commission.</strong> <span style="color: var(--text-soft);">Once adhesive and grout have fully cured, the system is brought up to temperature gradually and the thermostat programmed.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Electric heating mats and cables are tested for continuity and insulation resistance before installation, immediately after laying, and again before and after tiling — a check that's recorded at each stage, because a damaged element found after tiling means lifting tiles to repair it, whereas one found before is a straightforward fix. Electrical connections and the thermostat are installed by a registered electrician as Part P-notifiable work.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Commissioning follows the tile adhesive and grout manufacturer's stated cure time, typically a minimum of several days depending on the product, before any heat is applied — applying heat too early is a common cause of cracked grout and debonded tiles, and it's avoidable simply by waiting. Once cure time has passed, temperature is raised gradually over a day or two rather than set straight to maximum, particularly under natural stone, which responds more slowly to temperature change than porcelain and is more prone to thermal stress if heated too quickly.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A floor sensor is used in preference to an air sensor alone, so the thermostat regulates based on actual floor surface temperature and won't allow the floor to exceed a safe maximum for the tile or stone and adhesive system used. Two sensors are fitted where the room has mixed flooring or a particularly large area, so one zone's reading can't skew the heat delivered to another part of the same floor.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common mistakes we see on previous installations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The most frequent fault we're called to investigate is a mat that was never properly recorded — no photograph of the layout, no continuity reading taken before tiling, and no indication of where the sensor cable or joints sit beneath the floor. When something later needs drilling into, nobody knows what's underneath. We photograph and record every heated area before covering it, and keep that record with the job file so any future work — a new vanity unit, a shelf fixed to the floor, a plumbing alteration — can avoid damaging a live cable.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second common fault is heating laid under fixed furniture, such as beneath a vanity unit or WC pan, where it serves no purpose and simply wastes energy and shortens the system's working life through heat it can't usefully dissipate. We map the layout against the final fitted positions at survey stage, not after the floor's already down, so heating only goes where it's actually needed. A third, less obvious issue is a thermostat set without a floor temperature limit, left to run on an air sensor alone — over months this can push certain adhesives and natural stone beyond their tested range, which is why we always commission with a floor sensor and a sensible upper limit in place.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Electric underfloor heating as part of a full bathroom refit, where the floor is already being tiled, adds relatively little to the overall project. A wet system costs considerably more due to the pipework, manifold and screed involved. Room shape also matters: an irregular floor plan with multiple fixed fittings to route around takes longer to lay than a simple rectangular room, and a split-level floor or a step up into a shower area adds further layout complexity. We confirm the specific figure at survey once floor area and system type are agreed.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The underfloor heating kit (mat, cable or wet system) and thermostat are typically specified and supplied as part of our installation given how closely the system has to match the floor area and tile type, but if you've already sourced one, bring the full spec — output, cable spacing and thermostat model — to survey so we can confirm it's compatible with your floor build-up and chosen tile or stone.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If supplying your own tiles or stone separately, confirm maximum operating temperature with the manufacturer, since some natural stone and engineered products have specific limits that the thermostat needs to be set within.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where the thermostat is being chosen separately — a smart, app-controlled model rather than a basic dial — check it's compatible with the mat or cable's sensor type before ordering. Some smart thermostats expect a two-wire floor sensor and won't read correctly from older three-wire sensors still supplied with certain mats, which is a mismatch better caught before delivery than on install day.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+        <a href="/services/heated-towel-radiator-installation/" class="btn-secondary">Heated Towel Radiator Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/electric-vs-wet-underfloor-heating/" class="btn-secondary">Electric vs wet underfloor heating</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Large format tile tolerances</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="underfloor-heating-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

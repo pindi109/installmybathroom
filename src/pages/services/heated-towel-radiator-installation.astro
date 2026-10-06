@@ -1,0 +1,243 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Heated Towel Radiator Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Can a towel radiator run off the central heating system?",
+    a: "Yes, most are plumbed into the existing central heating circuit, which keeps them warm whenever the heating is on. The trade-off is that they won't heat towels in summer unless the radiator also has an electric element, which is why dual-fuel is the most common specification for a main or guest bathroom.",
+  },
+  {
+    q: "What's the difference between dual-fuel and electric-only towel radiators?",
+    a: "Dual-fuel radiators connect to the central heating and have an electric element with its own timer, so they can run independently of the boiler in summer. Electric-only radiators skip the plumbed connection entirely and run purely from a fused spur, which suits a cloakroom or an en-suite where running a heating pipe isn't practical.",
+  },
+  {
+    q: "Does a towel radiator need an electrician?",
+    a: "Electric and dual-fuel radiators need a fused spur positioned and wired by a registered electrician, and this is Part P-notifiable work because it's in a bathroom. Purely central-heating-fed radiators with no electric element don't need an electrical connection at all.",
+  },
+  {
+    q: "Can you fit a towel radiator in a different position to the existing one?",
+    a: "Yes, moving a radiator to a different wall is routine, but it means extending or rerouting the heating pipework, which is confirmed at survey so the new position, pipe run and any floor or wall disturbance are agreed before work starts.",
+  },
+  {
+    q: "Will a heated towel radiator provide enough heat for the whole bathroom?",
+    a: "On its own, usually not for a larger room — towel radiators are sized primarily for drying towels and taking the chill off, not as the sole heat source for a large bathroom. We size output against room volume at survey and will flag if a secondary heat source, such as underfloor heating, is worth considering alongside it.",
+  },
+  {
+    q: "How long does it take to fit a heated towel radiator?",
+    a: "Replacing a radiator on an existing connection typically takes half a day. Moving the position or converting from central-heating-only to dual-fuel adds time for the new pipework and electrical first fix, and is usually scheduled alongside other bathroom work rather than as a stand-alone visit.",
+  },
+  {
+    q: "Can a heavy radiator be fixed to a stud wall safely?",
+    a: "Yes, but it needs the right fixings — typically into noggins or a dedicated backing board behind the plasterboard, rather than plasterboard fixings alone. Where a stud wall doesn't already have suitable blocking in the right position, we add it before the radiator is hung, which is agreed at survey once the wall construction has been checked.",
+  },
+];
+---
+
+<Base
+  title="Heated Towel Radiator Installation | Install My Bathroom"
+  description="Fit-only heated towel radiator installation across Bracknell and Berkshire — central heating, dual-fuel and electric. Output sized to the room. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Heated Towel Radiator Installation", href: "/services/heated-towel-radiator-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Heated Towel Radiator Installation</h1>
+      <p class="text-lg leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A heated towel radiator has to be sized to the room, connected correctly whether it's plumbed, electric or dual-fuel, and fixed to a wall that can genuinely carry its weight when full of water — confirmed at survey, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's a fitting that looks simple and rarely is. Output has to match room volume and glazing, the wall fixings have to suit the actual construction behind the plaster rather than an assumed stud position, and the connection method — central heating, electric, or both — changes the first-fix work entirely. We work through all three at survey before your chosen radiator is ordered, which is also when we check whether the existing pipework or electrical circuit has the capacity to serve it.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Whether we're replacing a tired radiator on the same wall or moving one to a new position as part of a full refit, the groundwork is the same: establish what the wall can carry, confirm how the radiator will be heated, and make sure the pipework or electrics are in place before the radiator itself is hung.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Output calculation against room volume, glazing and target temperature</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Removal of the existing radiator and isolation of the heating circuit where applicable</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Pipework extension or rerouting for a new position, with floor or wall making good</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Fused spur installation by a registered electrician for electric or dual-fuel models</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Wall fixing checked against the actual construction — masonry, stud or dot-and-dab — not assumed</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Connection, bleeding and balancing against the rest of the heating circuit</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Function test under full heat before handover, including timer or thermostat set-up</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Sizing output correctly</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A towel radiator's heat output is stated in watts or BTUs by the manufacturer, and that figure has to be checked against the room it's heating — volume, external wall area, glazing, and whether it's expected to contribute to the room's general warmth or purely dry towels. A tall, narrow radiator that looks right on a showroom wall can be substantially under-specified for a large principal en-suite with a big glazed shower screen and external walls on two sides.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We calculate required output at survey and check it against the model you're considering before you order, rather than fitting whatever's arrived and discovering afterward that the room still feels cold in winter. Where output genuinely can't be met by a single radiator in the available wall space, we'll say so — the honest options are usually a larger model, a second smaller radiator, or supplementary underfloor heating.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Central heating, electric, or dual-fuel?</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A radiator plumbed purely into the central heating circuit is the simplest option — no electrician, no additional running costs beyond the boiler, and it warms whenever the heating's on. Its limitation is obvious in summer: with the boiler off, the radiator is cold, which is a real problem in a bathroom used every morning for drying towels.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        An electric-only radiator sidesteps that entirely, running from a fused spur on its own timer regardless of the central heating's state, which suits a cloakroom, guest WC or an en-suite where running a heating pipe back to the nearest circuit isn't practical. The trade-off is a modest running cost whenever it's switched on, and the need for an electrician to fit the spur.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Dual-fuel radiators combine both: plumbed into the heating circuit for winter, with an electric element that takes over in summer via its own timer. It's the specification we fit most often in a main bathroom or principal en-suite precisely because it removes the seasonal gap, at the cost of needing both a pipe run and an electrical first fix rather than just one.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">Room volume, wall construction and existing pipe or spur positions checked against your chosen radiator.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Isolation and removal.</strong> <span style="color: var(--text-soft);">The heating circuit is isolated and the existing radiator removed, or the position prepared for a new one.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Pipework and electrics.</strong> <span style="color: var(--text-soft);">Heating pipework is extended or rerouted as needed, and a fused spur run for electric or dual-fuel models.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Fixing and connection.</strong> <span style="color: var(--text-soft);">Brackets are fixed to suit the actual wall construction, the radiator hung, and connections made.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Testing and handover.</strong> <span style="color: var(--text-soft);">The circuit is bled, balanced against other radiators, and run to full temperature before we leave.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Fused spurs for electric and dual-fuel radiators are positioned outside the bathroom's electrical zones wherever the layout allows, and rated appropriately where they can't be, in line with BS 7671 requirements for special locations. This is Part P-notifiable work and is certified by a registered electrician on completion as part of the installation — not left for you to arrange separately.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Wall fixings are specified to the actual substrate found at survey. A radiator full of water is considerably heavier than it looks empty, and fixings suited to a dot-and-dab plasterboard wall are not the same as those needed for solid masonry or a timber stud — using the wrong fixing is the single most common cause of a towel radiator coming away from the wall months after installation, so we check and specify this before the radiator arrives, not on the day.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where a radiator is plumbed into an existing heating circuit, it's balanced against the rest of the system after fitting, so it neither starves nor floods relative to other radiators on the same loop.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Any pipework that passes through a tanked or tiled wall is sealed back through the waterproofing layer at the penetration point, and isolation valves are fitted at the radiator itself so it can be removed for decorating or servicing without draining the whole heating circuit — a detail that's easy to omit and inconvenient to retrofit once the wall's closed up.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Period properties and older heating systems</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        In many of the larger detached and period homes we work on around Sunningdale, Ascot and Gerrards Cross, the existing central heating circuit was designed decades ago around a different radiator layout, often with narrower-bore pipework than a modern dual-fuel radiator's output would ideally see. This doesn't rule a radiator out, but it does mean checking flow rate and existing pipe diameter at survey rather than assuming the new radiator will perform exactly as the manufacturer's figures suggest on an unmodified older system.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a property has had its boiler or heating system upgraded more recently than the radiators themselves, there's sometimes a mismatch between modern system pressure and older towel radiator fittings — valves that were adequate for a gravity-fed system can struggle to balance correctly on a modern pressurised circuit. We check this at survey and flag it before ordering, rather than fitting a radiator that never quite reaches temperature once it's connected.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What affects the price</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A like-for-like replacement on an existing connection, with no change of position, sits at the lower end. Cost rises where the position is moving, where pipework needs extending across the room, where a conversion from central-heating-only to dual-fuel is being specified, or where the existing wall needs additional structural fixing points installed before the radiator can be hung safely. We confirm which applies at survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The radiator itself, and any matching valves, are bought by you. Confirm the connection type (central heating, electric or dual-fuel) and the valve pattern — straight, angled or corner — matches the pipework position agreed at survey, since the wrong valve pattern is a common cause of a delivery not being usable on install day.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If you're choosing a finish other than standard chrome — brushed nickel, matt black or a brass tone are all popular on larger radiators now — check the manufacturer's stated lead time before committing to a start date. Finished-to-order radiators in non-standard colours can take considerably longer to arrive than a stocked chrome model, and a delayed delivery that pushes back the whole installation is a scheduling problem worth avoiding by ordering early.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the radiator and valves on delivery for the correct finish, size and connection type before we arrive. A wrong or damaged item discovered on site, where it causes a return visit, is chargeable.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/bathroom-ventilation/" class="btn-secondary">Bathroom Ventilation</a>
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/electric-vs-wet-underfloor-heating/" class="btn-secondary">Electric vs wet underfloor heating</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom electrical zones</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="heated-towel-radiator-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

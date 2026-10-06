@@ -1,0 +1,252 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Framed vs Frameless Shower Screens Compared",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is frameless glass thicker than framed glass?",
+    a: "Yes, generally. Without a frame to add rigidity, frameless screens use thicker toughened glass — commonly 8mm or 10mm — to stand unsupported, while framed screens can use thinner glass since the frame carries some of the structural load.",
+  },
+  {
+    q: "Does a frameless screen need a more accurate wall and floor than a framed one?",
+    a: "Yes. A frameless screen's fixing channel and hinges sit directly against the wall and floor with minimal cover, so any deviation from plumb or level shows immediately. A framed screen's profile has more tolerance to absorb small inaccuracies in the substrate.",
+  },
+  {
+    q: "Is frameless glass harder to keep clean?",
+    a: "Not inherently, though with no frame to interrupt it, limescale and soap marks across the full glass surface are more visible, and a quality glass coating or regular squeegee use makes a real difference to how the screen looks over time.",
+  },
+  {
+    q: "Can a frameless screen be fitted into an alcove with slightly out-of-square walls?",
+    a: "Sometimes, but it depends how far out of square the walls are — frameless screens have limited scope to disguise a gap, whereas a framed screen's profile can be scribed and sealed to take up small irregularities. We assess this at survey before confirming either option will work cleanly in your specific alcove.",
+  },
+  {
+    q: "Which is more expensive to fit?",
+    a: "Frameless screens generally cost more, reflecting the thicker toughened glass, heavier-duty hinges and brackets, and the greater care and accuracy needed in setting them against the wall and floor.",
+  },
+  {
+    q: "Does a frameless screen's glass need to be thicker everywhere, including fixed panels?",
+    a: "Fixed panels generally carry less dynamic load than a hinged door, but the industry standard still specifies thicker toughened glass for any unsupported frameless panel, door or fixed, since both need to resist everyday knocks and leaning without a frame to share the load.",
+  },
+  {
+    q: "How often does a framed screen's seal need replacing?",
+    a: "It depends on use and how well the room is ventilated, but checking the channel seal every few years and resealing at the first sign of degradation — rather than waiting until water is visibly tracking behind the frame — keeps a framed screen performing as intended for its full lifespan.",
+  },
+  {
+    q: "Is frameless glass more likely to crack or shatter than framed glass?",
+    a: "No — both use toughened safety glass tested to the same BS EN 12150 standard, and a frameless panel's greater thickness partly compensates for having no frame to share the load. Toughened glass of either type shatters into small, blunt fragments rather than sharp shards if it does fail.",
+  },
+];
+---
+
+<Base
+  title="Framed vs Frameless Shower Screens Compared | IMB"
+  description="How framed and frameless shower screens compare — glass thickness, fixing tolerance, cleaning, and what wall and floor accuracy each one needs."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Framed vs Frameless Shower Screens", href: "/guides/framed-vs-frameless-shower-screens/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Framed vs Frameless Shower Screens Compared</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A frameless screen uses thicker toughened glass fixed directly to the wall and floor, giving a clean, minimal look but demanding an accurately plumb and level substrate to fit well. A framed screen's profile adds some tolerance for a less-than-perfect wall and generally costs less, at the expense of a visible metal surround. The right choice depends as much on your room's actual accuracy as on preferred style.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Framed</th>
+              <th class="text-left py-3 font-semibold">Frameless</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Typical glass thickness</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Thinner glass, commonly around 6mm, supported by the frame.</td>
+              <td class="py-3" style="color: var(--text-soft);">Thicker toughened glass, commonly 8mm or 10mm, standing unsupported.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Tolerance for an imperfect wall</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Profile can be scribed and sealed to absorb small irregularities.</td>
+              <td class="py-3" style="color: var(--text-soft);">Very little cover to disguise an out-of-plumb wall or uneven floor.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Visual appearance</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Visible metal frame and profile around the glass.</td>
+              <td class="py-3" style="color: var(--text-soft);">Minimal, clean sightlines with glass as the dominant visual element.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Fixing hardware</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Frame carries much of the structural load via wall and floor channels.</td>
+              <td class="py-3" style="color: var(--text-soft);">Heavier-duty hinges and brackets fixed directly to the glass.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Relative cost</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Generally lower.</td>
+              <td class="py-3" style="color: var(--text-soft);">Generally higher, reflecting glass thickness and fixing hardware.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why wall accuracy matters more for frameless</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A frameless screen's fixing channel sits almost directly against the tiled wall and floor, with only a thin bead of silicone to take up any gap. If the wall isn't plumb or the floor isn't level, that gap varies visibly along the length of the screen — something that's very hard to disguise once the glass is in place. This is why we check wall plumb and floor level carefully at survey where a frameless screen is being specified, and why any correction needed to the substrate has to happen before tiling, not after.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A framed screen's profile has more capacity to absorb small deviations — the frame itself can be scribed slightly to follow a wall that's not perfectly true, with the join sealed behind the metal surround rather than left exposed as a variable gap in glass.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Living with a frameless screen day to day</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        With no frame to break up the surface, limescale spotting and soap residue show across the full glass panel rather than being partly hidden by a metal surround. This isn't a flaw in the product — it's simply a consequence of the minimal design — and most households manage it well with a squeegee used after each shower and a glass coating applied at installation or periodically afterwards. If low-maintenance glass is a priority, this is worth discussing at the point of ordering rather than after the screen is fitted.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Hinges, brackets and the weight they carry</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A frameless hinged door relies on its hinges and wall bracket to carry the full weight of a thick glass panel with every use, so those fixings need to go into a genuinely solid substrate — typically a tiled masonry wall or a correctly battened and boarded stud wall rather than bare plasterboard. We confirm what's behind the tile at the exact fixing points at survey, and specify additional backing where needed before the wall is tiled, since retrofitting solid fixing points after tiling is complete means disturbing finished work.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Framed screens distribute load across a longer fixing channel rather than concentrated hinge points, which generally makes them more forgiving of a slightly less robust wall structure, though a well-built, solidly fixed wall is good practice for either option and matters for the long-term feel of the door — a screen that flexes or feels insecure in use is almost always a sign of inadequate fixing behind the tile, not a fault with the glass or hardware itself.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing for a specific enclosure</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A frameless screen tends to suit a larger, more open wet room or walk-in shower layout, where the minimal sightlines let the tiling and the room's proportions read as the main visual feature rather than the screen itself. A framed screen can suit a smaller enclosure built into an existing alcove with walls that aren't perfectly square, where the frame's tolerance for small irregularities avoids an expensive remedial plastering job purely to accommodate a frameless fit.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'll check your specific alcove or wet room layout against both options at survey and give you an honest view on which will fit cleanly, rather than defaulting to whichever looks better in a showroom display without reference to your actual walls and floor.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Glass thickness and structural fixing in practice</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Toughened glass carries load differently from glass supported along its edges by a frame. A frameless panel resists the sideways force of someone leaning on it, or a door being opened and closed thousands of times over its life, entirely through its own rigidity and the strength of its fixing points — which is why 8mm and 10mm toughened glass, tested to BS EN 12150, is the norm for an unsupported frameless panel, where a framed equivalent might use 6mm glass because the surrounding profile shares the structural load.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This also affects where and how a frameless screen can be fixed. A hinged frameless door needs its wall bracket fixed into masonry, a properly battened stud wall, or suitably reinforced backing — not bare plasterboard, however convenient that might be for existing cable runs — because the hinge transfers the full weight and swing force of the glass door into that single point, repeatedly, for years. Fixed panels without a door carry less dynamic load but still need a solid channel fixing along the full length of the floor and wall junction.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Maintenance over time: frame crevices versus full-glass visibility</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A framed screen's profile — the channel where glass meets metal — creates a series of crevices along every edge, and these collect limescale, soap residue and, in a poorly ventilated room, mould over time. Cleaning a framed screen properly means working into those channels with a brush or cloth, not just wiping the glass, and the silicone seal inside the frame channel eventually degrades and needs replacing — something that's easy to overlook until the seal has already failed and water is tracking behind it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A frameless screen has no equivalent channel to collect in — the trade-off is that without a frame to interrupt it, limescale and soap marks show across the full glass surface rather than being partly concealed by metal. In practice, most households find a frameless screen easier to keep looking good long-term, since a squeegee and occasional glass cleaner addresses the whole visible surface, whereas a framed screen's channels need separate, more deliberate attention to avoid a build-up that's much harder to shift once established.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Cost of ownership over the life of the screen</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Frameless screens cost more to buy and fit, reflecting the thicker glass and heavier-duty hardware, but they have fewer parts that wear out — no frame seal to perish, no channel to reseal, just toughened glass and a small number of hinges or brackets that are straightforward to inspect and adjust. Framed screens cost less upfront, but the frame's seals and channel silicone are a maintenance item in their own right over a ten or fifteen year span, needing periodic resealing to keep water from tracking behind the frame and onto the floor structure beneath.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Neither cost picture is dramatically different in practice, since a well-fitted screen of either type, properly maintained, lasts many years. The difference is more in the kind of ongoing attention each demands: a frameless screen asks for more regular surface cleaning, a framed screen asks for less frequent but more specific seal maintenance.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Replacement cost also differs if the glass itself is ever damaged — a bespoke-cut frameless panel generally costs more to replace than a standard framed unit, simply because of the thicker glass and precise sizing involved, so it's worth checking likely lead times for a replacement pane as part of specifying a frameless screen in the first place.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/wet-room-vs-walk-in-shower/" class="btn-secondary">Wet room vs walk-in shower</a>
+        <a href="/guides/thermostatic-vs-digital-showers/" class="btn-secondary">Thermostatic vs digital showers</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Large-format tile tolerances</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/matki/" class="btn-secondary">Matki</a>
+        <a href="/brands/crosswater/" class="btn-secondary">Crosswater</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Glass specification and toughening referenced in this guide follow BS EN 12150 for toughened safety glass. Fixing and sealing follow manufacturer installation guidance current at the time of writing, applied against the plumb and level readings confirmed at survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="framed-frameless-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,169 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Do Lefroy Brooks taps need concealed or exposed pipework?",
+    a: "Both are available across the range. Exposed, traditional-style pillar taps and bath shower mixers are fitted with visible pipework and brackets, which we set out and fix at first fix so the finished pipe runs sit square and level before tiling closes around them.",
+  },
+  {
+    q: "Can Lefroy Brooks brassware be fitted to any wall thickness?",
+    a: "Deck-mounted taps are generally straightforward, but wall-mounted and exposed shower valves need the wall build-up and tile thickness confirmed in advance, since the valve body and pipework have to land at the correct finished depth. We check this at survey before first fix.",
+  },
+  {
+    q: "What water pressure do Lefroy Brooks shower valves need?",
+    a: "Traditional thermostatic and exposed shower valves generally need adequate mains or pumped pressure to perform as intended, particularly on larger fixed heads. We measure your system's pressure and flow at survey and flag any pump or boost requirement before you commit to a specific valve.",
+  },
+  {
+    q: "Does the finish on Lefroy Brooks brassware need special care during fitting?",
+    a: "Yes — finishes such as aged brass, nickel and polished finishes mark more easily from grip wrenches, flux and installation handling than a standard chrome tap. We use protective jaws and clean, flux-free jointing techniques throughout so the finish reaches final handover undamaged.",
+  },
+  {
+    q: "Can taps and shower valves be supplied without us buying from Lefroy Brooks directly?",
+    a: "Yes — Lefroy Brooks is sold through a network of bathroom showrooms and specialist retailers as well as directly, and you're free to buy through whichever route suits you. We fit what you've purchased; we don't sell Lefroy Brooks products ourselves.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Lefroy Brooks?",
+    a: "No. We are an independent fit-only installer with no commercial relationship with Lefroy Brooks. We install the brassware and sanitaryware our clients buy themselves.",
+  },
+  {
+    q: "Can Lefroy Brooks taps be mixed with sanitaryware from a different brand?",
+    a: "Yes, this is common and not a problem — traditional-style brassware is frequently paired with sanitaryware from another manufacturer. What matters is confirming tap hole centres, deck thickness and basin or bath cut-outs match the brassware you've chosen before anything is ordered.",
+  },
+  {
+    q: "How long does fitting a full set of Lefroy Brooks brassware typically add to a project?",
+    a: "Exposed pipework and traditional fittings generally take longer to set out and fix than concealed, modern equivalents, because every pipe run is visible and has to be finished square and level by hand. We allow for this at the planning stage rather than treating it as a standard brassware fit.",
+  },
+  {
+    q: "Does Lefroy Brooks brassware need descaling or maintenance in a hard water area?",
+    a: "Limescale builds up on any brassware in a hard water area, and decorative finishes can be more sensitive to the wrong descaling product than standard chrome. We'd point you to Lefroy Brooks's own cleaning guidance for the specific finish you've chosen, since ongoing maintenance sits outside our installation role.",
+  },
+];
+---
+
+<Base
+  title="Lefroy Brooks Installation | Install My Bathroom"
+  description="Specialist installation of Lefroy Brooks traditional-style brassware and sanitaryware across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Lefroy Brooks", href: "/brands/lefroy-brooks/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Lefroy Brooks Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Lefroy Brooks's traditional-style taps, shower valves and sanitaryware are built around exposed pipework, cross-head handles and period-inspired profiles rather than the concealed, minimal fittings most modern brassware favours. Fitting it well means the pipe runs, brackets and wall fixings are set out and finished to be looked at, not hidden — every joint, bracket and pipe run visible once the room is finished.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.lefroybrooks.com/" target="_blank" rel="noopener" class="btn-secondary">Visit Lefroy Brooks →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We fit Lefroy Brooks's bath and basin mixers, exposed thermostatic shower valves and fixed shower arms, bath shower mixers with telephone-style handsets, and traditional sanitaryware including basins, WCs and roll-top style baths. The range covers both deck-mounted and wall-mounted configurations, finished in chrome, nickel, aged brass and several darker metal finishes.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The brassware and sanitaryware we fit from Lefroy Brooks is specified and purchased by the client, usually through a bathroom showroom or specialist retailer. We don't supply Lefroy Brooks products — our work starts once the pieces are on site, ready to be set out, fixed and plumbed in. Several collections within the range also include matching accessories — robe hooks, towel rails and shelving — finished to the same standard as the taps, which we fit as part of the same first-fix and final-fix sequence.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Exposed pipework set-out:</strong> visible pipe runs and brackets are planned and fixed square and level at first fix, since they can't be hidden or corrected once tiling and decoration are complete.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Wall build-up depth:</strong> wall-mounted taps and shower valves need the finished wall thickness and tile depth confirmed before first fix, so the valve body sits at the correct projection.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure and flow:</strong> exposed thermostatic valves and larger fixed shower heads need adequate pressure and flow to perform properly, checked at survey against your existing system.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Finish protection:</strong> aged brass, nickel and other decorative finishes are protected with non-marking jaws and clean jointing methods to avoid tool marks and flux staining during fitting.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Fixing points for traditional sanitaryware:</strong> roll-top baths and period-style basins often need specific bracket or leg fixings confirmed against the floor or wall construction before installation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check that the finish, handle style and configuration (deck-mounted versus wall-mounted, for example) match your order precisely — Lefroy Brooks offers several closely related ranges and finishes that look similar in a brochure but aren't interchangeable once pipework is set out to a specific model. Inspect the brassware for scratches, tool marks or finish inconsistencies before we begin, since exposed fittings show every mark clearly once installed. Confirm all fixing kits, wall plates and any matching accessories are present, as traditional ranges often supply these as separate components rather than a single boxed unit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The fault we most often correct on other people's exposed pipework is misaligned or unlevel pipe runs — visible on a traditional valve in a way that's forgiven on a concealed one. Once tiling and decoration close around a bracket, an out-of-true pipe run can't be adjusted without opening the wall back up, so we set it out precisely at first fix, checking against the actual valve and basin or bath position rather than a generic template.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is insufficient pressure reaching a large fixed shower head, where a valve performs well on paper but disappoints in use because the existing system can't support the flow it was designed around. We flag this at survey, before the valve is purchased, so pressure or pump requirements are known in advance rather than discovered at first use.
+      </p>
+    </div>
+  </section>
+
+  <!-- Working within period properties -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Working within period and traditional-style bathrooms</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Lefroy Brooks is frequently specified in period properties or rooms built to recreate a traditional style, which brings its own planning considerations beyond the brassware itself. Older walls are rarely perfectly flat or square, so exposed pipe brackets are set out to read as level and consistent to the eye, even where the wall behind them isn't — a different discipline to fixing against a modern, true stud wall.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also coordinate exposed pipework with the room's wider finishes — tiling height, skirting detail and any panelling — so pipe runs sit in proportion with the room rather than crossing awkwardly through a tile joint or feature detail. This is agreed at survey, using the actual brassware model and the room's finished layout, before first fix begins.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting decorative finishes -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting decorative finishes through to handover</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Aged brass, nickel and other decorative finishes are fitted relatively late in a project, once tiling and first-fix trades are complete, but the room is rarely finished the moment the taps go on — decorators, electricians fitting lights, and the final clean are often still to come. We fit protective sleeves or film to exposed brassware immediately after installation and agree with other trades working nearby that it stays in place until the room is genuinely finished.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This matters more with a decorative finish than a standard chrome tap, since a solvent spill, a dropped tool or an abrasive cleaning product used by mistake during final clean can mark a nickel or aged brass surface in a way that isn't easily corrected. Taking the time to protect it properly at the point of fitting avoids a conversation about damage that happened after our work was complete.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="lefroy-brooks-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Lefroy Brooks; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

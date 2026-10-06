@@ -1,0 +1,253 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bathroom Strip-Out and Preparation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "How much mess does strip-out actually create?",
+    a: "A reasonable amount — removing tiling, old flooring and a suite generates genuine dust and debris. We protect the route through the house for the full duration of the strip-out, not just the room itself, and clear disposal from site daily rather than letting it accumulate.",
+  },
+  {
+    q: "Do you protect the rest of the house, or just the bathroom?",
+    a: "The whole route materials and debris travel along — hallway, stairs, landing — gets dust sheets and floor protection for as long as strip-out and disposal are ongoing, since that's where most incidental damage to a home actually happens, not inside the room being worked on.",
+  },
+  {
+    q: "What happens if you find rot or damp behind the old tiling?",
+    a: "We stop and show you what's been found before deciding how to proceed. Most timber or masonry issues found at strip-out are straightforward to make good, but it needs pricing and agreeing before work continues, rather than being absorbed silently into the original scope.",
+  },
+  {
+    q: "Can you reuse the existing waste pipe positions to save cost?",
+    a: "Often, yes, if they suit the new layout and are in sound condition — we assess this during strip-out once the old suite and surrounding tiling are out and the pipework is actually visible, rather than guessing from the finished room beforehand.",
+  },
+  {
+    q: "How long does strip-out typically take?",
+    a: "Usually 1–2 days for a standard bathroom, more if the room has multiple layers of old tiling, concrete screed, or structural work is needed once the old finishes are off. It's the first stage of the programme we agree with you at survey.",
+  },
+  {
+    q: "What if you find material you suspect might be asbestos?",
+    a: "Work on that area stops immediately. Older tile adhesives, floor tiles and some backing boards can contain asbestos in pre-2000s properties, and we don't disturb suspect material further — it needs proper identification and, if confirmed, removal by a specialist, before we continue.",
+  },
+  {
+    q: "Does strip-out ever change the final price agreed at survey?",
+    a: "It can, but only where strip-out reveals something that genuinely wasn't visible beforehand — a damp patch, rot, or a pipe run needing rerouting. Any change is discussed and agreed with you before further work proceeds, rather than appearing as a surprise on the final invoice.",
+  },
+  {
+    q: "Can strip-out be done without disturbing the ceiling below, if the bathroom is upstairs?",
+    a: "In most cases, yes — strip-out focuses on the room itself rather than the structure beneath it, unless a specific finding, such as a leak that's affected the ceiling below, means that area needs opening up too. We'll explain the reasoning if that becomes necessary.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Strip-Out & Preparation | Install My Bathroom"
+  description="Strip-out, disposal and substrate preparation across Bracknell and Berkshire — protecting the rest of the house and checking what's underneath before rebuilding. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Bathroom Strip-Out & Preparation", href: "/services/bathroom-strip-out-and-preparation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Strip-Out & Preparation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Strip-out takes a bathroom back to brick and joist, protects the rest of the house while it does, and checks what's actually underneath before anything new is built on top of it. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why it matters -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The stage that decides what the rest of the job needs</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A finished bathroom looks like a clean, confident design decision. What it's actually built on is whatever's behind the old tiling and under the old floor — and until that's exposed, nobody knows for certain whether a joist has sagged, a timber floor has taken on damp from a leaking waste pipe over the years, or the existing screed is sound enough to tile straight onto. Strip-out is where all of that gets found, assessed and, where needed, put right, before any new work is built on top of it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also the messiest and most disruptive stage of the whole project for the rest of the house, which is exactly why we treat it as a managed operation rather than simply "ripping the old bathroom out" — protection goes down before a single tile comes off the wall, and stays in place for as long as debris is moving through the house.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Removal of existing sanitaryware, tiling and flooring back to brick, block or joist</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Protection of the full route through the house — hallway, stairs, landing — for the duration of strip-out and disposal</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Disposal of old materials, arranged and removed from site rather than left to accumulate</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Substrate inspection: joist and timber condition, screed soundness, any sign of historic damp or leaks</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Remedial carpentry or making good where the substrate needs it before first fix begins</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> A clean, prepared room handed over to first fix, with any findings discussed and agreed with you first</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey.</strong> <span style="color: var(--text-soft);">We confirm what's being removed down to, and flag anything visible already — an obviously sagging floor, old staining, a route that will be awkward to protect.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Protection fitted.</strong> <span style="color: var(--text-soft);">Dust sheets and floor protection laid along the whole route materials and debris will travel, not just inside the bathroom.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Strip-out and disposal.</strong> <span style="color: var(--text-soft);">Old suite, tiling and flooring removed and taken from site; disposal arranged and recorded.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Substrate inspection.</strong> <span style="color: var(--text-soft);">Joists, screed and any visible pipework assessed; findings discussed with you before anything is closed up again.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Making good.</strong> <span style="color: var(--text-soft);">Any remedial carpentry completed, and the room handed over clean and ready for first fix.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Timber floors are checked for deflection and general stiffness before any decision is made about tiling over them, since large-format porcelain and natural stone are far less forgiving of floor movement than a smaller-format tile — a floor that feels perfectly sound underfoot can still flex more than a rigid stone floor can tolerate without cracking at the joints. Where that's the case, additional noggins, a stiffer sub-floor board, or a different tile format is discussed with you before proceeding.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Moisture readings are taken on timber and masonry before anything is closed up, particularly around existing waste pipe routes and external walls, since a floor that looks dry can still be carrying residual moisture from a historic slow leak that was never obvious from the finished room above. Waste is disposed of responsibly and in line with waste transfer requirements for construction material.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where strip-out reveals a suspected hazardous material — most commonly in pre-2000s properties, in older floor tile adhesives or backing boards — work on that area stops immediately. We don't disturb it further; it needs proper identification and, if confirmed, specialist removal before the project continues.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting the house -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting the house, not just the room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most damage caused by building work in an occupied home doesn't happen inside the room being renovated — it happens in the hallway, on the stairs, and at doorways, where materials and debris are carried through repeatedly over several days. We treat this route with the same seriousness as the bathroom itself: floor protection boards on hard flooring, dust sheets taped down on carpet, and corner protection on anything the old suite or new materials might catch against on the way past.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This protection stays in place for the whole strip-out and disposal period, not just the first morning, since the risk of an accidental knock or a trail of dust is just as real on day three as it is on day one.
+      </p>
+    </div>
+  </section>
+
+  <!-- What strip-out reveals -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What strip-out most commonly reveals</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The most frequent finding behind old tiling is nothing more than old, slightly uneven plaster and a historic adhesive bed that needs removing before a new tiling surface can be formed flat — not a structural problem, just extra preparation time. The next most common finding is a waste pipe joint that's been seeping slowly behind a wall or under a floor for long enough to soften surrounding timber without ever causing a visible leak in the room itself. On older properties with a history of extensions or converted layouts, it's also common to find a mix of pipe materials and ages where previous work has been patched over rather than properly integrated.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        None of these are unusual, and none of them typically derail a project — but all of them change the scope slightly from what could be assumed before the room was opened up, which is exactly why strip-out happens before a final price is locked in for any remedial work, rather than being quoted blind from a visual inspection of the finished room.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disposal and sustainability -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Disposal, done properly</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Old sanitaryware, tiling and flooring generate a genuine volume of waste, most of it heavy — ceramic and stone offcuts, old adhesive beds, timber. We remove this from site and dispose of it through appropriate waste routes rather than letting it pile up in a skip on the drive for the length of the project, which matters both for the look of the property during the work and for keeping access clear for deliveries later in the programme.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where fittings are still functional and worth salvaging — a radiator, a mirror, occasionally a basin — we'll discuss this with you rather than assuming everything goes straight to disposal.
+      </p>
+    </div>
+  </section>
+
+  <!-- Timing and the programme -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why strip-out findings affect the whole programme</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Strip-out sits right at the start of the project for a reason: anything found here has a knock-on effect on everything that follows. A floor that needs additional stiffening changes the tiling specification. A waste run that needs rerouting changes the first-fix plumbing plan. A patch of damp masonry that needs drying out before tanking changes the overall timeline. Because of this, we always build in a short period after strip-out to confirm the substrate before committing to exact first-fix positions, rather than running strip-out and first fix as a single uninterrupted stage.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This is also the point in the project where we talk through anything found with you directly — photographs, a clear explanation of what it means, and an honest view on whether it affects cost or timeline, before any further work proceeds.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        There's nothing specific you need to buy for strip-out itself. If there's anything in the existing room you want kept — a mirror, a radiator, a fitting with sentimental value — flag it at survey so it's removed carefully rather than treated as part of the general clearance. It's also worth deciding in advance whether you want to be present on strip-out day, since this is the point at which any findings behind the old finishes come to light and are easiest to discuss on the spot.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/how-long-does-a-bathroom-installation-take/" class="btn-secondary">How long does an installation take</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-strip-out-and-preparation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

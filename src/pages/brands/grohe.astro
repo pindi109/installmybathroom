@@ -1,0 +1,181 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "What rough-in does a Grohe concealed shower valve need?",
+    a: "Grohe's concealed thermostatic and manual valves use their own Rapido-series installation bodies, fitted and pressure-tested before tiling. The visible trim — Grohtherm, Eurosmart or Grandera, for example — is fitted afterwards and matched to the specific Rapido body already in the wall.",
+  },
+  {
+    q: "Do Grohe concealed cisterns need a specific carrier frame?",
+    a: "Yes. Grohe's Rapid SL frame is the standard carrier for its wall-hung WCs and some basin ranges, fixed to a structural wall or floor rather than a stud partition alone. We confirm wall construction at survey before the frame is ordered.",
+  },
+  {
+    q: "Can Grohe digital and smart shower products be retrofitted?",
+    a: "Grohe's digital shower and smart water products need an electrical supply run to the control position before the wall is closed, so retrofitting into an already-tiled bathroom usually means opening the wall back up. It's far more straightforward to plan the supply in at first fix.",
+  },
+  {
+    q: "How much water pressure does a Grohe rainshower head need?",
+    a: "Grohe's larger Rainshower heads need a measured minimum flow to perform as shown in the brochure. We check static and running pressure at survey, before the head is specified, particularly on combi boiler systems or longer pipe runs.",
+  },
+  {
+    q: "What should I check when my Grohe order is delivered?",
+    a: "Confirm the valve or cistern model matches the trim or flush plate ordered, check the finish code against the sample chosen, and inspect visible components for shipping damage before fitting begins.",
+  },
+  {
+    q: "Is Grohe suitable for a family bathroom as well as an en-suite?",
+    a: "Yes — much of the range, particularly the Eurosmart and Euroeco collections, is specified on family bathrooms for durability and straightforward servicing as much as finish. We fit the same standard of rough-in and carrier frame work regardless of which part of the Grohe range or which room it's going into.",
+  },
+];
+---
+
+<Base
+  title="Grohe Installation | Install My Bathroom"
+  description="Installation of Grohe shower systems, concealed valves and wall-hung sanitaryware across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Grohe", href: "/brands/grohe/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Grohe Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Grohe covers a wide span of our work — thermostatic shower valves and mixer taps on mid-range refits, Rapid SL cistern frames behind wall-hung WCs, and digital shower and smart water products on more specified projects. The range is broad enough that the installation detail changes considerably depending on which part of it you've chosen, which is why we work through exactly what's been specified at survey rather than treating "Grohe" as a single fitting job.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.grohe.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Grohe →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Basin, bath and shower mixers from the Eurosmart, Essence, Eurocube and Grandera collections, concealed and exposed Grohtherm thermostatic shower valves, Rainshower overhead and handshower systems, and the Rapid SL concealed cistern and carrier frame used behind many wall-hung WCs. We also fit Grohe's digital shower controls and Blue water filtration taps on projects specified to that level.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Grohe's concealed valve platform spans several generations of Rapido installation body, so where a client already owns part of a system — a rough-in fitted some years ago that's now being extended, for instance — we confirm compatibility with current trims before ordering anything new.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Carrier frame fixing:</strong> Rapid SL frames are fixed to a structural wall or floor, confirmed against wall construction at survey, not fitted to plasterboard alone.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Rough-in depth:</strong> Rapido concealed valve bodies are set to the finished wall build-up — tile, adhesive and board — before boarding starts.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> Rainshower heads and multi-function shower systems need a measured minimum flow, checked at survey against the specific model.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply:</strong> digital shower controls and smart taps need a dedicated, correctly zoned electrical supply run before the wall or worktop is finished.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Access panel position:</strong> flush plates and valve trims are positioned so cistern and valve service points stay reachable after tiling.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We check the valve or cistern model against the trim or flush plate ordered, because Grohe's Rapido and Rapid SL platforms have evolved over several generations and not every current trim fits an older installation body. We confirm the finish code on the box against the physical sample — chrome, brushed nickel and the Hard Graphite finish all carry distinct codes — and inspect every visible component for shipping damage before fitting starts. A mismatch discovered after the wall is tiled means reopening it, which is a chargeable return visit on client-supplied goods.
+      </p>
+    </div>
+  </section>
+
+  <!-- Who specifies Grohe -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Where Grohe fits across different projects</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We see Grohe specified at both ends of the jobs we take on. On a full refit where the client has chosen their own mixer taps, shower valve and WC from a builders' merchant or online retailer, Grohe's Eurosmart or Essence ranges are a common, dependable choice that we fit exactly as supplied. On larger en-suite and principal bathroom projects, it's more often the Rapid SL frame and a Grohtherm or SmartControl valve sitting behind a wall-hung WC and a concealed shower, specified alongside sanitaryware and brassware from several other manufacturers.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        That range means the pre-installation conversation at survey differs by project — a straightforward mixer tap swap needs little beyond confirming existing pipework, while a Rapid SL frame behind a new stud wall needs the wall construction, waste run and soil pipe fall all agreed before any boarding starts.
+      </p>
+    </div>
+  </section>
+
+  <!-- Range breadth and specification -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why specification detail matters more with a broad range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because Grohe spans entry-level mixer taps through to digital shower systems and smart water monitoring, the pre-installation groundwork varies enormously depending on what's been chosen. A Eurosmart basin mixer needs nothing beyond standard first fix pipework. A Grohe Sense smart water system or a digital shower control needs electrical first fix planned in alongside the plumbing, agreed before any wall is closed up. We work from your actual product list at survey rather than a generic brand checklist, because the two ends of the Grohe range genuinely need different preparation.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a Rapid SL frame is being fitted behind a wall-hung WC, we also confirm the waste and soil pipe run before the frame goes in — on a retrofit into an existing stud wall, the available depth for pipework can be tighter than on new-build partition walls, and that's worth knowing before the frame is ordered rather than once it's on site.
+      </p>
+    </div>
+  </section>
+
+  <!-- Spare parts and long-term serviceability -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Serviceability and long-term access</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Grohe's scale means cartridges, flush valves and seals are generally easy to source years after installation, which matters more than it might seem when a bathroom is expected to last a decade or more without being stripped out again. We still plan every concealed valve and cistern with a clear service route — an access panel behind the flush plate, a removable section of panelling behind a bath filler — so that a future repair doesn't mean cutting into finished tiling.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        This is worth confirming at survey stage on any bathroom intended to be lived with for years rather than refreshed again soon, since the access point has to be designed in before the tiler starts, not added afterwards. It's a small amount of extra planning for a problem that, left unaddressed, only surfaces years later when a cartridge needs replacing and the tiling has to be cut back to reach it.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's Grohe fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The recurring fault is a Rapid SL frame fixed to a stud wall without adequate bracing, leading to a wall-hung pan that loosens within months. The second is a concealed valve body set to the wrong finished depth, leaving the trim proud of or recessed into the tiled surface.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both come down to groundwork rather than the product itself — Grohe's tolerances hold up well when the frame is properly fixed and the rough-in depth is set correctly before the wall closes, which is exactly what we confirm at survey.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for Grohe; we install client-supplied Grohe products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="btn-secondary">Geberit vs Grohe Concealed Cisterns</a>
+      <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water Pressure for Rainfall Showers</a>
+      <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+      <a href="/brands/geberit/" class="btn-secondary">Geberit Installation</a>
+      <a href="/brands/hansgrohe/" class="btn-secondary">hansgrohe Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="grohe-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

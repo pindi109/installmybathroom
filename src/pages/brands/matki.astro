@@ -1,0 +1,169 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Does a Matki frameless screen need the wall and floor to be perfectly square?",
+    a: "It needs the opening checked and recorded accurately rather than assumed square, since a frameless screen has very little trim to mask an out-of-true wall or floor. We survey the actual opening and confirm the exact panel sizes before the screen is ordered.",
+  },
+  {
+    q: "How is a Matki shower screen fixed — wall clamps or a full frame?",
+    a: "Matki's enclosures typically use wall and floor fixing channels or clamps rather than a full perimeter frame, which gives the minimal look but means the fixing point and wall substrate need to be solid enough to carry the glass securely. We confirm wall construction at survey.",
+  },
+  {
+    q: "Can a Matki screen be fitted to a tiled wall after tiling is finished?",
+    a: "Yes, and this is the normal sequence — fixing channels and clamps are generally installed once tiling is complete, since the exact finished wall position determines where the screen sits. We take final measurements after tiling, not before.",
+  },
+  {
+    q: "What happens if the shower tray and the screen aren't the same brand?",
+    a: "That's common and not a problem in itself, but the tray's upstand height and the screen's fixing need to be checked against each other at survey, since a mismatch between tray lip and screen fixing height can leave a gap that lets water escape.",
+  },
+  {
+    q: "Where do you buy Matki shower enclosures from?",
+    a: "Matki is sold through bathroom showrooms and specialist retailers. You purchase the enclosure yourself to the sizes we confirm at survey; we install what you order. We're happy to talk through hinged versus sliding options for your specific room layout before you place the order.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Matki?",
+    a: "No. We're an independent fit-only installer with no commercial relationship with Matki. We install the shower enclosures our clients purchase themselves.",
+  },
+  {
+    q: "How long does a Matki enclosure typically take to arrive once measured and ordered?",
+    a: "Lead times vary by product and are set by Matki or your retailer rather than by us, so we'd recommend checking current lead times before finalising your project schedule. We build the measurement and ordering step into the overall programme so the rest of the job isn't held up waiting on glass.",
+  },
+  {
+    q: "Can an existing Matki screen be refitted if a bathroom is being refurbished?",
+    a: "Sometimes, if the screen and its fixings are in good condition and the new layout matches closely enough, but refitting toughened glass panels carries more risk than fitting new ones to fresh measurements. We'd assess this at survey against the specific screen and the planned changes.",
+  },
+  {
+    q: "Does a Matki screen need resealing periodically once installed?",
+    a: "The silicone seal around a shower screen has a working life and typically needs renewing every few years depending on use and cleaning habits, which is routine shower maintenance rather than an installation defect. We fit the initial seal to a clean, properly prepared joint so it performs for as long as reasonably possible. Ventilating the room properly after use also extends the life of the seal considerably, which is worth bearing in mind alongside the shower itself.",
+  },
+];
+---
+
+<Base
+  title="Matki Installation | Install My Bathroom"
+  description="Specialist installation of Matki shower enclosures and screens across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Matki", href: "/brands/matki/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Matki Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Matki's shower enclosures and screens are built to a minimal, largely frameless aesthetic, which means there's very little trim left to hide an inaccurate opening or an uneven wall. The glass does the talking, so the measuring, the wall fixing and the sequencing against tiling and the shower tray have to be right before a single panel goes up.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.matki.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Matki →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We fit Matki's frameless and minimal-frame shower enclosures, including hinged and pivot doors, sliding screens for larger openings, and fixed glass panels used to screen a walk-in shower or wet room area without a door. The range covers both bath screens and full shower enclosures in a range of glass thicknesses and hardware finishes.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The screens and enclosures we fit from Matki are specified and purchased by the client, usually through a bathroom showroom or specialist retailer, made to the measurements we confirm at survey. We don't supply Matki products ourselves — our work covers the survey measurement, the wall and floor preparation, and the final fit. Bespoke and non-standard sizes are also available within the range for awkward room shapes, which we'll flag as an option where a standard panel size doesn't suit the space.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Accurate opening measurement:</strong> frameless and minimal-frame screens need the actual finished opening measured precisely, since there's little trim to absorb a sizing error.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Solid wall fixing:</strong> wall clamps and fixing channels need a solid substrate behind the tile to carry the glass securely, confirmed at survey against the actual wall construction.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Correct sequencing with tiling:</strong> final measurements and fixing are taken after tiling is complete, since the screen is set to the finished wall position, not the untiled opening.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tray and screen compatibility:</strong> the shower tray's upstand height is checked against the screen's fixing height to avoid a gap that could let water past the enclosure.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Door swing and clearance:</strong> hinged and pivot doors need clear swing space checked against the room layout, confirmed before the enclosure is ordered.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the panel dimensions, glass thickness and hardware finish against the measurements and order confirmed at survey — a made-to-measure screen can't simply be trimmed down if a panel arrives the wrong size. Inspect every pane for chips, scratches or edge damage before installation, since toughened glass with a damaged edge is a safety concern, not just a cosmetic one, and can't be repaired on site. Confirm all fixing hardware, seals and handles are present and the correct finish, as these are sometimes packed separately from the glass itself.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The fault we're most often asked to correct on other people's frameless screen installs is a screen measured too early, before tiling was finished, leaving a visible gap or an awkward trim once the tile thickness changed the finished opening. We take final measurements after tiling, as a deliberate last step before ordering the glass.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is water escaping at the junction between the shower tray lip and the screen's bottom seal, usually because the two were specified without checking they'd actually meet correctly. We check tray and screen compatibility at survey, before either item is ordered, so the fit is right the first time rather than sealed over as a workaround. A silicone bead applied to disguise a genuine dimensional mismatch rarely lasts, and reappears as a leak once the seal eventually fails — which is why we resolve compatibility at the specification stage rather than relying on sealant to bridge a gap that shouldn't be there.
+      </p>
+    </div>
+  </section>
+
+  <!-- Scheduling the measure-and-fit sequence -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Scheduling the measure-and-fit sequence</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because a Matki screen is made to the exact finished opening, there's an unavoidable gap in the programme between final measurement and the screen's arrival on site, during which the room is otherwise substantially complete. We plan this into the overall project timeline from the outset — tiling, tray and any surrounding joinery are finished first, final measurements are taken, the order is placed, and the rest of the room is handed over to the client or other trades while the glass is made.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We return for a single, focused fitting visit once the screen arrives, which keeps dust and disruption from other trades away from the glass and its seals during the final stage of the job.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting glass through final fitting -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting glass through delivery and final fitting</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Toughened glass panels are delivered in dedicated crating and handled with suction lifters rather than bare hands wherever the panel size allows, since a chip at the edge during handling can compromise the panel's structural integrity, not just its appearance. We unpack and check each panel immediately on arrival, before it's carried into the bathroom, so any transit damage is identified and resolved with the supplier before fitting begins.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        During fitting, we protect the surrounding tiling, tray and any fitted joinery from scratches or silicone overspill, and we clean the glass and seal thoroughly at the end of the visit so the finished enclosure is ready to use from the moment we leave, not a job requiring a further site visit to tidy up.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+      <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+      <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="matki-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Matki; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

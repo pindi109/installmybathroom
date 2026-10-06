@@ -1,0 +1,169 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Do Kohler baths and sanitaryware need any special fixings?",
+    a: "Cast-iron enamel baths are considerably heavier than acrylic equivalents, so floor loading and the access route into the room are confirmed at survey before the bath is ordered. Vitreous china sanitaryware follows standard fixing practice, confirmed against your wall or floor type.",
+  },
+  {
+    q: "Can Kohler brassware be fitted with any UK water system?",
+    a: "Most of the range is compatible with typical UK combi, gravity and unvented systems, but flow rate and minimum pressure requirements vary by model, particularly for larger shower heads and digital or app-connected products. We check this against your system at survey.",
+  },
+  {
+    q: "Is a cast-iron Kohler bath harder to install than acrylic?",
+    a: "It's heavier to move and position, which affects the carry route and the number of people needed, but once in place it sits on standard adjustable feet and connects with conventional waste and overflow fittings. The main planning difference is logistics, not technique.",
+  },
+  {
+    q: "Does Kohler sanitaryware need a specific cistern or frame?",
+    a: "Wall-hung Kohler WCs need a concealed cistern and carrier frame, selected and fixed to the wall or floor structure, similar in principle to other wall-hung ranges. We confirm frame compatibility at survey before ordering.",
+  },
+  {
+    q: "Where do you buy Kohler products from?",
+    a: "Kohler is sold through bathroom showrooms, specialist retailers and online stockists. You purchase the sanitaryware and brassware yourself; we fit what arrives on site. If you're weighing up a heavier cast-iron model against an acrylic alternative, we're happy to talk through the access and logistics implications before you order.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Kohler?",
+    a: "No. We're an independent fit-only installer with no commercial relationship with Kohler. We install the products our clients have purchased themselves.",
+  },
+  {
+    q: "Can Kohler sanitaryware be mixed with brassware from another manufacturer?",
+    a: "Yes, this is common practice and not an issue in itself. What we check at survey is that tap hole centres, waste positions and any cistern or frame compatibility line up between the two, since mismatches here are the usual cause of a delayed install rather than the brands themselves. We'd always recommend confirming this before ordering either item separately, since returning a mismatched piece once delivered adds time and cost to the project.",
+  },
+  {
+    q: "Do Kohler digital or app-connected products need a strong Wi-Fi signal in the bathroom?",
+    a: "Some connected products do rely on a Wi-Fi or hub connection for full functionality, so we'd recommend checking signal strength in the bathroom location before committing to a connected model. We can flag this at survey if you're considering a digital or app-controlled product.",
+  },
+  {
+    q: "How do you avoid damage to a cast-iron bath once it's in its final position?",
+    a: "We protect the bath's interior and exterior with board and film immediately once it's positioned, and we agree with other trades working in the room afterwards that protection stays in place until final handover. Enamel chips are not repairable to the original factory standard, so prevention is the only reliable approach.",
+  },
+];
+---
+
+<Base
+  title="Kohler Installation | Install My Bathroom"
+  description="Specialist installation of Kohler sanitaryware and brassware across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Kohler", href: "/brands/kohler/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Kohler Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Kohler's range spans cast-iron enamel baths, vitreous china sanitaryware and contemporary brassware, which in practice means a single project can involve three quite different fitting disciplines side by side — heavy-item logistics for a cast-iron tub, standard structural fixing for a wall-hung WC, and pressure and flow checks for a shower valve or digital tap. We plan for whichever combination you're specifying, not a single generic approach.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.kohler.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Kohler →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We fit Kohler's cast-iron enamel and acrylic baths, wall-hung and close-coupled WCs, pedestal and countertop basins, and brassware spanning traditional and contemporary profiles including digital and app-connected shower and tap controls. Kohler also produces whirlpool and hydrotherapy baths within parts of its range, which carry their own electrical and access requirements beyond a standard bath.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The sanitaryware and brassware we fit from Kohler is specified and purchased by the client, usually through a bathroom showroom or specialist retailer. We don't supply Kohler products ourselves — our work starts once the items are on site, ready for delivery checks and first fix. Shower enclosures and trays also feature within the wider Kohler range, fitted to the same wall-fixing and substrate standards we apply across any brand of shower hardware.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Weight and access for cast-iron baths:</strong> a cast-iron enamel bath is significantly heavier than acrylic, so floor loading and the carry route through doorways and stairs are confirmed before delivery.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Carrier frame for wall-hung sanitaryware:</strong> wall-hung WCs need a concealed cistern and carrier frame fixed to a structural wall or floor, confirmed against your wall construction at survey.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Flow and pressure checks:</strong> larger shower heads and digital or electronic brassware need minimum flow and pressure confirmed against your existing water system before you order.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply for whirlpool or digital products:</strong> any electrically powered bath or digital shower control needs a dedicated, correctly zoned supply run planned at first fix.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Waste and overflow alignment:</strong> waste positions are confirmed against the specific bath or basin model before first-fix plumbing is set out.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the model, size and finish against your order before anything is carried into the room, since cast-iron baths in particular are heavy enough that an avoidable extra lift is worth preventing. Inspect enamel surfaces for chips and vitreous china for hairline cracks before we start — both are common transit faults that aren't repairable to factory standard once found. Confirm electrical specifications for any whirlpool bath or digital control match what's been wired in, and verify waste kits, fixing hardware and any carrier frame components are present and the correct model for what you've ordered. These checks are worth doing carefully before anything is lifted into position, given the effort involved in moving a cast-iron bath a second time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The issue we're most often called to fix on cast-iron bath installs by other installers is damage sustained during the carry — a dropped corner or a scrape against a stair rail that chips the enamel irreparably. We plan the access route, confirm the number of people needed, and protect doorways and floors before the bath is even delivered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is a wall-hung WC that loosens within months because the carrier frame was fixed to a stud wall without adequate bracing, rather than a confirmed structural point. We check wall construction at survey and fix the frame accordingly, before tiling closes the wall and makes correcting it a much bigger job. Both issues share the same root cause — a shortcut taken at first fix that only becomes visible once the room has been in daily use for a few months, long after the installer responsible has moved on to another job.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mixed-scope projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Fitting a mixed Kohler specification in one room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It's common for a single project to combine a Kohler bath, a wall-hung WC and contemporary or digital brassware all from the same range, which means several fixing disciplines happen on the same job in sequence. We plan the first-fix stage — carrier frame, electrical supply for any digital or powered product, and pipework for the bath and basin — as one coordinated phase, rather than treating each item as a separate, disconnected task.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        That coordination matters most where a whirlpool bath's electrical requirement, a wall-hung WC's structural fixing and a digital shower's wiring all need to be resolved before the same wall is boarded and tiled — leaving any one of them until later usually means reopening finished work.
+      </p>
+    </div>
+  </section>
+
+  <!-- Logistics for heavier items -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning delivery logistics for heavier items</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A cast-iron bath needs more than just a fitter on delivery day — it needs the right number of people, a confirmed access route, and floor protection along the entire path from the delivery vehicle to the bathroom. We plan this in advance of the delivery date, checking doorway widths, stair turns and any tight corners against the bath's actual dimensions rather than relying on a generic assumption that "a bath is a bath."
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where access is genuinely difficult — a narrow period staircase or a tight loft conversion stairwell, for example — we flag this to the client before the bath is ordered, since in rare cases it affects which model can practically be installed at all, and that's far better known before purchase than after delivery.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Cistern Installation</a>
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="kohler-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Kohler; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

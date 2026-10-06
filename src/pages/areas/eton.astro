@@ -1,0 +1,164 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Do you fit bathrooms in the older parts of Eton, close to the High Street and Eton College?",
+    a: "Yes. A number of our Eton jobs are in period properties close to the High Street and the college, where narrow access, older construction and sometimes listed status all need to be factored in before we price the work.",
+  },
+  {
+    q: "Is planning permission likely to be needed for a bathroom refit in Eton?",
+    a: "A like-for-like internal refit doesn't usually need planning permission. Eton has a higher concentration of listed and conservation-area properties than many of the towns we cover, though, so if your work would affect the external fabric of the building — a new vent or a rooflight, for example — we'll flag that clearly at survey and point you to the local planning authority to confirm.",
+  },
+  {
+    q: "Do Eton's older properties need special care during a bathroom installation?",
+    a: "Generally, yes. Many properties in Eton are period buildings with solid or suspended timber floors, lime-based wall construction in some cases, and narrower staircases and doorways than modern housing. We plan material handling and floor protection around this at survey stage, and check floor deflection before specifying large-format tiling.",
+  },
+  {
+    q: "What water pressure should I expect in an Eton property?",
+    a: "It varies by property age and history of upgrades — older buildings close to the town centre can still have a gravity-fed hot water system even where the cold mains is strong. We test actual pressure and flow at every survey before specifying a digital or thermostatic shower.",
+  },
+  {
+    q: "How far is Eton from your Bracknell base?",
+    a: "Around 20 to 25 minutes by road, via Windsor — close enough that access and deliveries rarely add complexity to the programme.",
+  },
+  {
+    q: "Can you manage deliveries to a property with restricted parking or narrow streets in Eton?",
+    a: "Yes, we plan delivery timing and vehicle access in advance for properties on Eton's narrower streets, which is common in the older part of the town.",
+  },
+  {
+    q: "Do you fit wet rooms or large-format tiling in Eton's period properties?",
+    a: "Yes, though it usually takes more preparation than a modern house — checking floor deflection, confirming the existing waste run can be adapted to a wet room gully, and in some cases boarding out a suspended floor before tanking and tiling begin.",
+  },
+  {
+    q: "How do you keep a period Eton property clean and protected during the work?",
+    a: "We sheet and board floors and staircases for the duration of the job, use dust barriers to contain debris, and remove waste as we go rather than letting it build up — particularly important in a smaller, older property with less room to store materials.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Eton | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Eton, Berkshire. Period properties near Eton College, from £3,500. 20-25 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Eton", href: "/areas/eton/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Eton</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We fit luxury, client-supplied bathrooms in Eton, the historic Berkshire town best known for Eton College and its position across the Thames from Windsor, around 20 to 25 minutes from our Bracknell base. You buy the sanitaryware, brassware and tiles; we carry out the strip-out, first fix, tiling and final fit, from £{business.pricing.fromGBP.toLocaleString()}. Given how many of Eton's properties are period buildings, every quote is based on a proper survey rather than a standard price, so access, floor construction and listed status are all accounted for before work is agreed.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Eton's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Eton is a small, historic town, and its housing reflects that: a concentration of period properties along and around the High Street, many dating from the Georgian and Victorian periods, with narrower frontages and more compact floor plans than the larger detached houses found further out in Berkshire. Working here means thinking carefully about access from the outset — narrow staircases, period door openings and limited off-street parking all affect how materials move in and waste moves out, and we plan for that at survey rather than on the day.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor and wall construction in these older buildings also needs closer attention than in a modern house. Suspended timber floors are common, and some properties retain solid masonry or lime-based wall construction that behaves differently to modern plasterboard and stud when it comes to fixing a wall-hung WC frame or a heavy stone vanity top. We check deflection and wall build-up before specifying large-format porcelain or a tanked wet room floor.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Room sizes in Eton's older buildings also tend to be modest by comparison with the larger detached houses elsewhere in our working area, which affects what's realistic to specify. A full-width walk-in shower or double vanity that would sit comfortably in a modern executive home may need a different approach in a period bathroom with a lower ceiling, a sloped roofline, or a window positioned where a shower enclosure would ideally go. We talk through what's achievable for the actual room at survey, before you've committed to specific products.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Plumbing in older Eton properties can still show its age even where a kitchen or bathroom has been refitted more recently — a gravity-fed hot water circuit from a loft tank is not unusual, regardless of how strong the incoming mains supply is. We measure actual pressure and flow at every survey so a digital or thermostatic shower is specified correctly from the outset.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Eton</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        In a town built mostly before the motor car, access is often the first thing we plan rather than the last. Narrow frontages, limited off-street parking and conservation-area streetscapes mean deliveries, skips and waste removal need agreeing in advance, which we do at survey alongside the technical specification of your bathroom. You choose the sanitaryware, brassware and tiles; we confirm those products will actually fit the room — doorways, staircases and landing turns included — before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Once on site, we sheet and board floors and staircases for the duration of the work, use dust barriers to keep the work area contained in a smaller property, and remove waste progressively rather than letting it accumulate. Where a bathroom sits within a listed building, we work carefully around original joinery, skirting and architraving rather than removing more than the job requires.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Eton has a higher proportion of listed buildings and conservation-area properties than most of the towns we work in, given its age and history. A standard internal bathroom refit doesn't normally need planning permission, but where work would affect the external fabric of the building — a new extraction vent through an original wall, or a rooflight for a loft conversion — separate consent can be required. We'll identify this plainly at survey and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Listed status can also affect how fixings and services are installed internally, not just what happens to the outside of the building — the local conservation officer may have views on removing original features even where planning consent for the room itself isn't needed. If we spot anything of that kind, we'll raise it before work begins rather than during the strip-out.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Eton</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install just across the Thames in Windsor, as well as in Ascot and Maidenhead.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/maidenhead/" class="btn-secondary">Maidenhead</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="eton-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        A £{business.pricing.surveyGBP} survey gets a qualified installer into your Eton property to measure the room, check access and floor construction, test water pressure and confirm what your chosen bathroom needs for a correct, properly sequenced installation. You'll leave with an itemised quote before committing to any products.
+      </p>
+      <a href="/survey/" class="btn-primary">Book a Survey in Eton</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

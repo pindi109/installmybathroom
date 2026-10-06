@@ -1,0 +1,171 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Does an AXOR concealed shower valve need a specific rough-in part?",
+    a: "Yes. AXOR concealed valves use a rough-in body (often shared with hansgrohe's iBox Universal platform) that's fitted and pressure-tested before tiling, then matched to the visible AXOR trim plate once the wall is finished. Ordering the trim before confirming the rough-in model risks a mismatch.",
+  },
+  {
+    q: "How much water pressure does an AXOR rainfall shower need?",
+    a: "Most AXOR overhead and rainfall shower heads need a minimum flow rate to perform as designed, which we measure at survey. On a gravity-fed system or a long pipe run from the stopcock, pressure can be lower than expected even where the property feels well supplied elsewhere.",
+  },
+  {
+    q: "Can AXOR brassware be fitted alongside sanitaryware from other brands?",
+    a: "Yes, this is the most common specification we see — AXOR brassware paired with basins and baths from Duravit, Villeroy & Boch or Kaldewei, for instance. We check tap hole centres and basin compatibility before ordering, since AXOR's spindle spacing varies across collections.",
+  },
+  {
+    q: "Do AXOR's designer finishes need special care during fitting?",
+    a: "Brushed, polished and matte black PVD finishes mark more visibly than chrome if handled carelessly. We fit with soft-jaw tools and keep trims in their protective sleeves until the final stage of the fit, removing them only once tiling and decorating dust is finished.",
+  },
+  {
+    q: "What should I check when my AXOR order is delivered?",
+    a: "Confirm the rough-in or valve body model matches the trim you've ordered, check the finish code on the box against the finish you chose (AXOR offers several within each collection), and inspect for scratches on the visible trim under raking light before installation begins.",
+  },
+  {
+    q: "Where should a freestanding bath filler be positioned?",
+    a: "Against the bath's actual base footprint, not a generic manufacturer drawing, since freestanding baths vary in base size within the same nominal dimensions. We confirm the filler position once the exact bath model is known, before the floor is finished.",
+  },
+];
+---
+
+<Base
+  title="AXOR Installation | Install My Bathroom"
+  description="Installation of AXOR designer brassware, concealed shower valves and rainfall systems across Bracknell and Berkshire."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "AXOR", href: "/brands/axor/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">AXOR Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux. The brassware itself is precisely engineered, but the finish is the part that separates a good AXOR installation from an average one — a brushed or matte black trim shows every scuff mark from a careless fit in a way chrome never does, so handling and sequencing matter as much as the plumbing.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.axor-design.com/gb" target="_blank" rel="noopener" class="btn-secondary">Visit AXOR →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Basin, bath and shower mixers across the AXOR Starck, AXOR Citterio, AXOR Montreux and AXOR Uno collections, concealed and exposed shower valves, AXOR's rainfall overhead and handshower systems, and the shower pipe and shelf accessories that complete a fitted system. We also install AXOR washbasins and accompanying furniture on the collections where a basin is offered alongside the brassware.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        AXOR shares its underlying valve engineering with hansgrohe, so concealed rough-in bodies are often common across both brands — the visible trim is where the two diverge, with AXOR's designer finishes and silhouettes sitting at a different price and design point to hansgrohe's own range.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        We see AXOR specified most often on larger en-suite and principal bathroom projects, where a client has chosen a single designer collection — AXOR Starck's architectural simplicity or AXOR Citterio's more sculpted profile, for example — and wants it carried consistently across basin mixer, bath filler and shower system rather than mixing brassware styles across the room.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Rough-in before tiling:</strong> concealed valve bodies are fitted, pipework pressure-tested and set to the correct finished wall depth before boarding or tiling starts — depth errors here can't be corrected once the wall is finished.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure:</strong> rainfall and multi-function shower heads need a minimum flow rate, measured at survey against the exact model specified.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Tap hole compatibility:</strong> basin and deck-mounted bath mixers need hole count and centres checked against the sanitaryware before either is ordered.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Finish protection:</strong> brushed, polished and matte black trims are fitted last, kept in protective sleeves until tiling and decorating dust has cleared.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Shower pipe alignment:</strong> exposed pipe and rail systems are set out from the same centre line as the shower enclosure or wet room glass, agreed before first fix.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We check the rough-in or valve body model against the trim plate ordered — AXOR trims are designed to specific valve platforms, and not every finish or collection is available on every rough-in generation. We confirm the finish code on the box matches the sample chosen, since AXOR offers several variations of brushed and matte finishes within the same collection that can look similar in a showroom but aren't interchangeable once ordered. Every visible trim is inspected under raking light for scratches or handling marks before we begin, because a mark on a brushed black finish is far harder to disguise, and far more expensive to replace, than the same mark on chrome.
+      </p>
+    </div>
+  </section>
+
+  <!-- Finish and set-out -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Finish handling and shower set-out</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        PVD (physical vapour deposition) finishes, used across most of AXOR's brushed and black ranges, are considerably more scratch-resistant than plated chrome but not scratch-proof, and they show fingerprints and limescale differently depending on the finish. We fit with soft-jaw wrenches and padded protection rather than bare tools, and we don't remove the final protective film until the room is otherwise finished — tiling grout, silicone and decorating dust are the most common causes of avoidable finish damage on a near-complete installation.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On shower systems with an exposed pipe, rail or ceiling arm, the visual line of the pipework is set out from the same centre line as the enclosure glass or wet room screen, agreed with the client before the valve is roughed in. Moving a shower outlet position after tiling means reopening the wall, so this is confirmed at survey rather than decided once the shower head arrives.
+      </p>
+    </div>
+  </section>
+
+  <!-- Freestanding and bath-filler considerations -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Freestanding fillers and bath-side brassware</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        AXOR's floor-standing and freestanding bath fillers route pipework up through the floor to a fixed position next to the bath, which has to be set before the floor is finished and, in most cases, before the bath itself is delivered if it's a freestanding model being positioned to a specific set-out. We confirm the filler's floor position against the bath's actual footprint — not a generic drawing — because freestanding baths vary in base size even within the same nominal dimensions, and a filler positioned a few centimetres out is a visible, permanent mistake on a floor-mounted fitting.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a deck-mounted bath filler is specified instead, tap hole positions on the bath surround or shelf are set out before any stone or tiled upstand is cut, since redrilling a finished stone surface isn't something we'd recommend attempting after the fact.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Problems we see on other people's AXOR fits</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The recurring fault we're called to correct is a concealed valve set to the wrong finished wall depth, meaning the trim plate sits proud of or recessed into the tiled surface rather than flush. The second is trim finish damage caused by fitting the visible plate before tiling and decorating were complete, leaving scratches or silicone residue that's difficult to fully remove from a brushed finish.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Both are sequencing errors rather than product faults — AXOR's engineering tolerances are tight when the rough-in depth is set correctly and the trim is fitted as the very last step. We confirm wall build-up and tile thickness at survey, before the valve body goes in, and fit trims only once the room around them is otherwise finished.
+      </p>
+    </div>
+  </section>
+
+  <!-- Disclaimer -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installation company. We are not affiliated with, endorsed by, or an appointed dealer for AXOR or hansgrohe; we install client-supplied AXOR products to the manufacturer's fitting instructions and UK Building Regulations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related links -->
+  <section class="section" style="background: var(--bg-light);">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water Pressure for Rainfall Showers</a>
+      <a href="/guides/thermostatic-vs-digital-showers/" class="btn-secondary">Thermostatic vs Digital Showers</a>
+      <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+      <a href="/brands/hansgrohe/" class="btn-secondary">hansgrohe Installation</a>
+      <a href="/brands/dornbracht/" class="btn-secondary">Dornbracht Installation</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="axor-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

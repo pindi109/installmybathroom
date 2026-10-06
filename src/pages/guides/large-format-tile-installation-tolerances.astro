@@ -1,0 +1,268 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Large Format Tile Installation Tolerances",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "What counts as a large format tile?",
+    a: "Generally anything with one edge over roughly 600mm, though the practical threshold that changes installation method is when a tile becomes too large or heavy to set accurately by hand without a levelling system and, often, a suction lifter.",
+  },
+  {
+    q: "What is lippage and why does it matter?",
+    a: "Lippage is a height difference between the edges of two adjacent tiles. Beyond a small tolerance it's visible in raking light, catches a bare foot or mop, and on a large format tile is far more noticeable than on a small mosaic because the eye tracks a long, uninterrupted edge.",
+  },
+  {
+    q: "Do levelling clips leave a mark on the tile?",
+    a: "The reusable tension-strap or wedge systems used for large format floor tiles are designed to snap off flush at grout-joint width after the adhesive cures, leaving the surface undisturbed — the clip sits in the joint itself, not on the tile face.",
+  },
+  {
+    q: "Can large format tiles be cut on site to fit around a WC or pipe?",
+    a: "Yes, with a wet saw or specialist cutter for the thickness and material involved. Cuts are planned before installation starts, as part of the set-out, so pipework, waste positions and fixing points all land where they need to without an awkward sliver of tile at an edge.",
+  },
+  {
+    q: "How flat does the floor need to be before large format tiles go down?",
+    a: "Flatter than for small tiles, because a large rigid tile can't flex to follow a dip or hump the way a mosaic can. We check and, where needed, level the substrate with a self-levelling compound before any large format tile is laid.",
+  },
+  {
+    q: "Does large format tiling take longer than standard tile sizes?",
+    a: "Yes, generally — careful handling of bigger, heavier tiles, back-buttering, levelling systems and more frequent checking for lippage all add time compared with a standard 300mm or 600mm square tile laid without a levelling system.",
+  },
+];
+---
+
+<Base
+  title="Large Format Tile Installation Tolerances | IMB"
+  description="The real tolerances behind a large format porcelain or stone tile installation — lippage, substrate flatness and adhesive coverage — and why they matter."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Large Format Tile Tolerances", href: "/guides/large-format-tile-installation-tolerances/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Large Format Tile Installation Tolerances</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Large format tiles need a flatter substrate, a levelling clip system to control edge height, and full adhesive coverage under the tile, not just at the corners. BS 5385 guidance sets the framework; good practice tightens it further for anything over roughly 600mm a side, where a visible lip or hollow spot is far harder to disguise than on a small tile.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A large format porcelain tile running wall to wall across a wet room floor, or a book-matched pair of slabs either side of a vanity unit, reads as a single plane to the eye — any inconsistency across that plane, whether it's a lipped edge or a hollow spot under the surface, is immediately obvious in a way it simply isn't on a floor of small mosaic. Getting a large format installation right is less about the tile itself and more about everything underneath it: the substrate, the adhesive, and the levelling system holding each tile at the correct height while the adhesive cures.
+      </p>
+    </div>
+  </section>
+
+  <!-- Tolerance table -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">The tolerances that matter</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Tolerance</th>
+              <th class="text-left py-3 font-semibold">What good practice looks like</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Substrate flatness</td>
+              <td class="py-3" style="color: var(--text-soft);">Checked with a straight edge across the room; dips and humps corrected with a levelling compound before tiling starts, tighter than the tolerance acceptable for small tile formats.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Lippage between adjacent edges</td>
+              <td class="py-3" style="color: var(--text-soft);">Controlled to a minimal, consistent amount using a tension-strap or wedge levelling system, checked tile by tile as the floor or wall goes down, not corrected after the adhesive has set.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Adhesive coverage under the tile</td>
+              <td class="py-3" style="color: var(--text-soft);">Close to full coverage across the back of the tile, achieved by back-buttering in addition to combing the substrate, so there are no voids that can crack under point load.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Grout joint width</td>
+              <td class="py-3" style="color: var(--text-soft);">Set and held consistently with spacers through the levelling system, since large format tiles make an uneven joint width far more visible over a long run.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Movement joints</td>
+              <td class="py-3" style="color: var(--text-soft);">Positioned at junctions, large expanses and penetrations per adhesive manufacturer guidance, to allow for thermal and structural movement without cracking the tile field.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How a large format installation is set out</h2>
+      <ol class="space-y-4 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Substrate check and levelling.</strong> <span style="color: var(--text-soft);">Floor or wall checked for flatness; self-levelling compound applied where needed before any set-out marks are drawn.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Dry lay and set-out from centre lines.</strong> <span style="color: var(--text-soft);">Tiles laid out dry first to plan cuts, so joints line through from floor to wall and awkward slivers are avoided at edges.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Adhesive applied to substrate and tile.</strong> <span style="color: var(--text-soft);">Combed onto the floor or wall and back-buttered onto the tile itself, to achieve full coverage rather than isolated ridges of adhesive.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tile placed and levelling system fitted.</strong> <span style="color: var(--text-soft);">Tension straps or wedges inserted at each joint to hold adjacent tiles at the same height while the adhesive cures.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Lippage checked as each row is laid.</strong> <span style="color: var(--text-soft);">Not left until the whole floor is down — any inconsistency is corrected while the adhesive is still workable.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">6</span>
+          <div><strong>Cure, clip removal and grouting.</strong> <span style="color: var(--text-soft);">Levelling clips snapped off flush once the adhesive has cured, then joints grouted to a consistent width and depth.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Handling and cutting -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Handling, lifting and cutting large slabs</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A large format porcelain slab, particularly anything approaching a metre or more on its longest edge, flexes under its own weight if it isn't supported correctly during lifting and carrying — enough flex, applied repeatedly or carelessly, can crack a slab that would otherwise be perfectly sound once bedded flat on the floor or wall. Suction lifters, carried by at least two people for anything of real size, are standard practice rather than an optional extra, and a slab is carried on edge rather than flat wherever possible to reduce the bending stress it's under in transit around the site.
+      </p>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Cutting is equally particular — a wet saw with the correct blade for porcelain or natural stone gives a clean, chip-free edge, while a cut made with the wrong blade or too fast a feed rate can leave a ragged edge that telegraphs through the grout joint once finished. Cuts around pipework, waste positions and fixing points are planned during the dry-lay stage specifically so that awkward cuts land in less visible positions — behind a WC pan or under a vanity unit — rather than along a prominent sightline.
+      </p>
+    </div>
+  </section>
+
+  <!-- What goes wrong without the right tolerances -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What goes wrong when tolerances aren't held</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Skipping a levelling system to save time shows up within weeks as visible lippage, catching bare feet and towels and collecting grime along the raised edge. Skipping back-buttering to save adhesive shows up later, sometimes months on, as a hollow-sounding tile that eventually cracks under a dropped object or a point load it should easily have withstood with full support beneath it. Both faults are considerably harder to put right after the room is finished than to avoid during installation — another reason the preparation stage, not the tile itself, is where a large format job is actually won or lost.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why set-out from centre lines matters so much at large format scale</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Setting out from the centre line of a room, rather than starting against one wall and working across, balances any cuts evenly at both ends instead of leaving a full tile at one side and a narrow sliver at the other. On a small tile this is a minor aesthetic preference; on a large format tile, where a single row might only contain two or three whole tiles across a typical bathroom width, an unbalanced layout is immediately obvious and very difficult to disguise after the fact. The same principle applies to lining joints through from floor to wall — a continuous grout line running unbroken around a room reads as considered and precise, while a mismatch where floor and wall joints don't align is one of the clearest visual signs of a set-out that wasn't planned before tiling began.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tiling practice referenced in this guide follows BS 5385 (parts 1, 3 and 5 for walls, floors and natural stone respectively), with substrate flatness, adhesive coverage and movement joint guidance taken from current tile and adhesive manufacturer technical data sheets, which generally go further than the baseline standard for large format and natural stone products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Grout choice -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Grout choice and joint width on large format tile</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        A narrower grout joint, often favoured on large format tile for a cleaner, more minimal look, puts more emphasis on perfectly consistent tile sizing and levelling, since there's less width in the joint itself to visually absorb any small inconsistency between tiles. Epoxy grout, more resistant to staining and water penetration than standard cementitious grout, is increasingly specified on narrow joints in wet areas for exactly this reason, though it's less forgiving to apply and needs a installer experienced with its shorter working time before it begins to set. We agree grout type and joint width with you at the set-out stage, since both affect the finished look as much as the tile itself does.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why large format porcelain still needs skilled hands, not just a good product</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Manufacturers have made large format porcelain genuinely easier to work with over the last decade — more consistent calibration between tiles, rectified edges for tighter joints, and purpose-made levelling systems that weren't widely available a generation ago. None of that removes the need for an installer who's handled enough of it to anticipate where it can go wrong: a slab that feels subtly unsupported when tapped, a dry-lay that reveals an awkward final row before adhesive is mixed, a substrate that looks flat to the eye but isn't within the tighter tolerance a rigid tile needs. The product has become more forgiving; the installation still rewards experience over simply following a manufacturer's instruction sheet to the letter.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/choosing-natural-stone-for-a-bathroom/" class="btn-secondary">Choosing natural stone</a>
+        <a href="/guides/porcelain-vs-natural-stone-tiles/" class="btn-secondary">Porcelain vs natural stone tiles</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/gerrards-cross/" class="btn-secondary">Gerrards Cross</a>
+        <a href="/areas/stoke-poges/" class="btn-secondary">Stoke Poges</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Storage on site -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Storing tiles safely before they're laid</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Large format boxes are heavy and awkward, and stacking them incorrectly before the installation starts is a frequent, avoidable cause of cracked tiles that were perfectly sound on delivery. Boxes should be stored flat, on a level surface, stacked no higher than the manufacturer recommends, and kept away from damp or freezing conditions that can affect the adhesive bond later even if the tile itself looks unaffected. We check stored stock on arrival at site for exactly this reason before any of it is carried through to the room being tiled.
+      </p>
+    </div>
+  </section>
+
+  <!-- Thresholds and transitions -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Thresholds and transitions to other flooring</h2>
+      <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        Where a large format tiled floor meets a different flooring type at a doorway — carpet, engineered wood, or a different tile elsewhere in the house — the transition detail needs planning at the same set-out stage as the rest of the room, not left as an afterthought once the main floor area is complete. A trim profile matched to the tile's thickness gives a clean, finished edge and protects the tile's cut edge from chipping underfoot traffic, while a mismatch in height between the two floor finishes, however slight, is one of the more common snags raised at final handover if it isn't checked and accounted for during the floor build-up planning.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="large-format-tolerances-faq" />
+    </div>
+  </section>
+
+  <!-- Author + date -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

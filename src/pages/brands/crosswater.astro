@@ -1,0 +1,169 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "Do Crosswater concealed shower valves need a specific wall build-up?",
+    a: "Yes — a concealed valve body sits within the wall at a fixed depth to the finished tile face, so the stud or masonry build-up and tile thickness need confirming before first fix. We check this at survey against the specific valve you've chosen.",
+  },
+  {
+    q: "What water pressure do Crosswater digital and thermostatic showers need?",
+    a: "Requirements vary by model — some digital shower systems work from gravity or combi pressure, others need a pumped supply to perform as intended at full flow. We measure your system's pressure and flow at survey and confirm the right valve type before you order.",
+  },
+  {
+    q: "Can a Crosswater shower system be retrofitted into an existing wall without opening it up?",
+    a: "Generally no, not properly. Concealed valves and their pipework need access during first fix, before the wall is boarded and tiled, so retrofitting into a finished wall usually means opening it back up rather than a surface-mounted shortcut.",
+  },
+  {
+    q: "Does the shower head size affect what valve is needed?",
+    a: "Yes — larger fixed and ceiling-mounted shower heads need higher flow than a standard handset, which can mean a different valve body or a pumped boost depending on your existing water system. We confirm this at survey against the head size you plan to fit.",
+  },
+  {
+    q: "Where do you source Crosswater products from?",
+    a: "Crosswater is sold through bathroom showrooms, plumbers' merchants and online retailers. You purchase the brassware and shower systems yourself; we install what you've bought. If you're unsure which valve configuration suits your water system, we're happy to advise before you commit to an order.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Crosswater?",
+    a: "No. We're an independent fit-only installer with no commercial relationship with Crosswater. We install the products our clients purchase themselves.",
+  },
+  {
+    q: "Can a Crosswater digital shower be controlled remotely or via an app?",
+    a: "Some digital models in the range offer remote or app-based control depending on the specific processor and kit chosen. We confirm wiring, Wi-Fi or hub requirements for the exact model at survey, since these vary and need planning into first fix rather than added afterwards.",
+  },
+  {
+    q: "What happens if we want to change the shower head size after the valve is fitted?",
+    a: "A valve is selected to suit a given outlet configuration and flow requirement, so swapping to a significantly larger head later can mean the existing valve and pipework no longer deliver enough flow. We confirm the final head size before the valve is chosen, to avoid that mismatch.",
+  },
+  {
+    q: "How do you test a Crosswater shower system before tiling closes the wall?",
+    a: "We pressure-test the pipework and run the valve through its full range at first fix, checking for leaks at every joint and connection while the wall is still open and accessible. Any fault found at this stage is straightforward to correct; the same fault found after tiling means opening the wall back up.",
+  },
+];
+---
+
+<Base
+  title="Crosswater Installation | Install My Bathroom"
+  description="Specialist installation of Crosswater contemporary brassware and shower systems across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Crosswater", href: "/brands/crosswater/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Crosswater Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Crosswater's contemporary brassware and shower systems run heavily on concealed valves, digital controls and minimal deck-mounted taps — fittings designed to disappear into the wall or worktop rather than sit proud of it. That means the work that determines how well a Crosswater shower performs happens largely before the tiler arrives: wall build-up, pipework depth, and the water pressure and flow the valve actually needs.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.crosswater.co.uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Crosswater →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We fit Crosswater's concealed and exposed thermostatic shower valves, digital shower control systems, fixed and handheld shower heads, bath and basin mixers, and contemporary sanitaryware including basins and vanity units. The range spans minimal, slim-profile brassware through to multi-outlet shower systems feeding a fixed head, handset and body jets from a single valve.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The brassware and shower systems we fit from Crosswater are specified and bought by the client, usually through a bathroom showroom, plumbers' merchant or online retailer. We don't supply Crosswater products ourselves — our work starts once the components are on site and ready for first fix. Crosswater also produces shower enclosures and trays within parts of its range, which we fit using the same wall-fixing and floor-preparation standards we apply to any enclosure, regardless of brand.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Concealed valve depth:</strong> the valve body sits at a fixed depth to the finished tile face, so wall build-up and tile thickness are confirmed before the stud wall or dot-and-dab is closed up.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Water pressure and flow:</strong> digital and larger multi-outlet systems need adequate flow to feed every outlet at once; we measure your system at survey and flag any pump requirement before you order.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Electrical supply for digital showers:</strong> digital control units need a correctly zoned electrical supply run to the processor and control position, planned at first fix.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Access for servicing:</strong> concealed valves need a service access point built into the tiling layout, agreed before the wall is tiled, not added afterwards.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Multi-outlet pipework:</strong> body jets and fixed heads fed from a single valve need pipework routed and pressure-tested at first fix, before the wall and ceiling are closed in.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check the valve type, outlet count and finish against your order before first fix starts — swapping a concealed valve for a different configuration once pipework is chased into the wall means breaking back finished work. Confirm any digital control processor, remote or wireless unit is included and that its electrical requirements match what's been wired in. Inspect finishes for scratches or marks before fitting, since minimal brassware shows surface imperfections clearly, and verify all fixing plates and wall boxes are present, as these are sometimes supplied separately from the valve trim. Taking a few minutes over this at delivery avoids a far longer delay discovered once the wall is already open.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The issue we're most often called to fix on other people's concealed valve work is a valve body set at the wrong depth for the tile thickness that was actually used, leaving the finishing trim sitting proud or recessed against the tiled wall. We confirm the exact tile specification before first fix, not after the tiler has already started.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is a multi-outlet system that disappoints on flow because the existing water system wasn't checked against the number of outlets being fed simultaneously. A valve rated for a fixed head and handset together needs real flow behind it; we measure this at survey so the system you've chosen will actually perform as shown in the showroom. Where an existing system genuinely can't support a multi-outlet specification, we'd rather discuss a pump or an alternative configuration at the planning stage than let a client discover disappointing flow after the valve is already fitted.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning for future servicing -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning for servicing and future changes</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A concealed valve or digital shower system is straightforward to maintain while it's accessible, and considerably more disruptive to work on once it's permanently boxed in behind full-height tiling with no route back to it. We build a discreet access point into the tiling layout at the planning stage — usually a removable panel or an access-friendly tile position — so a future cartridge replacement or digital unit service doesn't mean breaking out finished tiling.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also keep a record of the exact valve model, outlet configuration and any digital processor fitted on each job, so if a client contacts us years later about a fault or a planned upgrade, we're working from what's actually behind the wall rather than guessing from a showroom display.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting finished brassware -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting finished brassware through final decoration</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Minimal, slim-profile brassware shows fingerprints, grout haze and paint splashes more readily than a more heavily brushed or textured finish, so once a concealed valve trim or tap is fitted we protect it with film through any remaining tiling, grouting or decoration work in the room. This is agreed with other trades on site, not assumed — a decorator working around a freshly fitted valve needs to know it's there and finished, not mid-install.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also leave the final clean and protective film removal until the very end of the project, so the brassware reaches handover looking as it did the day it was fitted, rather than carrying marks picked up from several weeks of other trades finishing the room around it.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+      <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="crosswater-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Crosswater; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

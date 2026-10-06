@@ -1,0 +1,245 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bathroom Plumbing and First Fix",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What exactly is \"first fix\" plumbing?",
+    a: "First fix is the supply and waste pipework installed before tanking, tiling or decoration — the hot and cold runs, waste pipes and isolation valves that everything else gets built around. It's inspected and pressure-tested before anything covers it.",
+  },
+  {
+    q: "Why does pipe centre spacing matter so much for my taps?",
+    a: "Wall-mounted brassware, exposed shower valves and some basin taps are made to fixed centre measurements — usually 150mm or 200mm, but it varies by model. Get the first fix centres wrong and the tap won't line up with the basin, or the valve won't meet the outlet, after the wall is tiled.",
+  },
+  {
+    q: "Can you work around my existing pipework to save money?",
+    a: "Sometimes, if the current waste and supply positions suit the new layout and the pipe condition is sound. We check this at survey rather than assuming — reusing a run that's undersized or poorly falling just moves the problem downstream.",
+  },
+  {
+    q: "Do you deal with my boiler or hot water cylinder?",
+    a: "Any work on an unvented hot water cylinder, or gas-related work, is carried out by an appropriately registered engineer as part of the project. We coordinate this so you have one point of contact rather than juggling separate trades.",
+  },
+  {
+    q: "Does it make a difference if my wall is masonry or stud?",
+    a: "Yes. Masonry walls are usually chased for pipework; stud walls need noggins positioned at first fix for anything that will be screwed or bolted later — basins, WC frames, grab rails, towel radiators. Get this wrong and you're cutting into finished tiling to add blocking afterwards.",
+  },
+  {
+    q: "Is the pipework tested before it's tiled over?",
+    a: "Yes. Every new supply run is pressure-tested and every waste run is checked for fall and for leaks before tanking or tiling starts. Finding a slow leak after the room is finished means taking the room apart again — testing now avoids that.",
+  },
+  {
+    q: "What if I'm buying a digital or thermostatic shower valve?",
+    a: "We check the minimum flow and pressure the valve needs against your actual hot water system at survey. Some digital valves need more than a gravity-fed tank can supply without a pump, so this is confirmed before first fix, not discovered at commissioning.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Plumbing & First Fix | Install My Bathroom"
+  description="First-fix plumbing across Bracknell and Berkshire: supply runs, waste falls, pipe centres and pressure testing, done right before tiling. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Bathroom Plumbing & First Fix", href: "/services/bathroom-plumbing-and-first-fix/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Plumbing & First Fix</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        First fix is the supply and waste pipework installed before tanking, tiling or decoration — set to the exact centres your chosen brassware needs, pressure-tested, and signed off before anything covers it. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why it matters -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The stage nobody sees, and the one that matters most</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Once the tiles are on, first fix is invisible — which is exactly why it has to be right the first time. A basin mixer set 15mm off its intended centres, a shower valve positioned for the wrong tile thickness, or a waste run with too little fall to clear water quickly: none of these show up until the room is finished and the client is standing in it. Correcting any of them at that point means breaking back tiling that's already grouted and sealed.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We treat first fix as the stage where the whole installation is decided, not a formality on the way to tiling. That means working from the manufacturer's technical data sheet for every item of brassware and sanitaryware you've bought — not a generic layout — and confirming centres, connection types and fixing points against the actual products before a single pipe is cut.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It also means thinking about the room as a whole rather than one fixture at a time. A basin waste that shares a stack with a WC needs enough fall and enough distance from the branch to avoid self-siphoning. A shower valve feeding a rainfall head and a handset together needs a supply sized for the combined flow, not just the minimum the valve body will accept. None of this is visible once the wall is closed up, which is exactly why it's checked against the actual products at first fix rather than assumed from a standard layout.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common problems -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Where first fix usually goes wrong</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most problems we're called in to put right trace back to the same handful of causes: pipe centres taken from a generic spacing rather than the actual product's data sheet, waste runs with too shallow a fall to clear waste water quickly, missing isolation valves that turn a five-minute tap change into draining the whole system, and stud walls boarded over without blocking for a basin bracket, a WC frame or a grab rail that gets specified later in the project. Each of these is straightforward to avoid at first fix and genuinely disruptive to correct afterwards, because correcting them means cutting back tiling that's already grouted and sealed.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The other recurring issue is sequencing: electrics, plumbing and carpentry first fix all competing for the same wall void. We coordinate the order these happen in — pipework routed before cabling where the two cross, blocking fixed before boarding, electrical first fix signed off before anything is chased over it — so nothing gets covered up before it's been checked.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Hot and cold supply runs to the exact centres your brassware requires</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Waste pipework sized and falling correctly to the soil stack or gully</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Isolation valves fitted to every appliance for future servicing</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Noggins and blocking positioned in stud walls for basins, WC frames, towel radiators and grab rails</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Pressure testing of all new pipework before it's covered</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Coordination with a registered engineer for any gas, Part P electrical, or unvented cylinder work</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second-fix connection of taps, traps and waste fittings once tiling is complete</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey.</strong> <span style="color: var(--text-soft);">We check incoming pressure and flow rate, note the existing pipe runs and soil stack position, and record the technical data for every product you've bought or are specifying.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Centre lines agreed.</strong> <span style="color: var(--text-soft);">Exact positions for every supply, waste and fixing point are set out and marked before anything is cut.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>First fix installed.</strong> <span style="color: var(--text-soft);">Supply and waste pipework run and chased or boxed in, noggins fitted, electrical first fix coordinated alongside it.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Pressure test and inspection.</strong> <span style="color: var(--text-soft);">Every run is tested and checked before tanking or tiling goes anywhere near it.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix.</strong> <span style="color: var(--text-soft);">Taps, valves, traps and waste connections completed once tiling is finished, then tested again under running water.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Every fitting used is WRAS-approved and isolation valves are fitted to each appliance so a tap or WC can be serviced later without draining the whole system. Falls on waste pipework are set to clear water efficiently rather than left to find their own level, and pipe centres for exposed or wall-mounted brassware are taken from the manufacturer's own data sheet rather than a generic spacing — this is the single most common cause of a tap that won't fit once it arrives on site.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Gas work, Part P-notifiable electrical work, and any work on an unvented hot water cylinder is carried out by an appropriately registered engineer as part of the project. We coordinate the sequencing so this happens at the right point in the first-fix programme, rather than you having to arrange it separately.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where a bathroom sits above a kitchen, a bedroom, or another occupied room, pipework and waste runs are positioned and sealed with that in mind — a dripping joint above a ceiling is one of the most disruptive things to find after the fact, so every connection is pressure-tested and left to stand under pressure before it's boxed in, not just checked once and signed off.
+      </p>
+    </div>
+  </section>
+
+  <!-- Working in the house -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">First fix in an occupied home</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        First fix is usually the noisiest and dustiest stage of a bathroom installation — chasing masonry, drilling joists, running new ducting — so we plan it for the hours and days that cause the least disruption to the rest of the house, and protect the route in and out of the room for the full first-fix period, not just on day one. Where the water supply to the rest of the property needs to be isolated to make a connection, we agree a short window for that in advance rather than cutting it without warning.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If the bathroom being worked on is the only one in the house, we talk through interim arrangements before isolating supplies for any length of time. It's a small thing to plan for, but it's the difference between a first fix that feels organised and one that feels like an inconvenience.
+      </p>
+    </div>
+  </section>
+
+  <!-- Supply type -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Gravity, combi or unvented: it changes the pipework</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The type of hot water system feeding the bathroom changes what first fix actually looks like. A gravity-fed system from a loft tank needs larger-bore pipework to deliver decent flow at low pressure, and often a pump if a rainfall head or digital valve needs more than the tank alone provides. A combi boiler delivers mains pressure on demand but can struggle if two outlets are run simultaneously, which matters if the layout includes both a bath filler and a separate shower. An unvented cylinder gives strong, balanced pressure to both hot and cold but needs its own safety pipework — discharge pipe, tundish, and expansion vessel — installed and serviced by a registered engineer.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We confirm which of these applies at survey and size the first-fix pipework accordingly, rather than installing a standard run and finding out at second fix that the shower you've bought needs more flow than the system can give it.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        You buy the sanitaryware, brassware and any shower valves; we need the technical data sheet or installation manual for each item ahead of first fix, not just the product name. Pipe centres, connection sizes, carrier frame requirements and minimum wall-void depths all vary between manufacturers and even between models in the same range, so this detail is what lets us set pipework out correctly the first time. If a spec changes after first fix has started — a different tap with different centres, for instance — flag it as early as possible, since it's far less disruptive to adjust before tiling than after.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also worth confirming at this stage whether anything you've bought needs a pumped supply, a minimum static pressure, or a particular type of hot water system to perform as advertised — some digital and thermostatic valves have minimum flow requirements that a gravity-fed system in an older house simply won't meet without a pump. We check this against your existing supply at survey, so there are no surprises once the valve is on the wall.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/full-bathroom-installation/" class="btn-secondary">Full Bathroom Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/underfloor-heating-installation/" class="btn-secondary">Underfloor Heating Installation</a>
+        <a href="/services/bathroom-lighting-and-electrics/" class="btn-secondary">Bathroom Lighting &amp; Electrics</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/what-our-125-survey-includes/" class="btn-secondary">What our £125 survey includes</a>
+        <a href="/guides/water-pressure-for-rainfall-showers/" class="btn-secondary">Water pressure for rainfall showers</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-plumbing-and-first-fix-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

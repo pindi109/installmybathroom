@@ -1,0 +1,254 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Porcelain vs Natural Stone Tiles for a Bathroom",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is natural stone more slippery than porcelain when wet?",
+    a: "It depends on the finish, not just the material — a honed or textured stone finish can offer good grip, while a highly polished stone or porcelain surface will be slippery regardless of material. We'll discuss slip-resistant finish options for floor applications at survey.",
+  },
+  {
+    q: "Does natural stone need sealing and porcelain doesn't?",
+    a: "Generally yes. Natural stone is porous to varying degrees and needs an appropriate sealer applied after installation, then reapplied periodically. Porcelain is dense and non-porous, so it doesn't need sealing in the same way.",
+  },
+  {
+    q: "Can large-format tiles be cut and fitted the same way in both materials?",
+    a: "The principles — flat substrate, correct adhesive bed, consistent joint width — are the same, but stone typically needs slower, more careful cutting and polishing of edges, particularly for mitred returns, compared with porcelain.",
+  },
+  {
+    q: "Is porcelain always cheaper than natural stone?",
+    a: "Generally, yes, porcelain tends to cost less per square metre and takes less time to install, though premium large-format porcelain ranges can approach stone pricing. Natural stone's cost reflects both the material and the additional handling and sealing involved.",
+  },
+  {
+    q: "Which is better for underfloor heating?",
+    a: "Both perform well with underfloor heating, since both conduct and retain heat effectively. The floor build-up and heating system commissioning matter more than the tile material itself for how evenly the floor warms.",
+  },
+  {
+    q: "How often does natural stone need resealing?",
+    a: "It varies by stone type and how heavily the room is used — a dense granite needs resealing far less often than a more porous limestone or travertine in a frequently used shower. We'll recommend a resealing interval specific to your chosen stone at the point of installation.",
+  },
+  {
+    q: "Does underfloor heating affect how often stone needs resealing?",
+    a: "It can. The gentle warming and drying cycle underfloor heating creates tends to accelerate how quickly a sealer wears, so stone floors laid over underfloor heating are generally checked and resealed a little more often than the same stone over an unheated floor.",
+  },
+  {
+    q: "Is a mitred edge worth the extra time over a trim?",
+    a: "It depends on the look you want and how exposed the edge is. A mitred return gives the cleanest, most minimal appearance and suits a feature niche or visible corner, while a trim is a sound, more practical choice for an edge likely to take knocks, such as a step or threshold.",
+  },
+];
+---
+
+<Base
+  title="Porcelain vs Natural Stone Tiles for a Bathroom | IMB"
+  description="How porcelain and natural stone compare for bathroom tiling — durability, sealing, slip resistance, and installation differences worth knowing before you buy."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Porcelain vs Natural Stone", href: "/guides/porcelain-vs-natural-stone-tiles/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Porcelain vs Natural Stone Tiles for a Bathroom</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Large-format porcelain is dense, non-porous and needs no sealing, with consistent colour and size batch to batch — a practical, lower-maintenance choice. Natural stone is porous, needs sealing, and shows natural variation in veining and tone between pieces, giving a less uniform but genuinely individual finish. Both need a flat substrate and correct falls to drain; stone generally takes longer to cut, handle and finish.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How the two materials compare</h2>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 pr-4 font-semibold">Porcelain</th>
+              <th class="text-left py-3 font-semibold">Natural stone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Porosity and sealing</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Dense and non-porous; no sealing required.</td>
+              <td class="py-3" style="color: var(--text-soft);">Porous to varying degrees; needs sealing after installation and periodically afterwards.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Consistency between pieces</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Consistent colour, pattern and size within a production batch.</td>
+              <td class="py-3" style="color: var(--text-soft);">Natural variation in veining, tone and sometimes thickness between pieces from the same quarry batch.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Cutting and edge finishing</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Cuts cleanly with the right blade; mitred edges achievable with care.</td>
+              <td class="py-3" style="color: var(--text-soft);">Needs slower, more careful cutting and polishing, particularly for mitred returns and bullnose edges.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Typical installation time</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Generally quicker to lay for an equivalent area.</td>
+              <td class="py-3" style="color: var(--text-soft);">Generally slower, due to handling, cutting care and sealing stages.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Relative cost</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Generally lower per square metre; premium large-format ranges can approach stone pricing.</td>
+              <td class="py-3" style="color: var(--text-soft);">Generally higher, reflecting material cost and additional handling, cutting and sealing labour.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What stays the same regardless of material</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Both materials demand a flat, true substrate before a single tile is laid — large-format tiles in particular show up any unevenness in the floor or wall beneath them as visible lippage at the joint. Both need correct falls to drain on a shower or wet room floor, set out and screeded before tiling begins, and both need tile joints planned from centre lines so cuts at the edges of the room land symmetrically rather than as an afterthought.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Grout joint width, adhesive bed thickness and movement joints at changes of plane are all specified the same way for either material, following BS 5385 guidance, adjusted for the specific tile size and format chosen.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Choosing based on how you'll live with the room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If low maintenance and consistent appearance year after year matter most, porcelain's non-porous, sealed-for-life surface is the easier option to live with. If the character of natural variation — the way one piece of marble or limestone differs subtly from the next — is part of what you're after, stone delivers something porcelain, however convincing the printed finish, can't fully replicate. Neither is the wrong choice; they suit different priorities.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Slip resistance is worth discussing specifically for floor applications in either material, since a highly polished finish in stone or porcelain will behave similarly underfoot when wet — the finish matters as much as the material for a shower or wet room floor.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Mixing materials within the same room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It's common, and often a good design decision, to combine the two rather than treat it as an either-or choice. A large-format porcelain floor paired with a natural stone feature wall behind a freestanding bath, for instance, gives the practical low-maintenance benefit of porcelain underfoot while still bringing the individual character of stone into the room visually. Where materials meet — at a threshold, an internal corner, or a change from floor to wall — the junction needs planning at set-out stage so the transition reads as a deliberate design line rather than an awkward join.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Mixed material rooms also need a joint strategy agreed before tiling starts — matching or contrasting grout colour, consistent joint width across both materials, and a movement joint detail where materials with different expansion characteristics meet, so the finished surface stays sound as the room heats, cools and takes on moisture over years of use.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What to ask before you order either material</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        For natural stone, ask about the specific sealer recommended for your chosen stone type, and how often it needs reapplying — this varies considerably between a dense granite and a more porous limestone or travertine. For porcelain, ask about the slip rating of the specific finish you're considering for floor use, and whether the batch you're ordering has been checked for consistent calibration, since even small size variations between tiles in a batch can cause visible joint-width inconsistency across a large-format floor.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        For either material, order enough to allow for cuts, wastage, and a small reserve kept back in case a tile is damaged or needs replacing years after the original installation — natural stone batches in particular can be impossible to match exactly once a quarry has moved on to a different seam.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How each material performs with underfloor heating</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Both porcelain and natural stone conduct heat well and are standard choices over underfloor heating, but they behave slightly differently as the floor warms and cools. Porcelain's dense, low-porosity body heats evenly and responds reasonably quickly to a thermostat change, since there's no moisture within the tile itself to manage. Natural stone, being porous to some degree, needs to be fully dry and properly sealed before underfloor heating is commissioned — running heat through a stone floor that hasn't cured and dried on its normal schedule can drive moisture out unevenly and affect how well the sealer bonds.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The heating system's commissioning schedule matters as much as the tile material: both porcelain and stone floors need a gradual temperature ramp-up on first use, following the underfloor heating manufacturer's guidance, rather than being brought straight to full temperature. Thicker stone tiles also take slightly longer to respond to a thermostat change than thinner porcelain, simply because there's more material to heat through, though in day-to-day use this difference is rarely noticeable underfoot.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Cost of ownership: sealing cycles and day-to-day maintenance</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Porcelain's ownership cost is mostly front-loaded into the purchase and installation, since the surface needs nothing beyond routine cleaning once it's laid — no sealing schedule, no specialist cleaning products, and little real risk of staining from everyday spills. Natural stone carries an ongoing maintenance commitment instead: an initial seal after installation, periodic resealing on a schedule that depends on the specific stone and how heavily the room is used, and a need to avoid acidic cleaning products that can etch or dull the surface over time.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Neither pattern is wrong, but the two suit different households. A stone floor well cared for over decades develops a depth and character that a printed surface doesn't replicate, while a porcelain floor stays functionally identical from the day it's laid, without any ongoing attention beyond normal cleaning. Which kind of ongoing effort you're prepared to give the room is worth weighing before choosing, rather than after the tiles are down.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Edge and finishing options: mitred returns, trims and bullnose</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        At an external corner — the leading edge of a tiled shower step, a niche, or a window reveal — tiles can be finished either with a mitred return, where two tiles are cut at 45 degrees and joined to form a seamless corner with no visible edge, or with a metal or PVC trim that caps the edge and gives a degree of protection against chipping. Mitred returns give the cleanest, most minimal look and work well in both porcelain and stone, though stone generally needs slower, more careful mitring and polishing to achieve a crisp, well-matched joint at the corner.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Trims are a practical, slightly more forgiving option, protecting a vulnerable edge from impact damage and giving a neat, consistent finish without the skill and time a mitred corner demands — a reasonable choice for a straightforward specification, or anywhere an edge is likely to see knocks, such as a step edge in a family bathroom. Which approach suits a given corner is something we'll discuss at design stage, since the right choice depends on the specific junction, the tile thickness, and how the room will be used.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Bullnose edges — a rounded profile ground or moulded onto a single tile rather than two tiles mitred together — are a third option, more commonly used on a shelf or windowsill than a wet-area corner. Pre-fabricated bullnose trims are widely available off the shelf in porcelain, while a bullnose profile in natural stone is usually ground to order, which adds lead time and cost compared with a stocked porcelain trim.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large-Format Porcelain Tiling</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/choosing-natural-stone-for-a-bathroom/" class="btn-secondary">Choosing natural stone</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Large-format tile tolerances</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Brands</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/brands/porcelanosa/" class="btn-secondary">Porcelanosa</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tiling practice referenced in this guide follows BS 5385 (wall and floor tiling). Falls to drain and waterproofing follow manufacturer tanking system guidance. Sealing schedules for natural stone follow sealant manufacturer guidance current at the time of writing, applied according to the specific stone type.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="porcelain-stone-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,246 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Shower Enclosure and Screen Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Framed, semi-frameless or frameless — what's the real difference in fitting?",
+    a: "Framed enclosures are the most forgiving of a slightly out-of-square wall, since the frame can absorb small discrepancies. Frameless glass needs a near-perfect substrate and more precise fixing, because there's no frame to hide a gap — this affects both cost and how fussy the wall preparation needs to be.",
+  },
+  {
+    q: "Can a shower screen be fitted to an uneven or old wall?",
+    a: "Yes, but the wall needs to be brought true before the screen goes in — either by building up the tiling bed or, in older properties, by packing the fixing points. We check wall plumb and squareness at survey so there are no surprises when the screen arrives.",
+  },
+  {
+    q: "Do shower screens need toughened or laminated glass?",
+    a: "UK shower screens are almost always toughened safety glass, typically 6, 8 or 10mm depending on the panel size and whether it's framed or frameless — thicker, unsupported frameless panels need the heavier glass to stay rigid.",
+  },
+  {
+    q: "How do you stop a shower screen leaking at the floor or wall junction?",
+    a: "The junction is sealed with silicone onto a tanked substrate, not directly onto bare plaster or old grout — tanking goes down first, then the screen is fixed and sealed into it, which is what actually stops water getting behind the tiling.",
+  },
+  {
+    q: "Can an existing bath get a shower screen fitted over it?",
+    a: "Yes — a bath screen is one of the simpler enclosure jobs, generally a half-height panel fixed to the bath edge and wall, sealed at both junctions. It still needs the wall behind it in sound, tanked condition if it's being retiled.",
+  },
+  {
+    q: "How long does an enclosure and screen installation take on its own?",
+    a: "A single enclosure fit, once tiling is complete and cured, typically takes a day. It's rarely a standalone job though — usually scheduled as the final stage of a wider bathroom or en-suite installation.",
+  },
+  {
+    q: "Can a shower door swing both ways, or only outward?",
+    a: "Most hinged shower doors are designed to swing outward only, partly for safety — so someone can always be helped out in an emergency — and partly because an inward swing reduces usable showering space. Sliding and bifold doors avoid the swing question entirely, which suits a tighter room where door clearance is limited.",
+  },
+  {
+    q: "What happens if the glass gets scratched or chipped after installation?",
+    a: "A scratched or chipped panel generally needs replacing rather than repairing, since toughened glass can't be reworked once manufactured. This is why we handle glass carefully during install and recommend checking panels for any damage immediately on delivery, before we fit them — damage found afterwards is much harder to resolve with the supplier.",
+  },
+];
+---
+
+<Base
+  title="Shower Enclosure &amp; Screen Installation | Install My Bathroom"
+  description="Fit-only shower enclosure and screen installation across Bracknell and Berkshire. Framed, frameless and bath screens, sealed to a tanked substrate. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Shower Enclosure & Screen Installation", href: "/services/shower-enclosure-and-screen-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Shower Enclosure &amp; Screen Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A shower screen is only as good as the wall it's fixed to — frameless glass in particular has nowhere to hide an out-of-square corner or an uneven tile line. We check plumb and square before the glass is ordered, not after it arrives. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        It's also usually the last trade on site, since bespoke glass is measured off the finished tiled opening rather than a plan drawn weeks earlier — a sequencing detail that catches people out when they've been quoted a single project timeline that doesn't account for glass lead times at the end. Getting this stage right is often what separates a bathroom that looks genuinely finished from one that still feels a few days from complete, since a crooked or ill-fitting screen is noticeable in a way few other details are.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Whether it's a simple bath screen or a bespoke frameless wet room panel, the fundamentals are the same: a true, tanked substrate to fix into, glass measured to the actual finished opening, and every junction sealed properly rather than papered over with silicone.
+      </p>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Wall plumb and square check, with any correction built into the tiling set-out</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Tanking of the enclosure area before any screen fixing points are drilled</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Precise measurement of the final opening once tiling is complete, confirmed before the glass is ordered</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Fixing of wall channels, hinges or floor-to-ceiling poles depending on the panel system specified</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Door or panel hanging, checked for even gaps and smooth operation</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Silicone sealing at every wall, floor and glass-to-glass junction onto the tanked substrate</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Water test and snagging check for drips, binding hinges or uneven gaps</li>
+      </ul>
+      <p class="leading-relaxed mt-6" style="color: var(--text-soft);">
+        We also handle the practical side of a bespoke glass order — liaising with the glazier on measurements, confirming lead times, and scheduling the fitting visit once the panel is ready, so you're not left coordinating between trades yourself.
+      </p>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey (£{business.pricing.surveyGBP}).</strong> <span style="color: var(--text-soft);">We assess the existing or planned wall condition and advise whether framed or frameless suits the space and budget, and flag likely glass lead times early.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Tiling completes first.</strong> <span style="color: var(--text-soft);">For a bespoke glass fit, the exact opening is measured once tiling is finished and cured — glass is cut to the real opening, not the plan.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>You confirm the order.</strong> <span style="color: var(--text-soft);">Final dimensions, glass thickness and fixing hardware are confirmed against the measured opening before the glazier cuts the panel.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Fixing and hanging.</strong> <span style="color: var(--text-soft);">Channels or hinges fixed into the tanked wall, panel or door hung and adjusted for even gaps and smooth swing.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Sealing and water test.</strong> <span style="color: var(--text-soft);">Silicone applied at every junction, water run to check containment before the room is signed off as complete.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Glass is toughened safety glass to current standards, with thickness matched to panel size and support method — an unsupported frameless panel over around 900mm typically needs 10mm glass to stay rigid, where a framed equivalent can use 6mm. Fixing points are drilled into a tanked, tiled substrate, never bare plasterboard, and checked for a secure pull-test before the panel is hung permanently. Every junction — wall, floor, and glass-to-glass where two panels meet — gets its own silicone seal rather than relying on a single bead to do several jobs.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Door and hinge alignment is checked under load, with even gaps top and bottom, because an enclosure that looks straight when still can still bind or drag once the door is swinging under regular use.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where two glass panels meet at a corner without a metal post, a glass-to-glass hinge or clamp fitting is used that's rated for the specific glass thickness — mismatched hardware here is a common cause of a panel working loose over time, which is why we only specify fittings confirmed compatible with the exact glass ordered.
+      </p>
+    </div>
+  </section>
+
+  <!-- Framed vs frameless -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Framed, semi-frameless or fully frameless</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A fully framed enclosure has a metal frame around every edge of the glass, which hides minor wall imperfections and is generally the lowest-cost route. Semi-frameless designs use a slim frame only where structurally needed — usually the hinge side — giving a cleaner look at a more moderate cost than full frameless. Fully frameless glass has no frame at all, held only by wall-fixed hinges or channels, and delivers the cleanest, most minimal appearance, but demands the truest wall and the most precise measurement of any of the three.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The right choice depends on budget, the condition of the existing walls, and how much that minimal look actually matters to you versus a more forgiving, cost-effective framed option. We'll give an honest recommendation at survey once we've seen the room, rather than defaulting to whichever looks best in a showroom.
+      </p>
+    </div>
+  </section>
+
+  <!-- Door types -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Hinged, sliding, bifold or pivot doors</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A hinged door swings outward into the room and needs clear floor space to do so — the simplest mechanism, with the fewest moving parts to maintain, but it demands the most room beyond the enclosure footprint. A sliding door runs along a track and needs no swing clearance at all, making it the natural choice for a tighter room, though the track needs regular cleaning to keep it running smoothly. A bifold door folds in on itself to reduce the swing space required, a useful compromise where floor space is limited but a fully fixed panel isn't practical. A pivot door rotates on a central or offset pin rather than a side hinge, giving a slightly wider opening for the same door width.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We measure the actual available clearance at survey and will flag if your preferred door type doesn't suit the room as drawn — a hinged door specified for a space that can't accommodate its swing is one of the more common mismatches between a showroom choice and the reality of a specific bathroom, and one that's far cheaper to catch before the glass is ordered than after.
+      </p>
+    </div>
+  </section>
+
+  <!-- Maintenance -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Keeping glass and seals in good condition</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Limescale is the main long-term enemy of any shower screen, particularly in hard water areas common across Berkshire. A quick squeegee after each use, and an occasional descale with a product suited to the glass coating specified, keeps the panel looking clear for years rather than clouding within months. Some glass comes with a factory-applied coating designed to resist limescale adhesion — worth asking about at the point of ordering if low maintenance matters to you.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Silicone seals should be checked roughly once a year for any sign of lifting, discolouration or mould, and replaced promptly if found — a failed seal left in place is one of the more common causes of water finding its way behind tiling that was otherwise perfectly sound. Re-sealing an enclosure is a straightforward, low-cost job if caught early, which is why it's worth a quick annual check rather than waiting until a problem is visible on the far side of the wall.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The enclosure, screen or bath panel is bought by you — see our <a href="/guides/where-to-buy-bathroom-products-uk/" class="underline" style="color: var(--teal);">where to buy</a> guide and our <a href="/guides/framed-vs-frameless-shower-screens/" class="underline" style="color: var(--teal);">framed vs frameless</a> guide before deciding. Where glass is cut to a bespoke opening, it's ordered after tiling is measured, not before — buying off-the-shelf stock sizes before that measurement is confirmed risks a panel that doesn't fit the finished room.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        If a bespoke panel is being cut, build its lead time into your overall project timeline before committing to a completion date — glaziers typically need one to three weeks from confirmed measurement to delivery, and that window sits after tiling is already finished, not alongside it.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Check the fixing hardware finish against your taps and towel radiator before ordering — mixing a polished chrome hinge with a brushed brass tap, for example, is a mismatch easily avoided by cross-checking the full specification sheet before the enclosure is confirmed, rather than discovered once everything's on site.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+        <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
+        <a href="/services/digital-and-smart-shower-installation/" class="btn-secondary">Digital &amp; Smart Shower Installation</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/framed-vs-frameless-shower-screens/" class="btn-secondary">Framed vs frameless screens</a>
+        <a href="/guides/wet-room-vs-walk-in-shower/" class="btn-secondary">Wet room vs walk-in shower</a>
+        <a href="/guides/what-to-check-when-your-bathroom-is-delivered/" class="btn-secondary">Delivery checklist</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="shower-enclosure-and-screen-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

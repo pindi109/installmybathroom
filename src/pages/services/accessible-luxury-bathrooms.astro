@@ -1,0 +1,236 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Accessible Luxury Bathrooms",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "Can a wet room be genuinely level access, with no step anywhere?",
+    a: "Yes, provided there's enough floor build-up available to form falls to a drain without a step — usually a linear drain set at the lowest point, with the floor falling gently towards it across the whole room rather than just within a shower zone. We assess the available depth at survey, since it depends on the floor's construction and the height of the existing threshold.",
+  },
+  {
+    q: "Do grab rails and accessible fittings have to look clinical?",
+    a: "No. Grab rails, fold-down seats and lever taps are available in finishes that match brassware ranges rather than only the white-and-steel institutional look most people picture. The part that matters structurally — solid blocking behind the wall — is invisible once the room is finished; the part that's visible is a design choice like any other fitting.",
+  },
+  {
+    q: "Is this work certified to Part M of the Building Regulations?",
+    a: "Part M sets accessibility standards primarily for new-build and non-domestic buildings; most of our work is refurbishment of existing private homes, where we design with the same accessibility principles in mind — level access, clear turning space, solid fixing points — without claiming formal Part M certification, which applies to a different category of building work.",
+  },
+  {
+    q: "What load can a grab rail actually take?",
+    a: "This depends on the specific rail and, critically, on what it's fixed into. A rail screwed into plasterboard alone will fail under real load regardless of its own rating; the fixing has to be into solid blocking positioned behind the wall at first fix, sized and placed for the exact rail and its intended use.",
+  },
+  {
+    q: "Can a wheelchair turn in a standard-sized bathroom?",
+    a: "It depends on the existing room's dimensions and door position — a full turning circle needs more floor area than many existing bathrooms offer. Where space is limited, we discuss realistic layout options at survey, including whether moving a stud wall or door position is practical, rather than promising a turning circle a room can't physically provide.",
+  },
+  {
+    q: "Can you retrofit solid blocking into an existing stud wall for rails fitted later?",
+    a: "Yes, though it means opening the wall to add blocking rather than screwing a rail directly into plasterboard, which is why we always ask at survey whether rails or a seat might be added in future, even if you don't want them fitted immediately — it's far less disruptive to add blocking now than to open a finished wall later.",
+  },
+  {
+    q: "Can you work around someone still living in the house during the renovation?",
+    a: "Yes — this is common on accessible bathroom projects, and we agree a programme and interim arrangements with you at survey, particularly where there's no second bathroom in the house to fall back on during the work.",
+  },
+];
+---
+
+<Base
+  title="Accessible Luxury Bathrooms | Install My Bathroom"
+  description="Level-access wet rooms and accessible bathrooms across Bracknell and Berkshire, built with solid fixing points and finishes that don't look institutional. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Accessible Luxury Bathrooms", href: "/services/accessible-luxury-bathrooms/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Accessible Luxury Bathrooms</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Level-access wet floors, solid blocking behind every rail and seat, and sanitaryware positioned to suit how the room is actually used — accessibility built in at first fix rather than bolted on afterwards, in materials that don't read as clinical. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Accessibility and luxury are not opposites</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A level-access shower, a grab rail that can take genuine load, a WC set to a comfortable height, lever taps that don't need a grip to turn — none of these require the room to look like a hospital bathroom. The institutional look most people associate with accessible fittings comes from budget products and generic layouts, not from the underlying requirement. A large-format stone floor can fall to a linear drain just as well as vinyl sheet flooring; a rail finished to match the brassware looks like part of the design rather than an addition to it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What actually matters, structurally, is almost entirely invisible once the room is finished: falls formed correctly across the whole floor, solid blocking positioned behind every wall where a rail or seat will ever be fixed, and sanitaryware set at heights and positions agreed with you rather than from a standard template. We plan all of this at survey and first fix, so the finished room can look exactly as considered as any other bathroom we build.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Level-access wet floor, falling across the whole room to a linear or point drain, with no upstand to step over</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Solid blocking built into stud walls at every position a grab rail, fold-down seat or support rail will be fixed</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Non-slip large-format porcelain or textured natural stone specified for the wet floor area</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Lever-operated taps and large-dial thermostatic or digital shower controls, where specified</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> WC set to an agreed comfort height, with reinforced fixing for any adjacent support rail</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Wider door openings or threshold removal where the existing structure allows it</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey.</strong> <span style="color: var(--text-soft);">We assess the step-free route from the door to the wet area, available floor build-up for a level-access drain, and every position a rail or seat might be needed, now or in future.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>Layout agreed.</strong> <span style="color: var(--text-soft);">WC height, basin height, rail and seat positions, and door clearance confirmed with you directly, since these are personal rather than standard decisions.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Strip-out and structural prep.</strong> <span style="color: var(--text-soft);">Floor build-up adjusted to form falls, solid blocking fitted behind every future fixing point, door openings widened where agreed.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tanking across the whole floor and tiling.</strong> <span style="color: var(--text-soft);">Waterproofing extended beyond the shower zone to the entire wet room floor, then non-slip tiling laid to the formed falls.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix and load testing.</strong> <span style="color: var(--text-soft);">Rails, seats and sanitaryware fitted, with every rail and seat tested under real load before handover, not just checked for a secure feel.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A level-access wet room needs falls formed across the entire floor, not just within the shower zone, so water travels reliably to the drain from every part of the room — this needs more floor build-up than a standard shower tray installation, and we confirm the available depth against your joist height or slab at survey before committing to a linear or point drain. Tanking extends across the whole floor to match, since the entire surface is a wet zone in a true level-access room.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor and wall tiles in these rooms are specified with a slip-resistance rating suited to a wet barefoot environment, which is a different specification question to a standard bathroom floor and one we discuss with you when choosing finishes. Grab rails and fold-down seats are fixed into solid timber or equivalent blocking positioned at first fix — the rail's manufacturer-stated load rating is only meaningful if the fixing behind it can actually bear that load, which plasterboard alone cannot.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We design with the general principles behind Part M of the Building Regulations in mind — level thresholds, clear floor space, appropriate fixing — without presenting domestic refurbishment work as formally Part M-certified, since that designation applies to a different category of building project. Any Part P-notifiable electrical work, or work on an unvented hot water cylinder, is carried out by an appropriately registered engineer as part of the project.
+      </p>
+    </div>
+  </section>
+
+  <!-- Design that doesn't look clinical -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Keeping the finished room feeling considered, not clinical</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The single biggest factor in whether an accessible bathroom feels like a luxury room or an institutional one is usually the choice of finishes, not the presence of the accessible fittings themselves. A warm stone floor, brassware finished to match the rest of the room, and a rail or seat chosen in a finish that coordinates with the taps rather than contrasting starkly against them, all do more to set the tone than removing a step ever could on its own.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We'll talk through finish and fitting choices with this in mind at survey, rather than defaulting to the most obviously "accessible-looking" product in a catalogue when a better-finished equivalent exists and performs the same job.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning for the future -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning ahead, not just for now</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A good number of the accessible bathroom projects we're asked to quote aren't for someone who needs the fittings today — they're for a household planning ahead, either for an older relative moving in, or simply because the people living in the house want a bathroom that will still suit them in twenty years without another renovation. In these cases, the most useful thing we can do at survey is separate what needs to be visible now from what can be built in invisibly and added later.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Solid blocking behind a stud wall costs very little extra to install at first fix and is completely invisible once the wall is finished — it can sit there unused for years until a rail is eventually fitted, at which point it simply screws into blocking that was planned a decade earlier. Level-access floors and wider doorways are harder to retrofit invisibly, so these tend to be the decisions worth making at the time of the renovation itself if there's any reasonable chance they'll be wanted later.
+      </p>
+    </div>
+  </section>
+
+  <!-- Working with occupants -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Working around someone who relies on the room daily</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where the bathroom being renovated is the only one a household member with reduced mobility can use, the programme matters as much as the finished result. We agree a realistic timeline and, where the house has a second bathroom, sequence the work so the main room is out of action for the shortest practical period. Where there's genuinely no alternative bathroom in the house, we talk through interim arrangements with you at survey rather than leaving it until strip-out day.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Protection of the route from the front door to the bathroom is treated the same way as on any of our projects — dust sheets and floor protection for the full duration of the work, not just while materials are being carried through.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Sanitaryware, brassware, grab rails, shower seats and tiles or stone are bought by you. At survey we'll confirm the exact rail and seat models so we can position blocking to their specific fixing centres, and flag any suitability considerations for the floor finish you're considering — not every attractive tile is rated for a wet barefoot floor, and this is worth checking before you order rather than after delivery.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/wet-room-vs-walk-in-shower/" class="btn-secondary">Wet room vs walk-in shower</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="accessible-luxury-bathrooms-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

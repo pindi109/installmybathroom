@@ -1,0 +1,205 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "Are you actually based in Bracknell, or just covering it?",
+    a: "We're based here. Bracknell is where the business operates from, so there's no travel charge, no longer lead time to get a van on site, and we can usually fit in a short snagging visit or a last-minute delivery check with less notice than we could manage further afield.",
+  },
+  {
+    q: "What kind of properties do you work on in Bracknell?",
+    a: "A genuine mix — 1960s and 1970s town-build housing from the original new town plan, later estate developments from the 1980s onwards, and newer executive homes on the edges of town. Each has slightly different plumbing and floor construction, which we check at survey rather than assuming.",
+  },
+  {
+    q: "Is planning permission needed for a bathroom refit in Bracknell?",
+    a: "A standard internal refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission. It's a more relevant question on a listed building or in a conservation area, which is less common on Bracknell's post-war estates than in some neighbouring villages, but we'll still flag anything that touches the external fabric of the house.",
+  },
+  {
+    q: "What water pressure should I expect in a Bracknell new town house?",
+    a: "Most of the post-war and estate housing here runs on mains pressure, often via a combi or pressurised cylinder, which generally suits digital and thermostatic showers well. We still measure actual pressure and flow at survey rather than assuming, since individual properties vary.",
+  },
+  {
+    q: "Can you start quickly since you're local?",
+    a: "Being based here helps with scheduling flexibility and short-notice visits, but the programme for the installation itself is still set by your product delivery dates and the scope of work, not by proximity. We'll give you a realistic start date at survey.",
+  },
+  {
+    q: "Do you cover the whole of Bracknell, including the newer developments?",
+    a: "Yes, across the town centre, the established residential estates and the newer developments on the outskirts. If you're just outside the town boundary, check our Binfield, Crowthorne, Warfield and Winkfield pages, which we also cover.",
+  },
+  {
+    q: "Does a new-build warranty affect how you install a bathroom?",
+    a: "If your house is still within its NHBC or developer warranty period, some structural changes — moving a stud wall, for example — can need the developer's sign-off first. We'll ask about warranty status at survey and flag anything that might need that conversation before we start.",
+  },
+  {
+    q: "Can you work around a household that's still living in the property during the project?",
+    a: "Yes, this is the normal arrangement for the majority of our Bracknell projects. We agree which rooms and routes through the house stay protected and accessible, keep noisy work to sensible hours, and leave the site clean at the end of each working day.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Bracknell | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Bracknell, Berkshire. Local, based here — no travel charge. Client-supplied bathrooms from £3,500."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Bracknell", href: "/areas/bracknell/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Bracknell</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Bracknell, Berkshire is where we're based — not an area we drive out to, but our home ground, which means no travel charge, no half-day buffer built into the quote for getting a van across the county, and same-day access if a delivery needs checking or a snag needs a quick revisit. We install luxury, fit-only bathrooms here on exactly the same terms as everywhere else we cover: you buy the sanitaryware, brassware, tiles and furniture, we handle strip-out through to final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Bracknell's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bracknell was designated a new town in the 1950s, and a large part of its housing dates from that programme and the decades of estate development that followed — 1960s and 1970s town-build housing in the original residential areas, further estate phases through the 1980s and 1990s as the town expanded, and newer executive-style developments on its outer edges more recently. It's a town built in waves rather than one with a single dominant character, and the right bathroom approach for a 1970s semi is often different from the right approach for a newer four-bedroom detached on a 2000s estate.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Floor construction reflects that build history. Housing from the original new town phase and the estate developments that followed it tends to be solid concrete ground floors with timber upper floors — generally straightforward for tanking and large-format tiling once we've confirmed slab condition and level. Older pockets of housing, and some infill on longer-established plots, can still have suspended timber ground floors, which we check for deflection before specifying a wet room or heavy natural stone.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure across Bracknell's housing stock is generally more consistent than in older villages nearby, with most properties running on mains pressure via a combi boiler or pressurised unvented cylinder — which tends to suit digital and thermostatic showers well without additional pumping. We still measure actual pressure and flow at every survey, since individual properties and boiler ages vary, and it's the only way to specify a shower that will perform as promised rather than underwhelm once it's installed.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Some of the more recent developments on the edge of town are still within their original NHBC or developer warranty period, which matters if a bathroom project involves anything structural — moving a stud partition to widen a shower area, for example. We ask about warranty status at survey, because a change that would otherwise be straightforward can sometimes need the developer's agreement first, and it's far better to know that before a wall is opened than after. For anyone weighing up how a fit-only installer fits around a wider renovation, our guide on <a href="/guides/fit-only-vs-design-and-build-bathroom/" style="color: var(--teal); font-weight: 600;">fit-only versus design-and-build</a> sets out the practical differences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Flats and apartments -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Flats and apartments in the town centre</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Bracknell's town centre has a reasonable amount of flat and apartment stock alongside the surrounding houses, and bathroom projects in these buildings come with their own set of checks. Soil stacks and waste runs are usually shared between flats on the same riser, which limits how far a WC or shower tray can be repositioned without affecting the floor below, and any plan to move drainage needs confirming against the building's layout before we quote firmly. Many blocks also require notice to the freeholder or managing agent before work starts, particularly where noisy trades such as breaking out an old shower tray or floor screed are involved, and some have restricted working hours or lift-booking requirements for getting materials up to a flat. We ask about all of this at survey so the programme reflects the building's rules from day one rather than running into them midway through. Sound insulation between floors is also worth checking before specifying a hard floor finish in an upper-floor flat — a large-format porcelain floor transmits impact noise differently to the carpet it's replacing, and some leases set out requirements for an acoustic underlay as a result.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Listed buildings and conservation considerations</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — does not normally require planning permission, and this applies to the great majority of Bracknell's post-war housing stock. Listed buildings and conservation area designations are less common here than in some of the older villages we also cover, but they do exist in pockets of the town and surrounding parish, so if your property falls into either category and the work would affect the external fabric — a new extraction vent through an original wall, for example — we'll flag it plainly at survey and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+    </div>
+  </section>
+
+  <!-- Being local -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What being based in Bracknell means for your installation</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most of what makes a bathroom installation run smoothly happens before the strip-out starts: checking that the sanitaryware, brassware and tiles you've ordered actually match the room and each other, confirming floor structure and water pressure, and agreeing a realistic sequence against your delivery dates. Being local doesn't change any of that work, but it does mean we can turn around a second visit quickly if something needs re-checking, or collect a replacement part without losing a day of programme.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It also means our £{business.pricing.surveyGBP} survey can usually be booked at shorter notice than it could be for areas further out, and that if a delivery arrives ahead of schedule — not uncommon with bespoke sanitaryware — we can often come and inspect it against the order within a day or two rather than waiting for our next scheduled trip to the area.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Being on hand locally also helps once a job is finished. Sanitaryware and brassware settle in over the first few weeks of use — a seal can need a final check, a door on a shower enclosure can need a small adjustment once the household is using it daily — and we'd rather come back for a five-minute fix than leave a loose end because the next scheduled visit to the area is weeks away. For Bracknell clients that generally means we can turn a post-completion query around within a day or two.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why Bracknell homeowners choose a fit-only installer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company marks up every product it supplies and usually works from a limited showroom range. Buying your own sanitaryware, brassware and tiles directly — whether from a specialist bathroom showroom, a tile merchant or a brand's own online store — means you're not restricted to one company's stock list, and you keep control of the budget on the most expensive line items yourself.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What that model needs on the installation side is a team willing to work to your specification rather than its own, and confident enough to flag a mismatch — the wrong waste size for a basin, a shower valve needing a different cable gland — before it turns into an expensive change mid-project. That's the approach we've built over 30 years, and being based in Bracknell means we can usually get back on site quickly if a delivery check or a snag needs a short-notice visit.
+      </p>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Bracknell</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Enquiries from Bracknell tend to fall into a few recognisable patterns: a dated 1970s or 1980s family bathroom being replaced with a walk-in shower, wall-hung WC and concealed cistern; an en-suite added to a bedroom that never had one, usually needing a new waste run tied into the existing stack; and whole-house refurbishments on larger estate homes where two or three bathrooms are replaced in sequence. We also see a steady number of downstairs cloakroom conversions, often where a little-used understairs space is being fitted with a WC and basin for the first time. Across all of these, the discipline at survey and on site stays the same — set-out from a true centre line, tanking to a recognised standard, and waste and tap positions checked against the actual products you've bought before anything is cut.
+      </p>
+    </div>
+  </section>
+
+  <!-- Standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The standards we work to</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Whatever the decade a Bracknell property was built in, the underlying standards don't change: waterproofing to a recognised tanking standard in any wet area, electrical work in a bathroom carried out and certified in line with the relevant zoning rules for a room with water present, and ventilation sized to clear moisture rather than simply ticking a box. Our survey covers all three before a quote is confirmed, and our guide on <a href="/guides/bathroom-ventilation-regulations/" style="color: var(--teal); font-weight: 600;">bathroom ventilation regulations</a> goes into more detail on what's actually required for extraction in a family bathroom or en-suite.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Bracknell</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 12).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        From our Bracknell base we also install in the immediately surrounding villages and suburbs, including Binfield, Crowthorne and Winkfield, as well as further afield in Ascot and Sunningdale.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
+        <a href="/areas/crowthorne/" class="btn-secondary">Crowthorne</a>
+        <a href="/areas/winkfield/" class="btn-secondary">Winkfield</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bracknell-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Bracknell</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

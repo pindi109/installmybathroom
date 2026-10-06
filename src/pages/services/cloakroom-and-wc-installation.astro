@@ -1,0 +1,243 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Cloakroom and WC Installation",
+  "provider": { "@id": `${business.url}/#business` },
+  "areaServed": areasData.tier1.map((a: { name: string }) => a.name),
+  "offers": {
+    "@type": "Offer",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": business.pricing.fromGBP,
+      "priceCurrency": "GBP"
+    }
+  }
+};
+
+const faqs = [
+  {
+    q: "What's the smallest space you can fit a cloakroom into?",
+    a: "It depends on the WC pan and basin you've chosen rather than a fixed figure — compact, corner-specific or short-projection models exist precisely for tight understairs and box-room spaces. Bring your floor plan to survey and we'll confirm what fits and what clearances it leaves.",
+  },
+  {
+    q: "Can you fit a cloakroom under the stairs?",
+    a: "Yes, it's one of the more common cloakroom locations in Berkshire houses. The limiting factor is usually head height over the pan and basin rather than floor area, so we check the actual stair geometry at survey rather than working from a general assumption.",
+  },
+  {
+    q: "How do you hide the cistern pipework in a stud wall this small?",
+    a: "A concealed cistern sits within a frame built into the stud wall or a boxed-in duct, with flush plate and access panel on the finished face. In a genuinely tight cloakroom, a slimline frame — shallower than the standard depth — is often needed, and we confirm the available wall depth at survey before you order a frame.",
+  },
+  {
+    q: "Does a tiny room need the same waterproofing as a full bathroom?",
+    a: "A cloakroom with just a WC and basin and no shower doesn't need full tanking, but splash zones around the basin still benefit from a sealed, waterproof surface, and any floor finish is laid to shed the occasional spill rather than trap it against skirting.",
+  },
+  {
+    q: "Will a small cloakroom still need an extractor fan?",
+    a: "In almost all cases, yes — Building Regulations Part F applies to WCs as much as bathrooms, with its own extract rate for a room without a bath or shower. We size the fan to the room's actual volume, which in a genuinely small cloakroom is often lower than people expect.",
+  },
+  {
+    q: "Can you fit a basin and WC without disturbing the hallway floor outside?",
+    a: "Usually, yes — waste and supply runs can often be taken under the cloakroom's own floor rather than extending into the hallway, provided the existing routes allow it. We confirm the realistic route at survey rather than assuming it from the outset.",
+  },
+  {
+    q: "How long does a cloakroom installation take?",
+    a: "A straightforward replacement typically runs 3–5 days from strip-out to snagging. Where a wall needs opening up for a concealed cistern frame, or a bespoke understairs layout is involved, it can run a little longer — we'll give you a realistic figure at survey rather than a generic one.",
+  },
+  {
+    q: "Can I keep the existing basin or WC and just update the room around it?",
+    a: "Sometimes, though in practice most cloakroom projects replace the sanitaryware alongside the tiling and finishes, since disconnecting and reconnecting an old suite without damaging it is often more work than fitting new. If retaining something specific matters to you, raise it at survey and we'll assess whether it's practical.",
+  },
+];
+---
+
+<Base
+  title="Cloakroom & WC Installation | Install My Bathroom"
+  description="Cloakroom and downstairs WC installation across Bracknell and Berkshire — concealed cisterns, compact furniture and precise small-room tiling. From £3,500."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Services", href: "/services/" }, { label: "Cloakroom & WC Installation", href: "/services/cloakroom-and-wc-installation/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Cloakroom & WC Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        A cloakroom gives every mistake nowhere to hide — the room is small enough that an out-of-true tile line or a cistern that doesn't fit the stud depth is the first thing anyone notices. We fit WC, basin and concealed cistern to the tolerances a small room demands. From £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Small room, no margin -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Small room, no margin for error</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A cloakroom or downstairs WC is often the first room a visitor sees and the smallest room in the house by some distance, which is an unusual combination. In a full bathroom, a cut tile tucked behind a bath panel or a slightly adjusted joint near the ceiling goes largely unnoticed. In a two-square-metre cloakroom, every surface is at eye level and every joint is visible from the doorway — there's no large run of plain wall to absorb a small inaccuracy.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        That changes how we approach the room from the start. Set-out is planned from the doorway inward so the first thing you see on opening the door is a full tile, not a sliver cut against a frame. Fixture positions are confirmed to the millimetre before any cistern frame goes into the wall, because in a room this size there's rarely a second stud bay to move into if the first position turns out to be wrong.
+      </p>
+    </div>
+  </section>
+
+  <!-- What's included -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Strip-out of the existing suite, flooring and tiling, with disposal</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Wall-hung WC and concealed cistern, or back-to-wall pan where wall depth is limited</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Compact basin or vanity fitted with plumbing routed carefully within a confined void</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Floor and wall tiling set out from the doorway so sightlines read as full tiles, not cut slivers</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Extractor fan sized to the room's actual volume, in line with Part F requirements</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Second fix of taps, flush plate, towel rail or radiator, and mirror</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">How it runs</h2>
+      <ol class="space-y-5 fade-up">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">1</span>
+          <div><strong>Survey.</strong> <span style="color: var(--text-soft);">Exact room dimensions, available stud or masonry wall depth, door swing and sightline from the hallway all measured and recorded.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">2</span>
+          <div><strong>You order the products.</strong> <span style="color: var(--text-soft);">WC, cistern frame, basin and taps confirmed against the available wall depth and the room's actual clearances, not a standard assumption.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">3</span>
+          <div><strong>Strip-out and first fix.</strong> <span style="color: var(--text-soft);">Old suite removed, cistern frame and supply/waste positioned to the confirmed product centres.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">4</span>
+          <div><strong>Tiling.</strong> <span style="color: var(--text-soft);">Set out from the doorway and any visible sightline, with mitred corners where two tiled faces meet.</span></div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-semibold text-white" style="background: var(--teal);">5</span>
+          <div><strong>Second fix and snagging.</strong> <span style="color: var(--text-soft);">WC, basin, taps and flush plate fitted, tested, and checked against the original scope before handover.</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Technical standards -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Technical standards</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Concealed cistern frames need a minimum wall void to sit within — standard frames typically need more depth than a genuinely tight stud wall can offer, which is why slimline frames, available from most major manufacturers, exist specifically for cloakroom applications. We confirm available depth at survey before any frame is ordered, since changing frame type after a wall has been built is far more disruptive than specifying it correctly from the outset.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Basin waste and supply routing in a compact vanity or pedestal basin is planned around the available void behind it, with isolation valves fitted even in the smallest install so future servicing doesn't mean draining the house system. Tiling in a small room is set out from the most visible sightline — usually the doorway — with joints lining through between floor and wall rather than treated as two independent surfaces.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Any Part P-notifiable electrical work — a shaver socket, additional lighting, or the fan's spur connection — is carried out by an appropriately registered electrical engineer as part of the project.
+      </p>
+    </div>
+  </section>
+
+  <!-- Understairs and awkward spaces -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Understairs and other awkward footprints</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A large proportion of cloakroom installations we're asked to quote sit under a staircase, where the ceiling slopes down to meet the wall and head height becomes the real constraint rather than floor area. In these layouts, the WC usually sits at the low end only if a compact, short-projection pan allows enough clearance to sit on it comfortably, and the basin is positioned at the taller end of the room. We check actual head height at several points during survey, not just at the doorway, since a sloped ceiling can lose height quickly over a short distance.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Corner basins and corner-specific WC pans are a genuine option in an awkward footprint, and in some rooms the most efficient layout uses one or both. We'll talk through the realistic options for your specific space at survey rather than assuming a standard layout will work.
+      </p>
+    </div>
+  </section>
+
+  <!-- Finishes -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Finishes that suit a small, highly visible room</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A cloakroom is a good place to use a statement finish that would feel overwhelming across a full bathroom — a dark natural stone, a bold large-format porcelain, or a patterned floor tile — precisely because the room is small enough that the cost and the visual intensity both stay contained. The same small scale that demands precision also makes ambition far less costly to execute: a striking stone floor in a two-square-metre cloakroom uses a fraction of the material a full bathroom would need.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Lighting matters more here than people expect, too. A single centre ceiling point in a small windowless room throws flat, slightly unflattering light across the whole space; a wall light beside the mirror, or a recessed downlight positioned off-centre, does more to make a compact room feel considered. We're happy to flag this at survey if it isn't already part of your spec.
+      </p>
+    </div>
+  </section>
+
+  <!-- Replacing an existing suite -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Replacing a dated or failing existing suite</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A large share of cloakroom work is straightforward replacement — an existing low-level WC and pedestal basin from a previous decade, swapped for a wall-hung WC and concealed cistern, which frees up visible floor area and makes a small room genuinely easier to clean around. This is usually more involved than it first appears, because a concealed cistern needs wall depth that a low-level suite never required, so the stud or masonry wall behind the old WC sometimes needs opening up and rebuilding around a new frame rather than simply unbolting the old pan and bolting on the new one.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We check this at survey by assessing what's actually behind the existing wall before quoting, rather than assuming a straight swap, since the two outcomes have a meaningfully different scope.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's also worth checking the condition of the floor underneath an old suite before committing to a finish you love. Timber floors beneath a decades-old WC sometimes show signs of historic minor leaks around the pan's base — nothing dramatic, but worth identifying and making good before new flooring goes down over the top of it, rather than sealing a problem in.
+      </p>
+    </div>
+  </section>
+
+  <!-- What you supply -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What you supply</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        WC, cistern frame and flush plate, basin, taps, and any furniture are bought by you. Because cistern frames vary in depth and fixing method between manufacturers, we strongly recommend confirming your exact model against the survey measurements before ordering — this is the single most common sticking point in a tight cloakroom, and catching it before delivery avoids a return trip for a different frame. The same applies to flush plates and basin taps, which sometimes have a minimum clearance behind the finished wall that's easy to overlook when a product is chosen from a showroom display rather than against your own room's measurements.
+      </p>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet &amp; Concealed Cistern</a>
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+        <a href="/services/bathroom-ventilation/" class="btn-secondary">Bathroom Ventilation</a>
+        <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large Format Porcelain Tiling</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed cisterns explained</a>
+        <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="btn-secondary">Geberit vs Grohe concealed cisterns</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="cloakroom-and-wc-installation-faq" />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

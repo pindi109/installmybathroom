@@ -1,0 +1,165 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const faqs = [
+  {
+    q: "What size trowel and adhesive do Porcelanosa large-format tiles need?",
+    a: "Large-format porcelain generally needs a large-notch trowel and a flexible, high-coverage adhesive applied to both the tile back and the substrate — a technique called back-buttering combined with floating — to achieve full bed coverage and avoid hollow spots. We select trowel and adhesive against the specific tile size and format.",
+  },
+  {
+    q: "Do Porcelanosa tiles need a flatter substrate than standard ceramic tiles?",
+    a: "Yes. Larger formats are less forgiving of an uneven substrate because the tile itself can't flex to hide dips or high spots — an out-of-tolerance wall or floor reads as visible lippage once tiled. We check substrate flatness at survey and prepare or level it before tiling starts.",
+  },
+  {
+    q: "Can Porcelanosa large-format tiles be cut and drilled on site?",
+    a: "Yes, with the right equipment — a wet saw suited to porcelain and diamond core bits for fittings and waste cut-outs. Porcelain is dense and can chip or crack under the wrong cutting method, so edges and cut-outs are finished to the same standard as the factory edge.",
+  },
+  {
+    q: "Does joint width matter with large-format porcelain?",
+    a: "Yes — joint width is set to the tile's actual size tolerance (its rectified or non-rectified edge) and kept consistent across the room, since an inconsistent joint is one of the most visible faults on a large-format floor or wall.",
+  },
+  {
+    q: "Where do you source Porcelanosa tiles from?",
+    a: "Porcelanosa tiles are purchased by the client through a Porcelanosa showroom or authorised stockist. We don't supply tiles ourselves — we fit what you've ordered, checked and delivered to site. We're happy to confirm quantities and format suitability against your room's dimensions before you place the order.",
+  },
+  {
+    q: "Is Install My Bathroom affiliated with Porcelanosa?",
+    a: "No. We're an independent fit-only installer with no commercial relationship with Porcelanosa. We install the tiling our clients purchase themselves.",
+  },
+  {
+    q: "How much extra tile should we order beyond the measured room area?",
+    a: "We generally recommend an allowance of around ten percent above the measured area for cutting waste, pattern matching and future repairs, though this can be higher on a room with a lot of cuts, niches or a diagonal layout. We confirm the exact allowance against your room's specific layout at survey.",
+  },
+  {
+    q: "Can Porcelanosa large-format tiles be used on both floors and walls in the same room?",
+    a: "Yes, and running the same tile from floor to wall is a common way to make a small wet room or ensuite feel larger. Floor and wall tiles from the same range sometimes differ in slip rating or thickness, so we confirm the correct floor-rated product is used underfoot.",
+  },
+];
+---
+
+<Base
+  title="Porcelanosa Installation | Install My Bathroom"
+  description="Specialist installation of Porcelanosa large-format porcelain tiling across Bracknell and Berkshire. Fit-only — you buy, we install."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Brands", href: "/brands/" }, { label: "Porcelanosa", href: "/brands/porcelanosa/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Porcelanosa Installation</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise — which is exactly why it punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. Fitting it well is a matter of tolerance, not taste: the floor or wall is checked and prepared flat first, then the tile is set with the correct bed coverage, joint width and lippage control to let the material's own precision show through.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href="https://www.porcelanosa.com/uk/" target="_blank" rel="noopener" class="btn-secondary">Visit Porcelanosa →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Range overview -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we install from the range</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We fit Porcelanosa's large-format porcelain in stone-look, marble-look and plain finishes, across floors, feature walls, full wet-area tiling, and shower enclosures and niches. Porcelanosa's porcelain ranges typically run in large rectangular and square formats with rectified edges, which allow tighter joint widths and a more continuous surface than a traditional ceramic tile.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The tiles we fit from Porcelanosa are specified and purchased by the client through a Porcelanosa showroom or authorised stockist. We don't supply or sell tiling ourselves — our work starts once the tiles, trims and adhesive are on site and the substrate is ready to be checked. Porcelanosa's wider product lines also include coordinated vanity furniture and sanitaryware, which some clients choose to specify alongside the tiling for a consistent palette across the room; we're happy to fit these alongside the tiling programme as part of the same job.
+      </p>
+    </div>
+  </section>
+
+  <!-- Install requirements -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Installation requirements</h2>
+      <ul class="space-y-3 text-sm fade-up" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Substrate flatness:</strong> large-format tile can't mask an out-of-tolerance wall or floor, so flatness is checked at survey against the tile size and corrected before tiling starts.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Full bed coverage:</strong> large-notch trowel application combined with back-buttering achieves full adhesive coverage under the tile, avoiding hollow spots that show as drumming when tapped and risk cracking under load.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Lippage control:</strong> tile-levelling clips or spacers hold adjoining tile edges flush during setting so the finished surface reads as one continuous plane, particularly on a rectified-edge format.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Movement joints:</strong> movement joints are built in at perimeters and across large continuous runs in line with tiling industry standards, so the tiling can expand and contract without cracking.</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> <strong>Falls to drain in wet areas:</strong> shower floors and wet rooms need the correct fall built into the screed before tiling, since porcelain's rigidity means a poor fall shows as standing water rather than self-correcting.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Delivery checks -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What to check on delivery</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Check that every box carries the same batch or shade number before tiling begins — porcelain can vary subtly in tone between production batches, and mixing batches on a single floor or wall is visible once grouted. Count the total area delivered against the room's actual area plus a reasonable cutting allowance, since a shortfall discovered mid-job can mean a delay waiting on a matching batch. Inspect a sample of tiles from different boxes for chips, warping or edge damage, and confirm trims, edge profiles and any matching mosaic or feature pieces are included if specified. These checks take a short time against the delay of pausing a job partway through to source a matching batch.
+      </p>
+    </div>
+  </section>
+
+  <!-- Common issues we prevent -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Common issues we prevent</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The fault we most often see on other people's large-format tiling is lippage — adjoining tile edges sitting at slightly different heights, catching light and visible to the touch. It's almost always the result of skipping levelling clips or rushing the bed coverage, both of which take real time to do properly. We use levelling systems on every large-format job and don't shortcut bed coverage to save time.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The second is cracked tiles appearing months after a job finishes, usually traced back to hollow spots under the tile from incomplete adhesive coverage, or a missing movement joint at a perimeter. Both are invisible at handover and only show up under load or thermal movement later, which is why we check coverage by sound and feel as we go, not just at the end of the day. Neither fault is quick to fix retrospectively, since both require lifting the affected tile and reworking the bed beneath it, which is exactly why we build the checks into the process rather than the aftercare.
+      </p>
+    </div>
+  </section>
+
+  <!-- Working with tiling layout -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Setting out the layout before cutting a single tile</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        With large-format porcelain, the set-out decision made before cutting starts affects how the whole room reads once finished — where the first full tile sits relative to the door, how joints line through from floor to wall, and how narrow cuts are avoided at visible edges. We dry-lay or chalk out the layout against the room's actual dimensions before adhesive goes down, adjusting the start point so cuts fall in less prominent positions rather than centred on a feature wall by accident.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Where floor and wall tiling meet — at a shower threshold, a niche, or a bath panel — we plan the joint lines to continue through from one surface to the other wherever the format allows, which is a detail that takes longer to set out but reads as considerably more considered once grouted.
+      </p>
+    </div>
+  </section>
+
+  <!-- Protecting finished tiling -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Protecting finished tiling through the rest of the build</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Large-format porcelain floors are usually one of the earlier finishes completed in a bathroom build, which means they're exposed to subsequent trades — fitting the vanity unit, hanging doors, final electrics — for some time afterwards. We lay protective boarding over finished flooring immediately after grouting and curing, and we keep it in place until the room is handed over, rather than removing it as soon as the floor looks dry.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Grout joints in particular need time to cure fully before they're exposed to standing water or heavy traffic, so we also agree a realistic handover date with the client that respects the product manufacturer's curing guidance, rather than rushing a shower into use the same week the floor is laid.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container max-w-3xl flex flex-wrap gap-4 fade-up">
+      <a href="/services/large-format-porcelain-tiling/" class="btn-secondary">Large-Format Porcelain Tiling</a>
+      <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+      <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+      <a href="/brands/" class="btn-secondary">All Brands</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="porcelanosa-faq" />
+      <p class="text-sm mt-8 fade-up" style="color: var(--text-soft);">
+        Install My Bathroom is an independent fit-only installer. We are not affiliated with, sponsored by, or endorsed by Porcelanosa; all product names and trademarks belong to their respective owners.
+      </p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

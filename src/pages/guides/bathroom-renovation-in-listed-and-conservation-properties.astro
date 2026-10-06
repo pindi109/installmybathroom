@@ -1,0 +1,213 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-05";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Renovation in Listed and Conservation Properties",
+  "author": { "@id": `${business.url}/#business` },
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Do I need planning permission to renovate a bathroom in a listed building?",
+    a: "A bathroom refit itself doesn't usually need planning permission, but if the property is listed, listed building consent can still apply to internal alterations that affect historic fabric or character — check with your local conservation officer before ordering anything irreversible.",
+  },
+  {
+    q: "Does being in a conservation area affect a bathroom renovation?",
+    a: "Conservation area designation mainly controls external changes — windows, roofs, extensions — rather than internal bathroom work, but if the property is also listed, internal consent rules apply regardless of the conservation area status.",
+  },
+  {
+    q: "Can I still fit a wet room or walk-in shower in a period property?",
+    a: "Yes, in most cases, but solid older floors without a modern damp-proof membrane need extra consideration for tanking build-up and falls to drain, which we assess at survey rather than assuming a standard specification will work unmodified.",
+  },
+  {
+    q: "Do you handle listed building consent applications?",
+    a: "No — consent applications go through your local planning authority's conservation officer, and that's your responsibility as the property owner. We're happy to describe the installation work in plain terms to support an application if asked.",
+  },
+  {
+    q: "How do you protect original features during the work?",
+    a: "Floorboards, skirting, cornicing and staircases are covered and protected before strip-out begins, and we plan waste and supply runs to avoid chasing through historic plaster or joinery wherever an alternative route exists.",
+  },
+  {
+    q: "Can modern underfloor heating be fitted in a period bathroom?",
+    a: "Often, yes, but the floor build-up needed for underfloor heating has to be checked against the room's existing ceiling height and joist structure, which matters more in an older property with lower ceilings or exposed beams than in a modern extension.",
+  },
+  {
+    q: "Does replacing a modern bathroom suite inside a listed building need consent?",
+    a: "Usually not, if it's a genuine like-for-like replacement of a suite that isn't itself historic and isn't fixed to or altering original fabric. Consent questions tend to arise around what else the work touches — removing an original fireplace, chasing historic plaster, or altering a room's layout — rather than the suite itself.",
+  },
+  {
+    q: "Can exposed historic pipework be kept visible as a design feature?",
+    a: "Often, yes, and it can suit a period room better than boxing everything in. Where pipework is sound and in a sensible position, running new supply in a matching finish — polished chrome or copper — alongside it, surface-mounted rather than chased into historic plaster, keeps the look consistent without disturbing original wall fabric.",
+  },
+  {
+    q: "How do you conceal modern extraction or shower electronics without a new external vent?",
+    a: "Where consent or sensitivity rules out a new vent on a visible elevation, ducting can sometimes be routed through an existing chimney breast, void or roof space to an existing or less prominent opening, and control units or manifolds boxed in behind a traditional-style access panel that matches existing skirting or panelling profiles. We assess the options against the building's specific layout at survey.",
+  },
+  {
+    q: "Will listed building consent delay the start of work?",
+    a: "It can, since consent has to be granted before affected work begins and local authority timescales vary. That's why we recommend settling consent questions with your conservation officer before finalising a layout — starting the installation programme before consent is confirmed, where it's needed, risks having to undo work already done.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Renovation in Listed & Conservation Properties"
+  description="What to check before renovating a bathroom in a listed building or conservation area — consent rules, protecting period fabric, and older floor structures."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Listed & Conservation Properties", href: "/guides/bathroom-renovation-in-listed-and-conservation-properties/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Renovation in Listed and Conservation Properties</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A bathroom refit rarely needs planning permission on its own, but listed buildings can require listed building consent for internal changes affecting historic fabric, and conservation area status mostly governs the exterior rather than the bathroom itself. Check with your local conservation officer before committing to layout changes, then let the installer work around the confirmed constraints.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Listed building consent vs conservation area rules</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        These two protections are often confused, and the difference matters when you're planning a bathroom. A conservation area designation under the Planning (Listed Buildings and Conservation Areas) Act 1990 primarily restricts changes that affect the external character of a property and the street scene around it — things like windows, render, roofing materials and extensions. It doesn't usually reach into internal bathroom layouts unless the work also involves external changes, such as a new extraction vent through an external wall in a prominent position.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Listed building status is different, and stricter. If a property is listed — Grade I, II* or II — consent can be required for internal alterations too, where those alterations affect the historic character or fabric of the building, not just its exterior. That can include things most people wouldn't think twice about: removing an old cast iron bath that's original to the house, chasing a wall that has historic plasterwork, or altering a room layout that's part of the listed description. The safest approach is always to check with your local authority's conservation officer before finalising a layout, particularly if you're moving anything structural or removing original features.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Protecting original fabric during the work</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Once consent questions are settled, the installation itself needs a different level of care than a standard modern refurbishment. Original floorboards, skirting, cornicing, door furniture and staircases are covered and protected before strip-out begins, not as an afterthought once dust is already in the air. Where a waste or supply pipe needs to run between floors, we look for a route that avoids chasing through historic plaster ceilings or joinery, using existing voids and service risers where the building allows it.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Older properties also more frequently involve legacy pipework — lead or older copper — and sometimes asbestos-containing materials in floor coverings, pipe lagging or textured ceiling finishes from later twentieth-century alterations. Both need identifying before strip-out starts, and asbestos in particular needs a qualified survey and, if found, licensed removal before work can continue.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Older floor structures and wet rooms</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A wet room or level-access shower needs a tanked, falls-to-drain floor build-up — straightforward on a modern concrete slab with a damp-proof membrane, more involved on an older suspended timber floor with no membrane at all. We assess the existing floor structure at survey to confirm whether the standard tanking build-up applies directly or needs adapting, which can affect finished floor height and sometimes the threshold detail into an adjoining room.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Water pressure and pipe sizing are worth checking too. Large period and detached homes sometimes run on older, narrower-bore supply pipework that wasn't designed for a modern rainfall shower or twin-outlet system, and low pressure at the point of use is a common finding at survey in houses that haven't had their plumbing updated in decades.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What typically needs consent for bathroom work, and what doesn't</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        "Does this need consent?" is the question we're asked most often, and the honest answer is that it depends on what the work touches, not just that it's a bathroom. A genuine like-for-like replacement of a suite that isn't itself of historic interest — swapping a 1990s bath, basin and WC for new ones in roughly the same positions — rarely raises a consent question on its own. Where consent questions tend to arise is around what the bathroom work disturbs or changes beyond the sanitaryware itself:
+      </p>
+      <ul class="space-y-3 text-sm fade-up mb-4" style="color: var(--text-soft);">
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Removing a historic fitting that's part of the listed description, such as an original cast iron bath, a marble washstand, or a decorative cistern</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Chasing a wall or ceiling that has historic plasterwork, cornicing or decorative coving to run new pipework or cabling</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Altering or enlarging a window opening, including for ventilation, in a wall visible from outside</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Moving or removing a partition wall that forms part of the historic room layout</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Converting a room that wasn't previously a bathroom into one, where that changes floor loading, historic flooring, or the room's recorded use</li>
+        <li class="flex gap-2"><span style="color: var(--teal);">—</span> Installing a new extraction vent or soil pipe on an external wall that's part of a principal, publicly visible elevation</li>
+      </ul>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        None of this is a substitute for checking with your own local authority — the dividing line sits differently from one listing and one local conservation officer to the next, and the examples above are a starting point for the conversation, not a ruling. We'll describe exactly what a proposed layout involves so you can put that detail in front of the right person before committing to it.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Working with period features: pipework and concealment</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Not every modern system needs to disappear behind plaster. Where existing pipework is sound and sensibly positioned, running new supply alongside it in a matching finish — polished chrome, or copper left to age naturally — surface-mounted rather than chased into historic wall fabric, can suit a period room better than concealing everything, and it avoids disturbing plaster that's original to the building. It's a decision we discuss at survey rather than defaulting to either fully exposed or fully concealed as the automatic answer.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where modern equipment does need concealing — a shower manifold, a digital control unit, an underfloor heating thermostat — a traditional-style access panel built to match existing skirting, panelling or architrave profiles keeps the fitting accessible for future maintenance without it reading as an obviously modern box on the wall. The same thinking applies to extraction: where a new vent on a visible elevation would raise a consent question or simply look wrong on a principal facade, ducting can sometimes be routed through an existing chimney breast, void or roof space to an existing opening or a far less prominent position, rather than requiring a new penetration through historic external walls.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        These choices only work well when they're planned before strip-out, not improvised once a wall is already open. At survey we look at the room's existing voids, chimney breasts, and service routes specifically to identify where modern systems can run without needing to chase new paths through fabric worth protecting.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What we'll flag, and what stays your responsibility</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We're not a planning consultancy, and we don't submit listed building consent applications on a client's behalf — that relationship with your local conservation officer is yours to manage. What we will do is describe clearly, at survey and in the written quote, exactly what the installation involves — where pipework runs, what gets removed, what gets tanked — so you have the detail you need to support a consent application if one's required, and so nothing is started before the right permissions are confirmed.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related services</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/services/tanking-and-waterproofing/" class="btn-secondary">Tanking &amp; Waterproofing</a>
+        <a href="/services/bathroom-strip-out-and-preparation/" class="btn-secondary">Strip-Out &amp; Preparation</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble</a>
+        <a href="/services/accessible-luxury-bathrooms/" class="btn-secondary">Accessible Luxury Bathrooms</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Related guides</h2>
+      <div class="flex flex-wrap gap-3 mb-10 fade-up">
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying your own bathroom checklist</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking &amp; waterproofing standards</a>
+      </div>
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/gerrards-cross/" class="btn-secondary">Gerrards Cross</a>
+        <a href="/areas/stoke-poges/" class="btn-secondary">Stoke Poges</a>
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Consent requirements referenced in this guide fall under the Planning (Listed Buildings and Conservation Areas) Act 1990, administered by your local planning authority's conservation officer. Tanking and tiling follow BS 5385; electrical work follows Building Regulations Part P. Confirm listed status, conservation area boundaries and any specific consent conditions with your own local authority before committing to a layout.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="listed-conservation-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>
