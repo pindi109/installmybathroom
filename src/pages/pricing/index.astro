@@ -52,13 +52,20 @@ const bands = [
         We don't publish a single number because there isn't one that's honest. Instead we price every job from a written scope produced at survey stage, so the figure you're given reflects your room, not an average.
       </p>
 
-      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">The £{business.pricing.surveyGBP} survey</h2>
-      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
-        Every quote starts with a paid site visit. An installer measures the room, checks water pressure and flow at the outlets that matter, inspects the floor and wall substrate, maps the waste routes and the falls available to drain, and reviews the electrical supply for anything that needs dedicated power — a shower toilet, underfloor heating, a steam shower. You leave with a written installation scope and a fixed price against it. The survey fee isn't credited against the job if you go ahead and isn't refunded if you don't; it pays for the time and the written document either way, and it's the only way we'll put a number in writing.
-      </p>
-      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
-        <a href="/survey/" class="underline" style="color: var(--teal);">Book a survey</a> directly, or read what it covers in more detail on the <a href="/guides/what-our-125-survey-includes/" class="underline" style="color: var(--teal);">survey guide</a>.
-      </p>
+      <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start">
+        <div>
+          <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">The £{business.pricing.surveyGBP} survey</h2>
+          <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+            Every quote starts with a paid site visit. An installer measures the room, checks water pressure and flow at the outlets that matter, inspects the floor and wall substrate, maps the waste routes and the falls available to drain, and reviews the electrical supply for anything that needs dedicated power — a shower toilet, underfloor heating, a steam shower. You leave with a written installation scope and a fixed price against it. The survey fee isn't credited against the job if you go ahead and isn't refunded if you don't; it pays for the time and the written document either way, and it's the only way we'll put a number in writing.
+          </p>
+          <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+            <a href="/survey/" class="underline" style="color: var(--teal);">Book a survey</a> directly, or read what it covers in more detail on the <a href="/guides/what-our-125-survey-includes/" class="underline" style="color: var(--teal);">survey guide</a>.
+          </p>
+        </div>
+        <div class="card overflow-hidden fade-up hidden md:block">
+          <img src="/assets/inline/pricing-consultation-flatlay.webp" alt="Overhead flatlay of a tape measure, tile samples and a brass tap sample used in a pricing consultation" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+        </div>
+      </div>
 
       <h2 class="text-2xl font-bold mb-6 mt-10 fade-up">Budget bands we typically quote against</h2>
       <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
@@ -73,13 +80,20 @@ const bands = [
         ))}
       </div>
 
-      <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What changes the number most</h2>
-      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
-        In our experience, three things move a quote more than anything else on the product list. Moving a waste position — taking a WC or shower from one wall to another — means altering drainage runs and sometimes lifting a floor to reset falls, which is first-fix labour that a like-for-like replacement never needs. Converting an enclosure to a full wet room means tanking the entire floor and building a fall to a level-access drain rather than tanking a confined tray area. And bringing in any regulated trade — an electrician for a new circuit, a gas engineer, a plumber for an unvented cylinder — adds coordination and their own labour cost on top of ours, even though we manage the scheduling so you only deal with one point of contact.
-      </p>
-      <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
-        None of that is guesswork once the survey's done. It's why we won't give a binding figure without one.
-      </p>
+      <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start">
+        <div>
+          <h2 class="text-2xl font-bold mb-4 mt-10 fade-up">What changes the number most</h2>
+          <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+            In our experience, three things move a quote more than anything else on the product list. Moving a waste position — taking a WC or shower from one wall to another — means altering drainage runs and sometimes lifting a floor to reset falls, which is first-fix labour that a like-for-like replacement never needs. Converting an enclosure to a full wet room means tanking the entire floor and building a fall to a level-access drain rather than tanking a confined tray area. And bringing in any regulated trade — an electrician for a new circuit, a gas engineer, a plumber for an unvented cylinder — adds coordination and their own labour cost on top of ours, even though we manage the scheduling so you only deal with one point of contact.
+          </p>
+          <p class="leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
+            None of that is guesswork once the survey's done. It's why we won't give a binding figure without one.
+          </p>
+        </div>
+        <div class="card overflow-hidden fade-up hidden md:block">
+          <img src="/assets/inline/pricing-freestanding-bath-detail.webp" alt="Close detail of a brushed brass overflow and waste fitting on a freestanding bath" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+        </div>
+      </div>
 
       <div class="card p-6 fade-up" style="background: var(--bg-light);">
         <p style="color: var(--text-soft);">

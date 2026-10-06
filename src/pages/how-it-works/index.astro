@@ -27,9 +27,14 @@ import { business } from "../../config/business.ts";
             <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">1</div>
             <div>
               <h2 class="text-xl font-bold mb-2">Survey — £{business.pricing.surveyGBP}</h2>
-              <p class="leading-relaxed" style="color: var(--text-soft);">
-                An installer visits the property and takes exact measurements of the room, checks water pressure and flow rate at the relevant outlets, inspects the floor and wall substrate for deflection and suitability for large-format tile or stone, maps waste routes and the falls available to drain, and reviews the electrical supply if a shower toilet, underfloor heating or steam shower is being considered. If products have already been chosen, we check them against the room — carrier frame compatibility, waste positions, door swing clearances. The survey fee is not refunded if you decide not to proceed, because the time and expertise are spent either way.
-              </p>
+              <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start">
+                <p class="leading-relaxed" style="color: var(--text-soft);">
+                  An installer visits the property and takes exact measurements of the room, checks water pressure and flow rate at the relevant outlets, inspects the floor and wall substrate for deflection and suitability for large-format tile or stone, maps waste routes and the falls available to drain, and reviews the electrical supply if a shower toilet, underfloor heating or steam shower is being considered. If products have already been chosen, we check them against the room — carrier frame compatibility, waste positions, door swing clearances. The survey fee is not refunded if you decide not to proceed, because the time and expertise are spent either way.
+                </p>
+                <div class="card overflow-hidden fade-up hidden md:block">
+                  <img src="/assets/inline/how-it-works-survey-stage.webp" alt="Installer taking a laser measurement against a bathroom wall during a pre-installation survey" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+                </div>
+              </div>
             </div>
           </div>
         </li>
@@ -83,9 +88,14 @@ import { business } from "../../config/business.ts";
             <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--teal);">5</div>
             <div>
               <h2 class="text-xl font-bold mb-2">Aftercare</h2>
-              <p class="leading-relaxed" style="color: var(--text-soft);">
-                The workmanship guarantee covers the installation — the tanking, the tiling, the fixing and sealing. Product warranties for the sanitaryware, brassware and furniture itself sit with the manufacturer or the retailer you bought from, which is why we recommend registering products on arrival and keeping receipts. If something related to the installation needs attention after handover, contact us directly and we'll arrange a visit.
-              </p>
+              <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start">
+                <p class="leading-relaxed" style="color: var(--text-soft);">
+                  The workmanship guarantee covers the installation — the tanking, the tiling, the fixing and sealing. Product warranties for the sanitaryware, brassware and furniture itself sit with the manufacturer or the retailer you bought from, which is why we recommend registering products on arrival and keeping receipts. If something related to the installation needs attention after handover, contact us directly and we'll arrange a visit.
+                </p>
+                <div class="card overflow-hidden fade-up hidden md:block">
+                  <img src="/assets/inline/how-it-works-finished-result.webp" alt="Finished wall-hung WC and tiled wall with freshly sealed silicone lines after handover" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+                </div>
+              </div>
             </div>
           </div>
         </li>

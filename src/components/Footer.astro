@@ -1,6 +1,8 @@
 ---
 import { business } from "../config/business.ts";
+import areasData from "../data/areas.json";
 const year = new Date().getFullYear();
+const topAreas = areasData.priority.slice(0, 4);
 ---
 
 <footer style="background: #0F172A;" class="text-white">
@@ -103,9 +105,9 @@ const year = new Date().getFullYear();
       <div>
         <h3 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Areas Covered</h3>
         <ul class="space-y-2.5 text-sm text-white/70 mb-6">
-          <li><a href="/areas/sunningdale/" class="hover:text-white transition-colors">Sunningdale</a></li>
-          <li><a href="/areas/gerrards-cross/" class="hover:text-white transition-colors">Gerrards Cross</a></li>
-          <li><a href="/areas/bracknell/" class="hover:text-white transition-colors">Bracknell</a></li>
+          {topAreas.map((a: { slug: string; name: string }) => (
+            <li><a href={`/areas/${a.slug}/`} class="hover:text-white transition-colors">{a.name}</a></li>
+          ))}
           <li>
             <a href="/areas/" class="font-semibold transition-colors" style="color: #14B8A6;">
               All Areas →

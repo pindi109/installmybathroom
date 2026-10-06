@@ -1,0 +1,220 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How far is Sunninghill from your Bracknell base?",
+    a: "Around 15 minutes by road. We treat this as routine travel and factor it into scheduling, so it has no bearing on programme length, and it means we can get back on site quickly if a delivery arrives early or a snag needs a same-week revisit.",
+  },
+  {
+    q: "Is Sunninghill the same as Ascot?",
+    a: "They're adjacent and effectively contiguous — Sunninghill is a village in its own right, immediately next to Ascot, and shares the same general area and association with Ascot Racecourse, though the racecourse itself sits in neighbouring Ascot rather than in Sunninghill. We work across both without any difference in approach or pricing.",
+  },
+  {
+    q: "Will a bathroom refit in Sunninghill need planning permission?",
+    a: "A like-for-like internal refit — new sanitaryware, tiling, updated electrics — usually doesn't. If the property is in a conservation area, which applies to parts of the older village centre, or the work affects the external wall — a new extraction vent or a rooflight into a loft en-suite, for example — separate consent can apply. We'll flag this plainly at survey rather than assume it's fine.",
+  },
+  {
+    q: "What water pressure can I expect in a Sunninghill property?",
+    a: "It depends on the age of the house and whether it's still running on an older gravity-fed system with a loft tank, or has since been converted to mains pressure. This varies more in Sunninghill's older village housing than in the larger, more recently built homes toward Ascot. We test actual pressure and flow at survey before specifying any digital, thermostatic or rainfall shower, rather than relying on the manufacturer's assumed figures.",
+  },
+  {
+    q: "Can you install a wet room in a Victorian or Edwardian Sunninghill house?",
+    a: "Generally yes, subject to checking the floor structure at survey. A good number of the older village houses have suspended timber floors rather than a solid slab, which affects how we tank and support a level-access wet room floor — sometimes requiring additional noggins or a structural joist check before the membrane goes down.",
+  },
+  {
+    q: "Do you work on the larger detached homes on the roads toward Ascot as well as the village centre?",
+    a: "Yes. Sunninghill covers both — tighter Victorian and Edwardian terraces and villas close to the village centre, and larger detached homes on more generous plots along the roads leading toward Ascot. We survey each on its own terms rather than assuming one type of property across the whole area.",
+  },
+  {
+    q: "Can you match an installation to products bought from more than one supplier?",
+    a: "Yes, this is the norm rather than the exception. Most of our Sunninghill clients buy sanitaryware, brassware and tiles from different specialist suppliers to get the exact combination they want. We check compatibility of waste sizes, tap centres and fixing requirements across all of them before strip-out starts.",
+  },
+  {
+    q: "Does Royal Ascot or a race meeting affect access to my Sunninghill property?",
+    a: "It can, on race days themselves, since Sunninghill sits immediately next to the racecourse and shares some of the same approach roads. We check the racing calendar when we agree a programme with you and plan deliveries, skips and van access around race days rather than on them.",
+  },
+  {
+    q: "How long does a typical Sunninghill bathroom installation take?",
+    a: "A single bathroom strip-out and refit usually runs two to three weeks depending on scope — longer where natural stone, a steam shower or underfloor heating is specified, since those trades need drying and curing time built into the programme. We confirm a realistic timeline at survey once we've seen the room and the products involved.",
+  },
+  {
+    q: "Do you offer a survey before I've finalised my product choices?",
+    a: "We can, though it's usually more useful once you have at least a shortlist, so we can check dimensions and specifications against the room. Our £125 survey covers the existing plumbing, electrics, floor structure and water pressure, and flags anything that needs resolving before products are ordered.",
+  },
+];
+---
+
+<Base
+  title="Sunninghill Bathroom Installation | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Sunninghill, Berkshire, next to Ascot. Client-supplied bathrooms, from £3,500. Around 15 min from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Sunninghill", href: "/areas/sunninghill/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Sunninghill</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We install luxury, fit-only bathrooms for homeowners across Sunninghill, the Berkshire village immediately next to Ascot and effectively contiguous with it, around 15 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we find inside Sunninghill homes</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Sunninghill sits directly against Ascot, close enough that the two run into each other along the main road, and shares in Ascot's long association with Ascot Racecourse even though the racecourse itself stands in neighbouring Ascot rather than in Sunninghill village. The housing stock reflects both halves of that identity: a village centre of Victorian and Edwardian terraces, semis and villas built up around the original settlement, and a wider ring of larger detached homes on more generous plots along the roads running out toward Ascot. We treat these two building types differently at survey rather than applying one standard spec across the area.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The Victorian and Edwardian village housing most often has solid masonry walls at ground level and suspended timber floors rather than a solid slab, a product of how these houses were originally built before concrete ground floors became standard. Suspended timber floors need checking for deflection before large-format porcelain or a tanked wet room goes down — too much movement under tile risks cracked grout lines or a stressed membrane at a joint over time. We measure this at survey and specify additional noggins or a rigid tile backer board where it's needed, rather than tiling straight onto the existing joists and boards.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The larger detached homes toward Ascot tend to be later in date — inter-war and post-war family houses, and a good number of more recent executive-style builds on generous plots — and more often have solid concrete ground floors with first-fix plumbing already laid out sensibly. That generally makes for a more straightforward containment and waste run, even where the finished specification — natural stone, a steam shower, a freestanding bath — is considerably more ambitious than the Victorian terraces closer to the village centre.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure varies for similar reasons. Some of the older village houses still run on a gravity-fed system with a loft header tank, sometimes never converted since the original plumbing was installed; the larger homes toward Ascot are more commonly mains-fed and unvented, though not universally so. We test actual pressure and flow at survey before specifying any digital, thermostatic or rainfall shower, because it determines whether the product performs as the manufacturer's specification promises, or whether a pump needs adding first.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Plot size is the other clear divide across the area. Village-centre properties, particularly the Victorian terraces, tend to have more constrained layouts where moving a waste run or widening a doorway for level access needs careful checking against neighbouring structure and shared stacks. The larger detached homes on the Ascot side generally give considerably more freedom — relocating a WC to open up space for a double vanity, or repositioning a shower to make better use of natural light, rarely runs into the same constraints. We assess which situation applies at survey rather than assuming either as a default.
+      </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/sunninghill-ensuite-bathroom.webp" alt="Finished principal en-suite bathroom typical of a larger detached Sunninghill home with a walk-in shower, double vanity and freestanding bath" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Conservation areas and external works</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated lighting and extraction — does not usually need planning permission. Where it can matter in Sunninghill is where the property falls within the older village's conservation designation, or where the work touches the external fabric of the building: a new mechanical extraction vent cut through an original wall, or a rooflight added to bring daylight into a converted loft en-suite, are the kinds of changes that sometimes need separate consent. We'll flag this plainly at survey if we think it applies, and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        For anyone planning a bathroom as part of a wider project in a period or conservation-area property, our guide to <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" style="color: var(--teal); font-weight: 600;">bathroom renovation in listed and conservation properties</a> sets out the questions worth asking before you commit to a layout.
+      </p>
+    </div>
+  </section>
+
+  <!-- How a fit-only installation runs here -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-4 fade-up">How a fit-only installation runs in Sunninghill</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because you've already bought the sanitaryware, brassware and tiles, our first job at survey is to check what's arrived against the manufacturer's installation requirements — waste positions, tap hole centres, support weight for a wall-hung WC or vanity unit — before a single wall is opened. That avoids the common and expensive problem of discovering a mismatch once strip-out has started.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        From there the sequence is strip-out and first-fix plumbing and electrics, tanking where a wet room or shower area needs it, then tiling set out from a true centre line so joints run through consistently from floor to wall, followed by second-fix sanitaryware, brassware and final snagging. We protect floors and stairwells throughout, keep the site clean at the end of each day, and work to the programme agreed at survey.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Because Sunninghill sits right against Ascot and shares some of the same approach roads, race-day traffic and parking restrictions can occasionally affect van access and deliveries, the same as they do in Ascot itself. We check the racing calendar against your proposed start date and plan deliveries and noisy work around race days rather than on them, so the programme doesn't slip because of a day we could have planned for.
+      </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/sunninghill-floor-structure-check.webp" alt="Installer fixing a timber noggin to reinforce a suspended floor before tanking a wet room in an older Sunninghill property" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why Sunninghill homeowners choose a fit-only installer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company will usually mark up every product it supplies, and its showroom range — however well presented — is still a limited selection. Buying your own sanitaryware, brassware and tiles directly from specialist suppliers or showrooms means you're not restricted to what one company stocks, and you keep control of the budget on the most expensive line items yourself.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        What that approach needs on the installation side is a team that's comfortable working to someone else's product specification rather than its own, and confident enough to flag a problem — a tap with the wrong reach for a basin, a shower valve that needs a different cable gland — before it becomes an expensive mid-project change. That's the model we've built our business on for 30 years, and it's why most of our Sunninghill clients come to us already holding a shortlist, or an order confirmation, rather than a blank page.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It also suits an area with two distinct kinds of housing stock sitting side by side. A Victorian terrace with suspended timber floors and a header-tank system needs a different approach to tanking and waste routing than a modern detached house on a concrete slab, and fit-only works well precisely because the installation is planned around the property as it actually is, rather than around a standard package an installer would rather sell regardless of which type of house it's going into.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Sunninghill</h2>
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        We cover the full range of fit-only bathroom work in Sunninghill, from a straightforward cloakroom refit through to a wet room, steam shower or natural stone installation spanning several rooms, and the plumbing, electrical and tiling trades that sit behind each of those finishes.
+      </p>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(2, 14).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Sunninghill</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        In the village-centre Victorian and Edwardian properties, the most common brief is a full bathroom refit within an existing, often modest, footprint — careful waste re-routing to improve a cramped layout, tanking and large-format porcelain or natural stone in place of older tiling, and wall-hung sanitaryware with a concealed cistern to make the most of limited floor area. Suspended timber floor checks matter most here, since getting a correct fall to drain on an older floor structure takes more planning than on a solid slab.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        On the larger detached homes toward Ascot, we see more principal en-suite upgrades — walk-in showers, double vanities, freestanding baths — and a steady run of multi-bathroom projects where a family bathroom and one or two en-suites are replaced in the same programme. Underfloor heating and steam showers come up regularly on these larger properties, both of which need the electrical supply confirming at survey before any product is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Whatever the brief and whichever side of the village it falls on, the survey and the installation discipline are the same — set-out from a true centre line, tanking to a recognised standard, and tap and waste positions checked against the actual products before anything is cut.
+      </p>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install bathrooms in neighbouring Ascot, Sunningdale and Windsor, as well as our Bracknell base — the fit-only approach and the checks we carry out at survey don't change from one of these areas to the next.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
+        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="sunninghill-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Sunninghill</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

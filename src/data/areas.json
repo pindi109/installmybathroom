@@ -6,7 +6,12 @@
     { "slug": "ascot", "name": "Ascot" },
     { "slug": "windsor", "name": "Windsor" },
     { "slug": "bracknell", "name": "Bracknell" },
-    { "slug": "binfield", "name": "Binfield" }
+    { "slug": "binfield", "name": "Binfield" },
+    { "slug": "wentworth-estate", "name": "Wentworth Estate" },
+    { "slug": "virginia-water", "name": "Virginia Water" },
+    { "slug": "sunninghill", "name": "Sunninghill" },
+    { "slug": "winkfield-row", "name": "Winkfield Row" },
+    { "slug": "windlesham", "name": "Windlesham" }
   ],
   "tier2": [
     { "slug": "winkfield", "name": "Winkfield" },
@@ -14,11 +19,26 @@
     { "slug": "sandhurst", "name": "Sandhurst" },
     { "slug": "warfield", "name": "Warfield" },
     { "slug": "camberley", "name": "Camberley" },
-    { "slug": "virginia-water", "name": "Virginia Water" },
     { "slug": "eton", "name": "Eton" },
     { "slug": "twyford", "name": "Twyford" },
     { "slug": "maidenhead", "name": "Maidenhead" },
     { "slug": "wokingham", "name": "Wokingham" },
-    { "slug": "reading", "name": "Reading" }
+    { "slug": "reading", "name": "Reading" },
+    { "slug": "finchampstead", "name": "Finchampstead" }
+  ],
+  "priority": [
+    { "slug": "wentworth-estate", "name": "Wentworth Estate", "rank": 1 },
+    { "slug": "virginia-water", "name": "Virginia Water", "rank": 1 },
+    { "slug": "sunningdale", "name": "Sunningdale", "rank": 2 },
+    { "slug": "ascot", "name": "Ascot", "rank": 3 },
+    { "slug": "sunninghill", "name": "Sunninghill", "rank": 3 },
+    { "slug": "winkfield", "name": "Winkfield", "rank": 4 },
+    { "slug": "winkfield-row", "name": "Winkfield Row", "rank": 4 },
+    { "slug": "windlesham", "name": "Windlesham", "rank": 5 },
+    { "slug": "windsor", "name": "Windsor", "rank": 6 },
+    { "slug": "warfield", "name": "Warfield", "rank": 7 },
+    { "slug": "finchampstead", "name": "Finchampstead", "rank": 8 },
+    { "slug": "crowthorne", "name": "Crowthorne", "rank": 9 },
+    { "slug": "binfield", "name": "Binfield", "rank": 10 }
   ]
 }

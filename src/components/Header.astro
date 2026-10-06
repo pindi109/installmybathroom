@@ -1,5 +1,8 @@
 ---
 import { business } from "../config/business.ts";
+import areasData from "../data/areas.json";
+
+const topAreas = areasData.priority.slice(0, 4);
 ---
 
 <header
@@ -109,9 +112,9 @@ import { business } from "../config/business.ts";
           style="background: #0F172A;"
           role="menu"
         >
-          <a href="/areas/sunningdale/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">Sunningdale</a>
-          <a href="/areas/gerrards-cross/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">Gerrards Cross</a>
-          <a href="/areas/bracknell/" class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">Bracknell</a>
+          {topAreas.map((a: { slug: string; name: string }) => (
+            <a href={`/areas/${a.slug}/`} class="block px-4 py-2 text-white/80 hover:text-white hover:bg-white/10 transition-colors" role="menuitem">{a.name}</a>
+          ))}
           <div class="border-t border-white/10 mt-1 pt-1">
             <a href="/areas/" class="block px-4 py-2 font-semibold hover:bg-white/10 transition-colors" style="color: #14B8A6;" role="menuitem">All Areas →</a>
           </div>

@@ -50,23 +50,30 @@ const allAreas = [...areasData.tier1, ...areasData.tier2];
         <li>Full explanation of what drives price: <a href="/pricing/" style="color: var(--teal);">/pricing/</a></li>
       </ul>
 
-      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Areas covered</h2>
-      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
-        Primary areas (Tier 1):
-      </p>
-      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-4 fade-up" style="color: var(--text-soft);">
-        {areasData.tier1.map((a: { slug: string; name: string }) => (
-          <li><a href={`/areas/${a.slug}/`} style="color: var(--teal);">{a.name}</a></li>
-        ))}
-      </ul>
-      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
-        Extended areas (Tier 2):
-      </p>
-      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
-        {areasData.tier2.map((a: { slug: string; name: string }) => (
-          <li><a href={`/areas/${a.slug}/`} style="color: var(--teal);">{a.name}</a></li>
-        ))}
-      </ul>
+      <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start">
+        <div>
+          <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Areas covered</h2>
+          <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+            Primary areas (Tier 1):
+          </p>
+          <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-4 fade-up" style="color: var(--text-soft);">
+            {areasData.tier1.map((a: { slug: string; name: string }) => (
+              <li><a href={`/areas/${a.slug}/`} style="color: var(--teal);">{a.name}</a></li>
+            ))}
+          </ul>
+          <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+            Extended areas (Tier 2):
+          </p>
+          <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+            {areasData.tier2.map((a: { slug: string; name: string }) => (
+              <li><a href={`/areas/${a.slug}/`} style="color: var(--teal);">{a.name}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div class="card overflow-hidden fade-up hidden md:block">
+          <img src="/assets/inline/about-facts-area-exterior.webp" alt="Exterior facade of a substantial detached home in the Berkshire area" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+        </div>
+      </div>
 
       <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Services offered</h2>
       <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
@@ -75,15 +82,22 @@ const allAreas = [...areasData.tier1, ...areasData.tier2];
         ))}
       </ul>
 
-      <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Brands installed</h2>
-      <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
-        We install products from the following manufacturers, among others, when supplied by the client. Install My Bathroom is independent and not affiliated with any of these manufacturers.
-      </p>
-      <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
-        {brands.map((b: { slug: string; name: string }) => (
-          <li><a href={`/brands/${b.slug}/`} style="color: var(--teal);">{b.name}</a></li>
-        ))}
-      </ul>
+      <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start">
+        <div>
+          <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Brands installed</h2>
+          <p class="leading-relaxed mb-3 fade-up" style="color: var(--text-soft);">
+            We install products from the following manufacturers, among others, when supplied by the client. Install My Bathroom is independent and not affiliated with any of these manufacturers.
+          </p>
+          <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1 text-sm mb-8 fade-up" style="color: var(--text-soft);">
+            {brands.map((b: { slug: string; name: string }) => (
+              <li><a href={`/brands/${b.slug}/`} style="color: var(--teal);">{b.name}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div class="card overflow-hidden fade-up hidden md:block">
+          <img src="/assets/inline/about-facts-brassware-macro.webp" alt="Macro detail of a brushed brass wall-mounted bath filler spout on a tiled wall" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+        </div>
+      </div>
 
       <h2 class="text-2xl font-bold mb-4 mt-8 fade-up">Regulated trades</h2>
       <p class="leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">

@@ -101,16 +101,26 @@ const faqs = [
     <div class="container max-w-3xl">
       <Breadcrumbs items={[{ label: "FAQs", href: "/faqs/" }]} />
       <h1 class="text-4xl font-bold mb-4 fade-up">Frequently asked questions</h1>
-      <p class="text-lg leading-relaxed mb-10 fade-up" style="color: var(--text-soft);">
-        Questions about the basics of our fit-only model, the survey and pricing are answered on the <a href="/" class="underline" style="color: var(--teal);">homepage</a>. Below are the questions that come up once a project's actually underway — logistics, responsibilities, guarantees and edge cases.
-      </p>
+      <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start mb-10">
+        <p class="text-lg leading-relaxed fade-up" style="color: var(--text-soft);">
+          Questions about the basics of our fit-only model, the survey and pricing are answered on the <a href="/" class="underline" style="color: var(--teal);">homepage</a>. Below are the questions that come up once a project's actually underway — logistics, responsibilities, guarantees and edge cases.
+        </p>
+        <div class="card overflow-hidden fade-up hidden md:block">
+          <img src="/assets/inline/faqs-steam-shower-detail.webp" alt="Close detail of a toughened glass steam shower panel meeting a tiled wall beside a shower control" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+        </div>
+      </div>
 
       <FAQ items={faqs} schemaId="site-faqs-hub" />
 
-      <div class="card p-6 mt-10 fade-up" style="background: var(--bg-light);">
-        <p style="color: var(--text-soft);">
-          Didn't find your answer? Call <a href={`tel:${business.phoneE164}`} class="underline" style="color: var(--teal);">{business.phone}</a>, email <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a>, or <a href="/contact/" class="underline" style="color: var(--teal);">send an enquiry</a>. For the process end to end, see <a href="/how-it-works/" class="underline" style="color: var(--teal);">how it works</a>.
-        </p>
+      <div class="grid md:grid-cols-[1fr_280px] gap-8 items-start mt-10">
+        <div class="card p-6 fade-up" style="background: var(--bg-light);">
+          <p style="color: var(--text-soft);">
+            Didn't find your answer? Call <a href={`tel:${business.phoneE164}`} class="underline" style="color: var(--teal);">{business.phone}</a>, email <a href={`mailto:${business.email}`} class="underline" style="color: var(--teal);">{business.email}</a>, or <a href="/contact/" class="underline" style="color: var(--teal);">send an enquiry</a>. For the process end to end, see <a href="/how-it-works/" class="underline" style="color: var(--teal);">how it works</a>.
+          </p>
+        </div>
+        <div class="card overflow-hidden fade-up hidden md:block">
+          <img src="/assets/inline/faqs-vanity-mirror-detail.webp" alt="Finished double vanity with two basins, brushed brass taps and a backlit mirror" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+        </div>
       </div>
     </div>
   </section>

@@ -1,0 +1,180 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How far is Finchampstead from your Bracknell base?",
+    a: "Around 15 minutes by road — close enough that access and short-notice visits rarely add to the programme, whether that's an early delivery or a snag that needs a quick revisit.",
+  },
+  {
+    q: "What kind of housing is typical in Finchampstead?",
+    a: "A mix of post-war and more modern housing on the edges of the village, with an older core nearer the historic centre and towards Finchampstead Ridges. We treat the two differently at survey — older buildings generally need more careful checking of floor construction and plumbing age than a 1970s or newer house.",
+  },
+  {
+    q: "Is planning permission needed for a bathroom refit in Finchampstead?",
+    a: "A standard internal refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission. Older properties near the historic village core can occasionally sit close to a conservation boundary, in which case work touching the external fabric can need separate consent, which we'll flag at survey if it looks relevant.",
+  },
+  {
+    q: "What water pressure can I expect in a Finchampstead property?",
+    a: "It depends on the age and plumbing history of the house. Post-war and modern housing is typically mains pressure via a combi or cylinder; some older properties still run partly on a gravity-fed system with a loft tank. We measure actual pressure and flow at every survey before specifying a shower.",
+  },
+  {
+    q: "Do you cover properties near Finchampstead Ridges and California Country Park?",
+    a: "Yes — we cover the full village, including properties close to Finchampstead Ridges and towards California Country Park, as well as the newer housing nearer Wokingham and Crowthorne.",
+  },
+  {
+    q: "How long does a typical bathroom installation take in Finchampstead?",
+    a: "A single bathroom strip-out and refit usually runs two to three weeks depending on scope, longer where natural stone, underfloor heating or a steam shower is specified, since those need drying and curing time built into the programme.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Installation in Finchampstead | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Finchampstead, Berkshire. Post-war and modern homes, from £3,500. Around 15 minutes from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Finchampstead", href: "/areas/finchampstead/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Finchampstead</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Finchampstead sits between Wokingham and Crowthorne, close to Finchampstead Ridges and California Country Park, around 15 minutes from our Bracknell base. We fit luxury bathrooms here on a strict fit-only basis: you source the sanitaryware, brassware, tiles and furniture, we handle strip-out, first fix, tanking, tiling and the final snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-4 fade-up">Finchampstead's housing stock</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Finchampstead's village core carries a number of older buildings, while the wider area — spreading out towards Wokingham and Crowthorne, and up towards Finchampstead Ridges — is largely post-war and more modern housing, built across several decades from the 1950s onward. The two need different handling at survey: older buildings near the centre often have solid masonry walls and suspended timber floors that need checking for deflection before tanking or large-format tiling, while the post-war and later stock generally sits on a solid concrete slab that's more straightforward to work with.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure varies for similar reasons. Some of the older properties still run partly on a gravity-fed hot water system with a header tank in the loft, while post-war and modern housing is typically mains pressure through a combi boiler or pressurised cylinder. We measure actual pressure and flow at every survey rather than assuming either, since it directly affects whether a digital or thermostatic shower performs as specified.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Plot sizes in Finchampstead are generally comfortable rather than exceptional, which is usually enough flexibility to accommodate a layout change — moving a waste run for a freestanding bath, or repositioning a WC to fit a double vanity — without running into serious constraints. Where that flexibility does meet a limit is usually the fall to an existing external drain, which we check and, where necessary, re-route during first fix.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also see a steady number of loft conversions and rear extensions on the post-war housing in this village, often bringing a request for a new en-suite or a repositioned family bathroom to make better use of extra floor area. These projects usually mean extending plumbing runs further than the original house was designed for, and sometimes adding a macerator or small pump where gravity alone won't carry waste to the stack. We size and route this at survey, and factor in noise — a loft en-suite directly above a bedroom needs quieter equipment and better sound insulation under the floor than one positioned above a landing.
+      </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/finchampstead-family-bathroom.webp" alt="Completed family bathroom in Finchampstead with a walk-in shower behind a fixed glass panel, wall-hung WC with concealed cistern and wall-mounted basin" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Finchampstead</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The enquiries we get from this village tend to fall into a few recognisable categories: a dated family bathroom in a post-war house being replaced with a walk-in shower, concealed cistern and updated tiling; a loft conversion or rear extension that needs a new en-suite built into space that didn't previously have one; and older properties near the village core having a bathroom brought up to the standard of the rest of a recently refurbished house, which often means a careful floor check and a re-plumb before any new sanitaryware goes in. Whatever the brief, the survey and the installation discipline are the same — set-out from a true centre line, tanking to a recognised standard, and tap and waste positions checked against the actual products before anything is cut.
+      </p>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Conservation considerations</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated electrics — doesn't normally need planning permission. Where it can matter in Finchampstead is on some of the older buildings near the historic village core, which can sit close to a conservation boundary; work that affects the external fabric, such as a new extraction vent or a rooflight, can need separate consent. We'll flag this plainly at survey if it looks relevant, and point you to the local planning authority to confirm before anything is ordered — one of the questions we'd rather raise before you've ordered any products than after a wall has already been opened up.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Finchampstead</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 10).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What fit-only looks like -->
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Since you've bought the products yourself, our first task at survey is checking what you've chosen against the room and against each other — waste positions, tap hole centres, support requirements for a wall-hung WC or vanity unit — before any wall is opened. That avoids the common and expensive problem of discovering a mismatch once strip-out has started.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        On site we protect floors and stairs on the route in, keep the site clean at the end of each day, and agree parking and access with you in advance — straightforward on most of Finchampstead's residential roads. Being around 15 minutes from our Bracknell base also means we can usually turn around a short-notice visit quickly if a delivery arrives early or a snag needs a quick revisit. For properties further out towards the Ridges or California Country Park with a longer or less direct driveway, let us know at enquiry stage so we can plan vehicle access before the first day on site.
+      </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/finchampstead-wc-frame-fitting.webp" alt="Installer fitting a concealed-cistern WC frame during a Finchampstead bathroom installation" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why choose a fit-only installer</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A design-and-build company marks up every product it supplies and works from a limited showroom range. Buying your own sanitaryware, brassware and tiles directly from specialist suppliers means you're not restricted to one company's stock, and you keep control of the budget on the most expensive line items yourself. What that model needs on the installation side is a team confident working to your specification and quick to flag a mismatch — a basin with the wrong waste size, a shower valve needing a different cable gland — before it becomes a costly delay. That's the approach we've built over 30 years of fit-only installation.
+      </p>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install in neighbouring Wokingham, Crowthorne and our Bracknell base. If you're just outside Finchampstead's boundary, get in touch and we'll confirm coverage before you book a survey — the checks we carry out and the standards we work to don't change from one village to the next.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/wokingham/" class="btn-secondary">Wokingham</a>
+        <a href="/areas/crowthorne/" class="btn-secondary">Crowthorne</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="finchampstead-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Finchampstead</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

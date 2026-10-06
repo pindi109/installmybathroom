@@ -5,6 +5,12 @@ import Footer from "../../components/Footer.astro";
 import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import areasData from "../../data/areas.json";
+
+const priorityOrder = new Map(areasData.priority.map((a: { slug: string }, i: number) => [a.slug, i]));
+const priority = [...areasData.priority].sort((a: { slug: string }, b: { slug: string }) => priorityOrder.get(a.slug)! - priorityOrder.get(b.slug)!);
+const prioritySlugs = new Set(priority.map((a: { slug: string }) => a.slug));
+const allAreas = [...areasData.tier1, ...areasData.tier2];
+const other = allAreas.filter((a: { slug: string }) => !prioritySlugs.has(a.slug));
 ---
 
 <Base
@@ -18,24 +24,25 @@ import areasData from "../../data/areas.json";
       <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }]} />
       <h1 class="text-4xl font-bold mb-4 fade-up">Areas We Cover</h1>
       <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
-        Based in Bracknell, installing across Berkshire and into Buckinghamshire.
+        Based in Bracknell, installing across Berkshire, Buckinghamshire and into Surrey.
       </p>
     </div>
   </section>
 
   <section class="section-sm" style="background: var(--bg-light);">
     <div class="container">
-      <h2 class="text-xl font-bold mb-4 fade-up">Core areas</h2>
+      <h2 class="text-xl font-bold mb-4 fade-up">Priority areas</h2>
       <div class="grid md:grid-cols-4 gap-4 mb-10">
-        {areasData.tier1.map((a: { slug: string; name: string }) => (
-          <a href={`/areas/${a.slug}/`} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
+        {priority.map((a: { slug: string; name: string; rank: number }) => (
+          <a href={`/areas/${a.slug}/`} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up relative">
+            <span class="absolute top-2 left-2 text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center text-white" style="background: var(--teal);">{a.rank}</span>
             <span class="font-semibold">{a.name}</span>
           </a>
         ))}
       </div>
       <h2 class="text-xl font-bold mb-4 fade-up">Also covered</h2>
       <div class="grid md:grid-cols-4 gap-4">
-        {areasData.tier2.map((a: { slug: string; name: string }) => (
+        {other.map((a: { slug: string; name: string }) => (
           <a href={`/areas/${a.slug}/`} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
             <span class="font-semibold">{a.name}</span>
           </a>

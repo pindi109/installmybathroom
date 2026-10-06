@@ -11,11 +11,11 @@ import services from "../../data/services.json";
 const faqs = [
   {
     q: "Do you work on properties near the Wentworth Estate in Virginia Water?",
-    a: "Yes, we regularly fit bathrooms in the large detached and gated properties around Wentworth and the wider Virginia Water area, including coordinating site access for private or managed roads where that applies.",
+    a: "Yes, we regularly fit bathrooms in the large detached and gated properties around Wentworth and the wider Virginia Water area, including coordinating site access for private or managed roads where that applies — the Wentworth Estate itself has its own dedicated area page with more detail on access arrangements specific to the estate.",
   },
   {
     q: "What size of bathroom project do you typically handle in Virginia Water?",
-    a: "Everything from a single en-suite refresh to a full multi-bathroom renovation across a large detached house, including wet rooms, freestanding baths and shower toilets. We price and programme each job individually at survey.",
+    a: "Everything from a single en-suite refresh to a full multi-bathroom renovation across a large detached house, including wet rooms, freestanding baths, steam showers and shower toilets. We price and programme each job individually at survey, not against a standard package.",
   },
   {
     q: "Do large Virginia Water properties need any special checks before a wet room installation?",
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "How far is Virginia Water from your Bracknell base?",
-    a: "Around 15 to 20 minutes by road, which keeps the programme straightforward for deliveries and site visits.",
+    a: "Around 15 to 20 minutes by road via the A30 corridor, which keeps the programme straightforward for deliveries and site visits throughout the installation.",
   },
   {
     q: "Can you fit more than one bathroom at a time in a Virginia Water property?",
@@ -44,6 +44,14 @@ const faqs = [
   {
     q: "Can you work discreetly if we have staff or family in the house during the installation?",
     a: "Yes, we agree working hours, access routes and noise-sensitive periods with you in advance, and keep our team and vehicles to the arrangements set out at survey.",
+  },
+  {
+    q: "Can you install bespoke or imported sanitaryware that isn't from a standard UK retailer?",
+    a: "Yes. We regularly fit bespoke stone, imported brassware and sanitaryware sourced directly from manufacturers or specialist agents rather than a standard showroom. The main thing we need in advance is the product's fixing and carrier requirements, confirmed at survey, so the first fix is built to suit it rather than adjusted afterwards.",
+  },
+  {
+    q: "Do you coordinate with an architect or project manager already working on the house?",
+    a: "Yes, this is common on larger Virginia Water renovations. We're happy to work to an existing architect's drawings or alongside a project manager coordinating multiple trades, provided the bathroom specification and programme are confirmed at our own survey stage so our scope sits clearly alongside everyone else's.",
   },
 ];
 ---
@@ -59,7 +67,7 @@ const faqs = [
       <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Virginia Water", href: "/areas/virginia-water/" }]} />
       <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Virginia Water</h1>
       <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
-        We fit luxury, client-supplied bathrooms across Virginia Water, the Surrey village best known for the Wentworth Estate, around 15 to 20 minutes from our Bracknell base. You buy the sanitaryware, brassware and tiles; we carry out the strip-out, first fix, tiling and final fit, from £{business.pricing.fromGBP.toLocaleString()}. On properties of this scale it's common for us to fit several bathrooms across a single coordinated programme, so every quote starts with a full survey of the house rather than a single room in isolation.
+        We fit luxury, client-supplied bathrooms across Virginia Water, the Surrey village best known for the Wentworth Estate, around 15 to 20 minutes from our Bracknell base. You buy the sanitaryware, brassware and tiles from whichever showroom, manufacturer or agent you choose; we carry out the strip-out, first fix, tiling and final fit, from £{business.pricing.fromGBP.toLocaleString()}. On properties of this scale it's common for us to fit several bathrooms across a single coordinated programme, so every quote starts with a full survey of the house rather than a single room in isolation.
       </p>
       <div class="flex flex-wrap gap-4 fade-up">
         <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
@@ -70,32 +78,58 @@ const faqs = [
 
   <!-- Local context -->
   <section class="section-sm" style="background: var(--bg-light);">
-    <div class="container max-w-3xl">
-      <h2 class="text-2xl font-bold mb-4 fade-up">Virginia Water's housing stock</h2>
-      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties here range from substantial period houses to more recent executive-style builds, and plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around.
-      </p>
-      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        What that flexibility doesn't remove is the need to check floor and wall construction carefully. Large houses in this area are often extended or remodelled over the years, which can mean a mix of build types under one roof — a Victorian or inter-war core with later additions on a different floor construction. We check this room by room at survey rather than assuming the whole house is built the same way, because it directly affects how a wet room is tanked and how large-format porcelain is laid.
-      </p>
-      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        Room sizes here are rarely the constraint they are on a smaller property, which opens up options that don't always suit a modest terraced bathroom — a double-ended freestanding bath positioned away from a wall, a walk-in shower large enough to skip an enclosure entirely, or twin vanities either side of a window. The constraint is usually services rather than space: confirming that waste, supply and extraction can be routed to wherever the layout calls for, which we check at survey before any product is finalised.
-      </p>
-      <p class="leading-relaxed" style="color: var(--text-soft);">
-        Water systems follow a similar pattern. Some of the larger, older properties were built with gravity-fed hot water and a header tank, sometimes since upgraded to mains pressure and sometimes not, occasionally with both systems present in different parts of an extended house. We measure actual pressure and flow at every survey so a digital or thermostatic shower is specified against real figures, not a guess based on the size of the property.
-      </p>
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 fade-up">Virginia Water's housing stock</h2>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties here range from substantial period houses to more recent executive-style builds, and plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around.
+        </p>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          What that flexibility doesn't remove is the need to check floor and wall construction carefully. Large houses in this area are often extended or remodelled over the years, which can mean a mix of build types under one roof — a Victorian or inter-war core with later additions on a different floor construction. We check this room by room at survey rather than assuming the whole house is built the same way, because it directly affects how a wet room is tanked and how large-format porcelain is laid.
+        </p>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          Room sizes here are rarely the constraint they are on a smaller property, which opens up options that don't always suit a modest terraced bathroom — a double-ended freestanding bath positioned away from a wall, a walk-in shower large enough to skip an enclosure entirely, or twin vanities either side of a window. The constraint is usually services rather than space: confirming that waste, supply and extraction can be routed to wherever the layout calls for, which we check at survey before any product is finalised.
+        </p>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          Water systems follow a similar pattern. Some of the larger, older properties were built with gravity-fed hot water and a header tank, sometimes since upgraded to mains pressure and sometimes not, occasionally with both systems present in different parts of an extended house. We measure actual pressure and flow at every survey so a digital or thermostatic shower is specified against real figures, not a guess based on the size of the property.
+        </p>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          Projects on this scale also tend to run alongside wider works — a kitchen or extension, a new heating system, sometimes a full rewire — so bathroom scheduling has to fit a longer programme rather than stand alone. We're used to sequencing around other trades: first fix before a plasterer closes a wall, tanking and tiling once a room is weathertight, second fix once decorators have finished elsewhere, so the bathroom isn't the item that holds the wider project back or gets damaged by work happening around it afterwards.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/virginia-water-luxury-wet-room.webp" alt="Finished luxury wet room with a frameless glass partition and twin vanity unit in a Virginia Water executive home" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
     </div>
   </section>
 
   <!-- What's included -->
   <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Virginia Water</h2>
+        <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+          On the scale of property typical of this area, it's common for us to be installing two or three bathrooms on the same programme — a principal en-suite, a family bathroom and a guest or children's bathroom — rather than a single room in isolation. We sequence these so wet trades and dry trades don't clash, and coordinate delivery of your sanitaryware and tiles against the programme so nothing sits exposed on site longer than necessary.
+        </p>
+        <p class="leading-relaxed" style="color: var(--text-soft);">
+          We protect flooring and staircases throughout the house for the duration of the work, use dust barriers to keep the work area contained, and agree site access, parking and delivery timing in advance where a property sits on a private or managed road. Discretion matters here as much as the finished tiling — our vans and team work to the arrangements you set, not the other way round.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/virginia-water-brass-filler-macro.webp" alt="Close-up of a brushed brass freestanding bath filler with water flowing over a honed stone bath edge" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why fit-only suits this area -->
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl">
-      <h2 class="text-2xl font-bold mb-4 fade-up">What a fit-only installation involves in Virginia Water</h2>
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why fit-only suits large Virginia Water homes</h2>
       <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        On the scale of property typical of this area, it's common for us to be installing two or three bathrooms on the same programme — a principal en-suite, a family bathroom and a guest or children's bathroom — rather than a single room in isolation. We sequence these so wet trades and dry trades don't clash, and coordinate delivery of your sanitaryware and tiles against the programme so nothing sits exposed on site longer than necessary.
+        A design-and-build package is built to be sold at scale, which usually means a narrower range of products and a fitting team used to working to that one specification. Virginia Water's housing stock doesn't reward that approach: a Wentworth-adjacent house extended across three decades can have three different floor constructions under one roof, and a client specifying a bespoke freestanding bath or stone sourced directly from a quarry agent needs an installer who fits what's actually been bought, not what's easiest to source. Fit-only keeps that flexibility intact — the installation is planned around the property and the products you've chosen, not around a catalogue.
       </p>
       <p class="leading-relaxed" style="color: var(--text-soft);">
-        We protect flooring and staircases throughout the house for the duration of the work, use dust barriers to keep the work area contained, and agree site access, parking and delivery timing in advance where a property sits on a private or managed road. Discretion matters here as much as the finished tiling — our vans and team work to the arrangements you set, not the other way round.
+        It also means the survey carries real weight. On a property this size, confirming carrier frame compatibility, waste routing across multiple bathrooms, and the electrical supply for shower toilets or steam rooms before anything is ordered saves far more time than it costs — a mismatch discovered after delivery on a multi-bathroom programme is a far bigger disruption than the same mismatch caught at survey stage.
       </p>
     </div>
   </section>
@@ -108,7 +142,7 @@ const faqs = [
         A standard internal bathroom refit doesn't normally require planning permission. Where it can matter is on listed properties, or homes within a designated conservation area, if the work affects the external fabric of the building — a new extraction vent through an original wall, for instance. If your property might be affected, we'll say so plainly at survey and point you to the local planning authority to confirm before anything is ordered.
       </p>
       <p class="leading-relaxed" style="color: var(--text-soft);">
-        On larger properties with a managing agent, estate office or private road committee, there can also be separate approval or notification requirements for building work, independent of statutory planning permission. If that applies to your property, we'll ask early so it doesn't delay the installation once it's booked.
+        On larger properties with a managing agent, estate office or private road committee, there can also be separate approval or notification requirements for building work, independent of statutory planning permission. If that applies to your property, we'll ask early so it doesn't delay the installation once it's booked — confirming it at survey stage, not after materials have already been ordered and a start date agreed.
       </p>
     </div>
   </section>
@@ -135,12 +169,13 @@ const faqs = [
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
       <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
-        We also install in neighbouring Sunningdale, Ascot — home to Ascot Racecourse — and Windsor, all within a similar drive time of our Bracknell base.
+        We also install in neighbouring Sunningdale, Ascot — home to Ascot Racecourse — and Windsor, all within a similar drive time of our Bracknell base, as well as the Wentworth Estate itself, which we treat as a distinct area given its private road access and managing-agent coordination.
       </p>
       <div class="flex flex-wrap gap-3 fade-up">
         <a href="/areas/sunningdale/" class="btn-secondary">Sunningdale</a>
         <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
         <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        <a href="/areas/wentworth-estate/" class="btn-secondary">Wentworth Estate</a>
       </div>
     </div>
   </section>
@@ -157,7 +192,7 @@ const faqs = [
   <section class="section-sm">
     <div class="container max-w-3xl text-center">
       <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
-        A £{business.pricing.surveyGBP} survey brings a qualified installer to your Virginia Water property to measure each room, check construction and services, test water pressure, and confirm what your chosen bathrooms need for a correct installation. You'll come away with an itemised quote and a realistic programme before anything is ordered.
+        A £{business.pricing.surveyGBP} survey brings a qualified installer to your Virginia Water property to measure each room, check construction and services, test water pressure, and confirm what your chosen bathrooms need for a correct installation. You'll come away with an itemised quote and a realistic programme before anything is ordered — the same scope document we work from on site, not a revised estimate once the job is under way.
       </p>
       <a href="/survey/" class="btn-primary">Book a Survey in Virginia Water</a>
     </div>

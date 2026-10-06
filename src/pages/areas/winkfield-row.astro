@@ -1,0 +1,203 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import services from "../../data/services.json";
+
+const faqs = [
+  {
+    q: "How far is Winkfield Row from your Bracknell base?",
+    a: "Around 15 to 20 minutes by road. We treat this as routine local travel, so it has no bearing on how we sequence trades or how quickly we can get back on site for a short-notice visit — a delivery that arrives early, or a snag that needs a same-week revisit.",
+  },
+  {
+    q: "Is Winkfield Row the same as Winkfield?",
+    a: "No. Winkfield Row is a hamlet that sits within the wider Winkfield civil parish, but it's a distinct, more rural pocket in its own right — lower density, larger plots, and a different mix of building stock to the main village centre. We treat it as its own survey, not an extension of Winkfield.",
+  },
+  {
+    q: "What kind of properties are typical in Winkfield Row?",
+    a: "A mix of older cottages, many originally agricultural or estate workers' dwellings, alongside larger detached houses built more recently on generous plots. The two need quite different handling at survey, particularly around floor construction and the age of the existing plumbing.",
+  },
+  {
+    q: "Will a bathroom refit in Winkfield Row need planning permission?",
+    a: "A like-for-like internal refit — new sanitaryware, tiling, updated electrics — usually doesn't. Where it can matter is if the property is listed, close to a conservation boundary, or if the work affects the external wall, such as a new extraction vent or a rooflight into a converted loft space. We flag this plainly at survey rather than assume it's fine.",
+  },
+  {
+    q: "What water pressure can I expect in a Winkfield Row property?",
+    a: "It varies more than in a denser suburban area, because the building stock spans several decades. Some of the older cottages still run on a gravity-fed system with a loft tank; newer houses on larger plots are more often mains pressure via a combi or unvented cylinder. We test actual pressure and flow at survey before specifying any digital, thermostatic or rainfall shower.",
+  },
+  {
+    q: "Can you install a wet room in an older Winkfield Row cottage?",
+    a: "Generally yes, subject to checking the floor structure at survey. Many of the older properties have suspended timber floors rather than a solid slab, which affects how we tank and support a level-access wet room floor — sometimes requiring additional noggins or a structural joist check before the membrane goes down.",
+  },
+  {
+    q: "Do you work on properties with long private drives or shared access tracks?",
+    a: "Yes, this is common in Winkfield Row given the rural, lower-density character of the hamlet. Tell us at enquiry stage so we can plan vehicle and van access, agree parking, and factor any gate codes or shared track arrangements into the first day on site.",
+  },
+  {
+    q: "How long does a typical Winkfield Row bathroom installation take?",
+    a: "A single bathroom strip-out and refit usually runs two to three weeks depending on scope — longer where natural stone, a steam shower or underfloor heating is specified, since those trades need drying and curing time built into the programme. We confirm a realistic timeline at survey once we've seen the room and the products involved.",
+  },
+];
+---
+
+<Base
+  title="Winkfield Row Bathroom Installation | Install My Bathroom"
+  description="Fit-only luxury bathroom installation in Winkfield Row, Berkshire. Client-supplied bathrooms, from £3,500. Around 15-20 min from Bracknell."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas", href: "/areas/" }, { label: "Winkfield Row", href: "/areas/winkfield-row/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation in Winkfield Row</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We install luxury, fit-only bathrooms for homeowners across Winkfield Row, the quiet rural hamlet within Winkfield parish near Ascot and Windsor Great Park, around 15 to 20 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £{business.pricing.fromGBP.toLocaleString()}.
+      </p>
+      <div class="flex flex-wrap gap-4 fade-up">
+        <a href="/survey/" class="btn-primary">Book a Survey — £{business.pricing.surveyGBP}</a>
+        <a href={`tel:${business.phoneE164}`} class="btn-secondary">Call {business.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local context -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-4 fade-up">What we find inside Winkfield Row homes</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Winkfield Row is a hamlet in its own right rather than simply a continuation of the main Winkfield village centre. It sits within the wider Winkfield civil parish, close to Ascot and the edge of Windsor Great Park, and its character is noticeably more rural and lower-density than the parish centre — narrower lanes, fewer immediate neighbours, and plots that give a house considerably more breathing room than you'd find on a typical estate road. We survey it as its own area rather than treating it as an extension of anywhere else, because the building stock and the practical constraints on site are genuinely different.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The housing mix here splits broadly into two categories. There's a real concentration of older cottages, some originally built as agricultural or estate workers' dwellings, with solid masonry walls, low ceiling heights in places, and floor construction that needs checking carefully before any large-format tiling or tanked wet room goes in. Suspended timber floors are common in these older buildings, and we measure for deflection at survey — too much movement under tile and you risk cracked grout lines or, worse, a failed membrane at a joint. Alongside the cottages sit larger detached houses built more recently on generous plots, often with solid concrete floors and more modern first-fix plumbing already run in a sensible layout, which generally makes for a more straightforward containment and waste run even where the finished specification is considerably more ambitious.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Water pressure in Winkfield Row varies more than homeowners often expect. A number of the older cottages still run, at least in part, on a gravity-fed hot water system with a header tank in the loft, particularly where no full re-plumb has taken place since an extension or loft conversion. Newer houses are far more likely to be mains pressure through a combi boiler or a pressurised unvented cylinder. We test actual pressure and flow during the survey rather than assuming either, because it determines whether a digital or thermostatic shower will perform as the manufacturer's specification promises — or whether a pump needs adding first.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Plot sizes in Winkfield Row are consistently generous, reflecting the hamlet's rural and semi-agricultural history, and that gives considerably more freedom with layout than a smaller suburban plot would allow. Moving a waste run to accommodate a freestanding bath, or relocating a WC to open up space for a double vanity, is rarely constrained by a neighbouring wall or a shared soil stack in the way it would be on a tighter plot. Where that flexibility does meet a limit is usually the fall to an existing external drain run, or the distance a waste pipe needs to travel across an older cottage's footprint — both of which we check at survey and, if necessary, resolve with re-routing or a small pump during first-fix.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We also see a steady number of loft conversions and single-storey rear extensions in this part of the parish, often bringing a request to add a new en-suite or reposition an existing family bathroom to make better use of extra floor area created elsewhere in the house. These projects usually mean extending plumbing runs further than the original cottage or house was designed for, and sometimes adding a macerator or small pump where gravity alone won't carry waste to the stack. We size and route this at survey, and factor in noise — a loft en-suite directly above a bedroom needs quieter equipment and better sound insulation under the floor than one positioned above a landing or hallway.
+      </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/winkfield-row-cottage-bathroom.webp" alt="Finished luxury bathroom in an older Winkfield Row cottage with a freestanding roll-top bath under a small-paned window" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Planning -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Conservation areas and external works</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A standard internal bathroom refit — new sanitaryware, retiling, updated lighting and extraction — does not usually need planning permission. Where it can matter in Winkfield Row is where a property is listed or falls within a designated conservation area, which applies to a number of the older cottages and estate buildings in this part of the parish, or where the work touches the external fabric of the building: a new mechanical extraction vent cut through an original wall, or a rooflight added to bring daylight into a converted loft en-suite, are the kinds of changes that sometimes need separate consent. We'll flag this plainly at survey if we think it applies, and point you to the local planning authority to confirm before anything is ordered.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        For anyone planning a bathroom as part of a wider project in a listed or sensitive property, our guide to <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" style="color: var(--teal); font-weight: 600;">bathroom renovation in listed and conservation properties</a> sets out the questions worth asking before you commit to a layout.
+      </p>
+    </div>
+  </section>
+
+  <!-- What a fit-only installation involves -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+      <h2 class="text-2xl font-bold mb-4 fade-up">How a fit-only installation runs in Winkfield Row</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because you've already bought the sanitaryware, brassware and tiles, our first job at survey is to check what's arrived, or what's on order, against the manufacturer's installation requirements — waste positions, tap hole centres, support weight for a wall-hung WC or vanity unit — before a single wall is opened. That avoids the common and expensive problem of discovering a mismatch once strip-out has started.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        From there the sequence is strip-out and first-fix plumbing and electrics, tanking where a wet room or shower area needs it, then tiling set out from a true centre line so joints run through consistently from floor to wall, followed by second-fix sanitaryware, brassware and final snagging. We protect floors and stairwells throughout, keep the site clean at the end of each day, and work to the programme agreed at survey.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Access in Winkfield Row tends to be more rural than a typical suburban road — narrower lanes, longer private drives, and in some cases a shared gravel track serving two or three properties. Tell us about any of this at enquiry stage so we can plan van access and parking before the first day on site, rather than working it out on arrival. For older cottages that are occupied throughout the project, we sheet and board protected routes through hallways and up staircases on day one, and keep noisy work — breaking out an old shower tray, for example — to sensible hours. Where a property is let or managed on someone's behalf, we coordinate dates directly with the managing agent so access is arranged before the team turns up.
+      </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img src="/assets/inline/winkfield-row-backer-board-fitting.webp" alt="Installer screwing down a rigid tile backer board over a suspended timber floor in a Winkfield Row cottage" width="800" height="600" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why fit-only -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why Winkfield Row homeowners choose a fit-only installer</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A design-and-build company will usually mark up every product it supplies, and its showroom range — however well presented — is still a limited selection. Buying your own sanitaryware, brassware and tiles directly from specialist suppliers or showrooms means you're not restricted to what one company stocks, and you keep control of the budget on the most expensive line items yourself.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What that approach needs on the installation side is a team that's comfortable working to someone else's product specification rather than its own, and confident enough to flag a problem — a tap with the wrong reach for a basin, a shower valve that needs a different cable gland — before it becomes an expensive mid-project change. That's the model we've built our business on for 30 years, and it's why most of our Winkfield Row clients come to us already holding a shortlist, or an order confirmation, rather than a blank page.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services available -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Services available in Winkfield Row</h2>
+      <p class="leading-relaxed mb-6" style="color: var(--text-soft);">
+        We cover the full range of fit-only bathroom work in Winkfield Row, from a straightforward cloakroom refit through to a wet room, steam shower or natural stone installation spanning several rooms, and the plumbing, electrical and tiling trades that sit behind each of those finishes.
+      </p>
+      <div class="grid md:grid-cols-2 gap-3">
+        {services.slice(0, 12).map((s: { slug: string; name: string }) => (
+          <a href={`/services/${s.slug}/`} class="card p-4 fade-up">
+            <span class="font-medium text-sm">{s.name}</span>
+          </a>
+        ))}
+      </div>
+      <div class="mt-6 fade-up">
+        <a href="/services/" class="font-semibold" style="color: var(--teal);">All services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Typical projects -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">The kind of projects we fit in Winkfield Row</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The enquiries we get from this hamlet tend to fall into a few recognisable categories: an older cottage bathroom being brought up to a standard that matches the rest of a recently refurbished house, often needing careful floor checks and a re-plumb before any new sanitaryware goes in; a new en-suite built into a loft conversion or rear extension where none existed before; and larger detached houses on bigger plots where a principal bathroom is upgraded to a walk-in shower, freestanding bath and double vanity, taking advantage of the extra space the plot allows. Natural stone and large-format porcelain come up regularly, reflecting both the scale of the properties and the slower, more considered pace of a rural renovation project. Whatever the brief, the survey and the installation discipline are the same — set-out from a true centre line, tanking to a recognised standard, and tap and waste positions checked against the actual products before anything is cut.
+      </p>
+    </div>
+  </section>
+
+  <!-- Nearby areas -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Nearby areas</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We also install bathrooms in neighbouring Winkfield, Ascot and our Bracknell base, and we're happy to discuss projects just outside these pages too — the fit-only approach and the checks we carry out at survey don't change from one lane to the next.
+      </p>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/areas/winkfield/" class="btn-secondary">Winkfield</a>
+        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
+        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="winkfield-row-faq" />
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-center">
+      <a href="/survey/" class="btn-primary">Book a Survey in Winkfield Row</a>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>
