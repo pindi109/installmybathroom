@@ -3,6 +3,7 @@
 // homepage so Google merges them into one entity rather than seeing two businesses.
 // No streetAddress anywhere — locality/region/postcode only (brief §0.2).
 import { business, entityOneLiner } from "../config/business.ts";
+import areasData from "../data/areas.json";
 
 const schema = {
   "@context": "https://schema.org",
@@ -22,15 +23,10 @@ const schema = {
     "postalCode": business.postcode,
     "addressCountry": business.country
   },
-  "areaServed": [
-    { "@type": "Place", "name": "Sunningdale" },
-    { "@type": "Place", "name": "Gerrards Cross" },
-    { "@type": "Place", "name": "Stoke Poges" },
-    { "@type": "Place", "name": "Ascot" },
-    { "@type": "Place", "name": "Windsor" },
-    { "@type": "Place", "name": "Bracknell" },
-    { "@type": "Place", "name": "Binfield" }
-  ],
+  "areaServed": areasData.priority
+    .slice()
+    .sort((a: { rank: number }, b: { rank: number }) => a.rank - b.rank)
+    .map((a: { name: string }) => ({ "@type": "Place", "name": a.name })),
   "sameAs": business.sameAs
 };
 ---

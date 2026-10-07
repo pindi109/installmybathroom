@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-05";
 
@@ -240,10 +241,9 @@ const faqs = [
       </div>
       <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
       <div class="flex flex-wrap gap-3 fade-up">
-        <a href="/areas/bracknell/" class="btn-secondary">Bracknell</a>
-        <a href="/areas/binfield/" class="btn-secondary">Binfield</a>
-        <a href="/areas/ascot/" class="btn-secondary">Ascot</a>
-        <a href="/areas/windsor/" class="btn-secondary">Windsor</a>
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
       </div>
     </div>
   </section>

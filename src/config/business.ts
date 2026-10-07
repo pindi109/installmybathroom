@@ -20,4 +20,4 @@ export const business = {
 };
 
 export const entityOneLiner =
-  "Install My Bathroom is a specialist fit-only bathroom installation company based in Bracknell, Berkshire, installing luxury client-supplied bathrooms across Sunningdale, Gerrards Cross, Stoke Poges, Ascot, Windsor, Bracknell and Binfield, with 30 years' experience fitting high-end sanitaryware, stone and porcelain tiling, wet rooms and shower toilets.";
+  "Install My Bathroom is a specialist fit-only bathroom installation company based in Bracknell, Berkshire, installing luxury client-supplied bathrooms across Wentworth Estate, Virginia Water, Sunningdale, Ascot, Sunninghill, Winkfield and Windsor, and the surrounding Berkshire, Buckinghamshire and Surrey towns, with 30 years' experience fitting high-end sanitaryware, stone and porcelain tiling, wet rooms and shower toilets.";
