@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-07";
 
@@ -42,6 +43,14 @@ const faqs = [
   {
     q: "Do I need to move a stud wall to fit an en-suite into a box room?",
     a: "Sometimes, if the existing layout doesn't allow a workable door swing or fixture spacing. Moving a stud wall is a straightforward job on its own, but can need building control sign-off if it affects a structural element — we'll flag that at survey if it looks relevant.",
+  },
+  {
+    q: "Does adding an en-suite add value to a house?",
+    a: "Generally yes, particularly to a main bedroom in a family home, though the actual uplift depends heavily on local market expectations and how the conversion affects the bedroom's remaining floor area. We install to a high standard regardless of whether the brief is resale value or personal use — the fitting doesn't change either way.",
+  },
+  {
+    q: "What's the minimum practical size for an en-suite?",
+    a: "There's no fixed minimum in the regulations, but door swing, a workable shower or bath footprint, and comfortable WC and basin clearances effectively set a sensible lower limit in practice — usually somewhere in the region of 1.8 to 2 square metres for a shower-only layout.",
   },
 ];
 ---
@@ -115,7 +124,7 @@ const faqs = [
           The most common en-suite job we see is a redundant bedroom corner or box room being converted from scratch. Unlike re-fitting an existing bathroom, this usually means first-fixing supply and waste to a space that's never had them — running pipework from the nearest existing stack, checking the floor void has room for a waste fall, and confirming the electrical supply can take a new circuit.
         </p>
         <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
-          None of that is unusual, but it's extra work compared with re-fitting a room that already has services in roughly the right place, which is why a new-build en-suite in a converted space often sits toward the higher end of the range even at a modest size.
+          None of that is unusual, but it's extra work compared with re-fitting a room that already has services in roughly the right place, which is why a new-build en-suite in a converted space often sits toward the higher end of the range even at a modest size. At the premium end, a main-bedroom en-suite with a double vanity, a separate bath and shower, and natural stone throughout needs both fixtures' first-fix work plus the additional care stone takes to cut and fit in a genuinely tight footprint.
         </p>
       </div>
       <div class="card overflow-hidden fade-up hidden md:block">
@@ -152,10 +161,30 @@ const faqs = [
 
   <section class="section-sm">
     <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Does an en-suite add value?</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        An en-suite to a main bedroom is one of the more reliable value-adding conversions in a family home, since it's a feature buyers actively look for rather than one they simply tolerate. The actual uplift varies by area and by how much usable bedroom floor area the conversion takes — a main bedroom that's left feeling cramped by the new en-suite can work against the value it adds. We'll give an honest view at survey on whether a proposed footprint leaves the bedroom feeling right, not just whether the en-suite itself fits.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Planning permission and building regulations</h2>
       <p class="leading-relaxed" style="color: var(--text-soft);">
         Converting an internal room into an en-suite doesn't generally need planning permission, since it doesn't change the external envelope of the house. Building Regulations still apply — Part P for any new electrical circuit and Part F for ventilation — and listed or conservation-area properties can need additional consent even for internal work. Our <a href="/guides/bathroom-building-regulations-and-planning/" class="underline" style="color: var(--teal);">building regulations and planning guide</a> covers this in full.
       </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
     </div>
   </section>
 

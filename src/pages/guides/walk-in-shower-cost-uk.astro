@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-07";
 
@@ -42,6 +43,18 @@ const faqs = [
   {
     q: "Can I keep my existing shower valve and just change the enclosure?",
     a: "Sometimes, if the existing valve is in good working order and its position suits the new layout. We'll check this at survey — reusing a sound valve avoids unnecessary cost, but concealed valves buried in a wall that's being opened up for other work are usually replaced at the same time since the wall's already open.",
+  },
+  {
+    q: "Does the shower's size affect the price as much as the fittings do?",
+    a: "Less than most people expect. A common UK shower tray footprint is around 900mm × 900mm to 1200mm × 900mm, and within that range the glass panel and tanking area scale up only modestly. What moves the price more is the shape of the opening and the floor construction, not the few hundred millimetres between a compact and a generous tray size.",
+  },
+  {
+    q: "What's a realistic walk-in shower size for a small en-suite?",
+    a: "A 900mm-wide opening is usually the practical minimum for a genuinely open walk-in feel rather than a disguised cubicle. Below that, a hinged door on a framed or semi-framed enclosure typically makes better use of a tight footprint than an open glass panel, since a walk-in shower needs splash-guard distance on the open side that a door doesn't.",
+  },
+  {
+    q: "Is a walk-in shower a good option for an accessible or low-mobility bathroom?",
+    a: "Yes, particularly the level-floor version — removing the step is one of the most common accessibility adaptations we fit. See our building regulations and planning guide for what Part M covers, or our accessible bathrooms page for the fuller picture on grab rails, seating and wider doorways.",
   },
 ];
 ---
@@ -114,8 +127,11 @@ const faqs = [
         <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
           The most common job we see is a bath-to-shower conversion: an existing bath is stripped out, the waste position is reused since it already sits in roughly the right place, a low-profile tray goes down, and a rectangular glass panel is fitted to a wall that's being re-tiled in large-format porcelain at the same time. That's close to the entry-level figure, because none of the higher-cost drivers above apply.
         </p>
-        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
           Where the brief changes — the shower moves to the opposite wall, the floor needs levelling to remove the step entirely, or the opening isn't a simple rectangle — each of those adds its own first-fix, tanking or glass-fitting time on top of that baseline, which is why two walk-in showers that look similar in a photo can price quite differently once the survey measures the actual room.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          At the upper end, a full stone-clad walk-in with a new concealed valve, a digital shower controller, and a bespoke-cut glass panel on an angled wall sits well above the entry-level figure — not because any single element is exotic, but because the concealed valve means opening the wall, the digital controller needs its own commissioning, and an angled panel takes longer to template and cut accurately than a square one. None of that is a reason to avoid the specification; it's simply what each extra element genuinely adds in first-fix and fitting time.
         </p>
       </div>
       <div class="card overflow-hidden fade-up hidden md:block">
@@ -152,6 +168,18 @@ const faqs = [
 
   <section class="section-sm">
     <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Shower size and room footprint</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A common question is whether a bigger shower simply costs more in proportion to its size. It doesn't scale that cleanly. Most UK walk-in showers sit somewhere between a 900mm × 900mm opening and a 1400mm-wide run against one wall, and within that range the tanking area and glass panel size move only modestly — a 1200mm panel isn't dramatically more expensive to cut and fit than a 900mm one. What genuinely changes the price is the shape of the opening and whether the floor is flush, not the few hundred millimetres of difference between a compact and a generous tray.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        In a genuinely tight footprint — a small en-suite or a converted box room — there often isn't enough width for an open walk-in panel plus the splash-guard distance it needs on its open side. A hinged door on a framed or semi-framed enclosure makes better use of that space, which is why we'll sometimes recommend a door over an open panel at survey even when a walk-in look was the original brief.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">How this differs from a wet room</h2>
       <p class="leading-relaxed" style="color: var(--text-soft);">
         A walk-in shower and a wet room are often confused, but the floor construction is what actually separates them. A walk-in shower can sit on a shallow tray with a small upstand, which is a quicker, less invasive job than removing a step entirely. Once the floor is flush throughout the room with no upstand at all, it's priced and built as a wet room rather than a walk-in shower — see our <a href="/guides/wet-room-cost-uk/" class="underline" style="color: var(--teal);">wet room cost guide</a> for that distinction, or our <a href="/guides/wet-room-vs-walk-in-shower/" class="underline" style="color: var(--teal);">wet room vs walk-in shower guide</a> for a fuller comparison.
@@ -159,7 +187,30 @@ const faqs = [
     </div>
   </section>
 
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figure above covers labour only — strip-out of the old fixture, first-fix plumbing, tanking to the shower zone, tiling, and fitting and commissioning the glass panel, valve and tray or floor. The glass panel, valve, tray, and wall and floor tiles are bought separately by you, which is different from a supply-and-fit quote where a retailer or contractor bundles the goods and labour into one number.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately either way: skip hire or waste removal for the old enclosure and tiles, and making good any surrounding decoration disturbed by new pipework. Neither is usually included in an installation quote from any installer, fit-only or otherwise.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
     <div class="container max-w-3xl">
       <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
       <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
@@ -168,14 +219,14 @@ const faqs = [
     </div>
   </section>
 
-  <section class="section-sm">
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
       <FAQ items={faqs} schemaId="walk-in-shower-cost-faq" />
     </div>
   </section>
 
-  <section class="section-sm" style="background: var(--bg-light);">
+  <section class="section-sm">
     <div class="container max-w-3xl">
       <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
       <div class="flex flex-wrap gap-3 fade-up">
@@ -187,7 +238,7 @@ const faqs = [
     </div>
   </section>
 
-  <section class="section-sm">
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
       <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
       <p class="mt-1">Last updated: {LAST_UPDATED}</p>

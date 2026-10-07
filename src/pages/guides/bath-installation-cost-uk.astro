@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-07";
 
@@ -42,6 +43,14 @@ const faqs = [
   {
     q: "Can a bath and a separate shower both fit in the same room?",
     a: "Often yes, depending on the room's footprint — this is one of the most common briefs we see. Each fixture is priced on what it needs individually, so a bath-plus-shower room reflects both sets of first-fix work rather than one combined lower figure.",
+  },
+  {
+    q: "What's the difference between a walk-in tub and a walk-in shower?",
+    a: "A walk-in tub is a bath with a sealed door in its side, designed for someone to step into at floor level and then fill the tub around them — a specific accessibility and mobility product. A walk-in shower has no bath function at all; it's an open or glass-panelled shower area. The two solve different problems and aren't interchangeable despite the similar name.",
+  },
+  {
+    q: "Is a walk-in tub a good option for an elderly relative?",
+    a: "It can be, where stepping over a conventional bath edge is the main difficulty but a full wet room conversion isn't wanted or practical. The trade-off is a wait while the tub fills and drains with the door sealed, which some users find impractical day-to-day — a level-access wet room with a shower seat is worth considering as an alternative at survey.",
   },
 ];
 ---
@@ -115,7 +124,7 @@ const faqs = [
           A wall-mounted tap is fed from pipework hidden behind the wall or an adjacent panel, which is usually quicker to first-fix if that wall already carries supply. A floor-standing filler is fed from below, which means the supply pipe has to be routed up through the floor at precisely the position the tap will sit — get that position wrong before the floor's closed up and it's a much bigger job to correct afterward.
         </p>
         <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
-          Both are common choices on a freestanding bath; the deciding factor is usually the room's layout and where supply can realistically reach, which the survey confirms before you commit to a specific tap position.
+          Both are common choices on a freestanding bath; the deciding factor is usually the room's layout and where supply can realistically reach, which the survey confirms before you commit to a specific tap position. At the premium end, a bath positioned away from any wall at all — in the centre of a larger room — needs its floor-mounted supply and waste routed the furthest, and the floor build-up checked across a wider area than a bath set against one wall.
         </p>
       </div>
       <div class="card overflow-hidden fade-up hidden md:block">
@@ -152,10 +161,33 @@ const faqs = [
 
   <section class="section-sm">
     <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Walk-in tubs: a different product entirely</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A walk-in tub is often confused with a walk-in shower because of the name, but it's a different product solving a different problem — a bath with a sealed door built into its side, so someone can step in at floor level rather than over a conventional bath edge, then fill the tub around them. It needs the same waste and supply checks as any bath, plus the door seal tested at commissioning.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        It's worth weighing against a level-access wet room with a fixed or fold-down shower seat at survey stage — a walk-in tub solves the step problem but still means waiting for the tub to fill and drain with the door sealed shut, which doesn't suit everyone's daily routine. Neither option is universally better; it depends on the household's actual bathing habits.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Replacing a bath in the same position</h2>
       <p class="leading-relaxed" style="color: var(--text-soft);">
         The quickest and most predictable bath job is a like-for-like replacement, where the new bath sits in exactly the same footprint as the old one and reuses the existing waste, overflow and supply. This is close to the entry-level figure because none of the position-related cost drivers above apply — the main variables left are the bath's weight and whether the surrounding panel or tiling needs redoing to suit the new model.
       </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
     </div>
   </section>
 

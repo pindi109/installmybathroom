@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-07";
 
@@ -41,7 +42,7 @@ const faqs = [
   },
   {
     q: "What size does a bathroom need to be under building regulations?",
-    a: "There's no single minimum room size set out in the Building Regulations themselves, though practical constraints around door swing, fixture spacing and ventilation effectively set a sensible lower limit. Accessible bathroom design has its own separate guidance where relevant — see our accessible bathrooms page.",
+    a: "There's no single minimum room size set out in the Building Regulations themselves, though practical constraints around door swing, fixture spacing and ventilation effectively set a sensible lower limit. Accessible bathroom design has its own separate guidance under Part M where relevant — see our accessible bathrooms page.",
   },
   {
     q: "Does a heated towel rail need to meet any particular regulation?",
@@ -50,6 +51,14 @@ const faqs = [
   {
     q: "What work doesn't require planning permission?",
     a: "As a general rule, internal alterations that don't change the external appearance or footprint of the building — re-fitting a bathroom, converting an internal room, moving a stud wall — don't require planning permission. Anything affecting the external envelope, a listed building, or a property in a conservation area can be different, and is always worth checking with the local authority before committing to a layout.",
+  },
+  {
+    q: "What does Part M cover for an accessible bathroom?",
+    a: "Part M of the Building Regulations covers access to and use of buildings, including clearances around sanitaryware, door widths and level-access showers for new-build and some adaptation work. It's a different part of the Regulations from the electrical, ventilation and structural requirements that apply to every bathroom — relevant specifically where accessibility is part of the brief.",
+  },
+  {
+    q: "Is a building control application the same as planning permission?",
+    a: "No — they're applied for separately, to different departments, and cover different things. Planning permission (where needed) is about the building's external form and use; a building control application or notification is about whether specific technical work meets safety standards. A project can need one, both, or neither depending on what's being done.",
   },
 ];
 ---
@@ -78,7 +87,7 @@ const faqs = [
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-6 fade-up">Planning permission vs Building Regulations</h2>
       <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
-        The two are often confused because both involve the word "permission," but they control different things. Planning permission is about whether you're allowed to change the external appearance, footprint or use of a building. Building Regulations are about whether the work itself is done safely and to a technical standard — structurally sound, safely wired, properly ventilated — regardless of whether planning permission was needed to do it.
+        The two are often confused because both involve the word "permission," but they control different things. Planning permission is about whether you're allowed to change the external appearance, footprint or use of a building. Building Regulations are about whether the work itself is done safely and to a technical standard — structurally sound, safely wired, properly ventilated — regardless of whether planning permission was needed to do it. They're applied for separately, to different departments, and a project can need either, both, or neither.
       </p>
       <div class="overflow-x-auto fade-up">
         <table class="w-full text-sm border-collapse">
@@ -110,6 +119,11 @@ const faqs = [
               <td class="py-3 pr-4" style="color: var(--text-soft);">The conversion or extension itself may need it</td>
               <td class="py-3" style="color: var(--text-soft);">Full structural, electrical and ventilation sign-off as part of the wider project</td>
             </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Accessible bathroom adaptation</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Not usually needed for internal work</td>
+              <td class="py-3" style="color: var(--text-soft);">Part M applies alongside Part P and Part F where relevant</td>
+            </tr>
             <tr>
               <td class="py-3 pr-4 font-medium">Any of the above in a listed building</td>
               <td class="py-3 pr-4" style="color: var(--text-soft);">Listed building consent can apply even to internal work</td>
@@ -137,6 +151,18 @@ const faqs = [
   </section>
 
   <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Accessible bathrooms and Part M</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Where a bathroom is being adapted for accessibility — a level-access wet room, wider doorways, or clearances around the WC and basin for a wheelchair or walking frame — Part M of the Building Regulations covers access to and use of buildings, and sits alongside the electrical, ventilation and structural requirements that apply to every bathroom. Part M is most directly relevant to new-build work and certain categories of adaptation; it doesn't mean every accessibility feature needs a formal application, but the clearances it sets out are a sensible reference point even on a straightforward domestic retrofit.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We cover this practically, not just on paper, on our <a href="/services/accessible-luxury-bathrooms/" class="underline" style="color: var(--teal);">accessible bathrooms page</a> — grab rail fixing into solid blocking rather than tile alone, door widths, and level-access wet room floors are all things we check and plan for at survey when accessibility is part of the brief.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
     <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
       <div>
         <h2 class="text-2xl font-bold mb-6 fade-up">Listed buildings and conservation areas</h2>
@@ -158,7 +184,7 @@ const faqs = [
     </div>
   </section>
 
-  <section class="section-sm">
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
       <div class="card overflow-hidden fade-up">
         <img
@@ -179,12 +205,29 @@ const faqs = [
     </div>
   </section>
 
-  <section class="section-sm" style="background: var(--bg-light);">
+  <section class="section-sm">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Extensions and loft conversions</h2>
-      <p class="leading-relaxed" style="color: var(--text-soft);">
-        A bathroom built as part of a new extension or loft conversion is a different situation from re-fitting an existing room, because the extension or conversion itself may need planning permission or fall under permitted development rights, separate from anything to do with the bathroom inside it. Once that wider project has its own approvals in place, the bathroom within it still needs to meet the same Part P, Part F and Part A requirements as any other bathroom. We coordinate directly with your architect or project manager where a bathroom forms part of a larger build — see our <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="underline" style="color: var(--teal);">fit-only vs design-and-build guide</a> for how that collaboration typically works.
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A bathroom built as part of a new extension or loft conversion is a different situation from re-fitting an existing room, because the extension or conversion itself may need planning permission or fall under permitted development rights, separate from anything to do with the bathroom inside it. Permitted development rights can cover many single-storey extensions and loft conversions without a full planning application, but the specific thresholds — height, volume, proximity to a boundary — vary enough by property that it's worth confirming with the local authority before assuming a project qualifies.
       </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Once that wider project has its own approvals in place, the bathroom within it still needs to meet the same Part P, Part F and Part A requirements as any other bathroom, plus any specific constraints the roofline or new structure introduces — a sloped ceiling affecting shower head height, for example, or a roof window position limiting where ductwork can run.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We coordinate directly with your architect or project manager where a bathroom forms part of a larger build — see our <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="underline" style="color: var(--teal);">fit-only vs design-and-build guide</a> for how that collaboration typically works.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -192,7 +235,7 @@ const faqs = [
     <div class="container max-w-3xl">
       <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
       <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
-        This guide references UK Building Regulations Part A (structure), Part F (ventilation) and Part P (electrical safety), and general principles of listed building consent and conservation area controls. It's a practical overview, not a substitute for checking your specific project with your local authority's building control and planning departments, who make the final determination for any individual property.
+        This guide references UK Building Regulations Part A (structure), Part F (ventilation), Part M (access to and use of buildings) and Part P (electrical safety), and general principles of listed building consent and conservation area controls. It's a practical overview, not a substitute for checking your specific project with your local authority's building control and planning departments, who make the final determination for any individual property.
       </p>
     </div>
   </section>
@@ -211,6 +254,7 @@ const faqs = [
         <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Electrical Zones Explained</a>
         <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Ventilation Regulations</a>
         <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" class="btn-secondary">Listed &amp; Conservation Properties</a>
+        <a href="/services/accessible-luxury-bathrooms/" class="btn-secondary">Accessible Bathrooms</a>
         <a href="/guides/ensuite-cost-uk/" class="btn-secondary">En-Suite Cost UK</a>
       </div>
     </div>

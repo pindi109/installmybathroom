@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-07";
 
@@ -42,6 +43,14 @@ const faqs = [
   {
     q: "Does a wet room need a shower screen, or is it fully open?",
     a: "Either works. A fixed glass panel keeps most of the spray contained to one zone without a frame or door; a fully open wet room with no screen at all is also possible, usually with a slightly larger overall fall area to manage splash.",
+  },
+  {
+    q: "Is a wet room a good option for a disabled or elderly relative's bathroom?",
+    a: "Yes — a level-access wet room with no step at all is one of the most common accessibility adaptations we fit, often alongside grab rails and a fold-down or fixed shower seat. Our building regulations and planning guide covers Part M, or see our accessible bathrooms page for the fuller picture.",
+  },
+  {
+    q: "What flooring is safest for a wet room floor?",
+    a: "Textured porcelain or natural stone with a honed or textured finish gives a safer underfoot grip than a polished finish once the floor is wet, which matters more in a wet room than in a standard bathroom since the whole floor gets wet, not just a confined tray area.",
   },
 ];
 ---
@@ -115,7 +124,7 @@ const faqs = [
           A point drain pulls the fall toward a single central grate, which keeps the tiling layout simple and is usually the quicker option to build. A linear drain runs along one edge of the shower zone and spans a wider area, which gives more freedom over where tiles meet the drain but means calculating a consistent fall across the channel's full length rather than toward one point.
         </p>
         <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
-          Neither is right or wrong — it comes down to the room's proportions and how the floor needs to read visually. We'll talk through both at survey once the floor construction and joist layout are confirmed.
+          Neither is right or wrong — it comes down to the room's proportions and how the floor needs to read visually. We'll talk through both at survey once the floor construction and joist layout are confirmed. At the premium end, a full-room linear drain spanning the entire back wall with large-format book-matched stone either side is a striking look, but it needs the fall calculated across the whole run rather than one corner, which is more first-fix planning than a standard 900mm channel.
         </p>
       </div>
       <div class="card overflow-hidden fade-up hidden md:block">
@@ -152,6 +161,18 @@ const faqs = [
 
   <section class="section-sm">
     <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Choosing a wet room floor finish</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Because the whole floor gets wet rather than just a confined tray area, slip resistance matters more in a wet room than anywhere else in the house. A honed or textured finish on porcelain or natural stone gives real grip underfoot once wet; a high-polish finish that looks striking dry can become genuinely slippery, which is why we'll steer you away from a gloss floor finish even if the same material looks right on the walls.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Large-format tiles reduce the number of grout lines crossing the fall, which both looks cleaner and gives fewer places for water to sit, but they need more precise setting-out to follow the fall accurately — a factor the survey and tile layout plan account for before ordering.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Upstairs wet rooms</h2>
       <p class="leading-relaxed" style="color: var(--text-soft);">
         A wet room above a living space is usually possible, but it needs more checking before it's confirmed. Lowering the floor for a flush finish means understanding exactly what's happening to the joists and any pipework in the void below, which sometimes means opening up the ceiling in the room underneath to inspect rather than assuming from the floor above alone. We flag this clearly at survey rather than after work has started.
@@ -159,7 +180,30 @@ const faqs = [
     </div>
   </section>
 
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figure above covers labour only — strip-out, floor alteration where needed, full-room tanking, the drain installation, tiling, and fitting and commissioning the valve and shower fittings. The drain, tiles, valve and any glass partition are bought separately by you.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately either way: skip hire for the old floor and fixtures, and — for an upstairs conversion — making good the ceiling below if it needed opening up to check joists and pipework.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
     <div class="container max-w-3xl">
       <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
       <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
@@ -168,14 +212,14 @@ const faqs = [
     </div>
   </section>
 
-  <section class="section-sm">
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
       <FAQ items={faqs} schemaId="wet-room-cost-faq" />
     </div>
   </section>
 
-  <section class="section-sm" style="background: var(--bg-light);">
+  <section class="section-sm">
     <div class="container max-w-3xl">
       <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
       <div class="flex flex-wrap gap-3 fade-up">
@@ -187,7 +231,7 @@ const faqs = [
     </div>
   </section>
 
-  <section class="section-sm">
+  <section class="section-sm" style="background: var(--bg-light);">
     <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
       <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
       <p class="mt-1">Last updated: {LAST_UPDATED}</p>

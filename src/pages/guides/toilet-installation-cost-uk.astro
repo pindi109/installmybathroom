@@ -6,6 +6,7 @@ import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import FAQ from "../../components/FAQ.astro";
 import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
 
 const LAST_UPDATED = "2026-10-07";
 
@@ -42,6 +43,14 @@ const faqs = [
   {
     q: "Do I need building control sign-off to add a downstairs toilet?",
     a: "Not usually for the plumbing itself under a competent person scheme, but if the new toilet involves altering drainage that connects to the main stack in a way that affects ventilation of the system, that can need notifying. We check this at survey — see our building regulations and planning guide for the fuller picture.",
+  },
+  {
+    q: "Is it worth upgrading to a shower toilet or bidet at the same time?",
+    a: "If the pan's being replaced anyway, it's worth considering, since the first-fix water and electrical supply a shower toilet needs is far easier to run while the wall's already open than to retrofit later. See our shower toilets explained guide and bidet installation page for what each adds in practice.",
+  },
+  {
+    q: "How long does a toilet installation take?",
+    a: "A like-for-like pan swap can often be done within a day. A wall-hung conversion with a new carrier frame and duct typically takes two to three days including making good the surrounding wall; a brand-new cloakroom with first-fix plumbing from scratch usually runs closer to a week as part of a wider programme.",
   },
 ];
 ---
@@ -115,7 +124,7 @@ const faqs = [
           A wall-hung toilet looks weightless because the real structure is hidden — a carrier frame bears the load the pan only appears to carry on its own. Getting the frame position, duct depth and flush plate alignment right before the wall is closed up is what determines whether the finished result sits flush and true, which is why this stage is checked carefully at survey rather than assumed from the product specification alone.
         </p>
         <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
-          Converting from an existing floor-standing toilet to a wall-hung one is common, but it means building a new duct or stud wall where there wasn't one before, which is extra carpentry on top of the plumbing itself.
+          Converting from an existing floor-standing toilet to a wall-hung one is common, but it means building a new duct or stud wall where there wasn't one before, which is extra carpentry on top of the plumbing itself. At the premium end, a shower toilet on a wall-hung frame needs both the water supply and an electrical spur run into the same duct, which is more straightforward to plan while the wall's already open than to add later.
         </p>
       </div>
       <div class="card overflow-hidden fade-up hidden md:block">
@@ -152,10 +161,33 @@ const faqs = [
 
   <section class="section-sm">
     <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Upgrading to a shower toilet or bidet</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If a toilet's being replaced anyway — whether as a standalone swap or as part of a wider project — it's worth deciding at that point whether a shower toilet or a separate bidet makes sense, rather than fitting a standard pan and reconsidering later. A shower toilet needs both a water supply and an electrical connection run to the pan's position, which is genuinely easier to plan and first-fix while the wall or duct is already open than to retrofit into a finished room.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        See our <a href="/guides/shower-toilets-explained/" class="underline" style="color: var(--teal);">shower toilets explained guide</a> for what the fitting involves, or our <a href="/services/bidet-installation/" class="underline" style="color: var(--teal);">bidet installation page</a> if a separate fixture suits the room's layout better than a combined pan.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
       <h2 class="text-2xl font-bold mb-4 fade-up">Replacing a toilet in the same position</h2>
       <p class="leading-relaxed" style="color: var(--text-soft);">
         The quickest toilet job is a like-for-like pan swap, reusing the existing waste connection and water supply with no first-fix plumbing needed at all. This is priced individually rather than as part of a wider project when it's genuinely the only work involved, and the survey will confirm whether the existing connection and fixing points suit the new pan before you order it.
       </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
     </div>
   </section>
 
