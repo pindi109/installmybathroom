@@ -1,0 +1,199 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Walk-In Shower Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Does a walk-in shower cost more than a standard enclosure?",
+    a: "Usually a little more, because the glass panel is typically a larger, sometimes bespoke-cut piece and the floor area under and around it needs the same tanking standard as any shower, with no frame to help mask a slightly imperfect wall line. The gap is modest rather than dramatic — it's the glass and the wall prep that move the price, not the fitting itself.",
+  },
+  {
+    q: "Can a walk-in shower replace a bath in the same footprint?",
+    a: "Often yes, if the existing waste and supply positions can be reused. Reusing the existing drain position keeps the job closer to the entry-level figure; moving the waste to a different wall adds first-fix plumbing time.",
+  },
+  {
+    q: "Do I need a step, or can it be level with the floor?",
+    a: "Either is possible. A shallow low-profile tray keeps a small upstand and is usually quicker to fit; a fully level, flush floor is effectively a small wet room and needs the same floor-fall and tanking work as one, which is priced accordingly.",
+  },
+  {
+    q: "What size glass panel is standard, and does a bigger one cost more?",
+    a: "There's no single standard size — panels are cut to the opening. Larger or non-rectangular openings (a wall that isn't quite square, for example) take longer to measure and fit accurately than a straightforward rectangular opening, which can add to the price.",
+  },
+  {
+    q: "Is a walk-in shower installation covered by the £125 survey?",
+    a: "Yes. The survey checks the wall and floor substrate, water pressure and flow, the achievable waste position, and the exact opening the glass panel needs to be cut to, before you order anything.",
+  },
+  {
+    q: "Can I keep my existing shower valve and just change the enclosure?",
+    a: "Sometimes, if the existing valve is in good working order and its position suits the new layout. We'll check this at survey — reusing a sound valve avoids unnecessary cost, but concealed valves buried in a wall that's being opened up for other work are usually replaced at the same time since the wall's already open.",
+  },
+];
+---
+
+<Base
+  title="Walk-In Shower Cost UK | Install My Bathroom"
+  description="What a walk-in shower installation costs in the UK, what moves the price, and how to get an exact figure before you order the glass."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Walk-In Shower Cost UK", href: "/guides/walk-in-shower-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Walk-In Shower Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only installation of a client-supplied walk-in shower starts from £{business.pricing.fromGBP.toLocaleString()} where it's the main work in an existing bathroom and the waste position stays where it is. Moving the waste, fitting a fully level floor, or a non-rectangular glass opening all add to that figure. A £{business.pricing.surveyGBP} survey gives you an exact, written number.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        A walk-in shower is simple in concept — a glass panel, a tray or level floor, and a valve — but each of those three elements has a cheaper and a more involved version, and it's the combination that sets the final figure.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Reused vs moved waste</td>
+              <td class="py-3" style="color: var(--text-soft);">Keeping the drain where it already is avoids altering supply and drainage runs.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Low-profile tray vs level floor</td>
+              <td class="py-3" style="color: var(--text-soft);">A flush, level floor needs the same fall-to-drain and full tanking as a small wet room.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Glass panel shape</td>
+              <td class="py-3" style="color: var(--text-soft);">A square opening is quicker to measure and fit than a non-square wall or an angled layout.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Concealed vs exposed valve</td>
+              <td class="py-3" style="color: var(--text-soft);">A new concealed valve means opening up the wall; an exposed valve on an existing supply is quicker to fit.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Wall finish</td>
+              <td class="py-3" style="color: var(--text-soft);">Natural stone takes longer to cut, seal and fit around the panel fixings than large-format porcelain.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic scenario</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common job we see is a bath-to-shower conversion: an existing bath is stripped out, the waste position is reused since it already sits in roughly the right place, a low-profile tray goes down, and a rectangular glass panel is fitted to a wall that's being re-tiled in large-format porcelain at the same time. That's close to the entry-level figure, because none of the higher-cost drivers above apply.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          Where the brief changes — the shower moves to the opposite wall, the floor needs levelling to remove the step entirely, or the opening isn't a simple rectangle — each of those adds its own first-fix, tanking or glass-fitting time on top of that baseline, which is why two walk-in showers that look similar in a photo can price quite differently once the survey measures the actual room.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/walk-in-shower-cost-waterfall-macro.webp"
+          alt="Close detail of an overhead rainfall shower head with water falling, set into an anthracite stone ceiling recess"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/walk-in-shower-cost-valve-detail.webp"
+          alt="Close detail of a brushed gunmetal concealed thermostatic shower valve and handset on an anthracite stone wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/walk-in-shower-cost-glass-panel-wide.webp"
+          alt="Frameless glass shower panel against an anthracite stone wall forming an open walk-in shower zone"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">How this differs from a wet room</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A walk-in shower and a wet room are often confused, but the floor construction is what actually separates them. A walk-in shower can sit on a shallow tray with a small upstand, which is a quicker, less invasive job than removing a step entirely. Once the floor is flush throughout the room with no upstand at all, it's priced and built as a wet room rather than a walk-in shower — see our <a href="/guides/wet-room-cost-uk/" class="underline" style="color: var(--teal);">wet room cost guide</a> for that distinction, or our <a href="/guides/wet-room-vs-walk-in-shower/" class="underline" style="color: var(--teal);">wet room vs walk-in shower guide</a> for a fuller comparison.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tanking and tiling practice referenced in this guide follows BS 5385 (wall and floor tiling). This figure is specific to a walk-in shower installed as the main work within an existing bathroom; for a full room re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="walk-in-shower-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/walk-in-shower-installation/" class="btn-secondary">Walk-In Shower Installation</a>
+        <a href="/guides/wet-room-cost-uk/" class="btn-secondary">Wet Room Cost UK</a>
+        <a href="/guides/wet-room-vs-walk-in-shower/" class="btn-secondary">Wet Room vs Walk-In Shower</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,228 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Building Regulations and Planning Permission Explained",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Do I need planning permission for a new bathroom?",
+    a: "Not usually, if it's internal work within the existing footprint of the house — converting a bedroom corner, box room or understairs space into a bathroom doesn't change the external envelope, which is what planning permission generally controls. An extension or loft conversion that creates new habitable space is a different matter and can need planning permission in its own right, separate from the bathroom inside it.",
+  },
+  {
+    q: "Do I need building regulations approval for a new bathroom?",
+    a: "Yes, in parts. Building Regulations don't usually require a separate full application for a straightforward bathroom re-fit, but specific elements do need to meet them and be signed off: electrical work under Part P, ventilation under Part F, and any structural alteration under Part A.",
+  },
+  {
+    q: "Do I need planning permission for an en-suite?",
+    a: "Generally no, for the same reason as any internal bathroom — it doesn't change the external envelope of the property. The exception is if the en-suite forms part of a wider extension or conversion project.",
+  },
+  {
+    q: "Do I need building control sign-off for a downstairs toilet?",
+    a: "The plumbing itself is usually covered under a competent person scheme rather than needing a separate building control application, but any new drainage connection or venting arrangement affecting the existing soil stack is worth confirming at survey stage.",
+  },
+  {
+    q: "Do I need building regulations to move a bathroom to a different room?",
+    a: "The electrical and ventilation requirements apply to the new location exactly as they would to any bathroom. If moving the room involves altering structural elements — removing a wall, forming a new opening, or changing a floor structure for a wet room — that structural work needs to meet Part A and may need building control notification.",
+  },
+  {
+    q: "What size does a bathroom need to be under building regulations?",
+    a: "There's no single minimum room size set out in the Building Regulations themselves, though practical constraints around door swing, fixture spacing and ventilation effectively set a sensible lower limit. Accessible bathroom design has its own separate guidance where relevant — see our accessible bathrooms page.",
+  },
+  {
+    q: "Does a heated towel rail need to meet any particular regulation?",
+    a: "The electrical connection for a towel rail on its own circuit, or wired into an existing circuit, needs to meet Part P like any other bathroom electrical work. The rail itself isn't separately regulated.",
+  },
+  {
+    q: "What work doesn't require planning permission?",
+    a: "As a general rule, internal alterations that don't change the external appearance or footprint of the building — re-fitting a bathroom, converting an internal room, moving a stud wall — don't require planning permission. Anything affecting the external envelope, a listed building, or a property in a conservation area can be different, and is always worth checking with the local authority before committing to a layout.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Building Regulations & Planning | Install My Bathroom"
+  description="Do you need planning permission or building regulations approval for a new bathroom, en-suite or downstairs toilet? A clear guide for UK homeowners."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Building Regulations & Planning", href: "/guides/bathroom-building-regulations-and-planning/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Building Regulations and Planning Permission Explained</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Planning permission and Building Regulations are two different things. Most bathroom re-fits, en-suite conversions and new downstairs toilets are internal work and don't need planning permission. Building Regulations still apply to specific elements — electrics, ventilation, and any structural change — regardless of whether planning permission is needed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Planning permission vs Building Regulations</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        The two are often confused because both involve the word "permission," but they control different things. Planning permission is about whether you're allowed to change the external appearance, footprint or use of a building. Building Regulations are about whether the work itself is done safely and to a technical standard — structurally sound, safely wired, properly ventilated — regardless of whether planning permission was needed to do it.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Project</th>
+              <th class="text-left py-3 pr-4 font-semibold">Planning permission</th>
+              <th class="text-left py-3 font-semibold">Building Regulations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Re-fitting an existing bathroom</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Not usually needed</td>
+              <td class="py-3" style="color: var(--text-soft);">Applies to electrics (Part P) and ventilation (Part F)</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Converting a bedroom into an en-suite</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Not usually needed</td>
+              <td class="py-3" style="color: var(--text-soft);">Applies to electrics and ventilation; structural sign-off if a wall moves</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">New downstairs cloakroom</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Not usually needed</td>
+              <td class="py-3" style="color: var(--text-soft);">Drainage connection to the soil stack may need notifying</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bathroom in a loft conversion or extension</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">The conversion or extension itself may need it</td>
+              <td class="py-3" style="color: var(--text-soft);">Full structural, electrical and ventilation sign-off as part of the wider project</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Any of the above in a listed building</td>
+              <td class="py-3 pr-4" style="color: var(--text-soft);">Listed building consent can apply even to internal work</td>
+              <td class="py-3" style="color: var(--text-soft);">Same Building Regulations apply alongside any consent needed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Electrics, ventilation and structure</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Three parts of the Building Regulations come up in almost every bathroom project, regardless of whether planning permission is needed at all. Part P covers electrical safety — any new circuit, socket or lighting point needs to be installed and signed off by a registered electrician, with specific rules about what can go where relative to a bath or shower. Our <a href="/guides/bathroom-electrical-zones-explained/" class="underline" style="color: var(--teal);">bathroom electrical zones guide</a> covers this in detail.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Part F covers ventilation — most bathrooms without an openable window need a mechanical extractor fan ducted to outside air, sized to the room. Our <a href="/guides/bathroom-ventilation-regulations/" class="underline" style="color: var(--teal);">ventilation regulations guide</a> sets out what this means in practice.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Part A covers structure — removing or moving a stud wall, forming a new opening, or lowering a floor for a wet room can need building control sign-off if it affects a load-bearing element, even though none of this requires planning permission on its own.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">Listed buildings and conservation areas</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Internal alterations that would be unremarkable in an unlisted property can need listed building consent where a protected staircase, historic partition wall or original joinery is affected — this applies even to work that doesn't touch the exterior of the building at all. The same applies to some conservation area properties, though the threshold is generally lower than for a listed building.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          We flag this at survey if a property looks like it may be affected, and always recommend checking directly with the local authority's conservation officer before committing to a layout that involves structural change in a listed or conservation-area property. Our <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" class="underline" style="color: var(--teal);">listed and conservation properties guide</a> covers this in more depth.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/building-regs-tanking-membrane-detail.webp"
+          alt="Close detail of a waterproofing tanking membrane being applied to a stud wall during a bathroom first-fix stage"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/building-regs-electrical-first-fix-detail.webp"
+          alt="Close detail of an electrical back box and cable set into a stud wall cavity during bathroom first-fix"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/building-regs-wide-shot.webp"
+          alt="Finished bathroom built into a loft conversion with a sloped ceiling following the roofline and a freestanding bath beneath it"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Extensions and loft conversions</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A bathroom built as part of a new extension or loft conversion is a different situation from re-fitting an existing room, because the extension or conversion itself may need planning permission or fall under permitted development rights, separate from anything to do with the bathroom inside it. Once that wider project has its own approvals in place, the bathroom within it still needs to meet the same Part P, Part F and Part A requirements as any other bathroom. We coordinate directly with your architect or project manager where a bathroom forms part of a larger build — see our <a href="/guides/fit-only-vs-design-and-build-bathroom/" class="underline" style="color: var(--teal);">fit-only vs design-and-build guide</a> for how that collaboration typically works.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        This guide references UK Building Regulations Part A (structure), Part F (ventilation) and Part P (electrical safety), and general principles of listed building consent and conservation area controls. It's a practical overview, not a substitute for checking your specific project with your local authority's building control and planning departments, who make the final determination for any individual property.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="building-regs-planning-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Electrical Zones Explained</a>
+        <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Ventilation Regulations</a>
+        <a href="/guides/bathroom-renovation-in-listed-and-conservation-properties/" class="btn-secondary">Listed &amp; Conservation Properties</a>
+        <a href="/guides/ensuite-cost-uk/" class="btn-secondary">En-Suite Cost UK</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,198 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bath Installation Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Does a freestanding bath cost more to fit than a built-in bath?",
+    a: "Usually yes, because its waste, overflow and tap pipework run beneath or through the floor rather than hiding behind a panel, so the floor structure and first-fix positions matter more and need confirming before the bath is ordered.",
+  },
+  {
+    q: "Why does the type of bath material affect fitting cost?",
+    a: "Cast iron is very heavy and needs floor loading confirmed before delivery; stone resin and steel are lighter but each has its own handling and levelling requirements. The material itself doesn't change the fitting method dramatically, but weight affects access and floor checks.",
+  },
+  {
+    q: "Is a floor-mounted tap more expensive to fit than a wall-mounted one?",
+    a: "Yes, generally. A floor-mounted filler needs its own supply pipework routed up through the floor at an exact position relative to the bath, which takes more first-fix planning than a wall-mounted tap fed from behind an existing panel.",
+  },
+  {
+    q: "Can I replace a bath with a bath in the exact same spot for less?",
+    a: "Yes — reusing the existing waste, overflow and tap positions is the quickest and most predictable bath job, since no first-fix pipework needs to move.",
+  },
+  {
+    q: "Does the £125 survey check floor loading for a heavy bath?",
+    a: "Yes. Floor loading, joist condition, and the exact bath position relative to supply and waste are all confirmed before you order a specific model, since access and delivery are checked at the same visit.",
+  },
+  {
+    q: "Can a bath and a separate shower both fit in the same room?",
+    a: "Often yes, depending on the room's footprint — this is one of the most common briefs we see. Each fixture is priced on what it needs individually, so a bath-plus-shower room reflects both sets of first-fix work rather than one combined lower figure.",
+  },
+];
+---
+
+<Base
+  title="Bath Installation Cost UK | Install My Bathroom"
+  description="What a fit-only bath installation costs in the UK, how the bath type and tap position affect price, and how to get an exact figure."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bath Installation Cost UK", href: "/guides/bath-installation-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bath Installation Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only installation of a client-supplied bath starts from £{business.pricing.fromGBP.toLocaleString()} where the existing waste, overflow and supply positions are reused. A freestanding bath with a floor-mounted filler, a moved waste position, or a heavy cast-iron model needing floor checks all add to that figure. A £{business.pricing.surveyGBP} survey gives you an exact, written number.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        A bath looks like one of the simplest fixtures to install, but its pipework is often the most exposed of any fitting in the room — running beneath or through the floor rather than hiding behind a panel — which is why position and tap type matter more here than for most other fixtures.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Freestanding vs built-in</td>
+              <td class="py-3" style="color: var(--text-soft);">Freestanding waste and tap pipework runs through the floor rather than hiding behind a bath panel.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Floor-mounted vs wall-mounted tap</td>
+              <td class="py-3" style="color: var(--text-soft);">A floor-standing filler needs its own supply routed up through the floor at an exact position.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Reused vs moved position</td>
+              <td class="py-3" style="color: var(--text-soft);">Keeping waste and supply where they already are avoids altering drainage runs.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bath weight and material</td>
+              <td class="py-3" style="color: var(--text-soft);">Cast iron needs floor loading confirmed before delivery; access for a heavy bath is checked at survey.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Panel and surround finish</td>
+              <td class="py-3" style="color: var(--text-soft);">A built-in bath with a tiled or stone panel takes longer to finish than an exposed freestanding bath.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">Floor-mounted vs wall-mounted taps</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          A wall-mounted tap is fed from pipework hidden behind the wall or an adjacent panel, which is usually quicker to first-fix if that wall already carries supply. A floor-standing filler is fed from below, which means the supply pipe has to be routed up through the floor at precisely the position the tap will sit — get that position wrong before the floor's closed up and it's a much bigger job to correct afterward.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          Both are common choices on a freestanding bath; the deciding factor is usually the room's layout and where supply can realistically reach, which the survey confirms before you commit to a specific tap position.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/bath-installation-cost-filler-tap-macro.webp"
+          alt="Close detail of a tall brushed brass floor-standing bath filler tap beside the rolled edge of a stone-resin freestanding bath"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bath-installation-cost-carved-sink-macro.webp"
+          alt="Close detail of a hand-carved stone vessel basin with a brushed brass pillar tap on a timber-topped vanity"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bath-installation-cost-wide-shot.webp"
+          alt="Finished freestanding stone-resin bath viewed along its length against a stone-grey tiled wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Replacing a bath in the same position</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The quickest and most predictable bath job is a like-for-like replacement, where the new bath sits in exactly the same footprint as the old one and reuses the existing waste, overflow and supply. This is close to the entry-level figure because none of the position-related cost drivers above apply — the main variables left are the bath's weight and whether the surrounding panel or tiling needs redoing to suit the new model.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Floor loading assessment follows standard joist-span guidance for domestic floors. This figure is specific to a bath installed as the main work within an existing bathroom; for a full room re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bath-installation-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/freestanding-bath-installation/" class="btn-secondary">Freestanding Bath Installation</a>
+        <a href="/guides/kaldewei-steel-vs-stone-resin-baths/" class="btn-secondary">Steel vs Stone Resin Baths</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

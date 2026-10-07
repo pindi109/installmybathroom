@@ -1,0 +1,199 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Toilet Installation Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Why does a wall-hung toilet cost more to fit than a floor-standing one?",
+    a: "A wall-hung toilet needs a steel carrier frame bolted into the floor and wall structure behind it, hidden inside a stud wall or duct, which is more first-fix work than connecting a floor-standing pan to an existing waste outlet.",
+  },
+  {
+    q: "Does a downstairs cloakroom cost more to fit than a toilet in an existing bathroom?",
+    a: "Usually yes, if it's a new cloakroom in a space that's never had plumbing — first-fixing supply and waste to a understairs cupboard or similar space is more work than adding a toilet to a room that already has services nearby.",
+  },
+  {
+    q: "Can I keep the same toilet position and just replace the pan?",
+    a: "Yes, and it's the quickest option — reusing the existing waste connection and supply avoids any first-fix plumbing, leaving mainly the pan swap and reseal.",
+  },
+  {
+    q: "Is a concealed cistern more expensive than an exposed one?",
+    a: "Yes, generally, since a concealed cistern needs a frame or duct built to hide it, plus an access panel for future servicing — an exposed close-coupled cistern sits directly on the pan with no additional carpentry.",
+  },
+  {
+    q: "What does the £125 survey check for a toilet installation?",
+    a: "Available duct depth for a concealed cistern, floor and wall fixing points for a wall-hung frame, and the waste route to the stack — all confirmed against the frame and pan you're considering before you order.",
+  },
+  {
+    q: "Do I need building control sign-off to add a downstairs toilet?",
+    a: "Not usually for the plumbing itself under a competent person scheme, but if the new toilet involves altering drainage that connects to the main stack in a way that affects ventilation of the system, that can need notifying. We check this at survey — see our building regulations and planning guide for the fuller picture.",
+  },
+];
+---
+
+<Base
+  title="Toilet Installation Cost UK | Install My Bathroom"
+  description="What a fit-only toilet or downstairs cloakroom installation costs in the UK, why wall-hung frames cost more, and how to get an exact figure."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Toilet Installation Cost UK", href: "/guides/toilet-installation-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Toilet Installation Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only installation of a client-supplied toilet starts from £{business.pricing.fromGBP.toLocaleString()} where it's part of a wider bathroom project, or is priced individually for a standalone pan swap once the survey confirms scope. A wall-hung frame, a concealed cistern, or a brand-new downstairs cloakroom all add first-fix work beyond a simple like-for-like replacement. A £{business.pricing.surveyGBP} survey gives you an exact, written number.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        A toilet installation ranges from a straightforward pan swap to building an entirely new cloakroom from scratch, and the gap between those two jobs is almost entirely in the first-fix work, not the fixture itself.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Wall-hung vs floor-standing</td>
+              <td class="py-3" style="color: var(--text-soft);">A wall-hung pan needs a steel carrier frame bolted into the floor and wall, hidden in a stud wall or duct.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Concealed vs exposed cistern</td>
+              <td class="py-3" style="color: var(--text-soft);">A concealed cistern needs a frame or duct built around it, plus an access panel for servicing.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">New cloakroom vs existing room</td>
+              <td class="py-3" style="color: var(--text-soft);">First-fixing supply and waste to a space that's never had plumbing is more work than an existing bathroom.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Reused vs moved waste</td>
+              <td class="py-3" style="color: var(--text-soft);">Keeping the existing connection avoids altering the drainage route to the stack.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Room finish</td>
+              <td class="py-3" style="color: var(--text-soft);">A small, highly visible cloakroom leaves no margin for an out-of-true tile line, which takes more care to set out than a larger room.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">Choosing a frame, cistern and flush plate</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          A wall-hung toilet looks weightless because the real structure is hidden — a carrier frame bears the load the pan only appears to carry on its own. Getting the frame position, duct depth and flush plate alignment right before the wall is closed up is what determines whether the finished result sits flush and true, which is why this stage is checked carefully at survey rather than assumed from the product specification alone.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          Converting from an existing floor-standing toilet to a wall-hung one is common, but it means building a new duct or stud wall where there wasn't one before, which is extra carpentry on top of the plumbing itself.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/toilet-installation-cost-flush-plate-macro.webp"
+          alt="Close detail of a brushed brass dual-flush plate set into a walnut timber-panelled wall above a wall-hung WC"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/toilet-installation-cost-accessory-macro.webp"
+          alt="Close detail of a brushed brass wall-mounted toilet roll holder fixed to a walnut timber-panelled wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/toilet-installation-cost-basin-wide.webp"
+          alt="Finished compact vanity basin in a walnut timber-topped unit with a wall-hung WC visible alongside"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Replacing a toilet in the same position</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        The quickest toilet job is a like-for-like pan swap, reusing the existing waste connection and water supply with no first-fix plumbing needed at all. This is priced individually rather than as part of a wider project when it's genuinely the only work involved, and the survey will confirm whether the existing connection and fixing points suit the new pan before you order it.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Carrier frame and cistern fitting referenced in this guide follows manufacturer installation guidance current at the time of writing. This figure is specific to a toilet installed individually or as part of a wider project; for a full room re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="toilet-installation-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/wall-hung-toilet-and-concealed-cistern-installation/" class="btn-secondary">Wall-Hung Toilet Installation</a>
+        <a href="/services/cloakroom-and-wc-installation/" class="btn-secondary">Cloakroom &amp; WC Installation</a>
+        <a href="/guides/geberit-vs-grohe-concealed-cisterns/" class="btn-secondary">Geberit vs Grohe Cisterns</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

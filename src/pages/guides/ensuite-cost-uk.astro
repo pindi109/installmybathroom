@@ -1,0 +1,198 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "En-Suite Installation Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Is an en-suite cheaper to fit than a family bathroom because it's smaller?",
+    a: "Not reliably. A compact en-suite still needs a shower or bath, a WC and a basin all connected, and in a tight footprint that often means more first-fix work per square metre than a larger room with the same three fixtures spaced further apart.",
+  },
+  {
+    q: "Does converting a bedroom corner into an en-suite need planning permission?",
+    a: "Usually not, since it's internal work rather than a change to the external envelope. Building Regulations still apply to the electrics and ventilation — see our building regulations and planning guide for the full picture.",
+  },
+  {
+    q: "What ventilation does an en-suite need if it has no window?",
+    a: "A mechanical extractor fan meeting Part F requirements, since most converted en-suites don't have an openable window. The duct run to outside air is checked at survey, since a longer or more convoluted run can affect which fan is suitable.",
+  },
+  {
+    q: "Can I fit a shower, bath and separate WC in a small en-suite?",
+    a: "Sometimes, if the footprint allows it, but fitting more sanitaryware into the same room multiplies waste runs and connections rather than simply filling space, which is reflected in the price rather than the room's floor area alone.",
+  },
+  {
+    q: "What does the £125 survey check for an en-suite?",
+    a: "Available floor area, door swing, the drainage route to the soil stack, and water pressure and flow — usually testing two or three layout options against the same measurements before confirming which one is achievable.",
+  },
+  {
+    q: "Do I need to move a stud wall to fit an en-suite into a box room?",
+    a: "Sometimes, if the existing layout doesn't allow a workable door swing or fixture spacing. Moving a stud wall is a straightforward job on its own, but can need building control sign-off if it affects a structural element — we'll flag that at survey if it looks relevant.",
+  },
+];
+---
+
+<Base
+  title="En-Suite Installation Cost UK | Install My Bathroom"
+  description="What a fit-only en-suite installation costs in the UK, why small footprints don't scale down in price, and how to get an exact figure."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "En-Suite Cost UK", href: "/guides/ensuite-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">En-Suite Installation Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only installation of a client-supplied en-suite starts from £{business.pricing.fromGBP.toLocaleString()} for a straightforward layout within an existing room or converted space. Fitting more sanitaryware into the same footprint, moving waste positions, or structural changes to the opening all add to that figure. A £{business.pricing.surveyGBP} survey gives you an exact, written number.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">Why cost doesn't scale down with room size</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        It's tempting to assume a smaller room means a smaller bill, but labour in a bathroom is driven far more by what's being installed and connected than by floor area. A compact en-suite with the same number of fixtures as a larger family bathroom often involves just as much first-fix plumbing and electrical work, packed into less space.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Number of fixtures</td>
+              <td class="py-3" style="color: var(--text-soft);">A shower, WC and basin all connected in a tight footprint means more waste runs per square metre, not fewer.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">New vs converted space</td>
+              <td class="py-3" style="color: var(--text-soft);">Converting a bedroom corner means first-fixing services that may not exist nearby at all, versus an existing bathroom being re-fitted.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Ventilation route</td>
+              <td class="py-3" style="color: var(--text-soft);">A windowless en-suite needs a mechanical extractor ducted to outside air — a longer or more awkward run adds first-fix time.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Stud wall changes</td>
+              <td class="py-3" style="color: var(--text-soft);">Moving a wall to fit a workable door swing or fixture layout adds carpentry and sometimes building control sign-off.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Finish level</td>
+              <td class="py-3" style="color: var(--text-soft);">Natural stone or a bespoke vanity in a small room still needs the same careful cutting and fitting as a larger one.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">Converting a bedroom corner</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common en-suite job we see is a redundant bedroom corner or box room being converted from scratch. Unlike re-fitting an existing bathroom, this usually means first-fixing supply and waste to a space that's never had them — running pipework from the nearest existing stack, checking the floor void has room for a waste fall, and confirming the electrical supply can take a new circuit.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          None of that is unusual, but it's extra work compared with re-fitting a room that already has services in roughly the right place, which is why a new-build en-suite in a converted space often sits toward the higher end of the range even at a modest size.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/ensuite-cost-vanity-tap-macro.webp"
+          alt="Close detail of a brushed brass single-lever basin tap on a navy stone vanity countertop"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/ensuite-cost-towel-rail-macro.webp"
+          alt="Close detail of a brushed brass vertical heated towel rail on a navy tiled wall with a white towel draped over it"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/ensuite-cost-mirror-cabinet-detail.webp"
+          alt="Close detail of an illuminated mirror cabinet mounted on a navy tiled wall above a basin"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Planning permission and building regulations</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Converting an internal room into an en-suite doesn't generally need planning permission, since it doesn't change the external envelope of the house. Building Regulations still apply — Part P for any new electrical circuit and Part F for ventilation — and listed or conservation-area properties can need additional consent even for internal work. Our <a href="/guides/bathroom-building-regulations-and-planning/" class="underline" style="color: var(--teal);">building regulations and planning guide</a> covers this in full.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Electrical work referenced follows Building Regulations Part P; ventilation follows Part F. This figure is specific to an en-suite installed as its own project; for a full bathroom re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="ensuite-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/ensuite-installation/" class="btn-secondary">En-Suite Installation</a>
+        <a href="/guides/bathroom-building-regulations-and-planning/" class="btn-secondary">Building Regulations &amp; Planning</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

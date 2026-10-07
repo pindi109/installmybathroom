@@ -1,0 +1,199 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Wet Room Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "Why does a wet room cost more than a walk-in shower?",
+    a: "A wet room needs the entire floor tanked and falling to drain, not just the area under a tray, and usually needs part of the floor structure altered to achieve that fall — a walk-in shower on a tray only needs tanking confined to the enclosure itself.",
+  },
+  {
+    q: "Does a wet room need the floor lowered?",
+    a: "Often, yes, at least in the shower zone. Achieving a level-access, flush floor usually means dropping part of the floor build-up so there's room for the fall to drain plus the waterproofing and tile bed, which is more first-fix work than a floor that stays at its existing height.",
+  },
+  {
+    q: "Is a point drain or a linear drain cheaper?",
+    a: "A point drain is usually the simpler, lower-cost option for a standard-sized shower zone. A linear drain spans a wider area and gives more flexibility on tile layout, but needs a longer fall calculated across its full length, which can add first-fix time.",
+  },
+  {
+    q: "Can I convert an upstairs bathroom into a wet room?",
+    a: "Usually yes, but joist depth and the ceiling below both need checking at survey — upstairs wet rooms sometimes need the ceiling in the room below opened up to confirm joist spacing and pipework before the floor can be safely lowered.",
+  },
+  {
+    q: "What's included in the £125 survey for a wet room?",
+    a: "Joist depth, the floor level relative to adjoining rooms, the achievable drain position, and — for an upstairs room — a check of the ceiling below, all confirmed before anything is priced or ordered.",
+  },
+  {
+    q: "Does a wet room need a shower screen, or is it fully open?",
+    a: "Either works. A fixed glass panel keeps most of the spray contained to one zone without a frame or door; a fully open wet room with no screen at all is also possible, usually with a slightly larger overall fall area to manage splash.",
+  },
+];
+---
+
+<Base
+  title="Wet Room Cost UK | Install My Bathroom"
+  description="What a wet room installation costs in the UK, why the floor construction drives the price, and how to get an exact figure before you order anything."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Wet Room Cost UK", href: "/guides/wet-room-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Wet Room Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only installation of a client-supplied wet room starts from £{business.pricing.fromGBP.toLocaleString()} for a straightforward room where the existing floor height allows the fall to be built in without major structural change. Lowering the floor, an upstairs conversion, or a larger linear drain all add to that figure. A £{business.pricing.surveyGBP} survey gives you an exact, written number.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        Almost all of a wet room's cost sits in the floor, not in the fittings. Getting the fall, the tanking and the drain right before a single tile is laid is what separates a wet room from every other shower type, and it's also where most of the price variation comes from.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Floor lowered vs existing height</td>
+              <td class="py-3" style="color: var(--text-soft);">Dropping the floor build-up for a flush finish is extra carpentry beyond tanking and tiling alone.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Upstairs vs ground floor</td>
+              <td class="py-3" style="color: var(--text-soft);">Joist depth and the ceiling below both need checking, sometimes opening up that ceiling to confirm.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Linear vs point drain</td>
+              <td class="py-3" style="color: var(--text-soft);">A linear drain's fall is calculated across its full length rather than toward one central point.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Room size</td>
+              <td class="py-3" style="color: var(--text-soft);">A larger room means more floor area to tank and fall consistently, not just a bigger shower zone.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Wall and floor finish</td>
+              <td class="py-3" style="color: var(--text-soft);">Natural stone takes longer to seal and fit around a drain channel than large-format porcelain.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">Point drain or linear channel</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          A point drain pulls the fall toward a single central grate, which keeps the tiling layout simple and is usually the quicker option to build. A linear drain runs along one edge of the shower zone and spans a wider area, which gives more freedom over where tiles meet the drain but means calculating a consistent fall across the channel's full length rather than toward one point.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          Neither is right or wrong — it comes down to the room's proportions and how the floor needs to read visually. We'll talk through both at survey once the floor construction and joist layout are confirmed.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/wet-room-cost-drain-detail.webp"
+          alt="Close detail of a brushed black-nickel linear drain channel set flush into black stone tile with water flowing into it"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/wet-room-cost-mixer-tap-macro.webp"
+          alt="Close detail of a brushed black-nickel wall-mounted basin mixer tap against a black stone wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/wet-room-cost-shower-zone-wide.webp"
+          alt="Finished wet room shower zone with an overhead shower arm and recessed niche shelf against black stone walls"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Upstairs wet rooms</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A wet room above a living space is usually possible, but it needs more checking before it's confirmed. Lowering the floor for a flush finish means understanding exactly what's happening to the joists and any pipework in the void below, which sometimes means opening up the ceiling in the room underneath to inspect rather than assuming from the floor above alone. We flag this clearly at survey rather than after work has started.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tanking practice referenced in this guide follows BS 5385 (wall and floor tiling) and manufacturer tanking system guidance for full-floor applications. This figure is specific to a wet room installed as the main work within an existing bathroom; for a full room re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="wet-room-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/wet-room-installation/" class="btn-secondary">Wet Room Installation</a>
+        <a href="/guides/walk-in-shower-cost-uk/" class="btn-secondary">Walk-In Shower Cost UK</a>
+        <a href="/guides/wet-room-vs-walk-in-shower/" class="btn-secondary">Wet Room vs Walk-In Shower</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking Standards Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>
