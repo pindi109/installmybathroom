@@ -1,0 +1,21 @@
+{
+  "name": "Install My Bathroom",
+  "short_name": "Install My Bathroom",
+  "description": "Luxury fit-only bathroom installation across Berkshire and Buckinghamshire.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0F766E",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/imb-logo-icon.webp",
+      "sizes": "256x171",
+      "type": "image/webp"
+    }
+  ]
+}
