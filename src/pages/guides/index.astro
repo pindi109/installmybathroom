@@ -4,6 +4,7 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import guides from "../../data/guides.json";
 ---
 
 <Base
@@ -24,10 +25,13 @@ import Breadcrumbs from "../../components/Breadcrumbs.astro";
 
   <section class="section-sm" style="background: var(--bg-light);">
     <div class="container">
+      <h2 class="text-2xl font-bold mb-4 fade-up">All guides</h2>
       <div class="grid md:grid-cols-2 gap-4">
-        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="card p-5 hover:-translate-y-1 transition-transform fade-up">
-          <span class="font-semibold">How Much Does a Luxury Bathroom Installation Cost in the UK?</span>
-        </a>
+        {guides.map((g: { slug: string; name: string }) => (
+          <a href={`/guides/${g.slug}/`} class="card p-5 hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{g.name}</span>
+          </a>
+        ))}
       </div>
     </div>
   </section>
