@@ -32,11 +32,3 @@
   to = "https://installmybathroom.co.uk/:splat"
   status = 301
   force = true
-
-# @astrojs/sitemap outputs sitemap-index.xml (its standard format), but
-# /sitemap.xml is the more commonly expected path — serve the same content
-# at both so neither habit nor tooling defaults cause a 404.
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap-index.xml"
-  status = 200

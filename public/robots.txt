@@ -16,4 +16,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://installmybathroom.co.uk/sitemap-index.xml
+Sitemap: https://installmybathroom.co.uk/sitemap.xml
