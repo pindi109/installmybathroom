@@ -3,6 +3,7 @@ import "../styles/global.css";
 import heroManifest from "../../public/hero-manifest.json";
 import altTagsData from "../data/alt-tags.json";
 import WhatsAppButton from "../components/WhatsAppButton.astro";
+import BusinessSchema from "../components/BusinessSchema.astro";
 
 export interface Props {
   title: string;
@@ -101,7 +102,11 @@ const resolvedOgImage =
          DECISION: Imported in frontmatter (not <link>) so Astro/Vite bundles and
          fingerprints the CSS at build time. The <style> tag approach would scope it. -->
 
-    <!-- Schema slot (FAQPage, BreadcrumbList, LocalBusiness, etc.) -->
+    <!-- Site-wide business identity, present on every page (matching @id lets
+         Google merge these into one entity rather than treating each as separate). -->
+    <BusinessSchema />
+
+    <!-- Page-specific schema slot (FAQPage, BreadcrumbList, Service, etc.) -->
     <slot name="schema" />
   </head>
 

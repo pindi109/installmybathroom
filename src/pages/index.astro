@@ -3,7 +3,6 @@ import Base from "../layouts/Base.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import StickyMobileCTA from "../components/StickyMobileCTA.astro";
-import BusinessSchema from "../components/BusinessSchema.astro";
 import FAQ from "../components/FAQ.astro";
 import { business, entityOneLiner } from "../config/business.ts";
 import services from "../data/services.json";
@@ -51,7 +50,6 @@ const faqs = [
   description="Specialist fit-only bathroom installation across Sunningdale, Gerrards Cross, Ascot, Windsor and Bracknell. Client-supplied sanitaryware, 30 years' experience, from £3,500."
 >
   <Header slot="header" />
-  <BusinessSchema slot="schema" />
 
   <section class="section-sm" style={`background: var(--hero-gradient);`}>
     <div class="container">
