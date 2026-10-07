@@ -25,6 +25,7 @@ import services from "../../data/services.json";
 
   <section class="section-sm" style="background: var(--bg-light);">
     <div class="container">
+      <h2 class="text-2xl font-bold mb-4 fade-up">All services</h2>
       <div class="grid md:grid-cols-3 gap-4">
         {services.map((s: { slug: string; name: string }) => (
           <a href={`/services/${s.slug}/`} class="card p-5 hover:-translate-y-1 transition-transform fade-up">
