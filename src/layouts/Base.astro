@@ -114,6 +114,8 @@ const resolvedOgImage =
       <div style="width:100%;height:clamp(240px,38vw,520px);overflow:hidden;line-height:0;">
         <img
           src={heroSrc}
+          srcset={`${heroSrc.replace(".webp", "-480w.webp")} 480w, ${heroSrc.replace(".webp", "-768w.webp")} 768w, ${heroSrc.replace(".webp", "-1200w.webp")} 1200w, ${heroSrc} 1834w`}
+          sizes="100vw"
           alt={heroAlt}
           width="1834"
           height="1024"
