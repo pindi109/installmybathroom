@@ -1,0 +1,77 @@
+{
+  "path": "/areas-brands/eton/",
+  "family": "Per-town: brands in area",
+  "town": "eton",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Eton | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Eton's period properties, and how our fit-only installation model works — your products, our labour, from Geberit to Burlington and Lefroy Brooks.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/eton/"
+  },
+  "h1": "Bathroom brands we fit in Eton",
+  "hero": {
+    "intro": "We work on a fit-only basis across Eton, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. For homeowners in Eton's period properties, that distinction matters for a particular reason: a concentration of period properties along and around the High Street, many dating from the Georgian and Victorian periods, with narrower frontages and more compact floor plans than the larger detached houses found further out in Berkshire, means both the style of product that suits the house and the practicality of getting it into the room are genuinely different questions here than they are elsewhere. Across the projects we work on in Eton, a recurring set of brands turns up again and again, and we've built our fitting process around the specific detail each one needs, including how it travels through a narrow original staircase or doorway before it ever reaches the bathroom itself."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. This works well in Eton, where period-sympathetic brands are often specified alongside more contemporary pieces, and where the quote you get needs to reflect labour, fitting complexity and access honestly, rather than bundling in a retail margin on the products themselves. Where it matters most is in the detail: a concealed cistern frame behind original lath-and-plaster, a frameless glass screen measured precisely for a non-standard period opening, or a heavy freestanding bath that has to clear a narrow staircase turn, all need to be thought through before a wall closes up or a product is ordered — and we work through exactly what's been specified at survey, not on fitting day."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs are among the sanitaryware we fit most often, and correct frame selection and structural fixing matter particularly in Eton's older properties, where the cistern and pan weight has to sit entirely on the carrier frame rather than relying on an original lath-and-plaster wall to take the load. For period-appropriate sanitaryware and brassware, Burlington's pedestal and wall-hung basins, close-coupled and high-level WCs and roll-top baths reproduce classic bathroom forms with a modern fixing standard underneath, which suits a Georgian or Victorian Eton property well — though getting the period look right on site depends on fitting that modern standard correctly, not just on the silhouette. Lefroy Brooks's traditional-style taps and shower valves, built around exposed pipework and cross-head handles rather than concealed modern fittings, are a similarly frequent choice here, and fitting them well means the pipe runs, brackets and wall fixings are set out properly from the start rather than improvised around existing pipework. On the shower side, Matki's largely frameless glass enclosures leave very little trim to hide an inaccurate opening or an uneven wall, which is exactly the kind of precise measuring a compact, non-standard period bathroom needs. For baths, Kaldewei's titanium-enamelled steel is considerably lighter to manoeuvre through a narrow original staircase or doorway than a cast-iron alternative, which is a genuinely practical advantage in a lot of Eton's older houses, while still needing the same even, accurate bearing across the full base once it's in the room. We've fitted all of these, and the specific installation detail each one needs, across projects in and around Eton."
+    },
+    {
+      "heading": "Why access and period character shape brand choice in Eton",
+      "body": "In a town built around narrower frontages and more compact floor plans than the larger detached houses found further out in Berkshire, the brand and product choice is rarely just a question of style. A heavier freestanding bath that would be straightforward to deliver into a modern detached house can need a completely different access plan in a narrow Georgian townhouse, and a frameless shower screen that works perfectly in a generously proportioned room needs far more precise measuring in a smaller, less regular one. That's part of why we work through exactly what's been specified at survey, confirm how each product will physically reach the room — not just how it will be fitted once it's there — and sequence deliveries and fitting around narrow staircases, period door openings and limited off-street parking rather than discovering a problem on the day. The product choice is yours; working out how it gets into an Eton bathroom in one piece, and fits properly once it's there, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands suit Eton's period properties best?",
+      "a": "Burlington and Lefroy Brooks are frequently specified for their period-appropriate forms, while Geberit concealed cisterns and Matki frameless screens are common where a modern fixing or precise glass fit is needed behind or alongside a period-style suite."
+    },
+    {
+      "q": "Can a heavy freestanding bath get up a narrow Eton staircase?",
+      "a": "It depends on the staircase, the door openings and the specific bath, which is exactly why we check access at survey. Kaldewei's titanium-enamelled steel baths, for example, are considerably lighter to manoeuvre than a cast-iron equivalent, which can make a genuine practical difference in a narrow period property."
+    },
+    {
+      "q": "Do frameless shower screens work in a compact period bathroom?",
+      "a": "Yes, but they need precise measuring. Matki's largely frameless enclosures leave very little trim to hide an inaccurate opening or an uneven wall, which suits the kind of careful, bespoke fit a smaller, non-standard period bathroom usually needs."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation and access requirements of whatever's been specified at survey stage. If a product has an unusual fixing, weight or access requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/eton/", "anchor": "Bathroom fitting in Eton" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "eton" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "kaldewei" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-eton/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-eton/ pages once built.",
+  "primaryKeyword": "bathroom brands Eton",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Eton",
+    "period bathroom brands fitted Eton",
+    "bathroom fitter brands Eton"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Eton brands-in-area page, implying brand and material choice through a close fixture detail shot rather than a full room view. Subject and action: a close-to-mid shot of a traditional cross-head bath tap and exposed pipework mounted against a tiled wall, finished and dry, no activity. Setting and work-stage: a finished period-style bathroom fixture detail inside a Georgian-era Eton townhouse, daytime, directional natural light from an unseen side window. Composition: tight three-quarter angle focused on the tap, handles and exposed pipe run, dark tiled wall and a sliver of skirting visible in soft-focus background, tap and pipework sharply in focus in the foreground. Light and materials: dark basalt tile backdrop, aged brushed bronze cross-head tap and exposed pipework, bright directional daylight from one side casting a defined but soft-edged shadow of the pipework across the tile, minor tarnish consistent with a traditional finish rather than high-polish chrome. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the dark tile and aged bronze rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/eton-hero.webp",
+    "heroAlt": "Close-up of an aged brushed bronze cross-head bath tap and exposed pipework against a dark basalt tiled wall in a period-style Eton bathroom, bright directional daylight.",
+    "inline": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "path": "/survey/winkfield-row/",
+  "family": "Per-town: survey",
+  "town": "winkfield-row",
+  "seo": {
+    "title": "Bathroom Survey in Winkfield Row | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Winkfield Row. We measure, check waste runs and access, and scope the room properly before any quote, for this quiet hamlet near Ascot and Windsor Great Park.",
+    "canonical": "https://installmybathroom.co.uk/survey/winkfield-row/"
+  },
+  "h1": "Bathroom survey in Winkfield Row",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Winkfield Row, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and your access routes, and it's what stops a quote turning into a list of surprises once the fitting team is on site. Winkfield Row is a quiet rural hamlet within Winkfield parish, close to both Ascot and Windsor Great Park, and around 15 to 20 minutes by road from our base in Bracknell. A hamlet like this doesn't have the uniform street-by-street housing you get in a town centre or a modern estate — plots tend to be more spread out and individual, which means we don't try to guess what's behind your walls from the address alone. We go and look."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or needs to stay put, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access — door widths, staircases, and how materials will move in and waste will move out — because that affects both the practicality of the work and, in some cases, the fittings you can realistically choose. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey conversation itself; it's a paid, fixed-fee visit precisely so that the advice you get is based on your actual property, not a generic estimate drawn from a postcode."
+    },
+    {
+      "heading": "What that looks like in a typical Winkfield Row property",
+      "body": "Winkfield Row is a hamlet rather than a town, and that changes how we approach a survey here more than it would in a more built-up place. There isn't a single, dominant housing type to generalise from the way there might be on a uniform modern estate — a hamlet within Winkfield parish, sitting near Ascot and the edge of Windsor Great Park, tends to be made up of individual properties on their own plots rather than a repeated run of identical houses, each with its own history of extensions, conversions and previous bathroom work. That's exactly why we don't assume anything about layout, floor construction or pipework from a Winkfield Row address alone. At survey, we measure the room, check where the waste pipe runs and whether it can be moved, test the water supply and pressure, and establish what's underneath the floor and wall surfaces on your specific property, rather than working from an assumption about what a 'typical' hamlet house looks like. Being only 15 to 20 minutes from our Bracknell base also means we're a realistic distance away for a scheduled visit, a return trip to check something specific, or a fitting team arriving on the day without a long round trip eating into the working hours available on site."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Winkfield Row, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible in the space. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a full reconfiguration, a wet room conversion, or simply replacing an existing layout with a higher specification. Because a rural hamlet like Winkfield Row doesn't come with a single standard house type, we treat each visit as its own assessment rather than applying a generic checklist based on the area alone. You'll leave the visit with a clear, written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering, without having to guess at what extra costs might appear later. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Winkfield Row property?",
+      "a": "No. Some of the Winkfield Row properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Winkfield Row doesn't have one obvious housing type. Does that make the survey harder?",
+      "a": "It's exactly why we don't skip it. Because Winkfield Row is a rural hamlet with properties spread across individual plots rather than one uniform housing style, we don't assume anything about floor construction, wall build-up or existing pipework from the address alone — the survey tells us what's actually there on your specific property."
+    },
+    {
+      "q": "How far is Winkfield Row from your base, and does that affect scheduling?",
+      "a": "Winkfield Row is around 15 to 20 minutes by road from our base in Bracknell, which is a realistic distance for a scheduled survey visit, a follow-up check if needed, or a fitting team arriving with a full working day ahead of them rather than losing time to a long journey."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or access?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving or a doorway needs widening for level access, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/winkfield-row/", "anchor": "Bathroom fitting in Winkfield Row" },
+    { "href": "/bathroom-cost/winkfield-row/", "anchor": "Bathroom installation costs in Winkfield Row" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "winkfield-row" }
+  ],
+  "primaryKeyword": "bathroom survey Winkfield Row",
+  "secondaryKeywords": [
+    "bathroom installation survey Winkfield Row",
+    "£125 bathroom survey",
+    "bathroom fitter survey Winkfield Row"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Winkfield Row bathroom survey page, depicting the pre-installation measuring visit in a spaced-out rural hamlet property. Subject and action: a brushed bronze-cased tape measure stretched across a stripped bathroom floor, resting beside an open clipboard holding a hand-sketched floor plan, a spirit level leaning against the skirting, caught mid-survey rather than mid-build. Setting and work-stage: a part-stripped bathroom inside a standalone rural property near Winkfield Row, old floorboards exposed and a section of wall opened to show the studwork and pipe run behind it, mid-morning daylight coming through a window with a view of open garden beyond. Composition: low three-quarter angle looking across the exposed floor toward the window, tape measure and clipboard filling the foreground, the opened wall section visible in the mid-ground to one side. Light and materials: cool, slightly overcast daylight through the window mixing with a single battery worklight set low on the floor, aged floorboards with visible grain and old fixing holes, exposed studwork and a section of copper pipe, uneven directional light casting real shadow under the joists. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the whole frame, no styling props such as plants or candles, no running water, varied and believable surface wear on the aged floorboards and opened wall.",
+    "heroOutputPath": "heroes/survey-town/winkfield-row-hero.webp",
+    "heroAlt": "A brushed bronze tape measure and clipboard with a hand-drawn floor plan on a stripped timber floor during a bathroom survey in a standalone rural property near Winkfield Row, cool window light and exposed studwork.",
+    "inline": []
+  }
+}

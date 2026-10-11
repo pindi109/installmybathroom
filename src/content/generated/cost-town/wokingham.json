@@ -1,0 +1,78 @@
+{
+  "path": "/bathroom-cost/wokingham/",
+  "family": "Per-town: cost",
+  "town": "wokingham",
+  "seo": {
+    "title": "Bathroom Installation Cost in Wokingham | From £3,500 | Install My Bathroom",
+    "description": "What a fit-only luxury bathroom installation costs in Wokingham — prices from £3,500, what changes the price, and repair costs from £200.",
+    "canonical": "https://installmybathroom.co.uk/bathroom-cost/wokingham/"
+  },
+  "h1": "Bathroom Installation Cost in Wokingham",
+  "hero": {
+    "intro": "Ask us what a typical Wokingham week looks like and the honest answer is that there isn't one. We might survey a Georgian villa near the market place that's been divided into flats over the decades, a 1950s detached house a few streets further out, and a brand-new estate home built in the last few years — sometimes all on the same road. We treat each as its own job rather than assuming a standard layout from the postcode, because a Victorian conversion and a new-build simply don't start from the same place, especially once a wet room is on the table instead of a shower tray. Fit-only installation in Wokingham starts from £3,500 for a straightforward, client-supplied layout, and it's our £125 survey — not the age of the house next door — that turns that figure into a fixed price for yours."
+  },
+  "sections": [
+    {
+      "heading": "£3,500 is the starting point, not the average",
+      "body": "Fit-only labour for a straightforward, like-for-like layout — no waste moved, nothing unusual in the materials — starts at £3,500. A full luxury re-fit with moved services, a tanked wet room and natural stone typically lands between £10,000 and £20,000 or more. Both numbers cover labour only: you buy the suite, brassware, tiles and furniture separately, usually through a showroom, and we fit what you've chosen."
+    },
+    {
+      "heading": "Wet room or tray — the choice that moves the price most",
+      "body": "Of everything that changes a Wokingham quote, the decision between a wet room and a conventional tray and enclosure tends to matter most, because a wet room means tanking the entire floor and building in a fall to a level-access drain, rather than tanking confined to the footprint of a smaller enclosure. On the suspended timber floors found in some of the town's older townhouse conversions near the market place, that also means checking for deflection before any waterproofing goes down — a step a modern estate house on a solid slab usually skips. Moving a waste position adds its own cost regardless of property type, since relocating a toilet or shower means new supply and drainage runs and sometimes a floor-level adjustment for the correct fall. And swapping porcelain for natural stone adds time for handling, sealing and mitred edges that porcelain doesn't demand. Three different decisions, three different reasons to get a proper survey rather than a guess."
+    },
+    {
+      "heading": "When it's a repair rather than a re-fit",
+      "body": "A good proportion of what we're called out for in Wokingham is repair work rather than a full installation — a leaking shower valve, a running concealed cistern, resealing a tray — and that starts from £200. A genuine emergency, a blocked toilet or an active leak, is priced as a £500 minimum call-out instead of the standard repair rate, because that number reflects the speed of the response rather than the amount of work involved. Regrouting isn't something we do as a standalone repair."
+    },
+    {
+      "heading": "Why postcode alone doesn't tell us the price",
+      "body": "Wokingham's historic core around the market place holds a good number of Georgian and Victorian townhouses and villas, many divided or extended since they were first built, and those tend toward solid masonry walls with a higher chance of a suspended timber ground floor than the inter-war semis, post-war estates and newer developments that make up most of the rest of the town. A wet room or heavy stone floor in one of the older, subdivided buildings is more likely to need floor checks — and occasionally remedial joist work — before the finish goes down; the same spec in newer housing, generally on a solid concrete slab with standard stud walls, usually needs less preparation, so more of the budget reaches the finish itself. That's a pattern across the town, not a guarantee for any one house, which is exactly why we price from a survey of your specific property rather than an assumption drawn from its street."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a wet room significantly more expensive than a shower and tray in Wokingham?",
+      "a": "Usually, yes — it's the single decision that moves a Wokingham quote the most. A wet room needs the whole floor tanked with a fall to a level-access drain, rather than tanking just the enclosure footprint, and in some of the town's older townhouse conversions that also means checking a suspended timber floor for deflection first."
+    },
+    {
+      "q": "What's the cheapest a straightforward installation could cost in Wokingham?",
+      "a": "From £3,500 for fit-only labour on a like-for-like layout, with nothing moved and no specialist materials. That excludes the suite, tiles and brassware, which you buy separately."
+    },
+    {
+      "q": "Does it matter whether my house is Victorian, 1950s or a new-build?",
+      "a": "It can, yes. A Victorian townhouse conversion near the market place is more likely to have a suspended timber floor needing checks before a wet room or heavy tiling; a newer estate house is more often on a solid slab that needs less preparation. We survey each property individually rather than assuming from its age."
+    },
+    {
+      "q": "How much extra does moving a toilet or shower add to the price?",
+      "a": "It's one of the three biggest factors, because relocating a waste means new supply and drainage runs and sometimes adjusted floor levels for the correct fall to drain — work a straight like-for-like swap doesn't need."
+    },
+    {
+      "q": "What do repairs cost if I'm not having a full re-fit?",
+      "a": "From £200 for a leaking valve, a running cistern or a resealed tray. Genuine emergencies — a blocked toilet, an active leak — carry a £500 minimum call-out instead of the standard repair rate."
+    },
+    {
+      "q": "Can I mix suppliers for my suite, tiles and brassware?",
+      "a": "Yes, most Wokingham clients do exactly that. We check waste sizes, tap centres and fixing requirements across every supplier before strip-out starts so everything fits together on site."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "anchor": "How bathroom installation cost is worked out" },
+    { "href": "/pricing/", "anchor": "Our pricing" },
+    { "href": "/areas/wokingham/", "anchor": "Bathroom installation in Wokingham" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "wokingham" },
+    { "file": "business.ts", "id": "pricing" },
+    { "file": "business.ts", "id": "repairs" }
+  ],
+  "primaryKeyword": "bathroom installation cost Wokingham",
+  "secondaryKeywords": ["bathroom fitting cost Wokingham", "Wokingham bathroom prices"],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Wokingham installation-cost page, depicting a finished high-specification bathroom reflecting the town's mix of converted period townhouse and contemporary estate character. Subject and action: a freestanding stone-composite bath positioned beneath a tall sash window, a matte black floor-standing bath filler rising beside it and a wall-hung walnut vanity with an inset basin along the opposite wall, the room fully finished and styled for living rather than construction. Setting and work-stage: a completed family bathroom inside a renovated Georgian townhouse near Wokingham's market place, daytime, bright midday sun angled through the sash window combined with one wall-mounted practical light beside the vanity mirror. Composition: wide room shot taken from the doorway, bath and sash window filling the centre of the frame, walnut vanity visible at the left edge, honed travertine flooring leading the eye from foreground to window. Light and materials: honed travertine floor and bath surround with natural pitting and variation, matte black bath filler and towel rail, warm walnut vanity carcass, tall original skirting board in the background, bright directional midday sun crossing the floor unevenly and mixing with the cooler light near the vanity mirror. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting under shelves, mirror or floor edges; no twin symmetrical basins or mirrors; no single flat gold wash across the whole frame, light should fall unevenly across the two sources; no hanging plants, florals or candles; no shower or tap shown running; surfaces should show varied, believable sheen rather than uniform high gloss.",
+    "heroOutputPath": "heroes/cost-town/wokingham-hero.webp",
+    "heroAlt": "Finished Wokingham townhouse bathroom with a freestanding stone-composite bath beneath a sash window, honed travertine flooring and a matte black bath filler",
+    "inline": []
+  }
+}

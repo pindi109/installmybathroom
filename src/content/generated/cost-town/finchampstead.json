@@ -1,0 +1,78 @@
+{
+  "path": "/bathroom-cost/finchampstead/",
+  "family": "Per-town: cost",
+  "town": "finchampstead",
+  "seo": {
+    "title": "Bathroom Installation Cost in Finchampstead | From £3,500 | Install My Bathroom",
+    "description": "What a fit-only luxury bathroom installation costs in Finchampstead — prices from £3,500, what changes the price between older and post-war housing, and repair costs from £200.",
+    "canonical": "https://installmybathroom.co.uk/bathroom-cost/finchampstead/"
+  },
+  "h1": "Bathroom Installation Cost in Finchampstead",
+  "hero": {
+    "intro": "Finchampstead is really two different survey conversations depending on which part of it you're in. The village core still has a number of older buildings with the solid masonry and timber floors you'd expect of their age, while the area spreading out towards Wokingham, Crowthorne and up to Finchampstead Ridges is largely post-war and later housing, built in stages from the 1950s onward on solid concrete slabs. A question we get asked constantly, especially from the older end of that mix, is what happens if a waste pipe has to move — and the honest answer is that it changes the job more than almost anything else we price. Fit-only installation here starts from £3,500 for a straightforward layout using a suite you've already bought, and the £125 survey is where we work out whether your particular job is a straightforward one or not."
+  },
+  "sections": [
+    {
+      "heading": "What £3,500 actually buys",
+      "body": "That starting figure is fit-only labour for a straightforward, like-for-like layout — nothing moved, nothing unusual about the materials. Ask for moved services, a tanked wet room and natural stone throughout and a realistic luxury re-fit runs £10,000–£20,000 or beyond. In both cases it's labour only: you source the sanitaryware, brassware, tiles and furniture yourself, generally from a showroom, and we install what turns up rather than supplying it."
+    },
+    {
+      "heading": "Moving a waste pipe is usually the biggest single factor",
+      "body": "Of the handful of things that change a Finchampstead quote, relocating a toilet or shower waste tends to have the biggest effect, because it's not just a reconnection — it's new supply and drainage runs, and often an adjustment to floor levels to keep the correct fall to drain. That's first-fix labour that a like-for-like swap simply doesn't need. Natural stone instead of large-format porcelain is the next most common addition, mainly down to the extra time needed for careful handling, sealing and mitred edges. And choosing a wet room over a tray and enclosure means tanking the entire floor rather than a smaller footprint, with a fall built in to a level-access drain — straightforward on a solid concrete floor, but something that needs checking for deflection first on the suspended timber floors more common in the older part of the village. None of these rule a layout out; they're simply what the labour involves, and the £125 survey prices them against your room rather than an estimate."
+    },
+    {
+      "heading": "Repairs and emergencies, priced separately",
+      "body": "Not everyone calling us in Finchampstead wants a full re-fit. Repairs — a leaking shower valve, a running concealed cistern, resealing a tray — start from £200. A genuine emergency, such as a blocked toilet or an active leak in a wet room, is a £500 minimum call-out rather than the standard repair rate, because that reflects how fast we need to get there rather than how much work there is to do once we arrive. We don't do regrouting as a standalone repair."
+    },
+    {
+      "heading": "Village core against the wider post-war area",
+      "body": "Older buildings near Finchampstead's centre tend to come with solid masonry walls and a real chance of suspended timber ground floors, which is exactly the condition that needs checking for deflection before a wet room or large-format tile goes down — and occasionally needs some remedial work first. Head out towards Wokingham, Crowthorne or up to the Ridges, where most of the housing is post-war or later, and you're generally dealing with a solid concrete slab that's more straightforward to build on, so the budget tends to go further into the finish itself rather than into floor preparation. It's a pattern, not a rule for any specific house, which is why the survey — not the age of the building — is what the final price gets built around."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What happens to the price if my waste pipe needs to move?",
+      "a": "It's usually the single biggest factor in a Finchampstead quote. Relocating a toilet or shower waste means new supply and drainage runs and sometimes adjusted floor levels for the correct fall to drain — all first-fix work a like-for-like swap avoids."
+    },
+    {
+      "q": "What's the entry-level price for installation in Finchampstead?",
+      "a": "£3,500 for fit-only labour on a straightforward layout with nothing moved and no specialist materials. The suite, tiles and brassware are bought separately, usually through a showroom."
+    },
+    {
+      "q": "Is natural stone much more expensive to fit than porcelain?",
+      "a": "It adds time rather than changing the job fundamentally — stone needs more careful handling, sealing and mitred edges than large-format porcelain, which is why it's one of the main things that pushes a quote up."
+    },
+    {
+      "q": "I'm in one of the older buildings near the village centre — will my floor need extra work for a wet room?",
+      "a": "Possibly. Older buildings near Finchampstead's centre have a higher chance of suspended timber ground floors, which need checking for deflection — and sometimes remedial work — before a wet room can be tanked. Housing in the newer, post-war areas is more often on a solid concrete slab, which usually needs less preparation."
+    },
+    {
+      "q": "What does a repair cost if I'm not doing a full re-fit?",
+      "a": "From £200 for things like a leaking valve or running cistern. Genuine emergencies — a blocked toilet, an active leak — are a £500 minimum call-out rather than the standard rate."
+    },
+    {
+      "q": "Can my suite come from one supplier and my tiles from another?",
+      "a": "Yes, that's normal for Finchampstead clients. We check waste sizes, tap centres and fixing requirements across every supplier before strip-out, so everything actually fits once it's on site."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "anchor": "How bathroom installation cost is worked out" },
+    { "href": "/pricing/", "anchor": "Our pricing" },
+    { "href": "/areas/finchampstead/", "anchor": "Bathroom installation in Finchampstead" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "finchampstead" },
+    { "file": "business.ts", "id": "pricing" },
+    { "file": "business.ts", "id": "repairs" }
+  ],
+  "primaryKeyword": "bathroom installation cost Finchampstead",
+  "secondaryKeywords": ["bathroom fitting cost Finchampstead", "Finchampstead bathroom prices"],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Finchampstead installation-cost page, depicting a finished high-specification bathroom reflecting the post-war and more modern housing that makes up most of the wider area toward Wokingham and the Ridges. Subject and action: a long, low-profile wall-hung vanity with twin inset basins beneath a wide picture window, a walk-in wet-room shower screen visible at the far end of the room with a rainfall head already fixed, the room fully finished and styled for daily use rather than construction. Setting and work-stage: a completed family bathroom inside a renovated 1960s-era house, late morning, bright even daylight through the picture window combined with one warm wall-mounted light beside the vanity mirror. Composition: wide room shot taken from the doorway, vanity and picture window filling the centre-left of the frame, wet-room screen visible at the right edge, walnut timber flooring leading the eye from foreground to window. Light and materials: warm walnut timber flooring with visible grain, matte black tap and shower fittings, large-format pale porcelain wall tiles, bright late-morning daylight crossing the floor unevenly and mixing with the warmer light near the vanity mirror. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting under shelves, mirror or floor edges; no catalog-symmetrical staging beyond the genuine twin-basin vanity described; no single flat gold wash across the whole frame, light should fall unevenly across the two sources; no hanging plants, florals or candles; no shower or tap shown running; surfaces should show varied, believable sheen rather than uniform high gloss.",
+    "heroOutputPath": "heroes/cost-town/finchampstead-hero.webp",
+    "heroAlt": "Finished modern Finchampstead bathroom with a twin-basin wall-hung vanity, walnut timber flooring and a matte black wet-room shower screen",
+    "inline": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "path": "/survey/sandhurst/",
+  "family": "Per-town: survey",
+  "town": "sandhurst",
+  "seo": {
+    "title": "Bathroom Survey in Sandhurst | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Sandhurst. We measure, check waste runs and floor construction before any installation quote, across the town's mixed housing stock.",
+    "canonical": "https://installmybathroom.co.uk/survey/sandhurst/"
+  },
+  "h1": "Bathroom survey in Sandhurst",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Sandhurst, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and what's actually underneath your floor, and it's what stops a quote turning into a list of surprises once the fitting team is on site. Sandhurst is genuinely mixed rather than one dominant style of housing — established twentieth-century family housing forms most of the town, with newer estate developments on its edges and pockets of older property closer to the centre and towards the Royal Military Academy. That mix matters more here than in a town built in one era, because the right survey approach depends on which of those categories your particular house falls into. Newer estate housing is generally solid concrete floors and straightforward modern plumbing, which tends to make certain jobs more predictable; older stock can still have suspended timber floors that need checking for deflection before a wet room or large-format tiling goes in. We don't guess which applies to your house from the postcode — we check it on the day."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or needs to stay put, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access — door widths, staircases, and how materials will move in and waste will move out — because that affects both the practicality of the work and, in some cases, the fittings you can realistically choose. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey conversation itself; it's a paid, fixed-fee visit precisely so that the advice you get is based on your actual property, not a generic estimate. With 30 years' experience fitting bathrooms, we've learned that the survey is where almost every costly surprise gets caught before it happens, not during the job itself."
+    },
+    {
+      "heading": "What that looks like in a typical Sandhurst property",
+      "body": "Sandhurst's housing is a genuine mix rather than one dominant style. Established twentieth-century family housing forms much of the town, and that's the category we survey most often — generally solid concrete ground floors, straightforward modern plumbing runs, and a layout that's fairly easy to read once we've had a look at the room. On the newer estate developments spreading out on the edges of the town, the picture is similar again: concrete floors and modern first-fix plumbing that was designed with a bathroom in mind from the outset, which usually means fewer structural surprises at survey stage. Where the approach changes is in the pockets of older property closer to the centre and towards the Royal Military Academy. Here we're more likely to find suspended timber floors rather than solid concrete, and those need checking for deflection before a wet room or large-format tiling goes down — a timber floor that flexes under a heavy porcelain floor or a tanked wet room area can crack tiles or compromise a membrane if it isn't addressed first. We also look at original joists in these properties the way we would in any older building, and we check what's been boxed in by any previous bathroom fit-out before assuming a waste run is where a dated drawing says it is. None of this means older Sandhurst houses are harder to fit for — it means the survey tells us which situation we're actually dealing with, rather than assuming it from the age of the street."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Sandhurst, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible in the space. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a full reconfiguration, a wet room conversion, or simply replacing an existing layout with a higher specification. You'll leave the visit with a clear, written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering, without having to guess at what extra costs might appear later. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer. We're based in nearby Bracknell, so getting a surveyor out to a Sandhurst property is straightforward to arrange."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Sandhurst property?",
+      "a": "No. Some of the Sandhurst properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Will you check whether my floor can take a wet room?",
+      "a": "Yes, and this matters in Sandhurst specifically because the town's housing stock is mixed. Newer estate housing generally has solid concrete floors, which tends to be straightforward for a wet room. Older property closer to the centre can have suspended timber floors, which we check for deflection before confirming a wet room or large-format tiling is suitable."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or floor?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving or a timber floor needs strengthening before tanking goes down, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "Do you survey older Sandhurst houses differently to newer estate housing?",
+      "a": "We check for the same things on every property — floor and wall build-up, waste position, water pressure and access — but what we find differs. In an older house near the centre or towards the Royal Military Academy we're more likely to be checking for suspended timber floors; on newer estate housing we're more often confirming straightforward concrete floors and modern plumbing runs."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/sandhurst/", "anchor": "Bathroom fitting in Sandhurst" },
+    { "href": "/bathroom-cost/sandhurst/", "anchor": "Bathroom installation costs in Sandhurst" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sandhurst" }
+  ],
+  "primaryKeyword": "bathroom survey Sandhurst",
+  "secondaryKeywords": [
+    "bathroom installation survey Sandhurst",
+    "£125 bathroom survey",
+    "bathroom fitter survey Sandhurst"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sandhurst bathroom survey page, depicting the pre-installation measuring visit in a property with mixed-age construction. Subject and action: a tape measure extended across a bare concrete subfloor beside a section where old timber floorboards have been lifted and stacked to one side, an open clipboard with a hand-drawn floor plan and a spirit level resting on the concrete, mid-survey rather than mid-build. Setting and work-stage: a part-stripped bathroom in an established mid-twentieth-century Sandhurst family house, walls stripped back to bare plaster in patches, daytime, flat overcast daylight through a frosted window. Composition: three-quarter angle from just inside the doorway looking across the room, tape measure and clipboard filling the foreground, the exposed concrete-and-timber floor transition visible across the mid-ground, stripped wall and window beyond. Light and materials: soft overcast daylight through a frosted window mixing with a single portable work light angled low across the floor, bare concrete screed next to aged timber floorboards, patches of old plaster and a capped-off galvanised waste stub visible in one corner, uneven directional light with real shadow falloff across the floor transition. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no styling props such as plants or candles, no running water, varied and believable surface sheen with visible wear on the stripped walls and floor.",
+    "heroOutputPath": "heroes/survey-town/sandhurst-hero.webp",
+    "heroAlt": "A tape measure and clipboard with a hand-drawn floor plan on a bare concrete subfloor beside lifted timber floorboards during a bathroom survey in a part-stripped Sandhurst bathroom, under flat overcast window light.",
+    "inline": []
+  }
+}

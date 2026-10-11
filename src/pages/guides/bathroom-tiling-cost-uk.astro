@@ -1,0 +1,253 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const LAST_UPDATED = "2026-10-11";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Tiling Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "What's the typical bathroom tiling cost per square metre in the UK?",
+    a: "Fit-only tiling labour varies more with the tile format and substrate than with a flat per-metre rate — a small-format mosaic takes noticeably longer per square metre to lay than a large-format porcelain slab, because there are many more joints, cuts and grout lines to get right. As a guide within a fit-only installation from £" + business.pricing.fromGBP.toLocaleString() + ", tiling is one part of the overall figure rather than priced as a separate per-metre rate; a £" + business.pricing.surveyGBP + " survey gives you an exact labour figure once the tile format and room are known.",
+  },
+  {
+    q: "Is large-format porcelain more expensive to install than smaller tiles?",
+    a: "The tile itself is often similar in price or cheaper per square metre than natural stone, but the fitting labour works differently. Large-format porcelain needs a dead-flat substrate, back-buttering, and levelling clips to stop lippage, and two fitters to handle and place slabs safely — which adds labour time even though there are fewer joints to grout than with smaller tiles.",
+  },
+  {
+    q: "Does natural stone tiling cost more than porcelain to fit?",
+    a: "Generally yes. Natural stone needs sealing before and sometimes after grouting, cuts more slowly without chipping the edge, and often has more pronounced veining to match across adjacent tiles, all of which add fitting time that porcelain doesn't need. See our porcelain vs natural stone tiles guide for the fuller comparison.",
+  },
+  {
+    q: "What does shower tile installation cost compared with the rest of the room?",
+    a: "The shower enclosure is usually the most time-consuming area to tile per square metre, because it needs full tanking beneath the tiles, more internal corner and upstand cuts, and a fall to the waste that the rest of the room's floor doesn't need. A shower zone can take proportionally longer to tile than an equivalent area of flat wall or floor elsewhere in the room.",
+  },
+  {
+    q: "Is the £125 survey useful before I buy tiles?",
+    a: "Yes. The survey checks the substrate condition, confirms whether an existing wall is flat enough for large-format porcelain without extra levelling work, and measures the exact area so you can order the right quantity with an appropriate wastage allowance before you commit to a tile range.",
+  },
+  {
+    q: "Do I need to buy extra tiles beyond the measured area?",
+    a: "Yes, as a rule of thumb, order some allowance over the measured area for cuts, breakages and future repairs, and check that every box carries the same batch number — different batches of the same tile range can show a visible shade difference once laid, particularly under the direct light of a bathroom.",
+  },
+  {
+    q: "Can tiling go ahead over my existing tiles, or does the old tiling need to come out?",
+    a: "It depends on the substrate and the old tiles' condition, which is exactly what the survey checks. Overboarding a sound, flat existing tiled wall is sometimes possible and saves strip-out time; a hollow-sounding or uneven existing tile bed needs to come off first, since tiling over a failing substrate risks the new tiles failing too.",
+  },
+  {
+    q: "Does grout colour or type affect the tiling price?",
+    a: "Not materially on its own — standard cementitious and epoxy grouts take broadly similar time to apply. What does affect time is the number of joints, which is set by tile size, not grout choice, which is why large-format porcelain with fewer, wider joints is often quicker to grout than a small mosaic covering the same area.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Tiling Cost UK | Install My Bathroom"
+  description="What bathroom tiling costs to fit in the UK, what moves the price per square metre, and how shower tiling differs from the rest of the room."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Tiling Cost UK", href: "/guides/bathroom-tiling-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Tiling Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fit-only tiling labour is priced within a full bathroom installation from £{business.pricing.fromGBP.toLocaleString()} where it's part of the overall room rather than a standalone job. There's no single honest per-square-metre rate that applies to every bathroom, because tile format, substrate condition and the shower zone's tanking all move the figure independently. A £{business.pricing.surveyGBP} survey measures the actual area and substrate and gives you an exact, written figure before you order tiles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        Tiling looks like a single line item on a quote, but it's really several separate factors stacked together — the tile itself, the wall or floor it's going onto, and how much of the room is a wet shower zone versus a dry wall.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Tile format and size</td>
+              <td class="py-3" style="color: var(--text-soft);">Large-format porcelain needs back-buttering and levelling clips and two fitters to handle slabs safely; a small mosaic has far more joints to cut and grout per square metre.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Porcelain vs natural stone</td>
+              <td class="py-3" style="color: var(--text-soft);">Stone needs sealing and slower, chip-free cutting, and often needs veining matched across adjacent pieces.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Substrate condition</td>
+              <td class="py-3" style="color: var(--text-soft);">A flat, sound wall or floor is ready to tile; an uneven or hollow-sounding substrate needs levelling or stripping back first.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Shower zone vs dry wall</td>
+              <td class="py-3" style="color: var(--text-soft);">The shower area needs full tanking beneath the tiles, a fall to the waste, and more internal corner cuts than a flat dry wall.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Layout and cuts</td>
+              <td class="py-3" style="color: var(--text-soft);">Niches, window reveals, feature borders and an awkward room shape all add cutting time beyond a simple rectangular run.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Underfloor heating</td>
+              <td class="py-3" style="color: var(--text-soft);">Tiling over electric or wet underfloor heating needs a compatible flexible adhesive and extra care bedding the mat or pipe run.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic scenario</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common job we see is a full re-tile as part of a bathroom installation: the existing tiles come out down to a sound substrate, the walls are checked and levelled where needed, and large-format porcelain is laid across the floor and walls, including the shower zone, with the usual tanking beneath it. Because the substrate is prepared properly and the format is a consistent large-format porcelain throughout, this sits comfortably within the entry-level installation figure, since tiling labour here is predictable rather than drawn out by awkward cuts or multiple materials.
+        </p>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Where the brief changes — natural stone instead of porcelain, a feature mosaic border or niche, or a room shape with several internal corners and window reveals to tile around — each of those adds its own cutting, sealing or matching time on top of that baseline. A stone-clad shower with a mosaic floor insert and multiple niches takes considerably longer to tile than the same square footage in a single run of porcelain, which is why two bathrooms of identical size can carry quite different tiling costs.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          At the upper end, full-height natural stone bookmatched across a feature wall, with a mosaic shower floor and a full stone-clad niche, sits well above the entry-level figure — not because any one element is exotic on its own, but because bookmatching means selecting and cutting slabs to continue the veining pattern across a joint, which takes considerably longer than laying tiles from a single repeating batch.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/bathroom-tiling-cost-uk-stone-slab-detail.webp"
+          alt="Close detail of a large-format travertine stone tile being bedded onto a bathroom wall with a notched trowel and levelling clips visible"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bathroom-tiling-cost-uk-shower-tanking.webp"
+          alt="Shower recess mid-tiling with large-format travertine-toned porcelain tiles partly laid over a freshly tanked waterproof membrane"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bathroom-tiling-cost-uk-niche-cut.webp"
+          alt="Fitter's hands using a wet tile saw to cut a travertine-toned porcelain tile for a recessed bathroom wall niche"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Why shower tile installation costs more per square metre</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It's a fair question: why does the shower area of a bathroom often cost more per square metre to tile than the rest of the room, when it's usually one of the smaller zones? The answer is what's underneath and around the tile, not the tile itself. A shower zone needs a continuous waterproof tanking membrane carried up the walls and across the floor before a single tile goes on, a fall built into the floor so water runs to the waste rather than pooling, and internal corner cuts at every change of plane — none of which a flat dry wall elsewhere in the room needs.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A niche for shampoo bottles, a bench, or a change from wall tile to floor tile at the shower threshold each add their own cuts and sealant detailing too. None of this is optional corner-cutting if skipped — tanking standards exist because a shower is the one part of a bathroom where water sits against the wall and floor for extended periods, and a membrane fitted properly the first time avoids a much more expensive repair later. See our tanking and waterproofing standards guide for what the membrane itself needs to achieve.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Large-format porcelain vs smaller tiles</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Large-format porcelain slabs have become the default choice in most of the bathrooms we fit, and the reason is as much practical as aesthetic: fewer grout lines mean less grout to clean and reseal over the years, and a more seamless look across a wall or floor. The trade-off is in the fitting, not the tile cost — a dead-flat substrate is essential, since a large slab will visibly rock or crack over an uneven area that a smaller tile would simply flex across, and slabs are heavier and more awkward to handle without cracking, which is why they're normally fitted by two people rather than one.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Smaller tiles and mosaics remain the practical choice for curved areas, shower floors that need a gentle fall built in from multiple small pieces, and feature borders, even in a bathroom that's otherwise finished in large-format porcelain throughout. See our large-format tile installation tolerances guide for the substrate-flatness standards this format actually needs.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figure above covers labour only — substrate preparation and levelling where needed, tanking to the shower zone, setting out and laying the tiles, cutting around fittings, niches and reveals, grouting, and sealing any natural stone. The tiles, adhesive, grout, trims and any stone sealant are bought separately by you, which is different from a supply-and-fit quote where a retailer or contractor bundles the goods and labour into one number.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately either way: skip hire or waste removal for old tiles and backing boards, and making good any surrounding decoration disturbed by strip-out. A standalone repair — a cracked tile or a failed seal around the shower tray — starts from £{business.repairs.fromGBP}, with a £{business.repairs.emergencyCalloutGBP} minimum where a leak needs stopping the same day; we don't offer regrouting as a repair service, since a failing grout line across a wider area is a re-tiling job rather than a spot fix.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Tiling and tanking practice referenced in this guide follows BS 5385 (wall and floor tiling) and BS 8000-11 (workmanship on site for wall and floor tiling). This figure covers tiling as part of a full bathroom installation; for the full room figure, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-tiling-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/guides/porcelain-vs-natural-stone-tiles/" class="btn-secondary">Porcelain vs Natural Stone Tiles</a>
+        <a href="/guides/large-format-tile-installation-tolerances/" class="btn-secondary">Large-Format Tile Installation Tolerances</a>
+        <a href="/guides/bathroom-tanking-and-waterproofing-standards/" class="btn-secondary">Tanking & Waterproofing Standards</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

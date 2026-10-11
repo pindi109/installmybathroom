@@ -1,0 +1,72 @@
+{
+  "path": "/survey/wentworth-estate/",
+  "family": "Per-town: survey",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Bathroom Survey on the Wentworth Estate | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey on the Wentworth Estate, Virginia Water. We measure, trace waste runs and plan gated access before any installation quote, from our Bracknell base.",
+    "canonical": "https://installmybathroom.co.uk/survey/wentworth-estate/"
+  },
+  "h1": "Bathroom survey on the Wentworth Estate",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere on the Wentworth Estate, we carry out a fixed-price £125 survey at the property itself. It's the point where a showroom plan, a designer's sketch, or simply an idea of what you want meets the reality of the room — the waste run under the floor, the water pressure feeding the taps, and the actual route a fitting team and materials will take from the gate to the bathroom. We install luxury, fit-only bathrooms for homeowners on the Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. Getting a team and materials onto the estate isn't the same as turning up to an ordinary street, and the survey is where we start planning around that properly, rather than discovering it on the morning work is due to begin."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation through us. On the day, we measure the room precisely, trace the existing waste run and assess whether it can realistically be repositioned, check the water supply and pressure reaching the bathroom, and establish what the floor and wall build-up actually is beneath the surfaces you can see. Access gets just as much attention as the room itself — door widths, staircases, corridors, and exactly how materials will come in and old fittings and waste will go out over the course of the job. By the end of the visit you have a written scope and a fixed, firm quote, not a ballpark figure that moves once work starts. There's no separate deposit for the conversation itself; the survey is a paid, fixed-fee visit specifically so the advice we give reflects your actual property and your actual access route, not a generic average across the wider area."
+    },
+    {
+      "heading": "What a survey looks like on the Wentworth Estate",
+      "body": "A survey on the Wentworth Estate starts before we even reach the front door. Because it's a private, gated estate built around Wentworth Club and its golf courses — home of the BMW PGA Championship — getting a surveyor, and later a full fitting team and materials, onto the estate means coordinating with the estate and, where one is in place, the property's managing agent, so the visit and the eventual installation programme run without delay at the gate. That coordination isn't an afterthought we sort out once work has started; it's part of what the £125 survey establishes, alongside the usual technical checks — the waste run, water pressure, floor and wall build-up, and how a bath, a shower tray or a wet room base will actually get into the room given the estate's own access rules. Being around 15 to 20 minutes from our Bracknell base means we're close enough to plan a visit at short notice if the estate or managing agent needs confirmation of vehicle access, parking, or working hours ahead of time, rather than leaving that conversation until the fitting team is already at the barrier. The result is the same as anywhere else we survey — a written scope and a fixed quote — but with the gate logistics already worked through, not left as an unknown that surfaces on day one of the install."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation on the Wentworth Estate, the survey is the sensible first step, whether you've already got a showroom design agreed, a designer's plan in hand, or you're still working out what's realistic in the space you have. We come to the property, carry out the technical checks above, confirm the access and gate arrangements with the estate or managing agent as needed, and talk through what you actually want from the room — a full reconfiguration, a wet room conversion, or a straightforward replacement at a noticeably higher specification than what's currently there. You'll leave with a clear written scope and a fixed quote you can compare properly against anything else you're considering, rather than a number that quietly grows once the job is under way. We fit only — the survey covers exactly what's needed to install the bathroom to the specification you've chosen, whether that's working from your own supplied products or alongside a showroom or designer you're already using."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "How do you get access onto the Wentworth Estate for a survey?",
+      "a": "The Wentworth Estate is a private, gated estate, so we coordinate access with the estate and, where one is in place, the property's managing agent ahead of the visit. That's arranged before we come out, so the survey — and later the installation programme — runs without delay at the gate."
+    },
+    {
+      "q": "Do I need a finished design before you survey my Wentworth Estate property?",
+      "a": "No. Some of the properties we survey on the Wentworth Estate already have a showroom or designer plan agreed, others are still at the idea stage. Either way, we measure the room, trace the waste run, check water pressure and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "How far is the Wentworth Estate from your base?",
+      "a": "We're based in Bracknell, around 15 to 20 minutes by road from the Wentworth Estate, which means we can usually accommodate short-notice requests from the estate or a managing agent to confirm access or working hours ahead of a visit."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run?",
+      "a": "We tell you at the survey stage, not partway through the job. If a waste run needs repositioning to achieve the layout you want, that's scoped and priced into the written quote before work starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on the Wentworth Estate" },
+    { "href": "/bathroom-cost/wentworth-estate/", "anchor": "Bathroom installation costs on the Wentworth Estate" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "bathroom survey Wentworth Estate",
+  "secondaryKeywords": [
+    "bathroom installation survey Wentworth Estate",
+    "£125 bathroom survey Virginia Water",
+    "bathroom fitter survey Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Wentworth Estate bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a surveyor's clipboard holding a hand-drawn floor plan and a coiled tape measure resting on the edge of a stone-topped vanity unit mid-strip-out, with a pencil and a small spirit level laid beside it. Setting and work-stage: a part-stripped primary bathroom inside a substantial gated-estate house near Wentworth Club's golf courses, old wall tiling partially removed to expose the plaster beneath in one corner, daytime, soft overcast light coming through a tall sash window. Composition: high three-quarter angle looking down onto the vanity edge and clipboard, the exposed plaster section visible in the lower background, sash window light falling evenly across the upper half of frame. Light and materials: soft, even overcast daylight through the sash window mixing with a single warm clipped work lamp angled at the exposed wall section, honed limestone vanity top with faint believable wear, exposed plaster and a few remaining honed limestone wall tiles still fixed beside the stripped section, brushed bronze cabinet pull visible on the vanity door. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no running water, varied and believable surface wear across the limestone top and exposed plaster.",
+    "heroOutputPath": "heroes/survey-town/wentworth-estate-hero.webp",
+    "heroAlt": "A clipboard with a hand-drawn floor plan and coiled tape measure on a honed limestone vanity during a bathroom survey in a part-stripped Wentworth Estate property, soft overcast sash-window light and exposed plaster wall.",
+    "inline": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "path": "/areas-brands/bracknell/",
+  "family": "Per-town: brands in area",
+  "town": "bracknell",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Bracknell | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Bracknell, and how our fit-only installation model works — your products, our labour, across new-town estates built from the 1960s onward.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/bracknell/"
+  },
+  "h1": "Bathroom brands we fit in Bracknell",
+  "hero": {
+    "intro": "We work on a fit-only basis across Bracknell, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. That matters in a town like Bracknell precisely because it isn't one type of property. It was designated a new town in the 1950s, and a large part of its housing dates from that programme and the decades of estate development that followed — 1960s and 1970s town-build housing in the original residential areas, further estate phases through the 1980s and 1990s as the town expanded, and newer executive-style developments on its outer edges more recently. It's a town built in waves rather than one with a single dominant character, and the brands and products that make sense in a compact original town-build bathroom aren't always the same ones that make sense in a larger room on a newer estate. Across the projects we work on, a recurring set of brands turns up again and again, and we've built our fitting process around the specific detail each one needs."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. This works well across Bracknell's mix of housing, because the right product for a space-constrained original 1970s bathroom and the right product for a larger room in a newer executive-style development aren't always the same, and a fit-only approach means you're not locked into a single supplier's range regardless of which type of property you're in. It also means the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves. Where it matters most is in the detail: a concealed cistern frame, a frameless glass screen, or a textured brassware finish all need to be fitted correctly for that specific product, and we work through exactly what's been specified before a wall closes up or a screen goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs are among the sanitaryware we fit most often, and they're a particularly good fit for Bracknell's more compact original town-build bathrooms, because correct frame selection and structural fixing matter more here than with most brands — the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles, which frees up floor space in a smaller room. GROHE covers a wide span of the work we do too, from thermostatic shower valves and mixer taps on more straightforward refits through to Rapid SL cistern frames behind wall-hung WCs on larger reconfigurations, and because the range is so broad we work through exactly what's been specified at survey rather than treating it as a single fitting job. For shower enclosures, Matki's minimal, largely frameless screens leave very little trim to hide an inaccurate opening or an uneven wall, so the measuring and wall fixing have to be right before a panel goes up — something we check for carefully in Bracknell's older housing, where walls aren't always as true as a newer build. Crosswater's concealed valves and digital controls are designed to disappear into the wall rather than sit proud of it, which means the pipework depth and water pressure checks happen well before any tiling starts. On larger specifications more common in Bracknell's newer executive-style developments, we regularly fit Porcelanosa's large-format rectified porcelain, which punishes an uneven substrate far more visibly than a smaller tile and needs a floor or wall checked and prepared flat first, and Kohler's cast-iron baths and sanitaryware, which bring genuinely different fitting disciplines — heavy-item logistics for the bath itself alongside standard structural fixing for the rest of the suite."
+    },
+    {
+      "heading": "Why the fitting detail matters across different Bracknell properties",
+      "body": "Because Bracknell's housing spans original 1960s and 1970s town-build semis, further estate phases from the 1980s and 1990s, and newer executive-style developments, the same brand can mean a different fitting job depending on which property it's going into. A concealed cistern frame fixed into an older, more compact bathroom needs a different approach to wall bracing and space planning than the same frame in a larger newer-build room. A frameless Matki screen depends on how true the existing walls are, and that varies far more across Bracknell's different housing waves than it would in a town built in a single era. That's part of why we work through exactly what's been specified at survey, confirm the installation route for frames, fixings and finishes before any wall or floor is closed up, and sequence the fit around what the specific property actually needs rather than a generic assumption. The product choice is yours; getting it fitted properly for your particular house is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Bracknell?",
+      "a": "Geberit concealed cisterns and GROHE brassware come up most frequently across Bracknell's housing. We also regularly fit Matki shower enclosures, Crosswater concealed valves, and on larger specifications, Porcelanosa large-format tiling and Kohler sanitaryware and baths."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Does an older Bracknell bathroom limit which brands I can fit?",
+      "a": "Not usually, but it does change what we check first. A frameless shower screen or a concealed cistern frame both depend on how true the existing walls are, and that's something we confirm at survey in Bracknell's original town-build housing before any product is ordered."
+    },
+    {
+      "q": "Do you work with Bracknell bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Bracknell has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/bracknell/", "anchor": "Bathroom fitting in Bracknell" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "bracknell" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "brands.json", "id": "kohler" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-bracknell/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-bracknell/ pages once built.",
+  "primaryKeyword": "bathroom brands Bracknell",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Bracknell",
+    "luxury bathroom brands fitted Bracknell",
+    "bathroom fitter brands Bracknell"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Bracknell brands-in-area page, implying brand and material choice through a close vanity fixture detail rather than a full room shot. Subject and action: a close-to-mid shot of a countertop basin set into a dark basalt stone worktop, with a matte black single-lever mixer tap beside it, a faint trace of recently wiped-away water visible on the stone surface, no motion. Setting and work-stage: a finished bathroom vanity area in a newer executive-style development on the outer edge of Bracknell, daytime, bright but directional natural light from an unseen side window. Composition: tight three-quarter angle focused on the basin and tap, dark stone worktop filling the foreground, a sliver of tiled wall and mirror edge visible in soft-focus background. Light and materials: dark basalt stone worktop with natural flecking and variation, matte black single-lever brassware, bright directional daylight from one side casting a defined but soft-edged shadow of the tap across the stone, minor realistic water marking rather than a uniformly dry or uniformly wet surface. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the stone worktop with faint, realistic water marking rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/bracknell-hero.webp",
+    "heroAlt": "Close-up of a matte black single-lever basin mixer tap set into a dark basalt stone worktop in a finished Bracknell bathroom vanity, bright directional natural light.",
+    "inline": []
+  }
+}

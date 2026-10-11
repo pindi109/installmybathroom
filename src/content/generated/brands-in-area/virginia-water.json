@@ -1,0 +1,80 @@
+{
+  "path": "/areas-brands/virginia-water/",
+  "family": "Per-town: brands in area",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Virginia Water | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Virginia Water, and how our fit-only installation model works — your products, our labour, from Geberit and Duravit to Burlington and Kohler.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/virginia-water/"
+  },
+  "h1": "Bathroom brands we fit in Virginia Water",
+  "hero": {
+    "intro": "We work fit-only across Virginia Water, which means we install the bathroom products you've already chosen — through a showroom, a designer, or your own research — rather than selling a fixed catalogue of our own. That distinction matters here because Virginia Water's housing is known for its large detached properties, many close to the Wentworth Estate and its golf courses, ranging from substantial period houses to more recent executive-style builds on generous plots with long driveways and, in some cases, gated or private road access. That spread of housing brings a correspondingly wide spread of specification through our doors — a period property's bathroom is rarely specified the same way as a recently built executive home's — and a recurring set of brands turns up again and again on the jobs we fit in the area. We've built our process around the specific installation detail each one actually needs, rather than treating every bathroom product as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products themselves. You choose your sanitaryware, brassware and tiles through whichever route suits you — a showroom consultation, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. That suits Virginia Water well, where a good amount of what we see has already been through a showroom or designer before we're brought in at survey stage. It also keeps the quote honest: it reflects labour and fitting complexity rather than bundling in a retail margin on products we didn't supply. Where it matters most is in the detail — a concealed cistern frame, an exposed period-style pipe run, or a digitally controlled shower valve all need fitting correctly for that specific product, and we confirm exactly what's been specified before a wall closes up or a bath is lowered into position."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs come up on a large share of the jobs we fit — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sits entirely on the carrier frame rather than the wall tiles. We also regularly fit Duravit sanitaryware, usually specified through a showroom alongside a SensoWash shower toilet seat or a full ME by Starck suite; Duravit offers its own DuraSystem frame for some pans as well as compatibility with standard concealed frames, and the two aren't interchangeable once a wall is boarded, so we confirm which route applies before anything is ordered. On brassware, Virginia Water's more design-led executive-style builds bring us a fair amount of AXOR, hansgrohe's design brand built around collaborations such as AXOR Starck and AXOR Citterio — a brushed or matte black trim on AXOR shows every scuff mark from a careless fit far more than chrome does, so handling and sequencing matter as much as the plumbing. GROHE covers a wider span of the work, from thermostatic shower valves and Rapid SL cistern frames on mid-range refits through to digital shower and smart water products on more specified projects, and we work through exactly which part of the range has been chosen rather than treating it as a single fitting job. The area's substantial period houses also bring us a good amount of Burlington, whose pedestal and wall-hung basins, close-coupled and high-level WCs and roll-top baths reproduce classic bathroom forms with a modern fixing standard underneath — getting the period look right depends on fixing detail that's invisible once the room is finished, like a high-level cistern bracket or exact pedestal alignment. For baths and trays, Kaldewei's titanium-enamelled steel is pressed rather than cast or moulded, which changes how it's handled and supported on site — the installation detail is about even, accurate bearing across the full base and protecting the hard but chip-sensitive enamel from other trades still working in the room. On more contemporary Virginia Water specifications, Crosswater's brassware and shower systems run heavily on concealed valves and digital controls designed to disappear into the wall, which means most of the work that determines performance happens before the tiler arrives — wall build-up, pipework depth, and the water pressure the valve actually needs. And Kohler's range spans cast-iron enamel baths, vitreous china sanitaryware and contemporary brassware, which in practice means a single project can involve three quite different fitting disciplines side by side; we plan for whichever combination has been specified rather than a single generic approach."
+    },
+    {
+      "heading": "Why the fitting detail matters more at this specification level",
+      "body": "Across the spread of housing common in Virginia Water — from a substantial period property to a recently built executive home — the margin for error on installation detail tends to shrink rather than grow as the specification rises. A rough-in set a few millimetres wrong on a Crosswater concealed valve, or an AXOR trim scuffed during a careless fit, is far more visible and considerably more expensive to put right than the same mistake on a mainstream product, precisely because these fittings are designed either to disappear cleanly into the wall or to be seen without flaw. That's why we work through exactly what's been specified at the £125 survey, confirm the installation route for frames, fixings and finishes before any wall or floor closes up, and sequence the fit so delicate or design-led products aren't handled any more than they need to be. The product choice is yours; getting it installed properly, once it's chosen, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Virginia Water?",
+      "a": "Geberit and Duravit sanitaryware come up frequently, alongside AXOR and GROHE brassware. Virginia Water's period housing also brings us a fair amount of Burlington, plus Kaldewei, Crosswater and Kohler for baths, trays and contemporary shower systems."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey. If a product has an unusual fixing, frame or electrical requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Why does a concealed, digitally controlled brand like Crosswater need different fitting detail?",
+      "a": "Crosswater's valves and controls are designed to disappear into the wall rather than sit proud of it, so the wall build-up, pipework depth and water pressure all have to be right before the tiler ever arrives — most of what determines how well it performs happens out of sight, earlier in the job."
+    },
+    {
+      "q": "Do you work with Virginia Water bathroom showrooms and designers?",
+      "a": "Yes. A good amount of the specification we fit in Virginia Water has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom fitting in Virginia Water" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "virginia-water" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "duravit" },
+    { "file": "brands.json", "id": "axor" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "kaldewei" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "kohler" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-virginia-water/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-virginia-water/ pages once built.",
+  "primaryKeyword": "bathroom brands Virginia Water",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Virginia Water",
+    "luxury bathroom brands fitted Virginia Water",
+    "bathroom fitter brands Virginia Water"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Virginia Water brands-in-area page, implying brand and material choice through a close mid-shot of a wall-mounted concealed shower valve and controller rather than a full room view. Subject and action: a matte black square-profile concealed shower valve plate and separate round controller mounted on a tiled wall, positioned above a chrome-free brushed bronze overhead shower arm visible entering frame from the top edge, static, no activity. Setting and work-stage: a finished contemporary en-suite inside a recent executive-style Virginia Water build, daytime, soft directional light angling in from an unseen window to one side. Composition: tight mid-range three-quarter shot centred on the valve plate and controller, large-format porcelain tile filling the surrounding frame, the brushed bronze shower arm entering softly out of focus from above. Light and materials: large-format rectified porcelain tile in a warm greige tone, matte black valve plate and controller, brushed bronze shower arm, soft directional daylight catching one edge of the valve plate and casting a short, defined shadow across the tile joint beside it. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the porcelain and metal finishes rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/virginia-water-hero.webp",
+    "heroAlt": "Close-up of a matte black concealed shower valve and brushed bronze overhead shower arm against large-format porcelain tile in a finished Virginia Water en-suite, soft directional daylight.",
+    "inline": []
+  }
+}

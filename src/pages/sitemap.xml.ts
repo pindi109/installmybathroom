@@ -15,6 +15,8 @@ const SECTION_META: Record<string, { changefreq: string; priority: string }> = {
   about: { changefreq: "monthly", priority: "0.6" },
   contact: { changefreq: "monthly", priority: "0.7" },
   survey: { changefreq: "monthly", priority: "0.7" },
+  "bathroom-cost": { changefreq: "monthly", priority: "0.6" },
+  "areas-brands": { changefreq: "monthly", priority: "0.6" },
   pricing: { changefreq: "monthly", priority: "0.7" },
   "how-it-works": { changefreq: "monthly", priority: "0.6" },
   faqs: { changefreq: "monthly", priority: "0.6" },
@@ -32,6 +34,12 @@ function pathFromGlobKey(key: string): string {
   return `/${p}/`;
 }
 
+// Dynamic routes (getStaticPaths, e.g. "survey/[town].astro") produce many URLs
+// from one physical file — the flat-file glob below can't enumerate those, so
+// each generated-content family is globbed separately and each JSON file's own
+// `path` field is used directly instead of deriving a URL from the filename.
+const GENERATED_CONTENT = import.meta.glob("../content/generated/**/*.json", { eager: true });
+
 function metaFor(path: string): { changefreq: string; priority: string } {
   const section = path.split("/").filter(Boolean)[0] ?? "";
   return SECTION_META[section] ?? { changefreq: "monthly", priority: "0.5" };
@@ -41,8 +49,15 @@ export const GET = async (): Promise<Response> => {
   const BASE = "https://installmybathroom.co.uk";
   const pageModules = import.meta.glob("./**/*.astro");
 
-  const urls = Object.keys(pageModules)
-    .map(pathFromGlobKey)
+  const flatFileUrls = Object.keys(pageModules)
+    .filter((key) => !key.includes("[")) // dynamic routes handled via GENERATED_CONTENT below
+    .map(pathFromGlobKey);
+
+  const generatedUrls = Object.values(GENERATED_CONTENT).map(
+    (mod: any) => mod.default.path as string
+  );
+
+  const urls = [...flatFileUrls, ...generatedUrls]
     .filter((p) => !EXCLUDED_PATHS.has(p))
     .sort();
 

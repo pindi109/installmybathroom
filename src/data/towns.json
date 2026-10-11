@@ -1,0 +1,605 @@
+[
+  {
+    "slug": "ascot",
+    "name": "Ascot",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "sunningdale",
+        "name": "Sunningdale"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "virginia-water",
+        "name": "Virginia Water"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Ascot's identity is tied to its racecourse, and the housing around it reflects the wealth that's grown up alongside it over more than a century: large detached Victorian and Edwardian houses, inter-war family homes, and a good number of more recent executive-style builds on generous plots, particularly on the roads running towards Sunningdale and Windsor. That scale of plot generally gives us far more freedom on layout than a smaller property allows \u2014 relocating a waste run or widening a doorway for level access rarely runs into the structural limits a terraced house would present.",
+        "source_url": "https://installmybathroom.co.uk/areas/ascot/"
+      }
+    ]
+  },
+  {
+    "slug": "binfield",
+    "name": "Binfield",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      },
+      {
+        "slug": "warfield",
+        "name": "Warfield"
+      },
+      {
+        "slug": "winkfield",
+        "name": "Winkfield"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Binfield has grown considerably over recent decades, but it hasn't lost its older centre entirely \u2014 period cottages, former farmhouses and other pre-war buildings sit alongside the large housing estates that now make up the bulk of the village. These two building types need handling quite differently when it comes to a bathroom installation, and we don't apply the same assumptions to both.",
+        "source_url": "https://installmybathroom.co.uk/areas/binfield/"
+      }
+    ]
+  },
+  {
+    "slug": "bracknell",
+    "name": "Bracknell",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "binfield",
+        "name": "Binfield"
+      },
+      {
+        "slug": "crowthorne",
+        "name": "Crowthorne"
+      },
+      {
+        "slug": "winkfield",
+        "name": "Winkfield"
+      },
+      {
+        "slug": "finchampstead",
+        "name": "Finchampstead"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Bracknell was designated a new town in the 1950s, and a large part of its housing dates from that programme and the decades of estate development that followed \u2014 1960s and 1970s town-build housing in the original residential areas, further estate phases through the 1980s and 1990s as the town expanded, and newer executive-style developments on its outer edges more recently. It's a town built in waves rather than one with a single dominant character, and the right bathroom approach for a 1970s semi is often different from the right approach for a newer four-bedroom detached on a 2000s estate.",
+        "source_url": "https://installmybathroom.co.uk/areas/bracknell/"
+      }
+    ]
+  },
+  {
+    "slug": "camberley",
+    "name": "Camberley",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "sandhurst",
+        "name": "Sandhurst"
+      },
+      {
+        "slug": "crowthorne",
+        "name": "Crowthorne"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Camberley grew substantially through the Victorian and Edwardian periods, and its housing still reflects that \u2014 brick terraces and detached villas on tree-lined roads near the town centre, with inter-war semis and larger detached houses spreading out towards Sandhurst and the surrounding commuter suburbs. More recent decades have added estate housing on the fringes of the town, giving us a genuine spread of building ages and construction types to work with across different jobs.",
+        "source_url": "https://installmybathroom.co.uk/areas/camberley/"
+      }
+    ]
+  },
+  {
+    "slug": "crowthorne",
+    "name": "Crowthorne",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "sandhurst",
+        "name": "Sandhurst"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      },
+      {
+        "slug": "binfield",
+        "name": "Binfield"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Crowthorne's character comes partly from its association with Wellington College, and the roads around it carry a good number of substantial Victorian and Edwardian houses built for an earlier generation of staff and commuters. Further from the village centre there's more twentieth-century family housing and some newer infill on redeveloped plots. The older stock tends to have solid masonry walls and, on the ground floor at least, a higher chance of suspended timber construction than the newer housing \u2014 which matters for anyone specifying a wet room or large-format porcelain, since suspended floors need checking for deflection before tanking goes down.",
+        "source_url": "https://installmybathroom.co.uk/areas/crowthorne/"
+      }
+    ]
+  },
+  {
+    "slug": "eton",
+    "name": "Eton",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "maidenhead",
+        "name": "Maidenhead"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Eton is a small, historic town, and its housing reflects that: a concentration of period properties along and around the High Street, many dating from the Georgian and Victorian periods, with narrower frontages and more compact floor plans than the larger detached houses found further out in Berkshire. Working here means thinking carefully about access from the outset \u2014 narrow staircases, period door openings and limited off-street parking all affect how materials move in and waste moves out, and we plan for that at survey rather than on the day.",
+        "source_url": "https://installmybathroom.co.uk/areas/eton/"
+      }
+    ]
+  },
+  {
+    "slug": "finchampstead",
+    "name": "Finchampstead",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "wokingham",
+        "name": "Wokingham"
+      },
+      {
+        "slug": "crowthorne",
+        "name": "Crowthorne"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Finchampstead's village core carries a number of older buildings, while the wider area \u2014 spreading out towards Wokingham and Crowthorne, and up towards Finchampstead Ridges \u2014 is largely post-war and more modern housing, built across several decades from the 1950s onward. The two need different handling at survey: older buildings near the centre often have solid masonry walls and suspended timber floors that need checking for deflection before tanking or large-format tiling, while the post-war and later stock generally sits on a solid concrete slab that's more straightforward to work with.",
+        "source_url": "https://installmybathroom.co.uk/areas/finchampstead/"
+      }
+    ]
+  },
+  {
+    "slug": "gerrards-cross",
+    "name": "Gerrards Cross",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "stoke-poges",
+        "name": "Stoke Poges"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from \u00a33,500.",
+        "source_url": "https://installmybathroom.co.uk/areas/gerrards-cross/"
+      }
+    ]
+  },
+  {
+    "slug": "maidenhead",
+    "name": "Maidenhead",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "eton",
+        "name": "Eton"
+      },
+      {
+        "slug": "twyford",
+        "name": "Twyford"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Maidenhead's position on the Thames has shaped much of its more prestigious housing \u2014 larger detached properties along and near the river, some period, some built more recently, generally on generous plots that give more freedom over bathroom layout than a terraced property allows. Away from the riverside, the town has a substantial core of Victorian and Edwardian housing, along with extensive post-war and modern suburban development and newer town-centre apartment schemes, so the range of construction types we work with here is wide.",
+        "source_url": "https://installmybathroom.co.uk/areas/maidenhead/"
+      }
+    ]
+  },
+  {
+    "slug": "reading",
+    "name": "Reading",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "wokingham",
+        "name": "Wokingham"
+      },
+      {
+        "slug": "twyford",
+        "name": "Twyford"
+      },
+      {
+        "slug": "maidenhead",
+        "name": "Maidenhead"
+      }
+    ],
+    "facts": [
+      {
+        "text": "As one of the larger towns in our working area, Reading has a genuinely broad mix of housing: dense Victorian and Edwardian terraces close to the centre and around the University of Reading, inter-war and post-war suburban semis and detached houses spreading out from there, newer apartment and town-centre regeneration schemes, and larger detached properties in the outer villages and commuter suburbs on the edge of the borough. We don't assume a single construction type from a Reading postcode \u2014 the difference between a converted Victorian terrace and a new-build apartment is significant for how a bathroom gets fitted.",
+        "source_url": "https://installmybathroom.co.uk/areas/reading/"
+      }
+    ]
+  },
+  {
+    "slug": "sandhurst",
+    "name": "Sandhurst",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "crowthorne",
+        "name": "Crowthorne"
+      },
+      {
+        "slug": "camberley",
+        "name": "Camberley"
+      },
+      {
+        "slug": "finchampstead",
+        "name": "Finchampstead"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Sandhurst's housing is a genuine mix rather than one dominant style \u2014 established twentieth-century family housing forms much of the town, with newer estate developments on its edges and pockets of older property closer to the centre and towards the Royal Military Academy. The right approach at survey depends on which of these a property falls into: newer estate housing is generally solid concrete floors and straightforward modern plumbing, while older stock can still have suspended timber floors that need checking for deflection before a wet room or large-format tiling goes in.",
+        "source_url": "https://installmybathroom.co.uk/areas/sandhurst/"
+      }
+    ]
+  },
+  {
+    "slug": "stoke-poges",
+    "name": "Stoke Poges",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "gerrards-cross",
+        "name": "Gerrards Cross"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club giving the area its best-known identity. The housing around it ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow \u2014 relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present.",
+        "source_url": "https://installmybathroom.co.uk/areas/stoke-poges/"
+      }
+    ]
+  },
+  {
+    "slug": "sunningdale",
+    "name": "Sunningdale",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "virginia-water",
+        "name": "Virginia Water"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them \u2014 a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure.",
+        "source_url": "https://installmybathroom.co.uk/areas/sunningdale/"
+      }
+    ]
+  },
+  {
+    "slug": "sunninghill",
+    "name": "Sunninghill",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "sunningdale",
+        "name": "Sunningdale"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      }
+    ],
+    "facts": [
+      {
+        "text": "We install luxury, fit-only bathrooms for homeowners across Sunninghill, the Berkshire village immediately next to Ascot and effectively contiguous with it, around 15 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from \u00a33,500.",
+        "source_url": "https://installmybathroom.co.uk/areas/sunninghill/"
+      }
+    ]
+  },
+  {
+    "slug": "twyford",
+    "name": "Twyford",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "reading",
+        "name": "Reading"
+      },
+      {
+        "slug": "maidenhead",
+        "name": "Maidenhead"
+      },
+      {
+        "slug": "wokingham",
+        "name": "Wokingham"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Twyford sits on the railway line between Reading and Maidenhead, which has shaped its growth over the years \u2014 an older village centre with period cottages and terraces, surrounded by commuter-belt housing built up in waves as the village became more popular with people working towards London. That mix means we see both compact, older floor plans with narrower bathrooms to work within, and larger, more recently built houses where there's more flexibility on layout.",
+        "source_url": "https://installmybathroom.co.uk/areas/twyford/"
+      }
+    ]
+  },
+  {
+    "slug": "virginia-water",
+    "name": "Virginia Water",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "sunningdale",
+        "name": "Sunningdale"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "wentworth-estate",
+        "name": "Wentworth Estate"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties here range from substantial period houses to more recent executive-style builds, and plot size generally gives us far more flexibility on layout than a terraced property would \u2014 relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around.",
+        "source_url": "https://installmybathroom.co.uk/areas/virginia-water/"
+      }
+    ]
+  },
+  {
+    "slug": "warfield",
+    "name": "Warfield",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      },
+      {
+        "slug": "binfield",
+        "name": "Binfield"
+      },
+      {
+        "slug": "winkfield",
+        "name": "Winkfield"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Warfield has an older village core \u2014 a scattering of period cottages and farmhouses around the church and high street \u2014 alongside substantial later development, including the Warfield Park area and other estates built from the latter part of the twentieth century onwards. The mix means we see two quite different sets of conditions on site: newer houses with solid floors, modern partition walls and straightforward service runs, and older properties where floor construction, wall thickness and existing pipework need a closer look before any work is priced.",
+        "source_url": "https://installmybathroom.co.uk/areas/warfield/"
+      }
+    ]
+  },
+  {
+    "slug": "wentworth-estate",
+    "name": "Wentworth Estate",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "virginia-water",
+        "name": "Virginia Water"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      }
+    ],
+    "facts": [
+      {
+        "text": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey \u2014 the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship \u2014 around 15 to 20 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from \u00a33,500, coordinating access with the estate and any managing agent so the programme runs without delay at the gate.",
+        "source_url": "https://installmybathroom.co.uk/areas/wentworth-estate/"
+      }
+    ]
+  },
+  {
+    "slug": "windlesham",
+    "name": "Windlesham",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "sunningdale",
+        "name": "Sunningdale"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "We install luxury, fit-only bathrooms for homeowners across Windlesham, the affluent Surrey village close to Bagshot and Lightwater, within the same Wentworth, Sunningdale and Ascot golf-course belt we already cover, around 20 to 25 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from \u00a33,500.",
+        "source_url": "https://installmybathroom.co.uk/areas/windlesham/"
+      }
+    ]
+  },
+  {
+    "slug": "windsor",
+    "name": "Windsor",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "eton",
+        "name": "Eton"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Windsor's housing splits fairly cleanly into two character types. Close to the Castle and the historic centre, there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes, with a scattering of newer residential developments on sites that have been redeveloped over the years.",
+        "source_url": "https://installmybathroom.co.uk/areas/windsor/"
+      }
+    ]
+  },
+  {
+    "slug": "winkfield-row",
+    "name": "Winkfield Row",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "winkfield",
+        "name": "Winkfield"
+      },
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "We install luxury, fit-only bathrooms for homeowners across Winkfield Row, the quiet rural hamlet within Winkfield parish near Ascot and Windsor Great Park, around 15 to 20 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from \u00a33,500.",
+        "source_url": "https://installmybathroom.co.uk/areas/winkfield-row/"
+      }
+    ]
+  },
+  {
+    "slug": "winkfield",
+    "name": "Winkfield",
+    "priority": true,
+    "nearby": [
+      {
+        "slug": "ascot",
+        "name": "Ascot"
+      },
+      {
+        "slug": "windsor",
+        "name": "Windsor"
+      },
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Winkfield's older centre still has a number of cottages and larger period houses, many associated historically with the surrounding farmland and the equestrian land towards Ascot, while the newer parts of the parish \u2014 closer to Bracknell and along the main roads \u2014 carry more recent estate-style housing. The two building types need different handling at survey: period buildings often have solid masonry walls and suspended timber floors that need checking for deflection before tanking or large-format tiling, while newer housing generally sits on a solid concrete slab that's more straightforward to work with.",
+        "source_url": "https://installmybathroom.co.uk/areas/winkfield/"
+      }
+    ]
+  },
+  {
+    "slug": "wokingham",
+    "name": "Wokingham",
+    "priority": false,
+    "nearby": [
+      {
+        "slug": "bracknell",
+        "name": "Bracknell"
+      },
+      {
+        "slug": "crowthorne",
+        "name": "Crowthorne"
+      },
+      {
+        "slug": "twyford",
+        "name": "Twyford"
+      },
+      {
+        "slug": "finchampstead",
+        "name": "Finchampstead"
+      }
+    ],
+    "facts": [
+      {
+        "text": "Wokingham's historic core \u2014 around the market place and the streets leading off it \u2014 holds a good number of Georgian and Victorian townhouses and villas, many later divided or extended as the town grew. Beyond that centre, the town has expanded substantially through inter-war, post-war and contemporary estate development, so a typical week for us might include a Victorian villa conversion, a 1950s detached house, and a bathroom in a new-build estate home on the same road. We treat each as its own job rather than assuming a standard layout from the postcode.",
+        "source_url": "https://installmybathroom.co.uk/areas/wokingham/"
+      }
+    ]
+  }
+]

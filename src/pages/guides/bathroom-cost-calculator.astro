@@ -1,0 +1,110 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const LAST_UPDATED = "2026-10-07";
+
+const factors = [
+  { id: "waste", label: "Moving the WC, shower or basin to a new position", points: 2 },
+  { id: "wetroom", label: "Full wet room floor (not a tray enclosure)", points: 2 },
+  { id: "stone", label: "Natural stone rather than porcelain tiling", points: 2 },
+  { id: "ufh", label: "Underfloor heating", points: 1 },
+  { id: "showertoilet", label: "Shower toilet or digital shower", points: 1 },
+  { id: "structural", label: "Moving or removing a stud wall", points: 2 },
+  { id: "glass", label: "Bespoke-cut glass (angled wall, non-standard opening)", points: 1 },
+  { id: "fixtures", label: "More than 3 sanitaryware items in one room", points: 1 },
+];
+
+const bands = [
+  { min: 0, max: 0, label: "From £3,500", desc: "A straightforward fit-only installation: existing layout kept, no waste positions moved, mid-market sanitaryware and porcelain tiling to a standard wet area." },
+  { min: 1, max: 2, label: "£10,000–£25,000", desc: "A full re-fit with some repositioning — typically a new shower enclosure replacing a bath, updated electrics, and a higher tile specification across a larger floor and wall area." },
+  { min: 3, max: 4, label: "£25,000–£50,000", desc: "Layout changes with moved waste and supply runs, a wet room or large walk-in shower with full tanking, underfloor heating, and a mix of porcelain and natural stone." },
+  { min: 5, max: 6, label: "£50,000–£100,000", desc: "A high-specification suite with natural stone throughout, a freestanding bath, shower toilet, digital shower, and coordinated electrical and structural work to support the products chosen." },
+  { min: 7, max: 99, label: "£100,000+", desc: "Multiple wet areas, bespoke stone fabrication and fitting, steam room or steam shower installation, and the kind of services coordination that comes with a wider renovation running alongside the bathroom." },
+];
+---
+
+<Base
+  title="Bathroom Cost Calculator | Install My Bathroom"
+  description="A quick indicative bathroom installation cost estimate based on what your project involves — then book a £125 survey for an exact, written figure."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Cost Calculator", href: "/guides/bathroom-cost-calculator/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Cost Calculator</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Tick what applies to your project for an indicative price band. This is a ballpark based on the same cost factors covered in our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">full cost guide</a> — not a quote. A £{business.pricing.surveyGBP} survey measures your actual room and produces a written, fixed figure.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <div class="card p-6 md:p-8 fade-up">
+        <h2 class="text-xl font-bold mb-4">What does your project involve?</h2>
+        <div id="calc-factors" class="space-y-3 mb-8">
+          {factors.map((f) => (
+            <label class="flex items-start gap-3 cursor-pointer">
+              <input type="checkbox" data-points={f.points} class="calc-checkbox mt-1" />
+              <span>{f.label}</span>
+            </label>
+          ))}
+        </div>
+
+        <div id="calc-result" class="p-5 rounded-lg" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+          <p class="text-sm font-semibold mb-1" style="color: var(--text-soft);">Indicative range</p>
+          <p id="calc-band-label" class="text-2xl font-bold mb-2">From £3,500</p>
+          <p id="calc-band-desc" class="text-sm leading-relaxed" style="color: var(--text-soft);">
+            A straightforward fit-only installation: existing layout kept, no waste positions moved, mid-market sanitaryware and porcelain tiling to a standard wet area.
+          </p>
+        </div>
+
+        <a href="/survey/" class="btn-primary mt-6 inline-flex">Book a Survey — £{business.pricing.surveyGBP}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">How this estimate works</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Each factor ticked above reflects a real driver of installation cost — moved waste positions, full wet room tanking, natural stone fitting time, and similar — set out in detail in our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>. The bands shown match those used on our <a href="/pricing/" class="underline" style="color: var(--teal);">pricing page</a>. This tool has no connection to any quote — it's a starting point for budgeting, not a substitute for the £{business.pricing.surveyGBP} survey.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>
+
+<script define:vars={{ bands }}>
+  const checkboxes = document.querySelectorAll(".calc-checkbox");
+  const bandLabel = document.getElementById("calc-band-label");
+  const bandDesc = document.getElementById("calc-band-desc");
+
+  function update() {
+    let points = 0;
+    checkboxes.forEach((cb) => {
+      if (cb.checked) points += Number(cb.dataset.points);
+    });
+    const band = bands.find((b) => points >= b.min && points <= b.max) ?? bands[bands.length - 1];
+    bandLabel.textContent = band.label;
+    bandDesc.textContent = band.desc;
+  }
+
+  checkboxes.forEach((cb) => cb.addEventListener("change", update));
+  update();
+</script>

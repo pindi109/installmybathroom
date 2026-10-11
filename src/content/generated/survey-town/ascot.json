@@ -1,0 +1,72 @@
+{
+  "path": "/survey/ascot/",
+  "family": "Per-town: survey",
+  "town": "ascot",
+  "seo": {
+    "title": "Bathroom Survey in Ascot | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Ascot. We measure, check access and waste runs, and scope large period and executive-style properties before any installation quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/ascot/"
+  },
+  "h1": "Bathroom survey in Ascot",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Ascot, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and your access routes, and it's what stops a quote turning into a list of surprises once the fitting team is on site. Ascot's housing stock gives us a lot to work with at survey stage: large detached Victorian and Edwardian houses, substantial inter-war family homes, and a good number of more recent executive-style builds on generous plots, particularly on the roads running out towards Sunningdale and Windsor. That scale of plot generally gives us far more freedom on layout than a smaller property allows — relocating a waste run or widening a doorway for level access rarely runs into the structural limits a terraced house would present elsewhere. The survey is where we confirm whether that freedom actually applies to your specific house, rather than assuming it from the postcode."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or needs to stay put, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access — door widths, staircases, and how materials will move in and waste will move out — because that affects both the practicality of the work and, in some cases, the fittings you can realistically choose. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey conversation itself; it's a paid, fixed-fee visit precisely so that the advice you get is based on your actual property, not a generic estimate."
+    },
+    {
+      "heading": "What that looks like in a typical Ascot property",
+      "body": "Ascot's identity is tied to its racecourse, and the housing around it reflects the wealth that's grown up alongside it over more than a century: large detached Victorian and Edwardian houses, inter-war family homes, and a good number of more recent executive-style builds on generous plots, particularly on the roads running towards Sunningdale and Windsor. At survey, that typically means more usable floor area to design around than a smaller or more constrained property would offer, and often the option of repositioning a waste run or widening a doorway for level access without hitting the kind of structural limits a terraced house would present. In an older Victorian or Edwardian property we'll still check original floor joists and any period features worth protecting, and in a newer executive-style build we're more often confirming service runs and checking what's been boxed in by a previous fit-out. Either way, the survey is where we work out which of those situations applies to your house specifically, rather than assuming the larger plot automatically means a simpler job — a bigger room still needs its waste, supply and structural details checked properly before a quote is finalised."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Ascot, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible in the space. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a full reconfiguration, a wet room conversion, or simply replacing an existing layout with a higher specification. You'll leave the visit with a clear, written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering, without having to guess at what extra costs might appear later. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Ascot property?",
+      "a": "No. Some of the Ascot properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Does a larger Ascot plot mean the survey takes less time?",
+      "a": "Not necessarily. A larger detached house on a generous plot often gives us more layout freedom, but we still check the same things — floor and wall build-up, waste position, water pressure and access — on every property, regardless of its size."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or access?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving or a doorway needs widening for level access, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "Do you survey older Victorian and Edwardian houses differently to newer builds?",
+      "a": "We check for the same things on every property, but what we find differs. In an older Ascot house we're more likely to be checking original floor joists and period features; in a newer executive-style build we're more often confirming service runs behind a previous fit-out."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/bathroom-cost/ascot/", "anchor": "Bathroom installation costs in Ascot" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "bathroom survey Ascot",
+  "secondaryKeywords": [
+    "bathroom installation survey Ascot",
+    "£125 bathroom survey",
+    "bathroom fitter survey Ascot"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Ascot bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a surveyor's tape measure extended across a stripped-back bathroom floor next to an open clipboard with a hand-sketched floor plan and a spirit level resting against the wall, mid-survey rather than mid-build. Setting and work-stage: a large, part-stripped bathroom in a substantial Edwardian-era Ascot house, walls down to bare plaster and exposed waste pipe stub visible in the corner, daytime, soft natural light from a tall sash window. Composition: three-quarter angle from waist height looking across the room toward the window, tape measure and clipboard filling the foreground, exposed pipework and bare floorboards visible mid-ground, window light framing the back wall. Light and materials: natural overcast daylight through the sash window mixing with a single clip lamp propped on the floor, bare floorboards, stripped plaster walls in patches of old paint and exposed brick, a galvanised waste pipe stub, uneven directional light with real shadow falloff. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no styling props such as plants or candles, no running water, varied and believable surface sheen with visible wear on the stripped walls and floor.",
+    "heroOutputPath": "heroes/survey-town/ascot-hero.webp",
+    "heroAlt": "A tape measure and clipboard with a hand-drawn floor plan laid out during a bathroom survey in a stripped-back Edwardian-era bathroom in Ascot, exposed pipework and bare plaster visible under natural window light.",
+    "inline": []
+  }
+}

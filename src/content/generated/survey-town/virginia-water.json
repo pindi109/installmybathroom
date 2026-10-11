@@ -1,0 +1,72 @@
+{
+  "path": "/survey/virginia-water/",
+  "family": "Per-town: survey",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Bathroom Survey in Virginia Water | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Virginia Water. We measure, trace waste runs and plan access across large detached properties near the Wentworth Estate before any installation quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/virginia-water/"
+  },
+  "h1": "Bathroom survey in Virginia Water",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Virginia Water, we carry out a fixed-price £125 survey at the property itself. It's the point where a showroom plan, a designer's sketch, or simply an idea of what you want meets the reality of the room — the waste run under the floor, the water pressure feeding the taps, and the actual route materials will take from the front door to the bathroom. Virginia Water's housing gives us a particular set of things to think through at survey stage. The area is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, sitting on generous plots with long driveways and, in a number of cases, gated or private road access. The houses themselves range from substantial period properties to more recent executive-style builds, and that plot size generally hands us far more flexibility on layout than a terraced or semi-detached property would allow — relocating a waste run to accommodate a freestanding bath, or repositioning a shower to make better use of natural light, rarely runs into a structural wall it can't move around. The survey is where we confirm that flexibility actually applies to your house, rather than assuming it because of the postcode."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation through us. On the day, we measure the room precisely, trace the existing waste run and assess whether it can realistically be repositioned, check the water supply and pressure reaching the bathroom, and establish what the floor and wall build-up actually is beneath the surfaces you can see. Access gets just as much attention as the room itself — door widths, staircases, corridors, and how materials will come in while waste and old fittings go out. On a property with a long driveway or a gated or private road, that access route sometimes needs more planning in advance than the bathroom work does. By the end of the visit you have a written scope and a fixed, firm quote, not a ballpark figure that moves once work starts. There's no separate deposit for the conversation itself; the survey is a paid, fixed-fee visit specifically so the advice we give reflects your actual property rather than a generic average across the area."
+    },
+    {
+      "heading": "What that looks like in a typical Virginia Water property",
+      "body": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. The housing stock itself ranges from substantial period houses to more recent executive-style builds, and at survey stage that mix changes what we're actually checking. In a substantial period property we'll look closely at original floor joists, the depth and material of existing walls, and any features worth protecting before confirming what's achievable — a waste run under a solid period floor behaves very differently to one under a suspended timber floor, and we don't guess which applies to your house. In a more recent executive-style build, we're more often confirming what a previous fit-out has boxed in and checking service runs that may already have been partly modernised. Either way, the generous plot size common across Virginia Water generally gives us more room to manoeuvre than a smaller or terraced property would — moving a waste run a few feet to accommodate a freestanding bath, or shifting a shower to sit under a window for better natural light, rarely hits a neighbouring structural constraint. We still check it properly rather than assume it, and a gated or private road sometimes adds its own access planning we sort out in advance, not on the morning the team turns up."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Virginia Water, the survey is the sensible first step, whether you've already got a showroom design agreed, a designer's plan in hand, or you're still working out what's realistic in the space you have. We come to the property, carry out the checks above, and talk through what you actually want from the room — a full reconfiguration making the most of a generous plot, a wet room conversion, or a straightforward replacement at a noticeably higher specification than what's currently there. You'll leave with a clear written scope and a fixed quote you can compare properly against anything else you're considering, rather than a number that quietly grows once the job is under way. We fit only — the survey covers exactly what's needed to install the bathroom to the specification you've chosen, whether that's working from your own supplied products or alongside a showroom or designer you're already using."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a finished design before you survey my Virginia Water property?",
+      "a": "No. Some of the properties we survey in Virginia Water already have a showroom or designer plan agreed, others are still at the idea stage. Either way, we measure the room, trace the waste run, check water pressure and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Does a generous plot size mean the survey is quicker?",
+      "a": "Not really. A larger plot common to Virginia Water often gives more layout flexibility, but we check the same things on every property regardless of size — floor and wall build-up, waste position, water pressure and access."
+    },
+    {
+      "q": "My house is on a long driveway or a gated road — does that affect the survey?",
+      "a": "It can affect access planning rather than the technical checks themselves. We look at how materials will move in and waste will move out as part of every survey, and a long driveway or gated road is simply one more access detail we plan for, not something that changes the fee or the process."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run?",
+      "a": "We tell you at the survey stage, not partway through the job. If a waste run needs repositioning to achieve the layout you want — including, for example, relocating it for a freestanding bath — that's scoped and priced into the written quote before work starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom fitting in Virginia Water" },
+    { "href": "/bathroom-cost/virginia-water/", "anchor": "Bathroom installation costs in Virginia Water" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "virginia-water" }
+  ],
+  "primaryKeyword": "bathroom survey Virginia Water",
+  "secondaryKeywords": [
+    "bathroom installation survey Virginia Water",
+    "£125 bathroom survey",
+    "bathroom fitter survey Virginia Water"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Virginia Water bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a folded laser measure resting on a clipboard holding a hand-drawn floor plan, positioned on the lip of a roll-top bath mid-removal, with a wound tape measure draped across the bath's edge and a pencil tucked into the clipboard's clip. Setting and work-stage: a part-stripped bathroom inside a substantial period detached house near the Wentworth Estate, old tiling partially hacked back to reveal a solid screed floor in one corner, daytime, bright but diffused daylight coming through a tall leaded window. Composition: high three-quarter angle looking down onto the bath edge and clipboard, the hacked-back floor section visible in the lower background, leaded window light falling across the upper-left of frame. Light and materials: bright diffused daylight through leaded glass mixing unevenly with a single clipped work lamp aimed at the floor section, aged cast-iron roll-top bath enamel with faint believable wear, exposed solid screed and broken limestone-effect tile fragments, warm oak floorboards visible at the room's threshold. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no running water, varied and believable surface wear across the bath enamel, screed and tile fragments.",
+    "heroOutputPath": "heroes/survey-town/virginia-water-hero.webp",
+    "heroAlt": "A laser measure and hand-drawn floor plan on a clipboard resting on a roll-top bath during a bathroom survey in a part-stripped period Virginia Water property, leaded window daylight and exposed screed floor.",
+    "inline": []
+  }
+}

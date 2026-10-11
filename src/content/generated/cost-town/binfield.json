@@ -1,0 +1,78 @@
+{
+  "path": "/bathroom-cost/binfield/",
+  "family": "Per-town: cost",
+  "town": "binfield",
+  "seo": {
+    "title": "Bathroom Installation Cost in Binfield | From £3,500 | Install My Bathroom",
+    "description": "What a fit-only luxury bathroom installation costs in Binfield — prices from £3,500, what changes the price, and repair costs from £200.",
+    "canonical": "https://installmybathroom.co.uk/bathroom-cost/binfield/"
+  },
+  "h1": "Bathroom Installation Cost in Binfield",
+  "hero": {
+    "intro": "Fit-only bathroom installation in Binfield starts from £3,500 for a straightforward layout in a client-supplied bathroom — the suite, tiles and brassware are priced and bought separately, and we install. Binfield's mix of retained older cottages and former farmhouses alongside large modern housing estates means the starting specification two households bring to us can look quite different before a single figure gets attached to either of them, which is exactly why our £125 survey, not a number taken from a brochure, is what turns a ballpark into a fixed, written quote."
+  },
+  "sections": [
+    {
+      "heading": "Installation prices from £3,500",
+      "body": "£3,500 is the starting point for fit-only installation of a straightforward, client-supplied bathroom — a like-for-like layout with no waste positions moved and no particularly specialist materials. A full luxury re-fit with moved services, a tanked wet room and natural stone commonly runs to £10,000–£20,000 or more. Either way, that figure covers labour only: the sanitaryware, brassware, tiles and furniture are bought separately by you, usually through a showroom, and we fit what you've bought rather than supplying it ourselves."
+    },
+    {
+      "heading": "What changes the price",
+      "body": "Three things move a Binfield quote more than most others. Moving waste positions — relocating a toilet or shower rather than reconnecting it where it already sits — means altering supply and drainage runs, and sometimes adjusting floor levels for a proper fall to drain, which adds first-fix labour beyond a straight swap. Choosing a wet room over a shower tray and enclosure means tanking the whole floor and building in a fall to a level-access drain, rather than tanking confined to a smaller enclosure footprint, which takes longer to get right. And specifying natural stone rather than large-format porcelain adds time for careful handling, sealing and mitred edges that porcelain doesn't need in the same way. None of these are reasons to avoid a particular layout or finish — they're simply what the labour involves, and our £125 survey prices them against your actual room rather than a generic estimate."
+    },
+    {
+      "heading": "Repair pricing",
+      "body": "Not every call to us in Binfield is a full re-fit. Repairs — a leaking shower valve, a running concealed cistern, a resealed tray — start from £200. Genuine emergencies, such as a blocked toilet or an active wet room leak, carry a £500 minimum call-out rather than the standard repair rate, reflecting the urgency of the response rather than the scale of the work. We don't offer regrouting as a repair service."
+    },
+    {
+      "heading": "How Binfield's housing stock affects typical specification",
+      "body": "Binfield has grown considerably over recent decades, but it hasn't lost its older centre entirely — period cottages, former farmhouses and other pre-war buildings sit alongside the large housing estates that now make up the bulk of the village, and the two tend to arrive at quite different specifications. An older cottage or farmhouse more often needs floor or wall remedial work factored into the quote before a wet room or heavy stone vanity can go in, simply because the existing construction wasn't built with either in mind. A property on one of the newer estates more often starts from a more standard stud-wall, solid-floor base, so more of the budget tends to go toward the chosen finish — stone, a larger wet room, a shower toilet — rather than toward remedial groundwork first. Neither pattern is a rule for any individual house, which is exactly why the £125 survey, not an assumption based on the street a property sits on, is what the fixed quote gets built against."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £3,500 starting price include the bathroom suite?",
+      "a": "No. That figure covers fit-only installation labour for a straightforward layout. Sanitaryware, brassware, tiles and furniture are bought separately by you, usually through a showroom."
+    },
+    {
+      "q": "Why would a Binfield installation cost more than the £3,500 starting figure?",
+      "a": "Most commonly because waste positions are being moved, a wet room is specified instead of a tray and enclosure, or natural stone is being used instead of porcelain — each adds labour time beyond a straightforward like-for-like swap."
+    },
+    {
+      "q": "How accurate is a cost estimate before the survey?",
+      "a": "Treat any figure given before survey as a ballpark only. Our £125 survey measures the actual room, checks services and substrate, and produces a written, fixed quote against a defined scope — that's the number to budget against."
+    },
+    {
+      "q": "Do older Binfield cottages cost more to fit than houses on the newer estates?",
+      "a": "Often, yes, though it depends on the individual property rather than its age alone. Floor and wall remedial work is more commonly needed in a period cottage or former farmhouse before a wet room or stone vanity can be specified, which the survey will identify and price rather than leaving as a surprise once work starts."
+    },
+    {
+      "q": "What does a repair call-out cost in Binfield if I'm not having a full re-fit?",
+      "a": "Repairs such as a leaking valve or a running cistern start from £200. Genuine emergencies — a blocked toilet or an active leak — carry a £500 minimum call-out rather than the standard repair rate."
+    },
+    {
+      "q": "Can I buy my bathroom suite from a different supplier to the brassware and tiles?",
+      "a": "Yes, this is the norm for most of our Binfield clients. We check waste sizes, tap centres and fixing requirements across every supplier involved before strip-out starts, so nothing arrives on site that doesn't actually fit the room or each other."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "anchor": "How bathroom installation cost is worked out" },
+    { "href": "/pricing/", "anchor": "Our pricing" },
+    { "href": "/areas/binfield/", "anchor": "Bathroom installation in Binfield" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "binfield" },
+    { "file": "business.ts", "id": "pricing" },
+    { "file": "business.ts", "id": "repairs" }
+  ],
+  "primaryKeyword": "bathroom installation cost Binfield",
+  "secondaryKeywords": ["bathroom fitting cost Binfield", "Binfield bathroom prices"],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Binfield installation-cost page, depicting a finished high-spec bathroom reflecting the renovated-farmhouse character common to Binfield's older property stock. Subject and action: a free-standing bath positioned beneath an exposed original ceiling beam, with a brushed brass floor-standing bath filler and a wall-hung vanity opposite, the room fully finished and styled for living rather than construction. Setting and work-stage: a completed ensuite conversion inside a converted Binfield farmhouse-style property, early evening, warm low sun angled through a single window combined with one wall-mounted practical light fixture beside the vanity mirror. Composition: wide room shot taken from the doorway, bath and exposed beam filling the centre of the frame, vanity and mirror visible at the right edge, floor tiling leading the eye from foreground to the window at the back. Light and materials: travertine floor and wall tiling with visible natural pitting and veining, brushed brass bath filler and towel rail, original dark timber ceiling beam contrasting against pale travertine, warm directional evening sun crossing the floor unevenly and mixing with the cooler wall light near the vanity. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting under shelves, mirror or floor edges; no twin symmetrical basins or mirrors; no single flat gold wash across the whole frame — light should fall unevenly across the two sources; no hanging plants, florals or candles; no shower or tap shown running; surfaces should show varied, believable sheen rather than uniform high gloss.",
+    "heroOutputPath": "heroes/cost-town/binfield-hero.webp",
+    "heroAlt": "Finished Binfield farmhouse-style ensuite with a freestanding bath beneath an exposed beam, travertine tiling and a brushed brass bath filler",
+    "inline": []
+  }
+}

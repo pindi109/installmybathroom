@@ -1,0 +1,80 @@
+{
+  "path": "/areas-brands/winkfield-row/",
+  "family": "Per-town: brands in area",
+  "town": "winkfield-row",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Winkfield Row | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Winkfield Row, and how our fit-only installation model works — your products, our labour, from Dornbracht and AXOR to Victoria + Albert and Lefroy Brooks.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/winkfield-row/"
+  },
+  "h1": "Bathroom brands we fit in Winkfield Row",
+  "hero": {
+    "intro": "We work on a fit-only basis across Winkfield Row, which means we install the bathroom products you've already chosen — through a showroom, a designer's specification, or your own research — rather than selling you a fixed range of our own. Winkfield Row is a quiet rural hamlet within Winkfield parish, close to Ascot and the edge of Windsor Great Park, around 15 to 20 minutes by road from our Bracknell base. It's a hamlet of individual properties on their own plots rather than a single repeated housing type, and the specifications we're asked to fit reflect that — a renovated farmhouse calling for freestanding, traditionally detailed sanitaryware, a more recently updated country house taking a sharper, design-led brassware range. Across both, a recurring set of brands turns up on our survey sheets, and over 30 years' experience we've built our fitting process around the specific detail each one needs."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You source your sanitaryware, brassware, tiles and furniture — from a showroom, an online retailer, a designer's specification, or a brand's own stockist — and we strip out, first-fix, tile, plumb and snag the room to the standard those products are designed for, from £3,500. This suits Winkfield Row's spread of individual properties well, because there's no single 'typical' house here to steer a standard supplied range toward. One homeowner might be restoring a period farmhouse bathroom with an eye to the building's history; another, in a more recently built property nearer the edge of the hamlet, might want a minimal, concealed-fixing specification bought through a showroom close to Ascot or Windsor. The fit-only model lets each choose what actually suits their house and their own taste, while we focus on getting whatever's been specified fitted correctly. We work through the detail at the £125 survey, before a wall closes up or a screen goes in, and if something's already fitted and simply needs attention rather than replacing, our repair work starts from £200, with a £500 minimum call-out for anything urgent (we don't offer standalone regrouting, as failed grout is usually a sign of a wider issue worth looking at properly)."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Villeroy & Boch and Duravit sanitaryware both come up regularly on Winkfield Row specifications, usually bought through a showroom alongside a shower toilet seat upgrade or a full suite — the detail that matters with either is confirming the flush plate, pan and frame generations are compatible before anything is ordered, since neither brand necessarily shares a single carrier frame across its own range. On brassware, AXOR and Dornbracht turn up on the more design-led end of what we're asked to fit in the hamlet — AXOR's collaborative ranges and Dornbracht's sculptural handle and spout designs both rely on brushed, matte or dark finishes that show every scuff from careless handling far more visibly than standard chrome, so sequencing and protection matter as much as the plumbing itself. For baths, Victoria + Albert's freestanding pieces, cast from a volcanic limestone and resin composite, have genuine weight — something we plan for in terms of access route and floor loading before the bath ever leaves the showroom, which matters more in an older hamlet property with a suspended timber floor than it would on a modern slab. Where a period farmhouse renovation calls for a more traditional look, Lefroy Brooks's exposed pipework, cross-head handles and period-inspired profiles mean every joint, bracket and pipe run is set out to be looked at rather than hidden, not simply bolted up out of sight. Kaldewei's titanium-enamelled steel baths and shower trays need accurate, even bearing across the full base rather than the flex-prevention an acrylic bath support relies on, and for floor and wall tiling, Porcelanosa's dense, rectified porcelain punishes an uneven substrate far more visibly than a smaller, more forgiving tile — so the floor or wall is checked and levelled first, every time."
+    },
+    {
+      "heading": "Why we match the fitting detail to the property, not just the brand",
+      "body": "In a hamlet like Winkfield Row, the same brand can show up in two quite different buildings — a Lefroy Brooks exposed-pipework suite in a period farmhouse with older joists and thicker masonry walls, or a Dornbracht concealed valve in a more recently updated house on a solid floor near the edge of the hamlet — and the right fitting approach depends as much on the building as on the product itself. That's why the £125 survey matters as much as the brand specification sheet: confirming floor construction, wall build-up and existing pipework on your specific Winkfield Row property, rather than assuming it from the address, means the installation route for whatever frame, fixing or finish you've chosen is settled before it's ordered, not discovered once the wall is already closed up. The product choice is yours; getting it fitted correctly for your particular property, once it's chosen, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware, tiles and furniture — through a showroom, designer or retailer — and we handle the installation, from £3,500, to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Winkfield Row?",
+      "a": "Villeroy & Boch and Duravit sanitaryware come up regularly, alongside AXOR and Dornbracht brassware on more design-led specifications. We also fit Victoria + Albert freestanding baths, Lefroy Brooks on traditional period-style renovations, Kaldewei baths and trays, and Porcelanosa tiling."
+    },
+    {
+      "q": "Can you fit traditional brands like Lefroy Brooks in an older Winkfield Row farmhouse?",
+      "a": "Yes. Lefroy Brooks is built around exposed pipework and period-inspired profiles rather than concealed fittings, and getting it right means every pipe run, bracket and wall fixing is set out and finished to be looked at, not hidden — detail we confirm against your specific property at survey."
+    },
+    {
+      "q": "Does a freestanding stone resin bath need anything special for an older hamlet property?",
+      "a": "Often, yes. A Victoria + Albert bath is cast from a solid limestone and resin composite with genuine weight, which matters for the access route into the room and the floor loading underneath it — something we check at survey, particularly on an older property with a suspended timber floor rather than a solid slab."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/winkfield-row/", "anchor": "Bathroom fitting in Winkfield Row" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "winkfield-row" },
+    { "file": "brands.json", "id": "villeroy-and-boch" },
+    { "file": "brands.json", "id": "duravit" },
+    { "file": "brands.json", "id": "axor" },
+    { "file": "brands.json", "id": "dornbracht" },
+    { "file": "brands.json", "id": "victoria-and-albert" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "kaldewei" },
+    { "file": "brands.json", "id": "porcelanosa" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-winkfield-row/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-winkfield-row/ pages once built.",
+  "primaryKeyword": "bathroom brands Winkfield Row",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Winkfield Row",
+    "luxury bathroom brands fitted Winkfield Row",
+    "bathroom fitter brands Winkfield Row"
+  ],
+  "generatedAt": "2026-10-11",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Winkfield Row brands-in-area page, implying brand and material choice through a close-to-mid fixture detail shot rather than a full room view. Subject and action: a close-to-mid shot of the rolled edge of a freestanding stone-resin bath where it meets a wall-mounted bath filler, the tap's lever handle caught at rest, a single folded dark waffle-weave towel draped over the bath's rim, no activity, a still finished moment. Setting and work-stage: a finished bathroom corner inside an updated farmhouse-style property near Winkfield Row, early evening, most daylight gone from outside a small high window, one practical wall light switched on nearby. Composition: tight three-quarter angle looking along the bath's rolled edge toward the filler, the stone-resin surface filling the lower foreground, a sliver of dark basalt tile wall soft-focus in the background. Light and materials: dark honed basalt tile on the wall behind, matte stone-resin bath surface with a visibly cool, dense feel, brushed nickel wall-mounted bath filler, warm light from the single wall fixture mixing unevenly with the last grey daylight from the window, a soft shadow cast by the filler across the bath rim. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins or catalog-centred staging, no uniform gold or amber colour wash across the whole frame, no plants, florals or candles as props beyond the single plain towel, no water shown running from the filler, varied and believable sheen across the basalt and stone-resin surfaces with faint, realistic wear at the bath's rolled edge.",
+    "heroOutputPath": "heroes/brands-in-area/winkfield-row-hero.webp",
+    "heroAlt": "Close-up of a brushed nickel wall-mounted bath filler against the rolled edge of a freestanding stone-resin bath and dark basalt tiling in an updated Winkfield Row farmhouse bathroom, warm evening light.",
+    "inline": []
+  }
+}

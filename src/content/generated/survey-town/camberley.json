@@ -1,0 +1,72 @@
+{
+  "path": "/survey/camberley/",
+  "family": "Per-town: survey",
+  "town": "camberley",
+  "seo": {
+    "title": "Bathroom Survey in Camberley | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Camberley. We measure, check access and waste runs, and scope period terraces, inter-war semis and newer estate housing before any quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/camberley/"
+  },
+  "h1": "Bathroom survey in Camberley",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Camberley, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and your access routes, and it's what stops a quote turning into a list of surprises once the fitting team is on site. Camberley grew substantially through the Victorian and Edwardian periods, and its housing still reflects that — brick terraces and detached villas on tree-lined roads near the town centre, with inter-war semis and larger detached houses spreading out towards Sandhurst and the surrounding commuter suburbs, and more recent estate housing added on the fringes of the town in recent decades. That gives us a genuine spread of building ages and construction types to work with across different jobs, and no two surveys in Camberley end up looking quite the same as a result. The survey is where we work out which of those building types your property actually is, rather than assuming it from the road it sits on."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 wherever in Camberley you are, and it's deducted from your total project cost if you go ahead with an installation through us. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or has to stay exactly where it is, check the water supply and pressure feeding the room, and look at what's underneath the floor and behind the walls rather than just what you can see on the surface. We also check access — door widths, staircases, any tight turns materials will need to go round on the way in — because that affects both the practicality of the job and, in some cases, which fittings are realistically a sensible choice for your property. By the end of the visit you get a written scope and a firm quote, not a ballpark figure that moves once work is under way. The survey itself isn't a sales visit tied to a deposit; it's a paid, fixed-fee appointment precisely so the advice reflects your actual bathroom, not a generic assumption about what a house of your type usually has."
+    },
+    {
+      "heading": "What that looks like in a typical Camberley property",
+      "body": "Camberley's housing tells the story of the town's growth. Close to the centre, on the tree-lined roads that grew up through the Victorian and Edwardian periods, we're mostly surveying brick terraces and detached villas — properties where suspended timber floors and solid masonry walls are the norm, and where we're often checking original joists for deflection before a wet room floor or large-format tiling goes in. Further out towards Sandhurst and the surrounding commuter suburbs, the housing shifts to inter-war semis and larger detached houses, generally with a bit more room to work with and floor and wall constructions that are a little more forgiving of repositioning a waste run. On the fringes of the town, more recent estate housing tends to mean solid concrete ground floors and more predictable modern plumbing runs, which usually makes first-fix work more straightforward, though upstairs bathrooms in these newer builds still need the same checks for joist spacing and service routing. Because Camberley genuinely spans all of these building ages and construction types, we don't assume which situation applies to your property before we've been there — the survey is where we confirm whether you've got a period terrace with timber floors to work around, an inter-war semi with more generous proportions, or a newer estate house with concrete floors and different considerations, and price the job against what we actually find rather than what's typical for the area in general."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Camberley, the survey is the sensible first step whether you've already got a design from a showroom or designer, or you're still working out what's realistically possible in the space you've got. We'll come to the property, carry out the checks above, and talk through what you're hoping to achieve — a full reconfiguration, a wet room conversion, or a straightforward replacement at a higher specification than what's there now. You'll leave with a clear written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering without guessing at what might get added later. We fit only — the survey covers what's needed to install your bathroom to the specification you've chosen, working from your own supplied products or alongside whichever showroom or designer you're using."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do you survey Camberley's older terraces differently to newer estate housing?",
+      "a": "We check for the same things on every property — waste position, floor and wall build-up, water pressure and access — but what we find differs. In the Victorian and Edwardian terraces near the town centre we're more likely checking suspended timber floors and original joists; on the newer estate housing on the fringes of Camberley it's more often solid concrete floors and modern plumbing runs."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Camberley property?",
+      "a": "No. Some of the Camberley properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or floor?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving, or a timber floor needs strengthening before a wet room goes in, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "Does a larger inter-war or detached Camberley property need a longer survey?",
+      "a": "Not necessarily. A larger inter-war semi or detached house towards Sandhurst often gives more layout freedom, but we check the same things on every property regardless of size — floor and wall build-up, waste position, water pressure and access."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/camberley/", "anchor": "Bathroom fitting in Camberley" },
+    { "href": "/bathroom-cost/camberley/", "anchor": "Bathroom installation costs in Camberley" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "camberley" }
+  ],
+  "primaryKeyword": "bathroom survey Camberley",
+  "secondaryKeywords": [
+    "bathroom installation survey Camberley",
+    "£125 bathroom survey",
+    "bathroom fitter survey Camberley"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Camberley bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a brushed chrome tape measure extended diagonally across a stripped bathroom floor, beside an open clipboard holding a hand-sketched floor plan and a spirit level propped against the skirting, as if the surveyor has just stepped back from the measurement. Setting and work-stage: a part-stripped bathroom inside a Victorian-era brick terrace near Camberley town centre, original lath-and-plaster wall exposed at one corner, a section of old floorboards lifted to reveal the joists beneath, daytime, cool daylight through a small sash window. Composition: three-quarter angle from the doorway, tape measure and clipboard filling the foreground, exposed joists and stripped wall receding into the mid-ground, window light framing the back of the room. Light and materials: dark basalt-effect stacked tile samples leaning against the wall awaiting approval, aged floorboards and exposed joists, brushed chrome tape measure casing, cool overcast daylight through the sash window mixing unevenly with a single handheld worklight angled into the open floor void, real shadow falloff rather than flat lighting. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the frame, no styling props such as plants or candles, no running water, varied and believable surface sheen with real wear on the floorboards and plaster.",
+    "heroOutputPath": "heroes/survey-town/camberley-hero.webp",
+    "heroAlt": "A brushed chrome tape measure and clipboard with a hand-drawn floor plan during a bathroom survey in a stripped Victorian terrace bathroom in Camberley, exposed floor joists and lath-and-plaster wall under cool daylight.",
+    "inline": []
+  }
+}

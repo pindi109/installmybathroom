@@ -1,0 +1,246 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const LAST_UPDATED = "2026-10-10";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Plumber Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "How much does a plumber cost to fit a bathroom?",
+    a: `When plumbing is part of a full fit-only bathroom installation, it isn't priced as a separate line — it's included within the overall figure, which starts from £${business.pricing.fromGBP.toLocaleString()} where the existing waste and supply positions are reused. That figure covers first-fix pipework, connecting every fixture, and testing the system before the room is signed off.`,
+  },
+  {
+    q: "What's the difference between a bathroom plumber and a bathroom installer?",
+    a: "A plumber on its own typically handles pipework, waste and supply connections — the mechanical side. A full bathroom installation also includes tanking, tiling, electrics and carpentry around those connections, all coordinated as one job by one team. We fit the complete room rather than subcontracting the plumbing out separately, which avoids the handover gaps that cause most on-site delays.",
+  },
+  {
+    q: "Is an emergency plumber more expensive than a scheduled repair?",
+    a: `Yes. A scheduled repair visit starts from £${business.repairs.fromGBP}, but an emergency call-out — a leak that needs stopping the same day, for example — has a £${business.repairs.emergencyCalloutGBP} minimum, reflecting the same-day response rather than a booked slot. We don't offer regrouting as a repair service; that's a tiling job, not a plumbing one.`,
+  },
+  {
+    q: "Does moving a toilet or basin to a new wall cost more than refitting it in place?",
+    a: "Considerably more, in most cases. Reusing an existing waste position means the drainage run underneath the floor already falls correctly to the stack. Moving a WC or basin to a different wall means extending or rerouting that drainage run, which usually means lifting floorboards or screed, and sometimes altering the stack connection itself — first-fix time that a straight refit never needs.",
+  },
+  {
+    q: "Is a bathroom plumbing job covered by the £125 survey?",
+    a: `Yes. The survey checks your current supply and waste positions, water pressure and flow at the point of use, the condition of existing pipework where it's accessible, and whether any fixture you want to move is realistically achievable given the floor and wall construction — all before you commit to a final layout.`,
+  },
+  {
+    q: "Do I need a Gas Safe engineer as well as a plumber for a bathroom refit?",
+    a: "Only if the job involves gas-fired equipment, such as a combi boiler relocation or a gas-fed towel rail. Most bathroom plumbing — supply, waste, shower valves, concealed cisterns, underfloor heating manifolds — sits under general plumbing and water regulations rather than gas work, so a separate Gas Safe engineer is only needed when gas pipework itself is being altered.",
+  },
+  {
+    q: "Why does a concealed cistern cost more in labour than a close-coupled toilet?",
+    a: "A concealed cistern sits inside a stud wall or furniture unit, so it needs a frame built, the cistern plumbed and tested for leaks before the wall is closed up, and the flush plate aligned afterwards — all work that happens before the tiler or carpenter can finish that wall. A close-coupled toilet bolts straight onto an exposed waste and supply with none of that hidden first-fix stage.",
+  },
+  {
+    q: "What UK standards does bathroom plumbing have to meet?",
+    a: "Supply pipework and backflow protection fall under the Water Supply (Water Fittings) Regulations 1999, often referred to as WRAS compliance. Above that, Part G of the Building Regulations covers sanitation, hot water safety and water efficiency, and Part L covers hot water system efficiency where relevant. We work to all three as standard on every job.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Plumber Cost UK | Install My Bathroom"
+  description="What a bathroom plumber costs in the UK — as part of a full fit-only installation and as a standalone repair — and what actually moves the price."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Plumber Cost UK", href: "/guides/bathroom-plumber-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Plumber Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Bathroom plumbing cost in the UK depends on whether it's part of a full fit-only installation or a standalone repair. As part of a full installation, plumbing is included within the overall figure, which starts from £{business.pricing.fromGBP.toLocaleString()} where existing waste and supply positions are reused. As a standalone repair, work starts from £{business.repairs.fromGBP}, with a £{business.repairs.emergencyCalloutGBP} minimum for same-day emergency call-outs. A £{business.pricing.surveyGBP} survey gives you an exact, written figure either way.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        Plumbing labour is rarely priced on the number of fixtures alone — it's the position of those fixtures relative to the existing drainage and supply runs, and how much of the floor or wall has to open up to reach them, that sets the time on site.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Reused vs moved waste positions</td>
+              <td class="py-3" style="color: var(--text-soft);">Keeping fixtures where the drainage already falls correctly avoids lifting the floor to rerun it.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Concealed vs exposed pipework</td>
+              <td class="py-3" style="color: var(--text-soft);">Concealed runs inside a stud wall or furniture unit need pressure-testing before anything closes over them.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Number of fixtures connected</td>
+              <td class="py-3" style="color: var(--text-soft);">Each basin, WC, bath, shower valve and towel rail is its own supply and waste connection to first-fix and test.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Scheduled repair vs emergency call-out</td>
+              <td class="py-3" style="color: var(--text-soft);">A same-day emergency response costs more than work booked into a normal diary slot.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Access to existing pipework</td>
+              <td class="py-3" style="color: var(--text-soft);">Pipework buried under a solid floor or behind tiled walls takes longer to reach than a boarded, accessible run.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic scenario</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common job we see as part of a full bathroom refit is a like-for-like plumbing reconnection: the WC, basin and bath or shower all stay on their existing walls, the waste positions are reused because the drainage already falls correctly to the stack, and a new concealed shower valve goes into a stud wall that's being opened up for the retile anyway. That sits close to the entry-level figure, because the first-fix plumbing runs alongside work that's happening regardless.
+        </p>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Where the brief changes — the WC moves to the opposite wall to free up floor space, or a wall-hung basin needs a new supply run to a position with no existing pipework nearby — each of those adds its own first-fix time, because the floor or wall has to open up further than it otherwise would, and the new run has to be tested before anything closes over it.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          Separately, a standalone repair call — a dripping concealed valve, a slow leak under a basin, or a cistern that won't stop filling — is priced on its own, starting from £{business.repairs.fromGBP} for work we can get to on a normal scheduled visit, rising to the £{business.repairs.emergencyCalloutGBP} minimum where a leak needs stopping the same day. We don't offer regrouting as part of a repair visit; a failing grout line is a tiling job, and we'll tell you that honestly rather than charging for a fix that won't hold.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/bathroom-plumber-cost-uk-first-fix-pipework.webp"
+          alt="Close detail of copper and plastic first-fix pipework rising from a subfloor against a part-built travertine stone bathroom wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bathroom-plumber-cost-uk-concealed-valve-first-fix.webp"
+          alt="Close detail of a brushed bronze concealed shower valve body connected to pipework inside an open stud wall cavity"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bathroom-plumber-cost-uk-vanity-connections.webp"
+          alt="Close detail of brushed bronze flexible hose connections beneath a travertine stone vanity countertop basin"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">First-fix vs second-fix: where the hours actually go</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Bathroom plumbing happens in two distinct stages, and most of the cost sits in the first of them. First-fix is the pipework itself — running supply and waste to every fixture position, fitting a concealed cistern frame or shower valve body, and pressure-testing the whole system — all done before tiling or boarding closes the wall or floor over it. Get this stage wrong and it's expensive to correct later, which is why it's tested properly before anything covers it up.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Second-fix is everything that connects to the finished wall or floor afterwards — taps, the WC pan, the basin, the shower valve trim and handset, the towel rail. It's quicker work because the hard part, getting supply and waste to the right place, is already done. A quote that looks cheap on fixtures alone but skips a proper first-fix stage is usually one to question at survey, not after the wall's closed up.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Repair vs full re-plumb</h2>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        A repair call-out and a full re-plumb are priced completely differently, and it's worth knowing which one you actually need before booking either. A repair — a leaking valve, a loose connection, a cistern fault — is a single fixture, usually accessible without major work, and starts from £{business.repairs.fromGBP}, with the £{business.repairs.emergencyCalloutGBP} minimum applying where it needs same-day attention. A full re-plumb, by contrast, is first-fix work across the whole room as part of an installation, priced within the overall fit-only figure from £{business.pricing.fromGBP.toLocaleString()} rather than as a separate repair charge. If you're not sure which applies, the £{business.pricing.surveyGBP} survey will tell you honestly which category the job falls into before you pay for either.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figure above covers labour only — first-fix plumbing to every fixture, pressure-testing, second-fix connection of taps, valves, WCs and basins, and commissioning the whole system before sign-off. The sanitaryware, brassware, cisterns and any pipework fittings themselves are bought separately by you, which is different from a supply-and-fit quote where a plumber or contractor bundles the goods and labour into one number.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately either way: any floor or wall making good beyond the immediate work area, and skip hire if old pipework or fixtures are being removed. Neither is usually included in a plumbing quote from any installer, fit-only or otherwise.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Supply pipework and backflow protection referenced in this guide follow the Water Supply (Water Fittings) Regulations 1999 (WRAS). Sanitation and water efficiency follow Part G of the Building Regulations, with Part L applying to hot water system efficiency where relevant. This figure is specific to plumbing as part of a bathroom installation or as a standalone repair visit; for the full room cost, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-plumber-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/bathroom-plumbing-and-first-fix/" class="btn-secondary">Bathroom Plumbing &amp; First Fix</a>
+        <a href="/guides/concealed-cisterns-explained/" class="btn-secondary">Concealed Cisterns Explained</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+        <a href="/guides/what-our-125-survey-includes/" class="btn-secondary">What Our £125 Survey Includes</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

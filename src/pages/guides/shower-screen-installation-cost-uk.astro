@@ -1,0 +1,249 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const LAST_UPDATED = "2026-10-11";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Shower Screen Installation Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "How much does it cost to install a shower screen in the UK?",
+    a: `As a standalone job — fitting a new client-supplied screen or door into an existing enclosure, with the tray and tiling left undisturbed — labour starts from £${business.repairs.fromGBP}. As part of a wider bathroom installation where the enclosure is being built or re-tiled from scratch, it's included within the overall fit-only figure from £${business.pricing.fromGBP.toLocaleString()}. A £${business.pricing.surveyGBP} survey confirms which category your job falls into and gives you an exact, written number.`,
+  },
+  {
+    q: "Is fitting a new shower door cheaper than replacing a full enclosure?",
+    a: "Usually, yes. A single hinged or sliding door going back into an existing frame or alcove, with the fixed panels and tray staying as they are, is a smaller job than replacing every glass panel, the tray and the surrounding tiling. The honest comparison only comes from a survey, though, since a door swap on a severely corroded or out-of-production frame can sometimes mean replacing the whole enclosure anyway.",
+  },
+  {
+    q: "Does a sliding door cost more to fit than a hinged door?",
+    a: "Generally yes. A sliding door runs on a track with rollers that need to be set perfectly level and adjusted so the door glides without binding or dropping over time, which takes longer to get right than hanging a door on two or three hinges fixed to a wall or frame.",
+  },
+  {
+    q: "Can I just replace the glass and keep the existing frame or tray?",
+    a: "Sometimes, if the frame and tray are both in good condition and the glass itself is the only thing that's failed — cracked, badly scratched, or an outdated obscured pattern you want to swap for clear glass. We check the frame's fixing points and the tray's condition at survey before confirming this is realistic, since fitting new glass into a tired frame can simply move the problem rather than solve it.",
+  },
+  {
+    q: "Is there a cost difference between framed and frameless screens?",
+    a: "Yes — frameless screens use thicker toughened glass and heavier-duty hinges or brackets fixed directly to the wall and floor, and they demand a more accurately plumb and level substrate to fit well, all of which adds to the price compared with a framed screen's thinner glass and more forgiving profile. See our framed vs frameless shower screens guide for the full comparison.",
+  },
+  {
+    q: "Is a bath shower screen cheaper to fit than a full shower enclosure?",
+    a: "Generally yes, because a bath screen is usually a single hinged or folding panel fixed along one edge of an existing bath, with no tray, no tanking and no multi-panel enclosure to build — it's one of the simpler jobs in this guide, close to the entry-level standalone figure.",
+  },
+  {
+    q: "Do I need the £125 survey just for a simple screen swap?",
+    a: `For a straightforward like-for-like door or screen swap with no other work involved, we can often quote from clear photos and measurements without a full paid survey — call or message us and we'll tell you honestly which route applies. Where the frame, tray or tiling condition is uncertain, or the enclosure is being resized, the £${business.pricing.surveyGBP} survey is the right way to get an accurate figure before you order glass.`,
+  },
+  {
+    q: "When is it a repair rather than a full screen replacement?",
+    a: `A worn seal, a dropped sliding door that's come off its rollers, or a loose hinge are repair jobs, starting from £${business.repairs.fromGBP} for a scheduled visit, with a £${business.repairs.emergencyCalloutGBP} minimum where water is actively getting past the screen and needs stopping the same day. We don't offer regrouting as a repair — a failing grout line around the tray is a tiling job, and we'll say so rather than charge for a fix that won't hold. Cracked toughened glass, a corroded frame beyond adjustment, or hinges that no longer hold the door's weight safely mean full replacement rather than repair.`,
+  },
+];
+---
+
+<Base
+  title="Shower Screen Installation Cost UK | Install My Bathroom"
+  description="What a shower screen, door or enclosure installation costs in the UK, what moves the price, and when it's a repair rather than a full replacement."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Shower Screen Installation Cost UK", href: "/guides/shower-screen-installation-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Shower Screen Installation Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fitting a client-supplied shower screen, door or enclosure as a standalone job — reusing the existing tray and leaving the surrounding tiling undisturbed — starts from £{business.repairs.fromGBP}. Where it's part of a wider bathroom installation, with the enclosure built or re-tiled from scratch, it's included within the overall fit-only figure from £{business.pricing.fromGBP.toLocaleString()}. A £{business.pricing.surveyGBP} survey (or in some cases a quote from photos and measurements) tells you which figure actually applies to your job.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        A shower screen looks like a simple product, but the job behind fitting one varies a lot depending on what's already there, what kind of door or panel it is, and how much of the surrounding enclosure is being touched.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Standalone swap vs full installation</td>
+              <td class="py-3" style="color: var(--text-soft);">Reusing the existing tray and tiling keeps the job close to repair-scale; building a new enclosure from scratch is full installation work.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Framed vs frameless glass</td>
+              <td class="py-3" style="color: var(--text-soft);">Frameless screens use thicker toughened glass and heavier hinges or brackets fixed straight to wall and floor, which demands more accurate fitting.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Fixed panel vs hinged door vs sliding door</td>
+              <td class="py-3" style="color: var(--text-soft);">A door introduces moving parts — hinges or a roller track — that need setting up and adjusting precisely, which a fixed panel doesn't.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Bath screen vs separate enclosure</td>
+              <td class="py-3" style="color: var(--text-soft);">A single panel fixed along the edge of a bath is a smaller job than a multi-panel enclosure with its own tray and tanking.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Stock size vs bespoke-cut glass</td>
+              <td class="py-3" style="color: var(--text-soft);">A standard opening takes a standard panel size; an out-of-square alcove or an unusual opening needs glass cut and finished to order.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic scenario</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common job we're called out for is a tired or damaged screen in an enclosure that's otherwise fine — the tray is sound, the tiling is in good condition, and only the glass and its frame or hardware need replacing. A hinged door going back into the same alcove opening, with the existing tray and tiling left alone, sits close to the entry-level standalone figure, because there's no tanking, tiling or tray work involved at all.
+        </p>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Where the brief changes — swapping a hinged door for a sliding one that needs a different track and wall fixing, moving from framed to frameless glass, or the opening isn't quite the standard size the old screen was — each of those adds its own fitting time and, sometimes, a bespoke glass order on top of that baseline.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          At the upper end, replacing an entire enclosure as part of a full bathroom installation — new tray, full tanking, large-format tiling, and a bespoke-cut frameless screen into a non-standard opening — sits within the full fit-only figure rather than the standalone one, because at that point the screen is only one part of a much larger first-fix and tiling job.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/shower-screen-installation-cost-uk-brass-hinge-macro.webp"
+          alt="Close detail of a brushed brass hinge and bracket fixing a glass shower door to a warm walnut-panelled wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/shower-screen-installation-cost-uk-sliding-door-wide.webp"
+          alt="Wide shot of a brass-framed sliding shower enclosure door fitted over a bath in a warm walnut and stone bathroom"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/shower-screen-installation-cost-uk-glass-edge-detail.webp"
+          alt="Close detail of a frameless glass shower screen's polished edge held by a brushed brass clamp bracket"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Standard sizes vs bespoke glass</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Most shower screens and doors are made to a handful of standard widths — commonly around 760mm, 800mm, 900mm and 1000mm — and an opening that matches one of these sizes can usually take an off-the-shelf panel with a short lead time. Problems arise when the existing alcove is slightly out of square, narrower or wider than any standard size, or sits at an angle, which is common in older houses where the original tiling was never perfectly true to begin with.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        In that situation, the glass has to be measured precisely and cut to order rather than taken off a shelf, which adds both cost and lead time compared with a standard size. We measure the actual opening at survey — not the size of the screen you're replacing — because an old screen's frame can itself have been scribed to disguise an out-of-square wall that a new bespoke panel would otherwise need to match exactly.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Repair or replace: when a new screen isn't needed</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Not every screen problem needs a full replacement. A perished seal letting water escape onto the floor, a sliding door that's dropped off its roller track, or a hinge that's worked loose in its wall fixing are all repair jobs rather than replacement ones, and fixing them is usually far cheaper than ordering new glass. Scheduled repair work like this starts from £{business.repairs.fromGBP}, rising to a £{business.repairs.emergencyCalloutGBP} minimum where water is actively getting past the screen and needs stopping the same day rather than waiting for a booked slot.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        We don't offer regrouting as a repair service — a failing grout line around the tray or upstand is a tiling job, not a glazing one, and we'll tell you that honestly rather than charge for a quick fix that won't hold. Where the glass itself is cracked or badly scratched, the frame has corroded beyond adjustment, or the hinges can no longer safely hold the door's weight, that's a genuine replacement job rather than a repair, and we'll say so at the outset instead of patching something that's past the point of being worth patching.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figures above cover labour only. For a standalone screen or door swap, that means removing the old unit, checking and making good the fixing points, and fitting, sealing and commissioning the new glass, frame and hardware. For a full enclosure within a wider installation, it also includes tray fitting, tanking and tiling around the shower zone. Either way, the screen, door or enclosure itself, along with any new tray and tiles, is bought separately by you — different from a supply-and-fit quote where a retailer or contractor bundles the goods and labour into one number.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately: waste removal for the old screen and any packaging from the new one, and making good any decoration disturbed where a frame fixing has pulled plaster or paint away from the wall. Neither is usually included in an installation quote from any installer, fit-only or otherwise.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Glazing referenced in this guide follows BS 6262 for glazing in buildings, and toughened safety glass follows BS EN 12150, the same standard covered in our <a href="/guides/framed-vs-frameless-shower-screens/" class="underline" style="color: var(--teal);">framed vs frameless shower screens guide</a>. For a screen fitted as part of a complete new enclosure rather than a standalone swap, see our <a href="/guides/walk-in-shower-cost-uk/" class="underline" style="color: var(--teal);">walk-in shower cost guide</a> or our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">full bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="shower-screen-installation-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/shower-enclosure-and-screen-installation/" class="btn-secondary">Shower Enclosure &amp; Screen Installation</a>
+        <a href="/guides/framed-vs-frameless-shower-screens/" class="btn-secondary">Framed vs Frameless Shower Screens</a>
+        <a href="/guides/walk-in-shower-cost-uk/" class="btn-secondary">Walk-In Shower Cost UK</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

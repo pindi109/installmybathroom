@@ -1,0 +1,81 @@
+{
+  "path": "/areas-brands/gerrards-cross/",
+  "family": "Per-town: brands in area",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Gerrards Cross | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Gerrards Cross, and how our fit-only installation model works — your products, our labour, from Geberit and TOTO to Lefroy Brooks.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/gerrards-cross/"
+  },
+  "h1": "Bathroom brands we fit in Gerrards Cross",
+  "hero": {
+    "intro": "We work on a fit-only basis across Gerrards Cross, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Gerrards Cross is an affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, and for homeowners here, that distinction tends to matter, because the brands specified in the village are often towards the more considered end of the market rather than a standard retail range. Across the projects we work on, a recurring set of brands turns up again and again, and we've built our fitting process around the specific detail each one needs, rather than treating every bathroom brand as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. This works well for a lot of the enquiries we get from Gerrards Cross, where a design has often already been through a showroom consultation before we're brought in at survey stage. It also means the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves. Where it matters most is in the detail: a concealed cistern frame, a frameless glass screen, or an exposed traditional-style tap all need to be fitted correctly for that specific product, and we work through exactly what's been specified before a wall closes up or a screen goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the sanitaryware brand we fit most consistently across every area we work in, including Gerrards Cross — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles. TOTO's Washlet and Neorest ranges turn up on some of the more technically involved projects we fit, because the electronics sit inside the fixture rather than being bolted on afterwards — a Washlet seat adds to a conventional pan, while a Neorest is a single integrated unit replacing the pan, cistern and seat entirely, and knowing which one's been ordered changes how the room is first-fixed. On the more traditional side of the specifications we see in a village like Gerrards Cross, Lefroy Brooks and Burlington both come up regularly: Lefroy Brooks's exposed pipework, cross-head handles and period-inspired profiles mean the pipe runs, brackets and wall fixings are set out and finished to be looked at rather than hidden, while Burlington reproduces classic pedestal basins, close-coupled WCs and roll-top baths on a modern fixing standard, where getting the period look right depends on fixing choices — a high-level cistern bracket, a hidden basin support — that aren't visible once the room is finished. For contemporary brassware, Crosswater's concealed valves and digital controls mean the work that determines how well a shower performs happens largely before the tiler arrives, in the wall build-up and pipework depth. We also fit a good amount of Porcelanosa's large-format porcelain, which punishes an uneven substrate far more visibly than a smaller, more forgiving tile — the floor or wall has to be checked and prepared flat first — and Matki's largely frameless shower enclosures, where there's very little trim left to hide an inaccurate opening, so the measuring and wall fixing have to be right before a single panel goes up. For baths, Kohler's range spans cast-iron enamel tubs through to contemporary brassware, and Bette's titanium-steel baths and trays, finished with fused glass enamel, need the substructure, levelling and acoustic isolation the material actually needs rather than treatment as a standard acrylic bath."
+    },
+    {
+      "heading": "Why the fitting detail matters more at this specification level",
+      "body": "At the specification level we see regularly in Gerrards Cross, the margin for error on installation detail tends to be smaller, not larger. A scuff on an exposed Lefroy Brooks pipe run or an inaccurately measured Matki glass panel is far more visible — and far more expensive to put right — than the same mistake on a standard retail product. That's part of why we work through exactly what's been specified at survey, confirm the installation route for frames, fixings and finishes before any wall or floor is closed up, and sequence the fit so that delicate or design-led products aren't handled more than they need to be. The product choice is yours; getting it fitted properly, once it's chosen, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Gerrards Cross?",
+      "a": "Geberit and TOTO sanitaryware come up frequently, alongside more traditional specifications from Lefroy Brooks and Burlington. We also regularly fit Crosswater brassware, Porcelanosa tiling, Matki shower enclosures, and Kohler and Bette baths."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Why does the brand of brassware or sanitaryware affect the fitting cost?",
+      "a": "Different brands have different fixing systems, frame compatibility and finish sensitivity. An exposed traditional tap or a frameless glass screen, for example, leaves very little trim to hide an inaccurate fit, so some products need more careful handling and sequencing than others."
+    },
+    {
+      "q": "Do you work with Gerrards Cross bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Gerrards Cross has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom fitting in Gerrards Cross" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "gerrards-cross" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "toto" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "brands.json", "id": "bette" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-gerrards-cross/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-gerrards-cross/ pages once built.",
+  "primaryKeyword": "bathroom brands Gerrards Cross",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Gerrards Cross",
+    "luxury bathroom brands fitted Gerrards Cross",
+    "bathroom fitter brands Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Gerrards Cross brands-in-area page, implying brand and material choice through a close fixture detail rather than a full room shot. Subject and action: a close-to-mid shot of a traditional exposed-pipework basin mixer tap with a cross-head handle, mounted above a wall-hung basin, caught in a still moment after use with a faint water bead settling on the spout. Setting and work-stage: a finished vanity area in a period-influenced extension of a Gerrards Cross family house, daytime, bright directional light from an unseen side window. Composition: tight three-quarter angle focused on the tap and basin rim, travertine-tiled wall and a sliver of a wall-hung mirror edge visible in soft-focus background, tap sharply in focus in the foreground. Light and materials: honed travertine splashback tile, brushed nickel exposed-pipework brassware with a visible cross-head handle, bright directional daylight from one side casting a defined but soft-edged shadow of the pipework across the tile, faint water spotting on the tap body consistent with recent use. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the travertine with faint realistic water spotting rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/gerrards-cross-hero.webp",
+    "heroAlt": "Close-up of a brushed nickel exposed-pipework basin tap with a cross-head handle against a honed travertine splashback in a finished Gerrards Cross vanity, bright directional daylight.",
+    "inline": []
+  }
+}

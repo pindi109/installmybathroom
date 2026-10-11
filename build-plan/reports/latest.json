@@ -1,0 +1,491 @@
+{
+  "total": 69,
+  "failed": 0,
+  "warned": 0,
+  "passed": 69,
+  "items": [
+    {
+      "family": "brands-in-area",
+      "slug": "ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "binfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "bracknell",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "camberley",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "crowthorne",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "eton",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "finchampstead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "maidenhead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "reading",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "sandhurst",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "sunninghill",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "twyford",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "warfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "windlesham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "winkfield-row",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "winkfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "wokingham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "binfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "bracknell",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "camberley",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "crowthorne",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "eton",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "finchampstead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "maidenhead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "reading",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "sandhurst",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "sunninghill",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "twyford",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "warfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "windlesham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "winkfield-row",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "winkfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "wokingham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "binfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "bracknell",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "camberley",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "crowthorne",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "eton",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "finchampstead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "maidenhead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "reading",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "sandhurst",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "sunninghill",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "twyford",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "warfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "windlesham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "winkfield-row",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "winkfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "wokingham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    }
+  ]
+}

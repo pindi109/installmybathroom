@@ -1,0 +1,18 @@
+[
+  { "slug": "leaking-shower-repair", "name": "Leaking Shower Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "leaking-toilet-repair", "name": "Leaking Toilet Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "blocked-toilet", "name": "Blocked Toilet", "emergency": true, "priceLine": "Emergency call-out £500 minimum" },
+  { "slug": "concealed-cistern-repair", "name": "Concealed Cistern Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "wall-hung-toilet-repair", "name": "Wall-Hung Toilet Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "shower-valve-repair", "name": "Shower Valve Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "digital-shower-repair", "name": "Digital Shower Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "shower-toilet-repair", "name": "Shower Toilet Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "steam-shower-repair", "name": "Steam Shower Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "wet-room-leak-repair", "name": "Wet Room Leak Repair", "emergency": true, "priceLine": "Emergency call-out £500 minimum" },
+  { "slug": "bathroom-tile-repair", "name": "Bathroom Tile Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "shower-tray-resealing", "name": "Shower Tray Resealing", "emergency": false, "priceLine": "From £200" },
+  { "slug": "underfloor-heating-repair", "name": "Underfloor Heating Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "extractor-fan-repair", "name": "Extractor Fan Repair", "emergency": false, "priceLine": "From £200" },
+  { "slug": "bathroom-waste-and-drain-repair", "name": "Bathroom Waste & Drain Repair", "emergency": true, "priceLine": "Emergency call-out £500 minimum" },
+  { "slug": "leaking-tap-repair", "name": "Leaking Tap Repair", "emergency": false, "priceLine": "From £200" }
+]

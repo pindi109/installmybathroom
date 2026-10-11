@@ -1,0 +1,81 @@
+{
+  "path": "/areas-brands/windsor/",
+  "family": "Per-town: brands in area",
+  "town": "windsor",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Windsor | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Windsor, and how our fit-only installation model works — your products, our labour, from period-style Burlington to contemporary Matki and TOTO.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/windsor/"
+  },
+  "h1": "Bathroom brands we fit in Windsor",
+  "hero": {
+    "intro": "We work on a fit-only basis across Windsor, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Windsor's housing splits fairly cleanly into two character types, and the brands we end up fitting often reflect that split. Close to the Castle and the historic centre, where Georgian and Victorian town houses predominate, homeowners more often specify traditional, period-appropriate brassware and sanitaryware designed to sit comfortably in an older room. Further out, in the inter-war, post-war and newer family homes, the specification tends to lean towards more contemporary, minimal brands. We fit both disciplines regularly, and the installation detail each one needs is genuinely different — which is exactly why we work through what's been specified before anything goes on the wall, rather than treating every bathroom brand as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. In Windsor this works particularly well because the two distinct property types common here tend to arrive with quite different specifications already decided: a period town house near the centre often comes to us with a traditional-style brassware or sanitaryware range already chosen, while a family home further out more often comes with a contemporary, minimal specification. Either way, the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves, and we work through exactly what's been specified before a wall closes up or a screen goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "In Windsor's period town houses, traditional-style brands turn up regularly. Lefroy Brooks's taps, shower valves and sanitaryware are built around exposed pipework, cross-head handles and period-inspired profiles rather than the concealed, minimal fittings most modern brassware favours — fitting it well means the pipe runs, brackets and wall fixings are set out and finished to be looked at, not hidden, since every joint and bracket is visible once the room is finished. Burlington's range of pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware reproduces classic bathroom forms with a modern fixing standard underneath the traditional silhouette — getting the period look right depends on fixing choices that aren't visible once the room is finished, such as a high-level cistern bracket or the exact pedestal alignment behind a classic profile. In the more contemporary family homes further from the centre, we more often fit Crosswater's brassware and shower systems, which run heavily on concealed valves, digital controls and minimal deck-mounted taps designed to disappear into the wall or worktop — the work that determines how well a Crosswater shower performs happens largely before the tiler arrives, in the wall build-up and pipework depth. Matki's shower enclosures and screens follow a similarly minimal, largely frameless aesthetic, which leaves very little trim to hide an inaccurate opening or an uneven wall, so the measuring and wall fixing have to be right before a single panel goes up. TOTO's Washlet and Neorest ranges are among the most technically involved products we fit anywhere, since the electronics sit inside the fixture rather than bolted on afterwards, and knowing whether you've specified a Washlet seat or a fully integrated Neorest changes how the room is first-fixed. We also regularly fit Geberit concealed cisterns and wall-hung WCs — the single most common sanitaryware brand across our work generally — where correct frame selection matters because the cistern and pan weight sits entirely on the carrier frame rather than the wall tiles, Bette's titanium-steel baths and trays finished with fused glass enamel, which need the substructure, levelling and acoustic isolation that material actually requires, Porcelanosa's large-format porcelain, which punishes an uneven substrate far more visibly than a smaller, more forgiving tile, and Kohler's range spanning cast-iron enamel baths through to contemporary brassware, which can mean three different fitting disciplines side by side on a single project."
+    },
+    {
+      "heading": "Why the fitting detail matters in Windsor's older properties",
+      "body": "A period town house near Windsor's centre adds a layer that doesn't apply to every installation: traditional brassware like Lefroy Brooks is designed to be seen, not concealed, so the pipe runs and brackets have to be set out correctly first time, with no tiled wall to hide an error behind. The same goes for a Burlington high-level WC or wall-hung basin, where the hidden fixing behind a classic profile has to be exactly right for the period look to actually sit well in an older room. In a newer family home further from the centre, the challenge moves to the opposite end of the process — a concealed Crosswater valve or a frameless Matki screen depends entirely on what's been done correctly in the wall build-up before the room is finished, with almost nothing left showing to compensate for a mistake. Either way, we confirm which products have been specified at survey, before anything is ordered or a wall closes up, so the fitting detail each one actually needs is planned for rather than discovered midway through the job."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Windsor?",
+      "a": "It depends on the property. In period town houses near the centre, traditional-style brands such as Lefroy Brooks and Burlington come up regularly. In newer family homes further out, we more often fit contemporary brands such as Crosswater, Matki and TOTO, alongside Geberit, Bette, Porcelanosa and Kohler across both."
+    },
+    {
+      "q": "Is traditional-style brassware harder to fit than modern concealed brassware?",
+      "a": "It's a different discipline rather than harder or easier. Traditional brands such as Lefroy Brooks expose the pipework and fixings as part of the finished look, so they have to be set out and finished correctly first time with nothing to hide behind. Concealed brands such as Crosswater depend on getting the wall build-up right before the tiler arrives, since almost nothing is visible once the room is finished."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing, frame or electrical requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Do you work with Windsor bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Windsor has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom fitting in Windsor" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "windsor" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "toto" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "bette" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "brands.json", "id": "kohler" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-windsor/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-windsor/ pages once built.",
+  "primaryKeyword": "bathroom brands Windsor",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Windsor",
+    "luxury bathroom brands fitted Windsor",
+    "bathroom fitter brands Windsor"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Windsor brands-in-area page, implying brand and material choice through a close-to-mid fixture detail shot rather than a full room. Subject and action: a close-to-mid shot of a traditional cross-head tap and exposed pipework mounted above a pedestal basin, static and finished, catching the detail of exposed brassware fixings rather than a concealed modern mixer. Setting and work-stage: a finished bathroom vanity area in a Georgian town house near Windsor's historic centre, daytime, soft natural light from an unseen window to the side. Composition: tight three-quarter angle focused on the tap, exposed pipe run and basin rim, a sliver of panelled wall visible in the soft-focus background, the brassware and pipework sharply in focus in the foreground. Light and materials: honed travertine splashback tile, brushed brass traditional cross-head tap and exposed pipe bracket, soft side daylight casting a defined but gentle shadow of the pipework across the basin, faint believable tarnish variation on the brass consistent with genuine age rather than uniform polish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the travertine and brass with realistic minor wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/windsor-hero.webp",
+    "heroAlt": "Close-up of a brushed brass traditional cross-head tap and exposed pipework above a pedestal basin with honed travertine splashback tile in a Georgian town house bathroom near Windsor's historic centre.",
+    "inline": []
+  }
+}

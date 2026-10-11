@@ -1,0 +1,76 @@
+{
+  "path": "/bathroom-cost/camberley/",
+  "family": "Per-town: cost",
+  "town": "camberley",
+  "seo": {
+    "title": "Bathroom Installation Cost in Camberley | From £3,500 Fit-Only | Install My Bathroom",
+    "description": "What a bathroom installation costs in Camberley: fit-only pricing from £3,500, what moved waste runs and wet rooms add, and how the town's mixed housing stock affects specification.",
+    "canonical": "https://installmybathroom.co.uk/bathroom-cost/camberley/"
+  },
+  "h1": "Bathroom installation cost in Camberley",
+  "hero": {
+    "intro": "Camberley grew substantially through the Victorian and Edwardian periods, and that growth is still written into its streets: brick terraces and detached villas on tree-lined roads near the centre, inter-war semis and larger detached houses spreading out towards Sandhurst, and newer estate housing added on the fringes in more recent decades. Three distinct building eras sitting inside the same town boundary is exactly why a bathroom quote here can't be pinned to a single number — what a Victorian terrace needs doing to its floor before a wet room goes in is rarely what an estate house from the last twenty years needs. The fit-only starting point is £3,500, covering labour and fitting where the room's footprint and the waste run stay close to where they already are, using whatever sanitaryware and tiles you've sourced yourself. From there, the figure moves according to what survey finds underneath the finish, not according to which taps you picked."
+  },
+  "sections": [
+    {
+      "heading": "From £3,500: what the fit-only quote includes",
+      "body": "£3,500 is the entry point for fit-only installation where you've sourced the bathroom yourself and the room's layout and waste positions aren't changing. It covers the labour: strip-out, first fix, tiling, second fix and snagging. It doesn't assume any single scope of structural work, because that's precisely the variable separating a £3,500 job from one that costs considerably more. We'd rather hold off publishing a single average figure for 'a Camberley bathroom' than quote a number that doesn't account for what's actually involved — a fixed price only follows the survey, once we know what's underneath the tiles."
+    },
+    {
+      "heading": "The three things that move the price",
+      "body": "Three decisions tend to separate a straightforward £3,500 fit from a bigger project. The first is whether you're after a wet room or a shower tray: a wet room needs a formed, tanked fall built into the floor structure itself, which is an entirely different scope of work to setting a tray onto an existing subfloor. The second is whether the waste run is moving — repositioning a WC or shower away from its existing soil pipe generally means opening up a floor or chasing a wall, rather than reconnecting to a point that's already there. The third is the flooring and wall material: natural stone such as marble, limestone or travertine takes more substrate preparation, different adhesives and more cutting time to fit well than porcelain, which adds labour time independent of what the material itself costs. None of these rule out a particular spec — they're simply priced properly once we've seen the room, not guessed at over the phone."
+    },
+    {
+      "heading": "If you already have a bathroom: repairs",
+      "body": "Plenty of the work we do in Camberley isn't a full refit at all — it's fixing something specific in a bathroom that's otherwise fine. Repairs for a leak, a failed seal or a loose fitting start from £200. Where something needs attention outside a scheduled visit, an emergency call-out carries a £500 minimum, reflecting the cost of getting a fitter to you at short notice. We won't quote standalone regrouting, though: grout that's failed badly enough to need fixing is usually telling you something about the tiling or substrate underneath it, and covering that over with fresh grout doesn't address what's actually gone wrong."
+    },
+    {
+      "heading": "Camberley property types we see most",
+      "body": "Camberley's Victorian and Edwardian growth left brick terraces and detached villas on the tree-lined roads near the centre, and those properties often have a suspended timber floor that needs checking — sometimes strengthening — before a wet room or a heavy stone floor can go down; that's structural work we cost once the floor's been lifted at survey, not before. Move out towards Sandhurst and the inter-war semis and larger detached houses tend to offer more room to manoeuvre, with a waste run often easier to reposition without running into the same timber-floor questions. The estate housing added more recently on Camberley's fringes usually sits on a solid concrete ground floor, which generally makes reconfiguration more predictable downstairs, though an upstairs bathroom in the same house still needs its joist spacing checked if a wet room or heavier stone floor is planned. None of this makes one part of town cheaper by default — it just means the survey tells us which of these situations your property actually falls into."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much is a bathroom installation in Camberley?",
+      "a": "Fit-only work starts from £3,500 where the layout and waste positions aren't changing and you've supplied the bathroom yourself. The number moves from there based on what's confirmed at the £125 survey — reconfiguration, wet room work or heavier materials all factor in."
+    },
+    {
+      "q": "Does it matter whether my Camberley house is Victorian or newer?",
+      "a": "Yes. Older terraces and villas near the centre often need a suspended timber floor checked, and sometimes strengthened, before a wet room or stone floor goes down. Inter-war and newer housing towards Sandhurst, or the estate housing on the fringes, tends to have more straightforward floor construction — though upstairs rooms still get checked. We confirm which applies to you at survey."
+    },
+    {
+      "q": "Why does repositioning the WC or shower add cost?",
+      "a": "Because it usually means opening up the floor or chasing a wall to run new pipework to a different point, rather than reconnecting to the existing soil pipe. That's additional structural work, priced once we've seen what's underneath."
+    },
+    {
+      "q": "Does choosing marble or limestone cost more to fit than porcelain?",
+      "a": "Generally, yes — natural stone needs more careful substrate preparation and more cutting and handling time, which adds to the fit-only labour on top of whatever the material itself costs."
+    },
+    {
+      "q": "What about repairing an existing bathroom in Camberley?",
+      "a": "Repairs start from £200, with a £500 minimum for an emergency call-out. We don't do standalone regrouting — failed grout is usually a sign of a tiling or substrate issue that needs proper attention, not a quick fix."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "anchor": "How much does a luxury bathroom installation cost in the UK" },
+    { "href": "/pricing/", "anchor": "Our fit-only pricing" },
+    { "href": "/areas/camberley/", "anchor": "Bathroom fitting in Camberley" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "camberley" }
+  ],
+  "primaryKeyword": "bathroom installation cost Camberley",
+  "secondaryKeywords": [
+    "how much does a bathroom cost Camberley",
+    "bathroom fitting prices Camberley",
+    "bathroom repair cost Camberley"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Camberley bathroom cost page, depicting a finished high-specification bathroom reflecting the more generous proportions typical of Camberley's inter-war detached housing. Subject and action: a free-standing bath positioned at an angle beneath a wide window, with a double-ended bath filler and a separate wall-hung vanity unit visible to the side, both fixtures complete and styled for everyday use rather than construction. Setting and work-stage: a finished family bathroom inside an inter-war detached house on the edge of Camberley towards Sandhurst, generous room proportions, early evening light beginning to dim outside. Composition: three-quarter angle from just inside the doorway, bath filling the centre-left of the frame, vanity unit visible in the right mid-ground, floor tiling leading the eye toward the window. Light and materials: Carrara marble-effect floor tiles with soft grey veining, brushed nickel bath filler and towel rail, warm low evening daylight through the window mixing with a single wall-mounted practical light beside the vanity mirror, uneven light falloff into the corners of the room. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every edge or niche, no twin symmetrical basins, no uniform gold colour wash across the whole frame, no plants or candles as styling props, no water shown running, varied sheen across marble and nickel surfaces with believable, minor wear.",
+    "heroOutputPath": "heroes/cost-town/camberley-hero.webp",
+    "heroAlt": "A finished Camberley bathroom with a free-standing bath beneath a wide window, Carrara marble-effect floor and brushed nickel fittings, inside an inter-war detached house with warm evening light.",
+    "inline": []
+  }
+}

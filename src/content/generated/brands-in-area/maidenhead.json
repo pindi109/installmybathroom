@@ -1,0 +1,83 @@
+{
+  "path": "/areas-brands/maidenhead/",
+  "family": "Per-town: brands in area",
+  "town": "maidenhead",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Maidenhead | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Maidenhead, and how our fit-only installation model works — your products, our labour, from Geberit and hansgrohe to Victoria + Albert.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/maidenhead/"
+  },
+  "h1": "Bathroom brands we fit in Maidenhead",
+  "hero": {
+    "intro": "We work on a fit-only basis across Maidenhead, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Maidenhead's housing is unusually varied: larger detached properties along and near the Thames, a substantial core of Victorian and Edwardian housing, extensive post-war and modern suburban development, and newer town-centre apartment schemes. That spread means we see products specified at very different levels across the same town, sometimes in the same week, and getting the installation detail right on each one is a different job depending on what's been chosen. Across the projects we work on, a recurring set of brands turns up again and again, and we've built our fitting process around the specific detail each one needs, rather than treating every bathroom brand as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. This works well across Maidenhead's range of property types, whether the specification has already been through a designer for a riverside house, picked out at a local showroom for a Victorian terrace refit, or chosen more simply for a newer-build suburban semi or a town-centre apartment. It also means the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves. Where it matters most is in the detail: a concealed cistern frame, a frameless glass screen, or a textured brassware finish all need to be fitted correctly for that specific product, and we work through exactly what's been specified before a wall closes up or a screen goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns, wall-hung WCs and AquaClean shower toilets are among the sanitaryware we fit most often in Maidenhead — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles, which is a particular consideration in the older Victorian and Edwardian properties where wall construction varies. We also regularly fit Villeroy & Boch and Duravit sanitaryware, including Duravit's SensoWash and V&B's ViClean shower toilet seats, where confirming the right flush plate, pan and frame generation — or the correct installation route between a brand's own frame and a standard concealed cistern — is settled before anything is ordered, not discovered on fitting day. On the brassware side, hansgrohe and GROHE cover a wide span of the work we do, from thermostatic shower valves and mixer taps through to Rapid SL cistern frames and digital shower products, while AXOR and Dornbracht turn up on more design-led specifications, often in the larger riverside properties, where a brushed or matte black finish shows every mark from a careless fit in a way chrome never does — handling and sequencing matter as much as the plumbing itself. For baths and shower trays, Kaldewei's titanium-enamelled steel needs even, accurate bearing across the full base rather than the flex-prevention an acrylic bath support relies on, and Victoria + Albert's cast volcanic limestone-and-resin baths carry genuine weight that has to be planned for in the access route and floor loading before the bath even leaves the showroom — a point that matters as much in a town-centre apartment with lift access as it does in a detached house. We've fitted all of these, and the specific installation detail each one needs, across projects in and around Maidenhead."
+    },
+    {
+      "heading": "Matching the fit to the property",
+      "body": "Because Maidenhead's housing stock spans such a wide range — riverside houses, period terraces, post-war suburban homes and modern apartments — the brand and product mix we see varies as much by property type as by homeowner taste. A concealed cistern frame that fixes easily into a modern stud wall in a newer suburban property needs a different structural approach in a solid Victorian masonry wall. A Matki frameless shower screen, built to a minimal aesthetic with very little trim to hide an inaccurate opening, depends on the wall and tray beneath it being measured and prepared correctly, whether that wall is a century-old masonry party wall or a recently plasterboarded apartment partition. Porcelanosa's large-format porcelain tiling, dense and dimensionally precise, punishes an uneven substrate more visibly than a smaller, more forgiving tile — so the floor or wall is checked and prepared flat first, in whichever type of Maidenhead property it's going into. That's the value of working through exactly what's specified at survey stage: the brand tells us what the product needs, and the property tells us how to deliver it."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Maidenhead?",
+      "a": "Geberit, Villeroy & Boch and Duravit sanitaryware, and hansgrohe and GROHE brassware, come up most frequently. We also regularly fit more design-led brands such as AXOR, Dornbracht, Kaldewei and Victoria + Albert, particularly in Maidenhead's larger riverside properties."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Does fitting a brand differ between a Maidenhead house and an apartment?",
+      "a": "The product and its fixing requirements stay the same, but the property changes how we deliver it — wall construction, access and floor build-up all vary between a Victorian terrace, a post-war suburban house and a modern town-centre apartment, and we confirm the detail for your specific property at survey."
+    },
+    {
+      "q": "Do you work with Maidenhead bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Maidenhead has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/maidenhead/", "anchor": "Bathroom fitting in Maidenhead" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "maidenhead" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "villeroy-and-boch" },
+    { "file": "brands.json", "id": "duravit" },
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "axor" },
+    { "file": "brands.json", "id": "dornbracht" },
+    { "file": "brands.json", "id": "kaldewei" },
+    { "file": "brands.json", "id": "victoria-and-albert" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "porcelanosa" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-maidenhead/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-maidenhead/ pages once built.",
+  "primaryKeyword": "bathroom brands Maidenhead",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Maidenhead",
+    "luxury bathroom brands fitted Maidenhead",
+    "bathroom fitter brands Maidenhead"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Maidenhead brands-in-area page, implying brand and material choice through a close vanity fixture detail rather than a full room shot. Subject and action: a close-to-mid shot of a dark basalt stone vanity top carrying a slim matte black basin mixer tap, with a single rolled bath towel resting on the stone edge beside it, no activity, just the finished arrangement. Setting and work-stage: a finished bathroom vanity area inside a newer town-centre apartment scheme in Maidenhead, early afternoon, bright directional daylight entering from an unseen side window. Composition: tight three-quarter angle focused on the point where the tap meets the dark stone, the rolled towel anchoring the lower-right foreground, a softly blurred mirror edge and tiled wall visible in the background. Light and materials: dark basalt stone with fine natural flecking, matte black single-lever brassware, pale neutral-toned textile of the towel for contrast, bright midday daylight raking across the stone at a shallow angle and creating defined but soft-edged shadow rather than flat light. Constraints: no people, no text, no logos, no brand names visible on any fixture; no LED strip lighting anywhere in frame; no symmetrical twin-basin staging; no uniform gold or amber colour wash; no hanging plants, florals or candles; no water shown running; the stone and tap should show faint, believable handling marks rather than uniform showroom-new gloss.",
+    "heroOutputPath": "heroes/brands-in-area/maidenhead-hero.webp",
+    "heroAlt": "Close-up of a matte black basin mixer tap on a dark basalt stone vanity top in a finished Maidenhead apartment bathroom, bright directional daylight raking across the stone.",
+    "inline": []
+  }
+}

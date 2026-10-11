@@ -1,0 +1,72 @@
+{
+  "path": "/survey/windlesham/",
+  "family": "Per-town: survey",
+  "town": "windlesham",
+  "seo": {
+    "title": "Bathroom Survey in Windlesham | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Windlesham. We measure, check waste runs and access, and scope golf-course-belt properties before any installation quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/windlesham/"
+  },
+  "h1": "Bathroom survey in Windlesham",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Windlesham, we carry out a fixed-price £125 survey at the property. It's the point where a sketch, a showroom brochure or a designer's layout meets the reality of your actual walls, waste runs and access routes, and it's what keeps a quote from turning into a list of surprises once the fitting team arrives. Windlesham is an affluent Surrey village close to Bagshot and Lightwater, sitting within the same Wentworth, Sunningdale and Ascot golf-course belt we already work across, around 20 to 25 minutes by road from our Bracknell base. That golf-course-belt setting matters at survey stage, because it tends to mean larger plots and more substantial houses than a typical commuter town, which in turn tends to mean more room to work with when we're deciding whether a waste run can move or a layout can be reconfigured. The survey is where we confirm whether that's genuinely true of your specific house, rather than assuming it because of where Windlesham sits on the map."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 no matter the size or complexity of the room, and it comes off your project cost in full if you go ahead with an installation through us. On the visit, we measure the room properly, trace where the waste pipe currently runs and whether it's realistic to move it, check the water supply and pressure serving the room, and examine the floor and wall build-up to see what's underneath the finish you can currently see. We also check access carefully — door widths, staircases, and how materials come in and waste comes out — because that affects both how the job is sequenced and, in some cases, which fittings are practical for your particular property. You leave the visit with a written scope and a firm quote, not a verbal estimate that shifts once work is under way. There's no separate deposit to book the conversation itself; it's a paid, fixed-fee visit precisely so the advice you're given is based on your actual house rather than a generic assumption about the area."
+    },
+    {
+      "heading": "What that looks like in a typical Windlesham property",
+      "body": "Windlesham sits within the Wentworth, Sunningdale and Ascot golf-course belt, an affluent corner of Surrey close to Bagshot and Lightwater, and the properties we're asked to survey here tend to reflect that setting — larger plots and more substantial houses than you'd typically find in a denser commuter town nearby. At survey, that generally gives us more to work with: more floor area to design a layout around, and often the option of repositioning a waste run or widening a doorway for level access without immediately hitting the structural limits a smaller, more tightly built property would present. It doesn't mean every job is automatically straightforward, though — a bigger house can still have long pipe runs, older service routes, or extensions added at different times that need checking individually rather than assumed to behave consistently. That's precisely why the survey happens before the quote is written rather than after: we check the waste, supply, floor build-up and access for your Windlesham property specifically, and we price the job on what we actually find, not on what a golf-course-belt postcode generally implies."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Windlesham, booking the survey is the sensible first step whether you've already got a finished design from a showroom or designer, or you're still working out what's realistically possible in the room. We'll come to the property, carry out the checks above, and talk through what you're trying to achieve — a full reconfiguration, a wet room conversion, or simply a higher-specification replacement of what's there now. You leave with a clear written scope and a fixed quote for the installation, so you can compare it properly against anything else you're weighing up, without having to guess at extra costs that might appear once work starts. We fit only — the survey exists to scope exactly what's needed to install your chosen bathroom to the standard it's designed for, working from products you've sourced yourself or through your own showroom or designer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted in full from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a finished design before you survey my Windlesham property?",
+      "a": "No. Some of the Windlesham properties we survey already have a finished showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Does being in the golf-course belt mean my survey will find an easier job?",
+      "a": "Often, but not automatically. Larger Windlesham plots tend to give us more layout freedom, but we still check the same things on every property — floor and wall build-up, waste position, water pressure and access — because older service routes or past extensions can complicate even a substantial house."
+    },
+    {
+      "q": "What happens if the survey finds an issue with the waste run or access?",
+      "a": "We tell you at the survey stage, not partway through the job. Any waste move or access work needed to achieve your layout is scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "How far is Windlesham from your base, and does that affect the survey?",
+      "a": "Windlesham is around 20 to 25 minutes by road from our Bracknell base, within easy reach for both the survey visit and, later, the fitting team, so there's no special travel arrangement needed to book one."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/windlesham/", "anchor": "Bathroom fitting in Windlesham" },
+    { "href": "/bathroom-cost/windlesham/", "anchor": "Bathroom installation costs in Windlesham" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "windlesham" }
+  ],
+  "primaryKeyword": "bathroom survey Windlesham",
+  "secondaryKeywords": [
+    "bathroom installation survey Windlesham",
+    "£125 bathroom survey",
+    "bathroom fitter survey Windlesham"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Windlesham bathroom survey page, depicting the pre-installation measuring visit in a substantial golf-course-belt property. Subject and action: a retractable tape measure laid diagonally across a stripped bathroom floor, its case resting against a skirting board, with an open clipboard nearby holding a hand-marked floor plan and a pencil balanced across the page. Setting and work-stage: a large, part-stripped bathroom in a substantial Windlesham house, plasterboard exposed in sections and an old shower tray lifted and leaning against the wall awaiting removal, daytime, bright direct light through an uncovered window. Composition: low-angle shot taken from near floor level looking across the tape measure toward the window, clipboard and pencil in the near foreground slightly soft, exposed plasterboard and the leaning tray sharp in the mid-ground. Light and materials: bright midday daylight through a bare window, pale stripped plasterboard walls, a chipped white acrylic tray leaning at an angle, bare screed floor with visible trowel marks, hard-edged directional shadows from the window mullions. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as styling props, no running water, varied and believable surface wear on the screed and plasterboard rather than uniform gloss.",
+    "heroOutputPath": "heroes/survey-town/windlesham-hero.webp",
+    "heroAlt": "A tape measure and clipboard with a hand-marked floor plan laid out during a bathroom survey in a stripped-back bathroom in Windlesham, exposed plasterboard and a lifted shower tray visible under bright daylight.",
+    "inline": []
+  }
+}

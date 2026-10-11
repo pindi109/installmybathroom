@@ -1,0 +1,77 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+
+export async function getStaticPaths() {
+  const files = import.meta.glob("../../content/generated/brands-in-area/*.json", { eager: true });
+  return Object.values(files).map((mod: any) => ({
+    params: { town: mod.default.town },
+    props: { data: mod.default },
+  }));
+}
+
+const { data } = Astro.props;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": data.h1,
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": data.generatedAt,
+  "dateModified": data.generatedAt,
+};
+---
+
+<Base
+  title={data.seo.title}
+  description={data.seo.description}
+  canonical={data.seo.canonical}
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas & Brands", href: "/areas-brands/" }, { label: data.h1, href: data.path }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">{data.h1}</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        {data.hero.intro}
+      </p>
+    </div>
+  </section>
+
+  {data.sections.map((section: { heading: string; body: string }, i: number) => (
+    <section class="section-sm" style={i % 2 === 0 ? "background: var(--bg-light);" : undefined}>
+      <div class="container max-w-3xl">
+        <h2 class="text-2xl font-bold mb-4 fade-up">{section.heading}</h2>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);" set:html={section.body} />
+      </div>
+    </section>
+  ))}
+
+  <section class="section-sm" style={data.sections.length % 2 === 0 ? "background: var(--bg-light);" : undefined}>
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={data.faqs} schemaId={`brands-area-${data.town}-faq`} />
+    </div>
+  </section>
+
+  <section class="section-sm" style={(data.sections.length + 1) % 2 === 0 ? "background: var(--bg-light);" : undefined}>
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {data.internalLinks.map((link: { href: string; anchor: string }) => (
+          <a href={link.href} class="btn-secondary">{link.anchor}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,72 @@
+{
+  "path": "/survey/twyford/",
+  "family": "Per-town: survey",
+  "town": "twyford",
+  "seo": {
+    "title": "Bathroom Survey in Twyford | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Twyford. We measure, check access and waste runs, and scope both compact village-centre cottages and larger commuter-belt houses before any quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/twyford/"
+  },
+  "h1": "Bathroom survey in Twyford",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Twyford, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and your access routes, and with 30 years' experience behind how we run that visit, it's what stops a quote turning into a list of surprises once the fitting team is on site. Twyford sits on the railway line between Reading and Maidenhead, and that position has shaped its growth over the years — an older village centre with period cottages and terraces, surrounded by commuter-belt housing built up in waves as the village became more popular with people working towards London. That mix means we're regularly surveying two quite different kinds of property in the same village: compact, older floor plans with narrower bathrooms to work within, and larger, more recently built houses where there's more flexibility on layout. The survey is where we find out which situation actually applies to your bathroom, rather than assuming it from the style of the street."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 wherever in Twyford you are, and it's deducted from your total project cost if you go ahead with an installation through us. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can realistically be moved or has to stay where it is, check the water supply and pressure feeding the room, and look at what's underneath the floor and behind the walls rather than just what's visible on the surface. We also check access — door widths, staircases, any tight turns materials will need to go round on the way in — because that affects both the practicality of the job and, in a narrower older bathroom, which fittings are a sensible choice for the space you've actually got. By the end of the visit you get a written scope and a firm quote, not a ballpark figure that moves once work is under way. The survey isn't a sales visit tied to a deposit; it's a paid, fixed-fee appointment precisely so the advice reflects your bathroom as it actually is, not a generic assumption about what a Twyford property of a certain age usually has."
+    },
+    {
+      "heading": "What that looks like in a typical Twyford property",
+      "body": "Twyford's housing tells the story of its growth along the railway line. In the older village centre, where period cottages and terraces predominate, we're typically surveying compact, older floor plans — bathrooms that were often added into a house rather than designed in from the start, with narrower dimensions to work around and layouts that constrain which fittings will actually fit the space well. In these properties we're checking suspended timber floors, original wall construction, and whether a waste run can be repositioned at all without disturbing a neighbouring room, because there's often less spare space to reroute pipework invisibly. Further out, in the commuter-belt housing built up in waves as Twyford grew in popularity with people working towards London, we're generally surveying larger, more recently built houses with considerably more flexibility on layout — more room to reconfigure a waste run, install a larger shower or wet room, or reposition fittings without the same spatial constraints. Because Twyford genuinely spans both of these situations within a small area, we don't assume which one applies to your property before we've been there — the survey is where we confirm whether you've got a compact period bathroom with real layout constraints, or a newer house with more room to work with, and price the job against what we actually find."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Twyford, the survey is the sensible first step whether you've already got a design from a showroom or designer, or you're still working out what's realistically possible in the space you've got. We'll come to the property, carry out the checks above, and talk through what you're hoping to achieve — a full reconfiguration, a wet room conversion, or a straightforward replacement at a higher specification than what's there now. You'll leave with a clear written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering without guessing at what might get added later. We fit only — the survey covers what's needed to install your bathroom to the specification you've chosen, working from your own supplied products or alongside whichever showroom or designer you're using."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do you survey Twyford's period cottages differently to its newer commuter-belt houses?",
+      "a": "We check for the same things on every property — waste position, floor and wall build-up, water pressure and access — but what we find differs. In Twyford's older village-centre cottages and terraces we're more likely checking compact, older floor plans and narrower bathroom dimensions; in the larger, more recently built houses further out we typically find more flexibility on layout."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Twyford property?",
+      "a": "No. Some of the Twyford properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or floor?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving, or a timber floor in an older Twyford cottage needs strengthening before a wet room goes in, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "Does a compact village-centre bathroom in Twyford take longer to survey?",
+      "a": "Not necessarily longer, but it often needs closer attention to layout, because a narrower older floor plan genuinely limits which fittings will fit well. We check the same things on every property — floor and wall build-up, waste position, water pressure and access — regardless of the property's age or size."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/twyford/", "anchor": "Bathroom fitting in Twyford" },
+    { "href": "/bathroom-cost/twyford/", "anchor": "Bathroom installation costs in Twyford" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "twyford" }
+  ],
+  "primaryKeyword": "bathroom survey Twyford",
+  "secondaryKeywords": [
+    "bathroom installation survey Twyford",
+    "£125 bathroom survey",
+    "bathroom fitter survey Twyford"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Twyford bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a brushed nickel tape measure extended across the narrow floor of a stripped bathroom, resting beside an open clipboard with a hand-sketched floor plan and a pencil, as though the surveyor has just finished noting a measurement. Setting and work-stage: a part-stripped, compact bathroom inside a period cottage near Twyford village centre, exposed lath-and-plaster patch on one wall, a section of old floorboards lifted to show the joists beneath, mid-morning, soft daylight through a small casement window. Composition: three-quarter angle from the doorway, tape measure and clipboard filling the foreground, the narrow stripped room and exposed joists receding into the mid-ground, window light falling across the far wall. Light and materials: honed travertine tile samples stacked against the skirting awaiting approval, aged floorboards and exposed joists, brushed nickel tape measure casing, soft overcast daylight through the casement window mixing unevenly with a single handheld worklight angled into the open floor void, real shadow falloff rather than flat lighting. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the frame, no styling props such as plants or candles, no running water, varied and believable surface sheen with real wear on the floorboards and plaster.",
+    "heroOutputPath": "heroes/survey-town/twyford-hero.webp",
+    "heroAlt": "A brushed nickel tape measure and clipboard with a hand-drawn floor plan during a bathroom survey in a narrow, stripped period cottage bathroom in Twyford, exposed floor joists and plaster patch under soft daylight.",
+    "inline": []
+  }
+}

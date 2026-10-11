@@ -1,0 +1,72 @@
+{
+  "path": "/survey/winkfield/",
+  "family": "Per-town: survey",
+  "town": "winkfield",
+  "seo": {
+    "title": "Bathroom Survey in Winkfield | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Winkfield. We check solid masonry walls and suspended timber floors in period cottages, and newer estate housing near Bracknell.",
+    "canonical": "https://installmybathroom.co.uk/survey/winkfield/"
+  },
+  "h1": "Bathroom survey in Winkfield",
+  "hero": {
+    "intro": "Every bathroom installation we carry out in Winkfield starts with the same £125 survey, carried out at the property before any quote is written. It's a fixed, paid site visit — not a phone call, and not a rough estimate from photographs — because the only way to price a bathroom accurately is to see the room, the walls and the floor underneath it for ourselves. Winkfield is a parish with genuinely two different kinds of property to survey. Its older centre still has a number of cottages and larger period houses, many historically connected to the surrounding farmland and the equestrian land towards Ascot, while the newer parts of the parish — closer to Bracknell and along the main roads — carry more recent estate-style housing. Those two building types don't behave the same way once a wall is opened up or a floor is lifted, and the survey is where we find out which one applies to your house, rather than guessing from the postcode."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The £125 survey fee is fixed regardless of the size of the room you're having fitted, and it comes off your total project cost if you go ahead with an installation through us. On the day, we measure the room properly — floor area, ceiling height, door widths and anything that restricts the layout — and check what the waste pipe is actually doing: where it runs now, and whether it can be repositioned or needs to stay exactly where it is. We check the water supply and pressure at source rather than assuming a figure from a brochure, and we look underneath the surfaces you can see — floor build-up, wall construction, what's supporting the structure — because that's what determines whether your chosen layout and finishes are actually achievable. Access is checked too: how materials will come in, how waste will go out, and whether a doorway or staircase limits what can be delivered or installed. You leave the visit with a written scope and a fixed quote, not a figure that might move once the fitting team arrives."
+    },
+    {
+      "heading": "What that looks like in a typical Winkfield property",
+      "body": "Winkfield's older centre still has a number of cottages and larger period houses, many historically connected to the surrounding farmland and the equestrian land towards Ascot, and these properties get a particular kind of attention at survey. Solid masonry walls take a fixing very differently to modern plasterboard on timber stud, and a suspended timber floor needs checking for deflection before we commit to tanking a wet room or laying large-format tiling on top of it — a floor that moves even slightly under load can crack tiling or compromise a tanking membrane in a way that isn't obvious until months later. The newer parts of the parish, closer to Bracknell and running along the main roads, carry more recent estate-style housing, and here the survey is generally more straightforward: a solid concrete slab underfoot is easier to work with than a suspended timber floor, and stud walls and more recent pipework tend to be better documented. We don't assume either way, though — a property's age tells us what to expect, not what we'll actually find, so every Winkfield survey checks floor and wall construction properly rather than working from an assumption about the building's era."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation anywhere in Winkfield, whether that's a period cottage near the old village centre or a more recent estate house closer to Bracknell, the survey is the right first step. We'll come to the property, carry out the checks above, and talk through what you're trying to achieve — a full reconfiguration, a wet room conversion on a suspended timber floor, or a straightforward replacement using fixtures you've already chosen. You'll leave with a clear written scope and a fixed quote, so you know exactly what you're agreeing to before any work starts. We fit only, working from products you've already sourced through a showroom, designer or retailer, or your own research — the survey is about confirming what your specific property needs to make that installation work properly, not about selling you a fixed package."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "My Winkfield property is a period cottage — do you check the floor differently?",
+      "a": "Yes. A suspended timber floor, common in Winkfield's older cottages and larger period houses, needs checking for deflection before we tank it for a wet room or lay large-format tiling on top. A newer estate house on a solid concrete slab generally doesn't need that same check."
+    },
+    {
+      "q": "I'm in the newer estate part of Winkfield near Bracknell — is the survey quicker?",
+      "a": "The visit itself takes the same amount of care, but a solid concrete slab and more recent, better-documented pipework common in that part of the parish often mean fewer unknowns to resolve than in an older cottage property."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Winkfield property?",
+      "a": "No. Some of the properties we survey in Winkfield already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check the waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the floor or waste run?",
+      "a": "We tell you at the survey, not partway through the job. If a suspended timber floor needs strengthening, or a waste run needs moving, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/winkfield/", "anchor": "Bathroom fitting in Winkfield" },
+    { "href": "/bathroom-cost/winkfield/", "anchor": "Bathroom installation costs in Winkfield" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "winkfield" }
+  ],
+  "primaryKeyword": "bathroom survey Winkfield",
+  "secondaryKeywords": [
+    "£125 bathroom survey Winkfield",
+    "bathroom installation survey Winkfield",
+    "bathroom fitter survey Winkfield"
+  ],
+  "generatedAt": "2026-10-11",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Winkfield bathroom survey page, depicting the pre-installation measuring visit inside an older cottage-style property. Subject and action: a matte black tape measure extended across a lifted section of floorboard, revealing the floor joists beneath, with a spirit level laid across the exposed joists and a notebook open beside it showing a hand-drawn sketch, captured mid-check for deflection rather than mid-build. Setting and work-stage: a stripped-back ground-floor bathroom in a period cottage near Winkfield's older centre, solid masonry wall exposed in patches down to brick, one floorboard lifted to show the suspended timber floor structure underneath, mid-morning daylight. Composition: low three-quarter angle looking down along the lifted floorboards toward a small window, tape measure and spirit level filling the foreground, the exposed brick wall visible in the mid-ground to one side. Light and materials: soft, slightly cool morning daylight through a small cottage window mixing with a single battery worklight placed low near the floor, aged floor joists with visible grain and old nail holes, exposed brick and lime-plaster patches on the wall, uneven directional light casting real shadow between the joists. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the whole frame, no plants, florals or candles as styling props, no water shown running, varied and believable wear on the exposed joists and brick.",
+    "heroOutputPath": "heroes/survey-town/winkfield-hero.webp",
+    "heroAlt": "A matte black tape measure and spirit level laid across lifted floorboards and exposed joists during a bathroom survey in a period Winkfield cottage, exposed brick wall under soft morning light.",
+    "inline": []
+  }
+}

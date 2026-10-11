@@ -1,0 +1,255 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const LAST_UPDATED = "2026-10-11";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Extractor Fan Installation Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "How much does it cost to install a bathroom extractor fan?",
+    a: `As a standalone job — reusing the existing duct route and electrical supply — fitting a new bathroom extractor fan is priced as a repair-scale visit from £${business.repairs.fromGBP}. As part of a full fit-only bathroom installation, it's included within the overall figure from £${business.pricing.fromGBP.toLocaleString()}. A £${business.pricing.surveyGBP} survey will tell you honestly which category your job falls into and give you an exact, written figure.`,
+  },
+  {
+    q: "Why does moving the fan to a new position cost more than a like-for-like swap?",
+    a: "Keeping the fan where it already is means the duct route and electrical supply are both reused. Moving it to a different wall or ceiling position means a new duct run has to be planned and fitted, and the electrical cable has to be extended or re-routed to the new location — both of which are first-fix work a straight swap doesn't need.",
+  },
+  {
+    q: "Is a humidistat or timer-controlled fan more expensive to fit than a simple pull-cord one?",
+    a: "A little, yes. A humidistat or run-on timer needs its own control wiring in addition to the fan's power supply, and that wiring usually has to be run back to a suitable switch position. It's a modest addition compared with the duct and fan work itself, and one we'd generally recommend, since a fan that stops the moment someone leaves the room rarely has time to clear the humidity a shower produces.",
+  },
+  {
+    q: "Does a windowless bathroom need a different, more expensive fan?",
+    a: "Usually, yes. A windowless room has no passive ventilation route at all, so it typically needs a higher-capacity fan running continuously at a low background rate with a boost function, rather than the simpler intermittent extraction that's often acceptable in a windowed room. See our bathroom ventilation regulations guide for the fuller distinction.",
+  },
+  {
+    q: "Is extractor fan installation covered by the £125 survey?",
+    a: "Yes. The survey checks the existing or proposed duct route, loft or ceiling void access, the available electrical supply, and whether the room's layout calls for a windowed-room or windowless-room specification, before you order a fan.",
+  },
+  {
+    q: "Can my existing fan be repaired rather than replaced?",
+    a: "Sometimes. A fan that's gone quiet, noisy or weak can occasionally be fixed with a clean or a replacement part rather than a full unit swap, and we'll say so honestly at survey rather than quoting for a replacement you don't need. Where the motor itself has failed or the unit is old enough that parts aren't readily available, replacement is usually the more sensible option.",
+  },
+  {
+    q: "Do I need an electrician, or does the installer handle the wiring?",
+    a: "Our team handles the fan's electrical connection as part of the installation, working to Building Regulations Part P and the correct IP rating for its zone within the bathroom. Where a job needs third-party certification under a competent person scheme, that's arranged and confirmed at survey rather than left until the fan is already on the wall.",
+  },
+  {
+    q: "How long does an extractor fan installation take?",
+    a: "A like-for-like swap with no new ducting or wiring is usually a job of a few hours, often completed within a single visit. Relocating the fan, running a new duct through a loft void, or adding humidistat control typically takes a full day once access and first-fix work are accounted for. Either way, the £125 survey gives you a realistic timescale alongside the price.",
+  },
+];
+---
+
+<Base
+  title="Extractor Fan Installation Cost UK | Install My Bathroom"
+  description="What it costs to fit a bathroom extractor fan in the UK, what moves the price between a simple swap and a relocated, humidistat-controlled unit, and how to get an exact figure."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Extractor Fan Installation Cost UK", href: "/guides/extractor-fan-installation-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Extractor Fan Installation Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fitting a client-supplied bathroom extractor fan as a standalone job, reusing the existing duct route and electrical supply, starts from £{business.repairs.fromGBP}. As part of a full fit-only bathroom installation, it's included within the overall figure from £{business.pricing.fromGBP.toLocaleString()}. Relocating the fan, extending the duct run, or specifying continuous extraction for a windowless room all add to those figures. A £{business.pricing.surveyGBP} survey gives you an exact, written number either way.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        An extractor fan looks like a single small fixture, but the price is really set by three separate things — the duct route, the electrical supply, and the control method — and each has a quicker version and a more involved one.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Like-for-like vs relocated fan</td>
+              <td class="py-3" style="color: var(--text-soft);">Reusing the existing duct route and electrical supply avoids new first-fix work a relocation needs.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Duct run length and routing</td>
+              <td class="py-3" style="color: var(--text-soft);">A short, direct run to an external wall is quicker to fit than a long run through a loft void with several bends.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Fan type: axial, centrifugal or in-line</td>
+              <td class="py-3" style="color: var(--text-soft);">An in-line unit sited remotely in a loft needs its own mounting and a longer duct run than a simple wall-mounted axial fan.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Pull-cord or switch vs humidistat or timer</td>
+              <td class="py-3" style="color: var(--text-soft);">A humidistat or run-on timer needs its own control wiring in addition to the fan's power supply.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Windowed vs windowless specification</td>
+              <td class="py-3" style="color: var(--text-soft);">A windowless room typically needs a higher-capacity, continuously-running fan rather than simple intermittent extraction.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic scenario</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common job we see is a straight swap: a tired axial fan mounted on an external wall, wired to come on with the light switch, is replaced with a new unit in exactly the same position. The duct route and electrical supply are both reused, so the work is largely removing the old unit, fitting the new one, and testing it. That sits close to the entry-level standalone figure, because none of the higher-cost drivers above apply.
+        </p>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Where the brief changes — the fan moves to a ceiling position reachable only via a loft void, an in-line centrifugal unit replaces a simple wall fan, or a humidistat is added to control it — each of those adds its own duct, mounting or control-wiring time on top of that baseline, which is why two extractor fan jobs that sound similar on the phone can price quite differently once the survey measures the actual duct run.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          At the upper end, a windowless en-suite being fully re-fitted needs a continuously-running, humidistat-boosted specification, a longer duct run to a new external terminal on a different elevation, and coordination with the room's wider lighting and electrical first-fix — all priced within the overall fit-only figure rather than as a standalone repair. None of that is exotic; it's simply what a room with no passive ventilation route genuinely needs to clear humidity reliably.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/extractor-fan-installation-cost-uk-loft-ducting-first-fix.webp"
+          alt="First-fix insulated rigid ducting connected to an in-line centrifugal extractor fan mounted among loft joists, cool grey tones under a single work light"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/extractor-fan-installation-cost-uk-ceiling-grille-humidistat-detail.webp"
+          alt="Close detail of a flush ceiling extract grille beside a recessed downlight, with a satin pewter humidistat control on a honed dove-grey limestone wall below"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/extractor-fan-installation-cost-uk-external-wall-terminal-detail.webp"
+          alt="Close three-quarter detail of a satin pewter louvre extract terminal set into a pale grey rendered external wall"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Repair-scale swap vs full installation</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It's worth knowing which category your job actually falls into before booking, because the two are priced quite differently. A straightforward like-for-like fan swap — same position, same duct route, same electrical supply — is a single-fixture job and starts from £{business.repairs.fromGBP}, the same entry point as our other repair-scale work, with the £{business.repairs.emergencyCalloutGBP} minimum applying only where a complete loss of extraction in a windowless room needs same-day attention, which a planned swap rarely does. A full bathroom installation that happens to include a new or relocated extractor fan, by contrast, is priced within the overall fit-only figure from £{business.pricing.fromGBP.toLocaleString()} rather than as a separate line item.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        If what your existing fan actually needs is a clean, a replacement run capacitor, or simply resetting a tripped overload rather than a full unit swap, that's what we'll quote for at survey — we'd rather tell you honestly that a repair will do than sell a replacement you don't need.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Timescale follows the same split. A standalone swap in the same position is usually a job of a few hours, start to finish, once the new fan has arrived. Relocating the fan, running new ducting through a loft void, or adding humidistat control typically takes a full day, mostly because the duct route and control wiring need to be in place and tested before the grille and fascia go on. Either way, the £{business.pricing.surveyGBP} survey will give you a realistic timescale alongside the price, rather than a generic estimate that assumes the simplest version of the job.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Fan type and duct run length</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A common question is whether a more powerful fan simply costs more in proportion to its capacity. It doesn't scale that cleanly. An axial fan mounted directly on an external wall with a short, direct duct run is the simplest and usually the least expensive option to fit, since there's little more to the job than the unit itself and a short length of ducting. A centrifugal fan, which generates more static pressure to cope with a longer run or several bends, costs a little more to fit mainly because the ducting itself takes longer to route and seal — not because the fan unit is dramatically more expensive on its own.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        An in-line fan, sited remotely within the ducting rather than at the extract point in the room, adds its own mounting and support within a loft void, plus a duct run from the room to the fan and on to the external terminal — more fitting time than a fan that sits directly at the wall or ceiling opening. The benefit is a quieter bathroom, since only an unobtrusive grille is visible at ceiling or wall level, and a single in-line unit can sometimes serve more than one extract point if the ducting is branched and sized correctly. We'll specify whichever type suits your room's duct run and noise expectations at survey, rather than defaulting to one type regardless of the circumstances — see our <a href="/guides/bathroom-ventilation-regulations/" class="underline" style="color: var(--teal);">bathroom ventilation regulations guide</a> for the fuller distinction between axial, centrifugal and in-line fans.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        What changes the price more than duct length on its own is whether the room has a window. A windowed bathroom with intermittent, light-switch or humidistat-triggered extraction is usually the simpler and less expensive specification. A windowless room has no passive ventilation route to fall back on, so it typically needs continuous low-level background extraction with a boost function — a higher-capacity fan, run for longer, and often with its own dedicated control wiring — which is a genuinely different specification rather than just a bigger version of the same fan.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figures above cover labour only — isolating the existing electrical supply, removing the old fan, running or amending ducting to the agreed route, fitting and wiring the new fan, grille and any humidistat or timer controller, and testing and certifying the electrical work to Building Regulations Part P. The fan unit, grille and controller are bought separately by you, which is different from a supply-and-fit quote where a retailer or contractor bundles the goods and labour into one number. Standard ducting, clips and fixings for the agreed route are included within the labour price.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately either way: making good any ceiling or wall decoration disturbed where a new duct route passes through a loft hatch or an existing void, and any carpentry needed to box in ducting that has to run across an open ceiling rather than through a concealed loft space.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Mechanical extraction requirements referenced in this guide follow Building Regulations Part F (ventilation); electrical installation of fans and controls follows Part P. This figure is specific to an extractor fan fitted either as a standalone job or as part of the main work within an existing bathroom; for a full room re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="extractor-fan-installation-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/bathroom-ventilation/" class="btn-secondary">Bathroom Ventilation</a>
+        <a href="/guides/bathroom-ventilation-regulations/" class="btn-secondary">Bathroom Ventilation Regulations</a>
+        <a href="/guides/bathroom-electrical-zones-explained/" class="btn-secondary">Bathroom Electrical Zones Explained</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

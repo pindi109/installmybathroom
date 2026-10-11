@@ -1,0 +1,78 @@
+{
+  "path": "/bathroom-cost/crowthorne/",
+  "family": "Per-town: cost",
+  "town": "crowthorne",
+  "seo": {
+    "title": "Bathroom Installation Cost in Crowthorne | From £3,500 | Install My Bathroom",
+    "description": "What a fit-only luxury bathroom installation costs in Crowthorne — prices from £3,500, what changes the price, and repair costs from £200.",
+    "canonical": "https://installmybathroom.co.uk/bathroom-cost/crowthorne/"
+  },
+  "h1": "Bathroom Installation Cost in Crowthorne",
+  "hero": {
+    "intro": "Wellington College has shaped Crowthorne as much as any single institution shapes a town, and the roads built up around it are still lined with substantial Victorian and Edwardian houses first built for college staff and commuters, with more twentieth-century family housing and the odd newer infill plot further from the centre. We see both ends of that mix at survey stage, and they rarely cost the same to fit — a period house with a suspended timber ground floor needs different handling to a mid-century semi on a solid slab, especially once a wet room or natural stone is specified. Wherever your bathroom sits in the village, fit-only installation starts from £3,500 for a straightforward, client-supplied layout, and our £125 survey is what turns that starting figure into a fixed price for your actual room rather than a guess based on the street."
+  },
+  "sections": [
+    {
+      "heading": "Fit-only installation from £3,500",
+      "body": "£3,500 covers fit-only labour for a straightforward, like-for-like layout with no waste positions moved and nothing unusual in the materials specified. Push the brief toward a full luxury re-fit — moved services, a tanked wet room, natural stone throughout — and the realistic range climbs to £10,000–£20,000 or more. Both figures are labour only. You buy the suite, brassware, tiles and furniture yourself, usually through a showroom, and we fit what arrives rather than supplying it ourselves."
+    },
+    {
+      "heading": "Why period properties change the quote first",
+      "body": "In Crowthorne specifically, the biggest swing in price tends to start with the floor, not the fittings. A wet room needs the whole floor tanked and a fall built in to a level-access drain, rather than tanking confined to a tray's footprint, and on the suspended timber ground floors common in the village's Victorian and Edwardian houses, that means checking for deflection — and sometimes carrying out remedial joist or subfloor work — before any waterproofing goes down. The same caution applies to large-format natural stone, which is heavier and less forgiving of a floor that moves slightly underfoot than porcelain is. Moving a waste position — relocating a toilet or shower rather than reconnecting it where it already sits — adds its own first-fix labour for altered supply and drainage runs, and occasionally a floor-level adjustment for the correct fall to drain. None of this is a reason to rule a layout out; it's what our £125 survey is pricing against your actual joists and pipework rather than a generic estimate."
+    },
+    {
+      "heading": "If it's a repair, not a re-fit",
+      "body": "Plenty of what we do in Crowthorne isn't a full installation at all. A leaking shower valve, a running concealed cistern or a tray that needs resealing are repairs, and they start from £200. A genuine emergency — a blocked toilet, an active leak in a wet room — carries a £500 minimum call-out instead of the standard repair rate, because that figure reflects how quickly we need to respond rather than how much work is involved. Regrouting on its own isn't something we offer as a standalone repair."
+    },
+    {
+      "heading": "Older Crowthorne stock versus the newer housing further out",
+      "body": "The substantial Victorian and Edwardian houses built for an earlier generation of Wellington College staff and commuters tend to have solid masonry walls, and a meaningfully higher chance of suspended timber ground floors than the twentieth-century family housing and newer infill spreading out from the centre. That split matters well beyond the survey appointment: a wet room or heavy stone floor in one of the older houses is more likely to need floor checks and occasional remedial work priced in before the finish goes down, while the same spec in the newer housing — generally solid concrete ground floors and standard stud walls — usually needs less structural preparation, so more of the budget goes straight to the finish itself. Neither pattern holds for every individual house, which is exactly why we survey rather than quote from a property's age or postcode."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "I'm in one of Crowthorne's older Victorian or Edwardian houses — does that automatically cost more?",
+      "a": "Not automatically, but it's more likely to, because these houses have a higher chance of a suspended timber ground floor than Crowthorne's newer housing. If you're specifying a wet room or heavy stone, that floor needs checking for deflection before tanking, and sometimes remedial joist work first. Our survey checks the actual floor rather than assuming anything from the property's age."
+    },
+    {
+      "q": "What's the starting price for a straightforward bathroom installation in Crowthorne?",
+      "a": "£3,500, for fit-only labour on a like-for-like layout with no waste moved and no specialist materials. That figure doesn't include the suite, tiles or brassware — you buy those separately, typically through a showroom."
+    },
+    {
+      "q": "Does moving my toilet or shower to a new position cost extra?",
+      "a": "Yes. Relocating a waste position means altering the supply and drainage runs that feed it, and sometimes adjusting floor levels for a correct fall to drain — all first-fix labour beyond a straight swap, which is why it's one of the three decisions that moves a quote the most."
+    },
+    {
+      "q": "Is a wet room always more expensive than a shower tray and enclosure in Crowthorne?",
+      "a": "Generally, yes, because a wet room needs the entire floor tanked with a fall to a level-access drain, rather than tanking confined to a smaller enclosure footprint — and in a Victorian or Edwardian property, that's often where the suspended-timber floor checks come in too."
+    },
+    {
+      "q": "What does a repair cost if I don't need a full re-fit?",
+      "a": "From £200 for things like a leaking valve or a running cistern. Genuine emergencies — a blocked toilet or an active leak — are £500 minimum call-out rather than the standard repair rate, reflecting urgency rather than scale."
+    },
+    {
+      "q": "Can I use different suppliers for my suite, tiles and brassware?",
+      "a": "Yes — most Crowthorne clients do. We check waste sizes, tap centres and fixing requirements across every supplier before strip-out starts, so nothing arrives on site that doesn't actually fit the room or each other."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "anchor": "How bathroom installation cost is worked out" },
+    { "href": "/pricing/", "anchor": "Our pricing" },
+    { "href": "/areas/crowthorne/", "anchor": "Bathroom installation in Crowthorne" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "crowthorne" },
+    { "file": "business.ts", "id": "pricing" },
+    { "file": "business.ts", "id": "repairs" }
+  ],
+  "primaryKeyword": "bathroom installation cost Crowthorne",
+  "secondaryKeywords": ["bathroom fitting cost Crowthorne", "Crowthorne bathroom prices"],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crowthorne installation-cost page, depicting a finished high-specification bathroom reflecting the grand Victorian and Edwardian character common near Wellington College. Subject and action: a large freestanding roll-top bath positioned beneath a tall sash window, a brushed brass floor-standing bath filler rising beside it and a wall-hung vanity with an inset basin opposite, the room fully finished and styled for living rather than construction. Setting and work-stage: a completed family bathroom inside a renovated Victorian house, early evening, warm low sun angled through the sash window combined with one wall-mounted practical light beside the vanity mirror. Composition: wide room shot taken from the doorway, bath and sash window filling the centre of the frame, vanity visible at the right edge, veined marble flooring leading the eye from foreground to window. Light and materials: Carrara marble floor and bath surround with visible grey veining, brushed brass bath filler and towel rail, tall original skirting board and cornice detail in the background, warm directional evening sun crossing the floor unevenly and mixing with the cooler light near the vanity mirror. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting under shelves, mirror or floor edges; no twin symmetrical basins or mirrors; no single flat gold wash across the whole frame, light should fall unevenly across the two sources; no hanging plants, florals or candles; no shower or tap shown running; surfaces should show varied, believable sheen rather than uniform high gloss.",
+    "heroOutputPath": "heroes/cost-town/crowthorne-hero.webp",
+    "heroAlt": "Finished Victorian-era Crowthorne bathroom with a freestanding roll-top bath beneath a sash window, Carrara marble flooring and a brushed brass bath filler",
+    "inline": []
+  }
+}

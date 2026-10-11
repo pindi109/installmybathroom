@@ -1,20 +1,200 @@
 [
-  { "slug": "geberit", "name": "Geberit", "url": "https://www.geberit.co.uk/" },
-  { "slug": "villeroy-and-boch", "name": "Villeroy & Boch", "url": "https://www.villeroy-boch.co.uk/" },
-  { "slug": "duravit", "name": "Duravit", "url": "https://www.duravit.co.uk/" },
-  { "slug": "toto", "name": "TOTO", "url": "https://www.totoeurope.com/" },
-  { "slug": "axor", "name": "AXOR", "url": "https://www.axor-design.com/gb" },
-  { "slug": "hansgrohe", "name": "hansgrohe", "url": "https://www.hansgrohe.co.uk/" },
-  { "slug": "dornbracht", "name": "Dornbracht", "url": "https://www.dornbracht.com/en-gb" },
-  { "slug": "grohe", "name": "GROHE", "url": "https://www.grohe.co.uk/" },
-  { "slug": "laufen", "name": "Laufen", "url": "https://www.laufen.com/gb" },
-  { "slug": "kaldewei", "name": "Kaldewei", "url": "https://www.kaldewei.com/en-gb/" },
-  { "slug": "bette", "name": "Bette", "url": "https://www.bette.de/en-gb" },
-  { "slug": "victoria-and-albert", "name": "Victoria + Albert", "url": "https://www.vandabaths.com/" },
-  { "slug": "lefroy-brooks", "name": "Lefroy Brooks", "url": "https://www.lefroybrooks.com/" },
-  { "slug": "burlington", "name": "Burlington", "url": "https://www.burlingtonbathrooms.com/" },
-  { "slug": "crosswater", "name": "Crosswater", "url": "https://www.crosswater.co.uk/" },
-  { "slug": "porcelanosa", "name": "Porcelanosa", "url": "https://www.porcelanosa.com/uk/" },
-  { "slug": "kohler", "name": "Kohler", "url": "https://www.kohler.co.uk/" },
-  { "slug": "matki", "name": "Matki", "url": "https://www.matki.co.uk/" }
+  {
+    "slug": "geberit",
+    "name": "Geberit",
+    "url": "https://www.geberit.co.uk/",
+    "facts": [
+      {
+        "text": "Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the most common sanitaryware brand we fit. Correct frame selection and structural fixing matter more with Geberit than with most brands, because the cistern and pan weight sit entirely on the carrier frame, not the wall tiles.",
+        "source_url": "https://installmybathroom.co.uk/brands/geberit/"
+      }
+    ]
+  },
+  {
+    "slug": "villeroy-and-boch",
+    "name": "Villeroy & Boch",
+    "url": "https://www.villeroy-boch.co.uk/",
+    "facts": [
+      {
+        "text": "We fit Villeroy & Boch sanitaryware, basins, baths and ViClean shower toilet seats bought through showrooms and retailers across Berkshire. The ceramics are precise and the glaze finishes are hard-wearing, but the detail that catches people out is matching flush plate, pan and frame generations correctly \u2014 V&B doesn't manufacture its own carrier frame, so compatibility is confirmed before anything is ordered, not discovered on fitting day.",
+        "source_url": "https://installmybathroom.co.uk/brands/villeroy-and-boch/"
+      }
+    ]
+  },
+  {
+    "slug": "duravit",
+    "name": "Duravit",
+    "url": "https://www.duravit.co.uk/",
+    "facts": [
+      {
+        "text": "Duravit sanitaryware turns up on a good number of the bathrooms we fit, usually specified through a showroom alongside SensoWash shower toilet seats or a full ME by Starck suite. The part worth getting right before anything is ordered is the installation route \u2014 Duravit offers its own DuraSystem frame for some pans as well as compatibility with standard concealed cistern frames, and the two aren't interchangeable once a wall is boarded.",
+        "source_url": "https://installmybathroom.co.uk/brands/duravit/"
+      }
+    ]
+  },
+  {
+    "slug": "toto",
+    "name": "TOTO",
+    "url": "https://www.totoeurope.com/",
+    "facts": [
+      {
+        "text": "TOTO's Washlet and Neorest ranges are among the most technically involved products we fit, because the electronics sit inside the fixture rather than bolted on afterwards. A Washlet seat adds to a conventional pan; a Neorest is a single integrated unit that replaces the pan, cistern and seat entirely. The two have different structural and electrical requirements, and knowing which one you've ordered changes how the room is first-fixed.",
+        "source_url": "https://installmybathroom.co.uk/brands/toto/"
+      }
+    ]
+  },
+  {
+    "slug": "axor",
+    "name": "AXOR",
+    "url": "https://www.axor-design.com/gb",
+    "facts": [
+      {
+        "text": "AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux. The brassware itself is precisely engineered, but the finish is the part that separates a good AXOR installation from an average one \u2014 a brushed or matte black trim shows every scuff mark from a careless fit in a way chrome never does, so handling and sequencing matter as much as the plumbing.",
+        "source_url": "https://installmybathroom.co.uk/brands/axor/"
+      }
+    ]
+  },
+  {
+    "slug": "hansgrohe",
+    "name": "hansgrohe",
+    "url": "https://www.hansgrohe.co.uk/",
+    "facts": [
+      {
+        "text": "hansgrohe brassware and shower systems turn up on more of our specification sheets than almost any other single brand, usually as the shower and basin mixer package sitting alongside sanitaryware from Duravit, Villeroy &amp; Boch or Laufen. The engineering is consistent across the range, which makes fitting predictable \u2014 the variables that actually decide how well it performs are water pressure, rough-in depth and whether the valve body was set correctly before the wall closed up.",
+        "source_url": "https://installmybathroom.co.uk/brands/hansgrohe/"
+      }
+    ]
+  },
+  {
+    "slug": "dornbracht",
+    "name": "Dornbracht",
+    "url": "https://www.dornbracht.com/en-gb",
+    "facts": [
+      {
+        "text": "Dornbracht sits at the top end of the projects we fit \u2014 a German brassware house known for sculptural handle and spout design and for finishes that are genuinely difficult to replicate elsewhere. Nothing about fitting it is unusual on its own terms, but the margin for error is smaller: a scuff on a brushed Dark Platinum finish or a rough-in set a few millimetres wrong is far more visible, and far more expensive to put right, than the same mistake on a mainstream brand.",
+        "source_url": "https://installmybathroom.co.uk/brands/dornbracht/"
+      }
+    ]
+  },
+  {
+    "slug": "grohe",
+    "name": "GROHE",
+    "url": "https://www.grohe.co.uk/",
+    "facts": [
+      {
+        "text": "Grohe covers a wide span of our work \u2014 thermostatic shower valves and mixer taps on mid-range refits, Rapid SL cistern frames behind wall-hung WCs, and digital shower and smart water products on more specified projects. The range is broad enough that the installation detail changes considerably depending on which part of it you've chosen, which is why we work through exactly what's been specified at survey rather than treating \"Grohe\" as a single fitting job.",
+        "source_url": "https://installmybathroom.co.uk/brands/grohe/"
+      }
+    ]
+  },
+  {
+    "slug": "laufen",
+    "name": "Laufen",
+    "url": "https://www.laufen.com/gb",
+    "facts": [
+      {
+        "text": "Laufen is a Swiss sanitaryware manufacturer whose SaphirKeramik material lets it produce basins and pans with noticeably finer rims and sharper geometry than standard vitreous china allows. That thinness is the main thing we plan around: it's a strong material once fitted and fixed, but the pieces are less forgiving of a knock in transit or on site than a heavier, more conventional basin, so handling and sequencing get more attention than with a standard ceramic range.",
+        "source_url": "https://installmybathroom.co.uk/brands/laufen/"
+      }
+    ]
+  },
+  {
+    "slug": "kaldewei",
+    "name": "Kaldewei",
+    "url": "https://www.kaldewei.com/en-gb/",
+    "facts": [
+      {
+        "text": "Kaldewei baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded like most bathroom sanitaryware, which changes how they're handled and supported on site. The material is rigid, so the installation detail is about even, accurate bearing across the full base \u2014 not preventing flex the way an acrylic bath support does \u2014 and about protecting a hard but chip-sensitive enamel surface from the other trades still working around it.",
+        "source_url": "https://installmybathroom.co.uk/brands/kaldewei/"
+      }
+    ]
+  },
+  {
+    "slug": "bette",
+    "name": "Bette",
+    "url": "https://www.bette.de/en-gb",
+    "facts": [
+      {
+        "text": "Bette manufactures baths and shower trays from titanium-steel finished with fused glass enamel \u2014 a material that's harder and more scratch-resistant than acrylic, but unforgiving of a poorly built base underneath it. We fit Bette baths and trays with the substructure, levelling and acoustic isolation the material actually needs, rather than treating it like any other bath.",
+        "source_url": "https://installmybathroom.co.uk/brands/bette/"
+      }
+    ]
+  },
+  {
+    "slug": "victoria-and-albert",
+    "name": "Victoria + Albert",
+    "url": "https://www.vandabaths.com/",
+    "facts": [
+      {
+        "text": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, which gives them a solid, cool-to-the-touch surface and genuine weight \u2014 a point that matters as much to how we get the bath into the room as it does to how it sits once installed. We fit Victoria + Albert baths with the floor loading, access route and waste position planned before the bath leaves the showroom.",
+        "source_url": "https://installmybathroom.co.uk/brands/victoria-and-albert/"
+      }
+    ]
+  },
+  {
+    "slug": "lefroy-brooks",
+    "name": "Lefroy Brooks",
+    "url": "https://www.lefroybrooks.com/",
+    "facts": [
+      {
+        "text": "Lefroy Brooks's traditional-style taps, shower valves and sanitaryware are built around exposed pipework, cross-head handles and period-inspired profiles rather than the concealed, minimal fittings most modern brassware favours. Fitting it well means the pipe runs, brackets and wall fixings are set out and finished to be looked at, not hidden \u2014 every joint, bracket and pipe run visible once the room is finished.",
+        "source_url": "https://installmybathroom.co.uk/brands/lefroy-brooks/"
+      }
+    ]
+  },
+  {
+    "slug": "burlington",
+    "name": "Burlington",
+    "url": "https://www.burlingtonbathrooms.com/",
+    "facts": [
+      {
+        "text": "Burlington's range is built around classic bathroom forms \u2014 pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware \u2014 reproduced with a modern fixing standard underneath the traditional silhouette. Getting the period look right on site depends on fixing choices that aren't visible once the room is finished: a high-level cistern bracket, a wall-hung basin's hidden support, or the exact pedestal alignment behind a classic profile.",
+        "source_url": "https://installmybathroom.co.uk/brands/burlington/"
+      }
+    ]
+  },
+  {
+    "slug": "crosswater",
+    "name": "Crosswater",
+    "url": "https://www.crosswater.co.uk/",
+    "facts": [
+      {
+        "text": "Crosswater's contemporary brassware and shower systems run heavily on concealed valves, digital controls and minimal deck-mounted taps \u2014 fittings designed to disappear into the wall or worktop rather than sit proud of it. That means the work that determines how well a Crosswater shower performs happens largely before the tiler arrives: wall build-up, pipework depth, and the water pressure and flow the valve actually needs.",
+        "source_url": "https://installmybathroom.co.uk/brands/crosswater/"
+      }
+    ]
+  },
+  {
+    "slug": "porcelanosa",
+    "name": "Porcelanosa",
+    "url": "https://www.porcelanosa.com/uk/",
+    "facts": [
+      {
+        "text": "Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise \u2014 which is exactly why it punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. Fitting it well is a matter of tolerance, not taste: the floor or wall is checked and prepared flat first, then the tile is set with the correct bed coverage, joint width and lippage control to let the material's own precision show through.",
+        "source_url": "https://installmybathroom.co.uk/brands/porcelanosa/"
+      }
+    ]
+  },
+  {
+    "slug": "kohler",
+    "name": "Kohler",
+    "url": "https://www.kohler.co.uk/",
+    "facts": [
+      {
+        "text": "Kohler's range spans cast-iron enamel baths, vitreous china sanitaryware and contemporary brassware, which in practice means a single project can involve three quite different fitting disciplines side by side \u2014 heavy-item logistics for a cast-iron tub, standard structural fixing for a wall-hung WC, and pressure and flow checks for a shower valve or digital tap. We plan for whichever combination you're specifying, not a single generic approach.",
+        "source_url": "https://installmybathroom.co.uk/brands/kohler/"
+      }
+    ]
+  },
+  {
+    "slug": "matki",
+    "name": "Matki",
+    "url": "https://www.matki.co.uk/",
+    "facts": [
+      {
+        "text": "Matki's shower enclosures and screens are built to a minimal, largely frameless aesthetic, which means there's very little trim left to hide an inaccurate opening or an uneven wall. The glass does the talking, so the measuring, the wall fixing and the sequencing against tiling and the shower tray have to be right before a single panel goes up.",
+        "source_url": "https://installmybathroom.co.uk/brands/matki/"
+      }
+    ]
+  }
 ]

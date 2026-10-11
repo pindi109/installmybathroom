@@ -1,0 +1,77 @@
+{
+  "path": "/survey/crowthorne/",
+  "family": "Per-town: survey",
+  "town": "crowthorne",
+  "seo": {
+    "title": "Bathroom Survey in Crowthorne | £125 Site Visit | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Crowthorne. We measure, check services and floor construction in Victorian and Edwardian houses near Wellington College as well as newer family homes, then give you a fixed quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/crowthorne/"
+  },
+  "h1": "Bathroom Survey in Crowthorne",
+  "hero": {
+    "intro": "Every bathroom we fit in Crowthorne starts with the same £125 site visit, whatever the age of the house behind the front door. It's the step that turns a rough idea — a shower you've seen in a showroom, a photo saved on your phone — into a written scope and a fixed price you can actually plan a project around. Crowthorne's character comes partly from its association with Wellington College, and the roads around it carry a good number of substantial Victorian and Edwardian houses built for an earlier generation of staff and commuters, with more twentieth-century family housing and some newer infill further out from the village centre. Those two kinds of property don't behave the same way once a floor is lifted or a wall is opened up, so we check what's actually there rather than assuming."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey is a site visit, not a phone call or a quote worked out from photos. We measure the room properly — dimensions, door swing, ceiling height, anything sloped or awkward — and check what's genuinely available behind the walls and under the floor: water pressure and flow rate at source, the existing waste and supply runs, and what the floor and wall construction actually is once we've looked, rather than guessed from the surface finish. We talk through your proposed layout, or the two or three options you're still weighing up, against those findings while we're still standing in the room, so anything that would change the scope — a waste move, a floor build-up issue, a fixing requirement a heavier fitting needs — gets flagged on the day, not buried in the small print of a quote that arrives a week later."
+    },
+    {
+      "heading": "Surveying Crowthorne's Victorian and Edwardian houses",
+      "body": "A good number of the houses we survey in Crowthorne are the substantial Victorian and Edwardian properties built for an earlier generation of Wellington College staff and commuters, and they tend to share a particular construction pattern: solid masonry walls, and on the ground floor in particular, a higher chance of suspended timber construction than you'd find in newer housing. That matters directly for anyone specifying a wet room or large-format porcelain tiling, because a suspended timber floor needs checking for deflection before any tanking goes down — too much flex under a heavy stone floor or a tanked wet room base, and the waterproofing and the tiling above it are both put at risk. We check joist spacing, span and condition at survey, not after the floor's already been opened up mid-installation, and we check wall construction too, since fixing a heavy wall-hung basin or a stone vanity into solid masonry is a different job to fixing the same item into a modern stud wall."
+    },
+    {
+      "heading": "Surveying Crowthorne's twentieth-century and newer housing",
+      "body": "Further out from the village centre, Crowthorne has more twentieth-century family housing and some newer infill built on redeveloped plots, and the survey here looks quite different. Solid concrete ground floors and standard stud-wall partitions are far more common, which generally removes the suspended-floor deflection question that dominates the older Victorian and Edwardian stock. Waste and supply runs also tend to be better documented and more recently altered, so there's usually less tracing of historic pipework to do before a layout can be confirmed. That doesn't mean we survey any less thoroughly — we still measure actual water pressure and flow rather than assuming a newer system delivers what a rainfall shower's brochure promises, and we still check substrate before specifying a wet room — but the starting point, and the remedial work the quote needs to allow for, is usually more straightforward than in the village's older buildings."
+    },
+    {
+      "heading": "Booking your Crowthorne survey",
+      "body": "We cover Crowthorne from our Bracknell base, along with Sandhurst and Binfield nearby, so a survey, a follow-up visit or a snag check doesn't need a full day set aside for travel on either side. Book the £125 survey and we'll measure your room, test water pressure, check the floor and wall construction and talk through your layout options on site, then follow that up with a written scope and a fixed quote rather than a verbal estimate. If you go ahead, that fixed figure — not a ballpark given before anyone's seen the room — is what the installation is actually programmed and costed against."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final installation cost?",
+      "a": "We confirm the current arrangement when you book the survey, so there's no ambiguity about how the fee applies if you go ahead with the installation."
+    },
+    {
+      "q": "Will the survey be different for a Victorian house near Wellington College compared with a newer Crowthorne home?",
+      "a": "Yes, in emphasis rather than in process. In an older Victorian or Edwardian property we look harder at floor construction — checking for deflection where ground-floor rooms have suspended timber joists — and at wall type for fixing. In twentieth-century or newer housing the construction is more standard, so the survey focuses more on confirming water pressure, service runs and your proposed layout against the room."
+    },
+    {
+      "q": "Why does floor construction matter so much for a wet room or large-format porcelain?",
+      "a": "A suspended timber floor that flexes too much under load can crack tiling and break a tanking membrane's seal over time. We check joist span, spacing and condition at survey specifically so a wet room or large-format porcelain floor is only specified where the structure underneath will genuinely support it, or so the right remedial work is priced in up front."
+    },
+    {
+      "q": "Do I need to have chosen my bathroom suite before the Crowthorne survey?",
+      "a": "It helps, but it isn't essential. A firm specification lets us give you an exact, fixed quote on the day; if you're still deciding, we'll survey the room's constraints and follow up once your choices are settled."
+    },
+    {
+      "q": "How far is Crowthorne from your Bracknell base?",
+      "a": "Close enough that we can schedule the survey, a follow-up visit or a snag check without a full day blocked out for travel, which also helps keep the overall installation programme on schedule once work starts."
+    },
+    {
+      "q": "What should I have ready before the surveyor arrives at my Crowthorne property?",
+      "a": "Access to the room itself, cleared of anything that would obstruct measuring, plus your proposed layout or specification if you've settled on one — a plan, a showroom quote or even a rough sketch all help. It's also useful to let us know roughly when you'd like work to start."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "More about our £125 survey" },
+    { "href": "/areas/crowthorne/", "anchor": "Bathroom installation in Crowthorne" },
+    { "href": "/bathroom-cost/crowthorne/", "anchor": "Crowthorne installation costs" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "crowthorne" },
+    { "file": "business.ts", "id": "pricing" }
+  ],
+  "primaryKeyword": "bathroom survey Crowthorne",
+  "secondaryKeywords": ["£125 bathroom survey Crowthorne", "bathroom site visit Crowthorne"],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crowthorne survey page, depicting the pre-installation measuring visit. Subject and action: a tape measure stretched along a run of lifted original floorboards exposing the joists beneath, with a spirit level resting across two joists and an open clipboard holding a hand-drawn floor sketch propped against the skirting, as if a surveyor has just checked for deflection and stepped back. Setting and work-stage: a stripped-back ground-floor bathroom inside a substantial Victorian house near Wellington College, mid-renovation, floorboards pulled up in one corner, old lath-and-plaster wall exposed opposite, daytime, cool daylight falling through a tall sash window. Composition: three-quarter angle from the doorway, exposed joists and tape measure filling the lower-left foreground, the sash window and a stack of walnut-toned engineered boards waiting to be relaid receding into the background. Light and materials: warm walnut-toned timber flooring stacked against the wall, aged exposed lath-and-plaster, a brushed bronze towel rail already fixed to the masonry wall, cool daylight from the tall window mixing unevenly with a single bare worklight clipped near the joists. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting anywhere in the frame; no catalog-symmetrical staging; no single uniform gold colour wash across the frame, light must fall unevenly; no hanging plants, florals or styled candles; no running water; no uniform hyper-gloss finish, timber and plaster should show natural, varied sheen and believable wear.",
+    "heroOutputPath": "heroes/survey-town/crowthorne-hero.webp",
+    "heroAlt": "Tape measure and spirit level across lifted floorboards and exposed joists during a bathroom survey in a Victorian house near Wellington College in Crowthorne",
+    "inline": []
+  }
+}

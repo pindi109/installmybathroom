@@ -1,0 +1,76 @@
+{
+  "path": "/bathroom-cost/wentworth-estate/",
+  "family": "Per-town: cost",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Bathroom Installation Cost on the Wentworth Estate | From £3,500 Fit-Only | Install My Bathroom",
+    "description": "What a bathroom installation costs on the Wentworth Estate: fit-only pricing from £3,500, what moved waste runs and wet rooms add, and gated-estate access factored into every quote.",
+    "canonical": "https://installmybathroom.co.uk/bathroom-cost/wentworth-estate/"
+  },
+  "h1": "Bathroom installation cost on the Wentworth Estate",
+  "hero": {
+    "intro": "Fit-only bathroom installation on the Wentworth Estate starts from £3,500 — that figure covers the labour and fitting work for a straightforward replacement using your own supplied products, where the waste and water stay more or less where they already are. We install luxury, fit-only bathrooms for homeowners on the Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. What actually moves the price up isn't usually the brand of brassware or the colour of the tile; it's the structural and plumbing work hidden behind the finish, combined with coordinating access with the estate and any managing agent so the programme runs without delay at the gate. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, and price the job properly once we've seen it."
+  },
+  "sections": [
+    {
+      "heading": "Install price ranges from £3,500",
+      "body": "The £3,500 starting point is for fit-only installation where the room's footprint and the position of the waste and supply pipes stay broadly as they are. From there, the price moves up as the scope grows — a full reconfiguration, a larger room, more fixtures, or a higher-specification finish that needs more careful handling at fitting stage. We don't publish a single average figure, because two bathrooms of similar size can cost quite differently to fit depending on what's underneath: whether the waste run needs to move, what the existing floor and walls are actually built from, and how many separate trades the job genuinely needs to bring in. A fixed, written quote only follows the £125 survey, once we've actually seen the room, confirmed what's involved, and — on the Wentworth Estate specifically — confirmed the access and gate arrangements with the estate or managing agent, rather than estimated any of it from a floor plan."
+    },
+    {
+      "heading": "What changes the cost",
+      "body": "A handful of decisions account for most of the gap between a £3,500 job and a considerably larger one. Moving the waste run — repositioning a WC or shower away from its existing soil pipe — is one of the biggest single cost drivers, because it usually means opening up a floor or chasing into a wall rather than connecting back to what's already there. Choosing a wet room over a shower tray is another: a wet room needs a formed and tanked fall built into the floor structure itself, a materially different scope of work to dropping a tray onto an existing subfloor. Material choice matters too — natural stone such as marble, limestone or travertine typically needs more careful substrate preparation, different adhesives and more cutting time than porcelain, and that extra handling shows up in the fit-only price before the difference in material cost is even factored in. None of this is a reason to avoid a particular specification; it's simply what we cost properly at survey rather than guess at in advance."
+    },
+    {
+      "heading": "Repairs pricing",
+      "body": "Not every job starts from scratch. If you've got an existing bathroom on the Wentworth Estate with a specific fault — a leak, a failed seal, a fitting that's worked loose — repairs start from £200. An emergency call-out carries a £500 minimum, reflecting the cost of getting a fitter to you outside a normal scheduled visit, plus — on a gated estate — the time needed to clear access with the estate or managing agent before the team can even reach the property. One thing worth being upfront about: we don't offer regrouting as a standalone repair service. If grout has failed badly enough to need attention, it's usually a sign of a wider problem with the tiling or the substrate underneath, and we'll talk through what's actually needed rather than patch over the symptom with fresh grout."
+    },
+    {
+      "heading": "How the Wentworth Estate's setting affects typical specification and logistics",
+      "body": "The Wentworth Estate is a private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship, around 15 to 20 minutes by road from our Bracknell base. That setting doesn't automatically change what a straightforward like-for-like bathroom replacement costs — the £3,500 starting point applies here the same as anywhere else we work. What it does change is the logistics built into every quote: because you source the sanitaryware, brassware, tiles and furniture and we strip out, first-fix, tile, plumb and snag, we coordinate delivery and access with the estate and any managing agent as a standard part of planning the job, so the programme runs without delay at the gate once work begins. For homeowners specifying at the top of the market — which the estate's character around a championship golf club naturally brings more of through our door — that logistics planning is factored into the fixed quote from the survey stage, not added as a surprise once a skip or a delivery van is sitting outside the gate unable to get through."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does a bathroom installation cost on the Wentworth Estate?",
+      "a": "Fit-only installation starts from £3,500 for a straightforward replacement where the waste and water stay roughly where they are. The final figure depends on the scope confirmed at your £125 survey, including any reconfiguration, wet room work, material handling or estate access planning involved."
+    },
+    {
+      "q": "Does the Wentworth Estate's gated access make a bathroom installation more expensive?",
+      "a": "Not automatically. A like-for-like replacement costs the same as anywhere else we work. We factor access and delivery coordination with the estate or managing agent into the planning of every job on the estate, and that's built into the fixed quote from survey stage rather than added as an extra cost later."
+    },
+    {
+      "q": "Why does moving the waste pipe cost more?",
+      "a": "Repositioning a WC or shower away from its existing soil pipe usually means opening up a floor or chasing into a wall to run new pipework, rather than connecting back to an existing waste point. That additional structural work is priced in at survey once we've seen what's underneath the floor."
+    },
+    {
+      "q": "Is a wet room more expensive to fit than a shower tray?",
+      "a": "Generally yes. A wet room needs a formed and tanked fall built into the floor structure itself, which is more involved than dropping a shower tray onto an existing subfloor, and that's reflected in the fit-only price."
+    },
+    {
+      "q": "What do bathroom repairs cost on the Wentworth Estate?",
+      "a": "Repairs start from £200. An emergency call-out has a £500 minimum, which on a gated estate also covers the time needed to clear access with the estate or managing agent before the team can reach the property. We don't offer standalone regrouting — if grout has failed, it's usually a sign of an underlying tiling or substrate issue that needs addressing properly rather than patching."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "anchor": "How much does a luxury bathroom installation cost in the UK" },
+    { "href": "/pricing/", "anchor": "Our fit-only pricing" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on the Wentworth Estate" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "bathroom installation cost Wentworth Estate",
+  "secondaryKeywords": [
+    "how much does a bathroom cost Wentworth Estate",
+    "bathroom fitting prices Virginia Water",
+    "bathroom repair cost Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Wentworth Estate bathroom cost page, depicting a finished high-specification bathroom reflecting the scale and setting of a gated estate property near a championship golf club. Subject and action: a freestanding stone bath positioned beneath a wide window, a tall freestanding floor-mounted bath filler beside it, and a separate walk-in shower with a single fixed glass panel visible in the background, both complete and static with no activity. Setting and work-stage: a finished primary en-suite inside a substantial gated-estate house, generous proportions suggesting a large plot, warm evening light low through the window mixing with one practical wall light. Composition: wide shot taken from just inside the doorway, the freestanding bath anchoring the centre-left of frame, the walk-in shower visible in the background to the right, dark stone floor filling the foreground. Light and materials: dark basalt stone floor with anthracite-toned walls, brushed brass bath filler and door hardware, warm low evening light through the window falling across the bath's near edge while a single wall light casts a softer pool near the shower, creating uneven, mixed illumination rather than flat ambient glow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under any edge or niche, no uniform gold colour wash across the whole frame, no plants or candles as styling props, no water shown running, varied sheen across the basalt stone and brushed brass with minor, believable wear.",
+    "heroOutputPath": "heroes/cost-town/wentworth-estate-hero.webp",
+    "heroAlt": "A finished Wentworth Estate primary en-suite with a dark basalt stone floor, freestanding stone bath and brushed brass floor-mounted filler, warm evening light through a wide window.",
+    "inline": []
+  }
+}

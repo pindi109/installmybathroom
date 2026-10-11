@@ -1,0 +1,80 @@
+{
+  "path": "/areas-brands/sandhurst/",
+  "family": "Per-town: brands in area",
+  "town": "sandhurst",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Sandhurst | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Sandhurst, and how our fit-only installation model works — your products, our labour, from Geberit and Grohe to Kohler and Porcelanosa.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/sandhurst/"
+  },
+  "h1": "Bathroom brands we fit in Sandhurst",
+  "hero": {
+    "intro": "We work on a fit-only basis across Sandhurst, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Sandhurst's housing is a genuine mix rather than one dominant style, with established twentieth-century family housing, newer estate developments and pockets of older property near the centre and towards the Royal Military Academy all sitting within the same town. That spread means the brands we're asked to fit here cover a correspondingly wide range, from dependable mainstream sanitaryware and brassware through to more specified contemporary ranges, and we've built our fitting process around the specific installation detail each brand needs rather than treating every bathroom product as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. That works well across Sandhurst's mixed housing stock, because the right product for a straightforward refit on newer estate housing isn't necessarily the right product for a more considered project in an older house near the centre, and fit-only lets each homeowner choose accordingly rather than being steered toward a fixed range. It also means the quote you get from us reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves. Where it matters most is in the detail: a concealed cistern frame, an integrated electronic toilet, or a large-format tile all need to be fitted correctly for that specific product, and we work through exactly what's been specified before a wall closes up or a floor goes down."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs are among the sanitaryware we fit most often in Sandhurst — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles, which is worth getting right whether the wall behind it is modern stud or older masonry. Grohe covers a wide span of the work we do too, from thermostatic shower valves and mixer taps on more straightforward refits through to Rapid SL cistern frames and digital shower products on more specified jobs, and hansgrohe brassware and shower systems turn up just as regularly, with water pressure, rough-in depth and valve body alignment the variables that actually decide how well it performs once it's tiled in. Where a project calls for something more technically involved, TOTO's Washlet and Neorest ranges are among the most demanding products we fit, because the electronics sit inside the fixture rather than bolted on afterwards — a Washlet seat adds to a conventional pan, while a Neorest is a single integrated unit that changes how the room is first-fixed, and knowing which one has been ordered matters before any pipework goes in. For baths and shower trays, Bette's titanium-steel and fused glass enamel construction is harder and more scratch-resistant than acrylic but unforgiving of a poorly built base, so we fit it with the substructure, levelling and acoustic isolation the material actually needs. On the shower side, Crosswater's concealed valves and digital controls are designed to disappear into the wall rather than sit proud of it, which means most of what determines performance happens at first-fix, well before the tiler arrives. Porcelanosa's large-format porcelain punishes an uneven substrate or inconsistent joint more visibly than a smaller, more forgiving tile, so the floor or wall is checked and prepared flat before the material's own precision is allowed to show. And where a project spans more than one fitting discipline at once, Kohler's range of cast-iron baths, vitreous china sanitaryware and contemporary brassware means we're often planning heavy-item logistics, structural fixing and pressure checks side by side on the same job, rather than treating it as a single generic fit."
+    },
+    {
+      "heading": "Matching the brand to the property",
+      "body": "Because Sandhurst's housing genuinely varies from street to street, part of what we do at survey is talk through how a chosen product fits the specific building it's going into, not just the room. A Geberit carrier frame or a Kohler cast-iron bath both need a wall or floor structure that can take their weight properly — straightforward to confirm on the solid concrete floors typical of newer estate housing, and something we check more carefully in older property with suspended timber floors near the centre or towards the Royal Military Academy. None of this changes which brand you can choose; it changes how we sequence and fix it once you have. The product decision stays yours — matching the installation to the building it's going into is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Sandhurst?",
+      "a": "Geberit, Grohe and hansgrohe come up most frequently across Sandhurst's mixed housing stock. We also regularly fit TOTO, Bette, Crosswater, Porcelanosa and Kohler, depending on what's been specified."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Does my house type affect which brand I should choose?",
+      "a": "It can affect how straightforward the installation is rather than which brand is technically available. Newer estate housing in Sandhurst generally has solid concrete floors and modern plumbing, which suits most heavy fixtures without extra work; older property near the centre can have suspended timber floors that need checking before a heavy bath or large-format tile goes in."
+    },
+    {
+      "q": "Do you work with Sandhurst bathroom showrooms and designers?",
+      "a": "Yes. A good amount of the specification we fit in Sandhurst has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/sandhurst/", "anchor": "Bathroom fitting in Sandhurst" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sandhurst" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "brands.json", "id": "toto" },
+    { "file": "brands.json", "id": "bette" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "brands.json", "id": "kohler" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-sandhurst/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-sandhurst/ pages once built.",
+  "primaryKeyword": "bathroom brands Sandhurst",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Sandhurst",
+    "luxury bathroom brands fitted Sandhurst",
+    "bathroom fitter brands Sandhurst"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sandhurst brands-in-area page, implying brand and material choice through a close vanity fixture detail rather than a full room shot. Subject and action: a close-to-mid shot of a countertop basin set into a Carrara marble-effect vanity top, a brushed nickel single-lever mixer tap beside it, a folded fitter's measuring tape resting at the edge of the worktop as if just set down. Setting and work-stage: a finished bathroom vanity area in an established Sandhurst family house, daytime, soft natural light from an unseen window to one side. Composition: tight three-quarter angle focused on the basin, tap and worktop edge, a sliver of tiled wall visible in soft-focus background, basin and tap sharply in focus in the foreground. Light and materials: Carrara marble-effect porcelain worktop, brushed nickel single-lever tap, soft directional daylight from one side casting a gentle, defined shadow of the tap across the worktop, faint realistic water spotting near the basin drain. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the marble-effect worktop with faint, realistic water spotting rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/sandhurst-hero.webp",
+    "heroAlt": "Close-up of a brushed nickel single-lever basin mixer tap against a Carrara marble-effect vanity top in a finished Sandhurst bathroom, soft natural side light with a fitter's tape measure resting at the worktop edge.",
+    "inline": []
+  }
+}

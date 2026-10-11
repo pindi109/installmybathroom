@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+
+const files = import.meta.glob("../../content/generated/brands-in-area/*.json", { eager: true });
+const towns = Object.values(files)
+  .map((mod: any) => mod.default)
+  .sort((a: any, b: any) => a.h1.localeCompare(b.h1));
+---
+
+<Base
+  title="Bathroom Brands by Area | Install My Bathroom"
+  description="The sanitaryware and brassware brands we install, area by area, across Berkshire, Buckinghamshire and Surrey."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Areas & Brands", href: "/areas-brands/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Brands by Area</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        We're a fit-only installer — pick your area below for which brands local clients most often specify, or see our full <a href="/brands/" class="underline" style="color: var(--teal);">brands page</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <div class="grid md:grid-cols-4 gap-4">
+        {towns.map((t: any) => (
+          <a href={t.path} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{t.h1.replace("Bathroom Brands We Fit in ", "")}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

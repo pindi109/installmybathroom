@@ -1,0 +1,77 @@
+{
+  "path": "/survey/wokingham/",
+  "family": "Per-town: survey",
+  "town": "wokingham",
+  "seo": {
+    "title": "Bathroom Survey in Wokingham | £125 Site Visit | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Wokingham. We measure, check services and floor construction in Georgian and Victorian townhouses near the market place as well as post-war and new-build estates, then give you a fixed quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/wokingham/"
+  },
+  "h1": "Bathroom Survey in Wokingham",
+  "hero": {
+    "intro": "Every bathroom we fit in Wokingham starts with the same £125 site visit, whatever the age of the house behind the front door. It's the step that turns a rough idea — a layout sketched on the back of an envelope, a shower you've seen in a showroom — into a written scope and a fixed price you can actually plan a project around. Wokingham's historic core, around the market place and the streets leading off it, holds a good number of Georgian and Victorian townhouses and villas, many later divided or extended as the town grew; beyond that centre, the town has expanded substantially through inter-war, post-war and contemporary estate development, so a typical week for us might include a Victorian villa conversion, a 1950s detached house, and a bathroom in a new-build estate home on the same road. We treat each as its own job rather than assuming a standard layout from the postcode."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey is a site visit, not a phone call or a quote worked out from photos. We measure the room properly — dimensions, door swing, ceiling height, anything sloped or awkward — and check what's genuinely available behind the walls and under the floor: water pressure and flow rate at source, the existing waste and supply runs, and what the floor and wall construction actually is once we've looked, rather than guessed from the surface finish. We talk through your proposed layout, or the two or three options you're still weighing up, against those findings while we're still standing in the room, so anything that would change the scope — a waste move, a floor build-up issue, a fixing requirement a heavier fitting needs — gets flagged on the day, not buried in the small print of a quote that arrives a week later."
+    },
+    {
+      "heading": "Surveying Wokingham's Georgian and Victorian townhouses",
+      "body": "A good number of the properties we survey around Wokingham's market place and the streets leading off it are Georgian and Victorian townhouses and villas, many of them later divided into flats or extended as the town grew around them. That history shows up at survey in a few recurring ways: solid masonry external walls, a higher chance of suspended timber floors — particularly at ground level — and internal partitions or extensions added at different points over a century or more, which don't always follow a single logical plan. A suspended timber floor needs checking for deflection before any tanking goes down, because too much flex under a tanked wet room base or a heavy stone floor puts both the waterproofing and the tiling above it at risk. We check joist spacing, span and condition at survey rather than after the floor's already opened up mid-installation, and we check wall construction too — fixing a wall-hung basin or a stone vanity into solid masonry, or into whatever an earlier owner's extension actually consists of, is a different job to fixing the same item into a modern stud wall, and worth confirming before anything is ordered."
+    },
+    {
+      "heading": "Surveying Wokingham's inter-war, post-war and new-build estates",
+      "body": "Beyond the historic centre, Wokingham has grown substantially through inter-war semis, post-war estate housing and more recent new-build development, and the survey here tends to look rather different. Solid concrete ground floors and standard stud-wall partitions are far more common, which generally removes the suspended-floor deflection question that dominates the Georgian and Victorian stock nearer the market place. Waste and supply runs also tend to be better documented and more recently installed, so there's usually less tracing of historic pipework to confirm before a layout can be settled. That doesn't mean the survey is any less thorough — we still measure actual water pressure and flow rather than assuming a newer system delivers what a rainfall shower's brochure promises, and we still check the substrate before specifying a wet room or large-format tiling — but the starting point, and the remedial work the quote needs to allow for, is usually more straightforward than in the town's older buildings."
+    },
+    {
+      "heading": "Booking your Wokingham survey",
+      "body": "We cover Wokingham from our Bracknell base, along with Crowthorne, Twyford and Finchampstead nearby, so a survey, a follow-up visit or a snag check doesn't need a full day set aside for travel on either side. Book the £125 survey and we'll measure your room, test water pressure, check the floor and wall construction and talk through your layout options on site, then follow that up with a written scope and a fixed quote rather than a verbal estimate. If you go ahead, that fixed figure — not a ballpark given before anyone's seen the room — is what the installation is actually programmed and costed against."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final installation cost?",
+      "a": "We confirm the current arrangement when you book the survey, so there's no ambiguity about how the fee applies if you go ahead with the installation."
+    },
+    {
+      "q": "Will the survey be different for a Georgian townhouse near the market place compared with a newer Wokingham estate home?",
+      "a": "Yes, in emphasis rather than in process. In an older Georgian or Victorian property we look harder at floor construction — checking for deflection where ground-floor rooms have suspended timber joists — and at wall type for fixing. In inter-war, post-war or new-build housing the construction is more standard, so the survey focuses more on confirming water pressure, service runs and your proposed layout against the room."
+    },
+    {
+      "q": "Why does floor construction matter so much for a wet room or large-format porcelain?",
+      "a": "A suspended timber floor that flexes too much under load can crack tiling and break a tanking membrane's seal over time. We check joist span, spacing and condition at survey specifically so a wet room or large-format porcelain floor is only specified where the structure underneath will genuinely support it, or so the right remedial work is priced in up front."
+    },
+    {
+      "q": "Do I need to have chosen my bathroom suite before the Wokingham survey?",
+      "a": "It helps, but it isn't essential. A firm specification lets us give you an exact, fixed quote on the day; if you're still deciding, we'll survey the room's constraints and follow up once your choices are settled."
+    },
+    {
+      "q": "How far is Wokingham from your Bracknell base?",
+      "a": "Close enough that we can schedule the survey, a follow-up visit or a snag check without a full day blocked out for travel, which also helps keep the overall installation programme on schedule once work starts."
+    },
+    {
+      "q": "What should I have ready before the surveyor arrives at my Wokingham property?",
+      "a": "Access to the room itself, cleared of anything that would obstruct measuring, plus your proposed layout or specification if you've settled on one — a plan, a showroom quote or even a rough sketch all help. It's also useful to let us know roughly when you'd like work to start."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "More about our £125 survey" },
+    { "href": "/areas/wokingham/", "anchor": "Bathroom installation in Wokingham" },
+    { "href": "/bathroom-cost/wokingham/", "anchor": "Wokingham installation costs" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "wokingham" },
+    { "file": "business.ts", "id": "pricing" }
+  ],
+  "primaryKeyword": "bathroom survey Wokingham",
+  "secondaryKeywords": ["£125 bathroom survey Wokingham", "bathroom site visit Wokingham"],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Wokingham survey page, depicting the pre-installation measuring visit. Subject and action: a tape measure extended across a part-demolished stud wall frame marking out a new shower position, with a clipboard holding a hand-drawn layout sketch resting on an upturned bucket nearby, as if the surveyor has just stepped back from marking the line. Setting and work-stage: a stripped-back bathroom inside a divided Georgian townhouse near Wokingham's market place, mid-renovation, aged original wall plaster exposed in one corner beside newer raw softwood stud partition framing where the room was once subdivided, morning daylight. Composition: three-quarter angle from the doorway, the tape measure and partially framed stud wall filling the right foreground, an original sash window with a deep reveal visible in the background left. Light and materials: honed limestone floor tiles stacked in the corner ready to be laid, aged exposed plaster beside raw softwood stud framing, a brushed nickel wall bracket already fixed to the old masonry wall, cool morning daylight from the sash window mixing unevenly with a single bare worklight clipped to the stud frame. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting anywhere in the frame; no catalog-symmetrical staging; no single uniform gold colour wash across the frame, light must fall unevenly; no hanging plants, florals or styled candles; no running water; no uniform hyper-gloss finish, plaster and stone should show natural, varied sheen and believable wear.",
+    "heroOutputPath": "heroes/survey-town/wokingham-hero.webp",
+    "heroAlt": "Tape measure across a part-built stud wall and clipboard sketch during a bathroom survey in a divided Georgian townhouse near Wokingham's market place",
+    "inline": []
+  }
+}

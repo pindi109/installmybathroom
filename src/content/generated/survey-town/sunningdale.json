@@ -1,0 +1,72 @@
+{
+  "path": "/survey/sunningdale/",
+  "family": "Per-town: survey",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Bathroom Survey in Sunningdale | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Sunningdale. We measure, trace waste runs and check access across large detached and period properties before any installation quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/sunningdale/"
+  },
+  "h1": "Bathroom survey in Sunningdale",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Sunningdale, we carry out a fixed-price £125 survey at the property. It's the point where a sketch on paper — or a showroom plan already agreed — meets the real waste run under your floor and the real access route from your front door to the room itself, and it's what keeps a quote accurate once the fitting team actually arrives on site. Sunningdale's housing stock gives us a specific set of things to check at survey stage: this is an area best known for the golf courses that share its name, surrounded by a mix of large detached Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, a good number of them on private or gated roads. Plot sizes here tend to be generous, which usually gives us more flexibility on layout than a terraced or semi-detached property allows — moving a waste run a few feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure. The survey is where we confirm whether that flexibility genuinely applies to your house, rather than assuming it from the postcode alone."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it comes off your project cost if you go ahead with an installation through us. On the day, we measure the room accurately, trace where the waste pipe currently runs and whether it can realistically be moved, check the water supply and pressure feeding the bathroom, and build an understanding of the floor and wall build-up so we know what's underneath the surfaces you can see. We also check access carefully — door widths, staircases and corridors, and how materials will come in and waste will go out — because on a gated or private road that access route sometimes needs more planning than the room itself. By the end of the visit, you get a written scope and a firm, fixed quote rather than a ballpark figure that shifts once work is under way. There's no separate deposit for the survey conversation; it's a paid, fixed-fee visit precisely so the advice reflects your actual property, not a generic average."
+    },
+    {
+      "heading": "What that looks like in a typical Sunningdale property",
+      "body": "Sunningdale is best known for the golf courses that share its name, and the housing around them reflects it: a mix of large detached Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many sitting on private or gated roads with generous plot sizes. At survey, that generally means more flexibility on layout than a terraced or semi-detached property would allow — moving a waste run a few feet to accommodate a freestanding bath, for instance, rarely runs into the kind of neighbouring structural constraint a smaller plot would present. In an older Victorian or Edwardian house we'll check original floor joists and any period features worth protecting before confirming what's possible; in a newer executive-style build on one of the area's private roads, we're more often confirming service runs and checking what a previous fit-out has boxed in. Either way, we don't assume the generous plot automatically means a simpler job — a bigger room and more flexible layout still needs its waste, supply and structural detail checked properly before we commit to a price, and a gated or private road sometimes adds its own access considerations we plan for in advance rather than discovering on the day."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Sunningdale, the survey is the sensible first step, whether you've already got a showroom design agreed or you're still working out what's realistic in the space. We come to the property, carry out the checks above, and talk through what you want from the room — a full reconfiguration, a wet room conversion, or a straightforward replacement at a higher specification than what's there now. You'll leave with a clear written scope and a fixed quote you can compare properly against anything else you're considering, without having to guess at what might get added later. We fit only — the survey covers what's needed to install the bathroom to the specification you've chosen, working from your own supplied products or alongside your showroom or designer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a finished design before you survey my Sunningdale property?",
+      "a": "No. Some of the properties we survey in Sunningdale already have a showroom or designer plan agreed, others are still at the idea stage. Either way, we measure the room, trace the waste run, check water pressure and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Does a generous plot size mean the survey takes less time?",
+      "a": "Not really. A larger plot common to Sunningdale often gives more layout flexibility, but we check the same things on every property regardless of size — floor and wall build-up, waste position, water pressure and access."
+    },
+    {
+      "q": "My house is on a private or gated road — does that affect the survey?",
+      "a": "It can affect access planning rather than the technical checks themselves. We look at how materials will move in and waste will move out as part of every survey, and a private or gated road is simply one more access detail we plan for, not something that changes the fee or the process."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run?",
+      "a": "We tell you at the survey stage, not partway through the job. If a waste run needs moving to achieve the layout you want — including, for example, repositioning it for a freestanding bath — that's scoped and priced into the written quote before work starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/bathroom-cost/sunningdale/", "anchor": "Bathroom installation costs in Sunningdale" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "bathroom survey Sunningdale",
+  "secondaryKeywords": [
+    "bathroom installation survey Sunningdale",
+    "£125 bathroom survey",
+    "bathroom fitter survey Sunningdale"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sunningdale bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a spirit level held upright against an exposed stud wall beside a wound-in tape measure resting on a paint-spattered dust sheet, with a clipboard holding a hand-sketched floor plan propped against a stepladder, mid-survey. Setting and work-stage: a part-stripped bathroom in a large detached Edwardian house near Sunningdale's golf courses, plasterboard removed back to timber studwork in one corner, exposed capped waste pipe visible at floor level, daytime, soft overcast light through a tall sash window. Composition: low three-quarter angle from floor height looking up along the stud wall, tape measure and spirit level filling the foreground, clipboard and stepladder in the mid-ground, window light diffusing across the back wall. Light and materials: soft grey overcast daylight through the sash window mixing unevenly with a single portable work light propped on the floor, exposed timber studwork, dust sheet fabric, a capped galvanised waste stub, warm walnut skirting board salvaged and leaning against the wall, directional shadow falloff rather than flat lighting. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no running water, varied and believable surface wear across the dust sheet, stud wall and salvaged timber.",
+    "heroOutputPath": "heroes/survey-town/sunningdale-hero.webp",
+    "heroAlt": "A spirit level and tape measure beside a hand-sketched floor plan on a clipboard during a bathroom survey in a part-stripped Edwardian bathroom near Sunningdale, exposed stud wall and soft window light.",
+    "inline": []
+  }
+}

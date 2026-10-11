@@ -14,6 +14,12 @@ export const business = {
   experienceYears: 30,
   model: "Fit-only. Clients purchase their own sanitaryware, brassware, tiles and furniture; we install.",
   pricing: { fromGBP: 3500, surveyGBP: 125 },
+  repairs: {
+    fromGBP: 200,
+    emergencyCalloutGBP: 500,
+    highEndHomesOnly: true,
+    noRegrouting: true, // never offer/mention regrouting as a repair service
+  },
   surveyPaymentUrl: null,                    // Stripe Payment Link added post-launch; see brief §8 fallback
   sameAs: [],                                // add GBP, Facebook, Instagram as they go live
   accreditations: [],                        // only real, verifiable ones

@@ -1,0 +1,72 @@
+{
+  "path": "/survey/sunninghill/",
+  "family": "Per-town: survey",
+  "town": "sunninghill",
+  "seo": {
+    "title": "Bathroom Survey in Sunninghill | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Sunninghill. We measure, check access and waste runs, and scope the room properly before any fit-only installation quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/sunninghill/"
+  },
+  "h1": "Bathroom survey in Sunninghill",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Sunninghill, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and your access routes, and it's what stops a quote turning into a list of surprises once the fitting team is on site. Sunninghill sits immediately next to Ascot and is effectively contiguous with it — there's no clear boundary where one place ends and the other begins — and the village is around 15 minutes by road from our base in Bracknell, so it's an area we're in and out of regularly rather than treating as a one-off trip. That proximity means we can usually get a surveyor out quickly once you're ready to book, and it means the advice you get at survey reflects a part of Berkshire we already know well, not a postcode we're learning on the day."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or needs to stay put, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access — door widths, staircases, and how materials will move in and waste will move out — because that affects both the practicality of the work and, in some cases, the fittings you can realistically choose. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey conversation itself; it's a paid, fixed-fee visit precisely so that the advice you get is based on your actual property, not a generic estimate drawn up before anyone has seen the room."
+    },
+    {
+      "heading": "What that looks like in a typical Sunninghill property",
+      "body": "Sunninghill is a village in its own right, but its position matters more than most to how we approach survey here: it sits directly against Ascot and is effectively one continuous built-up area with it, with Sunningdale and Windsor both close by too. That means there isn't a single description of a 'typical' Sunninghill property the way there might be in a more self-contained village — a house near the Ascot boundary can share a great deal with what you'd find a few hundred yards over that line, while a property further into the village sits in its own more established setting, with its own history of extensions, conversions and previous bathroom fit-outs. What that means at survey is that we don't assume anything about scope, layout or specification from the Sunninghill address alone. We measure the room, check where the waste pipe currently runs and whether it can be moved, test the water supply and pressure, and look at what's underneath the floor and wall surfaces — the same checks on every property we visit, Sunninghill included, precisely because the area doesn't have one fixed housing type to generalise from. Being based only around 15 minutes away in Bracknell also means a Sunninghill survey doesn't carry the scheduling overhead that a longer round trip elsewhere would involve, which is one less reason for the gap between booking and the actual visit to stretch out."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Sunninghill, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible in the space. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a full reconfiguration, a wet room conversion, or simply replacing an existing layout with a higher specification. You'll leave the visit with a clear, written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering, without having to guess at what extra costs might appear later. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer, wherever in Sunninghill the property happens to sit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Sunninghill property?",
+      "a": "No. Some of the Sunninghill properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "How quickly can you get a surveyor out to Sunninghill?",
+      "a": "Because our base in Bracknell is only around 15 minutes away by road, we're regularly working in and around Sunninghill, which generally means we can book a survey in without the longer lead time a more distant area might involve."
+    },
+    {
+      "q": "Does Sunninghill's position right next to Ascot change how you scope the survey?",
+      "a": "No. Sunninghill and Ascot are effectively one continuous built-up area, so we don't assume anything about scope or specification from the address alone. We measure, check waste, supply and access the same way on every property we survey."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or access?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving or a doorway needs widening for level access, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/sunninghill/", "anchor": "Bathroom fitting in Sunninghill" },
+    { "href": "/bathroom-cost/sunninghill/", "anchor": "Bathroom installation costs in Sunninghill" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunninghill" }
+  ],
+  "primaryKeyword": "bathroom survey Sunninghill",
+  "secondaryKeywords": [
+    "bathroom installation survey Sunninghill",
+    "£125 bathroom survey",
+    "bathroom fitter survey Sunninghill"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sunninghill bathroom survey page, depicting the pre-installation measuring visit. Subject and action: a surveyor's folded fabric tape measure laid open across the threshold of a stripped-back bathroom doorway next to a clipboard holding a hand-sketched floor plan, with a laser distance measure propped against the skirting, mid-survey rather than mid-build. Setting and work-stage: a mid-sized, part-stripped bathroom in an established Sunninghill house, plaster removed in patches down to brick in one corner, an exposed copper supply pipe capped off near the floor, daytime, soft grey overcast light through a frosted window. Composition: low straight-on angle from just inside the doorway looking toward the window, clipboard and tape measure filling the foreground, capped pipework and patchy stripped wall visible mid-ground, window light diffusing across the back wall. Light and materials: flat, cool overcast daylight through frosted glass mixing with a single battery worklight standing on the floor, bare floorboards with old nail holes, stripped plaster in uneven patches of different paint layers, a capped copper pipe stub, soft but directional shadows rather than flat even light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no styling props such as plants or candles, no running water, varied and believable surface sheen with visible wear on the stripped walls and floor.",
+    "heroOutputPath": "heroes/survey-town/sunninghill-hero.webp",
+    "heroAlt": "A folded tape measure and clipboard with a hand-drawn floor plan at the doorway of a stripped-back bathroom in Sunninghill, exposed capped pipework and patchy plaster under soft overcast window light.",
+    "inline": []
+  }
+}

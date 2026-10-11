@@ -1,0 +1,79 @@
+{
+  "path": "/areas-brands/winkfield/",
+  "family": "Per-town: brands in area",
+  "town": "winkfield",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Winkfield | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Winkfield, and how our fit-only installation model works across the parish's period cottages and newer estate housing.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/winkfield/"
+  },
+  "h1": "Bathroom brands we fit in Winkfield",
+  "hero": {
+    "intro": "We work fit-only across Winkfield, which means we install the bathroom products you've already chosen — through a showroom, a designer, or your own research — rather than selling a fixed range of our own. That distinction plays out differently depending on which part of Winkfield you're in. In the older centre, where cottages and larger period houses sit on land historically connected to the surrounding farmland and the equestrian land towards Ascot, specification often has to work around solid masonry walls and a suspended timber floor. In the newer estate-style housing closer to Bracknell and along the main roads, there's generally more flexibility in what a modern stud wall and solid concrete floor can take. Either way, a recurring set of brands comes up again and again on the projects we fit here, and we've built our fitting process around the specific detail each one needs, rather than treating every bathroom brand as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: you get our labour and installation expertise, without us also supplying or marking up the products that go into the room. You choose your sanitaryware, brassware and tiles through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them properly, to the standard each product is actually designed for. This suits Winkfield well, because a good number of the properties we survey here already have a specification sorted before we're brought in, whether that's come from a showroom visit or a designer working on a period cottage renovation. It also means the quote you get reflects labour and fitting complexity honestly, rather than folding in a retail margin on products you could have bought yourself. Where it matters most is in the detail — a concealed cistern frame fixed against a solid masonry wall, or a basin fixing set into a suspended timber floor structure, needs planning before the wall or floor closes up, not working out afterwards."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are among the sanitaryware we fit most often, and correct frame selection and structural fixing matter more with Geberit than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles — a detail that needs particular care against the solid masonry walls common in Winkfield's older properties. We also regularly fit Villeroy & Boch and Duravit sanitaryware, including Duravit's SensoWash and V&B's ViClean shower toilet seats, where confirming the right flush plate, pan and frame generation before anything is ordered avoids a mismatch being discovered on fitting day. On the brassware side, hansgrohe and GROHE cover a wide span of what we install, from thermostatic shower valves and mixer taps through to Rapid SL cistern frames and digital shower products, while Dornbracht turns up on more design-led Winkfield specifications, where the sculptural handle and spout design and finishes such as brushed Dark Platinum leave very little margin for a scuff or a rough-in set a few millimetres out. For baths, Kaldewei's titanium-enamelled steel needs even, accurate bearing across its full base rather than the flex-prevention an acrylic support relies on — a detail we plan for carefully where it's being installed over a suspended timber floor that's already been checked for deflection."
+    },
+    {
+      "heading": "Why the fitting detail matters in Winkfield specifically",
+      "body": "Winkfield's split character — period cottages on one side of the parish, newer estate housing on the other — means the same brand can need a genuinely different fitting approach depending on which property it's going into. A Geberit frame fixed into a solid masonry wall in an old cottage is a different job to the same frame fixed into modern plasterboard on stud in a newer estate house closer to Bracknell, even though the product itself hasn't changed. A design-led brand such as Dornbracht, where a scuff on a brushed finish is both highly visible and expensive to put right, needs the same careful handling and sequencing wherever it's fitted, but the wall and floor construction behind it changes how that sequencing is planned. That's why we work through exactly what's been specified, and exactly what kind of property it's going into, at survey stage — before any wall closes up or any fitting goes in."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Winkfield?",
+      "a": "Geberit, Villeroy & Boch and Duravit sanitaryware, and hansgrohe and GROHE brassware, come up most frequently. We also regularly fit more design-led brands such as Dornbracht and Kaldewei."
+    },
+    {
+      "q": "Does it matter whether my Winkfield property is a period cottage or a newer estate house?",
+      "a": "It affects how a brand is fitted, not which brands we can fit. A Geberit frame or a Kaldewei bath needs different wall or floor preparation in a period cottage with solid masonry walls and a suspended timber floor than in a newer estate house on a solid concrete slab."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Do you work with Winkfield bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Winkfield has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/winkfield/", "anchor": "Bathroom fitting in Winkfield" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "winkfield" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "villeroy-and-boch" },
+    { "file": "brands.json", "id": "duravit" },
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "dornbracht" },
+    { "file": "brands.json", "id": "kaldewei" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-winkfield/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-winkfield/ pages once built.",
+  "primaryKeyword": "bathroom brands Winkfield",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Winkfield",
+    "luxury bathroom brands fitted Winkfield",
+    "bathroom fitter brands Winkfield"
+  ],
+  "generatedAt": "2026-10-11",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Winkfield brands-in-area page, implying brand and material choice through a close-to-mid vanity fixture detail rather than a full room. Subject and action: a close-to-mid shot of a brushed nickel single-lever basin mixer tap set into a walnut timber vanity top, static and finished, catching the grain of the timber and the cool tone of the tap against it. Setting and work-stage: a finished bathroom vanity area inside a converted period cottage near Winkfield's older centre, daytime, soft natural light from an unseen small window to the side. Composition: tight three-quarter angle focused on the tap and the timber vanity surface, a sliver of plain tiled wall visible in the soft-focus background, the tap base and timber grain sharply in focus in the foreground. Light and materials: warm walnut timber vanity top, brushed nickel single-lever tap, soft side daylight picking out the timber grain and casting a gentle, elongated shadow of the tap across the vanity surface, faint natural water marks on the timber consistent with genuine use rather than a pristine showroom finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash across the whole frame, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the timber and nickel with realistic minor wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/winkfield-hero.webp",
+    "heroAlt": "Close-up of a brushed nickel basin mixer tap set into a walnut timber vanity top in a finished Winkfield cottage bathroom, soft natural side light picking out the wood grain.",
+    "inline": []
+  }
+}

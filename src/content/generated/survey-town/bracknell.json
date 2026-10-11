@@ -1,0 +1,72 @@
+{
+  "path": "/survey/bracknell/",
+  "family": "Per-town: survey",
+  "town": "bracknell",
+  "seo": {
+    "title": "Bathroom Survey in Bracknell | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Bracknell. We measure, check waste runs and access across new-town estates built from the 1960s through to recent executive developments.",
+    "canonical": "https://installmybathroom.co.uk/survey/bracknell/"
+  },
+  "h1": "Bathroom survey in Bracknell",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Bracknell, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and your access routes, and it's what stops a quote turning into a list of surprises once the fitting team is on site. Bracknell is a useful town to survey properly rather than assume, because it isn't built around one dominant house type. It was designated a new town in the 1950s, and a large part of its housing dates from that programme and the decades of estate development that followed — 1960s and 1970s town-build housing in the original residential areas, further estate phases through the 1980s and 1990s as the town expanded, and newer executive-style developments on its outer edges more recently. It's a town built in waves rather than one with a single dominant character, and the right bathroom approach for a 1970s semi is often genuinely different from the right approach for a newer four-bedroom detached on a 2000s estate. The survey is where we work out which situation actually applies to your house, rather than guessing from the age of the street."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or needs to stay put, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access — door widths, staircases, and how materials will move in and waste will move out — because that affects both the practicality of the work and, in some cases, the fittings you can realistically choose. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey conversation itself; it's a paid, fixed-fee visit precisely so that the advice you get is based on your actual property, not a generic estimate."
+    },
+    {
+      "heading": "What that looks like in a typical Bracknell property",
+      "body": "Because Bracknell was built in distinct waves rather than around one house type, the survey genuinely does different work depending on which wave your property belongs to. In the original 1960s and 1970s town-build housing, bathrooms are often smaller rooms built to the standard layouts of that era, sometimes with waste runs and stacks shared more tightly with neighbouring rooms than a modern build would allow, and sometimes with earlier updates boxed in behind panelling that needs opening up to see what's actually there. In the further estate phases from the 1980s and 1990s, we're often working with slightly more generous room sizes but still checking what's been altered during intervening renovations. In the newer executive-style developments on Bracknell's outer edges, rooms tend to be larger from the outset and first-fix service runs are usually more straightforward to trace, though we still confirm exactly what's been fitted rather than assuming a newer build means a simpler survey. None of this means one type of Bracknell property is automatically cheaper or easier to work with — it means the survey is where we find out which of these situations is actually true of your house, rather than assuming it from the decade the street was built."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Bracknell, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible in the space. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a full reconfiguration, a wet room conversion, or simply replacing an existing layout with a higher specification. You'll leave the visit with a clear, written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering, without having to guess at what extra costs might appear later. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Bracknell property?",
+      "a": "No. Some of the Bracknell properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    },
+    {
+      "q": "Does an older 1960s or 1970s Bracknell property need a different kind of survey?",
+      "a": "We check the same things on every property, but what we find differs. In Bracknell's original town-build housing we're more often checking shared waste stacks and what's been boxed in behind an earlier renovation; in a newer executive-style development on the town's outer edges we're more often confirming first-fix service runs behind a larger, more recently built room."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or access?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving or a doorway needs widening for level access, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "Is a newer Bracknell estate house automatically a simpler survey than an older one?",
+      "a": "Not necessarily. A newer executive-style property often has a larger room and more straightforward service runs to trace, but we still check floor and wall build-up, waste position, water pressure and access on every property regardless of when it was built."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/bracknell/", "anchor": "Bathroom fitting in Bracknell" },
+    { "href": "/bathroom-cost/bracknell/", "anchor": "Bathroom installation costs in Bracknell" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "bracknell" }
+  ],
+  "primaryKeyword": "bathroom survey Bracknell",
+  "secondaryKeywords": [
+    "bathroom installation survey Bracknell",
+    "£125 bathroom survey",
+    "bathroom fitter survey Bracknell"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Bracknell bathroom survey page, depicting the pre-installation measuring visit in an original new-town property. Subject and action: a brushed nickel-cased tape measure extended across the floor of an untouched 1970s-era bathroom, next to an open clipboard holding a hand-sketched floor plan, resting beside an original period-pattern ceramic floor tile, mid-survey rather than mid-build. Setting and work-stage: an intact, unrenovated bathroom in a 1970s town-build semi in Bracknell, original wall tiling and a dated suite still in place, daytime, flat overcast daylight through a small frosted window. Composition: three-quarter angle from waist height looking toward the window, tape measure and clipboard filling the foreground, original tiled wall and suite visible in the mid-ground and background. Light and materials: soft, even overcast daylight through the frosted window mixing with a single handheld torch light angled across the floor tile, original 1970s ceramic wall and floor tiles in a period colourway, brushed nickel tape measure casing, uneven directional light with visible real shadow falloff rather than a flat wash. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the frame, no styling props such as plants or candles, no running water, varied and believable surface sheen with realistic minor wear on the original tile and suite.",
+    "heroOutputPath": "heroes/survey-town/bracknell-hero.webp",
+    "heroAlt": "A brushed nickel tape measure and clipboard with a hand-drawn floor plan laid out during a bathroom survey in an untouched 1970s-era bathroom in Bracknell, original tiling visible under flat overcast daylight.",
+    "inline": []
+  }
+}

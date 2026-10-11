@@ -1,0 +1,79 @@
+{
+  "path": "/areas-brands/sunninghill/",
+  "family": "Per-town: brands in area",
+  "town": "sunninghill",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Sunninghill | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Sunninghill, and how our fit-only installation model works — your products, our labour, from Geberit to Lefroy Brooks and Matki.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/sunninghill/"
+  },
+  "h1": "Bathroom brands we fit in Sunninghill",
+  "hero": {
+    "intro": "We work on a fit-only basis across Sunninghill, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Sunninghill sits immediately next to Ascot and is effectively contiguous with it, around 15 minutes by road from our Bracknell base, and a good number of the fit-only jobs we take on in the village involve products bought through the same showrooms and suppliers that serve that wider stretch of Berkshire. Across the projects we fit, a recurring set of brands turns up again and again, spanning traditional and contemporary styles, and we've built our process around the specific detail each one needs rather than treating every bathroom product as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and furniture through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we strip out, first-fix, tile, plumb and snag to get it installed to the standard it's designed for, from £3,500 for a straightforward fit. This works well in Sunninghill, where a lot of what we fit has already been through a showroom consultation before we're brought in at survey stage. It also means the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves. Being based only around 15 minutes away in Bracknell means we can usually fit in a Sunninghill project without the scheduling pressure a longer round trip would add, which matters when a delivery date for a specific product needs to line up with the fitting schedule."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs are among the sanitaryware we fit most often — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles. TOTO's Washlet and Neorest ranges turn up on more technically involved projects, because the electronics sit inside the fixture rather than bolted on afterwards; a Washlet seat adds to a conventional pan, while a Neorest is a single integrated unit replacing the pan, cistern and seat entirely, and knowing which one's been ordered changes how the room is first-fixed. For homeowners after a more traditional look, we regularly fit Lefroy Brooks and Burlington — Lefroy Brooks built around exposed pipework and period-inspired profiles that need pipe runs and brackets set out to be looked at rather than hidden, and Burlington's classic pedestal basins, roll-top baths and high-level WCs that depend on fixing detail you won't see once the room is finished, like a hidden basin support or an exact pedestal alignment. On the contemporary side, Crosswater's concealed valves and digital shower controls mean most of the work that determines how well the shower performs happens before the tiler arrives, while Matki's minimal, largely frameless screens leave very little trim to hide an inaccurate opening, so the wall fixing and sequencing against tiling has to be right first time. For baths, Bette's titanium-steel and fused glass enamel construction is harder and more scratch-resistant than acrylic but unforgiving of a poorly built base, so we fit it with the substructure and levelling the material actually needs. We've fitted all of these, and the specific detail each one requires, across projects in and around Sunninghill."
+    },
+    {
+      "heading": "Why the fitting detail matters",
+      "body": "Whichever end of that range you've specified, the installation detail is what separates a good result from an average one, not the price tag on the product itself. A period-style Lefroy Brooks pipe run that's set out unevenly is just as visible a mistake as a scuffed Matki glass panel or a Geberit frame fixed into the wrong substrate — in every case, the error shows up after the room is finished and tiled, when it's far more disruptive and expensive to correct. That's why we work through exactly what's been specified at survey, confirm the installation route for frames, fixings and finishes before any wall or floor is closed up, and sequence the fit so that delicate or design-led products aren't handled more than they need to be. The product choice is yours; getting it fitted properly, once it's chosen, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware, tiles and furniture — through a showroom, designer or retailer — and we handle the installation to the standard those products need, from £3,500."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Sunninghill?",
+      "a": "Geberit and TOTO sanitaryware come up regularly, alongside more traditional brands such as Lefroy Brooks and Burlington, and contemporary brassware and screens from Crosswater and Matki. We also fit Bette baths and shower trays."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Why does the brand of brassware or sanitaryware affect the fitting cost?",
+      "a": "Different brands have different fixing systems, frame compatibility and finish sensitivity. A traditional exposed-pipework brand like Lefroy Brooks needs the pipe runs set out to be looked at, while a frameless screen like Matki leaves no trim to hide an inaccurate opening — each needs its own sequencing and care."
+    },
+    {
+      "q": "Do you work with Sunninghill bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Sunninghill has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/sunninghill/", "anchor": "Bathroom fitting in Sunninghill" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunninghill" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "toto" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "bette" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-sunninghill/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-sunninghill/ pages once built.",
+  "primaryKeyword": "bathroom brands Sunninghill",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Sunninghill",
+    "luxury bathroom brands fitted Sunninghill",
+    "bathroom fitter brands Sunninghill"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sunninghill brands-in-area page, implying brand and material choice through a close fixture detail rather than a full room shot. Subject and action: a close-to-mid shot of a traditional cross-head exposed pipework bath filler mounted on a tiled wall above a roll-top bath edge, static and dry, no motion. Setting and work-stage: a finished bathroom in an established Sunninghill house, late afternoon, warm low-angle daylight entering from an unseen side window. Composition: tight three-quarter angle focused on the tap and exposed pipe brackets, roll-top bath rim curving through the lower foreground, tiled wall softly out of focus behind, brackets and tap sharply resolved in the midground. Light and materials: travertine-effect wall tiles, brushed brass exposed pipework and cross-head taps, warm low-angle directional daylight casting a defined shadow of the pipe brackets across the tile, faint believable water spotting on the brass from recent use. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the travertine-effect tile and brass with minor realistic wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/sunninghill-hero.webp",
+    "heroAlt": "Close-up of a brushed brass exposed pipework bath filler and cross-head taps against travertine-effect tiling above a roll-top bath in a finished Sunninghill bathroom, warm late-afternoon side light.",
+    "inline": []
+  }
+}

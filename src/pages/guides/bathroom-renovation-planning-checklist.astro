@@ -1,0 +1,250 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const LAST_UPDATED = "2026-10-10";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bathroom Renovation Planning Checklist",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "What's the first item on a bathroom renovation checklist?",
+    a: `Book a survey before you order anything. A £${business.pricing.surveyGBP} survey measures the actual room, checks water pressure and flow, confirms waste and supply positions, and flags any structural or access issues early — ordering against assumed measurements is the single biggest cause of delays once fitting starts.`,
+  },
+  {
+    q: "How far in advance should I book a survey and an installer?",
+    a: "As early as possible, ideally before you've chosen final products. Survey slots and installation dates both get booked up, and some sanitaryware, concealed cistern frames and natural stone have lead times of several weeks, so working backwards from a target start date is more reliable than planning forwards from when you happen to order.",
+  },
+  {
+    q: "What order should the work actually happen in?",
+    a: "Strip-out first, then first-fix plumbing and electrics, then any structural changes to walls or floors, then waterproofing and tanking, then tiling, then second-fix (sanitaryware, brassware, fittings), then snagging. Trying to skip ahead — ordering tiles before the waste position is confirmed, for example — is the most common cause of avoidable cost and delay.",
+  },
+  {
+    q: "Do I need planning permission for a bathroom renovation?",
+    a: "Most straightforward bathroom installations don't need planning permission, but moving a bathroom into a new location, altering external walls, or working in a listed or conservation-area property can trigger extra requirements. See our building regulations and planning guide for what actually applies, and our listed and conservation properties guide if that's relevant to you.",
+  },
+  {
+    q: "How do I organise deliveries so nothing holds up the fit?",
+    a: "Order long-lead items first — baths, shower trays, concealed cistern frames and natural stone — and have everything on site and checked against the spec sheet before the installer's first day, not delivered mid-job. See our buying your own bathroom checklist for the full ordering sequence we walk clients through at survey.",
+  },
+  {
+    q: "What should be on a toilet installation checklist specifically?",
+    a: "Confirm the soil pipe run and waste position, check the water supply has an isolation valve, decide between a concealed cistern, close-coupled or wall-hung pan, confirm the fixing kit and seat are included with the pan you've bought, and check there's enough clearance in front of the pan for comfortable use. We check all of this at survey before you order.",
+  },
+  {
+    q: "How long will I be without a working bathroom?",
+    a: "For a single bathroom being refitted, most installations run from one to three weeks depending on scope — see our how long does a bathroom installation take guide for a fuller breakdown by job type. If it's your only bathroom, we'll talk through temporary washing arrangements with you at survey.",
+  },
+  {
+    q: "What should I check before signing the job off?",
+    a: "Run every tap, shower and the toilet flush, check for movement in the bath panel and any fitted furniture, check grout and sealant lines are continuous with no gaps, and check extraction is working. A good installer will walk this snagging list with you before calling the job finished, not after you've found the issues yourself.",
+  },
+];
+---
+
+<Base
+  title="Bathroom Renovation Planning Checklist | Install My Bathroom"
+  description="A practical, in-order checklist for planning a bathroom renovation in the UK — survey, regs, ordering sequence, order of works and snagging — before you book any trade."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Bathroom Renovation Planning Checklist", href: "/guides/bathroom-renovation-planning-checklist/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Bathroom Renovation Planning Checklist</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          A bathroom renovation goes smoothly when the sequence is right: survey first, then design and specification, then a check against building regulations, then ordering long-lead items, then booking install dates, then snagging at the end. Fit-only installation starts from £{business.pricing.fromGBP.toLocaleString()}, and a £{business.pricing.surveyGBP} survey is the step that makes every decision after it reliable rather than guesswork.
+        </p>
+      </div>
+
+      <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+        Most of the stress in a bathroom renovation doesn't come from any single decision being hard — it comes from decisions happening in the wrong order. Tiles get chosen before the waste position is confirmed. A concealed cistern frame gets bought before anyone's checked it fits the wall. An installer gets booked for a date before the products they're fitting have actually arrived. This checklist is the sequence we walk clients through, in the order it actually needs to happen, so that by the time fitting starts, nothing is still an open question.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">The planning sequence</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        Each stage below depends on the one before it. Jumping a stage — ordering before the survey, say — doesn't save time, it just moves the problem to later in the job, where it's more disruptive and more expensive to fix.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Stage</th>
+              <th class="text-left py-3 font-semibold">What happens and why it comes here</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">1. Survey</td>
+              <td class="py-3" style="color: var(--text-soft);">Measures the room, checks water pressure and flow, confirms waste and supply positions, and flags any structural issues before a single product is chosen.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">2. Design and specification</td>
+              <td class="py-3" style="color: var(--text-soft);">Layout, fixture positions and a full product list agreed against the measured room, checking compatibility — frame depth, tile format, flow rate requirements.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">3. Regulations check</td>
+              <td class="py-3" style="color: var(--text-soft);">Confirms whether building regulations, electrical zoning or planning permission apply to the specific layout, especially in listed or conservation-area properties.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">4. Ordering</td>
+              <td class="py-3" style="color: var(--text-soft);">Long-lead items — baths, trays, cistern frames, natural stone — ordered first, against confirmed measurements, with enough lead time to arrive before the install date.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">5. Install and snagging</td>
+              <td class="py-3" style="color: var(--text-soft);">Fitting follows the strip-out → first-fix → waterproofing → tiling → second-fix sequence, finishing with a walk-through snagging check before sign-off.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic planning timeline</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          A common pattern for a straightforward family bathroom re-fit looks like this: survey booked two to three weeks out, design and product list agreed within a week of the survey, long-lead items (bath, shower tray, cistern frame) ordered the same week since they typically take the longest to arrive, and an install date booked for roughly four to six weeks after the survey — enough time for everything ordered to actually be on site before the installer's first day.
+        </p>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Where the brief is more involved — a wet room needing a new floor build-up, a listed property needing a conservation officer's input, or a full room reconfiguration that moves the waste to a different wall — each of those adds its own lead time before the install date can even be set, which is why we'd always rather have that conversation at survey stage than discover it once a date's already booked.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          The detail that catches people out most often isn't the big-ticket item, it's the small one: a fixing kit that wasn't included with the pan, a tile batch that doesn't match the sample, a flow rate the existing pipework can't actually support. None of these are expensive to fix if they're caught at survey or ordering stage. All of them are disruptive if they're caught mid-install.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/bathroom-renovation-planning-checklist-survey-tape-measure.webp"
+          alt="Close detail of a tape measure and spirit level resting against an open stud wall prepared for a concealed cistern frame, warm travertine stone visible nearby"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bathroom-renovation-planning-checklist-tanking-membrane-detail.webp"
+          alt="Close detail of a waterproof tanking membrane being rolled onto a timber subfloor before travertine tiling begins"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/bathroom-renovation-planning-checklist-brass-fittings-crate.webp"
+          alt="Brushed brass taps and shower fittings still boxed in protective foam trays, staged ready for second-fix installation"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Toilet installation checklist</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A toilet is one of the few fixtures most people assume is simple to swap, and it usually is — provided a handful of things are confirmed before the new pan is bought, not after it's on site.
+      </p>
+      <ul class="space-y-3 fade-up">
+        <li class="flex gap-3"><span class="flex-shrink-0 font-semibold" style="color: var(--teal);">✓</span><span style="color: var(--text-soft);">Soil pipe run and waste position confirmed against the new pan's outlet (back-to-wall, close-coupled or wall-hung outlets aren't all identical).</span></li>
+        <li class="flex gap-3"><span class="flex-shrink-0 font-semibold" style="color: var(--teal);">✓</span><span style="color: var(--text-soft);">Water supply has an accessible isolation valve, so the toilet can be shut off independently for future maintenance.</span></li>
+        <li class="flex gap-3"><span class="flex-shrink-0 font-semibold" style="color: var(--teal);">✓</span><span style="color: var(--text-soft);">Cistern type decided — concealed, close-coupled or wall-hung — and checked against the wall construction behind it (a concealed cistern frame needs its own void or stud depth).</span></li>
+        <li class="flex gap-3"><span class="flex-shrink-0 font-semibold" style="color: var(--teal);">✓</span><span style="color: var(--text-soft);">Fixing kit, seat and flush plate confirmed as included with the pan ordered — not every range bundles all three.</span></li>
+        <li class="flex gap-3"><span class="flex-shrink-0 font-semibold" style="color: var(--teal);">✓</span><span style="color: var(--text-soft);">Clearance in front of and beside the pan checked against the room, so the finished layout is comfortable to use rather than just technically fitted.</span></li>
+        <li class="flex gap-3"><span class="flex-shrink-0 font-semibold" style="color: var(--teal);">✓</span><span style="color: var(--text-soft);">Tiling sequence agreed — tiling around a pan that's already fixed in place is slower and less accurate than tiling first and fitting the pan over finished tiles.</span></li>
+      </ul>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        See our <a href="/guides/toilet-installation-cost-uk/" class="underline" style="color: var(--teal);">toilet installation cost guide</a> for what each of these options costs to fit, and our <a href="/guides/concealed-cisterns-explained/" class="underline" style="color: var(--teal);">concealed cisterns explained</a> guide if you're weighing up a concealed frame against a close-coupled pan.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        Fit-only installation covers labour only — strip-out, first-fix plumbing and electrics, waterproofing and tanking, tiling, and fitting and commissioning every sanitaryware item, brassware and fitting on the agreed specification. The sanitaryware, brassware, tiles and furniture themselves are bought separately by you, which is the part of this checklist that needs the most lead time, since those are the items with the longest delivery windows.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth planning for separately either way: skip hire or waste removal for the old bathroom, making good any decoration disturbed by first-fix work, and — if it's your only bathroom — temporary washing arrangements for the install period. None of these are usually part of an installation quote, fit-only or otherwise, so they're worth budgeting for at the same time you plan the sequence above.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Waterproofing and tiling sequencing referenced in this guide follows BS 5385 (wall and floor tiling), and electrical zoning around bathroom fixtures follows BS 7671 (IET Wiring Regulations). For the full picture on what needs a Building Regulations notification or planning permission, see our <a href="/guides/bathroom-building-regulations-and-planning/" class="underline" style="color: var(--teal);">building regulations and planning guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="bathroom-renovation-planning-checklist-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/guides/buying-your-own-bathroom-checklist/" class="btn-secondary">Buying Your Own Bathroom Checklist</a>
+        <a href="/guides/bathroom-building-regulations-and-planning/" class="btn-secondary">Building Regulations and Planning</a>
+        <a href="/guides/how-long-does-a-bathroom-installation-take/" class="btn-secondary">How Long Does Installation Take</a>
+        <a href="/guides/toilet-installation-cost-uk/" class="btn-secondary">Toilet Installation Cost UK</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

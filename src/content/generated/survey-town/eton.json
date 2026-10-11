@@ -1,0 +1,72 @@
+{
+  "path": "/survey/eton/",
+  "family": "Per-town: survey",
+  "town": "eton",
+  "seo": {
+    "title": "Bathroom Survey in Eton | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Eton. We measure access, waste runs and floor build-up in period Georgian and Victorian properties before any installation quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/eton/"
+  },
+  "h1": "Bathroom survey in Eton",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Eton, we carry out a fixed-price £125 survey at the property. It's the stage where a floor plan on paper meets the reality of your walls, your waste runs and, in Eton especially, your access routes — because access is rarely an afterthought here. Eton is a small, historic town, and its housing reflects that: a concentration of period properties along and around the High Street, many dating from the Georgian and Victorian periods, with narrower frontages and more compact floor plans than the larger detached houses found further out in Berkshire. Working in a town like this means thinking carefully about how a new suite actually gets into the room, and how the old one gets out, long before fitting day arrives. Narrow staircases, period door openings and limited off-street parking all affect how materials move in and waste moves out, and the survey is where we work through exactly what that means for your specific house, rather than guessing from the postcode."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can realistically be moved, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access properly — door widths, staircase turns, and how a bath, shower tray or vanity unit will physically travel from the street or driveway to the room it's going into — because in a lot of the properties we survey, that journey is the thing that actually decides what's achievable, not the size of the room itself. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey itself; it's a paid, fixed-fee visit precisely so the advice you get is based on your actual property, not a generic estimate drawn from a similar-looking house down the road."
+    },
+    {
+      "heading": "What that looks like in a typical Eton property",
+      "body": "Eton's identity as a small, historic town shows up directly in its housing stock: a concentration of period properties along and around the High Street, many dating from the Georgian and Victorian periods, with narrower frontages and more compact floor plans than the larger detached houses found further out in Berkshire. At survey, that typically means we're paying close attention to things a newer or larger property wouldn't raise at all — the width of a narrow original staircase, whether a period door opening will need its architrave removed temporarily to get a bath through, and whether limited off-street parking on or near the High Street means waste and materials need to be moved in a different way, over a longer carrying distance, or at a particular time of day. None of that rules work out; it just means the plan has to account for it properly. We'll also look at the floor and wall build-up behind older plaster and timber floorboards, which behaves differently to a modern stud wall or screeded floor when it comes to fixing a heavier fitting or forming a level shower base. The survey is where we work out exactly which of those period-property details apply to your house, so the quote you get reflects the real job, not a generic one."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Eton, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible given the shape and access of your property. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a straightforward replacement within the existing footprint, a more considered reconfiguration, or a wet room conversion in a smaller room. You'll leave the visit with a clear, written scope and a fixed quote, including any access logistics we've identified, so you can compare it properly against anything else you're considering without guessing at what extra cost might appear later once a fitting team is actually on site. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Eton property?",
+      "a": "No. Some of the Eton properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm access before any quote is written."
+    },
+    {
+      "q": "Will a narrow Georgian or Victorian staircase stop me getting the bathroom I want?",
+      "a": "Not necessarily, but it does change the plan. At survey we check staircase width and turns, door opening sizes, and whether an architrave needs removing temporarily, so we can confirm what can travel into the room intact and what, if anything, needs a different approach."
+    },
+    {
+      "q": "What if there's nowhere to park outside the property on survey day?",
+      "a": "Tell us when you book and we'll work around it. Limited off-street parking is common along and around Eton High Street, and it affects how materials move in and waste moves out during the actual installation just as much as on the survey visit, so it's something we plan for rather than discover on the day."
+    },
+    {
+      "q": "Do you survey older Georgian and Victorian houses differently to newer properties?",
+      "a": "We check for the same things on every property, but what we find differs. In an Eton period property we're paying close attention to original floor and wall build-up, staircase and door access, and what's achievable behind older plaster and timber floorboards, rather than assuming a modern stud wall and screeded floor."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/eton/", "anchor": "Bathroom fitting in Eton" },
+    { "href": "/bathroom-cost/eton/", "anchor": "Bathroom installation costs in Eton" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "eton" }
+  ],
+  "primaryKeyword": "bathroom survey Eton",
+  "secondaryKeywords": [
+    "bathroom installation survey Eton",
+    "£125 bathroom survey",
+    "bathroom fitter survey Eton"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Eton bathroom survey page, depicting the pre-installation measuring visit inside a narrow period property. Subject and action: a retractable tape measure extended across old timber floorboards up to a narrow original door frame, a surveyor's clipboard with a hand-annotated floor plan propped against wainscoting nearby, measuring the door opening rather than the room itself. Setting and work-stage: a part-stripped bathroom inside a narrow-fronted Georgian townhouse near Eton High Street, patches of exposed lath-and-plaster wall visible, a small-paned sash window letting in morning light, mid-survey rather than mid-build. Composition: close three-quarter angle focused on the tape measure crossing the narrow doorway, aged floorboards filling the foreground, patchy exposed wall and window light in the background. Light and materials: soft morning daylight through the small-paned sash window mixing with a battery-powered work lamp resting on the floor, aged and slightly uneven timber floorboards, exposed lime plaster and lath in patches, a brushed nickel waste pipe stub visible at skirting level, uneven directional light with real shadow falloff. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the whole frame, no plants or candles as styling props, no running water, varied and believable surface sheen with visible wear on the old floorboards and plaster.",
+    "heroOutputPath": "heroes/survey-town/eton-hero.webp",
+    "heroAlt": "A tape measure and clipboard with a hand-drawn floor plan during a bathroom survey in a narrow Georgian townhouse near Eton High Street, exposed lath-and-plaster wall and old floorboards under soft morning window light.",
+    "inline": []
+  }
+}

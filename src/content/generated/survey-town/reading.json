@@ -1,0 +1,72 @@
+{
+  "path": "/survey/reading/",
+  "family": "Per-town: survey",
+  "town": "reading",
+  "seo": {
+    "title": "Bathroom Survey in Reading | £125 Fixed-Price Survey | Install My Bathroom",
+    "description": "Book a £125 bathroom survey in Reading. We measure, check waste runs and access, and scope everything from Victorian terraces near the university to new town-centre apartments before any quote.",
+    "canonical": "https://installmybathroom.co.uk/survey/reading/"
+  },
+  "h1": "Bathroom survey in Reading",
+  "hero": {
+    "intro": "Before we quote for a bathroom installation anywhere in Reading, we carry out a fixed-price £125 survey at the property. It's the stage where a design on paper meets the reality of your walls, your waste runs and your access routes, and it's what stops a quote turning into a list of surprises once the fitting team arrives. Reading is one of the larger towns in our working area, and that size shows up in just how broad the housing stock is — dense Victorian and Edwardian terraces close to the centre and around the University of Reading, inter-war and post-war suburban semis and detached houses spreading out from there, newer apartment and town-centre regeneration schemes, and larger detached properties in the outer villages and commuter suburbs on the edge of the borough. We don't assume a single construction type from a Reading postcode, because the difference between a converted Victorian terrace near the university and a new-build apartment in a regeneration scheme is significant for how a bathroom actually gets fitted, and the survey is where we find out which one we're dealing with."
+  },
+  "sections": [
+    {
+      "heading": "What the £125 survey covers",
+      "body": "The survey fee is fixed at £125 regardless of the size or complexity of the room, and it's deducted from your project cost if you go ahead with an installation. On the day, we measure the room accurately, identify where the waste pipe currently runs and whether it can be moved or needs to stay put, check the water supply and pressure feeding the room, and look at the floor and wall build-up to establish what's underneath the surfaces you can see. We also check access — door widths, staircases, lift availability in an apartment block, and how materials will move in and waste will move out — because that affects both the practicality of the work and, in some cases, the fittings you can realistically choose. By the end of the survey you get a written scope and a firm quote, not a ballpark figure that moves once work starts. We don't ask for a deposit to book the survey conversation itself; it's a paid, fixed-fee visit precisely so the advice you get is based on your actual property, not a generic estimate drawn from somewhere else in the town."
+    },
+    {
+      "heading": "What that looks like in a typical Reading property",
+      "body": "Because Reading has a genuinely broad mix of housing, the survey looks different depending on which part of the town we're in. Close to the centre and around the University of Reading, dense Victorian and Edwardian terraces are common, and a survey there is usually checking original floor joists, solid masonry walls and a waste stack that's often shared or run in a tighter void than a modern house allows — none of which rules out a good bathroom, but all of which need confirming before a waste run is repositioned. Further out, inter-war and post-war suburban semis and detached houses tend to give more consistent, predictable floor and wall construction, so the survey there is often more about confirming what a previous owner has already boarded in than uncovering anything unexpected. Reading's newer apartment and town-centre regeneration schemes are a different case again — shared waste stacks, restricted floor build-up, and sometimes a managing agent's conditions on what work can be carried out and when, all of which we check before a quote is written. And in the larger detached properties out in the villages and commuter suburbs on the edge of the borough, there's usually more generous floor area and fewer structural constraints on repositioning a waste run or widening a doorway for level access, though we still confirm floor loading and joist spacing properly rather than assuming the extra space settles the question on its own. Reading sits close to Wokingham, Twyford and Maidenhead, and while each of those has its own character, the sheer range of construction types inside Reading itself is wide enough that the survey genuinely has to look at your specific property rather than leaning on assumptions from elsewhere in the town."
+    },
+    {
+      "heading": "Booking your survey",
+      "body": "If you're planning a bathroom installation in Reading, the survey is the sensible first step whether you already have a design in mind or you're still working out what's possible in the space. We'll come to the property, take the measurements and checks above, and talk through what you're hoping to achieve — whether that's a full reconfiguration, a wet room conversion, or simply replacing an existing layout with a higher specification. You'll leave the visit with a clear, written scope and a fixed quote for the installation, so you can compare it properly against anything else you're considering, without having to guess at what extra costs might appear later. We fit only — the survey covers what we need to install your bathroom to the specification you've chosen, and we work from your own supplied products or alongside your showroom or designer, whether that's for a Victorian terrace near the university, a suburban semi, a town-centre apartment, or a larger house out in one of the villages on the edge of Reading."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the £125 survey fee come off the final price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it's deducted from your total project cost if you go ahead with an installation through us."
+    },
+    {
+      "q": "Do you survey Reading apartments as well as houses?",
+      "a": "Yes. Reading has newer town-centre apartment and regeneration schemes alongside its houses, and the survey for a flat covers the same ground as for a house — plus checking things specific to apartments, such as shared waste stacks, restricted floor build-up and any managing agent conditions on the work."
+    },
+    {
+      "q": "Is a Victorian terrace near the university harder to survey than a newer house?",
+      "a": "It's a different job rather than a harder one. Original floor joists, solid masonry walls and tighter waste voids are more common in Reading's Victorian and Edwardian terraces, so the survey focuses more on confirming what's structurally possible before a waste run is moved. We scope that properly at survey rather than discovering it once work has started."
+    },
+    {
+      "q": "What happens if the survey finds a problem with the waste run or access?",
+      "a": "We tell you at the survey, not partway through the job. If a waste run needs moving or a doorway needs widening for level access, that's scoped and priced into the written quote you receive, so there are no surprises once fitting starts."
+    },
+    {
+      "q": "Do I need a design ready before you survey my Reading property?",
+      "a": "No. Some of the Reading properties we survey already have a finalised showroom or designer plan, and others are still at the idea stage. Either way, we measure the room, check waste and supply, and confirm what's structurally possible before any quote is written."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/survey/", "anchor": "How our bathroom survey works" },
+    { "href": "/areas/reading/", "anchor": "Bathroom fitting in Reading" },
+    { "href": "/bathroom-cost/reading/", "anchor": "Bathroom installation costs in Reading" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "reading" }
+  ],
+  "primaryKeyword": "bathroom survey Reading",
+  "secondaryKeywords": [
+    "bathroom installation survey Reading",
+    "£125 bathroom survey",
+    "bathroom fitter survey Reading"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Reading bathroom survey page, depicting the pre-installation measuring visit in a dense Victorian terrace near the town centre. Subject and action: a tape measure extended diagonally across the floor of a part-stripped bathroom, hooked over the edge of an old cast iron radiator stub, with a clipboard holding a hand-drawn floor sketch leaning against the skirting, as though the surveyor has just stepped back after checking a measurement against the sketch. Setting and work-stage: a stripped-back first-floor bathroom inside a Victorian terrace close to the University of Reading, mid-morning, cool daylight entering through a small sash window set high in the wall. Composition: straight-on angle from the doorway, the tape measure and radiator stub filling the lower-centre foreground, the sash window and a stack of dust sheets receding toward the back wall. Light and materials: original pine floorboards worn pale in the centre and darker at the edges, a section of exposed original lath-and-plaster wall, a single brushed nickel pipe sleeve left in place from the previous fittings, cool window daylight mixing unevenly with a handheld worklight resting on the floor. Constraints: no people, no text, no logos, no brand names visible on fixtures; no LED strip lighting anywhere in the frame; no catalog-symmetrical staging; no single uniform gold colour wash, light should fall unevenly across the room; no hanging plants, florals or styled candles; no running water; no uniform hyper-gloss, floorboards and plaster should show natural, varied sheen and believable wear.",
+    "heroOutputPath": "heroes/survey-town/reading-hero.webp",
+    "heroAlt": "A tape measure and hand-drawn floor sketch during a bathroom survey in a stripped-back Victorian terrace bathroom near the University of Reading, exposed lath-and-plaster wall and worn pine floorboards under cool window daylight.",
+    "inline": []
+  }
+}

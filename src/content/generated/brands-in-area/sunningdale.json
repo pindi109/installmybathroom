@@ -1,0 +1,81 @@
+{
+  "path": "/areas-brands/sunningdale/",
+  "family": "Per-town: brands in area",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Sunningdale | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Sunningdale, and how our fit-only installation model works — your products, our labour, from Geberit and TOTO to Lefroy Brooks and Victoria + Albert.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/sunningdale/"
+  },
+  "h1": "Bathroom brands we fit in Sunningdale",
+  "hero": {
+    "intro": "We work fit-only across Sunningdale, which means we install the bathroom products you've already chosen — through a showroom, a designer, or your own research — rather than selling a fixed catalogue of our own. That distinction matters here because Sunningdale's housing, clustered around the golf courses that share its name, runs from large period Victorian and Edwardian houses through to more recent executive-style builds on private and gated roads, and the specification level across that mix varies a lot more than a single standard catalogue could cover. A recurring set of brands turns up again and again on the jobs we fit in the area, and we've built our process around the specific installation detail each one actually needs, rather than treating every bathroom product as interchangeable once it's out of the box."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products themselves. You choose your sanitaryware, brassware and tiles through whichever route suits you — a showroom consultation, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. That works well in Sunningdale, where a good amount of the specification we see has already been through a designer or showroom before we're brought in at survey stage. It also keeps the quote honest: it reflects labour and fitting complexity rather than bundling in a retail margin on products we didn't supply. Where it matters most is in the detail — a concealed cistern frame, a period-style exposed pipe run, or a textured brassware finish all need fitting correctly for that specific product, and we confirm exactly what's been specified before a wall closes up or a bath goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs come up on a large share of the jobs we fit — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sits entirely on the carrier frame rather than the wall tiles. We also regularly fit Villeroy & Boch sanitaryware and TOTO's Washlet and Neorest ranges, the latter needing particular care at first-fix stage because a Washlet seat adds onto a conventional pan while a Neorest is a single integrated unit replacing the pan, cistern and seat entirely — two different structural and electrical requirements that have to be known before the room is first-fixed, not discovered afterwards. On brassware, hansgrohe covers a wide share of the shower and mixer packages we install, while Dornbracht turns up on more design-led specifications, where a scuff on a brushed finish is far more visible — and more expensive to put right — than the same mistake on a mainstream brand. Sunningdale's older Victorian and Edwardian houses also bring us a fair amount of Lefroy Brooks, whose traditional-style taps and shower valves are built around exposed pipework and period-inspired profiles rather than concealed, minimal fittings — fitting it well means the pipe runs and brackets are set out and finished to be looked at, since nothing is hidden once the room is done. For baths, Victoria + Albert's cast volcanic limestone-and-resin baths carry genuine weight that we plan for in the access route and floor loading well before the bath leaves the showroom — a detail that matters particularly on a generous Sunningdale plot where a freestanding bath is often moved to make the most of a period window. We also fit Bette's titanium-steel baths and trays, finished in fused glass enamel, which need accurate, even bearing across the full base rather than the flex allowance an acrylic bath support relies on. For shower enclosures, Matki's largely frameless screens leave very little trim to hide an inaccurate opening or an uneven wall, so the measuring and wall fixing have to be right before a single panel goes up."
+    },
+    {
+      "heading": "Why the fitting detail matters more at this specification level",
+      "body": "At the specification level common across a lot of Sunningdale's housing, the margin for error on installation detail tends to shrink rather than grow. A rough-in set a few millimetres wrong on a Dornbracht valve, or a Lefroy Brooks pipe run finished slightly off-line, is far more visible — and considerably more expensive to put right — than the same mistake on a standard product, precisely because these fittings are designed to be seen rather than concealed. That's why we work through exactly what's been specified at the £125 survey, confirm the installation route for frames, fixings and finishes before any wall or floor closes up, and sequence the fit so delicate or design-led products aren't handled any more than they need to be. The product choice is yours; getting it installed properly, once it's chosen, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Sunningdale?",
+      "a": "Geberit, Villeroy & Boch and TOTO sanitaryware come up frequently, alongside hansgrohe and Dornbracht brassware. Sunningdale's period housing also brings us a fair amount of Lefroy Brooks, plus Victoria + Albert, Bette and Matki for baths and shower enclosures."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey. If a product has an unusual fixing, frame or electrical requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Why does a period-style brand like Lefroy Brooks need different fitting detail?",
+      "a": "Lefroy Brooks is built around exposed pipework and period-inspired profiles rather than concealed fittings, so the pipe runs, brackets and wall fixings are all visible once the room is finished — they have to be set out and finished properly, not just installed functionally."
+    },
+    {
+      "q": "Do you work with Sunningdale bathroom showrooms and designers?",
+      "a": "Yes. A good amount of the specification we fit in Sunningdale has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunningdale" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "villeroy-and-boch" },
+    { "file": "brands.json", "id": "toto" },
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "brands.json", "id": "dornbracht" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "victoria-and-albert" },
+    { "file": "brands.json", "id": "bette" },
+    { "file": "brands.json", "id": "matki" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-sunningdale/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-sunningdale/ pages once built.",
+  "primaryKeyword": "bathroom brands Sunningdale",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Sunningdale",
+    "luxury bathroom brands fitted Sunningdale",
+    "bathroom fitter brands Sunningdale"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sunningdale brands-in-area page, implying brand and material choice through a mid-shot of a traditional exposed-pipework bath filler rather than a full room view. Subject and action: a cross-head traditional bath tap and exposed pipe run mounted on an upstand beside the edge of a freestanding bath, droplets of water settled on the tap body from a recently finished test fill, otherwise static. Setting and work-stage: a finished period-style bathroom in a Sunningdale house near the golf courses, daytime, bright but soft morning light angling in from an unseen window to the side. Composition: mid-range three-quarter shot centred on the tap, pipework and upstand, the curved edge of the freestanding bath filling the lower foreground, a sliver of honed travertine wall tile softly out of focus behind. Light and materials: honed travertine wall tile, brushed nickel traditional cross-head tap and exposed pipe run, soft directional morning light casting a defined shadow of the pipework across the bath's upstand, faint realistic water spotting on the tap body. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the travertine with faint, realistic water spotting rather than uniform gloss.",
+    "heroOutputPath": "heroes/brands-in-area/sunningdale-hero.webp",
+    "heroAlt": "Close-up of a brushed nickel traditional cross-head bath tap with exposed pipework against honed travertine tile in a finished Sunningdale bathroom, soft morning light.",
+    "inline": []
+  }
+}

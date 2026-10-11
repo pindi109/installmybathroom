@@ -1,0 +1,80 @@
+{
+  "path": "/areas-brands/warfield/",
+  "family": "Per-town: brands in area",
+  "town": "warfield",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Warfield | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Warfield, and how our fit-only installation model works — your products, our labour, from Geberit and hansgrohe to Burlington and Matki.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/warfield/"
+  },
+  "h1": "Bathroom brands we fit in Warfield",
+  "hero": {
+    "intro": "We work on a fit-only basis across Warfield, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Warfield's housing stock is genuinely mixed, with an older village core of period cottages and farmhouses around the church and high street sitting alongside substantial later development including the Warfield Park area and other estates built from the latter part of the twentieth century onwards, and that split shows up in the specifications we're asked to fit. A period cottage renovation often calls for a more traditional silhouette with a modern fixing standard hidden underneath it, while a Warfield Park-era house more often takes a contemporary, minimal-trim specification. Across both, a recurring set of brands turns up, and we've built our fitting process around the specific detail each one needs."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware, tiles and fittings through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them to the standard they're designed for. This works well across Warfield's mixed housing stock precisely because the specification often depends heavily on the property itself: a period cottage near the village core might call for a traditional-looking suite, while a later estate house might take a more contemporary, concealed-fixing approach, and the fit-only model lets each homeowner choose what actually suits their house rather than being steered toward a single supplied range. It also means the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves. We work through exactly what's been specified at survey, before a wall closes up or a screen goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "Geberit concealed cisterns and wall-hung WCs are among the sanitaryware we fit most often in Warfield, regardless of the house's age — correct frame selection and structural fixing matter more here than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles. On the brassware side, hansgrohe and GROHE cover a wide span of the work we do, from thermostatic shower valves and mixer taps through to Rapid SL cistern frames and digital shower products, while Crosswater's contemporary brassware runs heavily on concealed valves and minimal deck-mounted taps that need the wall build-up and pipework depth sorted out properly before a tiler ever arrives — a specification we see fairly often in Warfield Park-era houses. For shower enclosures, Matki's largely frameless screens leave very little trim to hide an inaccurate opening or an uneven wall, so the measuring and wall fixing have to be right before a panel goes up, which is exactly the kind of detail that gets checked at survey. Where a period cottage near the village core is being renovated with a more traditional look, Burlington's pedestal and wall-hung basins, close-coupled and high-level WCs and roll-top baths reproduce classic bathroom forms with a modern fixing standard underneath — getting the period look right on site depends on fixing detail that isn't visible once the room is finished, such as a high-level cistern bracket or a wall-hung basin's hidden support. For baths and shower trays, Bette's titanium-steel, fused-glass-enamel construction is harder and more scratch-resistant than acrylic, but it's unforgiving of a poorly built base, so we fit it with the substructure and levelling the material actually needs. And for floor and wall tiling, Porcelanosa's large-format, dimensionally precise porcelain punishes an uneven substrate or inconsistent joint far more visibly than a smaller tile would, so the floor or wall is checked and prepared flat before the tile goes down."
+    },
+    {
+      "heading": "Why we match the fitting detail to the property, not just the brand",
+      "body": "In Warfield specifically, the same brand can turn up in two quite different contexts — a Burlington roll-top bath in a period cottage with older floor joists, or a Crosswater concealed shower valve in a solid-floor estate house with modern partition walls — and the fitting approach for each is shaped as much by the building as by the product. That's part of why the survey matters as much as the brand sheet: confirming wall thickness, floor construction and existing pipework before anything is ordered means the installation route for a chosen frame, fixing or finish is settled in advance, not discovered once the wall or floor is already closed up. The product choice is yours; getting it fitted correctly for your specific Warfield property, once it's chosen, is ours."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Warfield?",
+      "a": "Geberit, hansgrohe and GROHE come up frequently across both older and newer Warfield properties. We also regularly fit Crosswater and Matki on more contemporary specifications, Burlington on traditional period-style renovations, and Bette and Porcelanosa for baths, trays and tiling."
+    },
+    {
+      "q": "Do you fit traditional-style brands like Burlington in Warfield's older cottages?",
+      "a": "Yes. Burlington's pedestal basins, high-level WCs and roll-top baths reproduce classic forms over a modern fixing standard, and getting the period look right depends on fixing detail — a bracket position, a hidden support — that only shows once the room is finished properly."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Why does the brand of brassware or sanitaryware affect the fitting cost?",
+      "a": "Different brands have different fixing systems, frame compatibility and finish sensitivity. A frameless Matki screen, for example, has very little trim to hide an inaccurate opening, so some products need more careful measuring and sequencing than others."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/warfield/", "anchor": "Bathroom fitting in Warfield" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "warfield" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "crosswater" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "bette" },
+    { "file": "brands.json", "id": "porcelanosa" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-warfield/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-warfield/ pages once built.",
+  "primaryKeyword": "bathroom brands Warfield",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Warfield",
+    "luxury bathroom brands fitted Warfield",
+    "bathroom fitter brands Warfield"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Warfield brands-in-area page, implying brand and material choice through a close-to-mid vanity fixture detail rather than a full room shot. Subject and action: a close-to-mid shot of a traditional pedestal basin with a period-style cross-head basin mixer tap, a folded linen hand towel draped over the basin's edge, caught in a still, finished moment with no activity. Setting and work-stage: a finished bathroom vanity corner in a renovated period cottage near Warfield's village core, daytime, soft natural light filtering through a small window with original glazing bars. Composition: tight three-quarter angle focused on the pedestal basin and tap, a sliver of panelled wainscoting visible in the soft-focus background, basin and tap sharply in focus in the foreground. Light and materials: honed travertine splashback tile behind the basin, brushed brass period-style cross-head tap and pedestal fittings, soft diffused daylight through the small window casting a gentle, uneven shadow of the tap across the basin rim. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no florals or candles as props beyond the single plain towel, no water shown actively running, varied and believable sheen on the travertine and brass surfaces with faint, realistic wear.",
+    "heroOutputPath": "heroes/brands-in-area/warfield-hero.webp",
+    "heroAlt": "Close-up of a brushed brass period-style basin mixer tap on a traditional pedestal basin against honed travertine tiling in a renovated Warfield cottage bathroom, soft natural window light.",
+    "inline": []
+  }
+}

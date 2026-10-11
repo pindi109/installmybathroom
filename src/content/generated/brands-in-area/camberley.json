@@ -1,0 +1,81 @@
+{
+  "path": "/areas-brands/camberley/",
+  "family": "Per-town: brands in area",
+  "town": "camberley",
+  "seo": {
+    "title": "Bathroom Brands We Fit in Camberley | Fit-Only Installation | Install My Bathroom",
+    "description": "The bathroom brands we fit in Camberley, and how our fit-only installation model works — your products, our labour, from period-style Lefroy Brooks to contemporary Matki and Porcelanosa.",
+    "canonical": "https://installmybathroom.co.uk/areas-brands/camberley/"
+  },
+  "h1": "Bathroom brands we fit in Camberley",
+  "hero": {
+    "intro": "We work on a fit-only basis across Camberley, which means we install the bathroom products you've already chosen — from a showroom, a designer's specification, or your own research — rather than selling you a fixed catalogue of our own. Camberley's genuine mix of building ages makes this especially relevant: the traditional cross-head taps and period silhouettes that suit a Victorian or Edwardian terrace near the town centre are a different fitting job to the minimal frameless glass and concealed brassware that tend to get specified in an inter-war semi or a newer estate house further out towards Sandhurst, and we work through exactly what each one needs. Across the projects we work on in and around Camberley, a recurring set of brands turns up again and again, spanning both ends of that period-to-contemporary spread."
+  },
+  "sections": [
+    {
+      "heading": "The fit-only model, explained",
+      "body": "Fit-only means exactly what it says: the labour and installation expertise, without us also supplying or marking up the products. You choose your sanitaryware, brassware and tiles through whichever route suits you — a bathroom showroom, an online retailer, a designer's specification, or a brand's own stockist — and we fit them properly. This matters in Camberley because of how much the specification can vary from one street to the next: a period terrace near the centre might call for traditional exposed pipework and cross-head handles, while a newer estate house on the fringes is more likely to be specified with concealed, minimal brassware and large-format porcelain. Either way, the quote you get reflects labour and fitting complexity honestly, rather than bundling in a retail margin on the products themselves, and we confirm exactly what's been specified before a wall closes up or a screen goes in."
+    },
+    {
+      "heading": "Brands we fit",
+      "body": "For the traditional end of what we fit in Camberley, Lefroy Brooks and Burlington come up regularly in the Victorian and Edwardian terraces and villas near the town centre. Lefroy Brooks is built around exposed pipework, cross-head handles and period-inspired profiles rather than concealed, minimal fittings, which means the pipe runs, brackets and wall fixings have to be set out and finished to be looked at, not hidden — every joint is visible once the room is done. Burlington reproduces classic forms — pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths — with a modern fixing standard underneath the traditional silhouette, so getting the period look right depends on fixing choices such as a high-level cistern bracket or a wall-hung basin's hidden support that aren't visible once the room is finished. At the more contemporary end, which tends to suit the inter-war semis and newer estate housing spreading out towards Sandhurst, Matki's largely frameless shower enclosures leave very little trim to hide an inaccurate opening or an uneven wall, so measuring and wall fixing have to be right before a single glass panel goes up, and Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise — which punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile, so the floor or wall gets checked and prepared flat first. Geberit concealed cisterns and wall-hung WCs, and hansgrohe and GROHE brassware, come up across both ends of that spread, because correct frame selection and fixing, and knowing exactly which valve or mixer has been specified, matter whatever the style of the room. For baths, Kaldewei's titanium-enamelled steel needs even, accurate bearing across the full base rather than the flex-prevention an acrylic support relies on, while Kohler's range of cast-iron baths, vitreous china and contemporary brassware can mean three different fitting disciplines on a single project — heavy-item logistics for a cast-iron tub alongside standard structural fixing for sanitaryware and pressure and flow checks for a shower valve."
+    },
+    {
+      "heading": "Why the right brand detail matters across Camberley's mixed housing",
+      "body": "Because Camberley spans such a genuine range of building ages, getting the fitting detail right isn't just about the brand — it's about matching the installation approach to the property. A period terrace with exposed pipework needs brackets and pipe runs set out to be looked at, not boxed away, while a newer estate house with concealed brassware needs the wall build-up and pipework depth right before the tiler arrives, because none of that is visible once the room is finished and it's expensive to correct afterwards. We work through exactly what's been specified at survey, confirm the installation route for whichever brand and era of fitting is involved, and sequence the job so the product — whether it's a style built to echo a period the house actually dates from, or a thoroughly contemporary fitting going into a newer build — ends up installed the way it's designed to be."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I have to buy my bathroom products from you?",
+      "a": "No. We work fit-only, which means you choose and supply your own sanitaryware, brassware and tiles — through a showroom, designer or retailer — and we handle the installation to the standard those products need."
+    },
+    {
+      "q": "Which bathroom brands do you fit most often in Camberley?",
+      "a": "Lefroy Brooks and Burlington come up regularly in Camberley's Victorian and Edwardian terraces and villas, where a period style is often specified. Geberit, hansgrohe and GROHE turn up across all of Camberley's housing types, and Matki and Porcelanosa are more common in the inter-war semis and newer estate housing further out."
+    },
+    {
+      "q": "Do period Camberley terraces need different brands to newer estate houses?",
+      "a": "Not necessarily different brands, but often a different style within them — exposed pipework and traditional cross-head taps suit a period terrace near the town centre, while concealed, minimal brassware and large-format tiling are more typical in a newer estate house. We confirm what's been specified at survey and fit accordingly."
+    },
+    {
+      "q": "Can you fit a brand that isn't listed here?",
+      "a": "In most cases, yes — we work through the specific installation requirements of whatever's been specified at survey stage. If a product has an unusual fixing or frame requirement, we confirm it before anything is ordered rather than discovering it on fitting day."
+    },
+    {
+      "q": "Do you work with Camberley bathroom showrooms and designers?",
+      "a": "Yes. A lot of the specification we fit in Camberley has already been through a showroom consultation or designer before we're brought in at survey stage, and we're used to working from an existing specification rather than starting from scratch."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/", "anchor": "All the bathroom brands we fit" },
+    { "href": "/areas/camberley/", "anchor": "Bathroom fitting in Camberley" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "camberley" },
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "brands.json", "id": "burlington" },
+    { "file": "brands.json", "id": "matki" },
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "brands.json", "id": "geberit" },
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "brands.json", "id": "kaldewei" },
+    { "file": "brands.json", "id": "kohler" }
+  ],
+  "notes": "Per CONTENT-SCHEMA.md Phase-1 note: /installer/{brand}-camberley/ pages don't exist yet (Phase 2/3). This page links to /brands/ instead and will be upgraded to link to specific /installer/{brand}-camberley/ pages once built.",
+  "primaryKeyword": "bathroom brands Camberley",
+  "secondaryKeywords": [
+    "fit-only bathroom installation Camberley",
+    "luxury bathroom brands fitted Camberley",
+    "bathroom fitter brands Camberley"
+  ],
+  "generatedAt": "2026-10-07",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Camberley brands-in-area page, implying brand and material choice through a close-to-mid fixture detail rather than a full room shot. Subject and action: a traditional cross-head basin mixer tap with exposed pipework mounted above a walnut-fronted vanity unit, positioned as if mid-way through a showroom specification decision, no water running. Setting and work-stage: a finished bathroom vanity wall inside a Victorian-era villa near Camberley town centre, daytime, bright but angled daylight entering from an unseen side window. Composition: close-to-fixture mid shot centred on the tap and exposed pipe run, walnut vanity top filling the lower third of the frame, tiled wall softly out of focus in the background. Light and materials: warm walnut vanity cabinetry, brushed bronze cross-head tap and visible pipe bracketing, bright directional daylight raking across the bronze fittings at a shallow angle creating uneven highlight and shadow rather than flat light. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED lighting strips anywhere in frame, no symmetrical twin-basin staging, no uniform gold or amber colour wash, no hanging plants, florals or candles, no water shown running from the tap, brushed bronze fittings should show faint, believable handling marks rather than uniform showroom-new gloss.",
+    "heroOutputPath": "heroes/brands-in-area/camberley-hero.webp",
+    "heroAlt": "Close-up of a brushed bronze cross-head basin mixer tap with exposed pipework above a walnut vanity unit in a Victorian-era Camberley villa bathroom, bright angled daylight.",
+    "inline": []
+  }
+}

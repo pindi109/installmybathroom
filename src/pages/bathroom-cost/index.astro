@@ -1,0 +1,45 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import { business } from "../../config/business.ts";
+
+const files = import.meta.glob("../../content/generated/cost-town/*.json", { eager: true });
+const towns = Object.values(files)
+  .map((mod: any) => mod.default)
+  .sort((a: any, b: any) => a.h1.localeCompare(b.h1));
+---
+
+<Base
+  title="Bathroom Installation Cost by Area | Install My Bathroom"
+  description="Fit-only bathroom installation cost guides for each area we cover across Berkshire, Buckinghamshire and Surrey."
+>
+  <Header slot="header" />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Bathroom Cost", href: "/bathroom-cost/" }]} />
+      <h1 class="text-4xl font-bold mb-4 fade-up">Bathroom Installation Cost by Area</h1>
+      <p class="text-lg leading-relaxed mb-8 fade-up" style="color: var(--text-soft);">
+        Fit-only installation starts from £{business.pricing.fromGBP.toLocaleString()}. Pick your area below for the cost factors and typical specification we see in that part of our coverage, or see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">full bathroom cost guide</a> for the general breakdown.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container">
+      <div class="grid md:grid-cols-4 gap-4">
+        {towns.map((t: any) => (
+          <a href={t.path} class="card p-5 text-center hover:-translate-y-1 transition-transform fade-up">
+            <span class="font-semibold">{t.h1.replace("Bathroom Installation Cost in ", "")}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>

@@ -1,0 +1,255 @@
+---
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import StickyMobileCTA from "../../components/StickyMobileCTA.astro";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import FAQ from "../../components/FAQ.astro";
+import { business } from "../../config/business.ts";
+import areasData from "../../data/areas.json";
+
+const LAST_UPDATED = "2026-10-11";
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Basin and Vanity Unit Installation Cost UK",
+  "author": { "@id": `${business.url}/#business` },
+  "datePublished": LAST_UPDATED,
+  "dateModified": LAST_UPDATED,
+};
+
+const faqs = [
+  {
+    q: "How much does it cost to install a vanity unit on its own?",
+    a: `As a standalone job rather than part of a full re-fit, a single vanity unit and basin is priced as a repair-scale visit from £${business.repairs.fromGBP}, where the existing waste and supply positions are reused and the wall behind it doesn't need opening up. Fitted as part of a wider bathroom installation, it's included within the overall fit-only figure from £${business.pricing.fromGBP.toLocaleString()}. A £${business.pricing.surveyGBP} survey will tell you honestly which category your job falls into.`,
+  },
+  {
+    q: "Does a countertop basin cost more to fit than an inset or wall-hung basin?",
+    a: "Usually a little more. A countertop basin sits proud of the surface and needs its waste and tap holes positioned and sealed to the counter rather than simply dropped into a pre-cut hole, and the counter material itself has to be cut and finished to a higher standard around a visible basin edge. An inset basin, by contrast, drops into a template cut-out that's quicker to seal.",
+  },
+  {
+    q: "Is a wall-hung vanity more expensive to install than a floor-standing one?",
+    a: "Yes, typically. A wall-hung unit needs a concealed frame or heavy-duty brackets fixed back to solid blockwork or a noggin built into a stud wall, which is first-fix carpentry a floor-standing unit on legs or a plinth doesn't need. The trade-off is a cleaner finish and easier floor cleaning underneath, which is why it's a popular upgrade despite the extra fitting time.",
+  },
+  {
+    q: "Can a new vanity unit reuse my existing basin waste and taps?",
+    a: "Sometimes, if the new unit's basin position lines up with the existing waste and the taps are in good working order. We check this at survey. Where the new vanity is a different width or the basin moves even a short distance, the waste and supply usually need to be repositioned, which adds first-fix time over a straight swap.",
+  },
+  {
+    q: "Is basin and vanity installation covered by the £125 survey?",
+    a: "Yes. The survey checks the wall construction behind where the unit will hang, the existing waste and supply positions, water pressure and flow, and whether your chosen unit's dimensions fit the available wall and floor space before you order it.",
+  },
+  {
+    q: "Do I need an electrician as well as a plumber for an illuminated vanity mirror?",
+    a: "Often, yes, if the mirror or cabinet is mains-wired rather than battery powered. We coordinate that first-fix electrical work as part of the same visit where it's agreed at survey, so the wiring and the plumbing first-fix happen in the right order rather than one undoing the other.",
+  },
+  {
+    q: "What size vanity unit fits a small cloakroom or en-suite?",
+    a: "A 400mm to 500mm-wide unit is a common practical minimum for a genuine cupboard underneath rather than just a slim washstand. Below that width, a wall-hung basin without storage or a corner basin usually makes better use of a tight footprint than a compressed vanity cupboard.",
+  },
+  {
+    q: "Does a double vanity cost roughly double a single one?",
+    a: "Not quite, though it's closer to double than to the same price. Two basins mean two waste runs and two sets of taps rather than one, but the carcass, worktop template and tanking behind a double unit are fitted in a single continuous run rather than as two separate jobs, so there's some efficiency in doing it together compared with fitting two single vanities separately.",
+  },
+];
+---
+
+<Base
+  title="Basin and Vanity Unit Installation Cost UK | Install My Bathroom"
+  description="What it costs to install a basin and vanity unit in the UK, what moves the price between a simple swap and a bespoke stone-top unit, and how to get an exact figure."
+>
+  <Header slot="header" />
+  <script slot="schema" type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <Breadcrumbs items={[{ label: "Guides", href: "/guides/" }, { label: "Basin and Vanity Unit Installation Cost UK", href: "/guides/basin-and-vanity-unit-installation-cost-uk/" }]} />
+      <h1 class="text-4xl font-bold mb-6 fade-up">Basin and Vanity Unit Installation Cost UK</h1>
+
+      <div class="card p-6 mb-8 fade-up" style="background: var(--bg-light); border-left: 4px solid var(--teal);">
+        <p class="font-medium leading-relaxed">
+          Fitting a client-supplied basin and vanity unit as a standalone job, reusing the existing waste and supply positions, starts from £{business.repairs.fromGBP}. As part of a full fit-only bathroom installation, it's included within the overall figure from £{business.pricing.fromGBP.toLocaleString()}. A wall-hung unit, a countertop basin, or moving the waste to a new position all add to those figures. A £{business.pricing.surveyGBP} survey gives you an exact, written number either way.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-6 fade-up">What moves the price</h2>
+      <p class="leading-relaxed mb-6 fade-up" style="color: var(--text-soft);">
+        A basin and vanity unit looks like one object, but it's really three separate pieces of work — the carcass fixing, the worktop and basin, and the waste and tap connections — and each has a quicker version and a more involved one.
+      </p>
+      <div class="overflow-x-auto fade-up">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b-2" style="border-color: var(--border);">
+              <th class="text-left py-3 pr-4 font-semibold">Factor</th>
+              <th class="text-left py-3 font-semibold">Why it moves the price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Floor-standing vs wall-hung</td>
+              <td class="py-3" style="color: var(--text-soft);">A wall-hung unit needs a concealed frame or brackets fixed to solid blockwork or a noggin, not just floor fixings.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Inset vs countertop basin</td>
+              <td class="py-3" style="color: var(--text-soft);">A countertop basin needs its edge and waste hole cut and sealed to a visible standard, not dropped into a template cut-out.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Reused vs moved waste</td>
+              <td class="py-3" style="color: var(--text-soft);">Keeping the waste and supply where they already run avoids first-fix pipework behind the new unit.</td>
+            </tr>
+            <tr class="border-b" style="border-color: var(--border);">
+              <td class="py-3 pr-4 font-medium">Single vs double basin</td>
+              <td class="py-3" style="color: var(--text-soft);">Two basins mean two waste runs and two tap sets within what's otherwise a single carcass and worktop.</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4 font-medium">Worktop material</td>
+              <td class="py-3" style="color: var(--text-soft);">Natural stone needs templating and takes longer to cut and seal around basin and tap holes than a manufactured composite top.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl grid md:grid-cols-[1fr_280px] gap-8 items-start">
+      <div>
+        <h2 class="text-2xl font-bold mb-6 fade-up">A realistic scenario</h2>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          The most common job we see is a straight swap: an old pedestal basin or dated vanity unit is stripped out, the existing waste and supply positions are reused since the new unit is a similar width, and a floor-standing unit with an inset basin and a composite worktop goes in against the same wall. That sits close to the entry-level standalone figure, because none of the higher-cost drivers above apply.
+        </p>
+        <p class="leading-relaxed mb-4 fade-up" style="color: var(--text-soft);">
+          Where the brief changes — the unit moves to a different wall, it's wall-hung rather than floor-standing, or the basin is a countertop bowl rather than an inset — each of those adds its own first-fix, fixing or sealing time on top of that baseline, which is why two vanity units that look similar in a showroom brochure can price quite differently once the survey measures the actual wall.
+        </p>
+        <p class="leading-relaxed fade-up" style="color: var(--text-soft);">
+          At the upper end, a bespoke double vanity with a polished marble worktop, two wall-hung basins on a concealed steel frame, and an illuminated mirror cabinet wired into the lighting circuit sits well above the entry-level figure — not because any single element is exotic, but because the concealed frame needs opening the wall, the marble top is templated and cut to order, and the mirror cabinet needs coordinated first-fix electrics. None of that is a reason to avoid the specification; it's simply what each extra element genuinely adds in fitting time.
+        </p>
+      </div>
+      <div class="card overflow-hidden fade-up hidden md:block">
+        <img
+          src="/assets/inline/basin-and-vanity-unit-installation-cost-uk-marble-basin-detail.webp"
+          alt="Close detail of a polished deep green marble countertop basin with a brushed brass tap, water droplets beaded on the stone surface"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl grid md:grid-cols-2 gap-8 items-start">
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/basin-and-vanity-unit-installation-cost-uk-wall-hung-frame.webp"
+          alt="Part-built wall-hung vanity carcass fixed to a concealed steel frame against a deep green marble-tiled bathroom wall, first-fix pipework visible below"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+      <div class="card overflow-hidden fade-up">
+        <img
+          src="/assets/inline/basin-and-vanity-unit-installation-cost-uk-double-vanity-wide.webp"
+          alt="Finished double vanity unit with two inset basins and brushed brass taps against a deep green marble wall in a wide-angle bathroom view"
+          width="800" height="600" loading="lazy" decoding="async"
+          style="width:100%;height:auto;display:block;"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Repair-scale swap vs full installation</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        It's worth knowing which category your job actually falls into before booking, because the two are priced quite differently. A straightforward basin or vanity swap — reusing the existing waste, no wall-opening, no electrics — is a single-fixture job and starts from £{business.repairs.fromGBP}, the same entry point as our other repair-scale work, with the £{business.repairs.emergencyCalloutGBP} minimum applying only where it needs same-day attention, which a planned vanity swap rarely does. A full bathroom installation that happens to include a new basin and vanity, by contrast, is priced within the overall fit-only figure from £{business.pricing.fromGBP.toLocaleString()} rather than as a separate line item.
+      </p>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        We don't offer regrouting as a repair service — if what's actually needed around an existing basin is failing grout rather than a new unit, that's a tiling job and we'll say so honestly rather than quoting for a vanity replacement you don't need.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Timescale follows the same split. A standalone swap with no wall-opening or electrical work is usually a single day on site once the unit and worktop have arrived, start to finish. Bringing in a new wall-hung frame, moving the waste, or coordinating an electrician for a wired mirror cabinet typically adds a second day, mostly because the first-fix elements need to be signed off before the carcass and worktop can go back on. Either way, the £{business.pricing.surveyGBP} survey will give you a realistic timescale alongside the price, rather than a generic estimate that assumes the simplest version of the job.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">Basin type and vanity width</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        A common question is whether a wider vanity simply costs more in proportion to its size. It doesn't scale that cleanly. Most UK vanity units sit somewhere between 400mm and 1200mm wide, and within that range the carcass fixing and worktop cutting move only modestly — a 900mm unit isn't dramatically more expensive to fit than a 600mm one of the same type. What genuinely changes the price is whether it's wall-hung or floor-standing, and whether the basin is inset or countertop, not the width on its own.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        In a genuinely tight cloakroom or en-suite, there often isn't room for a vanity cupboard at all once a realistic door-swing or walkway width is allowed for. A slim wall-hung basin without storage, or a corner basin, usually makes better use of that space than a compressed vanity unit, which is why we'll sometimes recommend that alternative at survey even when a vanity with storage was the original brief.
+      </p>
+      <p class="leading-relaxed mt-4" style="color: var(--text-soft);">
+        Tap positioning matters more than most people expect, too. A countertop basin usually needs a tall tap to clear the raised bowl edge, while an inset basin sits lower and works with a standard-height tap — specifying the wrong height for the basin style is one of the most common ordering mistakes we see before a survey catches it. Three-hole deck-mounted taps also need the worktop drilled to match the tap's own hole spacing, which is why we always confirm the exact tap model at survey rather than working from a generic vanity template.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Areas served</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        {areasData.tier1.map((a: { slug: string; name: string }) => (
+          <a href={`/areas/${a.slug}/`} class="btn-secondary">{a.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-4 fade-up">What's included in the fit-only price</h2>
+      <p class="leading-relaxed mb-4" style="color: var(--text-soft);">
+        The figures above cover labour only — strip-out of the old fixture, first-fix plumbing, fixing the carcass or wall frame, cutting and sealing the worktop around the basin and tap holes, and connecting and testing the waste and supply. The vanity unit, basin, worktop, taps and any mirror or cabinet are bought separately by you, which is different from a supply-and-fit quote where a retailer or contractor bundles the goods and labour into one number.
+      </p>
+      <p class="leading-relaxed" style="color: var(--text-soft);">
+        Worth budgeting for separately either way: skip hire or waste removal for the old unit, and making good any surrounding tiling or decoration disturbed where the new unit's footprint or fixing points differ from the old one.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-3 fade-up">Sources and standards</h2>
+      <p class="text-sm leading-relaxed" style="color: var(--text-soft);">
+        Waste and supply connection practice referenced in this guide follows the relevant parts of the Water Supply (Water Fittings) Regulations 1999. This figure is specific to a basin and vanity unit installed either as a standalone job or as part of the main work within an existing bathroom; for a full room re-fit, see our <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="underline" style="color: var(--teal);">bathroom installation cost guide</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl">
+      <h2 class="text-2xl font-bold mb-8 fade-up">Frequently asked questions</h2>
+      <FAQ items={faqs} schemaId="basin-and-vanity-unit-installation-cost-faq" />
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container max-w-3xl">
+      <h2 class="text-xl font-bold mb-4 fade-up">Related</h2>
+      <div class="flex flex-wrap gap-3 fade-up">
+        <a href="/services/vanity-unit-installation/" class="btn-secondary">Vanity Unit Installation</a>
+        <a href="/services/mirrored-cabinets-and-illuminated-mirrors/" class="btn-secondary">Mirrored Cabinets &amp; Illuminated Mirrors</a>
+        <a href="/services/natural-stone-and-marble-bathrooms/" class="btn-secondary">Natural Stone &amp; Marble Bathrooms</a>
+        <a href="/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/" class="btn-secondary">Full Bathroom Cost Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm" style="background: var(--bg-light);">
+    <div class="container max-w-3xl text-sm" style="color: var(--text-soft);">
+      <p>Written by the Install My Bathroom installation team — 30 years fitting high-end bathrooms.</p>
+      <p class="mt-1">Last updated: {LAST_UPDATED}</p>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+  <StickyMobileCTA slot="sticky-cta" />
+</Base>
