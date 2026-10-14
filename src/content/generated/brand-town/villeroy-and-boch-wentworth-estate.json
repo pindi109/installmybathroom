@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-wentworth-estate/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "wentworth-estate",
+  "slug": "villeroy-and-boch-wentworth-estate",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer on Wentworth Estate | Fit-Only",
+    "description": "Villeroy & Boch bathroom installation on Wentworth Estate, Virginia Water. Fit-only from £3,500, gate access coordinated with the estate, £125 survey first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-wentworth-estate/"
+  },
+  "h1": "Villeroy & Boch bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "On the private, gated Wentworth Estate in Virginia Water, built around Wentworth Club and the golf courses that host the BMW PGA Championship, the installation itself is only half the planning — coordinating access at the gate with the estate or a managing agent matters just as much to keeping a Villeroy & Boch project on programme. We work fit-only, around 15 to 20 minutes by road from our Bracknell base: you supply the Villeroy & Boch sanitaryware, basins, baths or ViClean shower toilet seats, and we strip out, first-fix, tile, plumb and snag the installation, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Why access planning matters as much as the product spec",
+      "body": "Deliveries, skips and our fitting team all need to pass through the estate's gate, and on a managed private estate that usually means booking access in advance rather than turning up on the day. Villeroy & Boch's ceramic products are precise but not fragile in transit when handled properly — the real risk to the installation schedule on Wentworth Estate isn't the product, it's a delivery held up at the gate because access wasn't arranged. We build that coordination into the programme from the outset, alongside the usual first-fix and tiling schedule, so the estate's access rules don't become the thing that delays a Villeroy & Boch fit."
+    },
+    {
+      "heading": "Frame and flush plate compatibility, checked before ordering",
+      "body": "Separately from any access planning, the same product-level detail applies to every Villeroy & Boch WC we install: the brand doesn't manufacture its own carrier frame, so the pan, flush plate and concealed cistern frame need confirming as compatible generations before anything is ordered. We check this against the specification at survey, because a mismatch discovered after the wall is boarded means reopening finished work — on a gated estate where every visit needs coordinating, that's an avoidable delay worth catching early."
+    },
+    {
+      "heading": "What a fit-only installation looks like here",
+      "body": "A £125 survey starts every project, where we measure the room, check waste and water supply, confirm frame compatibility for whatever's specified, and talk through the estate's access requirements so they're built into the quote rather than added as a surprise later. Installations then start from £3,500 depending on scope. Because we're fit-only, you keep full control over which Villeroy & Boch products you specify and where you source them, while we handle the labour, the coordination with the estate, and the finished fit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you coordinate gate access with the estate for deliveries?",
+      "a": "Yes. We build access coordination with the estate or managing agent into the project programme from the outset, alongside the usual first-fix and tiling schedule."
+    },
+    {
+      "q": "Do you supply Villeroy & Boch products, or just fit them on Wentworth Estate?",
+      "a": "We fit only. You source the sanitaryware, basins, baths or ViClean shower toilet seats, and we handle the installation, from £3,500."
+    },
+    {
+      "q": "Why does the carrier frame need checking before ordering a Villeroy & Boch WC?",
+      "a": "Villeroy & Boch doesn't make its own carrier frame, so the pan, flush plate and concealed cistern frame need to be confirmed as matching generations before ordering — we check this at survey, not after the wall is closed up."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from Bracknell."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "All bathroom brands we fit on Wentworth Estate" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" },
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "wentworth-estate" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Wentworth Estate",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Wentworth Estate",
+    "fit-only Villeroy & Boch Virginia Water",
+    "Villeroy & Boch bathroom fitter Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Wentworth Estate installer page, a close fixture shot implying the ViClean shower toilet range without showing a full room. Subject and action: a WC pan with its ViClean seat partly fitted, the seat's hinge mechanism visible and a hex key resting on the cistern top, installation paused mid-step. Setting and work-stage: a part-finished principal bathroom in a substantial Wentworth Estate house, tiling complete, flush plate recess still awaiting its cover panel, daytime. Composition: close three-quarter angle at seat height, hinge mechanism and hex key sharply in focus, flush plate recess and tiled wall softly receding behind. Light and materials: warm grey limestone wall tile, brushed brass flush plate surround, soft overcast daylight through a frosted window mixing with a single warm work light, gentle uneven shadow across the cistern top. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants or candles as props, no running water, limestone tile shows believable matte variation rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-wentworth-estate-hero.webp",
+    "heroAlt": "Close-up of a WC pan with a ViClean shower toilet seat partly fitted and a hex key resting on the cistern, in a part-finished Wentworth Estate bathroom.",
+    "inline": []
+  }
+}

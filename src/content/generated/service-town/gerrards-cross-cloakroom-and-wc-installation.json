@@ -1,0 +1,72 @@
+{
+  "path": "/areas/gerrards-cross/cloakroom-and-wc-installation/",
+  "family": "Service x town",
+  "service": "cloakroom-and-wc-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Cloakroom & WC Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only downstairs cloakroom and WC installation in Gerrards Cross. Space-saving fittings, tight footprints done properly. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/cloakroom-and-wc-installation/"
+  },
+  "h1": "Cloakroom & WC installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install fit-only cloakrooms and downstairs WCs for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. You source the WC, basin, tiles and brassware; we strip out, first-fix, tile, plumb and snag a compact cloakroom that works properly in a footprint far smaller than a standard bathroom."
+  },
+  "sections": [
+    {
+      "heading": "A cloakroom is a different job to a bathroom fit",
+      "body": "A lot of homeowners come to us thinking of a cloakroom as a miniature bathroom, and that's the wrong starting point. The brief is to get a WC and a basin into a space that's often little more than a metre and a half square, while keeping it comfortable to use and easy to clean. That means every fitting decision is driven by the footprint first and the finish second: a wall-hung pan with a concealed cistern to free up floor space, a corner or slimline wall-mounted basin rather than anything with a pedestal or cabinet base, and door clearance checked against the WC before the layout is signed off. For commuter families in Gerrards Cross adding a downstairs WC to take pressure off the main bathroom at busy times of day, getting that layout right the first time matters more than it does in a full bathroom, because there's no spare space to absorb a mistake."
+    },
+    {
+      "heading": "Why we travel to Gerrards Cross for this work",
+      "body": "We cover Gerrards Cross as part of our regular working radius from Bracknell, a journey of around 25 to 30 minutes that puts it comfortably within reach for both the initial survey and the installation itself. It's an affluent commuter village with a strong demand for exactly this kind of discreet, high-quality finishing work — adding a downstairs WC is one of the most common small projects we're asked to quote, usually alongside wider works to a house or as a standalone addition when a family needs a second WC on the ground floor. Because it's a fit-only arrangement, you retain full control over the sanitaryware and finish specification while we take responsibility for the parts that are hard to get right without trade experience: waste routing, ventilation, and making a small tiled space look intentional rather than squeezed in."
+    },
+    {
+      "heading": "What the installation involves",
+      "body": "The process starts with a £125 survey, where we confirm the exact dimensions, check where the nearest waste stack and water supply run, and agree a layout that accounts for door swing, ventilation and any sloped ceiling if the space is under a staircase. On the day, we strip out any existing fixtures or cupboard fittings, run first-fix pipework and electrics for an extractor fan if needed, tile and box in the new layout, then fit and connect the WC and basin before a full snag. Fit-only installs of this type start from £3,500, and because the floor area is small, the main time pressure on site is precision rather than volume — getting pipe runs and tile lines correct in a tight space takes more care than a larger room, not less."
+    },
+    {
+      "heading": "Arrange a survey",
+      "body": "If you're planning a downstairs cloakroom in Gerrards Cross, call or WhatsApp 07399 651836 to book the £125 survey. We'll measure the space, talk through what's achievable, and give you a firm quote before anything is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What's the smallest space you can fit a cloakroom WC into?",
+      "a": "It depends on the WC pan and basin you choose, but compact wall-hung fittings can work in spaces as tight as under a metre and a half square. We confirm what's achievable at the £125 survey rather than guessing from photos."
+    },
+    {
+      "q": "Do you supply the sanitaryware for a Gerrards Cross cloakroom?",
+      "a": "No — we're fit-only. You buy the WC, basin, tiles, brassware and any furniture, and we handle strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How long does a cloakroom installation take?",
+      "a": "Because the footprint is small, most cloakroom installs are quicker on site than a full bathroom, though exact timing depends on the extent of first-fix work and whether we're routing new waste and water supply."
+    },
+    {
+      "q": "Can you fit an extractor fan in a cloakroom with no outside wall?",
+      "a": "Usually yes, via ducting routed through a ceiling void or an adjoining wall. We check this at survey, since the route depends entirely on your property's layout."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation service details" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom installation across Gerrards Cross" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/stoke-poges/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Stoke Poges" },
+    { "href": "/areas/windsor/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "cloakroom WC installation Gerrards Cross",
+  "secondaryKeywords": [ "downstairs toilet installation Gerrards Cross", "cloakroom fitter Gerrards Cross", "small WC installation Gerrards Cross" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Gerrards Cross cloakroom and WC installation page. Subject and action: a finished small cloakroom with a wall-hung WC and a slimline wall-mounted basin set into a tight rectangular footprint, static and dry. Setting and work-stage: fully completed cloakroom with dark charcoal micro-cement effect walls and a pale terrazzo-look floor tile, no window, single ceiling downlight. Composition: straight-on eye-level shot framing the full width of the room, basin and WC both in shot with visible floor-to-ceiling extent. Light and materials: warm tungsten-toned artificial light from a single fitting, matte black tap and flush plate, muted charcoal and stone palette with varied matte-to-satin sheen. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no running water, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-cloakroom-and-wc-installation-hero.webp",
+    "heroAlt": "Finished dark charcoal-toned cloakroom with wall-hung WC and slimline basin in a Gerrards Cross home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

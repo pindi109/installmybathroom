@@ -1,0 +1,76 @@
+{
+  "path": "/areas/gerrards-cross/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Walk-In Shower Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation for Gerrards Cross homes. Frameless enclosures, level-access trays, correct tanking and falls. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. A walk-in shower installation is one of the more popular single-room upgrades we carry out here: a frameless or semi-frameless enclosure with a level-access or low-profile tray, properly tanked and fitted, rather than a full wet room conversion. You source the enclosure, tray, tiles and brassware; we strip out, first-fix, tile, plumb and snag."
+  },
+  "sections": [
+    {
+      "heading": "What's actually involved in a walk-in shower installation",
+      "body": "This is a focused, single-area job rather than a full wet room or en-suite build. We remove the existing shower or bath, set out the new tray position with the correct fall to waste, tank the shower area and adjoining upstands to the standard the enclosure and tiling need, then tile and fit the frameless or semi-frameless glass you've chosen. Getting a walk-in enclosure to read as genuinely frameless depends on the floor and wall being accurately level and square before a single tile goes down — glass doesn't forgive an out-of-true corner the way a framed cubicle can."
+    },
+    {
+      "heading": "Scheduling around the distance from our base",
+      "body": "Being around 25 to 30 minutes from Bracknell by road, we plan Gerrards Cross jobs with the travel time built into the programme rather than treated as an afterthought — tanking needs to cure before tiling starts, and tiling needs to dry before the enclosure goes in, so our visits are sequenced to match those drying times rather than rushed to minimise driving. That means a steady, properly paced installation rather than compressed site time that risks the tanking or tiling being rushed."
+    },
+    {
+      "heading": "Installation considerations for a walk-in enclosure",
+      "body": "A walk-in shower installation lives or dies on preparation: correct fall to the waste on a level-access or low-profile tray, tanking that extends fully to where water actually reaches rather than stopping at an arbitrary line, and a fixing system matched to the glass thickness specified by the enclosure manufacturer. We check all of this during survey, including the existing waste run and whether it needs relocating to suit the tray you've chosen, before we commit to a price or a start date."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "We start with a paid £125 survey to check floor levels, waste position and access. From there: strip-out, first-fix plumbing changes if the waste needs to move, tanking, tiling, then fitting the tray, enclosure and brassware you've sourced, finishing with a full snag check. Installs start from £3,500. As a fit-only service, the choice of enclosure, tray, tiles and fittings stays entirely with you — we're responsible for the installation itself being done correctly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "Around 25 to 30 minutes by road from Bracknell. We build that into our scheduling so tanking and tiling have proper time to cure between visits, rather than compressing the job to cut down on travel."
+    },
+    {
+      "q": "Do you supply the enclosure and tray?",
+      "a": "No, we're fit-only. You buy the enclosure, tray, tiles and brassware, and we handle the strip-out, first-fix, tanking, tiling, plumbing and snagging that turns those products into a finished installation."
+    },
+    {
+      "q": "Is a walk-in shower installation the same as a wet room?",
+      "a": "No. A walk-in shower uses a defined tray and enclosure, usually level-access, while a wet room tanks and falls an entire floor area with no raised tray at all. The walk-in version is typically a smaller-scope, less disruptive job."
+    },
+    {
+      "q": "What happens at the £125 survey?",
+      "a": "We check floor levels and fall, the existing waste position, wall construction, and access for materials, so we can confirm an accurate scope and price rather than quoting blind from photos."
+    },
+    {
+      "q": "How much does a walk-in shower installation cost?",
+      "a": "Installs start from £3,500 as a fit-only price, which covers strip-out, first-fix, tanking, tiling, plumbing and snagging. The exact figure depends on waste relocation, tiling area and access, confirmed at survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom installation in Gerrards Cross" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/stoke-poges/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Stoke Poges" },
+    { "href": "/areas/windsor/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "walk-in shower installation Gerrards Cross",
+  "secondaryKeywords": [ "frameless shower enclosure Gerrards Cross", "level access shower fitter Buckinghamshire", "walk-in shower installer Gerrards Cross" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Gerrards Cross walk-in shower installation service page. Subject and action: a finished semi-frameless walk-in shower enclosure with a matte black frame and low-profile tray, shown as a completed installation. Setting and work-stage: a modern family bathroom in a commuter-village home, fully finished with tiling and fittings complete. Composition: straight-on frontal view of the enclosure centred in frame, tray and glass door clearly visible, with a narrow strip of tiled wall either side. Light and materials: bright even daylight from an unseen side window, large-format matte porcelain tiles in a warm grey tone, black frame with a satin rather than glossy finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished semi-frameless walk-in shower with matte black frame in a Gerrards Cross family bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

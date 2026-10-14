@@ -1,0 +1,72 @@
+{
+  "path": "/areas/windsor/cloakroom-and-wc-installation/",
+  "family": "Service x town",
+  "service": "cloakroom-and-wc-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Cloakroom & WC Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only cloakroom and downstairs WC installation in Windsor. Narrow town houses, period staircases, tight footprints fitted properly. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/cloakroom-and-wc-installation/"
+  },
+  "h1": "Cloakroom & WC installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types, and each presents a different cloakroom brief. Close to the Castle and the historic centre, narrow Georgian and Victorian town houses with period staircases mean materials have to be moved through the building in smaller loads than a modern job would need, which is exactly the kind of constraint a compact cloakroom installation is built to work around. Further out, in the inter-war, post-war and newer developments, the challenge is usually refitting an existing downstairs WC rather than finding space for a new one."
+  },
+  "sections": [
+    {
+      "heading": "Fitting a cloakroom in a narrow town house near the centre",
+      "body": "A concentration of Georgian and Victorian town houses sits close to the Castle and the historic centre, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. For a full bathroom refit, that's a real logistical headache. For a cloakroom, it's less of a problem than you'd think, because the whole point of a cloakroom is a small footprint and a correspondingly small volume of material — a WC pan, a slimline basin, tiles for one small room, not the tiling, bath and shower enclosure of a full refit. We plan deliveries and carrying routes around the narrow staircase and any tight turns at survey stage, bringing materials in over several smaller trips rather than assuming a single clear run through the house, which is usually what a period town house needs to avoid damage to walls, bannisters and door frames."
+    },
+    {
+      "heading": "Refitting a cloakroom in Windsor's newer housing",
+      "body": "Further out towards the edges of town, the housing is more typically inter-war and post-war family homes, along with a scattering of newer residential developments built on redeveloped sites. These properties are far more likely to already have a downstairs WC in place, built in when the house was constructed, rather than needing one carved out from scratch. The work here tends to be a strip-out and refit of a dated cloakroom rather than a conversion of unused space — replacing an old low-level suite with a modern wall-hung WC and concealed cistern, retiling, and often improving ventilation that wasn't adequate on the original build. Access is rarely the constraint it is in the town centre; the main consideration is working cleanly within an occupied family home."
+    },
+    {
+      "heading": "The installation process",
+      "body": "Every project starts with a £125 survey. In a town-centre house, that visit also covers the access route — stairs, doorways, any tight turns — so we can plan deliveries sensibly; in a newer property, it's more focused on confirming the existing waste connection and what state it's in. From there we strip out, first-fix plumbing and electrics, tile and box in, then fit the WC and basin and carry out a full snag. Fit-only installs start from £3,500, with town-centre jobs sometimes taking a little longer purely because of the care needed moving materials through a period staircase, even though the room itself is no larger than any other cloakroom."
+    },
+    {
+      "heading": "Book a survey",
+      "body": "Whether you're in a Georgian town house near the Castle or a newer property on the edge of Windsor, call or WhatsApp 07399 651836 to arrange the £125 survey. Let us know your property type so we can plan access and timing properly from the start."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you fit a cloakroom in a narrow Windsor town house with a period staircase?",
+      "a": "Yes — a cloakroom's small material volume suits these properties well. We plan carrying routes and deliveries around the staircase and any tight turns at survey stage to avoid damage to the building."
+    },
+    {
+      "q": "Do you refit existing downstairs WCs as well as creating new ones?",
+      "a": "Yes. In Windsor's inter-war, post-war and newer housing, a downstairs WC is often already in place and simply needs modernising — new sanitaryware, retiling and improved ventilation."
+    },
+    {
+      "q": "Do you supply the WC and basin?",
+      "a": "No — we're fit-only. You source the sanitaryware, brassware and tiles, and we carry out the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Does a town-centre installation cost more because of access?",
+      "a": "It can take a little longer on site due to the care needed with a period staircase, but the £125 survey gives you a firm, transparent quote reflecting your specific property before any work starts."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation service details" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation across Windsor" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/ascot/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Ascot" },
+    { "href": "/areas/sunningdale/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "cloakroom WC installation Windsor",
+  "secondaryKeywords": [ "downstairs toilet installation Windsor", "cloakroom fitter Windsor", "town house WC refit Windsor" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Windsor cloakroom and WC installation page. Subject and action: a finished narrow cloakroom with a wall-hung WC and a compact wall-mounted basin positioned beneath a tall sash-style window, static and dry. Setting and work-stage: fully completed small WC room with white metro tile wainscot to dado height and a deep navy painted wall above, period skirting and architrave suggesting a Georgian town house. Composition: vertical-emphasis framing shot slightly upward to exaggerate the narrow, tall proportions of the room. Light and materials: cool daylight filtering through the narrow sash window, polished chrome tap and flush plate, white, navy and chrome palette with varied sheen between gloss tile and matte paint. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no running water, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-cloakroom-and-wc-installation-hero.webp",
+    "heroAlt": "Finished narrow cloakroom with navy and white metro tile and wall-hung WC beneath a sash window in a Windsor town house",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

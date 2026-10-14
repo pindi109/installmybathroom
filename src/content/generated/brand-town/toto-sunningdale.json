@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-sunningdale/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "sunningdale",
+  "slug": "toto-sunningdale",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation across Sunningdale. You buy the fixture, we handle the structural and electrical first-fix. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-sunningdale/"
+  },
+  "h1": "TOTO bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties around them — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads with generous plot sizes. That kind of space is exactly what a TOTO Neorest benefits from: a single integrated unit replacing the pan, cistern and seat, with structural and electrical requirements that are easier to accommodate when moving a waste run three feet isn't constrained by a shared party wall. We install the full TOTO Washlet and Neorest range fit-only across Sunningdale."
+  },
+  "sections": [
+    {
+      "heading": "Washlet seat or Neorest unit — the first-fix is different",
+      "body": "A Washlet seat adds to a conventional WC pan, so the existing waste run and cistern arrangement generally stay as they are, with the main addition being a power supply routed to the seat. A Neorest is a different scale of job: it's a single integrated unit that replaces the pan, cistern and seat together, which means the waste connection, water supply and electrical feed all have to be planned and roughed in before any tiling goes down. Telling us at survey stage which product you've ordered, or are considering, determines how we set the room out from the start."
+    },
+    {
+      "heading": "Plot size and why it matters for a Neorest install",
+      "body": "The private and gated roads around Sunningdale tend to come with generous plot sizes, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows. Moving a waste run three feet to accommodate a freestanding bath, or repositioning a WC to fit a Neorest's integrated cistern, is rarely constrained by neighbouring structure the way it would be in a smaller house. That extra flexibility is useful specifically because a Neorest needs more depth behind the wall for its concealed cistern and servicing access than a standard pan does."
+    },
+    {
+      "heading": "What we fit from the TOTO range",
+      "body": "Our fit-only service covers TOTO's wall-hung and close-coupled Washlet-compatible pans, the Washlet electronic seats, full Neorest integrated units, and matching TOTO basins and brassware where specified. You buy the products from TOTO or an approved retailer; we handle the strip-out of the existing suite, first-fix plumbing and electrics, tiling, connection, testing and snagging. Because the electronics sit inside the fixture rather than being added on afterwards, the first-fix has to be right before anything is tiled over."
+    },
+    {
+      "heading": "Survey, install, price",
+      "body": "We start with a paid survey at £125, during which we check the existing waste and water runs, confirm what power is realistically available near the WC position, and establish whether the job is a Washlet retrofit or a full Neorest replacement. The install itself starts from £3,500, varying with scope, and once agreed we strip out, first-fix the plumbing and electrics, tile, fit and connect the TOTO unit, and snag before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a gated-road property in Sunningdale change how you plan the installation?",
+      "a": "Not fundamentally, though the generous plot sizes typical of these roads generally give more flexibility to relocate a waste run or widen access than a smaller terraced property would allow, which helps with a Neorest's layout requirements."
+    },
+    {
+      "q": "What's the difference between fitting a Washlet and a Neorest?",
+      "a": "A Washlet seat adds to a conventional pan with the waste run largely unchanged. A Neorest replaces the pan, cistern and seat as one integrated unit, so waste, water and electrical feed all need planning before tiling starts."
+    },
+    {
+      "q": "Do you supply the TOTO sanitaryware?",
+      "a": "No — we're fit-only. You buy the Washlet, Neorest, basin or brassware from TOTO or an approved retailer, and we handle the strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "How much does a TOTO installation cost in Sunningdale?",
+      "a": "Fit-only installations start from £3,500, with the final price depending on whether it's a Washlet retrofit or a full Neorest replacement with additional first-fix work. We confirm pricing after the £125 survey."
+    },
+    {
+      "q": "Can you move a WC position to fit a freestanding bath alongside a Neorest?",
+      "a": "Often, yes — the generous plot sizes around Sunningdale mean moving a waste run is less likely to be constrained by neighbouring structure, though we confirm feasibility for your specific property at survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers in Sunningdale",
+      "href": "/areas/sunningdale/"
+    },
+    {
+      "anchor": "TOTO installations in Sunningdale",
+      "href": "/areas-brands/sunningdale/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Sunningdale",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Sunningdale",
+    "TOTO Washlet installation Sunningdale",
+    "fit-only bathroom installer Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page conveying the engineering precision of an integrated shower toilet install. Subject and action: a wall-hung Neorest-style WC fixed in place with a freestanding bath visible in the background mid-reposition, no branding visible on either fixture. Setting and work-fix stage: a large principal en-suite in a gated-road detached house, first-fix complete, tiling substantially finished, fixtures being connected. Composition: diagonal composition with the WC in the near third and the bath receding into the middle distance, asymmetric framing. Light and materials: dark basalt and anthracite tiling with subtle texture, brushed nickel pipework and bath filler, cool evening light through a frosted window casting long soft shadows. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-sunningdale-hero.webp",
+    "heroAlt": "Wall-hung integrated shower toilet and freestanding bath mid-installation in a dark basalt bathroom with brushed nickel fittings in Sunningdale",
+    "inline": []
+  }
+}

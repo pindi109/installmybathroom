@@ -1,0 +1,73 @@
+{
+  "path": "/installer/kaldewei-windsor/",
+  "family": "Brand × town",
+  "brand": "kaldewei",
+  "town": "windsor",
+  "slug": "kaldewei-windsor",
+  "seo": {
+    "title": "Kaldewei Installation in Windsor | Fit-Only Steel Baths & Trays | Install My Bathroom",
+    "description": "We install client-supplied Kaldewei steel baths and shower trays across Windsor, from period town houses near the Castle to family homes further out. Fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kaldewei-windsor/"
+  },
+  "h1": "Kaldewei installation in Windsor",
+  "hero": {
+    "intro": "A steel Kaldewei bath doesn't behave like an acrylic one when it has to get round a tight half-landing turn, and Windsor is a town where that distinction decides what actually reaches the bathroom. Close to the Castle and the historic centre, Windsor's housing is dominated by Georgian and Victorian town houses on narrow plots, many with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes, with some newer developments on redeveloped sites — properties where access is usually far more straightforward. Install My Bathroom fits Kaldewei's titanium-enamelled steel baths, shower trays and panel systems across both types of Windsor property, on a fit-only basis: you supply the Kaldewei product, we handle the installation detail that steel enamel specifically needs."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Kaldewei in Windsor",
+      "body": "Kaldewei's baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded like most bathroom sanitaryware — built-in, freestanding and bath-in-bath models, including low-profile and flush-fit baths and trays, plus the matching panel systems and support frame kits that go with them. Kaldewei doesn't make brassware, so whatever tap, filler or shower valve you've specified separately is fitted to the bath or tray once we've checked the waste, overflow and any tap-hole positions against the exact model — a detail that matters whether the bathroom is in a period Windsor town house or a more recent family home further out."
+    },
+    {
+      "heading": "Why access matters more for a steel bath in a Windsor town house",
+      "body": "Steel enamel is considerably lighter than cast iron but heavier and less flexible than acrylic, and that difference shows up in how a bath or tray moves through a building, not in how it performs once it's fitted. In a Georgian or Victorian town house near Windsor's centre, a period staircase with a tight turn onto the landing can genuinely limit what will physically go up — a steel bath can't be flexed or angled through a narrow opening the way an acrylic shell sometimes can. We check access dimensions against the bath's actual packaged size at survey, not on delivery day, so if a particular model won't make the turn, that's known before it's ordered rather than discovered with the bath sitting in the hallway. In the inter-war and post-war properties further from the centre, access is usually more generous, and the planning shifts instead to even, accurate bearing across the full base of the bath or tray — uneven support can flex the rigid steel and, over time, crack the enamel, regardless of which part of Windsor the property is in."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We work fit-only across Windsor: you choose and supply your Kaldewei bath, shower tray or sanitaryware, and we handle the strip-out, first fix, tanking, tiling, plumbing and snagging needed to install it properly, from £3,500. Every project starts with a £125 survey, where we confirm access through your specific property, check the floor and waste arrangement, and plan the installation detail your Kaldewei product needs before anything is ordered. Book a survey to get a firm, written quote for your Windsor bathroom."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a Kaldewei bath fit up a narrow Windsor town house staircase?",
+      "a": "It depends on the model and the staircase. Steel enamel baths can't be flexed through a tight turn the way an acrylic bath sometimes can, so we check the bath's actual packaged dimensions against your stairs and landing at survey, before it's ordered — particularly important in the Georgian and Victorian town houses near Windsor's centre, where staircases are often original and narrow."
+    },
+    {
+      "q": "Does Kaldewei make taps and shower valves as well as baths?",
+      "a": "No. Kaldewei produces baths, shower trays and panel systems only, so we fit them alongside brassware you've sourced separately, checking the waste, overflow and tap-hole positions against the exact Kaldewei model before that brassware is ordered."
+    },
+    {
+      "q": "Do you supply the Kaldewei bath or just install it?",
+      "a": "We're fit-only, so you supply the Kaldewei product and we install it. Across Windsor, that means we fit baths, trays and sanitaryware sourced through a showroom, retailer or designer, to the detail Kaldewei's steel enamel specifically needs."
+    },
+    {
+      "q": "What happens if my Kaldewei bath won't go up the stairs?",
+      "a": "We'd rather know that at survey than on delivery day. If access is genuinely tight, we talk through the options before the bath is ordered — a different model, or in some cases structural alterations to widen an opening — rather than after it's arrived."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kaldewei/", "anchor": "Kaldewei installation detail" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom fitting in Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "Bathroom brands we fit in Windsor" },
+    { "href": "/services/bathroom-strip-out-and-preparation/", "anchor": "Bathroom strip-out and preparation" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kaldewei" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "Kaldewei installation Windsor",
+  "secondaryKeywords": [
+    "Kaldewei bath fitter Windsor",
+    "Kaldewei shower tray installation Windsor",
+    "steel bath installation Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Windsor Kaldewei installer page, implying the brand's steel bath through a close construction-stage access moment rather than a finished room. Subject and action: a protectively wrapped titanium-enamelled steel bath resting on its side at the foot of a narrow period staircase, foam corner protection visible at its rim, caught mid-move rather than finished or in use. Setting and work-stage: a construction-stage hallway at the base of a Georgian town house staircase near Windsor's historic centre, early evening. Composition: low, tight three-quarter angle from floor level, original staircase spindles and newel post framing the background, the bath's wrapped rim and protection foam filling the foreground. Light and materials: a single work lamp clipped to a step ladder mixing with fading blue dusk light through a narrow window, original stripped timber staircase, a sliver of pale enamel visible beneath the protective wrap, uneven mixed-source light with a hard-edged lamp shadow and soft dusk fall-off elsewhere in frame. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED light strips anywhere in frame, no catalog-symmetrical staging, no single uniform amber or gold colour wash across the frame, no plants, florals or candles as styling props, no water shown running, varied and believable wear on the timber staircase rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/kaldewei-windsor-hero.webp",
+    "heroAlt": "A titanium-enamelled steel bath wrapped in protective padding at the foot of a narrow period staircase in a Windsor town house, lit by a single work lamp against fading evening light.",
+    "inline": []
+  }
+}

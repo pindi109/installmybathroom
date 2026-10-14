@@ -1,0 +1,76 @@
+{
+  "path": "/areas/windsor/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Walk-In Shower Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation in Windsor. Frameless and semi-frameless enclosures suited to town houses and family homes alike. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types. Close to the Castle and historic centre, Georgian and Victorian town houses sit on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, the housing is more typically inter-war and post-war family homes, with some newer developments on redeveloped sites. A walk-in shower installation needs a different approach depending on which of those we're working in — particularly around how the enclosure glass gets delivered and moved into place. We're fit-only: you source the enclosure, tray and tiles; we strip out, tank, tile, plumb and snag."
+  },
+  "sections": [
+    {
+      "heading": "Why staircases and access matter for an enclosure installation",
+      "body": "A walk-in shower installation depends on getting a frameless or semi-frameless glass panel safely into the bathroom intact — it isn't a product that comes apart into small pieces, unlike tiles or a tray. In central Windsor's Georgian and Victorian town houses, narrow plots, limited rear access and period staircases genuinely constrain how a large glass panel gets moved upstairs, which is why we check stair width, turn angles and door openings at survey, and why semi-frameless designs with a smaller fixed panel sometimes suit these properties better than a single large sheet of glass."
+    },
+    {
+      "heading": "Family homes further from the centre",
+      "body": "In the inter-war and post-war family homes and newer developments further out from the Castle, access is typically more straightforward, with wider staircases and more generous landings that make moving a tray and glass enclosure into position less constrained. That doesn't change the technical requirements of the installation itself — correct fall to waste on a level-access tray, proper tanking, accurate setting-out before tiling — but it does mean fewer logistical complications getting materials to the bathroom in the first place."
+    },
+    {
+      "heading": "What the installation itself involves",
+      "body": "Regardless of which part of Windsor the property is in, the job is the same in substance: strip-out of the existing shower or bath, forming a level-access or low-profile tray with the correct fall, tanking the shower area and adjoining upstands, tiling, then fitting the frameless or semi-frameless enclosure and brassware you've sourced. The fixing system has to match the glass thickness the manufacturer specifies, and the floor and walls need to be genuinely level and square before tiling starts — glass doesn't forgive an out-of-true corner."
+    },
+    {
+      "heading": "The process, from survey to snagging",
+      "body": "We start with a paid £125 survey, checking floor levels, waste position, wall construction and — particularly in central Windsor town houses — staircase width and access for materials. From there: strip-out, first-fix plumbing changes if the waste is moving, tanking, tiling, then fitting the tray, enclosure and brassware, finished with a full snag check. Installs start from £3,500 on a fit-only basis."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a large glass shower panel fit up a narrow Victorian staircase in central Windsor?",
+      "a": "It depends on the staircase width and turn angles, which we check at survey. Where a single large panel won't fit safely, a semi-frameless design with a smaller fixed panel is often a better-suited alternative for these properties."
+    },
+    {
+      "q": "Is installation easier in the family homes further from the Castle?",
+      "a": "Generally, yes, in terms of logistics. Wider staircases and more generous landings in Windsor's inter-war and post-war homes typically make moving trays and enclosure glass into position more straightforward, though the installation itself follows the same standards either way."
+    },
+    {
+      "q": "Do you supply the shower enclosure and tray?",
+      "a": "No, we're fit-only. You choose and buy the enclosure, tray, tiles and brassware, and we carry out strip-out, first-fix, tanking, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What's the difference between a walk-in shower and a wet room?",
+      "a": "A walk-in shower uses a defined tray, usually level-access, within a frameless or semi-frameless enclosure. A wet room tanks and falls the whole floor with no raised tray, which is a larger-scope and more disruptive job."
+    },
+    {
+      "q": "How much does a walk-in shower installation cost in Windsor?",
+      "a": "Installs start from £3,500 on a fit-only basis, covering strip-out, first-fix, tanking, tiling, plumbing and snagging, with the final figure confirmed after the £125 survey, which also checks access for materials."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation in Windsor" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/ascot/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Ascot" },
+    { "href": "/areas/sunningdale/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "walk-in shower installation Windsor",
+  "secondaryKeywords": [ "frameless shower enclosure Windsor", "semi-frameless shower installer Windsor", "walk-in shower fitter Berkshire" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Windsor walk-in shower installation service page. Subject and action: a finished semi-frameless walk-in shower enclosure with satin chrome fixings and a compact low-profile tray sized for a smaller period bathroom, shown as a completed installation. Setting and work-stage: a Georgian town-house bathroom with a narrow sash window and slightly lower ceiling, fully finished, tiling and glass complete. Composition: a tight, vertical-feeling frame emphasising the compact proportions of the room, enclosure positioned in a corner with tiled walls visible on two sides. Light and materials: soft diffused daylight through a small window, classic white and grey veined marble-effect tiles, chrome fixings with a satin rather than mirror finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished semi-frameless walk-in shower with satin chrome fixings in a compact Windsor town-house bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

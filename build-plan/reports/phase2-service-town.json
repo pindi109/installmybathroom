@@ -1,0 +1,670 @@
+{
+  "total": 84,
+  "failed": 0,
+  "warned": 37,
+  "passed": 47,
+  "items": [
+    {
+      "family": "service-town",
+      "slug": "ascot-accessible-luxury-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-large-format-porcelain-tiling",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-shower-toilet-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-underfloor-heating-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-walk-in-shower-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 648 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-ensuite-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 615 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-large-format-porcelain-tiling",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-natural-stone-and-marble-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 681 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 592 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 669 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 659 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-accessible-luxury-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-ensuite-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 645 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 644 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 637 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 626 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-walk-in-shower-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 635 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-cloakroom-and-wc-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 677 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-ensuite-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 603 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 643 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 616 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 616 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 671 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 654 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-cloakroom-and-wc-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 654 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 601 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 584 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 629 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 655 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 673 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-cloakroom-and-wc-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 664 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 580 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-natural-stone-and-marble-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 695 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 547 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 645 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 622 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-wet-room-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 611 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 696 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 621 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 616 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 668 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 684 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-wet-room-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 668 < 700"
+      ]
+    }
+  ]
+}

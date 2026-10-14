@@ -1,0 +1,77 @@
+{
+  "path": "/installer/duravit-sunningdale/",
+  "family": "Brand × town",
+  "brand": "duravit",
+  "town": "sunningdale",
+  "slug": "duravit-sunningdale",
+  "seo": {
+    "title": "Duravit Bathroom Installation in Sunningdale | Fit-Only | Install My Bathroom",
+    "description": "Duravit sanitaryware, SensoWash shower toilets and ME by Starck suites fitted across Sunningdale's larger detached homes. Fit-only installation from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/duravit-sunningdale/"
+  },
+  "h1": "Duravit bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale's identity is bound up with its golf courses, and the large detached properties around them — a mix of Victorian and Edwardian houses, inter-war homes and more recent executive-style builds, many on private or gated roads — tend to come with generous plots that give us real flexibility on layout. Moving a waste run by a few feet to reposition a WC, rather than working around wherever the old one happened to sit, is the kind of change that's rarely constrained by a neighbouring structure here. That flexibility matters on a Duravit installation specifically, because a SensoWash shower toilet seat needs a power supply and a water feed run to the pan in addition to standard plumbing, and it's far easier to route that supply properly when the WC position itself isn't fixed by the existing pipework. It's a brand we fit regularly around Sunningdale, generally specified through a showroom as a SensoWash seat, a full ME by Starck suite, or both together."
+  },
+  "sections": [
+    {
+      "heading": "What we fit from Duravit",
+      "body": "Duravit sanitaryware is one of the ranges we see most often in Sunningdale, generally specified through a showroom as part of a wider design rather than bought as individual items. The SensoWash shower toilet seat and the full ME by Starck suite — basin, WC and furniture specified together as a coordinated range — are the two that come up most. We're fit-only on all of it: you choose and supply the Duravit products, and we handle the strip-out, frame, first fix, tiling and plumbing needed to fit them properly."
+    },
+    {
+      "heading": "Routing power and water for a SensoWash seat",
+      "body": "A SensoWash seat is more involved to install than a standard WC, because it needs both a power supply and a dedicated water feed run to the pan, on top of the waste and supply pipework a wall-hung pan needs anyway. Where the WC position can move — which Sunningdale's larger plots generally allow — we plan that electrical and water routing in at first fix, rather than trying to retrofit a power supply into a wall that's already boarded. We also confirm at the same stage whether the pan goes onto Duravit's own DuraSystem frame or a standard concealed cistern frame, since the two aren't interchangeable once the stud wall is closed up."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We work fit-only across Sunningdale: you source the Duravit sanitaryware, brassware, tiles and furniture, and we strip out, first-fix, tile, plumb and snag, from £3,500. A £125 survey confirms the frame route, the power and water supply a SensoWash seat needs, and the WC position itself, before any of it is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a SensoWash shower toilet seat need anything extra compared with a standard WC?",
+      "a": "Yes — it needs a power supply and a dedicated water feed to the pan, in addition to standard waste and supply pipework. We plan this in at first fix."
+    },
+    {
+      "q": "Can you move the position of a WC to make that easier?",
+      "a": "Often, yes. Sunningdale's larger plots generally give more flexibility to reposition a waste run than a smaller property allows, which makes routing power and water for a SensoWash seat more straightforward."
+    },
+    {
+      "q": "What's the difference between DuraSystem and a standard concealed cistern frame?",
+      "a": "DuraSystem is Duravit's own frame for some wall-hung pans; others are compatible with a standard concealed cistern frame. The two aren't interchangeable once a wall is boarded, so we confirm the right one before fitting starts."
+    },
+    {
+      "q": "Do I need to buy the Duravit products myself?",
+      "a": "Yes — we're fit-only, so you source the sanitaryware and brassware, typically through a showroom, and we handle the installation."
+    },
+    {
+      "q": "What does Duravit installation cost in Sunningdale?",
+      "a": "From £3,500, fit-only. A £125 survey confirms the full scope, including any frame or supply routing a SensoWash seat needs, before we quote."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/duravit/", "anchor": "More on the Duravit sanitaryware we fit" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "All the bathroom brands we fit in Sunningdale" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" },
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunningdale" },
+    { "file": "brands.json", "id": "duravit" }
+  ],
+  "primaryKeyword": "Duravit bathroom installation Sunningdale",
+  "secondaryKeywords": [
+    "Duravit installer Sunningdale",
+    "Duravit SensoWash installation Sunningdale",
+    "Duravit fitter Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Duravit x Sunningdale installer page, implying Duravit's shower toilet seat product through a tight finished close-up. Subject and action: a tight close-up of a wall-hung WC fitted with a shower toilet seat, the seat's side control panel and integrated wall flush plate visible, lid closed. Setting and work-stage: a finished WC area in a large Sunningdale detached house, daytime, bright natural daylight from an unseen side window. Composition: tight frontal-to-three-quarter close-up filling most of the frame with the WC and flush plate, dark tiled wall behind falling slightly out of focus. Light and materials: dark basalt/anthracite stone-effect wall tile, brushed bronze flush plate and seat trim, bright directional daylight raking across the tile surface to reveal its texture rather than flattening it. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the dark stone tile with faint handling marks on the flush plate rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/duravit-sunningdale-hero.webp",
+    "heroAlt": "Close-up of a Duravit-style wall-hung WC fitted with a shower toilet seat and brushed bronze flush plate against dark anthracite stone tile, bright daylight, finished Sunningdale bathroom.",
+    "inline": []
+  }
+}

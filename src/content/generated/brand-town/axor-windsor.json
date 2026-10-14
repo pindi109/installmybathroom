@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-windsor/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "windsor",
+  "slug": "axor-windsor",
+  "seo": {
+    "title": "AXOR Bathroom Installer in Windsor | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation in Windsor, fit-only from £3,500. Access planning for period town houses near the Castle and post-war family homes.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-windsor/"
+  },
+  "h1": "AXOR bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once; further out, more typically inter-war and post-war family homes with easier access throughout. That split changes how an AXOR installation gets planned before it changes how it gets fitted — getting a valve body, pipework and a boxed trim kit up a narrow period staircase and through a town house with no rear access takes more sequencing than carrying the same materials into a post-war semi with a side passage."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR in Windsor",
+      "body": "AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux. In Windsor, we install AXOR shower valves, basin and bath mixers, and the matching trim and handset packages on a fit-only basis, in both the Georgian and Victorian town houses near the Castle and the inter-war and post-war family homes further out — you source the AXOR products, and we plan the delivery, first fix and final fit around whichever of Windsor's two housing types the property falls into."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "In a Georgian or Victorian town house with a narrow plot, limited rear access and a period staircase, we plan the delivery and handling of AXOR materials in smaller stages rather than bringing everything to site at once — a concealed valve body, pipework, tiling materials and the boxed trim kit all need to get through the building without the staircase or the access route becoming the limiting factor on the day. In the inter-war and post-war homes further from the centre, the access is usually more straightforward, but the installation discipline around the brassware itself doesn't change: a brushed or matte black AXOR trim shows every scuff mark from careless handling in a way chrome never does, regardless of which part of Windsor the property sits in."
+    },
+    {
+      "heading": "How Windsor's housing stock affects a typical AXOR installation",
+      "body": "The two housing types common in Windsor change the planning of an AXOR installation more than the fitting itself. In a period town house near the Castle, the narrow staircase and lack of rear access mean we stage deliveries carefully and sometimes break a valve body and its trim kit into separate deliveries to avoid a bottleneck on the stairs. In an inter-war or post-war home, the access is rarely the constraint, so the survey focuses more on confirming the exact AXOR model and valve type against the layout, in the same way it would anywhere else. Either way, the visible trim and handset go on last, once the room is genuinely finished around them and other trades are clear of the area."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Windsor: you choose your AXOR brassware and the rest of your bathroom specification, and we handle the strip-out, first fix, plumbing, tiling and final fit, from £3,500, planning the access and material handling around whichever type of property you're in. Every project starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we walk the access route as well as confirm the AXOR specification, so the installation programme accounts for a period staircase or limited rear access from day one. With 30 years' experience, we've worked through both of Windsor's housing types and plan accordingly. If anything needs attention after the fact, repairs start from £200, with a £500 minimum for an emergency call-out and no standalone regrouting offered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a period town house near Windsor Castle affect how AXOR materials are delivered?",
+      "a": "Yes. Narrow plots, limited rear access and period staircases mean we plan delivery and first fix in smaller stages rather than bringing everything to site at once."
+    },
+    {
+      "q": "Is fitting AXOR brassware different in a post-war Windsor home compared to a period town house?",
+      "a": "The access is usually more straightforward in inter-war and post-war homes, but the handling discipline around the brassware finish stays the same regardless of property type."
+    },
+    {
+      "q": "Will a brushed or matte black AXOR trim get marked during a period property fit?",
+      "a": "It can if it's fitted too early — we fit the visible trim and handset last in every property type, once other trades are clear of the area."
+    },
+    {
+      "q": "Do you assess access as part of the survey?",
+      "a": "Yes. At the £125 survey, we walk the access route as well as confirm the AXOR specification, so a narrow staircase or limited rear access is planned for from the start."
+    },
+    {
+      "q": "Do I need to supply the AXOR brassware myself?",
+      "a": "Yes — we work fit-only, so you source your AXOR products, and we handle the installation across both of Windsor's housing types."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom fitting in Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "Bathroom brands we fit in Windsor" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure and screen installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Windsor",
+  "secondaryKeywords": [
+    "AXOR installation Windsor",
+    "AXOR brassware fitter Windsor",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Windsor installer page, implying AXOR's bath brassware through a close fixture detail rather than a full room shot. Subject and action: a close three-quarter shot of a traditional-style freestanding bath filler and cross-head handset mounted at the end of a roll-top bath, static, no water running. Setting and work-stage: a finished en-suite within a converted Georgian town house near Windsor's historic centre, daytime. Composition: close three-quarter angle on the filler and handset, the curved edge of the bath filling the lower foreground, a small period-style window visible in soft focus behind. Light and materials: Carrara marble-effect floor tile, brushed bronze traditional-style brassware, bright daylight entering through the small period window, creating a crisp, directional shadow rather than flat ambient light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble-effect tile with faint realistic wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-windsor-hero.webp",
+    "heroAlt": "Close-up of a brushed bronze traditional-style freestanding bath filler and handset against Carrara marble-effect tile in a converted Windsor town house en-suite, bright daylight.",
+    "inline": []
+  }
+}

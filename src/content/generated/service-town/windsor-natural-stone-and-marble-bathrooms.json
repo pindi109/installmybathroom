@@ -1,0 +1,100 @@
+{
+  "path": "/areas/windsor/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "windsor",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms in Windsor | Install My Bathroom",
+    "description": "Fit-only dark emperador and natural stone bathroom installation in Windsor. Narrow-access handling, adhesive, sealing and movement joints. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types: Georgian and Victorian town houses close to the Castle and historic centre, many on narrow plots with limited rear access and period staircases, and more typical inter-war and post-war family homes further out towards the edges of town, alongside some newer developments. That split matters a great deal when the material being installed is a dark emperador marble slab rather than a box of porcelain tiles, because heavy stone moved through a narrow period staircase needs far more careful handling and sequencing than the same material delivered to a house with open rear access. We fit the stone you've sourced — strip-out, first-fix, stone-fixing, plumbing and snagging — planned around whichever type of property it is."
+  },
+  "sections": [
+    {
+      "heading": "Dark emperador marble: what makes it different to porcelain",
+      "body": "Emperador is a dark brown marble, often with fine veining, and like other calcareous stones it's porous and reacts to acidic cleaning products, so it needs a penetrating seal before grouting and again once installed, or it will dull and stain faster than a lighter stone would show the same damage visually. Because it's dense and typically supplied in larger, heavier pieces than standard tile, the substrate beneath has to be stiffer and the adhesive needs enough bond strength and open time to support the weight without slumping — a standard cementitious adhesive isn't always adequate, so we specify a polymer-modified type suited to the slab size and weight. Movement joints also need sizing to the slab rather than a generic grid, since an undersized joint on a large, heavy piece of stone is more likely to crack as the substrate settles."
+    },
+    {
+      "heading": "Why Windsor's two property types change the plan",
+      "body": "In the Georgian and Victorian town houses near the Castle, narrow plots, limited rear access and period staircases constrain how much material can be moved through the building at once, which means heavy emperador slabs often need to be brought in in planned stages rather than a single delivery, and the strip-out and waste removal has to be sequenced around the same constraint. Further out, in the inter-war and post-war homes and newer developments, access is usually more straightforward, and that generally allows stone deliveries and spoil removal to happen in fewer, larger stages. We plan the delivery and site logistics around whichever type of property we're working in before the job starts, not once materials are already on site."
+    },
+    {
+      "heading": "The installation process",
+      "body": "We begin with strip-out and a substrate check for level, rigidity and damp, with waste and materials moved through the building according to its access constraints. First-fix plumbing follows your agreed layout, then a waterproofed, reinforced substrate is prepared to carry the stone's weight. Emperador pieces are dry-laid to check veining and tonal consistency before fixing with the correct adhesive, movement joints are set to the slab dimensions, and the stone is sealed after grouting. Sanitaryware and brassware are fitted last, followed by a full snag before handover."
+    },
+    {
+      "heading": "Book a survey",
+      "body": "Because access and stone handling both depend heavily on which type of Windsor property you have, every project starts with a £125 paid survey, where we assess the staircase, access route and room before confirming a quote. Fit-only installations start from £3,500. Call or WhatsApp 07399 651836 to arrange a date."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the emperador marble or stone, or do I source it?",
+      "a": "We're fit-only, so you source the stone, sanitaryware, brassware and any tiles. We carry out strip-out, first-fix, stone-fixing, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "Can heavy marble slabs be moved through a Windsor town house with a narrow staircase?",
+      "a": "Usually yes, but it needs planning. Narrow plots, limited rear access and period staircases near the Castle often mean slabs are brought in and waste removed in planned stages rather than a single delivery."
+    },
+    {
+      "q": "Why does dark emperador marble need sealing?",
+      "a": "It's a porous, calcareous stone that reacts to acidic cleaning products, so it needs a penetrating seal before grouting and again once installed to prevent staining and dulling."
+    },
+    {
+      "q": "Does the adhesive need to be different for large, heavy stone slabs?",
+      "a": "Yes. Standard cementitious adhesive isn't always adequate for large, heavy marble pieces, so we specify a polymer-modified adhesive with the bond strength and open time to support the weight without slumping."
+    },
+    {
+      "q": "What does a natural stone bathroom cost in Windsor?",
+      "a": "Fit-only installations start from £3,500, with the final figure depending on room size, the stone specified, access constraints and any layout changes. The £125 paid survey confirms your quote."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation in Windsor",
+      "href": "/areas/windsor/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Windsor",
+      "href": "/bathroom-cost/windsor/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Ascot",
+      "href": "/areas/ascot/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Sunningdale",
+      "href": "/areas/sunningdale/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Windsor",
+  "secondaryKeywords": [
+    "dark emperador marble bathroom Windsor",
+    "marble bathroom installer Windsor",
+    "stone bathroom fitter Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Windsor. Subject and action: a finished dark emperador marble floor and feature wall panel with fine pale veining against deep brown stone, surface polished and sealed. Setting and work-stage: a compact period-house ensuite with a traditional sash window, installation finished, fittings in place. Composition: tight framing favouring the feature wall panel and floor junction, slightly elevated angle, veining creating diagonal visual interest across the frame. Light and materials: cool overcast daylight through a sash window, neutral-cool tone, dark stone showing genuine polished sheen with visible but natural reflections rather than uniform gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Dark emperador marble floor and feature wall panel in a finished bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

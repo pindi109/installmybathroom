@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-wentworth-estate/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "wentworth-estate",
+  "slug": "matki-wentworth-estate",
+  "seo": {
+    "title": "Matki Bathroom Installer on Wentworth Estate | Fit-Only",
+    "description": "Matki frameless shower enclosure and screen installation on Wentworth Estate, fit-only from £3,500. Gate-coordinated delivery and precise wall fixing.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-wentworth-estate/"
+  },
+  "h1": "Matki bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Getting a pre-cut Matki glass panel through the gate at Wentworth Estate without the managing agent's sign-off isn't something we leave to the morning of the fit, because once that panel has been ordered to size there's no trimming it on site if access or timing goes wrong. Matki's enclosures and screens are built to a minimal, largely frameless aesthetic, with almost no trim to hide an inaccurate opening or an uneven wall behind it, so the glass has to be ordered against measurements that are already correct. We install luxury, fit-only bathrooms for homeowners across the private, gated Wentworth Estate in Virginia Water, around fifteen to twenty minutes from our Bracknell base, coordinating access with the estate and any managing agent so the programme — and the glass delivery itself — runs without delay at the gate. You source the Matki enclosure; we handle the strip-out, first fix, tiling, wall fixing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki on Wentworth Estate",
+      "body": "Matki is specified on Wentworth Estate most often for shower enclosures and screens built around a minimal, largely frameless line of glass, typically in a principal en-suite where the design brief calls for as little visible hardware as possible. That minimal design means there's very little trim left to disguise an inaccurate opening, an out-of-true wall, or a tray that's not quite level, so the preparation underneath the glass carries more weight here than it would with a heavily-framed screen. We work from the configuration and hardware finish already chosen through your showroom or designer, and plan the strip-out, first fix and tiling sequence around the precise dimension the enclosure will be ordered to."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "Because the Matki panel arrives pre-cut, the wall fixing points for the hinges or channel have to be confirmed as sound and correctly prepared before the glass is ordered — there's no on-site adjustment available once it's cut to size. We also check the tray is level and the surrounding tiling finished to the exact dimension the enclosure needs, since a largely frameless design has almost no tolerance for a tile line that's a few millimetres out. On an estate where access is coordinated rather than ad hoc, we build the delivery of that pre-cut panel into the same planning as the fixing detail, so the glass turns up exactly when the substrate is ready for it."
+    },
+    {
+      "heading": "How Wentworth Estate's setting affects a typical Matki installation",
+      "body": "Wentworth Estate's private, gated nature means every element of a Matki fit — the strip-out, the tiling, the glass delivery and the fit itself — gets scheduled around estate and managing agent coordination, not just around the trade sequence inside the house. That's a logistics discipline more than a structural one, but it directly affects how a Matki job runs in practice, because a pre-cut panel that arrives at the gate without prior clearance can mean a delay to the fit that a standard framed screen, ordered with more tolerance, would absorb more easily. We confirm estate access requirements and delivery timing at survey, alongside the usual measuring and fixing checks, so the glass panel's arrival is as reliable as its measurements."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki enclosures and screens on a fit-only basis — you choose and supply the glass, hardware finish, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, wall preparation, glass fixing, snagging and estate access coordination. Installations on Wentworth Estate start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the opening dimension, the fixing points and the access arrangements before the enclosure is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you handle estate access and gate clearance for a Matki delivery?",
+      "a": "Yes. We coordinate access with the estate and any managing agent as part of the project, confirming it at survey so the pre-cut glass panel's delivery and the fit itself aren't delayed at the gate."
+    },
+    {
+      "q": "Do you supply Matki enclosures, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki shower enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling and glass installation, from £3,500."
+    },
+    {
+      "q": "Why can't a Matki panel be adjusted on site if something's slightly wrong?",
+      "a": "The glass is cut to a fixed size before delivery, with almost no trim to absorb an error. We confirm the opening, tray level and fixing points at survey, before the panel is ordered, to avoid that situation."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around fifteen to twenty minutes by road from our Bracknell base, though the more significant factor for scheduling is estate access coordination rather than distance."
+    },
+    {
+      "q": "What does the £125 survey check before a Matki installation on the estate?",
+      "a": "We confirm the opening dimension, the tray level, the wall fixing points, and the estate's access and delivery requirements, so both the glass order and the fitting programme are planned correctly from the outset."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "Bathroom brands we fit on Wentworth Estate" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing & first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Wentworth Estate",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Wentworth Estate",
+    "Matki frameless screen fitter Virginia Water",
+    "fit-only Matki installer Surrey gated estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Wentworth Estate installer page, implying Matki's frameless enclosure range through a wider three-quarter fixture shot rather than a tight close-up. Subject and action: a three-quarter view of a largely frameless glass enclosure corner newly set into place, protective edge tape still on one top corner of the glass, a delivery crate's padded foam corner visible leaning against the wall nearby. Setting and work-stage: a principal en-suite nearing completion in a substantial house on a private estate, marble tiling finished around the enclosure, late afternoon. Composition: three-quarter angle taking in the enclosure corner and a slice of the tiled wall behind it, glass and tiling occupying the centre of frame, the padded crate corner soft-focus in the lower right foreground. Light and materials: Calacatta marble tiling with bold grey veining, matte black fixing hardware at the glass edge, warm late-afternoon daylight from an unseen window mixing with a single standing work lamp, producing uneven, directional light rather than flat illumination. Constraints: no people, no text, no logos, no brand names visible on fixtures or crate, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber or gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble with faint handling marks on the protective tape rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-wentworth-estate-hero.webp",
+    "heroAlt": "Three-quarter view of a frameless glass shower enclosure corner newly fixed with matte black hardware against Calacatta marble tiling, protective tape still on the glass, Wentworth Estate en-suite.",
+    "inline": []
+  }
+}

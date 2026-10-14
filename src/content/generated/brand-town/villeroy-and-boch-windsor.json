@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-windsor/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "windsor",
+  "slug": "villeroy-and-boch-windsor",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer in Windsor | Fit-Only",
+    "description": "Villeroy & Boch sanitaryware fitted in Windsor's period town houses and family homes. Fit-only installation from £3,500, £125 survey, frame checks first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-windsor/"
+  },
+  "h1": "Villeroy & Boch bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types, and each one changes how a Villeroy & Boch installation gets planned. Close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots often have limited rear access and period staircases that constrain how much material can be moved through the building at once — a concealed cistern frame and a Villeroy & Boch suite have to be sequenced and carried in carefully rather than delivered in one go. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes and newer developments, with more straightforward access. We fit Villeroy & Boch sanitaryware, basins, baths and ViClean shower toilet seats on a fit-only basis, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Moving materials through a period town house",
+      "body": "A concealed cistern frame, a bath and boxed sanitaryware don't fit through a narrow period staircase the way they would through a modern hallway, so on a central Windsor town house we plan the delivery and carrying sequence as carefully as the plumbing itself — breaking deliveries into stages, protecting original stairs and skirting, and timing larger items for when the staircase isn't also being used for other trades' materials. None of that changes what Villeroy & Boch requires structurally, but it changes how smoothly the first fix runs, and it's scoped at survey rather than discovered on the morning a bath won't go round a landing turn."
+    },
+    {
+      "heading": "Frame and flush plate compatibility, wherever the house sits",
+      "body": "Whether the property is a Georgian town house near the Castle or a post-war family home further out, the same Villeroy & Boch detail applies: the brand doesn't manufacture its own carrier frame, so the pan, flush plate and concealed cistern frame need confirming as compatible generations before anything is ordered. We check this against the specification at survey stage, because a mismatch is far more disruptive to put right in a period property with limited access than it would be to catch before the frame is even delivered."
+    },
+    {
+      "heading": "Family homes and newer developments on the edge of town",
+      "body": "Away from the historic centre, Windsor's inter-war and post-war family homes, along with newer residential developments, generally offer more straightforward access and more flexibility on layout than a narrow town house allows. A Villeroy & Boch installation in one of these properties is more often about the usual first-fix planning — waste runs, water supply and support for basins and baths — than about navigating staircases and narrow doorways. We still check both sides of this at the £125 survey, because Windsor's two housing types genuinely do need different planning, not the same approach applied twice."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you fit a Villeroy & Boch bathroom in a period Windsor town house with a narrow staircase?",
+      "a": "Yes. We plan delivery and carrying in stages around the staircase and access constraints typical of central Windsor's Georgian and Victorian houses, and scope that at survey rather than discovering it on fitting day."
+    },
+    {
+      "q": "Do you supply the Villeroy & Boch products, or just fit them?",
+      "a": "We fit only. You source your Villeroy & Boch sanitaryware, basins, baths or ViClean shower toilet seats, and we handle the installation, from £3,500."
+    },
+    {
+      "q": "Why does the carrier frame need confirming before ordering?",
+      "a": "Villeroy & Boch doesn't make its own carrier frame, so the pan, flush plate and concealed cistern frame need to be confirmed as matching generations before ordering — a detail that matters whatever type of Windsor property it's going into."
+    },
+    {
+      "q": "Is a Villeroy & Boch installation easier in Windsor's newer family homes?",
+      "a": "Generally, yes — access and layout flexibility tend to be more straightforward than in a central, period town house, though we still check waste runs, supply and support requirements at survey on every property."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom fitting in Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "All bathroom brands we fit in Windsor" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "windsor" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Windsor",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Windsor",
+    "fit-only Villeroy & Boch Berkshire",
+    "Villeroy & Boch bathroom fitter Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Windsor installer page, a close fixture shot implying careful handling of precise ceramics in a period property, rather than a full room view. Subject and action: a boxed ceramic basin partly unwrapped on a protective dust sheet at the foot of a narrow period staircase, packing foam folded back, no one touching it in frame. Setting and work-stage: the base of a narrow Georgian-era staircase in a central Windsor town house, stairs protected with board and sheeting, daytime, mid-delivery stage rather than finished room. Composition: close angle from stair-tread height looking along the sheeted stairs toward the unwrapped basin, basin and packing foam sharp in the foreground, staircase turn softly blurred behind. Light and materials: original dark timber staircase with worn brass stair rods, pale stone-coloured dust sheeting, mixed natural light from a small hallway window and a single work lamp near the stairs, uneven shadow along the stair risers. Constraints: no people, no text, no logos, no brand names visible on fixtures or packaging, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash, no plants or candles as props, no running water, timber staircase shows genuine wear and varied sheen rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-windsor-hero.webp",
+    "heroAlt": "A boxed ceramic basin partly unwrapped at the foot of a protected, narrow period staircase in a central Windsor town house during delivery.",
+    "inline": []
+  }
+}

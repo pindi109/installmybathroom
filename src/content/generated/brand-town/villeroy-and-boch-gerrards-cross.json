@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-gerrards-cross/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "gerrards-cross",
+  "slug": "villeroy-and-boch-gerrards-cross",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer in Gerrards Cross | Fit-Only",
+    "description": "Fit-only Villeroy & Boch bathroom installation in Gerrards Cross. You supply the sanitaryware and basins, we fit from £3,500. £125 survey confirms frame compatibility first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-gerrards-cross/"
+  },
+  "h1": "Villeroy & Boch bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Villeroy & Boch sanitaryware turns up regularly on the specifications we fit for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. We work fit-only there as everywhere else: you choose and supply the Villeroy & Boch basins, baths, sanitaryware or ViClean shower toilet seats, and we strip out, first-fix, tile, plumb and snag the installation, from £3,500. The part of the job that has nothing to do with the village and everything to do with the product is confirming frame and flush plate compatibility before a single fixing goes into the wall."
+  },
+  "sections": [
+    {
+      "heading": "Why the glaze finish matters once it's installed",
+      "body": "Villeroy & Boch's ceramics are precise and the glaze finishes are hard-wearing, which is part of why the brand holds up well in daily use once it's fitted. That durability only shows up properly if the installation itself is accurate — a basin bedded slightly out of level or a pan seated unevenly on its outlet will show as a visible flaw against a glaze this consistent, in a way it might not on a cheaper product. We take the time at first fix to get the basin, bath and pan level and properly supported, because the finish is doing its job of looking precise, and the installation needs to match it."
+    },
+    {
+      "heading": "Frame and flush plate compatibility, confirmed before ordering",
+      "body": "Villeroy & Boch doesn't make its own carrier frame for wall-hung WCs, so the flush plate, pan and concealed cistern frame need to be the right matching generations before anything arrives on site. We go through this at survey stage with whatever's already been specified through a Gerrards Cross showroom or your own sourcing, so the right frame and flush plate are ordered together rather than discovered as a mismatch once the wall is boarded and tiled. It's a product-specific check, not a property-specific one, and it applies the same way whether the house is older or newer."
+    },
+    {
+      "heading": "Fit-only, from £3,500, with a £125 survey first",
+      "body": "Every Villeroy & Boch installation we carry out in Gerrards Cross starts with a fixed-price £125 survey, which comes off your project cost if you go ahead. At survey we measure the room, check the waste run and water supply, confirm frame compatibility for the products you've specified, and give you a written scope and a firm quote rather than an estimate that moves once work starts. Installations start from £3,500 depending on scope, and because we're fit-only, the quote reflects labour and fitting accuracy honestly rather than bundling in a retail margin on the Villeroy & Boch products themselves."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I buy my Villeroy & Boch bathroom locally and have you fit it in Gerrards Cross?",
+      "a": "Yes. We're fit-only — you supply the Villeroy & Boch sanitaryware, basins, baths or ViClean shower toilet seats from a showroom or retailer of your choice, and we handle the installation, from £3,500."
+    },
+    {
+      "q": "Why do you check the carrier frame before ordering?",
+      "a": "Villeroy & Boch doesn't manufacture its own carrier frame, so the pan, flush plate and concealed cistern frame all need to be confirmed as compatible generations before anything is ordered, not discovered once the wall is already closed up."
+    },
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "Around 25 to 30 minutes by road from Bracknell, which is within our normal working radius for a fit-only Villeroy & Boch installation."
+    },
+    {
+      "q": "Does the £125 survey fee get deducted from the final price?",
+      "a": "Yes. It's a fixed fee for the visit and it's deducted from your total project cost if you go ahead with the installation."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom fitting in Gerrards Cross" },
+    { "href": "/areas-brands/gerrards-cross/", "anchor": "All bathroom brands we fit in Gerrards Cross" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "gerrards-cross" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Gerrards Cross",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Gerrards Cross",
+    "fit-only Villeroy & Boch Buckinghamshire",
+    "Villeroy & Boch bathroom fitter Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Gerrards Cross installer page, a mid shot focused on a freestanding bath detail to imply the brand's product range without showing a full room. Subject and action: the foot end of a freestanding ceramic bath with its overflow and waste fitting being connected, a wrench resting on the bath's rolled edge, work paused mid-task. Setting and work-stage: a part-finished family bathroom in a Gerrards Cross detached house, floor tiling complete, walls part-tiled with exposed plasterboard visible at one edge, daytime. Composition: low-angle close shot from floor height looking up along the bath's curve, waste fitting and wrench sharply in focus, part-tiled wall and exposed board softly blurred behind. Light and materials: warm honed limestone floor tile, brushed bronze waste and overflow fittings, soft overcast daylight from a side window mixing with a single work lamp propped against the wall, uneven shadow across the tiled floor. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash, no plants or candles as props, no running water, limestone tile shows believable variation in sheen and a few realistic dust marks rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-gerrards-cross-hero.webp",
+    "heroAlt": "Close-up of a freestanding bath's brushed bronze waste and overflow fitting being connected in a part-tiled Gerrards Cross bathroom, soft daylight and work-lamp light.",
+    "inline": []
+  }
+}

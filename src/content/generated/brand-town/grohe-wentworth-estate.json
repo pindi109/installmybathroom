@@ -1,0 +1,81 @@
+{
+  "path": "/installer/grohe-wentworth-estate/",
+  "family": "Brand × town",
+  "brand": "grohe",
+  "town": "wentworth-estate",
+  "slug": "grohe-wentworth-estate",
+  "seo": {
+    "title": "GROHE Bathroom Installer on Wentworth Estate | Fit-Only | Install My Bathroom",
+    "description": "GROHE cistern frame, digital shower and brassware installation on Wentworth Estate, Virginia Water, fit-only from £3,500. We coordinate gate access with your managing agent.",
+    "canonical": "https://installmybathroom.co.uk/installer/grohe-wentworth-estate/"
+  },
+  "h1": "GROHE bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Getting onto Wentworth Estate is its own logistical step before a GROHE installation even begins — it's a private, gated estate built around Wentworth Club and its golf courses, around 15 to 20 minutes by road from our Bracknell base, and every visit, including the survey itself, is coordinated with the estate or your managing agent so the programme runs without delay at the gate. That coordination matters more for some GROHE products than others: a Rapid SL cistern frame's delivery and fixing visit needs a confirmed access window, because the frame's structural fitting into the wall or floor behind it is a single, uninterruptible stage of work, not something that tolerates a gate delay partway through. We also fit thermostatic shower valves and mixer taps on more straightforward refits, and digital shower or smart water products on the fuller specifications a Wentworth Estate project often reaches. Fit-only, from £3,500, with gate access and the installation programme both confirmed at the £125 survey."
+  },
+  "sections": [
+    {
+      "heading": "What we install from GROHE on Wentworth Estate",
+      "body": "Rapid SL cistern frames behind wall-hung WCs are a frequent fit on Wentworth Estate, usually as part of a concealed cistern and floating pan specification. We also fit digital shower and smart water products on more fully specified projects, and thermostatic shower valves and mixer taps on simpler refits. Each is a different fitting job with different site-access needs, and which applies to your property is confirmed before anything is booked in, working from exactly what's been specified through your showroom or designer."
+    },
+    {
+      "heading": "Installation considerations specific to GROHE",
+      "body": "A Rapid SL frame's fixing into the wall or floor behind it has to be completed correctly before any boarding or tiling closes over it, because the pan and cistern's full weight sits on the frame rather than the tiles — a detail that matters everywhere, but matters more when a return visit to correct it means coordinating gate access again. A digital shower's control unit needs its wiring route and water supply confirmed at first fix, since relocating it later means cutting into finished tiling. A standard thermostatic valve still needs its concealed body set to the correct depth for the final tile thickness. We settle which of these applies to your project at survey, and plan the access and delivery schedule around it at the same time."
+    },
+    {
+      "heading": "How access on Wentworth Estate affects a typical GROHE installation",
+      "body": "Wentworth Estate's private, gated character doesn't change the fitting detail of a GROHE product, but it does change how we plan the programme around it. Materials for a Rapid SL frame, or the components for a digital shower installation, need to be on site and ready before the fixing or first-fix stage begins, because an interrupted stage — stopped partway through because a delivery is held at the gate — is the kind of avoidable delay we plan against. We agree gate codes, delivery windows and any managing agent requirements at the £125 survey, alongside the usual checks on waste, water supply and access within the property itself, so the installation runs to the same fixed programme it would anywhere else."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install GROHE products on Wentworth Estate on a fit-only basis — you source the sanitaryware, brassware, tiles and furniture, and we strip out, first-fix, tile, plumb and snag. Installations start from £3,500, beginning with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the GROHE specification alongside estate access and your managing agent's requirements."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you coordinate gate access with the estate or managing agent?",
+      "a": "Yes. Every visit, including the survey, is arranged in advance with Wentworth Estate or your managing agent, and we confirm delivery windows for GROHE materials at the same time so fixing stages aren't interrupted."
+    },
+    {
+      "q": "Does gated estate access make a GROHE installation take longer?",
+      "a": "Not if it's planned properly. We agree gate codes and delivery windows at the £125 survey, so the installation programme runs to the same fixed schedule it would on any other project."
+    },
+    {
+      "q": "Why does a Rapid SL cistern frame need its delivery timed carefully here?",
+      "a": "The frame's structural fixing into the wall or floor is a single, uninterrupted stage of work. A delivery held at the gate partway through risks stopping that stage, which is why materials are scheduled to be on site before the fixing visit begins."
+    },
+    {
+      "q": "Do you supply the GROHE products, or do I source them?",
+      "a": "We fit only. You source your GROHE brassware, cistern frame or digital shower products through a showroom or designer, and we handle the installation from £3,500."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from Bracknell, which is close enough that access coordination, not travel time, is the main scheduling factor for projects here."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/grohe/", "anchor": "All the GROHE products we fit" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "Bathroom brands we fit on Wentworth Estate" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet & concealed cistern installation" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital & smart shower installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "GROHE bathroom installer Wentworth Estate",
+  "secondaryKeywords": [
+    "GROHE installation Wentworth Estate",
+    "GROHE Rapid SL cistern Wentworth Estate",
+    "GROHE fitter Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the GROHE × Wentworth Estate installer page, implying GROHE's Rapid SL cistern frame range through a construction-stage product shot distinct from the Gerrards Cross cistern frame image. Subject and action: an unbranded concealed cistern frame fully fixed and boarded ready for tiling, a sealed pallet of porcelain tile boxes stacked beside it still wrapped, a laser level projecting a faint line across the boarded panel. Setting and work-stage: a part-finished cloakroom in a substantial Wentworth Estate house, plasterboard closed over the frame but tiling not yet started, soft overcast daylight. Composition: wide-to-mid shot from a slight high angle looking down across the boarded panel and tile pallet, the laser line crossing the frame in the mid-ground, a doorway with a glimpse of a corridor in soft background blur. Light and materials: pale grey-toned anthracite porcelain tile boxes, matte boarded plasterboard panel, flat overcast daylight from a window off-frame mixing with the thin green laser line as the only sharp light accent in the scene. Constraints: no people, no text, no logos, no brand names visible on fixtures or tile packaging, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber or gold colour wash, no plants, florals or candles as props, no water shown running, varied believable sheen and visible construction dust across the boarded panel and tile packaging.",
+    "heroOutputPath": "heroes/brand-town/grohe-wentworth-estate-hero.webp",
+    "heroAlt": "Boarded unbranded GROHE-style concealed cistern frame ready for tiling beside a sealed pallet of porcelain tile boxes in a part-finished Wentworth Estate cloakroom.",
+    "inline": []
+  }
+}

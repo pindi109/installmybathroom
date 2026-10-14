@@ -1,0 +1,76 @@
+{
+  "path": "/areas/stoke-poges/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Underfloor Heating Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only underfloor heating for Stoke Poges bathrooms, from period detached homes to executive-style builds set back on larger plots.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club giving the area its best-known identity. The housing ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens, and that range of ages matters as much for underfloor heating as it does for layout."
+  },
+  "sections": [
+    {
+      "heading": "Period detached homes vs executive-style builds",
+      "body": "Older period detached houses in Stoke Poges often have a suspended timber bathroom floor — joists and boards over a void rather than a solid slab — particularly where the bathroom sits above an original part of the house. That calls for a careful look at joist condition and span before we fit anything, and we typically run a low-profile electric heating mat over a rigid insulation-backed board across the joists, so heat is pushed up into the room rather than down into the void. The more recent executive-style builds in the village are more likely to be on a solid concrete ground floor, where water-fed underfloor heating screeded over an insulation layer, tied into the central heating, is a straightforward option too."
+    },
+    {
+      "heading": "What Stoke Poges' larger plots mean for the layout around a heated floor",
+      "body": "That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. The same applies when we're fitting underfloor heating: if the floor build-up needs to change levels to suit the system, a larger bathroom and a house with room to adjust a threshold gives us options that a boxed-in terraced bathroom simply doesn't have."
+    },
+    {
+      "heading": "Managing floor height so nothing clashes later",
+      "body": "Underfloor heating adds height on top of the existing floor — insulation, then the heating element, then screed or board, then tile adhesive and tile. Depending on the system, that's typically 15mm to 70mm in total. We measure this at survey stage against doors, thresholds and any step down into an adjoining room, because getting it wrong means a door that won't close or an uneven transition once the floor is finished and tiled."
+    },
+    {
+      "heading": "From survey to finished floor",
+      "body": "Once we've confirmed whether your bathroom sits on joists or a slab and agreed the system, we strip the floor back, make good any structural work needed, lay insulation, then the mat or pipe, test it before it's covered, then screed or board over it ahead of tiling. The thermostat is wired, commissioned and tested, and we snag the finished room before handing it back."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does my period house in Stoke Poges need a different underfloor heating system to a newer build?",
+      "a": "Often, yes. Older houses with a suspended timber floor usually suit a low-profile electric mat over an insulation-backed board. Newer executive-style builds on a solid slab can more easily take a screeded water-fed system."
+    },
+    {
+      "q": "Can underfloor heating be added when we're widening a doorway or changing the layout?",
+      "a": "Yes, and the larger plots common in Stoke Poges often give more scope to adjust a threshold or doorway alongside a floor height change than a smaller terraced property would allow."
+    },
+    {
+      "q": "How much will underfloor heating raise my floor level?",
+      "a": "Typically 15mm to 70mm depending on the system, covering insulation, the heating mat or pipe, screed or board, and the tile and adhesive on top. We account for this against doors and thresholds at survey."
+    },
+    {
+      "q": "Do you check the joists before fitting underfloor heating in an older property?",
+      "a": "Yes, always, where the bathroom sits over a suspended timber floor. We check span, spacing and condition before specifying the insulation board and heating mat."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/stoke-poges/", "text": "Bathroom installation in Stoke Poges" },
+    { "href": "/bathroom-cost/stoke-poges/", "text": "Bathroom installation costs in Stoke Poges" },
+    { "href": "/areas/gerrards-cross/underfloor-heating-installation/", "text": "Underfloor heating installation in Gerrards Cross" },
+    { "href": "/areas/windsor/underfloor-heating-installation/", "text": "Underfloor heating installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "stoke-poges" } ],
+  "primaryKeyword": "underfloor heating installation Stoke Poges",
+  "secondaryKeywords": [
+    "electric underfloor heating Stoke Poges",
+    "water-fed underfloor heating installer Buckinghamshire",
+    "heated bathroom floor Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Stoke Poges homeowners. Subject and action: close-up of water-fed underfloor heating pipework being clipped into place across insulation boards, loops curving in a tight spiral pattern, mid-pour screed bags stacked at the edge of frame. Setting and work-stage: construction stage inside a stripped bathroom in a substantial period house, exposed skirting board gap at the wall line showing the original timber floor beneath the insulation layer. Composition: low angle close-up shot following the pipe loops across the floor towards a softly blurred window at the back of the room. Light and materials: late afternoon light with a warm amber cast from low sun through the window, matte grey insulation board, dull red PEX pipe, pale travertine tile samples leaning against the wall. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash across the whole frame, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Water-fed underfloor heating pipework being clipped across insulation boards during a bathroom renovation in Stoke Poges",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

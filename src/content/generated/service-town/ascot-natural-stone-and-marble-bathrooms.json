@@ -1,0 +1,104 @@
+{
+  "path": "/areas/ascot/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "ascot",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms in Ascot | Install My Bathroom",
+    "description": "Fit-only natural stone and marble bathroom installation in Ascot. Correct substrate, adhesive and movement-joint detailing for Calacatta and other stone. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock, shaped by more than a century of growth around the racecourse, runs from large detached Victorian and Edwardian houses to inter-war family homes and newer executive-style builds on generous plots, particularly on the roads towards Sunningdale and Windsor. That plot size matters when the material on the schedule is a book-matched Calacatta slab rather than porcelain tile, because stone brings its own rules on substrate movement, adhesive chemistry and sealing that a smaller, more constrained property would make harder to satisfy properly. We fit the stone you've sourced — strip-out, first-fix, tiling or slab-fixing, plumbing and snagging — working within the structural freedom these plots typically allow."
+  },
+  "sections": [
+    {
+      "heading": "Why natural stone is a different job to porcelain",
+      "body": "Marble, limestone and travertine are calcareous stones — they're porous, they can react with the wrong cleaning or jointing products, and unlike porcelain they need a penetrating sealer before grouting and again after, or staining and etching will show within months rather than years. The adhesive underneath also has to change: many stones are moisture-sensitive and can pick up shadowing or discolouration from a standard cementitious adhesive, so we specify a white, polymer-modified, rapid-set adhesive with a controlled moisture content for anything pale or veined, and we always dry-lay large veined pieces first to plan the pattern match before anything is fixed. Grout choice matters too — a narrow, colour-matched grout with the right movement-joint spacing reduces the risk of a visible frame around an otherwise continuous piece of stone, which is usually the whole point of specifying it in the first place."
+    },
+    {
+      "heading": "What Ascot's larger plots mean for the layout",
+      "body": "A good number of the detached houses and executive-style builds around Ascot sit on plots generous enough that we're rarely fighting a load-bearing wall or a fixed waste stack to get the layout a slab of stone deserves. Relocating a waste run to centre a freestanding bath under a Calacatta surround, or widening a doorway for level access into a stone-floored wet room, is the kind of change that a smaller terraced property would often rule out on structural grounds — here it's usually a matter of extending a run of pipework rather than redesigning around an immovable obstruction. That flexibility is particularly useful on stone jobs because the slab layout, the movement joints and the fall to a wet-room drain all need to be planned together before the first board goes up, and a property with room to manoeuvre gives us more options for getting that right first time."
+    },
+    {
+      "heading": "The installation process",
+      "body": "We start with a strip-out and survey of the existing substrate, checking for damp, deflection and level before anything new goes in. First-fix plumbing is set out to the agreed layout — including any waste relocation the plot allows — followed by a waterproofed, rigid substrate suitable for stone's weight and movement characteristics. Large veined pieces are dry-laid and numbered so the pattern reads correctly once fixed, then set with the appropriate adhesive and jointed with properly spaced movement joints at junctions and changes of plane. Once grouted, the stone is sealed, and sanitaryware, brassware and accessories are fitted and snagged before handover."
+    },
+    {
+      "heading": "Looking after a stone bathroom",
+      "body": "A sealed marble or limestone floor or wall needs periodic resealing — typically every twelve to twenty-four months depending on footfall and water exposure — and pH-neutral cleaning products rather than anything acidic, which will etch the surface. We talk through maintenance at handover so you know what the stone needs and how to spot early signs it's due a reseal. If you're planning a natural stone bathroom in Ascot, call or WhatsApp 07399 651836 to arrange the £125 paid survey, where we'll look at the room, the stone you've specified, and what the plot allows before any work is booked."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the marble or stone, or do I source it?",
+      "a": "We're fit-only, so you source the stone, sanitaryware, brassware and tiles, and we handle strip-out, first-fix, tiling or slab-fixing, plumbing and snagging."
+    },
+    {
+      "q": "Does natural stone need a different adhesive to porcelain?",
+      "a": "Yes. Pale and veined stones are moisture-sensitive, so we use a white, polymer-modified, rapid-set adhesive with controlled moisture content to avoid shadowing or discolouration that a standard cementitious adhesive can cause."
+    },
+    {
+      "q": "Why does stone need sealing when porcelain doesn't?",
+      "a": "Marble, limestone and travertine are calcareous and porous, so they absorb moisture and can stain or etch without a penetrating sealer applied before grouting and again after installation. Porcelain doesn't need this."
+    },
+    {
+      "q": "Can you move the waste or widen a doorway for a stone wet room in an Ascot house?",
+      "a": "Often yes. The generous plots common around Ascot's detached and executive-style homes usually give us more room to relocate a waste run or widen a doorway for level access than a smaller or terraced property would allow, though it still depends on the specific structure."
+    },
+    {
+      "q": "What's the minimum spend for a natural stone bathroom?",
+      "a": "Fit-only installations start from £3,500, with the final cost depending on room size, the stone specified and the complexity of the layout. A £125 paid survey confirms the figure for your project."
+    },
+    {
+      "q": "How often does a marble bathroom need resealing?",
+      "a": "Typically every twelve to twenty-four months depending on footfall and water exposure. We cover the specifics for your stone and layout at handover."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation in Ascot",
+      "href": "/areas/ascot/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Ascot",
+      "href": "/bathroom-cost/ascot/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Sunningdale",
+      "href": "/areas/sunningdale/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Windsor",
+      "href": "/areas/windsor/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Ascot",
+  "secondaryKeywords": [
+    "marble bathroom installer Ascot",
+    "Calacatta marble bathroom Ascot",
+    "stone tiling installer Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Ascot. Subject and action: a finished Calacatta marble bathroom floor and half-height wall cladding, slabs book-matched across a seam with bold grey veining against a white ground, freshly grouted and sealed. Setting and work-stage: a large, light-filled ensuite in a detached period-style house, work complete, sanitaryware fitted. Composition: low wide-angle shot favouring the floor and lower wall plane, camera at hip height, veining leading the eye diagonally across the frame. Light and materials: soft overcast daylight from a tall window, cool-neutral colour temperature, stone showing genuine variation in sheen between honed and polished sections. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Book-matched Calacatta marble floor and wall cladding in a finished bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

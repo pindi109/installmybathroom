@@ -1,0 +1,110 @@
+{
+  "path": "/installer/kaldewei-virginia-water/",
+  "family": "Brand x town",
+  "brand": "kaldewei",
+  "town": "virginia-water",
+  "slug": "kaldewei-virginia-water",
+  "seo": {
+    "title": "Kaldewei Bathroom Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only Kaldewei steel bath and shower tray installation in Virginia Water. Survey £125, installs from £3,500. 30 years' experience, high-end homes.",
+    "canonical": "https://installmybathroom.co.uk/installer/kaldewei-virginia-water/"
+  },
+  "h1": "Kaldewei bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Across Virginia Water's large detached properties, many close to the Wentworth Estate and its well-known golf courses, generous plots with long driveways and, in a number of cases, gated or private road access tend to give far more flexibility on bathroom layout than a terraced property allows. That matters for a Kaldewei installation, because the baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded, which changes the installation focus to even, accurate bearing across the full base and to protecting a hard but chip-sensitive enamel surface while other trades are still finishing the room."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Kaldewei",
+      "body": "As a fit-only installer, we don't supply the bath or shower tray — Virginia Water clients buy their Kaldewei sanitaryware, brassware, tiles and furniture directly, and we carry out the strip-out, first-fix plumbing, installation, tiling and final snagging. Kaldewei's pressed-steel construction is a genuinely different material to work with than the cast or moulded sanitaryware most installers deal with day to day, and it changes the sequence and detail of several stages of the job, from how the unit is supported underneath to how it's protected once it's in place."
+    },
+    {
+      "heading": "Installation considerations specific to Kaldewei",
+      "body": "Because a Kaldewei bath or shower tray is rigid rather than flexible, the installation detail isn't about preventing flex the way it would be with an acrylic bath on a standard support frame — it's about making sure the subfloor and support structure provide even, accurate bearing across the entire base before the unit is fixed in place. Skipping that step and relying on packers afterwards tends to show up later as noise or movement. The enamel surface itself is hard-wearing once the room is finished, but it's chip-sensitive during the build, so we take care to protect it properly while plumbing, tiling and decorating continue around it."
+    },
+    {
+      "heading": "Working in Virginia Water",
+      "body": "Virginia Water properties range from substantial period houses to more recent executive-style builds, many on generous plots with long driveways and, in a number of cases, gated or private road access, close to the Wentworth Estate and its golf courses. That plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding Kaldewei bath, or repositioning a shower to improve natural light, rarely runs into a structural wall it can't move around. We factor gated or private access into scheduling from the outset so the installation runs smoothly."
+    },
+    {
+      "heading": "The fit-only process",
+      "body": "We begin with a £125 paid survey covering the existing bathroom, plumbing and access, plus the specific support detail a Kaldewei bath or shower tray needs given its pressed-steel construction. From there we agree the plan and price, with fit-only installs starting from £3,500 depending on scope. Once your products are delivered, we handle strip-out, first-fix, installation, tiling and plumbing, finishing with a full snagging pass so the bathroom is ready before we hand it back to you."
+    },
+    {
+      "heading": "Get a quote for your Virginia Water bathroom",
+      "body": "If you've chosen Kaldewei for a bathroom in Virginia Water and need a fit-only installer, call or WhatsApp 07399 651836 to arrange a £125 survey. We'll assess the room, confirm any gated or private road access arrangements, and give you a clear installation price before work begins."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you access gated or private roads in Virginia Water for a survey and installation?",
+      "a": "Yes, we regularly work on properties with gated or private road access around Virginia Water and confirm the arrangements during the survey so scheduling isn't held up."
+    },
+    {
+      "q": "Why is a Kaldewei bath installed differently to an acrylic bath?",
+      "a": "Kaldewei baths are pressed from titanium-enamelled steel rather than cast or moulded, so they're rigid rather than flexible. The key installation detail is even, accurate bearing across the full base, not the flex-control an acrylic support frame is designed for."
+    },
+    {
+      "q": "Can the bathroom layout be changed to suit a Kaldewei freestanding bath?",
+      "a": "Often, yes. The generous plots typical of Virginia Water properties usually give more flexibility to relocate a waste run or reposition a shower than a terraced property would allow, though every layout is assessed individually."
+    },
+    {
+      "q": "What is included in the £125 survey?",
+      "a": "We assess the existing plumbing, access, subfloor and layout, and for a Kaldewei installation specifically, the support structure needed for a pressed-steel bath or shower tray."
+    },
+    {
+      "q": "How much does a Kaldewei fit-only installation cost?",
+      "a": "Installations start from £3,500 depending on scope, confirmed in writing after the £125 survey."
+    },
+    {
+      "q": "Do you offer repairs to existing high-end bathrooms in Virginia Water?",
+      "a": "Yes, we carry out repairs on high-end homes, with a £200 minimum charge and £500 minimum for emergency call-outs. We don't offer regrouting as a standalone service."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on Kaldewei bathroom products",
+      "href": "/brands/kaldewei/"
+    },
+    {
+      "anchor": "Bathroom installation across Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "anchor": "Brands we fit in Virginia Water",
+      "href": "/areas-brands/virginia-water/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Walk-in shower installation",
+      "href": "/services/walk-in-shower-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "kaldewei"
+    },
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "Kaldewei installation Virginia Water",
+  "secondaryKeywords": [
+    "Kaldewei bath installer Virginia Water",
+    "Kaldewei shower tray fitting Virginia Water",
+    "fit-only Kaldewei bathroom Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kaldewei installation page focused on bath rim and overflow detail against a cool stone palette. Subject and action: medium shot along the rim of a Kaldewei titanium-enamelled steel bath, overflow fitting and waste visible, resting on an adjustable support frame mid-level-check. Setting and work-stage: part-finished principal en-suite in a substantial detached house, honed limestone tiling complete on the bath wall, spirit level resting on the rim. Composition: slightly elevated three-quarter angle showing the bath's full length and the support frame beneath, balanced but not perfectly symmetrical framing. Light and materials: cool, even north-light through an obscured window, overcast quality, matte black waste and overflow fittings with a flat, non-reflective finish, honed limestone's soft matte texture. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kaldewei-virginia-water-hero.webp",
+    "heroAlt": "Kaldewei steel bath rim and support frame being levelled during installation in a Virginia Water en-suite with honed limestone tiling",
+    "inline": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "path": "/areas/stoke-poges/shower-toilet-installation/",
+  "family": "Service x town",
+  "service": "shower-toilet-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Shower Toilet Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only shower toilet installation in Stoke Poges. Dedicated power and water supply fitted to the pan, planned around large-plot period and executive homes.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/shower-toilet-installation/"
+  },
+  "h1": "Shower toilet installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club giving the area its best-known identity, and that scale of property is a genuine advantage when installing a shower-toilet unit that needs both a dedicated power supply and its own water feed to the pan. In a smaller house, finding a safe cable route to a new fused connection unit near the WC can be the limiting factor; here it rarely is."
+    },
+  "sections": [
+    {
+      "heading": "The two supplies a shower toilet actually needs",
+      "body": "An integrated shower-toilet unit runs a heated seat, a wash function and often a dryer, which means it draws mains power continuously, not just an occasional low-voltage trickle. That power has to arrive via a fused connection unit positioned outside the bathroom's zoned areas, fed by cable routed away from the shower and bath, and it has to be agreed before first fix so it isn't retrofitted through finished tiling. Separately, the unit needs its own water connection off the mains cold supply, typically with an isolation valve local to the pan. Treating these as two distinct pieces of first-fix work, rather than an afterthought to a standard toilet swap, is what makes the installation hold up over time."
+    },
+    {
+      "heading": "Why Stoke Poges properties suit this kind of work",
+      "body": "The housing around Stoke Poges ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. For a shower-toilet installation, the practical upshot is more flexibility in where we can run a new power circuit and more scope to position the pan exactly where the water supply reaches it without compromise."
+    },
+    {
+      "heading": "What we check before quoting",
+      "body": "At the £125 paid survey, we confirm the exact shower-toilet model you've specified and check its power draw and water pressure requirements against what's already in the room. In a period detached house we'll look at where the existing ring or lighting circuit runs so we can extend safely; in a newer executive-style build there's often more scope within existing first-fix pathways. Either way, we're fit-only — you buy the unit, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging, from £3,500."
+    },
+    {
+      "heading": "The installation sequence",
+      "body": "Strip-out comes first, followed by first-fix plumbing and the dedicated electrical supply, then tiling, then the shower-toilet unit itself is fitted, connected and tested before we snag the room. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does the age of a Stoke Poges house affect shower toilet installation?",
+      "a": "Less than the plot size does. Older period homes and newer executive-style builds both tend to sit on generous plots here, which gives us more flexibility for routing the new power supply the pan needs than a smaller, terraced property would allow."
+    },
+    {
+      "q": "Can you add a shower toilet to a second en-suite?",
+      "a": "Yes. The larger plots common around Stoke Poges often give enough room to add a second en-suite off a principal bedroom, and we can specify a shower-toilet unit for it in the same way as a main bathroom, provided power and water supply can reach the pan."
+    },
+    {
+      "q": "What's the minimum spend for this kind of installation?",
+      "a": "Fit-only installs start from £3,500, with the final price depending on the specific unit's requirements and the existing supplies in the room, confirmed at the £125 survey."
+    },
+    {
+      "q": "Do you supply the toilet unit or just fit it?",
+      "a": "Fit-only. You purchase the shower-toilet unit, brassware, tiles and furniture, and we carry out strip-out, first-fix, tiling, plumbing, electrical coordination and snagging."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation service" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom installation in Stoke Poges" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/gerrards-cross/shower-toilet-installation/", "anchor": "Shower toilet installation in Gerrards Cross" },
+    { "href": "/areas/windsor/shower-toilet-installation/", "anchor": "Shower toilet installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "stoke-poges" } ],
+  "primaryKeyword": "shower toilet installation Stoke Poges",
+  "secondaryKeywords": [
+    "integrated shower toilet fitter Stoke Poges",
+    "washlet style toilet installation Buckinghamshire",
+    "en-suite shower toilet installer Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Stoke Poges shower-toilet-installation town page on a fit-only bathroom installer's website. Subject and action: a finished wall-hung WC fitted with an integrated shower-toilet seat unit on a concealed frame, no other sanitaryware in frame. Setting and work-stage: a completed en-suite in a large detached house near a golf estate, large-format stone-effect porcelain tile on the wet wall behind the pan. Composition: angled low viewpoint looking slightly upward at the pan, asymmetric framing with a recessed storage niche visible off to one side. Light and materials: late-afternoon low-angle light casting long soft shadows, brushed nickel pipework and flush plate, stone-effect tile with a matte textured finish. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-shower-toilet-installation-hero.webp",
+    "heroAlt": "Wall-hung shower toilet unit in a Stoke Poges en-suite with large-format stone-effect tiling and brushed nickel fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

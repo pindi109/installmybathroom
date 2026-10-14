@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-virginia-water/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "virginia-water",
+  "slug": "villeroy-and-boch-virginia-water",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer in Virginia Water | Fit-Only",
+    "description": "Villeroy & Boch sanitaryware and basins fitted in Virginia Water's large detached homes. Fit-only installation from £3,500, £125 survey first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-virginia-water/"
+  },
+  "h1": "Villeroy & Boch bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Repositioning a shower to improve natural light, or moving a waste run to make space for a freestanding bath, is rarely blocked by a structural wall in Virginia Water, where properties set on generous plots with long driveways — some with gated or private road access — give us far more flexibility than a terraced house would allow. That flexibility shapes how we plan a Villeroy & Boch installation here: the basin or sanitaryware position isn't fixed by the existing pipework the way it might be in a smaller property. We fit Villeroy & Boch sanitaryware, basins, baths and ViClean shower toilet seats on a fit-only basis, from £3,500, starting every project with a £125 survey."
+  },
+  "sections": [
+    {
+      "heading": "Basins and sanitaryware: precision that needs an accurate first fix",
+      "body": "Villeroy & Boch's ceramics are precise and the glaze finishes are consistently hard-wearing, which is part of why the brand appears so often in the specifications we fit across Virginia Water's larger properties. A basin or a pan with this kind of finish shows an inaccurate first fix more readily than a cheaper product would — a slightly out-of-level basin or an unevenly seated pan is more visible against a glaze this consistent. We take the extra time at first fix to get positioning and support right, because the product's own precision only reads properly if the installation matches it."
+    },
+    {
+      "heading": "Frame compatibility, confirmed before anything is ordered",
+      "body": "Villeroy & Boch doesn't manufacture its own carrier frame for wall-hung WCs, so the flush plate, pan and concealed cistern frame need confirming as matching generations before any of it is ordered. We check this against the specification at survey stage, regardless of how the rest of the layout is being repositioned around the property's plot size, because a frame mismatch is a product-ordering issue, not a layout one, and it's far cheaper to catch before the wall closes up than after."
+    },
+    {
+      "heading": "How plot size changes what's possible here",
+      "body": "Virginia Water's mix of substantial period houses and more recent executive-style builds, many close to the Wentworth Estate, generally gives us far more flexibility on layout than a terraced property would. Relocating a waste run to accommodate a freestanding Villeroy & Boch bath, or repositioning a shower enclosure to make better use of natural light, rarely runs into a structural wall it can't move around. We still confirm exactly what applies to your property at the £125 survey, because a long driveway and a generous plot don't automatically mean every repositioning is straightforward — the existing floor and wall build-up still needs checking properly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Villeroy & Boch bath be repositioned within a Virginia Water bathroom?",
+      "a": "Often, yes. The generous plots typical of Virginia Water properties usually allow a waste run to be relocated without hitting a structural wall, but we confirm this for your specific house at the £125 survey."
+    },
+    {
+      "q": "Do you supply the Villeroy & Boch products, or just fit them?",
+      "a": "We fit only. You source your Villeroy & Boch sanitaryware, basins, baths or ViClean shower toilet seats, and we handle the strip-out, first fix, plumbing and finish, from £3,500."
+    },
+    {
+      "q": "Why does frame compatibility matter for a Villeroy & Boch WC installation?",
+      "a": "Villeroy & Boch doesn't make its own carrier frame, so the pan, flush plate and concealed cistern frame need to be confirmed as matching generations before ordering, rather than discovered once the wall is closed up."
+    },
+    {
+      "q": "Does a gated or private road affect how you work in Virginia Water?",
+      "a": "It mainly affects access arrangements for our team and deliveries, which we agree in advance. The installation process itself is the same fit-only approach we use everywhere."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom fitting in Virginia Water" },
+    { "href": "/areas-brands/virginia-water/", "anchor": "All bathroom brands we fit in Virginia Water" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "virginia-water" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Virginia Water",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Virginia Water",
+    "fit-only Villeroy & Boch Surrey",
+    "Villeroy & Boch bathroom fitter Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Virginia Water installer page, a close fixture shot implying the sanitaryware range through a basin detail rather than a full room view. Subject and action: a countertop basin being set into a vanity cut-out, silicone bead not yet smoothed along one edge, a caulking tool resting beside it, work paused mid-task. Setting and work-stage: a part-finished vanity area in a large Virginia Water detached house, joinery installed but basin not yet sealed, daytime. Composition: close three-quarter angle looking down at the basin and cut-out edge, caulking tool and basin rim sharply in focus, vanity worktop and wall beyond softly out of focus. Light and materials: honed Carrara marble vanity top, brushed bronze basin waste, soft natural daylight from a nearby window mixing with a warm handheld work light, uneven shadow across the worktop surface. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical twin basins, no uniform gold colour wash, no plants or candles as props, no running water, Carrara marble shows natural veining and varied sheen rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-virginia-water-hero.webp",
+    "heroAlt": "A countertop basin being set into a Carrara marble vanity top, silicone bead and caulking tool visible, in a part-finished Virginia Water bathroom.",
+    "inline": []
+  }
+}

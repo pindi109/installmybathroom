@@ -1,0 +1,100 @@
+{
+  "path": "/areas/virginia-water/large-format-porcelain-tiling/",
+  "family": "Service x town",
+  "service": "large-format-porcelain-tiling",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Large Format Porcelain Tiling in Virginia Water | Install My Bathroom",
+    "description": "Large format porcelain tiling for Virginia Water bathrooms — flat substrates and precise layout for period and executive homes. Fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/large-format-porcelain-tiling/"
+  },
+  "h1": "Large format porcelain tiling in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties range from substantial period houses to more recent executive-style builds, and the plot size generally gives us more flexibility on layout than a terraced property allows — including repositioning a shower to improve natural light, which changes how we think about tile colour and slab orientation as much as plumbing. We work fit-only, from £3,500, with you sourcing the sanitaryware, brassware, tiles and furniture."
+  },
+  "sections": [
+    {
+      "heading": "Repositioning for light changes more than the plumbing",
+      "body": "When a layout allows us to move a shower or bath to catch more natural light — something the generous plots around Virginia Water often make possible — it's worth thinking about how that affects the tiling too. A large format slab with minimal grout breaks up far less light than a small-format tile grid does, so a brighter spot in the room reads even brighter once it's tiled in large porcelain. We'll talk through slab orientation and finish with you at survey stage, because a floor laid in one continuous direction toward a window reads differently to one broken into a grid."
+    },
+    {
+      "heading": "Moving a waste run without hitting a structural wall",
+      "body": "The same plot size that gives scope for repositioning a shower also tends to give us room to relocate a waste run to accommodate a freestanding bath, without running into a structural wall the way a tighter, older terraced property often would. Whenever a layout changes, the new floor area gets exactly the same flatness check and full adhesive bed as the rest of the room — a layout change is not a shortcut around proper substrate prep."
+    },
+    {
+      "heading": "What a flat substrate actually requires",
+      "body": "Large format porcelain slabs are rigid and unforgiving of dips in the floor beneath them — any variance shows as a rocking corner, a shadow line, or a stress crack once the slab takes weight. Before tiling, we check the substrate with a straight edge across the whole floor area, correct any low or high points with self-levelling compound or additional board, and only then start laying, with full adhesive coverage and levelling clips to keep every slab edge flush with its neighbour."
+    },
+    {
+      "heading": "Arrange a survey",
+      "body": "We start with a paid £125 survey to check the substrate, talk through layout options including repositioning for light, and confirm access before you order tiles. Call or WhatsApp 07399 651836 to book a Virginia Water survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reposition my shower to get more natural light?",
+      "a": "Often, yes — the generous plots common around Virginia Water tend to give us more flexibility on layout than a smaller property, though it depends on the waste run and what the survey finds."
+    },
+    {
+      "q": "Does slab orientation matter for large format tiling?",
+      "a": "Yes — laying slabs in a continuous direction toward a light source generally reads brighter and more seamless than breaking the floor into a grid, so we discuss orientation with you before fitting starts."
+    },
+    {
+      "q": "What happens if my subfloor isn't flat?",
+      "a": "We correct it before tiling with self-levelling compound, additional boarding, or both — large format porcelain is rigid and will show or crack over an uneven substrate."
+    },
+    {
+      "q": "Do you handle gated or private road access?",
+      "a": "Yes, we confirm access arrangements at survey stage so deliveries and our visits run smoothly on the day."
+    },
+    {
+      "q": "What's included in the fit-only service?",
+      "a": "Strip-out, first-fix, tiling, plumbing and snagging — you buy the sanitaryware, brassware, tiles and furniture separately, with installs from £3,500."
+    }
+  ],
+  "internalLinks": [
+    {
+      "text": "Large format porcelain tiling service",
+      "href": "/services/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Bathroom installation in Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "text": "Bathroom tiling cost guide",
+      "href": "/guides/bathroom-tiling-cost-uk/"
+    },
+    {
+      "text": "Large format porcelain tiling in Sunningdale",
+      "href": "/areas/sunningdale/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Large format porcelain tiling on Wentworth Estate",
+      "href": "/areas/wentworth-estate/large-format-porcelain-tiling/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "large format porcelain tiling Virginia Water",
+  "secondaryKeywords": [
+    "large format tiling Virginia Water bathroom",
+    "porcelain slab flooring Virginia Water",
+    "fit-only tiler Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Virginia Water large format porcelain tiling service page. Subject and action: a finished warm concrete-look large format porcelain floor running toward a bright window wall, no people present. Setting and work-stage: a completed bathroom installation captured in bright natural daylight. Composition: a straight-on view along the floor toward the light source, showing the unbroken slab run and how the surface reflects the brightness with minimal grout interruption. Light and materials: strong, clear daylight flooding in from one side, warm concrete-look porcelain with a soft, slightly uneven natural sheen rather than a mirror gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf/niche/mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber/gold colour wash, no hanging plants/florals/candles as props, no water shown running, varied/believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-large-format-porcelain-tiling-hero.webp",
+    "heroAlt": "Warm concrete-look large format porcelain floor running toward a bright window wall in a finished Virginia Water bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "path": "/installer/burlington-wentworth-estate/",
+  "family": "Brand × town",
+  "brand": "burlington",
+  "town": "wentworth-estate",
+  "slug": "burlington-wentworth-estate",
+  "seo": {
+    "title": "Burlington Bathroom Installation on Wentworth Estate | Fit-Only",
+    "description": "Fit-only Burlington bathroom installation on Wentworth Estate, with access coordinated through the estate and managing agent, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/burlington-wentworth-estate/"
+  },
+  "h1": "Burlington bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Wentworth Estate is private and gated, built around Wentworth Club and its golf courses, and every Burlington installation we carry out there starts with coordinating access through the estate and any managing agent, rather than simply turning up on the day. That logistics work matters as much as the plumbing itself when the range includes a roll-top bath or a cast cistern frame that needs delivering, moving through the house and fixed without any delay at the gate holding up the programme. We fit Burlington's pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware across Wentworth Estate on a fit-only basis, from £3,500, around 15 to 20 minutes from our Bracknell base."
+  },
+  "sections": [
+    {
+      "heading": "Access and programme on a gated estate",
+      "body": "A Burlington installation on Wentworth Estate has to account for estate access from the outset — deliveries booked in, trades cleared at the gate, and a programme that accounts for any restrictions the managing agent sets rather than assuming free access the way we might on an unrestricted road. We build that into the schedule at survey stage, so a roll-top bath or a cistern frame delivery doesn't sit waiting at the gate while the rest of the job runs on."
+    },
+    {
+      "heading": "Burlington's range and the fixing detail behind it",
+      "body": "Burlington's classic forms — pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths, period-style brassware — are reproduced with a modern fixing standard underneath the traditional silhouette. The detail that makes the period look convincing once the room is finished isn't visible: a high-level cistern's bracket, a wall-hung basin's hidden support, the bearing under a roll-top bath's feet. We confirm each of those at survey, before anything is ordered or delivered through the gate."
+    },
+    {
+      "heading": "Fit-only installation on Wentworth Estate",
+      "body": "We don't supply Burlington products ourselves — you source the range through a showroom or retailer, and we handle the strip-out, first fix, plumbing, tiling and installation, from £3,500, following a £125 survey. On Wentworth Estate specifically, that survey also covers access and delivery logistics with the estate and any managing agent, so the installation itself runs without the gate becoming a bottleneck."
+    },
+    {
+      "heading": "Repairs on Wentworth Estate",
+      "body": "The same access and gate coordination that applies to a full installation applies to a repair call-out on Wentworth Estate — we confirm access with the estate or managing agent before attending. Repairs to Burlington fittings start from £200, and an emergency call-out, where access needs arranging at short notice, starts from a £500 minimum. We don't take on standalone regrouting-only visits."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need special access arrangements to work on Wentworth Estate?",
+      "a": "Yes — we coordinate access with the estate and any managing agent at survey stage, so deliveries and trades are cleared at the gate before the installation programme begins."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from our Bracknell base."
+    },
+    {
+      "q": "Do you supply the Burlington bathroom products, or only fit them?",
+      "a": "We fit only — you source your Burlington range through a showroom or retailer, and we handle installation from £3,500."
+    },
+    {
+      "q": "What Burlington fixing detail do you check before ordering?",
+      "a": "The bracket behind a high-level cistern, the hidden support behind a wall-hung basin, and the bearing under a roll-top bath's feet — none of which is visible once the room is finished."
+    },
+    {
+      "q": "Can you attend an emergency repair on Wentworth Estate at short notice?",
+      "a": "Yes, though access still needs coordinating with the estate or managing agent. Emergency call-outs start from a £500 minimum, and routine repairs from £200."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/burlington/",
+      "anchor": "The full Burlington range"
+    },
+    {
+      "href": "/areas/wentworth-estate/",
+      "anchor": "Bathroom fitting on Wentworth Estate"
+    },
+    {
+      "href": "/areas-brands/wentworth-estate/",
+      "anchor": "Bathroom brands we fit on Wentworth Estate"
+    },
+    {
+      "href": "/services/cloakroom-and-wc-installation/",
+      "anchor": "Cloakroom and WC installation"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet and concealed cistern installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    },
+    {
+      "file": "brands.json",
+      "id": "burlington"
+    },
+    {
+      "file": "repairs.json",
+      "id": "concealed-cistern-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "wall-hung-toilet-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "leaking-tap-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "bathroom-waste-and-drain-repair"
+    }
+  ],
+  "primaryKeyword": "Burlington bathroom installer Wentworth Estate",
+  "secondaryKeywords": [
+    "Burlington bathroom fitter Wentworth Estate",
+    "fit-only Burlington installation Virginia Water Surrey",
+    "Burlington high-level WC installer"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Burlington x Wentworth Estate installer page, implying the brand's roll-top bath and period brassware through a close fixture shot distinct from a full room view. Subject and action: a low raking close shot along the outer curve of a freestanding roll-top bath's rim, with a telephone-style shower handset resting in its cradle against the bath's side, static, no motion. Setting and work-stage: a finished principal bathroom in a substantial house on Wentworth Estate, dusk, fading natural light through a tall unseen window mixed with a single practical pendant light. Composition: low raking angle along the bath's curved rim and cradle, travertine floor tile visible in soft focus below, the room falling into shadow towards the edges of frame. Light and materials: white vitreous enamel bath exterior, matte black handset and cradle, travertine floor tile, mixed dusk daylight and one warm pendant light creating uneven, directional light across the enamel rather than flat ambient glow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical fixtures, no single uniform amber wash across the whole frame, no plants, florals or candles as props, no water shown running, varied natural sheen on the enamel with minor believable wear.",
+    "heroOutputPath": "heroes/brand-town/burlington-wentworth-estate-hero.webp",
+    "heroAlt": "Low raking shot along a roll-top bath's rim and a matte black telephone-style handset cradle, dusk light with one pendant, Wentworth Estate.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "path": "/areas/virginia-water/steam-shower-and-steam-room-installation/",
+  "family": "Service x town",
+  "service": "steam-shower-and-steam-room-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Steam Shower & Steam Room Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only steam shower and steam room installation in Virginia Water. Sealed enclosures, generator siting, ventilation and electrics. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/steam-shower-and-steam-room-installation/"
+  },
+  "h1": "Steam shower & steam room installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. That plot size gives far more flexibility on layout for a steam shower or steam room than a terraced property allows — relocating a waste run to position a sealed enclosure, or working out whether a window can be incorporated for natural light, rarely runs into a structural wall it can't move around."
+  },
+  "sections": [
+    {
+      "heading": "What a sealed steam enclosure requires that a shower doesn't",
+      "body": "A steam shower or steam room has to hold saturated steam inside an airtight cubicle, which means full tanking behind every internal surface including the ceiling, a close to airtight seal at every panel junction and the door, and usually a slightly sloped ceiling so condensation runs down the walls rather than dripping back down. The generator that produces the steam sits outside the enclosure within a set pipe-run distance, wired to its own electrical circuit and connected to a water feed and drain, with a separate low-voltage control panel mounted near the door. Unlike a shower swap, this has to be designed into the first fix from the start — the sealing, ventilation and electrics can't be added once the enclosure is tiled and closed up."
+    },
+    {
+      "heading": "Natural light, window glazing and generous plots",
+      "body": "On a smaller property, a steam enclosure is often pushed into a windowless corner simply because there's nowhere else for it to go. The larger plots typical of Virginia Water change that calculation: repositioning the enclosure to take in natural light from an existing window, or relocating a waste run to make that position work, is rarely blocked by a structural wall the way it would be in a more tightly built house. Where a window is incorporated into the enclosure itself, it needs sealed, steam-rated glazing and a frame detail that holds the airtight seal — a standard double-glazed unit isn't built for sustained saturated steam against the glass, so this is specified and ordered as part of the enclosure, not treated as a standard window."
+    },
+    {
+      "heading": "Access and delivery logistics for gated properties",
+      "body": "A number of properties around Virginia Water sit behind gated or private road access with long driveways, which is worth flagging at survey stage. The steam generator, enclosure glass and tiling materials are bulkier and heavier than a standard shower delivery, so confirming gate codes, intercom access, or coordination with a managing agent in advance keeps delivery and installation visits running to schedule rather than losing time at the gate."
+    },
+    {
+      "heading": "How we run the installation",
+      "body": "A paid survey comes first, to confirm generator siting, pipe-run length, window or glazing requirements if relevant, extraction routing, access arrangements, and any structural work the enclosure needs. Strip-out and first fix follow — waste relocation, the generator's water, drain and electrical supply, and extraction ducting, all going in before anything is covered up. Full tanking covers every enclosure surface, then tiling, with the generator and controls plumbed, wired and commissioned last, including a full steam cycle test and seal check before handover. You source the generator, controls, enclosure glass and tiles; we handle strip-out through to commissioning, from £3,500. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a steam room include a window for natural light?",
+      "a": "Yes, provided it uses sealed, steam-rated glazing designed to hold the enclosure's airtight seal rather than a standard double-glazed unit. On larger Virginia Water plots there's often flexibility to reposition the enclosure to make use of an existing window."
+    },
+    {
+      "q": "My house is on a gated private road — how does that affect installation?",
+      "a": "Mainly around deliveries and access scheduling. The generator and enclosure materials are bulkier than a standard shower delivery, so we confirm gate codes or managing agent coordination at survey stage to keep the programme on track."
+    },
+    {
+      "q": "Can an existing shower near the Wentworth Estate be upgraded to a steam enclosure?",
+      "a": "Sometimes, if the enclosure can be stripped back to allow full tanking and sealing. On the larger period and executive-style properties common in Virginia Water, there's often room to adjust the enclosure's footprint slightly to get the seal right."
+    },
+    {
+      "q": "How long does generator commissioning take?",
+      "a": "Once the generator and control panel are plumbed and wired, commissioning involves running a full steam cycle to check every seal and confirm the extraction is clearing humidity properly — this is done as a dedicated final visit once tiling is complete."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower and steam room installation service" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation in Virginia Water" },
+    { "href": "/bathroom-cost/virginia-water/", "anchor": "Bathroom installation costs in Virginia Water" },
+    { "href": "/areas/sunningdale/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation on Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "steam shower installation Virginia Water",
+  "secondaryKeywords": [ "steam room installation Virginia Water", "steam shower fitter Virginia Water", "bathroom steam enclosure Virginia Water" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a steam shower and steam room installation page targeting Virginia Water homeowners. Subject and action: a finished, fully sealed steam shower enclosure, dry-styled and unoccupied, positioned beside a sealed glazed window panel that lets daylight into the cubicle. Setting and work-stage: a newly completed bathroom in a large detached house set back from a long driveway, generator control panel mounted on the wall outside the enclosure. Composition: centred, symmetrical shot facing the enclosure directly so the window panel and door are both balanced in frame. Light and materials: cream limestone-effect large-format tiles, an antique brass enclosure frame and door handle, warm golden-hour light spilling in through the sealed window panel, natural stone-like variation in tone rather than uniform gloss. Constraints: no people, no text, no logos, no visible brand names on any fixture, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash across the whole image, no hanging plants or candles, no water or steam shown actively running.",
+    "heroOutputPath": "heroes/service-town/virginia-water-steam-shower-and-steam-room-installation-hero.webp",
+    "heroAlt": "Finished sealed steam shower enclosure with antique brass frame, sealed window and limestone-effect tiling in a Virginia Water bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

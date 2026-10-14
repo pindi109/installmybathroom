@@ -1,0 +1,76 @@
+{
+  "path": "/areas/virginia-water/shower-toilet-installation/",
+  "family": "Service x town",
+  "service": "shower-toilet-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Shower Toilet Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only shower toilet installation in Virginia Water. Dedicated power and water supply routed to the pan, with layout flexibility from larger plots.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/shower-toilet-installation/"
+  },
+  "h1": "Shower toilet installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. An integrated shower-toilet unit needs a dedicated power supply to the pan as well as its own water feed, and the layout flexibility these larger plots give us makes that considerably easier to plan well."
+  },
+  "sections": [
+    {
+      "heading": "Beyond plumbing: the electrical side of a shower toilet",
+      "body": "A shower-toilet unit with a heated seat, wash function and warm-air dryer draws continuous mains power, which means it needs a fused connection unit positioned correctly outside the bathroom's zoned splash areas, supplied by cable routed in at first fix. This is a materially different scope to connecting a standard WC to a soil pipe and a cold feed. The water supply side is separate again: an isolated feed off the mains cold supply, sized and valved to suit the specific unit. Both need to be agreed and planned before strip-out, because retrofitting a power route through finished tiling is costly and best avoided entirely."
+    },
+    {
+      "heading": "Why Virginia Water's plots make this easier to plan",
+      "body": "Properties here range from substantial period houses to more recent executive-style builds, and plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around. The same applies to a shower-toilet installation: more loft space and longer stud-wall runs mean we can usually route a new power supply to the pan without the compromises a smaller footprint would force."
+    },
+    {
+      "heading": "Access and scheduling near gated properties",
+      "body": "A number of properties in Virginia Water sit on gated or private roads, often with long driveways, so we confirm access arrangements at the £125 paid survey alongside checking the existing power and water supplies in the room. From there we agree the specific route for the new electrical connection and the water feed the shower-toilet unit needs. We're fit-only — you purchase the unit, brassware, tiles and furniture, and we carry out strip-out, first-fix, tiling, plumbing and snagging, from £3,500."
+    },
+    {
+      "heading": "How we sequence the job",
+      "body": "After survey: strip-out, first-fix plumbing and the dedicated power supply, tiling, then installation and testing of the shower-toilet unit, finishing with snagging. Call or WhatsApp 07399 651836 to book your survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a long driveway or gated access change the quote?",
+      "a": "It can affect scheduling rather than the core technical scope. We confirm access arrangements at survey so visits are planned around them, but the power and water supply work needed for a shower-toilet installation is assessed independently of access."
+    },
+    {
+      "q": "Can the pan be repositioned to make room for a freestanding bath?",
+      "a": "Often, yes. The generous plot sizes common in Virginia Water usually give more flexibility to relocate a waste run or reposition fixtures than a terraced property allows, which can free up space elsewhere in the room."
+    },
+    {
+      "q": "Is the water supply for a shower toilet different from a normal pan?",
+      "a": "Yes. A shower-toilet unit needs its own isolated feed off the mains cold supply, sized and valved for that specific model, rather than the simple cold feed a conventional cistern uses."
+    },
+    {
+      "q": "What does the £125 survey cover?",
+      "a": "We confirm your chosen unit's power and water requirements, check existing supplies and access, and agree routes for cable and pipework before finalising a quote starting from £3,500."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation service" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation in Virginia Water" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/sunningdale/shower-toilet-installation/", "anchor": "Shower toilet installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/shower-toilet-installation/", "anchor": "Shower toilet installation on Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "shower toilet installation Virginia Water",
+  "secondaryKeywords": [
+    "integrated shower toilet fitter Virginia Water",
+    "washlet style toilet installer Surrey",
+    "shower toilet power and water supply Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Virginia Water shower-toilet-installation town page on a fit-only bathroom installer's website. Subject and action: a finished wall-hung WC fitted with an integrated shower-toilet seat unit on a concealed frame, no other sanitaryware in view. Setting and work-stage: a completed bathroom in a substantial detached house near a golf estate, large limestone-effect tile on the wet wall with a wide window reveal visible to one side. Composition: wide shot showing part of a window alongside the pan, off-centre framing with generous negative space. Light and materials: golden-hour side light raking across the tile texture, brushed bronze-gunmetal pipework and flush plate, limestone-effect tile with a soft matte finish. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-shower-toilet-installation-hero.webp",
+    "heroAlt": "Wall-hung shower toilet unit in a Virginia Water bathroom with limestone-effect tiling and brushed bronze-gunmetal fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

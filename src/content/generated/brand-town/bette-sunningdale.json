@@ -1,0 +1,110 @@
+{
+  "path": "/installer/bette-sunningdale/",
+  "family": "Brand x town",
+  "brand": "bette",
+  "town": "sunningdale",
+  "slug": "bette-sunningdale",
+  "seo": {
+    "title": "Bette Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only Bette bath and shower tray installation in Sunningdale. Supply your own products, we handle strip-out to snagging. £125 survey, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/bette-sunningdale/"
+  },
+  "h1": "Bette bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Golf courses give Sunningdale its name, and the large detached properties that surround them tend to share a theme: generous plots that aren't especially constrained by neighbouring structure. Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds all sit on private or gated roads where moving a waste run three feet to accommodate a freestanding bath is rarely a problem. That flexibility matters when the bath in question is a Bette, a titanium-steel shell finished in fused glass enamel that's harder and more scratch-resistant than acrylic but needs a properly built substructure underneath it to perform the way it's designed to. We install Bette baths and shower trays with exactly that groundwork, not as a like-for-like swap with whatever was there before."
+  },
+  "sections": [
+    {
+      "heading": "Why Bette baths and trays need a different approach",
+      "body": "A Bette shell is titanium-steel finished with fused glass enamel, not the acrylic found in most bathroom showrooms. That finish is genuinely more resistant to scratching and everyday wear, but the shell itself doesn't flex, so any inconsistency in the floor or stud wall beneath it transfers straight into the bath as noise, a stress point in the enamel, or a tray that rocks fractionally when stood on. We don't approach a Bette installation as a straight swap for whatever bath or tray is being removed; the substructure gets built specifically for the model going in."
+    },
+    {
+      "heading": "Sunningdale's plots and what they mean for layout",
+      "body": "Sunningdale's housing stock sits on generally generous plots, whether that's a Victorian villa, an inter-war semi-detached house, or a newer executive-style build on a gated private road. That space typically gives us more flexibility on bathroom layout than a terraced or semi-detached property in a denser area would allow. Moving a waste run to suit a freestanding Bette bath's position, for instance, is rarely blocked by a party wall or a neighbouring structure the way it might be elsewhere, which opens up more options when we're planning where the bath actually sits in the room."
+    },
+    {
+      "heading": "Getting the substructure right",
+      "body": "Before a Bette bath or shower tray goes in, we build a dedicated base underneath it: level, braced against movement, and acoustically isolated so the steel shell doesn't carry every footstep or knock through to the room below. That's three separate pieces of work, not one, and each has to be right before the bath is set in place and the waste and overflow connected. Getting it right the first time matters more with Bette than with most baths, because the enamelled steel won't mask a substructure that's slightly out."
+    },
+    {
+      "heading": "From survey to snagging",
+      "body": "We work fit-only: you source the Bette bath or shower tray along with your brassware, tiles and furniture, and we carry out the installation. A £125 survey comes first, where we assess the floor, waste position and access route for your Sunningdale property and confirm the substructure your chosen model will need. After that we strip out the existing bathroom, complete first-fix plumbing, build and tile the new substructure, fit the bath or tray and brassware, and snag the finished room. Installs start from £3,500."
+    },
+    {
+      "heading": "Book your survey",
+      "body": "To get a Bette installation planned properly in Sunningdale, start with the survey so we can confirm the floor, waste run and substructure needed before anything is priced. Call or WhatsApp 07399 651836."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What makes Bette different from an acrylic bath?",
+      "a": "Bette baths and shower trays are made from titanium-steel finished with fused glass enamel, which is harder and more scratch-resistant than acrylic but doesn't flex to absorb an uneven base. It needs a properly built substructure to perform as designed."
+    },
+    {
+      "q": "Will Sunningdale's larger plots make a difference to my installation?",
+      "a": "Often yes. Generous plot sizes around Sunningdale tend to reduce the structural constraints that come with a terraced or closely-built property, giving us more flexibility to move a waste run or reposition a freestanding bath."
+    },
+    {
+      "q": "Do you supply the Bette bath, or do I?",
+      "a": "You buy the bath, shower tray, brassware, tiles and furniture. We handle strip-out, first-fix, tiling, plumbing and snagging on a fit-only basis."
+    },
+    {
+      "q": "What does a Bette installation cost?",
+      "a": "Installs start from £3,500, with the final price depending on the scope of work and confirmed after a £125 survey."
+    },
+    {
+      "q": "Why does the substructure matter so much with Bette?",
+      "a": "Because the titanium-steel shell doesn't flex, any movement or unevenness in the base beneath it shows up as noise or a stress point rather than being absorbed, so the levelling, bracing and acoustic isolation need to be right before the bath goes in."
+    },
+    {
+      "q": "How long does a typical installation take?",
+      "a": "It depends on the scope confirmed at survey, including strip-out, first-fix, substructure work, tiling and snagging; we'll give you a programme once the survey is complete."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More about Bette baths and shower trays",
+      "href": "/brands/bette/"
+    },
+    {
+      "anchor": "Bathroom installation in Sunningdale",
+      "href": "/areas/sunningdale/"
+    },
+    {
+      "anchor": "Bathroom brands we install in Sunningdale",
+      "href": "/areas-brands/sunningdale/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Bathroom strip-out and preparation",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "bette"
+    },
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "Bette installation Sunningdale",
+  "secondaryKeywords": [
+    "Bette bath fitter Sunningdale",
+    "Bette shower tray installation Sunningdale",
+    "fit-only bathroom installer Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Bette bathroom installation page targeting Sunningdale. Subject and action: a Bette shower tray and an adjacent freestanding bath, both titanium-steel with a fused glass enamel finish, installed and ready for use. Setting and work-stage: a completed high-end bathroom renovation in a detached house, travertine tiling on the floor and a feature wall. Composition: three-quarter angle shot from the doorway, capturing both the bath and the shower enclosure with the travertine wall as backdrop. Light and materials: soft overcast daylight through a frosted window giving even, diffused light, brushed bronze shower fittings and bath waste, travertine's natural variation in tone visible with a honed rather than glossy finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche or mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash across the frame, no hanging plants or florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/bette-sunningdale-hero.webp",
+    "heroAlt": "Bette bath and shower tray with brushed bronze fittings in a travertine bathroom, soft daylight, Sunningdale installation",
+    "inline": []
+  }
+}

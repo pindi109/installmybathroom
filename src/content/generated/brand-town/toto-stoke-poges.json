@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-stoke-poges/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "stoke-poges",
+  "slug": "toto-stoke-poges",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation across Stoke Poges. You buy the fixture, we handle structural and electrical first-fix. Survey from £125.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-stoke-poges/"
+  },
+  "h1": "TOTO bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, its best-known identity shaped by Stoke Park's golf and country club, with homes ranging from older period detached properties to more recent executive-style builds set well back on sizeable gardens. That scale of property suits a TOTO Neorest particularly well — a single integrated unit replacing the pan, cistern and seat entirely — because the structural and electrical planning it needs is far easier to accommodate when a bathroom isn't boxed in by a terraced house's party walls. We fit the full TOTO range fit-only: you buy the Washlet or Neorest, we handle everything that gets it working."
+  },
+  "sections": [
+    {
+      "heading": "Why Washlet and Neorest need different groundwork",
+      "body": "TOTO's Washlet and Neorest products look related but sit at opposite ends of complexity for us as installers. A Washlet is an electronic seat added to a conventional pan — the waste run and cistern stay broadly as they are, with a power supply run to the seat the main new element. A Neorest does away with that separation: pan, cistern and seat become a single sealed unit, so the waste connection, water supply and electrical feed all need agreeing and roughing in before tiling starts, not retrofitted once the room is finished. Which one a client has ordered changes our first-fix plan from the outset."
+    },
+    {
+      "heading": "Stoke Poges' plot sizes work in our favour",
+      "body": "The houses around Stoke Poges, whether older period properties or the more recent executive-style builds set back on generous gardens, generally give us far more room to manoeuvre on layout than a smaller terraced property would allow. Relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints we'd meet elsewhere — which matters directly for a Neorest installation, where we need enough depth and width behind the unit for the concealed cistern and servicing access."
+    },
+    {
+      "heading": "What we install from the TOTO range",
+      "body": "Our fit-only service covers the full TOTO Washlet and Neorest lineup — wall-hung and close-coupled Washlet-compatible pans, the Washlet seats themselves, complete Neorest integrated units, and matching TOTO basins and brassware where a client has specified them. You source the products from TOTO or an approved retailer; we strip out the existing suite, first-fix the plumbing and electrics, tile, connect and test the unit, and snag before handover. Because the electronics are built into the fixture rather than added afterwards, there's less room for error in the first-fix than with a standard ceramic WC."
+    },
+    {
+      "heading": "The process: survey, install, price",
+      "body": "We begin with a paid survey at £125, where we check the existing waste and water runs, confirm what power is available near the WC position, and establish whether the job is a Washlet retrofit or a full Neorest replacement, since the two require different groundwork. The installation itself starts from £3,500, varying with scope, and once agreed we strip out the old bathroom, first-fix the plumbing, electrics and any structural work the Neorest's integrated cistern requires, tile, fit the suite and snag before we hand the room back."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a larger Stoke Poges plot make fitting a Neorest easier?",
+      "a": "Generally, yes. The sizeable gardens and set-back houses around Stoke Poges mean less structural restriction on relocating a waste run or widening access, which gives more flexibility when positioning an integrated Neorest unit than a smaller terraced bathroom would allow."
+    },
+    {
+      "q": "Can I add a Washlet seat to my existing WC pan?",
+      "a": "In many cases, yes — a Washlet seat adds to a conventional pan, so the existing waste run can often stay as it is. We confirm compatibility at the £125 survey."
+    },
+    {
+      "q": "Do you supply the TOTO products?",
+      "a": "No, we're fit-only. You buy the Washlet, Neorest, basin or brassware from TOTO or an approved retailer, and we handle strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "How much does a TOTO installation cost in Stoke Poges?",
+      "a": "Fit-only installations start from £3,500, depending on whether it's a Washlet retrofit or a full Neorest replacement with additional first-fix electrics. We confirm the exact figure after the survey."
+    },
+    {
+      "q": "Can you add a second en-suite with a TOTO Neorest off a principal bedroom?",
+      "a": "Often, yes — the generous plot sizes typical around Stoke Poges tend to give more flexibility for this kind of addition than a smaller property allows, though it depends on the existing waste and water routes, which we assess at survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers in Stoke Poges",
+      "href": "/areas/stoke-poges/"
+    },
+    {
+      "anchor": "TOTO installations in Stoke Poges",
+      "href": "/areas-brands/stoke-poges/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Stoke Poges",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Stoke Poges",
+    "TOTO Washlet installation Stoke Poges",
+    "fit-only bathroom installer Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page conveying the structural precision an integrated shower toilet demands. Subject and action: a wall-hung Neorest-style WC unit mounted on a concealed-cistern frame, frame cover removed to show the servicing void, no fixture branding visible. Setting and work-stage: a spacious period-house bathroom on a large plot, first-fix stage with limestone tiling laid on three walls and the fourth still bare substrate. Composition: low wide-angle shot from floor level looking up at the fixture, strong negative space above emphasising ceiling height. Light and materials: honed limestone tiling in soft taupe tones, matte black pipework, cistern frame and shower valve, cool overcast daylight from a high window creating diffuse shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-stoke-poges-hero.webp",
+    "heroAlt": "Wall-hung integrated shower toilet mounted on an exposed concealed-cistern frame in a honed limestone bathroom with matte black fittings in Stoke Poges",
+    "inline": []
+  }
+}

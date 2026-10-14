@@ -1,0 +1,81 @@
+{
+  "path": "/installer/grohe-stoke-poges/",
+  "family": "Brand × town",
+  "brand": "grohe",
+  "town": "stoke-poges",
+  "slug": "grohe-stoke-poges",
+  "seo": {
+    "title": "GROHE Bathroom Installer in Stoke Poges | Fit-Only | Install My Bathroom",
+    "description": "GROHE digital shower, brassware and cistern frame installation in Stoke Poges, fit-only from £3,500. We work through exactly what's been specified before fitting starts.",
+    "canonical": "https://installmybathroom.co.uk/installer/grohe-stoke-poges/"
+  },
+  "h1": "GROHE bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "A village built around large plots and substantial houses tends to produce more ambitious bathroom specifications, and in Stoke Poges — where Stoke Park's golf and country club sets the tone, and houses sit well back from the road on sizeable gardens — the GROHE jobs we're called in for skew towards the more fully specified end of the brand's range rather than a straightforward refit. GROHE's digital shower and smart water products need wall and floor void space to route their control wiring and supply cleanly, and the older period detached homes and more recent executive-style builds that make up most of Stoke Poges give us that space more readily than a smaller property would. That's not the whole of what we fit here — thermostatic valves and mixer taps on simpler refits and Rapid SL cistern frames behind wall-hung WCs both come up regularly too — but it's the end of the range that a Stoke Poges project is more likely to reach than most. We fit only, from £3,500, working through exactly what's been specified at survey before any wall closes up."
+  },
+  "sections": [
+    {
+      "heading": "What we install from GROHE in Stoke Poges",
+      "body": "Digital shower and smart water products are a recurring fit in Stoke Poges, particularly in larger en-suite or principal bathroom reconfigurations where the brief already goes beyond a standard refit. We also fit Rapid SL cistern frames behind wall-hung WCs as part of concealed cistern specifications, and thermostatic shower valves and mixer taps on more conventional refits where the brief is simpler. Each of these is a different fitting job, not a variation on the same one, and which you need depends on exactly what's been chosen through your showroom or designer before we're on site."
+    },
+    {
+      "heading": "Installation considerations specific to GROHE",
+      "body": "A digital shower control unit needs its wiring route and water supply confirmed before first fix closes the wall, because moving it afterwards means cutting back into finished tiling — this is the single detail most likely to cause a problem if it isn't settled at survey. A Rapid SL cistern frame carries the pan and cistern's full weight on its own structural fixing rather than the tiles, so that fixing has to be right before boarding goes over it. A standard thermostatic valve still needs its concealed body set to the correct depth for the final tile thickness. We confirm which of these applies to your Stoke Poges project before anything is ordered, rather than discovering a mismatch on fitting day."
+    },
+    {
+      "heading": "How Stoke Poges' housing stock affects a typical GROHE installation",
+      "body": "Stoke Poges is a village of large plots and substantial houses, ranging from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. For a GROHE digital shower, that translates into more straightforward wiring and supply routing; for a Rapid SL frame, it generally means more flexibility in positioning the wall-hung WC without being boxed in by an existing structural wall. In an older period Stoke Poges house we still check original floor structure and existing service runs before committing to a layout, and in a newer executive-style build we're more often confirming what a previous fit-out has already enclosed. The survey is where we work out which applies to your specific house."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We fit GROHE products on a fit-only basis across Stoke Poges — you source the sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first fix, tiling, plumbing and snagging. Installations start from £3,500, beginning with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm exactly what's specified and what your property needs to fit it properly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why does a GROHE digital shower need more planning than a standard valve?",
+      "a": "A digital shower has a control unit that needs a confirmed wiring route and water supply before the wall is closed at first fix. Move it afterwards and you're cutting into finished tiling, so we settle the position at survey."
+    },
+    {
+      "q": "Do large Stoke Poges plots make a GROHE installation simpler?",
+      "a": "Generally, yes — more floor and wall space makes it easier to route a digital shower's wiring or position a Rapid SL cistern frame without hitting a structural wall. We still check floor structure and existing services at survey regardless of plot size."
+    },
+    {
+      "q": "What's the difference between a Rapid SL frame and a standard concealed cistern?",
+      "a": "A Rapid SL frame carries the full weight of the pan and cistern on its own structural fixing, rather than relying on the wall tiles, so the fixing into the wall or floor behind it has to be confirmed before boarding and tiling close over it."
+    },
+    {
+      "q": "Can you fit GROHE products I've bought from a showroom or online?",
+      "a": "Yes. We work fit-only, so you supply the GROHE sanitaryware, brassware and furniture, and we handle the strip-out, first fix, tiling, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "How do I start a GROHE bathroom project in Stoke Poges?",
+      "a": "Book the fixed-price £125 survey. We'll measure the room, confirm what's been specified from GROHE's range, and establish what your property needs before giving you a firm quote."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/grohe/", "anchor": "All the GROHE products we fit" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom fitting in Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "anchor": "Bathroom brands we fit in Stoke Poges" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital & smart shower installation" },
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "GROHE bathroom installer Stoke Poges",
+  "secondaryKeywords": [
+    "GROHE digital shower installation Stoke Poges",
+    "GROHE installation Stoke Poges",
+    "GROHE fitter Buckinghamshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the GROHE × Stoke Poges installer page, implying GROHE's digital shower range through a close fixture-detail shot. Subject and action: an unbranded digital shower control unit's circular wall plate held in a gloved-free resting position against a part-tiled wall, cable protruding from a chased recess behind it, a small spirit level and electrician's tester resting on the ledge below, mid-first-fix. Setting and work-stage: an en-suite under construction in a substantial Stoke Poges executive-style house, tiling half-complete, exposed chased wall channel still visible above the control position, late-afternoon light. Composition: close-to-fixture shot at chest height, control plate and recessed cable in sharp foreground focus, part-tiled wall and a glimpse of a freestanding bath silhouette receding into soft background blur. Light and materials: dark basalt-toned porcelain tiles, matte black control plate finish, warm late-afternoon daylight through a frosted window mixing with a single handheld work light held off to one side, causing uneven warm-and-cool mixed light rather than flat studio lighting. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied believable sheen across the tile and matte plate with visible construction dust on the ledge.",
+    "heroOutputPath": "heroes/brand-town/grohe-stoke-poges-hero.webp",
+    "heroAlt": "Unbranded GROHE-style digital shower control plate mid-first-fix against half-tiled dark basalt porcelain in a Stoke Poges en-suite, chased cable recess visible above.",
+    "inline": []
+  }
+}

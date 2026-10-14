@@ -1,0 +1,76 @@
+{
+  "path": "/areas/virginia-water/ensuite-installation/",
+  "family": "Service x town",
+  "service": "ensuite-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "En-Suite Installation Virginia Water | Install My Bathroom",
+    "description": "Fit-only en-suite installation in Virginia Water. Stud wall, tanking, drainage and tiling handled by experienced installers. From £3,500. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/ensuite-installation/"
+  },
+  "h1": "En-suite installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's housing stock tends toward large detached properties, many sitting close to the Wentworth Estate and its golf courses, on generous plots reached by long driveways and, in a fair number of cases, gated or private road access. Whether the house is a substantial period property or a more recent executive-style build, that kind of plot gives an en-suite project room to breathe. We're a fit-only installer — you choose the sanitaryware, tiles and brassware, we handle the stud wall, tanking, plumbing and finishing — and in Virginia Water the generous footprints we usually work with mean more of your brief survives the first site visit intact."
+  },
+  "sections": [
+    {
+      "heading": "What a generous plot changes about the installation",
+      "body": "A terraced house with a single soil stack and a narrow landing dictates most of an en-suite's layout before the designer has even picked up a pen — the drainage run has to go where it can go, and the shower or bath ends up wherever that leaves room for. Virginia Water's larger detached properties, many set well back from the road on their own plot, don't impose that constraint nearly as often. Longer internal runs are usually achievable without digging through a load-bearing wall, so if you want a freestanding bath positioned to catch light from a garden-facing window, or a shower repositioned a metre to the left so the vanity run makes better sense, we can usually find a route for the waste pipe to follow you rather than the other way round. The same applies to the stud wall itself: partitioning off a corner of a large bedroom to create an en-suite rarely runs into a structural wall it can't work around, because there's simply more floor plan to work with. None of this is free rein — soil stacks, vent runs and fall gradients still obey the same physics in a six-bedroom house as in a two-bedroom flat — but the extra space tends to turn 'technically possible with compromises' into 'straightforward' more often than not."
+    },
+    {
+      "heading": "What stays the same regardless of plot size",
+      "body": "Extra square footage changes what's achievable on paper; it doesn't change what has to happen underneath the tiles. Every en-suite we fit gets a fully tanked wet area — walls and floor, not just the shower tray upstand — because a leak in an upstairs en-suite doesn't stay in the en-suite, it ends up in the ceiling below, and no amount of plot size fixes that after the fact. Falls to the drain are set to gradient on every floor we lay, whether the room is three square metres or ten. Extraction is sized to the room and ducted to the outside air, not left to a recirculating fan that just moves the moisture around. And because much of this estate is more spread out, with some properties on longer private or shared access roads, we confirm delivery routes and parking for materials and skips at the same time we confirm the survey date, so a generous plot doesn't end up working against us on delivery day."
+    },
+    {
+      "heading": "How the project runs, start to finish",
+      "body": "We start with the £125 paid survey, where we look at the existing soil stack, measure the room or the space being converted, and talk through where you want fittings positioned — this is the point where a bigger plot genuinely pays off, because we can usually accommodate a layout preference rather than working around one. Once the plan is agreed, we build the stud wall and run first-fix plumbing and electrics, then tank the whole wet area before a single tile goes up. Tiling comes next, followed by second fix — fitting the shower enclosure or bath, basin, WC, taps and any heated towel rail — and a full snagging pass before we hand the room back. A typical en-suite conversion in a property like this runs 8 to 12 working days depending on scope, access and how much first-fix work the existing plumbing needs. We keep you updated at each stage rather than disappearing until the big reveal, and because we're fit-only, you're free to source your sanitaryware, tiles and brassware from wherever gives you the best combination of style and price."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you add an en-suite to a bedroom that doesn't have one in a Virginia Water property?",
+      "a": "In most cases, yes. The larger floor plans typical of this area mean there's usually a corner of the bedroom, or an adjoining dressing room, that can be partitioned off without eating into the room so much it stops functioning as a bedroom. The main limiting factor is always the route back to the existing soil stack, which we assess at survey."
+    },
+    {
+      "q": "Does a larger plot or house make the en-suite itself cheaper or more expensive?",
+      "a": "The plot size mostly affects what's achievable in terms of layout, not the base cost of the fit-out. Installs start from £3,500, and the final figure depends on the scope of work — how much stud walling, first-fix plumbing and tiling is involved — rather than how big the garden is."
+    },
+    {
+      "q": "How long does an en-suite installation take?",
+      "a": "Most en-suite conversions in this type of property take 8 to 12 working days from first-fix through to final snagging, though the exact timeline depends on the condition of the existing plumbing and how much structural work the stud wall requires."
+    },
+    {
+      "q": "What happens if the drainage route is longer than usual because of the layout?",
+      "a": "Longer runs are generally achievable on larger properties because there's more room to maintain the correct fall gradient to the soil stack. Where a gravity run genuinely isn't achievable — for example, below the level of the stack — a macerator unit is the standard fallback, and we'll flag that at survey rather than after the walls are closed up."
+    },
+    {
+      "q": "Do you need to be on-site for the whole project?",
+      "a": "No. We coordinate access for each stage of the work and will let you know in advance which visits need someone present — typically the initial survey and the final snagging walkthrough — and which can run without you needing to be home."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation in Virginia Water" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost guide for UK homeowners" },
+    { "href": "/areas/sunningdale/ensuite-installation/", "anchor": "En-suite installation in nearby Sunningdale" },
+    { "href": "/areas/ascot/ensuite-installation/", "anchor": "En-suite installation in nearby Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "en-suite installation Virginia Water",
+  "secondaryKeywords": [
+    "en-suite fitter Virginia Water",
+    "en-suite conversion Virginia Water Surrey",
+    "fit-only en-suite installer Wentworth area"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an en-suite installation page targeting a large-plot detached property in Virginia Water. Subject and action: a newly tiled en-suite bathroom mid-second-fix, freestanding bath positioned beneath a tall window, shower enclosure glass panel propped against the wall awaiting final fitting. Setting and work-stage: daytime, second-fix stage, tools and a spirit level resting on a dust sheet in the corner, pale limestone-effect floor tiles partially grouted. Composition: wide horizontal shot taken from the doorway showing the full width of the room and the window with garden light, slight diagonal framing to emphasise generous floor space. Light and materials: soft natural daylight from the window as the dominant light source, pale limestone wall tiles, brushed pewter brassware, matte porcelain basin, warm but neutral tones throughout. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied natural sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-ensuite-installation-hero.webp",
+    "heroAlt": "Newly tiled en-suite bathroom installation in a Virginia Water property with freestanding bath beneath a window and pale limestone tiling",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

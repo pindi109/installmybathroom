@@ -1,0 +1,100 @@
+{
+  "path": "/areas/stoke-poges/accessible-luxury-bathrooms/",
+  "family": "Service x town",
+  "service": "accessible-luxury-bathrooms",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Accessible Luxury Bathrooms in Stoke Poges | Install My Bathroom",
+    "description": "Level-access showers, wider doorways and reinforced walls for Stoke Poges homes, finished to a high-end standard. Fit-only installation from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/accessible-luxury-bathrooms/"
+  },
+  "h1": "Accessible luxury bathrooms in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens near Stoke Park. That scale gives us far more room to manoeuvre on layout than a smaller property allows, which matters directly when the brief is a level-access shower, a widened doorway, or a reinforced wall built to take a grab rail — the structural headroom that a terraced house simply doesn't have."
+  },
+  "sections": [
+    {
+      "heading": "What 'accessible' changes in the build",
+      "body": "A standard bathroom refit and an accessible luxury bathroom share most of the same trades — strip-out, first-fix plumbing, tiling, final fit, snagging — but three things are different underneath. The shower floor needs to be level with the rest of the room, which usually means re-routing or lowering the waste. The doorway needs enough clear width for comfortable movement through it, which can mean moving a stud wall or swapping the frame. And any wall near the shower, bath or WC that might one day carry a grab rail needs solid timber blocking behind the board, decided before tiling begins. None of this needs to be visible in the finished room — rails can be finished in brushed nickel or any other tone to match the rest of the fittings."
+    },
+    {
+      "heading": "Why Stoke Poges properties suit this work well",
+      "body": "Houses here tend to sit on sizeable plots, whether period detached homes or the executive-style builds that have gone up more recently, and that scale generally gives us far more room to manoeuvre on layout than a smaller property would allow. Relocating a waste run, widening a doorway for level access, or even adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. In practice that means fewer surprises at survey and more flexibility in exactly where the level threshold and doorway sit relative to the rest of the room."
+    },
+    {
+      "heading": "Planning the layout at survey",
+      "body": "Our £125 survey covers the waste fall available, the floor build-up between the joists and the finished floor level, which walls are load-bearing versus stud, and where support reinforcement should go based on how you actually use the room day to day. On a larger Stoke Poges plot, this conversation usually has more options on the table than it would elsewhere — for example, whether to widen the existing doorway or reposition it entirely, or whether there's room to extend the wet area rather than squeeze it into the existing footprint."
+    },
+    {
+      "heading": "From strip-out to finished room",
+      "body": "Once the layout is agreed, we strip the existing bathroom back to brick or block, carry out the doorway and wall alterations, adjust the waste run for the level threshold, build in the reinforcement, then first-fix plumbing and electrics before tiling. The sanitaryware, brassware and furniture you've sourced go in last, followed by snagging. Throughout, the aim is a finished room that looks like any other high-end bathroom we fit — the accessibility is in what's behind the tiles, not what you see."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you really widen a doorway in a Stoke Poges house without major disruption?",
+      "a": "In most cases, yes. The larger plots and more generous internal layouts common here mean the stud walls around a bathroom doorway are rarely load-bearing, which keeps the work contained compared with a period terrace."
+    },
+    {
+      "q": "Will the finished bathroom look like a standard accessible bathroom?",
+      "a": "No. We finish accessible luxury bathrooms to the same design standard as any other project — support rails and reinforced walls are built in behind the tiles and finished in your chosen metal tone, not left looking clinical."
+    },
+    {
+      "q": "What does it cost to install an accessible luxury bathroom?",
+      "a": "Installations start from £3,500, fit-only, with the final figure depending on the scope of doorway and wall work plus your chosen products. The £125 survey confirms an accurate figure for your property."
+    },
+    {
+      "q": "Can you add a second en-suite as part of this project?",
+      "a": "Where the plot and layout allow it — which is common in Stoke Poges — we can discuss adding a second en-suite off a principal bedroom alongside the main accessible bathroom work. This is confirmed at survey."
+    },
+    {
+      "q": "Do you supply the grab rails and fittings?",
+      "a": "No, we're fit-only — you source the sanitaryware, brassware, tiles and any support rails, and we handle the strip-out, structural work, first-fix, tiling, plumbing and snagging."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on our accessible luxury bathroom service",
+      "href": "/services/accessible-luxury-bathrooms/"
+    },
+    {
+      "anchor": "Install My Bathroom in Stoke Poges",
+      "href": "/areas/stoke-poges/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Stoke Poges",
+      "href": "/bathroom-cost/stoke-poges/"
+    },
+    {
+      "anchor": "Accessible luxury bathrooms in Gerrards Cross",
+      "href": "/areas/gerrards-cross/accessible-luxury-bathrooms/"
+    },
+    {
+      "anchor": "Accessible luxury bathrooms in Windsor",
+      "href": "/areas/windsor/accessible-luxury-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    }
+  ],
+  "primaryKeyword": "accessible luxury bathroom Stoke Poges",
+  "secondaryKeywords": [
+    "level access shower Stoke Poges",
+    "wheelchair accessible bathroom installer Buckinghamshire",
+    "wet room installation Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an accessible luxury bathroom service page targeting Stoke Poges. Subject and action: a finished accessible bathroom with a wide walk-in shower, flat threshold, and a single discreet vertical support rail beside the entry. Setting and work-stage: completed installation styled for a substantial detached house. Composition: eye-level view framed through the open doorway, showing the full depth of the room with the vanity partially visible to one side for scale. Light and materials: pale veined marble-effect large-format porcelain, brushed nickel fittings, soft diffused daylight from a frosted rooflight overhead giving even, shadowless illumination. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strips under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber colour wash, no plants, candles or florals, no water shown running, varied natural sheen rather than uniform hyper-gloss, support rail finished in matching brushed nickel with no clinical or institutional appearance.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-accessible-luxury-bathrooms-hero.webp",
+    "heroAlt": "Finished accessible bathroom with brushed nickel fittings and pale marble-effect tiling in a Stoke Poges home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

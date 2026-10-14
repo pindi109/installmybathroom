@@ -1,0 +1,72 @@
+{
+  "path": "/areas/stoke-poges/steam-shower-and-steam-room-installation/",
+  "family": "Service x town",
+  "service": "steam-shower-and-steam-room-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Steam Shower & Steam Room Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only steam shower and steam room installation in Stoke Poges. Sealed enclosures, generator siting, ventilation and electrics handled for you. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/steam-shower-and-steam-room-installation/"
+  },
+  "h1": "Steam shower & steam room installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, best known for Stoke Park's golf and country club, with homes ranging from older period detached properties to recent executive-style builds set well back on sizeable gardens. That scale gives a steam shower or steam room installation more room to work with than a smaller property would — from where the generator sits to whether a second en-suite off a principal bedroom could become a dedicated steam room rather than a shower-only space."
+  },
+  "sections": [
+    {
+      "heading": "A steam enclosure is a sealed system, not a bigger shower",
+      "body": "A steam shower or steam room has to hold saturated steam inside a fully sealed cubicle, which is a different build to a standard shower enclosure. Every panel junction, the ceiling and the door seal need to be close to airtight, the enclosure is tanked on every internal surface including the ceiling, and the ceiling itself is usually given a slight slope so condensation tracks down the walls rather than dripping. A dedicated generator produces the steam from outside the enclosure, connected to mains electrics, a water supply and a drain within a set pipe-run distance, and a separate low-voltage control panel sets temperature and run time. All of it has to be planned and first-fixed before tanking and tiling begin — it isn't something you add to a finished shower afterwards."
+    },
+    {
+      "heading": "What Stoke Poges' larger plots mean for a steam installation",
+      "body": "The scale typical of Stoke Poges properties — older detached houses and more recent executive-style builds, many set well back from the road on generous gardens — generally gives us far more room to manoeuvre on a steam job than a terraced house allows. Relocating a waste run, widening a doorway for level access, or converting a second en-suite off a principal bedroom into a dedicated steam room rather than a shower-only space rarely runs into the structural limits a smaller property would present. That extra depth also helps with generator siting: an airing cupboard, a loft space above the enclosure, or a small plant cupboard built into an adjoining dressing room are all realistic options on a plot this size, which keeps the pipe run short and the installation straightforward."
+    },
+    {
+      "heading": "Ventilation and electrics specific to steam",
+      "body": "A steam enclosure produces continuous, sustained humidity that a standard bathroom extractor fan isn't sized for, so a dedicated extract point near the top of the enclosure is ducted out to an external wall or roof void. The generator runs on its own electrical circuit, separate from lighting and shaver-point circuits, sized to the unit's output and certified under Part P on completion. Getting the ventilation and electrical first fix right, before any tanking or tiling goes in, is what makes the difference between a steam room that clears properly after use and one that leaves condensation sitting on every surface."
+    },
+    {
+      "heading": "How we run the job",
+      "body": "A paid survey comes first, to confirm generator siting, pipe run length, extraction routing and any structural work the enclosure needs — we price the job from that. Strip-out and first fix follow: waste relocation, the generator's water, drain and electrical supply, and extraction ducting, all going in before anything is covered. Full tanking covers every enclosure surface, then tiling, with the generator and control panel plumbed, wired and commissioned last, including a full steam cycle test and seal check before we hand over. You source the generator, controls, enclosure glass and tiles; we handle strip-out through to commissioning, from £3,500. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Could a spare en-suite in my Stoke Poges house become a steam room rather than a shower?",
+      "a": "Often yes, provided there's space to fully seal and tank the enclosure and a sensible nearby location for the generator. On the larger plots typical of Stoke Poges, converting a second en-suite off a principal bedroom into a dedicated steam room is a realistic option we assess at survey."
+    },
+    {
+      "q": "Where would the steam generator go in a period detached house?",
+      "a": "Most commonly an airing cupboard, loft space above the enclosure, or a plant cupboard in an adjoining room, as long as it's within the manufacturer's pipe-run distance. Larger, older detached properties around Stoke Poges usually offer more than one workable option."
+    },
+    {
+      "q": "Does the steam room need its own extraction, separate from the bathroom fan?",
+      "a": "Yes. A steam enclosure produces far more sustained humidity than a standard shower, so it needs a dedicated extract point ducted externally, sized specifically for the generator's output rather than relying on the room's general extractor fan."
+    },
+    {
+      "q": "How long does a steam room installation take from survey to completion?",
+      "a": "It depends on the scope — whether it's a new enclosure or a conversion of existing space, and how far the generator's pipe run needs to travel. We confirm an exact programme at survey once generator siting and ventilation routing are agreed."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower and steam room installation service" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom installation in Stoke Poges" },
+    { "href": "/bathroom-cost/stoke-poges/", "anchor": "Bathroom installation costs in Stoke Poges" },
+    { "href": "/areas/gerrards-cross/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Gerrards Cross" },
+    { "href": "/areas/windsor/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "stoke-poges" } ],
+  "primaryKeyword": "steam shower installation Stoke Poges",
+  "secondaryKeywords": [ "steam room installation Stoke Poges", "steam shower fitter Stoke Poges", "en-suite steam room Stoke Poges" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a steam shower and steam room installation page targeting Stoke Poges homeowners. Subject and action: a finished, fully sealed steam room enclosure, dry-styled and unoccupied, wide enough to suggest a converted second en-suite rather than a compact shower cubicle. Setting and work-stage: a newly completed room in a substantial period detached house, generator controls mounted on the wall just outside the enclosure door. Composition: wide-angle shot taken from across the room to show the full scale of the space around the enclosure. Light and materials: pale travertine-effect large-format tiles, a polished chrome enclosure frame and door handle, bright morning light coming through a nearby window, natural variation in tile tone and sheen rather than uniform gloss. Constraints: no people, no text, no logos, no visible brand names on any fixture, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water or steam shown actively running.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-steam-shower-and-steam-room-installation-hero.webp",
+    "heroAlt": "Finished sealed steam room enclosure with polished chrome frame and travertine-effect tiling in a spacious Stoke Poges bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

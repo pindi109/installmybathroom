@@ -1,0 +1,88 @@
+{
+  "path": "/installer/porcelanosa-sunningdale/",
+  "family": "Brand x town",
+  "brand": "porcelanosa",
+  "town": "sunningdale",
+  "slug": "porcelanosa-sunningdale",
+  "seo": {
+    "title": "Porcelanosa Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only Porcelanosa bathroom installation in Sunningdale. Strip-out, tiling, plumbing and snagging - you choose the tile. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/porcelanosa-sunningdale/"
+  },
+  "h1": "Porcelanosa bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them - a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Porcelanosa's large-format porcelain suits exactly this kind of substantial room: the tile is dense, rectified and dimensionally precise, and in a Sunningdale house with generous plot size, we have the flexibility to prepare the substrate properly and plan a layout - moving a waste run, say, to accommodate a freestanding bath - without the structural constraints a smaller, terraced property would impose."
+  },
+  "sections": [
+    {
+      "heading": "Flatness first: why Porcelanosa is unforgiving",
+      "body": "Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise, which means a joint or a dip that a smaller tile would absorb becomes immediately visible once a metre-long slab sits across it. Fitting it well is a matter of tolerance rather than taste - the floor or wall is checked and prepared flat before anything is set, and the tile goes down with full bed coverage, a consistent joint width and lippage control, so the material's own precision reads clearly rather than being undermined by movement beneath it."
+    },
+    {
+      "heading": "Plot size and layout flexibility in Sunningdale",
+      "body": "Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them - a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure. That flexibility pairs naturally with Porcelanosa's large-format tile, since a bigger room gives us more continuous runs to set out without the tile having to be broken up by awkward pinch points."
+    },
+    {
+      "heading": "What we install from the Porcelanosa range",
+      "body": "We fit Porcelanosa's large-format porcelain across floors, walls, shower enclosures and wet rooms, including travertine-look and marble-look finishes. As a fit-only installer, you buy the tile along with your sanitaryware, brassware and furniture, and we handle everything from strip-out to the finished, fully fitted room."
+    },
+    {
+      "heading": "Setting large-format tile correctly",
+      "body": "Large slabs need solid-bed adhesive rather than spot bonding, because any gap beneath a tile this size becomes a weak point under foot traffic. We keep joint widths narrow and even to suit the rectified edge, use lippage-control clips while the adhesive sets, and build in movement joints at room boundaries and around baths or shower trays, so the finished surface isn't fighting against thermal or structural movement over time."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "A paid survey at £125 comes first, where we assess floor levels, substrate condition and access, and talk through how your chosen Porcelanosa tile affects preparation and layout. Installation then covers strip-out, first-fix plumbing and electrics, tiling, final-fix plumbing and snagging, with installs starting from £3,500 depending on room size and scope. You source the tile, sanitaryware, brassware and furniture; we handle every stage of fitting it, insured throughout."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Porcelanosa tiles, or do I buy them?",
+      "a": "You buy the tile directly - we're a fit-only installer, so you choose and purchase your Porcelanosa tile, sanitaryware, brassware and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does floor flatness matter so much with large-format porcelain?",
+      "a": "Porcelanosa's large-format tile is dense, rectified and dimensionally precise, which means it has very little give at the edges. An uneven substrate shows up as lippage between tiles, so we check and prepare the floor or wall flat before setting it, with the correct bed coverage and joint width to control it."
+    },
+    {
+      "q": "Can you move fittings like the bath or shower to a different spot?",
+      "a": "Often, yes. Plot sizes in Sunningdale tend to be generous, which usually gives more flexibility on layout than a terraced or semi-detached property allows, so relocating a waste run is often possible - we'll confirm what's feasible at survey."
+    },
+    {
+      "q": "How much does a bathroom installation cost?",
+      "a": "Installs start from £3,500, with a £125 paid survey beforehand to confirm scope and price for your specific room."
+    },
+    {
+      "q": "Do you do bathroom repairs as well as full installs?",
+      "a": "Yes, for high-end homes, with a £200 minimum and a £500 minimum for emergency call-outs. We don't do regrouting as a standalone repair."
+    },
+    {
+      "q": "How do I book a survey?",
+      "a": "Call or WhatsApp 07399 651836 to arrange a paid survey at £125, where we'll assess your Sunningdale bathroom and discuss your Porcelanosa tile plans."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/porcelanosa/", "text": "More about Porcelanosa large-format porcelain" },
+    { "href": "/areas/sunningdale/", "text": "Bathroom installation across Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "text": "Brands we fit in Sunningdale" },
+    { "href": "/services/large-format-porcelain-tiling/", "text": "Large-format porcelain tiling service" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "Porcelanosa installation Sunningdale",
+  "secondaryKeywords": [
+    "Porcelanosa bathroom fitter Sunningdale",
+    "large-format porcelain tiling Sunningdale",
+    "Porcelanosa tile installer Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Porcelanosa x Sunningdale bathroom installation page. Subject and action: a three-quarter view of a part-tiled wall, large-format travertine-look porcelain slabs set from floor to half-height with the next slab held in place by lippage-control clips. Setting and work-stage: active tiling stage, grout float and spirit level resting on a nearby stepladder tray, lower courses finished and upper courses still bare substrate. Composition: three-quarter angle wall-tile shot showing the join between finished and unfinished tiling, camera slightly below eye level looking up the wall. Light and materials: warm late-afternoon sun raking low across the wall, large-format travertine-look porcelain with a soft honed sheen that varies slightly tile to tile. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/porcelanosa-sunningdale-hero.webp",
+    "heroAlt": "Three-quarter view of large-format travertine-look Porcelanosa wall tiling mid-installation in a Sunningdale bathroom",
+    "inline": []
+  }
+}

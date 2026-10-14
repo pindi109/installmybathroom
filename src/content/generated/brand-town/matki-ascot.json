@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-ascot/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "ascot",
+  "slug": "matki-ascot",
+  "seo": {
+    "title": "Matki Bathroom Installer in Ascot | Fit-Only | Install My Bathroom",
+    "description": "Matki frameless shower enclosure and screen installation in Ascot, fit-only from £3,500. Precise measuring, wall fixing and tiling sequencing, every time.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-ascot/"
+  },
+  "h1": "Matki bathroom installation in Ascot",
+  "hero": {
+    "intro": "The Victorian villas, inter-war houses and newer executive-style builds that make up much of Ascot each give a Matki specification a different amount of room to work with, and that matters more than it would with most shower brands. Matki's enclosures and screens are built to a minimal, largely frameless aesthetic, which leaves almost no trim to hide an inaccurate opening or an uneven wall — the glass does the talking, so the measuring has to be right first. In a larger Ascot property, a generous plot and a roomier shell generally make it easier to true up an opening or adjust a stud wall before the glass arrives; in an older Victorian or Edwardian section of a house, we're more often working around an existing wall line rather than creating a fresh one. Either way, we fit only — you choose the Matki screen or enclosure through a showroom or designer, and we handle the strip-out, first fix, tiling, wall fixing and snagging needed to get it installed properly, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki in Ascot",
+      "body": "Matki is specified by Ascot homeowners for shower enclosures and screens where a minimal, largely frameless look is the point — a clean run of glass with as little visible frame or trim as the design allows. That aesthetic is exactly why the installation has to be precise: there's no deep frame or wide trim profile left to disguise a slightly-off opening, an out-of-true wall, or a shower tray that isn't level, so whatever's underneath the glass has to be correct before a single panel goes in. We work from the specification you've already chosen — the enclosure size, the glass configuration, the fixing hardware finish — and build the strip-out, first fix and tiling sequence around getting the substrate right for it, rather than treating it as a standard screen fit."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "The single biggest factor on a Matki job is what happens before the glass turns up. Because there's so little trim to mask an error, the opening has to be measured accurately against the finished tiling, not the bare walls, and the wall fixing points for the hinges or channel need to land on sound, correctly prepared substrate rather than a patch of plaster that happens to be in the right place. Sequencing matters too — the shower tray has to be set level and the surrounding tiling finished to the exact dimension the enclosure is ordered to, because a frameless or minimal-framed screen has very little adjustment built in once it's cut to size. We confirm these dimensions and the fixing detail before the glass is ordered, not after it arrives on site."
+    },
+    {
+      "heading": "How Ascot's housing stock affects a typical Matki installation",
+      "body": "Ascot's mix of large Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds on generous plots generally gives us more freedom to get the substrate right before a Matki enclosure goes in. Where a layout needs adjusting — moving a waste run, widening a shower recess, or squaring up a wall that's slightly out of true — the extra space a bigger Ascot plot allows usually means that work can be done properly rather than compromised around a tight footprint. In an older Victorian or Edwardian property, we're often working with solid masonry walls that take a fixing well once they're prepared, though original plaster lines can be less than true and need checking at survey. In a newer executive-style build, stud walls are more common, and we confirm there's solid backing exactly where the Matki hinge or channel fixings need to land before any board or tile goes on."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki products on a fit-only basis — you choose and supply the enclosure, screen and fixing hardware through your showroom or designer, and we handle the strip-out, first fix, tiling, wall preparation, glass installation and snagging. Projects start from £3,500, and every one begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we measure the opening against the finished tiling plan and confirm exactly what your Ascot property's walls need before the glass is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Matki enclosures, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki shower enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling, wall fixing and installation, from £3,500."
+    },
+    {
+      "q": "Why does a frameless Matki screen need more accurate measuring than a standard screen?",
+      "a": "A frameless or minimal-framed design leaves almost no trim to hide an inaccurate opening or an out-of-true wall. The glass is cut to a fixed size, so the opening, tray and tiling it fits into have to be correct before it's ordered."
+    },
+    {
+      "q": "Will Ascot's larger properties make a Matki installation easier?",
+      "a": "Generally, yes — a bigger plot and roomier shell usually give us more scope to true up a wall or adjust a layout before the glass arrives. But we still check the substrate and fixing points at survey, whatever the size of the house."
+    },
+    {
+      "q": "Can you fit Matki into an older Ascot property with solid masonry walls?",
+      "a": "Yes. Solid masonry generally takes a wall fixing well once it's prepared, though original plaster lines in a Victorian or Edwardian property can be less than true, which we check and correct for at survey before the enclosure is ordered."
+    },
+    {
+      "q": "What does the £125 survey check before a Matki enclosure is ordered?",
+      "a": "We measure the opening against the finished tiling plan, confirm the shower tray will sit level, and check the wall substrate at the exact points the hinge or channel fixings need to land, so the enclosure can be ordered to the correct size first time."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Bathroom brands we fit in Ascot" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Ascot",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Ascot",
+    "Matki frameless screen fitter Ascot",
+    "Matki installer Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Ascot installer page, implying Matki's minimal frameless enclosure aesthetic through a close fixing-detail shot rather than a full room view. Subject and action: a close-to-mid shot of an unbranded glass shower screen's bottom wall-fixing channel being bedded onto a tiled upstand, a spirit level resting against the glass edge to check true, mid-installation rather than finished. Setting and work-stage: an en-suite under construction in a large Ascot house, travertine tiling freshly laid and grouted around the channel, daytime. Composition: close three-quarter angle at knee height, the glass edge and fixing channel filling the lower-centre of frame, a stretch of newly tiled wall and the edge of a stud partition receding into soft focus behind, spirit level and a tube of sealant resting on the tray edge in the foreground. Light and materials: honed travertine tiling with visible natural pitting and tonal variation, brushed brass fixing channel, bright directional midday daylight from an unseen window on one side creating a defined highlight along the glass edge and a softer secondary shadow from a work lamp angled from the opposite side. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the travertine with slight grout haze and natural stone pitting rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-ascot-hero.webp",
+    "heroAlt": "Close mid-installation shot of a frameless glass shower screen's brushed brass wall-fixing channel being set against freshly tiled travertine in an Ascot en-suite, spirit level checking true.",
+    "inline": []
+  }
+}

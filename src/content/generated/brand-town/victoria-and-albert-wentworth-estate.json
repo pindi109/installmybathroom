@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "wentworth-estate",
+  "slug": "victoria-and-albert-wentworth-estate",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation on Wentworth Estate, Virginia Water. £125 survey, installs from £3,500, gate access coordinated.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-wentworth-estate/"
+  },
+  "h1": "Victoria + Albert bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. A Victoria + Albert freestanding bath is a popular choice on these jobs, and because it's cast from a volcanic limestone and resin composite rather than acrylic or steel, it carries genuine weight, so we plan the floor loading, access route and waste position before it leaves the showroom, and coordinate access with the estate and any managing agent so the programme runs without delay at the gate."
+  },
+  "sections": [
+    {
+      "heading": "Fit-only installation on a gated estate",
+      "body": "You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500. Working on Wentworth Estate means coordinating access with the estate and any managing agent as a standard part of the job, so that deliveries, our visits and the installation programme all run without delay at the gate. We build that coordination into the plan at survey stage rather than treating it as an afterthought once work is underway."
+    },
+    {
+      "heading": "Why a Victoria + Albert bath needs careful planning",
+      "body": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite, not acrylic or steel, which gives them a solid, cool-to-the-touch surface and genuine weight. That's a point that matters as much to how we get the bath into the room as it does to how it sits once installed. We plan the floor loading, the access route through the house, and the waste position before the bath leaves the showroom — and on an estate property, that planning also covers getting the bath through the gate and up the driveway without hold-ups."
+    },
+    {
+      "heading": "What the installation covers",
+      "body": "Strip-out of the existing bathroom, first-fix plumbing with the waste positioned to suit the new Victoria + Albert bath, tiling, final plumbing connections and snagging once the room is finished. We don't supply the bath, basin, brassware, tiles or furniture — that stays with you — but we take full responsibility for getting it installed to a high standard, including the extra planning a composite-stone freestanding bath requires over a standard acrylic one."
+    },
+    {
+      "heading": "Coordinating with estate management",
+      "body": "Many Wentworth Estate properties operate under estate or managing-agent oversight for access, deliveries and contractor working hours. We factor this into the installation programme from the outset, agreeing delivery windows and access arrangements before work starts, so the job runs smoothly within whatever conditions the estate requires."
+    },
+    {
+      "heading": "Booking a survey on Wentworth Estate",
+      "body": "The process starts with a £125 survey, where we assess the room, confirm access arrangements through the estate, and agree the waste position for your Victoria + Albert bath. Installation then runs from £3,500 depending on scope. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work on Wentworth Estate?",
+      "a": "Yes. We install luxury, fit-only bathrooms on Wentworth Estate in Virginia Water, around 15 to 20 minutes by road from our Bracknell base."
+    },
+    {
+      "q": "How do you handle access through the estate gates?",
+      "a": "We coordinate access with the estate and any managing agent as part of the installation plan, so deliveries and our visits run without delay at the gate."
+    },
+    {
+      "q": "Do you supply the Victoria + Albert bath?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag."
+    },
+    {
+      "q": "Why does a Victoria + Albert bath need special planning?",
+      "a": "It's cast from a volcanic limestone and resin composite rather than acrylic or steel, giving it genuine weight. We plan floor loading, access route and waste position before the bath leaves the showroom."
+    },
+    {
+      "q": "How much does installation cost?",
+      "a": "Installations start from £3,500 depending on scope, with a £125 survey fee to assess the project and access arrangements beforehand."
+    },
+    {
+      "q": "Can you work within estate management's contractor rules?",
+      "a": "Yes, we agree delivery windows and access arrangements with the estate or managing agent before work starts, so the installation fits within whatever conditions apply."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "The Victoria + Albert range we install",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation on Wentworth Estate",
+      "href": "/areas/wentworth-estate/"
+    },
+    {
+      "anchor": "Brands we fit on Wentworth Estate",
+      "href": "/areas-brands/wentworth-estate/"
+    },
+    {
+      "anchor": "Freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Strip-out and preparation service",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Wentworth Estate",
+    "freestanding bath installation Virginia Water",
+    "fit-only bathroom installer Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert installation page targeting Wentworth Estate. Subject and action: a freestanding stone-composite bath positioned near a pale concrete-look feature wall, slightly off-angle towards a wide window, with protective sheeting folded at the base of an adjacent vanity unit mid-fit. Setting and work-stage: a large principal bathroom in an estate house, first-fix plumbing visible through an open floor section, concrete-look tiling freshly laid on one wall. Composition: elevated three-quarter angle from a far corner, bath centred, feature wall occupying the right background, window light entering from the left. Light and materials: bright even daylight, pale concrete-look porcelain tiles with a subtle textured matte finish, brushed graphite waste fitting, natural variation in tile tone rather than uniform flatness. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-wentworth-estate-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation against a pale concrete-look wall on Wentworth Estate",
+    "inline": []
+  }
+}

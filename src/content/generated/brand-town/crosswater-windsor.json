@@ -1,0 +1,102 @@
+{
+  "path": "/installer/crosswater-windsor/",
+  "family": "Brand × town",
+  "brand": "crosswater",
+  "town": "windsor",
+  "slug": "crosswater-windsor",
+  "seo": {
+    "title": "Crosswater Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only Crosswater shower and brassware installation across Windsor, from Georgian town houses near the Castle to newer homes further out. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/crosswater-windsor/"
+  },
+  "h1": "Crosswater bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types. Close to the Castle and the historic centre there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that limit how much material can move through the building at once; further out, the housing is more typically inter-war and post-war family homes, with some newer developments mixed in. That split matters for a Crosswater installation because the concealed valves and digital controllers at the core of Crosswater's range need a stud wall built to a specific depth, and getting that depth out of a solid period wall near the Castle is a different job to building it into a standard modern stud wall further out — before we even get to moving a shower tray or valve body up a narrow Georgian staircase. We fit only across Windsor: you supply the Crosswater products, we handle the installation, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Crosswater in Windsor",
+      "body": "Crosswater's range covers concealed and digital shower valves, deck-mounted and wall-mounted taps, shower kits and the enclosures and screens that match, most of it built to sit flush or concealed rather than proud of the wall or worktop. Across Windsor we fit whatever's been specified through your showroom or designer, from a single valve replacement in a period town house bathroom to a full shower and vanity fit-out in one of the newer developments further from the centre, including the deck-mounted taps and bath fillers that commonly accompany a Crosswater shower specification."
+    },
+    {
+      "heading": "Period wall build-up versus a standard stud wall",
+      "body": "A concealed Crosswater shower valve needs a wall cavity of a specific depth to sit correctly, with the supply pipework routed to meet it. In a Georgian or Victorian town house near Windsor's historic centre, that often means building a new stud wall in front of solid masonry to create the cavity a concealed valve needs, rather than chasing into the original wall. In the inter-war, post-war and newer properties further out, we're more often working with an existing stud wall that can be adapted directly. Either way, we confirm which situation applies to your Windsor property at the £125 survey, before any pipework is routed."
+    },
+    {
+      "heading": "How Windsor's housing stock affects access and installation",
+      "body": "Narrow plots, limited rear access and original staircases are common in the properties closest to Windsor Castle, and they affect how a shower tray, bath or Crosswater valve body physically gets into the room, not just how it's fitted once it's there. We plan the delivery and access route for exactly this kind of property at survey, so materials move through the building without damage to period features on the way. In the inter-war, post-war and newer homes further from the centre, access is usually more straightforward, and the survey focuses more on confirming the existing stud wall and service runs than on the route materials will take to reach the bathroom."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We don't sell Crosswater products — you source them through your own showroom or designer, and we handle the strip-out, first fix, tiling, plumbing and snagging, from £3,500 for a fit-only bathroom. Repairs to an installed Crosswater shower or tap start from £200 (no standalone regrouting), and emergency call-outs carry a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a period Windsor town house need extra work for a concealed Crosswater valve?",
+      "a": "Often yes — we typically build a new stud wall in front of the original masonry to create the cavity depth a concealed valve needs, which we confirm at the £125 survey."
+    },
+    {
+      "q": "How do you get a bath or shower tray up a narrow period staircase?",
+      "a": "We plan the delivery and access route at survey stage for properties with narrow plots or original staircases, so materials move through without damaging period features."
+    },
+    {
+      "q": "Is a Crosswater installation different in Windsor's newer properties?",
+      "a": "The product and fitting process are the same, but newer properties further out from the centre often already have a standard stud wall we can adapt directly, rather than needing to build one in front of solid masonry."
+    },
+    {
+      "q": "Do you sell Crosswater products, or only fit them?",
+      "a": "We fit only — you choose and supply the Crosswater products through your own showroom or designer, and we handle everything from strip-out to snagging, from £3,500."
+    },
+    {
+      "q": "Can you repair a Crosswater shower already installed in a Windsor property?",
+      "a": "Yes, repair work starts from £200, though we don't take on standalone regrouting, and any emergency call-out carries a £500 minimum."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/crosswater/",
+      "anchor": "All the Crosswater products we fit"
+    },
+    {
+      "href": "/areas/windsor/",
+      "anchor": "Bathroom fitting in Windsor"
+    },
+    {
+      "href": "/areas-brands/windsor/",
+      "anchor": "Bathroom brands we fit in Windsor"
+    },
+    {
+      "href": "/services/shower-enclosure-and-screen-installation/",
+      "anchor": "Shower enclosure & screen installation"
+    },
+    {
+      "href": "/services/tanking-and-waterproofing/",
+      "anchor": "Tanking & waterproofing"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "crosswater"
+    },
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "Crosswater installer Windsor",
+  "secondaryKeywords": [
+    "Crosswater bathroom installation Windsor",
+    "Crosswater shower fitter Windsor",
+    "Crosswater period property installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crosswater × Windsor installer page, implying Crosswater's traditional-profile brassware range through a close vanity fixture shot from an elevated angle. Subject and action: a close downward three-quarter shot of a deck-mounted bath/shower mixer tap fixed to the edge of a vanity-topped bath surround, a wrung-out cloth resting just outside the frame's edge, finished and static. Setting and work-stage: a finished bathroom in a Georgian-era Windsor town house, bright midday daylight streaming through an unseen sash window. Composition: elevated three-quarter angle looking down onto the tap and surround, a strip of marble vanity top receding toward the bath in the background, tap sharply focused in the foreground. Light and materials: Carrara marble vanity top with grey veining, brushed chrome-finish traditional-profile mixer tap, bright direct daylight from the side creating a crisp highlight along the tap's curve with a defined but soft shadow beneath it. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble with no uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/crosswater-windsor-hero.webp",
+    "heroAlt": "Elevated close shot of a brushed chrome traditional-profile mixer tap on a Carrara marble vanity top in a Georgian-era Windsor bathroom, bright midday daylight.",
+    "inline": []
+  }
+}

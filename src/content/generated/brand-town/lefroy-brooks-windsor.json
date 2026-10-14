@@ -1,0 +1,89 @@
+{
+  "path": "/installer/lefroy-brooks-windsor/",
+  "family": "Brand x town",
+  "brand": "lefroy-brooks",
+  "town": "windsor",
+  "slug": "lefroy-brooks-windsor",
+  "seo": {
+    "title": "Lefroy Brooks Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only Lefroy Brooks installation in Windsor — exposed pipework fitted for town houses and family homes alike. £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/lefroy-brooks-windsor/"
+  },
+  "h1": "Lefroy Brooks bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types: close to the Castle and historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases; further out, inter-war and post-war family homes alongside newer developments on redeveloped sites. Lefroy Brooks's traditional, exposed-pipework brassware suits both, but the two settings ask for different planning — a town house's narrow plot and period staircase change how much material can move through the building at once, in a way a post-war family home doesn't."
+  },
+  "sections": [
+    {
+      "heading": "Exposed pipework, not concealed fittings",
+      "body": "Lefroy Brooks's taps, shower valves and sanitaryware are built around exposed pipework, cross-head handles and period-inspired profiles rather than the concealed, minimal fittings most modern brassware uses. Every pipe run, bracket and wall fixing is visible once the room is finished, so it has to be set out and finished to be looked at — there's no tiled panel to hide an awkward joint behind. That makes first-fix planning more exacting than for concealed brassware: the position of every bracket is a design decision, not just a plumbing one."
+    },
+    {
+      "heading": "Town houses near the Castle: working around narrow plots and period staircases",
+      "body": "Windsor's Georgian and Victorian town houses near the Castle and historic centre tend to sit on narrow plots with limited rear access, and their period staircases constrain how much material — tiles, baths, waste pipe, the Lefroy Brooks pieces themselves — can be moved through the building at any one time. For an exposed-pipework installation, that means sequencing deliveries and first-fix work around what the staircase and access will actually allow, rather than assuming a full day's materials can go in at once."
+    },
+    {
+      "heading": "Further out: inter-war, post-war and newer developments",
+      "body": "Away from the historic centre, Windsor's housing is more typically inter-war and post-war family homes, with newer residential developments on sites that have been redeveloped over the years. These properties generally give more straightforward access than the town houses nearer the Castle, which usually makes first-fix for exposed Lefroy Brooks pipework more straightforward to schedule, even though the standard of finish — every joint and bracket set out properly — stays the same wherever the house sits."
+    },
+    {
+      "heading": "Survey, install, price",
+      "body": "We start every Windsor project with a £125 paid survey, checking access — particularly relevant for town houses near the Castle — alongside the room itself and how the exposed Lefroy Brooks fittings will be routed. Installation starts from £3,500 and covers strip-out, first-fix plumbing, tiling, final fix and snagging. You buy the Lefroy Brooks taps, shower valves, sanitaryware, tiles and furniture yourself; our price covers the installation work only."
+    },
+    {
+      "heading": "Book a Lefroy Brooks survey in Windsor",
+      "body": "Whether you're in a Georgian town house near the Castle or a family home further out, call or WhatsApp 07399 651836 to arrange a £125 survey for your Lefroy Brooks bathroom. We'll check access, plan the exposed pipework, and give you an installation price from £3,500."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you work in a Georgian or Victorian town house near Windsor Castle?",
+      "a": "Yes, though narrow plots, limited rear access and period staircases in that part of Windsor constrain how much material can move through the building at once, so we plan deliveries and first-fix around what the access allows."
+    },
+    {
+      "q": "Does a narrow town house affect how Lefroy Brooks pipework is installed?",
+      "a": "It affects scheduling more than the finished result — the exposed pipework, cross-head handles and brackets still need to be set out and finished to be looked at, but material movement is paced around the staircase and access."
+    },
+    {
+      "q": "Is it easier to install in Windsor's newer developments?",
+      "a": "Access is generally more straightforward in Windsor's inter-war, post-war and newer developments than in town houses near the Castle, though the standard of finish for Lefroy Brooks's exposed brassware is the same everywhere."
+    },
+    {
+      "q": "Do you supply Lefroy Brooks products?",
+      "a": "No — we're fit-only. You buy your Lefroy Brooks taps, shower valves, sanitaryware, tiles and furniture yourself; we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What does installation cost in Windsor?",
+      "a": "Installations start from £3,500, following a £125 paid survey, with the final price depending on scope and access."
+    },
+    {
+      "q": "Do you repair existing Lefroy Brooks fittings in Windsor?",
+      "a": "We take on repairs for high-end homes, minimum £200, with emergency call-outs from £500. We don't do regrouting."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/lefroy-brooks/", "text": "More on Lefroy Brooks installations" },
+    { "href": "/areas/windsor/", "text": "Bathroom installation in Windsor" },
+    { "href": "/areas-brands/windsor/", "text": "Brands we install in Windsor" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "text": "Bathroom plumbing and first-fix" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "text": "Shower enclosure and screen installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "Lefroy Brooks installation Windsor",
+  "secondaryKeywords": [
+    "Lefroy Brooks installer Windsor",
+    "exposed pipework bathroom installation Windsor",
+    "Lefroy Brooks bathroom fitter Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Lefroy Brooks x Windsor bathroom installation page. Subject and action: a pair of cross-head basin taps with exposed pipe stems, newly fitted onto a walnut timber washstand-style vanity, final adjustments visible but not yet fully cleaned. Setting and work-stage: a narrow period-townhouse bathroom near completion, honed stone floor, a tall slim window suggesting a Georgian town house. Composition: medium shot centred on the vanity and taps, slightly off-centre framing to avoid a symmetrical catalog look, window light falling across one side. Light and materials: cool, narrow daylight through a tall sash window, bronze fittings with a deliberately uneven aged tone, warm walnut grain visible under the taps. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings (asymmetric framing specifically to avoid this), no uniform amber or gold colour wash, no plants or candles as props, no water shown running, varied believable sheen not hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/lefroy-brooks-windsor-hero.webp",
+    "heroAlt": "Bronze Lefroy Brooks cross-head taps fitted on a walnut vanity in a Windsor period town house bathroom",
+    "inline": []
+  }
+}

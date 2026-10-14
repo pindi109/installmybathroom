@@ -1,0 +1,80 @@
+{
+  "path": "/areas/sunningdale/freestanding-bath-installation/",
+  "family": "Service x town",
+  "service": "freestanding-bath-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Freestanding Bath Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only freestanding bath installation in Sunningdale: waste routing, floor loading checks and layout flexibility on larger plots. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/freestanding-bath-installation/"
+  },
+  "h1": "Freestanding bath installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties around them — a mix of Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run a few feet to accommodate a freestanding bath is rarely constrained by neighbouring structure. We take care of that positioning, the waste and overflow routing, and the floor loading check as part of one installation."
+  },
+  "sections": [
+    {
+      "heading": "Why a freestanding bath needs its position decided early",
+      "body": "Unlike a panelled bath sat against a wall with the pipework already close by, a freestanding bath's waste, overflow and filler supply have to travel to wherever the bath is actually standing — which is often away from every wall, as a deliberate feature of the room. That usually means a longer run of pipework than a standard bath needs, routed beneath the bath through a shallow plinth or via a section of floor opened up for the purpose. Deciding the bath's final position before any pipework goes in is what keeps that run tidy, rather than working around a position chosen after the floor's already closed up."
+    },
+    {
+      "heading": "What generous plots mean for waste routing",
+      "body": "On the larger detached properties typical of Sunningdale, including those on the private and gated roads around the golf courses, moving a waste run three feet or so to put a freestanding bath exactly where a client wants it rarely runs into the kind of structural wall or neighbouring-property constraint a terraced house would present. That flexibility doesn't remove the need for proper planning — the waste still has to reach a stack or soil pipe by a sensible route, and the floor still has to take the weight — but it does mean the bath's position is usually driven by what looks and works best in the room, rather than by where the pipework happens to already be."
+    },
+    {
+      "heading": "Floor loading and the practicalities of a full bath",
+      "body": "A freestanding bath full of water, with someone in it, commonly exceeds 200kg, and that weight needs to sit on floor joists capable of carrying it as a point load, or be spread across a wider bearing area where they can't. Whether a property is one of Sunningdale's older Victorian or Edwardian houses with a suspended timber floor, or a more recent executive-style build, we check joist spacing and direction at survey stage before confirming the bath's position, since this determines both whether reinforcement is needed and how the waste pipe can practically cross or run alongside the joists."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "We begin with the £125 paid survey: checking the floor, confirming where the waste and overflow can run, and agreeing the bath's final position with you. Installation then covers strip-out of the existing suite, first-fix plumbing to the agreed position, any floor reinforcement or plinth work identified at survey, tiling, then fitting and connecting the bath itself before a final snag and sign-off. You source the bath and fittings; we handle strip-out through to final connection, from £3,500. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a freestanding bath be positioned away from every wall in a Sunningdale home?",
+      "a": "Usually yes, and the generous plot sizes common in Sunningdale often give more flexibility to do this than a smaller property would allow. The waste, overflow and filler supply are routed to wherever the bath sits, typically beneath it through a plinth or opened floor section."
+    },
+    {
+      "q": "Do older houses need extra checks before fitting a freestanding bath?",
+      "a": "Yes — Victorian and Edwardian houses with suspended timber floors need joist spacing and direction confirmed before we agree a bath position, so the waste pipe route and any floor loading requirements are properly planned rather than assumed."
+    },
+    {
+      "q": "How much weight does a full freestanding bath actually add to a floor?",
+      "a": "A filled bath with someone in it commonly exceeds 200kg. That's a meaningful point load, so we check at survey whether the existing joists can carry it or whether some reinforcement is needed before the bath is installed."
+    },
+    {
+      "q": "Do you supply the bath, or just fit it?",
+      "a": "We're fit-only — you choose and buy the bath, filler, waste and overflow fittings from a retailer of your choice. We carry out the strip-out, first-fix, floor work, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What does a freestanding bath installation typically cost?",
+      "a": "Our installs start from £3,500, with the final cost depending on the extent of waste routing and floor work required, which we confirm after the paid survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/freestanding-bath-installation/", "anchor": "More on our freestanding bath installation service" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation across Sunningdale" },
+    { "href": "/guides/bath-installation-cost-uk/", "anchor": "What does a bath installation cost in the UK?" },
+    { "href": "/areas/ascot/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Ascot" },
+    { "href": "/areas/virginia-water/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "freestanding bath installation Sunningdale",
+  "secondaryKeywords": [
+    "freestanding bath fitter Sunningdale",
+    "freestanding bath waste routing Berkshire",
+    "bathroom floor loading freestanding bath Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Sunningdale freestanding bath installation service page. Subject and action: a finished freestanding composite-stone bath, pale grey matte finish, positioned diagonally in the room with a matte bronze floor-mounted filler already connected. Setting and work-stage: a large renovated bathroom in a detached executive-style house, work fully complete, large window with a view of mature trees, no tools or materials visible. Composition: wide shot taken from a low corner angle emphasising the open floor space and the bath's diagonal placement. Light and materials: warm late-afternoon light with long shadows, warm oak-toned floor tiles, soft taupe wall tiles. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-freestanding-bath-installation-hero.webp",
+    "heroAlt": "Freestanding stone bath positioned diagonally in a renovated Sunningdale bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

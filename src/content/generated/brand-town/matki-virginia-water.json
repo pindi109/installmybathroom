@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-virginia-water/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "virginia-water",
+  "slug": "matki-virginia-water",
+  "seo": {
+    "title": "Matki Bathroom Installer in Virginia Water | Fit-Only",
+    "description": "Matki frameless shower enclosure and screen installation in Virginia Water, fit-only from £3,500. Precise tiling and wall-fixing sequencing before the glass is ordered.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-virginia-water/"
+  },
+  "h1": "Matki bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "A long driveway and gated access don't change how a Matki shower screen gets measured, fixed or tiled around — but the generous plots common across Virginia Water, many close to the Wentworth Estate and its golf courses, do change how much freedom we have to get that preparation right. Matki's enclosures and screens are built to a minimal, largely frameless aesthetic, which leaves almost no trim to hide an inaccurate opening or an out-of-true wall; the glass is the finish, so the tiling, the tray and the wall fixing beneath it have to be correct before a panel is ever ordered. In a property with the room to relocate a waste run or reposition a shower to improve natural light, that preparation is rarely constrained by a structural wall it can't move around, and we plan the whole sequence at survey before anything is cut to size. We fit only — you choose the Matki enclosure, we handle the strip-out, first fix, tiling, fixing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki in Virginia Water",
+      "body": "Matki appears across Virginia Water most often as a shower enclosure or screen specified for its minimal, largely frameless look, frequently in a principal en-suite where a clean glass line is part of the design brief. Because the hardware is kept deliberately light, there's very little in the design itself to disguise an inaccurate opening, an unlevel tray, or a wall that's out of true, so the installation turns on getting those details right rather than on the glass fixing being difficult in itself. We work from the enclosure configuration, glass thickness and hardware finish already chosen through your showroom or designer, and plan the strip-out and tiling sequence specifically around the dimension the glass will be cut to."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "The sequencing against tiling is the detail that most often decides whether a Matki fit goes smoothly. The tiling has to be finished to the precise dimension the enclosure is ordered against — not an estimate taken before tiling starts — because a largely frameless screen has no deep trim to absorb a few millimetres of discrepancy once it's cut. We also confirm the wall fixing points for hinges or channel sit on sound, correctly prepared backing, and check the tray is level before the tiling around it is finished, so nothing downstream of that gets built on an assumption that turns out to be wrong."
+    },
+    {
+      "heading": "How Virginia Water's housing stock affects a typical Matki installation",
+      "body": "Virginia Water's substantial period houses and newer executive-style builds, many on generous plots with long driveways or gated access, generally give us more flexibility to plan a Matki installation properly than a terraced property would allow. Relocating a waste run to suit a freestanding bath, or repositioning a shower to make better use of natural light, rarely runs into a structural wall that can't be worked around, which means the layout decisions that affect tiling and tray position can usually be settled early and firmly, well before the enclosure is ordered. Where access is gated or via a long private driveway, we also confirm delivery logistics for the pre-cut glass panel at survey, so it isn't a detail left to work out on the morning of the fit."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki enclosures and screens on a fit-only basis — you choose and supply the glass, hardware finish, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, wall preparation, glass fixing and snagging. Installations across Virginia Water start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the tiling dimension, tray level and fixing points before the enclosure is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why does the tiling need to be finished before a Matki screen is ordered?",
+      "a": "A largely frameless Matki screen is cut to a precise dimension with almost no trim to absorb a discrepancy. We confirm the finished tiling dimension at the point of ordering, not from an earlier estimate."
+    },
+    {
+      "q": "Do you supply Matki enclosures, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki shower enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling and glass installation, from £3,500."
+    },
+    {
+      "q": "My Virginia Water property has gated or private driveway access — does that affect the installation?",
+      "a": "It can affect delivery logistics for the pre-cut glass panel, which we confirm at survey. The installation itself — measuring, fixing, tiling sequence — follows the same process regardless of access."
+    },
+    {
+      "q": "Will a larger Virginia Water plot make a Matki installation easier?",
+      "a": "Generally, yes — more room usually means a waste run or shower position can be adjusted without hitting a structural wall. We still confirm the tray level and fixing points independently of any layout change."
+    },
+    {
+      "q": "What does the £125 survey check before a Matki installation?",
+      "a": "We confirm the finished tiling dimension the glass will be ordered to, check the tray sits level, and verify the wall substrate at the fixing points is sound, before anything is cut to size."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom fitting in Virginia Water" },
+    { "href": "/areas-brands/virginia-water/", "anchor": "Bathroom brands we fit in Virginia Water" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower & steam room installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "virginia-water" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Virginia Water",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Virginia Water",
+    "Matki frameless screen fitter Surrey",
+    "fit-only Matki installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Virginia Water installer page, implying Matki's frameless enclosure range through a close fixing-bracket detail shot rather than a full room view. Subject and action: a close-up of an unbranded glass panel's wall support bracket being secured with a hex key against a prepared wall point, bracket held just shy of final tightness, no other fixtures visible. Setting and work-stage: a principal en-suite mid-fit-out in a substantial Virginia Water house, stone-effect tiling freshly set around the fixing point, daytime. Composition: tight close-up at bracket height, the bracket and glass edge filling most of the frame, a soft-focus sliver of walnut-toned timber vanity carcass visible at the extreme edge of frame, hex key and a small spirit level resting against the tiled upstand in the foreground. Light and materials: Calacatta marble-effect large-format tiling with fine grey veining, warm walnut timber accent at the vanity edge, brushed chrome fixing bracket, soft overcast daylight from an unseen window giving even, diffused illumination with a faint secondary shadow from a handheld work light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber or gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the tile and timber with minor dust residue consistent with an active fit rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-virginia-water-hero.webp",
+    "heroAlt": "Close-up of a brushed chrome glass-panel wall support bracket being fixed against Calacatta marble-effect tiling with a walnut vanity edge visible, Virginia Water en-suite.",
+    "inline": []
+  }
+}

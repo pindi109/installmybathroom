@@ -1,0 +1,76 @@
+{
+  "path": "/areas/wentworth-estate/wet-room-installation/",
+  "family": "Service x town",
+  "service": "wet-room-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Wet Room Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only wet room installation for homes on Wentworth Estate, Virginia Water. Fully tanked, level-access floors. From £3,500. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/wet-room-installation/"
+  },
+  "h1": "Wet room installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only wet rooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag."
+  },
+  "sections": [
+    {
+      "heading": "A private estate, a specific set of logistics",
+      "body": "Wentworth Estate isn't a normal residential road, and we plan every installation around that. Being based in Bracknell, roughly 15 to 20 minutes away by road, keeps us close enough to run a tight programme without the access gaps that a fitter travelling from further afield would build into their schedule. What changes on the estate isn't the installation itself — it's everything around it. Deliveries, skips and trade vehicles all have to clear the gate, and on a property managed by an agent rather than lived in full-time, we coordinate timings directly with that agent so nothing arrives unannounced and nothing sits waiting outside because nobody was expecting it."
+    },
+    {
+      "heading": "Coordinating access so the programme doesn't slip",
+      "body": "A single missed gate booking or an unconfirmed delivery slot can cost a day on a conventional job; on a gated estate it can cost more, because there isn't a simple fallback of parking on the street and carrying materials round. We confirm access arrangements, delivery windows and any estate-specific requirements with the managing agent before strip-out starts, not once we're already on site. That groundwork is what lets a fully tanked, level-access wet room — floor build-up, gradient to a linear or point drain, waterproofing, tiling and final plumbing — run on the timeline we quote, rather than stretching out because of avoidable gate delays."
+    },
+    {
+      "heading": "The fit-only process, from £3,500",
+      "body": "You choose the sanitaryware, brassware, tiles and furniture to the standard the estate's properties call for; we handle strip-out, first-fix plumbing, the floor build-up and fall, full tanking to current waterproofing standards, tiling, final plumbing connections and a complete snag before handover. A paid survey comes first, confirming the structural floor, drainage route and estate access arrangements together, so the quote and the programme both reflect the reality of installing on a private, gated estate rather than a standard residential street. Fit-only installs start from £3,500. To arrange a survey, call or WhatsApp 07399 651836."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle access through the Wentworth Estate gates?",
+      "a": "We confirm delivery and trade vehicle access with the managing agent before strip-out begins, booking slots in advance so skips, materials and our team all clear the gate without holding up the day's work."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from Bracknell, which lets us run a tight, responsive programme without the scheduling slack a fitter travelling further would need to build in."
+    },
+    {
+      "q": "Do you deal directly with a managing agent if the property isn't owner-occupied?",
+      "a": "Yes. Where a property on the estate is managed rather than lived in day to day, we coordinate access, delivery windows and programme timings directly with the agent so the installation runs without the owner needing to be on-site throughout."
+    },
+    {
+      "q": "What does the fit-only service include?",
+      "a": "You source the sanitaryware, brassware, tiles and furniture; we carry out strip-out, first-fix plumbing, floor build-up and fall, full tanking, tiling, final plumbing and a complete snag. Fit-only installs start from £3,500."
+    },
+    {
+      "q": "Do you survey before quoting for an estate property?",
+      "a": "Yes, a paid survey comes first. We confirm the structural floor and drainage route at the same time as agreeing estate access arrangements with the managing agent, so the quote reflects the real conditions on site."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation service details" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Install My Bathroom on Wentworth Estate" },
+    { "href": "/guides/wet-room-cost-uk/", "anchor": "Wet room cost guide (UK)" },
+    { "href": "/areas/ascot/wet-room-installation/", "anchor": "Wet room installation in Ascot" },
+    { "href": "/areas/gerrards-cross/wet-room-installation/", "anchor": "Wet room installation in Gerrards Cross" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "wet room installation Wentworth Estate",
+  "secondaryKeywords": [
+    "wet room fitter Wentworth Estate Virginia Water",
+    "luxury wet room installer gated estate Surrey",
+    "level access wet room Wentworth Club area"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a wet room installation service page targeting Wentworth Estate, Virginia Water. Subject and action: a finished level-access wet room floor in dark terrazzo-effect porcelain with a matte black linear drain set along one edge. Setting and work-stage: a completed installation in a large en-suite within a luxury estate house, photographed from directly overhead looking straight down at the floor. Composition: top-down flat-lay angle capturing the full drain line and the gentle fall of the floor toward it, tile joints forming clean parallel lines across the frame. Light and materials: soft, even daylight from an overhead skylight casting minimal shadow, matte black drain cover with a muted satin finish against the dark terrazzo-effect porcelain. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-wet-room-installation-hero.webp",
+    "heroAlt": "Overhead view of a finished level-access wet room floor with matte black linear drain and dark terrazzo-effect porcelain on Wentworth Estate",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

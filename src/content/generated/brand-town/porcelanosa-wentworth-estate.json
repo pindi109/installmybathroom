@@ -1,0 +1,88 @@
+{
+  "path": "/installer/porcelanosa-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "porcelanosa",
+  "town": "wentworth-estate",
+  "slug": "porcelanosa-wentworth-estate",
+  "seo": {
+    "title": "Porcelanosa Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only Porcelanosa bathroom installation on Wentworth Estate, Virginia Water. Strip-out, tiling, plumbing and snagging. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/porcelanosa-wentworth-estate/"
+  },
+  "h1": "Porcelanosa bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey - the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship - around 15 to 20 minutes by road from our Bracknell base. Porcelanosa's large-format porcelain is a natural fit for the scale of bathroom these houses tend to have, but it's an unforgiving material: dense, rectified and dimensionally precise, it will show up any inconsistency in the substrate beneath it, so preparation matters as much as the tile itself."
+  },
+  "sections": [
+    {
+      "heading": "Flatness first: why Porcelanosa is unforgiving",
+      "body": "Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise - which is exactly why it punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. Fitting it well is a matter of tolerance, not taste: we check the floor or wall and prepare it flat first, then set the tile with the correct bed coverage, joint width and lippage control, so the material's own precision shows through cleanly rather than exposing every dip beneath it."
+    },
+    {
+      "heading": "Working on a private, gated estate",
+      "body": "You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500, coordinating access with the estate and any managing agent so the programme runs without delay at the gate. That coordination is built into how we plan the job from the outset - deliveries, parking and daily access all need to be agreed in advance on Wentworth Estate, and we handle that liaison as a standard part of the fit-only service, not as an extra."
+    },
+    {
+      "heading": "What we install from the Porcelanosa range",
+      "body": "We fit Porcelanosa's large-format porcelain across floors, walls, shower enclosures and wet rooms, including warm concrete-look finishes alongside marble-look and stone-look options. As a fit-only installer, you buy the tile along with your sanitaryware, brassware and furniture, and we handle everything from strip-out through to the finished, fully fitted room."
+    },
+    {
+      "heading": "Setting large-format tile correctly",
+      "body": "Large slabs need full solid-bed adhesive coverage rather than spot bonding, because any void beneath a tile this size will eventually crack under foot traffic or thermal movement. Joint widths are kept narrow and consistent to suit the rectified edge, lippage-control systems pull adjacent tiles level with each other while the adhesive is still workable, and movement joints are planned in at room boundaries and against fixed items like baths, so the finished surface can move without cracking at the grout line."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We start with a paid survey at £125, measuring the room, checking substrate condition, and confirming access arrangements for the estate before work begins. Installation then covers strip-out, first-fix plumbing and electrics, tiling, final-fix plumbing and snagging, with installs starting from £3,500 depending on room size and scope. You source the tile, sanitaryware, brassware and furniture; we handle every stage of fitting it, insured throughout and coordinated so the programme runs without delay at the gate."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Porcelanosa tiles, or do I buy them?",
+      "a": "You buy the tile directly - we're a fit-only installer, so you choose and purchase your Porcelanosa tile, sanitaryware, brassware and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can you coordinate access with the estate and our managing agent?",
+      "a": "Yes - coordinating access with Wentworth Estate and any managing agent is a standard part of how we plan a job here, so deliveries and daily access run without delay at the gate."
+    },
+    {
+      "q": "Why does floor flatness matter so much with large-format porcelain?",
+      "a": "Porcelanosa's large-format tile is dense, rectified and dimensionally precise, which means it has very little give at the edges. An uneven substrate shows up as lippage between tiles, so we check and prepare the floor or wall flat before setting it."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from our Bracknell base, so access and scheduling are straightforward."
+    },
+    {
+      "q": "How much does a bathroom installation cost?",
+      "a": "Installs start from £3,500, with a £125 paid survey beforehand to confirm scope and price for your specific room."
+    },
+    {
+      "q": "Do you do bathroom repairs as well as full installs?",
+      "a": "Yes, for high-end homes, with a £200 minimum and a £500 minimum for emergency call-outs. We don't do regrouting as a standalone repair."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/porcelanosa/", "text": "More about Porcelanosa large-format porcelain" },
+    { "href": "/areas/wentworth-estate/", "text": "Bathroom installation on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "text": "Brands we fit on Wentworth Estate" },
+    { "href": "/services/large-format-porcelain-tiling/", "text": "Large-format porcelain tiling service" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "Porcelanosa installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Porcelanosa bathroom fitter Wentworth Estate",
+    "large-format porcelain tiling Virginia Water",
+    "Porcelanosa tile installer Wentworth Club"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Porcelanosa x Wentworth Estate bathroom installation page. Subject and action: a wide floor-level shot of a warm concrete-look large-format porcelain floor nearing completion, a laser level standing on its tripod projecting a faint reference line across the surface. Setting and work-stage: late-stage installation in a large bathroom shell, skirting tiles cut and dry-laid along one wall awaiting final fixing. Composition: wide floor shot taken low and across the room toward a frosted window, emphasising the unbroken run of large-format tile. Light and materials: warm artificial evening light from a single worklamp mixing with the last of the dusk through the window, warm concrete-look porcelain with a soft, uneven matte sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/porcelanosa-wentworth-estate-hero.webp",
+    "heroAlt": "Wide shot of a warm concrete-look large-format Porcelanosa floor nearing completion in a Wentworth Estate bathroom",
+    "inline": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "path": "/areas/sunningdale/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Full Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only full bathroom installation in Sunningdale from £3,500. Strip-out, tiling, plumbing and electrics. Paid £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and for the large detached properties around them — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. A full bathroom installation here means taking a bathroom back to brick and rebuilding it completely: new pipework, tanking, tiling, electrics and ventilation, finished with the suite you've chosen. The generous plot sizes typical of the area usually give us more flexibility on layout than a terraced or semi-detached property would allow."
+  },
+  "sections": [
+    {
+      "heading": "What a full installation involves",
+      "body": "A full bathroom installation is a complete rebuild of the room — not a repair, a regrout, or swapping out one fixture. The existing suite and tiling come out entirely, waste and supply pipework is renewed or repositioned, the wet areas are tanked properly, electrics for lighting and extraction are first-fixed, the room is tiled, and the suite you've sourced is fitted and snagged in. It's the right approach when the layout doesn't work for the household any more, when old waterproofing has failed behind the tiles, or when you want fixtures the existing pipe runs can't accommodate. Because the room goes back to brick and subfloor, it's also the stage at which anything hidden behind the old tiling — degraded membrane, undersized waste pipe, or ageing electrics — gets found and properly replaced rather than tiled over again."
+    },
+    {
+      "heading": "Layout flexibility on Sunningdale's plots",
+      "body": "The generous plot sizes around Sunningdale's golf courses — whether a Victorian or Edwardian house, an inter-war family home, or a more recent executive-style build — usually give us more room to work with than a terraced property allows. Moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure the way it would be in a tighter footprint. Where a property sits on a private or gated road, we'll confirm access arrangements with you at survey stage so deliveries and trade visits through the strip-out, first-fix, tiling and second-fix stages run without hold-ups at the gate."
+    },
+    {
+      "heading": "How the job is sequenced",
+      "body": "Every full installation begins with a paid £125 survey to confirm pipe routes, joist direction and scope before pricing. From there: strip-out, first-fix plumbing and electrics, tanking, tiling, second-fix of the suite you've bought, and snagging. Ventilation and electrics are installed to current Part P and Part F standards, and because you're sourcing the sanitaryware, brassware, tiles and furniture yourself, we'll agree a delivery schedule so everything is on site in the order each stage needs it. Where a layout change — like moving that freestanding bath — is part of the scope, we'll sequence the first-fix plumbing stage around it specifically, since the new waste run needs to be in and tested before tanking and tiling can go ahead."
+    },
+    {
+      "heading": "Book a survey",
+      "body": "If you're planning a full bathroom installation in Sunningdale, call or WhatsApp 07399 651836 to arrange the £125 survey. Full installations start from £3,500, with the exact figure confirmed once we've seen the room and agreed the scope."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you move a freestanding bath to a different part of the room?",
+      "a": "Often, yes. Sunningdale's larger plots generally give us more flexibility to move a waste run a few feet than a terraced property would allow, which is exactly the kind of change a freestanding bath often needs. The survey confirms what's achievable on your specific pipe routes."
+    },
+    {
+      "q": "We're on a private road — does that affect the installation?",
+      "a": "We'll agree access arrangements with you at survey stage so deliveries and trade visits run smoothly through each stage of the installation, whatever access arrangements your road has in place."
+    },
+    {
+      "q": "What's not included in the price?",
+      "a": "Sanitaryware, tiles, brassware and furniture are bought separately — we're fit-only. The installation price covers strip-out, pipework, tanking, tiling, electrics, ventilation, and fitting and snagging your chosen suite."
+    },
+    {
+      "q": "How much does a full bathroom installation cost in Sunningdale?",
+      "a": "Full installations start from £3,500. The final price depends on room size, any layout changes, and finish specification, which we confirm after the £125 survey."
+    },
+    {
+      "q": "How long does the whole job take?",
+      "a": "Most full installations run two to three weeks from strip-out to snagging. Jobs involving a waste run relocation for a freestanding bath or a larger room can take a little longer, which the survey will confirm."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/sunningdale/", "text": "Bathroom installation in Sunningdale" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/ascot/full-bathroom-installation/", "text": "Full bathroom installation in Ascot" },
+    { "href": "/areas/virginia-water/full-bathroom-installation/", "text": "Full bathroom installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "full bathroom installation Sunningdale",
+  "secondaryKeywords": [
+    "full bathroom installation in Sunningdale",
+    "complete bathroom renovation Sunningdale",
+    "bathroom strip out and rebuild Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Sunningdale. Subject and action: a newly completed, empty luxury bathroom photographed immediately after installation, no people present. Setting and work-stage: a bathroom with a freestanding bath in a large detached house, fully tiled and fitted, staged as finished with no tools or debris visible. Composition: three-quarter angle view taking in the freestanding bath, vanity and window from one corner of the room. Light and materials: dark basalt and anthracite tiling on walls and floor, brushed nickel bath filler and taps, bright midday daylight through a window creating clear directional shadows against the dark surfaces. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a Sunningdale home with dark basalt tiling and brushed nickel fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

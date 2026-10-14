@@ -1,0 +1,80 @@
+{
+  "path": "/areas/wentworth-estate/freestanding-bath-installation/",
+  "family": "Service x town",
+  "service": "freestanding-bath-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Freestanding Bath Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only freestanding bath installation on Wentworth Estate: waste routing, floor loading checks, estate access coordinated. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/freestanding-bath-installation/"
+  },
+  "h1": "Freestanding bath installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. A freestanding bath brings its own specific requirements: positioning it where it works in the room, routing the waste and overflow to reach it, and confirming the floor can carry it once it's full. You source the bath, filler and waste fittings; we strip out, first-fix, tile, plumb and snag, from £3,500, coordinating access with the estate and any managing agent so the programme runs without delay at the gate."
+  },
+  "sections": [
+    {
+      "heading": "Why a freestanding bath needs careful planning, not just plumbing",
+      "body": "A freestanding bath's waste, overflow and filler supply all have to reach it wherever it's positioned, rather than relying on pipework already close by, as a wall-mounted bath can. That usually means a longer, more deliberate pipe run, typically routed beneath the bath through a shallow raised plinth or via a section of floor opened specifically for the job. Deciding the final position at survey stage, before any pipework is laid, is what keeps that routing tidy and the bath exactly where it was intended to sit."
+    },
+    {
+      "heading": "Getting a freestanding bath through the gate",
+      "body": "A freestanding bath typically arrives as a single large, heavy item, and on a private, gated estate like Wentworth that means delivery and access need planning alongside the plumbing work, not as an afterthought. We coordinate timing with the estate and any managing agent so that delivery of the bath, and our own access for strip-out, first-fix and the final fit, line up without the programme stalling at the gate waiting on clearance. This is agreed at survey stage, alongside the technical waste and floor loading checks, so the whole job runs to one programme."
+    },
+    {
+      "heading": "Waste, overflow and floor loading",
+      "body": "A full freestanding bath with someone in it can easily exceed 200kg, which is a real point load that needs floor joists capable of carrying it, or a wider bearing area where they can't. We check this at survey before confirming the bath's position, alongside planning how the waste and overflow will reach the stack or soil pipe — usually via a plinth built around the bath's base or a section of floor opened and reinstated around the new pipe run. Both checks happen before any pricing or scheduling is finalised, so there are no surprises once strip-out begins."
+    },
+    {
+      "heading": "How we run the job",
+      "body": "We start with the £125 paid survey to check the floor structure, agree the bath's position, and plan access and delivery timing with the estate. From there: strip-out of the existing bathroom, first-fix plumbing to the agreed position, any floor reinforcement or plinth work identified, tiling around the fixed pipework, then fitting and connecting the bath before a final snag and sign-off. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you coordinate access with the estate for a freestanding bath installation?",
+      "a": "Yes. We agree delivery and access timing with the estate and any managing agent at survey stage, so the bath's delivery and our own visits for strip-out, first-fix and final fit line up without delays at the gate."
+    },
+    {
+      "q": "Can a freestanding bath fit through a gated estate's access restrictions?",
+      "a": "In almost all cases, yes, but because the bath usually arrives as a single large item, we plan delivery timing and vehicle access alongside the estate's own procedures, rather than treating it as a standard delivery."
+    },
+    {
+      "q": "What checks happen before a freestanding bath is positioned?",
+      "a": "We check the floor can carry the weight of a full bath — commonly over 200kg — and plan how the waste and overflow will reach the stack, usually beneath the bath via a plinth or an opened section of floor. This happens at the paid survey, before any work starts."
+    },
+    {
+      "q": "Do you supply the bath or just install it?",
+      "a": "We're fit-only. You source the bath, filler, waste and overflow fittings; we carry out the strip-out, first-fix plumbing, floor work, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What does an installation on Wentworth Estate cost?",
+      "a": "Our fit-only installs start from £3,500. The exact figure depends on floor work, waste routing and any access coordination required, confirmed after the paid survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/freestanding-bath-installation/", "anchor": "More on our freestanding bath installation service" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/guides/bath-installation-cost-uk/", "anchor": "What does a bath installation cost in the UK?" },
+    { "href": "/areas/virginia-water/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Virginia Water" },
+    { "href": "/areas/ascot/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "freestanding bath installation Wentworth Estate",
+  "secondaryKeywords": [
+    "freestanding bath fitter Wentworth Estate",
+    "gated estate bathroom installer Virginia Water",
+    "freestanding bath plumbing Wentworth"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Wentworth Estate freestanding bath installation service page. Subject and action: a finished sculptural freestanding bath in a dark charcoal stone finish, positioned centrally with a matte gunmetal floor-mounted filler already connected. Setting and work-stage: a large, newly completed double-height ensuite bathroom overlooking a private garden, renovation fully finished, no tools or debris visible. Composition: wide shot from a slightly raised angle showing the bath against the tall window and the room's full proportions. Light and materials: soft diffused overcast light, dark matte floor tiles, warm stone-coloured wall panels. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-freestanding-bath-installation-hero.webp",
+    "heroAlt": "Dark stone freestanding bath in a double-height ensuite on Wentworth Estate",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

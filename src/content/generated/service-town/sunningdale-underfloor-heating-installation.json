@@ -1,0 +1,80 @@
+{
+  "path": "/areas/sunningdale/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Underfloor Heating Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only underfloor heating for Sunningdale bathrooms, matched to the mix of Victorian, inter-war and executive-style homes around the golf courses.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them — a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. That spread of house ages is exactly why we never specify an underfloor heating system until we've seen what's underneath your particular floor."
+  },
+  "sections": [
+    {
+      "heading": "Matching the system to the floor, not the postcode",
+      "body": "A Victorian or Edwardian house in Sunningdale is more likely to have a suspended timber bathroom floor — joists and boards with a void beneath — where an inter-war or executive-style build is more likely to sit on a solid concrete slab. Suspended timber floors need a rigid insulation-backed board fixed across the joists to carry a low-profile electric heating mat, directing heat up into the room rather than down into the void. Solid slabs open up water-fed underfloor heating as an option, screeded over an insulation layer and tied into the existing central heating rather than wired as its own electric circuit. We confirm which you have during the £125 survey before quoting either way."
+    },
+    {
+      "heading": "Why Sunningdale's generous plots change what's possible",
+      "body": "Plot sizes here tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure. That same flexibility helps when underfloor heating changes the floor level, because there's generally more scope to adjust a threshold, reposition a doorway, or rework a step without running into a party wall or a neighbour's foundations."
+    },
+    {
+      "heading": "Floor build-up: what adding height actually involves",
+      "body": "Every underfloor heating system adds to the existing floor depth — insulation first, then the heating mat or pipe, then screed or a tile backer board, then adhesive and tile. The total is typically 15mm for a thin electric system up to 70mm or more for a screeded water-fed one. We measure this against door clearances and any threshold into a hallway or bedroom at survey stage, so it's planned for rather than discovered once the tiling is finished."
+    },
+    {
+      "heading": "The process",
+      "body": "We strip the existing floor back to joists or slab, check and make good the structure, lay insulation, then the electric mat or water-fed pipe, test it before it's covered, screed or board over the top, then hand over to tiling. The thermostat is wired in, commissioned and tested, and we snag the completed room before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is underfloor heating suitable for an older Sunningdale house with a timber floor?",
+      "a": "Yes. We fit a rigid insulation-backed board across the joists to carry a low-profile electric heating mat, which keeps added floor height to a minimum and directs heat up into the room."
+    },
+    {
+      "q": "Can I have water-fed underfloor heating instead of electric?",
+      "a": "If your bathroom sits on a solid concrete slab, water-fed underfloor heating tied into your existing central heating is usually possible and tends to cost less to run than electric."
+    },
+    {
+      "q": "Will underfloor heating get in the way of a freestanding bath layout change?",
+      "a": "Not usually in Sunningdale's larger properties. The generous plots here typically give enough flexibility to move a waste run and adjust the floor build-up at the same time without structural conflict."
+    },
+    {
+      "q": "How much extra height does underfloor heating add to the floor?",
+      "a": "Typically 15mm to 70mm depending on the system, once insulation, the heating element, screed or board, adhesive and tile are all accounted for."
+    },
+    {
+      "q": "Do you check which type of floor I have before quoting?",
+      "a": "Yes, always, as part of the £125 survey, because the floor type determines whether electric or water-fed underfloor heating is the right fit."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/sunningdale/", "text": "Bathroom installation in Sunningdale" },
+    { "href": "/bathroom-cost/sunningdale/", "text": "Bathroom installation costs in Sunningdale" },
+    { "href": "/areas/ascot/underfloor-heating-installation/", "text": "Underfloor heating installation in Ascot" },
+    { "href": "/areas/virginia-water/underfloor-heating-installation/", "text": "Underfloor heating installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "underfloor heating installation Sunningdale",
+  "secondaryKeywords": [
+    "electric underfloor heating Sunningdale",
+    "water-fed underfloor heating Sunningdale",
+    "heated bathroom floor installer Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Sunningdale homeowners. Subject and action: finished heated bathroom floor laid in a herringbone pattern of small ceramic tiles, a freestanding bath visible at the edge of frame. Setting and work-stage: completed stage in a large bathroom with a tall sash-style window. Composition: wide-angle shot capturing the full span of the herringbone floor from one corner of the room towards the window, bath positioned off-centre. Light and materials: crisp midday daylight, pale dove-grey ceramic herringbone tile with a soft eggshell sheen, matte white bath panel. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings unless genuinely a double vanity, no uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Finished herringbone-pattern heated bathroom floor with a freestanding bath, Sunningdale",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

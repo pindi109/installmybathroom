@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-windsor/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "windsor",
+  "slug": "toto-windsor",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation across Windsor, from Castle-area town houses to outer family homes. You buy the fixture, we fit it. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-windsor/"
+  },
+  "h1": "TOTO bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: Georgian and Victorian town houses close to the Castle and historic centre, often on narrow plots with limited rear access and period staircases that constrain how much material can move through the building at once, and more typically inter-war and post-war family homes further out towards the edges of town. That split matters for TOTO, because a Washlet seat added to a conventional pan is a modest, manoeuvrable job in either setting, while a full Neorest — a single integrated unit replacing the pan, cistern and seat, with its own structural and electrical requirements — needs more planning in a narrow period town house than in a more spacious outer property. We fit the full TOTO range fit-only across Windsor."
+  },
+  "sections": [
+    {
+      "heading": "Washlet or Neorest — why the distinction matters here",
+      "body": "A Washlet is an electronic seat that adds to a conventional pan, leaving the existing waste run and cistern arrangement largely unchanged beyond a power supply routed to the seat. A Neorest is a different scale of job entirely: a single integrated unit replacing the pan, cistern and seat together, which means the waste connection, water supply and electrical feed all have to be planned and roughed in before tiling starts. The two have genuinely different structural and electrical requirements, and in Windsor specifically, knowing which one a client wants shapes how we plan materials and access before work begins."
+    },
+    {
+      "heading": "Fitting TOTO in Windsor's town-centre houses",
+      "body": "In the Georgian and Victorian town houses close to the Castle and historic centre, narrow plots, limited rear access and period staircases constrain how much material can be moved through the building at any one time. That has a direct effect on how we sequence a Neorest installation in particular, since the integrated unit and its concealed cistern frame need to be brought in and positioned carefully where corridors and stairs are tighter than in a modern build. A Washlet retrofit, being a smaller single-seat addition to an existing pan, is a more straightforward job in these properties."
+    },
+    {
+      "heading": "Fitting TOTO in Windsor's outer family homes",
+      "body": "Further out towards the edges of Windsor, the inter-war and post-war family homes, along with newer residential developments on redeveloped sites, typically offer easier access and more room to plan a full Neorest installation without the same material-handling constraints a period town house presents. That doesn't change the core first-fix requirements — the waste, water and electrical planning for a Neorest is the same wherever the house sits — but logistics and programme are generally more straightforward."
+    },
+    {
+      "heading": "The process: survey, install, price",
+      "body": "We start with a paid survey at £125, where we assess access specific to the property type — stairs and corridor widths in a town-centre house, or straightforward delivery in an outer family home — check the existing waste and water runs, confirm available power near the WC position, and establish whether it's a Washlet retrofit or full Neorest replacement. The install starts from £3,500, varying with scope and access, after which we strip out, first-fix, tile, fit and connect the unit, and snag before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a Georgian town house near Windsor Castle limit what TOTO products you can fit?",
+      "a": "Not in terms of product choice, but narrow plots, limited rear access and period staircases in these properties mean we plan material handling and sequencing more carefully, particularly for a full Neorest unit, compared with a more open outer property."
+    },
+    {
+      "q": "Is a Washlet retrofit easier to fit in a period Windsor property than a Neorest?",
+      "a": "Generally, yes — a Washlet seat adds to a conventional pan with minimal structural change, whereas a Neorest replaces the pan, cistern and seat as one integrated unit and needs more planning around access and first-fix in a constrained town house."
+    },
+    {
+      "q": "Do you supply the TOTO sanitaryware?",
+      "a": "No — we're fit-only. You buy the Washlet, Neorest, basin or brassware from TOTO or an approved retailer, and we handle strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "How much does a TOTO installation cost in Windsor?",
+      "a": "Fit-only installations start from £3,500, with the final price depending on whether it's a Washlet retrofit or a full Neorest replacement, and on property access. We confirm pricing after the £125 survey."
+    },
+    {
+      "q": "Can you fit a TOTO Neorest in a newer Windsor development property?",
+      "a": "Yes — newer residential developments on redeveloped sites towards the edges of Windsor generally offer easier access and more straightforward first-fix conditions than the older town-centre properties."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers in Windsor",
+      "href": "/areas/windsor/"
+    },
+    {
+      "anchor": "TOTO installations in Windsor",
+      "href": "/areas-brands/windsor/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Windsor",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Windsor",
+    "TOTO Washlet installation Windsor",
+    "fit-only bathroom installer Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page conveying careful handling of an integrated shower toilet in a constrained period setting. Subject and action: a wall-hung Washlet-compatible WC fixed to the wall with the seat unit resting unconnected nearby ready for final fix, no branding visible. Setting and work-stage: a narrow period town-house bathroom, first-fix nearly complete, sandstone tiling laid up to picture-rail height with bare plaster above. Composition: vertical-emphasis shot from a low corner angle highlighting the narrow proportions of the room, fixture off-centre to the right. Light and materials: warm sandstone tiling, brushed bronze pipework and taps, soft golden-hour light filtering through a small sash window creating a narrow shaft of light across the floor. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-windsor-hero.webp",
+    "heroAlt": "Wall-hung Washlet-style WC being fitted in a narrow period town-house bathroom with warm sandstone tiling and brushed bronze fittings in Windsor",
+    "inline": []
+  }
+}

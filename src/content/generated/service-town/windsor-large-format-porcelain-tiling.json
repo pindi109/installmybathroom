@@ -1,0 +1,100 @@
+{
+  "path": "/areas/windsor/large-format-porcelain-tiling/",
+  "family": "Service x town",
+  "service": "large-format-porcelain-tiling",
+  "town": "windsor",
+  "seo": {
+    "title": "Large Format Porcelain Tiling in Windsor | Install My Bathroom",
+    "description": "Large format porcelain tiling in Windsor — slab handling planned around narrow period staircases or easier modern access. Fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/large-format-porcelain-tiling/"
+  },
+  "h1": "Large format porcelain tiling in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases that constrain how much material can move through the building at once; further out, inter-war and post-war family homes and newer developments with far easier access. Large format porcelain slabs are big and need to travel through the house in one piece, so which type of property you're in changes how we plan the job before we plan the tiling itself. We work fit-only, from £3,500, with you sourcing the sanitaryware, brassware, tiles and furniture."
+  },
+  "sections": [
+    {
+      "heading": "Getting a large slab up a period staircase",
+      "body": "A large format porcelain slab can be over a metre long and needs to stay rigid and flat while it's carried — it can't be bent round a tight turn in a narrow Georgian or Victorian staircase the way a smaller tile box can. For town houses near the Castle and historic centre, we check stair width, turn angles and door widths at survey stage and, where a full-size slab genuinely won't fit, we discuss a smaller slab format that still gives a large-format look without the handling risk of forcing an oversized piece through a space it wasn't built for."
+    },
+    {
+      "heading": "Easier access further out, same standard of substrate",
+      "body": "In the inter-war, post-war and newer developments toward the edges of Windsor, access is generally far more straightforward — wider halls, modern staircases, sometimes direct access to the bathroom from a landing with no tight corners at all. That doesn't change what the substrate needs though: whether the house is a 1930s semi or a recent build, we check the floor and wall surfaces for flatness and correct any unevenness before tiling, because the material doesn't care how easy the delivery was."
+    },
+    {
+      "heading": "Full adhesive coverage and lippage control either way",
+      "body": "Once a slab is safely in the room, the tiling itself follows the same standard regardless of property type: full adhesive coverage combed onto the substrate and back-buttered onto the slab, with no voids that could crack under load, and levelling clips used through the floor and wall run so every slab edge sits flush with its neighbour rather than lipping and catching the light unevenly."
+    },
+    {
+      "heading": "Survey first, always",
+      "body": "We always start with a paid £125 survey — it's especially important in Windsor's older town houses, where we need to confirm access before you order a slab size that might not make it up the stairs. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a large slab fit up my Windsor town house staircase?",
+      "a": "It depends on the stair width, turn angle and door widths — we check this at survey, and if a full-size slab won't fit, we'll suggest a smaller large-format option that still gives a similar look."
+    },
+    {
+      "q": "Is access easier in newer Windsor properties?",
+      "a": "Generally yes — inter-war, post-war and newer developments tend to have wider halls and more straightforward staircases than the Georgian and Victorian town houses near the centre."
+    },
+    {
+      "q": "Does the substrate prep differ between older and newer Windsor homes?",
+      "a": "The approach is the same in principle — checking for flatness and correcting any unevenness — though older properties are more likely to need extra boarding work depending on the existing floor construction."
+    },
+    {
+      "q": "What if my hallway is too narrow for the tiles I want?",
+      "a": "We'll flag this at survey before you buy anything, so you can choose a slab size that will actually get into the room rather than finding out on delivery day."
+    },
+    {
+      "q": "What's included in the fit-only price?",
+      "a": "Strip-out, first-fix, tiling, plumbing and snagging — you buy the sanitaryware, brassware, tiles and furniture, with installs from £3,500."
+    }
+  ],
+  "internalLinks": [
+    {
+      "text": "Large format porcelain tiling service",
+      "href": "/services/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Bathroom installation in Windsor",
+      "href": "/areas/windsor/"
+    },
+    {
+      "text": "Bathroom tiling cost guide",
+      "href": "/guides/bathroom-tiling-cost-uk/"
+    },
+    {
+      "text": "Large format porcelain tiling in Ascot",
+      "href": "/areas/ascot/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Large format porcelain tiling in Sunningdale",
+      "href": "/areas/sunningdale/large-format-porcelain-tiling/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "large format porcelain tiling Windsor",
+  "secondaryKeywords": [
+    "large format tiling Windsor bathroom",
+    "porcelain slab tiling Windsor town house",
+    "fit-only tiler Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Windsor large format porcelain tiling service page. Subject and action: a finished warm sandstone-look large format porcelain floor and wall within a tall, narrow bathroom alcove, no people present. Setting and work-stage: a completed installation inside a period-proportioned town house bathroom. Composition: a vertical-leaning three-quarter shot emphasising the tall, narrow proportions of the room and a continuous slab run up one wall into the floor. Light and materials: cool early-evening light with one warmer accent from a single fixture, warm sandstone-look porcelain with varied natural texture and a soft satin finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf/niche/mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber/gold colour wash, no hanging plants/florals/candles as props, no water shown running, varied/believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-large-format-porcelain-tiling-hero.webp",
+    "heroAlt": "Warm sandstone-look large format porcelain floor and wall slab run in a tall, narrow finished Windsor bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

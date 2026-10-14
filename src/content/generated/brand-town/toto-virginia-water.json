@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-virginia-water/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "virginia-water",
+  "slug": "toto-virginia-water",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation for Virginia Water homes. You buy the fixture, we handle structural and electrical first-fix. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-virginia-water/"
+  },
+  "h1": "TOTO bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. TOTO's Washlet and Neorest ranges are among the most technically involved products we fit, because the electronics sit inside the fixture rather than bolted on afterwards — a distinction that matters more on a property like this, where plot size generally gives us far more flexibility on layout than a terraced property would. We fit the full TOTO range fit-only: you buy the Washlet or Neorest, we handle the structural and electrical work that gets it running properly."
+  },
+  "sections": [
+    {
+      "heading": "Why Washlet and Neorest aren't the same job",
+      "body": "A Washlet seat adds to a conventional WC pan, so the existing waste run and cistern arrangement generally stay as they are, with a power supply routed to the seat the main addition. A Neorest is a single integrated unit replacing the pan, cistern and seat entirely, which means the waste connection, water supply and electrical feed all have to be agreed and roughed in before any tiling goes down. The two have genuinely different structural and electrical requirements, and knowing which one a client has ordered changes how we first-fix the room from the outset."
+    },
+    {
+      "heading": "Virginia Water's plot sizes and what they allow",
+      "body": "The substantial period houses and more recent executive-style builds around Virginia Water tend to sit on generous plots, which generally gives us far more flexibility on layout than a terraced property would. Relocating a waste run to accommodate a freestanding bath, or repositioning a shower to improve natural light, rarely runs into a structural wall it can't move around — the same logic applies to finding the depth needed behind a wall for a Neorest's concealed cistern and servicing access, which is easier on a larger property than a smaller one."
+    },
+    {
+      "heading": "What we install from the TOTO range",
+      "body": "Our fit-only service covers TOTO's wall-hung and close-coupled Washlet-compatible pans, the Washlet electronic seats, complete Neorest integrated units, and matching TOTO basins and brassware where specified. You source the products from TOTO or an approved retailer; we handle the strip-out of the existing suite, first-fix plumbing and electrics, tiling, connection, testing and snagging. Because the electronics are built into the fixture rather than added afterwards, the first-fix has to be correct before anything gets tiled over."
+    },
+    {
+      "heading": "The process: survey, install, price",
+      "body": "We start with a paid survey at £125, checking the existing waste and water runs, confirming what power is realistically available near the WC position, and establishing whether the job is a Washlet retrofit or a full Neorest replacement — the two need different groundwork. The install starts from £3,500, varying with scope, and once agreed we strip out, first-fix the plumbing, electrics and any structural work the Neorest requires, tile, fit and connect the unit, and snag before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a gated or private road in Virginia Water affect how you plan access for the job?",
+      "a": "We factor site access into the survey for any property, gated or otherwise. The main advantage of larger Virginia Water plots is structural flexibility on layout, not access logistics specifically."
+    },
+    {
+      "q": "Can you move a WC position to fit a Neorest where a shower currently is?",
+      "a": "Often, yes — the generous plot sizes typical of Virginia Water properties mean repositioning fixtures rarely runs into a structural wall it can't move around, though we confirm feasibility for your specific property at survey."
+    },
+    {
+      "q": "What's the real difference between a Washlet and a Neorest?",
+      "a": "A Washlet is an electronic seat added to a conventional pan with the existing waste run largely unchanged. A Neorest replaces the pan, cistern and seat as a single integrated unit, requiring waste, water and electrical planning before tiling starts."
+    },
+    {
+      "q": "Do you supply the TOTO products?",
+      "a": "No — we're fit-only. You buy the Washlet, Neorest, basin or brassware from TOTO or an approved retailer, and we handle strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "How much does a TOTO installation cost in Virginia Water?",
+      "a": "Fit-only installations start from £3,500, with the final figure depending on whether it's a Washlet retrofit or a full Neorest replacement with additional first-fix work. We confirm pricing after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers in Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "anchor": "TOTO installations in Virginia Water",
+      "href": "/areas-brands/virginia-water/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Virginia Water",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Virginia Water",
+    "TOTO Washlet installation Virginia Water",
+    "fit-only bathroom installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page showing the careful repositioning work an integrated shower toilet install allows for. Subject and action: a wall-hung Neorest-style WC fixture newly set against a repositioned stud wall, waste pipework visible below before boxing-in, no branding visible. Setting and work-stage: a bright principal en-suite in a substantial detached house, first-fix stage with walnut timber-clad feature wall partially installed around the service void. Composition: close-mid shot angled slightly from above, fixture positioned off-centre right with the timber cladding filling the left third. Light and materials: warm walnut timber panelling paired with pale stone floor tiles, brushed chrome pipework and shower fittings, bright natural daylight from a large window giving clean even light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-virginia-water-hero.webp",
+    "heroAlt": "Wall-hung integrated shower toilet being first-fixed against a repositioned wall with walnut timber panelling and brushed chrome fittings in Virginia Water",
+    "inline": []
+  }
+}

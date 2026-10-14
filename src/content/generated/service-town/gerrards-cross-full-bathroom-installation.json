@@ -1,0 +1,80 @@
+{
+  "path": "/areas/gerrards-cross/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Full Bathroom Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only full bathroom installation in Gerrards Cross from £3,500. Strip-out, plumbing, tiling and electrics. £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Gerrards Cross is the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter that we reach in around 25 to 30 minutes from our Bracknell base. A full bathroom installation here means stripping an existing bathroom back to brick and rebuilding it completely — new pipework, tanking, tiling, electrics and ventilation — finished with the suite you've sourced yourself. Because we're fit-only, you choose the sanitaryware, brassware, tiles and furniture; we handle everything from strip-out to final snag."
+  },
+  "sections": [
+    {
+      "heading": "A full installation versus a smaller job",
+      "body": "A full bathroom installation is a complete rebuild, not a repair or a single-fixture swap. We take the room back to the studwork and subfloor, strip out the old suite and tiling, then renew waste and supply pipework, tank the wet areas, first-fix electrics for extraction and lighting, tile the room, and second-fix the new suite before snagging it in. It's the right job when a layout needs to change, when old tanking has failed, or when you're adding fixtures — a separate shower alongside the bath, for example — that the existing pipework can't support. An en-suite fit or wet room conversion follows a similar sequence but on a smaller footprint or with different waterproofing detail; a full installation is the whole room, done once, properly. Because every surface is stripped back before anything new goes in, a full installation is also the point at which any underlying issues — old lead pipework, failed waterproofing membrane behind existing tiles, or undersized extraction — get found and corrected rather than tiled back over."
+    },
+    {
+      "heading": "Working in Gerrards Cross",
+      "body": "Gerrards Cross sits close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base — close enough that we can attend site regularly through a full installation without the scheduling gaps a longer commute creates, which matters on a job with several trade stages in sequence (strip-out, first-fix, tanking, tiling, second-fix). As with every full installation, you're sourcing the suite, tiles and brassware; we'll agree a delivery plan with you at survey stage so materials reach site in the order each stage needs them, which keeps the programme moving rather than waiting on deliveries mid-job. A full installation also takes the room out of use for the length of the job, so at survey stage we'll talk through whether another bathroom in the house covers the gap, or whether the sequence needs adjusting to minimise disruption to the household while the work is under way."
+    },
+    {
+      "heading": "How we run the job",
+      "body": "Every full installation starts with a paid £125 survey to confirm pipe routes, joist direction, and the exact scope of strip-out before we price the work. From there: strip-out, first-fix plumbing and electrics, tanking to wet areas, tiling, second-fix of your chosen suite, and snagging. Electrics and ventilation are installed to current Part P and Part F standards, which on a full rebuild usually means new extraction, rewired lighting, and shaver point provision rather than reusing what was there."
+    },
+    {
+      "heading": "Book your survey",
+      "body": "If you're planning a full bathroom installation in Gerrards Cross, call or WhatsApp 07399 651836 to arrange the £125 survey. Full installations start from £3,500 depending on scope — we'll give you a firm price once we've seen the room."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "We're based in Bracknell and reach Gerrards Cross in around 25 to 30 minutes by road, which keeps our trades attending site regularly through a multi-stage full installation."
+    },
+    {
+      "q": "What's the difference between a full installation and an en-suite fit?",
+      "a": "A full bathroom installation is a complete rebuild of a whole bathroom — suite, tiling, plumbing, electrics and ventilation from an empty room. An en-suite fit covers the same stages but on the smaller footprint typical of an en-suite, often with different access and ventilation requirements."
+    },
+    {
+      "q": "Do you source the bathroom suite for us?",
+      "a": "No — we're fit-only, so you choose and buy the sanitaryware, brassware, tiles and furniture. We'll agree a delivery schedule with you at survey stage so everything arrives when each stage of the installation needs it."
+    },
+    {
+      "q": "How much does a full bathroom installation cost in Gerrards Cross?",
+      "a": "Full installations start from £3,500, with the final price depending on room size, layout changes, and finish specification. The £125 survey is where we confirm scope and give you a firm figure."
+    },
+    {
+      "q": "Will the work meet current building regulations?",
+      "a": "Yes — electrics and ventilation on a full bathroom installation are installed to current Part P and Part F requirements, whatever the age or layout of the existing room."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/gerrards-cross/", "text": "Bathroom installation in Gerrards Cross" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/stoke-poges/full-bathroom-installation/", "text": "Full bathroom installation in Stoke Poges" },
+    { "href": "/areas/windsor/full-bathroom-installation/", "text": "Full bathroom installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "full bathroom installation Gerrards Cross",
+  "secondaryKeywords": [
+    "full bathroom installation in Gerrards Cross",
+    "complete bathroom renovation Gerrards Cross",
+    "bathroom strip out and rebuild Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Gerrards Cross. Subject and action: a newly completed, empty luxury bathroom photographed immediately after installation, no people present. Setting and work-stage: a family bathroom in a substantial village house, fully tiled and fitted, staged as finished with no tools, packaging or debris in shot. Composition: three-quarter angle view across the room taking in the bath, vanity and shower enclosure from one corner. Light and materials: travertine tiling in warm neutral tones, brushed bronze taps and shower fittings, soft overcast daylight through a window giving even, diffuse illumination. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a Gerrards Cross home with travertine tiling and brushed bronze fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

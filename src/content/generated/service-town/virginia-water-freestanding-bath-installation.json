@@ -1,0 +1,80 @@
+{
+  "path": "/areas/virginia-water/freestanding-bath-installation/",
+  "family": "Service x town",
+  "service": "freestanding-bath-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Freestanding Bath Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only freestanding bath installation in Virginia Water: waste routing, overflow, floor loading checks and positioning. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/freestanding-bath-installation/"
+  },
+  "h1": "Freestanding bath installation in Virginia Water",
+  "hero": {
+    "intro": "Properties in Virginia Water tend to share a few things: generous plots, long driveways, and in a number of cases gated or private road access, with a mix of substantial period houses and more recent executive-style builds close to the Wentworth Estate and its golf courses. That plot size generally gives us far more flexibility on bathroom layout than a terraced property would allow — relocating a waste run to accommodate a freestanding bath, for instance, rarely runs into a structural wall it can't move around. We handle that repositioning, the waste and overflow routing, and the floor loading check together as one installation."
+  },
+  "sections": [
+    {
+      "heading": "Freestanding baths and the question of position",
+      "body": "A freestanding bath carries its waste, overflow and filler supply to wherever it's actually standing, rather than relying on pipework already tucked behind an adjoining wall. That typically means a longer, more deliberate pipe run than a standard panelled bath needs, usually routed beneath the bath through a shallow plinth or via a section of floor opened specifically for the purpose. Agreeing the bath's exact position at survey, before any pipework goes in, is what keeps that routing discreet and avoids the bath ending up somewhere other than where it was meant to sit."
+    },
+    {
+      "heading": "What generous plots make possible",
+      "body": "On the larger period and executive-style properties around Virginia Water — including those with gated or private road access near Wentworth Estate — relocating a waste run to put a freestanding bath exactly where it works best in the room rarely runs into a structural wall it can't be moved around. That doesn't remove the need for proper planning: the waste still has to reach a stack or soil pipe by a sensible route, and the position still has to work with the room's natural light and layout. But it does mean the bath's position is usually dictated by what suits the room, rather than by the limits of existing pipework."
+    },
+    {
+      "heading": "Floor loading and the structural check",
+      "body": "A filled freestanding bath with someone in it typically exceeds 200kg — a meaningful point load that has to sit on joists able to carry it, or be spread across a wider bearing point if they can't. Substantial period houses in Virginia Water often have suspended timber floors, which is usually workable but needs the joist direction and spacing confirmed before a bath position is agreed; more recent executive-style builds tend to offer a bit more flexibility, particularly where a solid ground-floor base is in place. Either way, this is checked at the £125 paid survey stage, before pricing or scheduling is confirmed."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "After the survey confirms the floor structure and the bath's position, we strip out the existing bathroom, first-fix the plumbing to the new position, carry out any floor reinforcement or plinth work identified, tile around the fixed pipework, then fit and connect the bath before a final snag and sign-off. You source the bath, filler and waste fittings yourself; we carry out everything from strip-out to final connection, from £3,500. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a freestanding bath be moved away from the existing bath's position?",
+      "a": "Usually yes, particularly on the larger plots typical of Virginia Water, where relocating a waste run to suit a new bath position rarely runs into a structural wall it can't be moved around. We confirm the practical route at survey."
+    },
+    {
+      "q": "Do Virginia Water's period properties need extra checks for a freestanding bath?",
+      "a": "Often, yes — substantial period houses commonly have suspended timber floors, so we confirm joist spacing and direction before agreeing a bath position, to plan both the waste route and any floor loading requirements properly."
+    },
+    {
+      "q": "Can a freestanding bath be repositioned to improve natural light in the room?",
+      "a": "Yes, this is a common request, and the generous plot sizes and room dimensions common around Virginia Water often make it straightforward to reposition both the bath and, where needed, a shower, without hitting structural constraints."
+    },
+    {
+      "q": "Do you supply the bath and fittings?",
+      "a": "No, we're fit-only — you choose and purchase the bath, filler, waste and overflow fittings. We handle the strip-out, first-fix plumbing, floor work, tiling and snagging."
+    },
+    {
+      "q": "What's included in the £3,500 starting price?",
+      "a": "Strip-out of the existing bathroom, first-fix plumbing to the agreed bath position, tiling, fitting and connecting the bath, and final snagging. Floor reinforcement or more extensive waste re-routing, where needed, is confirmed and priced after survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/freestanding-bath-installation/", "anchor": "More on our freestanding bath installation service" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation across Virginia Water" },
+    { "href": "/guides/bath-installation-cost-uk/", "anchor": "What does a bath installation cost in the UK?" },
+    { "href": "/areas/sunningdale/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/freestanding-bath-installation/", "anchor": "Freestanding bath installation on Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "freestanding bath installation Virginia Water",
+  "secondaryKeywords": [
+    "freestanding bath fitter Virginia Water",
+    "freestanding bath waste routing Surrey",
+    "bathroom floor loading freestanding bath Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Virginia Water freestanding bath installation service page. Subject and action: a finished oval freestanding stone-resin bath in bright white, positioned near a large window with a polished chrome floor-mounted filler already connected. Setting and work-stage: a bright, newly completed bathroom in a substantial period house, renovation fully finished, no tools or materials visible. Composition: frontal shot taken at bath height, with the window and natural light forming the background. Composition should include visible floor space either side of the bath. Light and materials: bright midday daylight flooding through the window, pale grey marble-effect floor tiles, crisp white wall panelling. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-freestanding-bath-installation-hero.webp",
+    "heroAlt": "Oval freestanding bath positioned by a window in a Virginia Water home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

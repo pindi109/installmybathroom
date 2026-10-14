@@ -1,0 +1,121 @@
+{
+  "path": "/installer/burlington-ascot/",
+  "family": "Brand × town",
+  "brand": "burlington",
+  "town": "ascot",
+  "slug": "burlington-ascot",
+  "seo": {
+    "title": "Burlington Bathrooms Fitted in Ascot | Fit-Only Installation | Install My Bathroom",
+    "description": "We fit Burlington pedestal and wall-hung basins, roll-top baths and high-level WCs across Ascot on a fit-only basis, from £3,500. You choose the range, we handle the installation.",
+    "canonical": "https://installmybathroom.co.uk/installer/burlington-ascot/"
+  },
+  "h1": "Burlington bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's substantial Victorian and Edwardian houses, along with the newer executive-style homes built on the generous plots running towards Sunningdale and Windsor, are exactly the kind of property where a Burlington bathroom tends to get specified. Burlington's range — pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware — suits the proportions and character of these older houses, while still sitting comfortably in a newer build designed to echo that look. Install My Bathroom fits Burlington products across Ascot on a fit-only basis: you choose and supply the range from a showroom or retailer, and we handle the strip-out, first fix, plumbing and snagging that gets it installed properly, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What Burlington makes, and what we install",
+      "body": "Burlington builds its range around classic bathroom forms reproduced with a modern fixing standard underneath the traditional silhouette: pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths, and period-style brassware finished in chrome, nickel or brass. We install the full range for Ascot homeowners — the roll-top bath set on its own feet rather than boxed into a panel, the wall-hung basin on its hidden support bracket, the high-level WC with its exposed flush pipe running down to the pan. None of that is supplied by us; you choose it through whichever showroom or retailer route suits you, and we fit it."
+    },
+    {
+      "heading": "Why the fixing detail matters with Burlington specifically",
+      "body": "Getting the period look right on site depends on fixing choices that aren't visible once the room is finished: the bracket behind a wall-hung basin, the bearing a roll-top bath's feet sit on, the bracket supporting a high-level cistern above a classic pan, or the precise alignment of a pedestal behind its basin. Get any of those wrong and the fault doesn't show up at handover — it shows up as a loose basin or a strained cistern months later. We confirm the fixing route for each Burlington piece at survey stage, before anything is ordered, rather than working it out on fitting day."
+    },
+    {
+      "heading": "Burlington in Ascot's larger properties",
+      "body": "The scale of plot typical in Ascot — large detached houses on generous gardens, with the structural freedom that comes from not sharing a party wall — generally gives us far more room to work with than a terraced property would. Relocating a waste run to take a freestanding roll-top bath, or widening a doorway for level access to a period-proportioned family bathroom, rarely runs into a structural limit here the way it would in a smaller house. That flexibility suits Burlington's range well: a roll-top bath needs space around it to read as freestanding rather than cramped against a wall, and a pedestal basin with period brassware looks right in a room with the proportions to match."
+    },
+    {
+      "heading": "Repairs to Burlington fittings",
+      "body": "Burlington's period-style fittings aren't immune to the faults any bathroom can develop — a pedestal basin working loose, a high-level WC's flush pipe starting to weep, a roll-top bath's waste fitting needing attention. We carry out repairs to Burlington installations across Ascot from £200, with emergency call-outs from a £500 minimum where something needs attention the same day. We don't take on standalone regrouting-only visits, but for a fixing or plumbing fault on a Burlington piece we've fitted — or one fitted by someone else — we can usually get out and resolve it."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Burlington products, or just fit them?",
+      "a": "We fit only. You choose and buy your Burlington range through a showroom, retailer or Burlington's own stockists, and we handle the strip-out, first fix, plumbing, tiling and installation from £3,500."
+    },
+    {
+      "q": "What's different about fitting a Burlington bathroom compared with a contemporary one?",
+      "a": "The forms are traditional — pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths — but the fixing underneath is a modern standard. We confirm the bracket, bearing and alignment detail for each piece before it's ordered, because that's what makes the period look hold up once the room is finished."
+    },
+    {
+      "q": "Can you fit a Burlington roll-top bath in an Ascot property?",
+      "a": "Yes. Ascot's larger plots generally give us the structural freedom to relocate a waste run or reposition plumbing to suit a freestanding bath, which is rarely a problem the way it can be in a smaller terraced house."
+    },
+    {
+      "q": "Do you offer a survey before quoting for a Burlington installation?",
+      "a": "Yes, a £125 survey, where we confirm the fixing route for whichever Burlington pieces you've specified before anything is ordered."
+    },
+    {
+      "q": "Do you repair Burlington fittings as well as install them?",
+      "a": "Yes. Repairs to Burlington pieces start from £200, with a £500 minimum for an emergency call-out. We don't take on standalone regrouting-only visits."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/burlington/",
+      "anchor": "The full Burlington range"
+    },
+    {
+      "href": "/areas/ascot/",
+      "anchor": "Bathroom fitting in Ascot"
+    },
+    {
+      "href": "/areas-brands/ascot/",
+      "anchor": "Bathroom brands we fit in Ascot"
+    },
+    {
+      "href": "/services/freestanding-bath-installation/",
+      "anchor": "Freestanding bath installation"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing and first fix"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    },
+    {
+      "file": "brands.json",
+      "id": "burlington"
+    },
+    {
+      "file": "repairs.json",
+      "id": "concealed-cistern-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "wall-hung-toilet-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "leaking-tap-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "bathroom-waste-and-drain-repair"
+    }
+  ],
+  "primaryKeyword": "Burlington bathroom installer Ascot",
+  "secondaryKeywords": [
+    "Burlington roll-top bath installer Ascot",
+    "fit-only Burlington installation Ascot",
+    "Burlington wall-hung basin fitting Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Burlington x Ascot installer page, implying the brand's classic roll-top bath and period brassware through a close fixture detail rather than a full room shot. Subject and action: a close, low three-quarter angle on the curved foot and lower rim of a freestanding roll-top bath, with a traditional telephone-style bath/shower mixer and its handset resting against the bath's inner wall, static, no motion. Setting and work-stage: a finished principal bathroom in a large Ascot detached house, mid-morning, natural light from an unseen tall window. Composition: tight low-angle crop on the bath's curved foot and enamel skirt filling the lower third, the telephone mixer and part of the rim visible above, a sliver of Carrara marble-effect floor tile in soft focus behind. Light and materials: white vitreous enamel bath exterior, brushed brass mixer and handset, Carrara marble-effect porcelain floor tile, bright directional morning daylight raking low across the enamel surface and casting a defined shadow from the bath's foot. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical fixtures, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the enamel and tile rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/burlington-ascot-hero.webp",
+    "heroAlt": "Close low-angle view of a freestanding roll-top bath's foot and a brushed brass telephone-style mixer in a finished Ascot bathroom, morning daylight.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

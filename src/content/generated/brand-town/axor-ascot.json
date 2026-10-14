@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-ascot/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "ascot",
+  "slug": "axor-ascot",
+  "seo": {
+    "title": "AXOR Bathroom Installer in Ascot | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation in Ascot, fit-only from £3,500. We fit the Starck, Citterio and Montreux ranges you've specified, handling finish and sequencing properly.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-ascot/"
+  },
+  "h1": "AXOR bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock runs from large detached Victorian and Edwardian houses through inter-war family homes to the more recent executive-style builds on the roads towards Sunningdale and Windsor, and in nearly all of them the generous plot sizes give us far more room to plan a bathroom layout than a terraced property would allow. That space matters when AXOR brassware is part of the specification, because getting an AXOR installation right in Ascot is less about the plumbing itself — hansgrohe's engineering behind every AXOR product is precise and consistent — and more about handling and sequencing the finish once it's on site. A brushed or matte black AXOR trim shows every scuff mark from a careless fit in a way chrome never does, so we plan the order of trades around it rather than fitting it and hoping for the best."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR in Ascot",
+      "body": "AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux — ranges that read more like designed objects than standard bathroom fittings, which is part of why they turn up on the more considered specifications we see in Ascot. On a fit-only basis, we install the AXOR products you've already chosen through a showroom or designer: shower valves and handsets for a walk-in shower, basin and bath mixers, and the freestanding bath fillers that sit well in the larger bathrooms Ascot's bigger plots allow. We don't sell or supply AXOR ourselves — you source the specific range and finish, and we fit it to the standard hansgrohe designed it for, confirming valve type, finish and fixing kit against what's actually arrived on site before anything goes into a wall."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "The brassware itself is precisely engineered, but the finish is the part that separates a good AXOR installation from an average one. A brushed or matte black trim shows every scuff mark from a careless fit in a way chrome never does, so we keep trim plates and handsets boxed and protected until the latest possible stage, sequencing tiling, flooring and decorating around the final fit rather than leaving a finished AXOR valve or tap exposed while other trades are still working nearby. Because AXOR spans several design collaborations — Starck, Citterio and Montreux among them — the fixing and trim kit for one range isn't necessarily interchangeable with another, so we check the exact range and model against the product that's actually turned up before first fix starts, not after the wall's closed."
+    },
+    {
+      "heading": "How Ascot's housing stock affects a typical AXOR installation",
+      "body": "In a property the size of a typical Ascot executive-style build, or one of the larger Victorian and Edwardian houses, an AXOR installation often means a longer run of pipework between the manifold and the valve than a smaller property would need. We account for that at survey so the eventual trim sits flush and square rather than being forced to compensate for a late change. The generous plot sizes common across Ascot also give us more flexibility to reposition a waste run or valve location to suit a specific AXOR fitting — moving a shower valve a few feet to improve the layout rarely runs into the structural limits a terraced house would present, which matters when the finish and trim are this sensitive to a poor fit."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Ascot: you choose your AXOR brassware and the rest of your bathroom products, and we handle the strip-out, first fix, tiling, plumbing and final fit, from £3,500 for a full installation. Every job starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm exactly what's been specified — including the AXOR range, valve type and finish — before anything is ordered or booked in. With 30 years' experience fitting brassware at this level, we know what a brushed AXOR finish needs that a standard chrome mixer doesn't. If something needs attention after the fact, repairs start from £200, though we don't offer standalone regrouting and any emergency call-out carries a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply AXOR brassware, or do I need to buy it myself?",
+      "a": "We work fit-only, so you source your AXOR products through a showroom, retailer or designer, and we handle the installation. We don't sell or mark up AXOR ourselves."
+    },
+    {
+      "q": "Does AXOR cost more to fit than standard brassware?",
+      "a": "Installation starts from the same £3,500 full-bathroom price, but a brushed or matte black AXOR finish needs more careful handling and sequencing than chrome, which we plan for at the £125 survey rather than discovering on fitting day."
+    },
+    {
+      "q": "Will a brushed or matte black AXOR finish show marks if it's not fitted carefully?",
+      "a": "Yes — AXOR's brassware is precisely engineered, but a brushed or matte black trim shows scuffs from careless handling in a way chrome doesn't, so we keep trims protected and sequence other trades around the final fit."
+    },
+    {
+      "q": "Can you fit AXOR Starck, Citterio or Montreux ranges in a large Ascot property?",
+      "a": "Yes, across all three collaborations. The fixing and trim kit varies between ranges, so we confirm the exact model against what's arrived on site before first fix."
+    },
+    {
+      "q": "What if my Ascot property needs the pipework run further for a repositioned AXOR valve?",
+      "a": "Ascot's larger plots and detached layouts generally give us more flexibility to reposition a waste run or valve location than a terraced property would, and we account for that at survey so the trim sits flush once fitted."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Bathroom brands we fit in Ascot" },
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Ascot",
+  "secondaryKeywords": [
+    "AXOR installation Ascot",
+    "AXOR brassware fitter Ascot",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Ascot installer page, implying AXOR's design-led brassware through a close fixture detail rather than a full room shot. Subject and action: a close three-quarter shot of a wall-mounted thermostatic shower valve trim plate and handset, static, recently fitted with no water running. Setting and work-stage: a finished walk-in shower in a contemporary bathroom within an Ascot executive-style detached house, daytime. Composition: tight three-quarter angle on the valve trim and handset, tiled wall filling the mid-ground, a soft-focus glass shower screen edge visible at the frame's margin. Light and materials: Calacatta marble tile surround, brushed bronze brassware trim, bright midday daylight entering from an unseen high window, casting a defined shadow of the handset across the tile. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble tile with minor realistic wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-ascot-hero.webp",
+    "heroAlt": "Close-up of a brushed bronze thermostatic shower valve trim and handset against Calacatta marble tile in a finished Ascot bathroom.",
+    "inline": []
+  }
+}

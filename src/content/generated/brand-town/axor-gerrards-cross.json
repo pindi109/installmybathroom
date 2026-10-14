@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-gerrards-cross/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "gerrards-cross",
+  "slug": "axor-gerrards-cross",
+  "seo": {
+    "title": "AXOR Bathroom Installer in Gerrards Cross | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation in Gerrards Cross, fit-only from £3,500. Correct fixing kits and finish handling for Starck, Citterio and Montreux ranges.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-gerrards-cross/"
+  },
+  "h1": "AXOR bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base — and AXOR brassware is one of the brands that comes up often on the specifications we're handed here. AXOR isn't a single product line but a set of design collaborations, AXOR Starck, AXOR Citterio and AXOR Montreux among them, and before we fit anything we confirm which collaboration, which generation and which finish has actually arrived on site, because the fixing and trim kit for one range doesn't automatically fit another."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR in Gerrards Cross",
+      "body": "AXOR is hansgrohe's design-led brassware brand, and the collaborations behind it — Starck's pared-back geometry, Citterio's more architectural lines, Montreux's traditional-leaning cross-head detailing — each carry a distinct look and a distinct set of fixing hardware. On a fit-only basis in Gerrards Cross, you source the sanitaryware, brassware, tiles and furniture, including whichever AXOR range you've specified, and we strip out, first-fix, tile, plumb and snag the installation, from £3,500. That typically covers basin mixers and shower valves for a full bathroom or en-suite, bath fillers for a freestanding bath, and the trim plates and handsets that sit on show once a wall is closed and tiled."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "The engineering behind AXOR brassware is consistent across the range — it's hansgrohe's valve technology underneath every collaboration — but the finish is where an installation can go wrong if it isn't handled correctly. A brushed or matte black AXOR trim shows every scuff mark from a careless fit in a way chrome never does, so we don't unbox trim plates and handsets until the room around them is genuinely ready, and we keep other trades away from a finished valve rather than fitting it early and risking it getting marked during tiling or decorating. Because the fixing kit differs between Starck, Citterio and Montreux, we check the specific model and generation against what's on site before first fix starts — a mismatched valve body and trim plate is the kind of problem that only shows up once the wall's already closed."
+    },
+    {
+      "heading": "How Gerrards Cross's housing stock affects a typical AXOR installation",
+      "body": "A good share of the work we do in Gerrards Cross is in substantial family houses where the specification has already been through a showroom or designer before we're brought in at survey stage, often with a specific AXOR collaboration chosen for a particular room rather than a generic brassware upgrade. That means the survey is as much about matching the exact range and model to what's actually been ordered as it is about the plumbing itself, so we confirm valve type, generation and finish before booking anything in, rather than assuming one AXOR product is interchangeable with the next."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "Every Gerrards Cross project starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we go through the AXOR specification in detail — range, valve type, finish, and whatever else has been chosen — before anything is booked in or ordered. With 30 years' experience fitting brassware at this level, we know which details each AXOR collaboration needs that a standard mixer doesn't, and we build the installation programme around protecting the finish from first fix through to final snagging. You supply the products; we supply the fitting expertise, from £3,500 for a full installation. If anything needs attention down the line, repairs start from £200, with a £500 minimum for an emergency call-out and no standalone regrouting offered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to buy my own AXOR brassware before you fit it?",
+      "a": "Yes — we work fit-only across Gerrards Cross, so you source your AXOR products and we handle the strip-out, first fix, plumbing and final fit."
+    },
+    {
+      "q": "Is there a difference between fitting AXOR Starck, Citterio and Montreux?",
+      "a": "Yes. Each collaboration has its own fixing kit and trim hardware, so we confirm the exact range and model against what's arrived on site before first fix begins."
+    },
+    {
+      "q": "How do you stop a brushed or matte black AXOR finish getting marked during the fit?",
+      "a": "We keep trim plates and handsets boxed until the room is genuinely ready for them, and sequence other trades so nothing gets handled or knocked once the final AXOR fitting is in place."
+    },
+    {
+      "q": "What does a full AXOR bathroom installation cost in Gerrards Cross?",
+      "a": "Installations start from £3,500, with the exact price depending on the scope of work and what's been specified. Every job starts with a £125 survey to confirm the detail."
+    },
+    {
+      "q": "Do you fit AXOR in both new bathrooms and renovations in Gerrards Cross?",
+      "a": "Yes, in both. Whether it's a new build or a renovation of an existing bathroom or en-suite, we confirm the valve type and fixing requirement for your specific AXOR range at survey stage."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom fitting in Gerrards Cross" },
+    { "href": "/areas-brands/gerrards-cross/", "anchor": "Bathroom brands we fit in Gerrards Cross" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure and screen installation" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "gerrards-cross" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Gerrards Cross",
+  "secondaryKeywords": [
+    "AXOR installation Gerrards Cross",
+    "AXOR brassware fitter Buckinghamshire",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Gerrards Cross installer page, implying AXOR's design-led brassware through a close vanity fixture detail rather than a full room shot. Subject and action: a close mid shot of a single-lever basin mixer tap mounted on a vanity countertop, static, a faint water spot on the tap body consistent with a recent test run rather than active flow. Setting and work-stage: a finished bathroom vanity area in a Gerrards Cross commuter-village family home, daytime. Composition: close mid-range angle centred on the tap and basin rim, a sliver of frameless glass shower screen visible in soft focus at the edge of frame, warm timber vanity unit filling the lower foreground. Light and materials: warm walnut timber vanity unit, matte black brassware, soft overcast daylight from an unseen window giving even but not flat illumination, a faint realistic water spot on the tap neck. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical double-basin staging, no uniform colour wash across the frame, no plants, florals or candles as props, no water shown actively running, varied believable sheen on the timber and tap rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-gerrards-cross-hero.webp",
+    "heroAlt": "Close-up of a matte black single-lever basin mixer tap on a warm walnut vanity unit in a finished Gerrards Cross bathroom, soft daylight.",
+    "inline": []
+  }
+}

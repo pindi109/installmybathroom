@@ -1,0 +1,89 @@
+{
+  "path": "/installer/hansgrohe-windsor/",
+  "family": "Brand x town",
+  "brand": "hansgrohe",
+  "town": "windsor",
+  "slug": "hansgrohe-windsor",
+  "seo": {
+    "title": "hansgrohe Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only hansgrohe shower and brassware fitting for Windsor homes, from Georgian town houses to newer developments. Paid survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/hansgrohe-windsor/"
+  },
+  "h1": "hansgrohe bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: Georgian and Victorian town houses close to the Castle and historic centre, often on narrow plots with limited rear access and period staircases, and more typically inter-war and post-war family homes further out, alongside newer residential developments on redeveloped sites. hansgrohe brassware and shower systems turn up on more of our specification sheets than almost any other single brand, usually as the shower and basin mixer package sitting alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. The engineering is consistent across the range, so fitting is predictable — what actually decides performance is water pressure, rough-in depth and whether the valve body was set correctly before the wall closed up."
+  },
+  "sections": [
+    {
+      "heading": "hansgrohe as a recurring specification in Windsor",
+      "body": "Whether we're working on a Georgian town house near the Castle or a newer development on the edge of town, hansgrohe appears repeatedly in the shower and basin mixer line of Windsor specifications, usually alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. The consistency of the range across price points means we can plan a first fix with confidence in the valve geometry and connection standards, which is particularly useful on the older town houses where material access and sequencing already need careful planning."
+    },
+    {
+      "heading": "What we install from the hansgrohe range",
+      "body": "We fit the full range of hansgrohe shower and brassware products specified for a project: concealed and exposed shower valves, overhead and handheld shower sets, and basin, bath and bidet mixers. As a fit-only installer, you source the hansgrohe fittings along with your sanitaryware, tiles and furniture, and we carry out the strip-out, first-fix, tiling, plumbing and snagging. On the narrower-plan town houses close to Windsor's historic centre, we plan the delivery and movement of hansgrohe fittings and materials around the period staircase and limited rear access, rather than assuming the same logistics that a more open, modern property would allow."
+    },
+    {
+      "heading": "Pressure, rough-in depth and valve alignment",
+      "body": "The variables that actually decide how well a hansgrohe system performs are water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up. We check incoming water pressure and flow before confirming a concealed valve's position, match the rough-in depth to the specific hansgrohe model specified, and set the valve body square and at the correct depth before boarding and tiling go over it, because correcting a misaligned valve afterwards means reopening the wall. On Windsor's older town houses, where wall construction and services can be less predictable than in a newer build, we treat these checks as essential rather than a formality."
+    },
+    {
+      "heading": "Working within Windsor's two housing types",
+      "body": "Close to the Castle and the historic centre, Windsor has a concentration of Georgian and Victorian town houses on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, the housing is more typically inter-war and post-war family homes, with some newer residential developments on redeveloped sites. We plan each hansgrohe installation around the specific constraints of the property type — sequencing deliveries and first fix differently for a narrow town house than for a more open inter-war or post-war home."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We start with a paid survey at £125, assessing the existing plumbing, structure and proposed layout, including where hansgrohe fittings will sit, whether water pressure is adequate, and — for town houses near the centre — how materials will move through the building. We then quote the work, with fit-only installation starting from £3,500 depending on scope. Once agreed, we strip out the existing bathroom, carry out first-fix plumbing and any structural work, tile, fit the sanitaryware and your hansgrohe brassware and shower system, and snag before handover. Sourcing the hansgrohe products in time for the agreed install dates is your responsibility."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you install hansgrohe systems in a period town house near Windsor Castle?",
+      "a": "Yes. We plan the installation around the narrower plots, limited rear access and period staircases typical of this part of Windsor, sequencing material delivery and first fix accordingly."
+    },
+    {
+      "q": "Do I need to buy the hansgrohe products myself?",
+      "a": "Yes — we're fit-only, so you source the hansgrohe brassware and shower system along with your sanitaryware, tiles and furniture, and we handle the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What determines how well a hansgrohe shower system performs once installed?",
+      "a": "Mainly water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up. We check all three during the survey and first fix."
+    },
+    {
+      "q": "How much does a hansgrohe bathroom installation cost in Windsor?",
+      "a": "Fit-only installations start from £3,500. The final price depends on scope, confirmed after the £125 paid survey."
+    },
+    {
+      "q": "Does an older Windsor property need different handling for a hansgrohe installation?",
+      "a": "Often, yes. Narrower plots, limited rear access and period staircases near the historic centre can constrain how much material moves through the building at once, so we plan logistics around that rather than treating every property the same."
+    },
+    {
+      "q": "Do you repair existing hansgrohe fittings in Windsor?",
+      "a": "We take on repair work for high-end homes, minimum £200, with a £500 minimum for emergency call-outs. We don't carry out regrouting."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/hansgrohe/", "anchor": "See all hansgrohe installations we fit" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation across Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "Brands we fit in Windsor" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital and smart shower installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "hansgrohe installation Windsor",
+  "secondaryKeywords": [
+    "hansgrohe shower installer Windsor",
+    "hansgrohe brassware fitter Berkshire",
+    "fit-only hansgrohe bathroom Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a hansgrohe shower valve installation page set in a period town house context. Subject and action: a matte black concealed shower valve plate being fitted flush into a freshly tiled wall niche, a separate handheld hose bracket mounted beside it, installation nearly complete but untouched by hands in frame. Setting and work-stage: a compact, narrow-plan en-suite typical of an older town house, warm walnut timber vanity cabinetry installed below, Carrara marble tiles on the shower wall only. Composition: tight vertical-leaning shot emphasising the narrow proportions of the room, valve plate centred against the marble with the walnut cabinetry visible at the bottom edge of frame. Light and materials: warm low-angle afternoon light through a small window, Carrara marble's cool white-grey tone balanced against the walnut's warm grain, matte black valve plate with understated, uneven sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/hansgrohe-windsor-hero.webp",
+    "heroAlt": "Matte black hansgrohe-style concealed shower valve fitted into a Carrara marble niche in a narrow Windsor town house en-suite",
+    "inline": []
+  }
+}

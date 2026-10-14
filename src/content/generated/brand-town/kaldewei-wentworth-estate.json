@@ -1,0 +1,110 @@
+{
+  "path": "/installer/kaldewei-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "kaldewei",
+  "town": "wentworth-estate",
+  "slug": "kaldewei-wentworth-estate",
+  "seo": {
+    "title": "Kaldewei Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only Kaldewei steel bath and shower tray installation on Wentworth Estate, Virginia Water. Survey £125, installs from £3,500, gate access coordinated.",
+    "canonical": "https://installmybathroom.co.uk/installer/kaldewei-wentworth-estate/"
+  },
+  "h1": "Kaldewei bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. Kaldewei's titanium-enamelled steel baths and shower trays, pressed rather than cast or moulded like most sanitaryware, suit the standard of finish expected on the estate: the installation detail is about even, accurate bearing across the full base and about protecting a hard but chip-sensitive enamel surface while other trades are still working around it."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Kaldewei",
+      "body": "You source the Kaldewei sanitaryware, brassware, tiles and furniture; we strip out the existing bathroom, carry out first-fix plumbing, install the bath or shower tray, tile around it, plumb it in, and snag the finished room. Kaldewei's steel construction is genuinely different from the cast or moulded sanitaryware most bathrooms use, and that changes several decisions on site — particularly how the unit is supported underneath and how the enamel surface is protected until the room is finished and handed over."
+    },
+    {
+      "heading": "Installation considerations specific to Kaldewei",
+      "body": "A Kaldewei bath or shower tray is rigid pressed steel, not a flexible acrylic shell, so the installation priority is even, accurate bearing across the full base rather than managing flex with a support frame designed for acrylic. We check the subfloor and support structure properly before the unit goes down, because any gap or high spot tends to surface later as noise or movement rather than settling out on its own. The titanium enamel is hard-wearing in daily use but chip-sensitive during the build, so it's protected carefully while first-fix plumbing, tiling and finishing trades are still working in the room."
+    },
+    {
+      "heading": "Working on Wentworth Estate",
+      "body": "Wentworth Estate is private and gated, built around Wentworth Club and its golf courses, home of the BMW PGA Championship, and sits around 15 to 20 minutes by road from our Bracknell base. Installing a Kaldewei bathroom here means coordinating access with the estate and any managing agent from the outset, so deliveries, strip-out and the rest of the programme run through the gate without delay. We build that coordination into the schedule at survey stage rather than treating it as an afterthought once the job is underway."
+    },
+    {
+      "heading": "The fit-only process",
+      "body": "The process starts with a £125 paid survey, where we assess the existing bathroom, plumbing, access through the estate gate, and the support detail a Kaldewei installation requires given its steel construction. We then confirm the plan and price — installs start from £3,500 depending on scope — and coordinate the programme with the estate's own access requirements. Once your Kaldewei products and other materials are on site, we carry out the strip-out, first-fix, installation, tiling and plumbing, finishing with a thorough snagging pass before handover."
+    },
+    {
+      "heading": "Get a quote for your Wentworth Estate bathroom",
+      "body": "If you're planning a Kaldewei bathroom on Wentworth Estate and need a fit-only installer comfortable coordinating gate access and managing agent requirements, call or WhatsApp 07399 651836 to book a £125 survey. We'll assess the room and the access arrangements together and give you a clear price before work starts."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you coordinate access through the Wentworth Estate gate and with a managing agent?",
+      "a": "Yes, we build gate access and managing agent coordination into the programme from the survey stage, so deliveries and the rest of the installation run without delay."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Wentworth Estate is around 15 to 20 minutes by road from our Bracknell base."
+    },
+    {
+      "q": "Why is a Kaldewei bath installed differently to a standard acrylic bath?",
+      "a": "Kaldewei baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded, so they're rigid rather than flexible. The installation focus is even, accurate bearing across the full base, not the flex-control an acrylic support frame provides."
+    },
+    {
+      "q": "Do I need to buy the Kaldewei bath or shower tray myself?",
+      "a": "Yes, we're fit-only, so you source the Kaldewei sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first-fix, installation, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What does the £125 survey involve?",
+      "a": "We assess the existing bathroom, plumbing, access through the estate, and the specific support structure a Kaldewei installation needs for its pressed-steel bath or shower tray."
+    },
+    {
+      "q": "How much does installation cost?",
+      "a": "Installs start from £3,500 depending on scope, confirmed after the £125 survey and agreed before any work begins."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on Kaldewei bathroom products",
+      "href": "/brands/kaldewei/"
+    },
+    {
+      "anchor": "Bathroom installation on Wentworth Estate",
+      "href": "/areas/wentworth-estate/"
+    },
+    {
+      "anchor": "Brands we fit on Wentworth Estate",
+      "href": "/areas-brands/wentworth-estate/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Walk-in shower installation",
+      "href": "/services/walk-in-shower-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "kaldewei"
+    },
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    }
+  ],
+  "primaryKeyword": "Kaldewei installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Kaldewei bath installer Wentworth Estate",
+    "Kaldewei shower tray fitting Virginia Water",
+    "fit-only Kaldewei bathroom Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kaldewei installation page on a private gated estate, emphasising a dark, understated luxury material palette. Subject and action: tight diagonal crop along the threshold edge of a Kaldewei titanium-enamelled steel shower tray set flush into a dark basalt floor, drainage channel partially fitted. Setting and work-stage: near-complete wet room installation in a large estate house, basalt tiling finished on walls and floor, tray being checked for level against the threshold strip. Composition: tight diagonal crop cutting across the frame, emphasising the contrast between the pale enamel edge and the dark stone. Light and materials: cold, crisp morning light from a high window casting a single directional shadow, brushed nickel drainage channel with a restrained, uneven sheen, dark basalt's natural matte-to-satin variation. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kaldewei-wentworth-estate-hero.webp",
+    "heroAlt": "Kaldewei steel shower tray threshold being levelled into a dark basalt floor during installation on Wentworth Estate",
+    "inline": []
+  }
+}

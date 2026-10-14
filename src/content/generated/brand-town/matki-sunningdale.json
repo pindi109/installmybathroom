@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-sunningdale/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "sunningdale",
+  "slug": "matki-sunningdale",
+  "seo": {
+    "title": "Matki Bathroom Installer in Sunningdale | Fit-Only",
+    "description": "Matki frameless shower enclosure and screen installation in Sunningdale, fit-only from £3,500. Accurate wall preparation and tiling sequencing before the glass arrives.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-sunningdale/"
+  },
+  "h1": "Matki bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Golf courses aside, what Sunningdale is really known for among the people we fit for is the scale of the plots surrounding them — Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, a number on private or gated roads, almost all with room to spare. That space is genuinely useful when the specification is Matki, because its enclosures and screens are built to a minimal, largely frameless aesthetic that leaves very little trim to hide an uneven wall, so having the room to true up a stud wall or reposition a waste run before the glass is ordered removes one source of risk before it becomes a problem. The glass itself does the talking on a Matki installation, which means the wall fixing, the tray level and the tiling dimension beneath it all have to be correct first. We fit only — you choose the Matki enclosure through a showroom or designer, and we handle the preparation, tiling, fixing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki in Sunningdale",
+      "body": "Matki is specified in Sunningdale most often as a shower enclosure or screen built around a clean, minimal glass line with little visible hardware — a look that suits the more considered specifications common around the area's golf course roads. That minimalism is also why the installation needs more precision than a heavily-framed alternative: there's no deep trim to hide an inaccurate opening, an out-of-true wall, or a tray that isn't level, so we treat getting the substrate right as the core of the job, not a step before the real work starts. We work from the enclosure configuration and hardware finish you've already chosen, and build the strip-out, first fix and tiling sequence specifically to deliver the opening it needs."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "With a largely frameless Matki screen, wall flatness is the detail that causes the most trouble if it's missed. A standard framed screen can often absorb a wall that's slightly out of true behind its trim; a minimal Matki frame generally can't, which means we check the wall for flatness and plumb at survey, correct it at first fix if it's out, and only then confirm the final tiled dimension the glass will be cut to. The wall fixing points for hinges or channel need sound, correctly prepared backing as well — moving a waste run or widening a recess to accommodate a freestanding bath is one thing, but the glass fixing itself has almost no tolerance for a fixing point that's slightly off, so we check that detail independently of the wider layout change."
+    },
+    {
+      "heading": "How Sunningdale's housing stock affects a typical Matki installation",
+      "body": "Sunningdale's generous plot sizes, whether behind a Victorian or Edwardian frontage, an inter-war family home, or a newer executive-style build on a private or gated road, usually mean there's more flexibility to true up a wall or move a waste run three feet to suit a Matki enclosure than a terraced or semi-detached property would allow. That flexibility is particularly useful here because it lets us correct any wall flatness issue properly during first fix, rather than working around it, which matters more with a frameless screen than almost any other shower product we fit. On a private or gated road, we also plan delivery of the pre-cut glass panel around any access restrictions the road imposes, confirming that at survey rather than on the morning of the fit."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki enclosures and screens on a fit-only basis — you choose and supply the glass, hardware finish, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, wall preparation, glass fixing and snagging. Installations across Sunningdale start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we check the wall for flatness and confirm the opening dimension before the enclosure is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why does wall flatness matter so much for a Matki installation?",
+      "a": "A minimal, largely frameless screen has very little trim to absorb a wall that's out of true. We check flatness and plumb at survey and correct it at first fix if needed, before the tiled dimension is confirmed."
+    },
+    {
+      "q": "Do you supply Matki products, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling and glass installation, from £3,500."
+    },
+    {
+      "q": "Will Sunningdale's larger plots make a Matki installation easier?",
+      "a": "Generally, yes — more space usually means more flexibility to true up a wall or adjust a layout before the glass is ordered. We still check the fixing points and wall flatness independently of any wider layout change."
+    },
+    {
+      "q": "I live on a private or gated road in Sunningdale — does that affect delivery of the glass panel?",
+      "a": "It can, since a Matki panel is pre-cut and needs careful handling on delivery. We confirm any access restrictions your road imposes at survey, so delivery is planned in advance rather than discovered on the day."
+    },
+    {
+      "q": "What does the £125 survey check before a Matki installation?",
+      "a": "We check the wall for flatness and plumb, confirm the shower tray level, and measure the opening against the finished tiling plan, so the enclosure is ordered to the correct dimension first time."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "Bathroom brands we fit in Sunningdale" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/large-format-porcelain-tiling/", "anchor": "Large format porcelain tiling" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Sunningdale",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Sunningdale",
+    "Matki frameless screen fitter Berkshire",
+    "fit-only Matki installer Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Sunningdale installer page, implying Matki's frameless enclosure range through a three-quarter fixture-and-wall detail shot rather than a full room view. Subject and action: a three-quarter view of a full glass shower corner panel fixed into a wall channel, a laser level line projected faintly across the adjoining wall checking plumb, panel newly set and not yet sealed. Setting and work-stage: a part-finished bathroom in a large Sunningdale house on a private road, dark stone tiling freshly laid around the enclosure corner, daytime. Composition: wider three-quarter angle taking in the full enclosure corner, glass and wall channel occupying the left two-thirds of frame, a run of tiled wall and the edge of a stud partition visible receding to the right, a laser level unit resting on the floor in the foreground. Light and materials: dark basalt-toned anthracite stone tiling with a matte, slightly uneven natural finish, brushed nickel wall channel and fixing hardware, bright midday daylight from an unseen window producing a crisp but not harsh highlight along the glass edge, with a faint secondary shadow from the channel itself. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the stone and hardware with minor visible sealant residue rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-sunningdale-hero.webp",
+    "heroAlt": "Three-quarter view of a frameless glass shower corner panel newly fixed into a brushed nickel wall channel against dark anthracite stone tiling in a Sunningdale bathroom, laser level checking plumb.",
+    "inline": []
+  }
+}

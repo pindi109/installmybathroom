@@ -1,0 +1,72 @@
+{
+  "path": "/areas/stoke-poges/wet-room-installation/",
+  "family": "Service × town",
+  "service": "wet-room-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Wet Room Installation in Stoke Poges | Tanked Floors, Fit-Only | Install My Bathroom",
+    "description": "Fit-only wet room installation in Stoke Poges. Tanked, level-access floors with a tested fall to drain, suited to large plots and principal en-suites. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/wet-room-installation/"
+  },
+  "h1": "Wet room installation in Stoke Poges",
+  "hero": {
+    "intro": "More than any other job we take on in Stoke Poges, a wet room request tends to start life as a second en-suite — a principal bedroom getting its own level-access shower room carved out of what was previously a dressing room or an underused box room, something the village's large plots and substantial houses make genuinely possible. Stoke Poges is a place of generous gardens and houses set well back from the road, from older period detached homes to more recent executive-style builds, and that scale usually means relocating a waste run or widening a doorway for level access doesn't run into the structural limits a smaller or terraced property would present. The floor underneath still has to be checked properly at survey before any of that is confirmed — a bigger plot doesn't excuse us from assessing joist depth and drain position on their own merits."
+  },
+  "sections": [
+    {
+      "heading": "What a wet room installation involves",
+      "body": "A wet room's whole floor becomes the shower, with no tray and no step, which means the fall to drain, the floor build-up and the tanking all have to be right before tiling begins. We strip back to the joists, confirm how far the floor can drop or build up, and install the drain and first-fix plumbing at a position giving a fall of around 1:60 to 1:80, checked with a laser level. Tanking covers the full floor and walls to shower height, flood-tested before any tile is laid, and large-format tiles are then set to the fall with lippage checked row by row as the work progresses. A glass screen or half-height panel is fitted where specified, along with WC, basin and towel radiator, and the project closes with a water test and a full snagging walkthrough."
+    },
+    {
+      "heading": "Adding a second en-suite wet room in a Stoke Poges property",
+      "body": "The scale of a typical Stoke Poges house — period detached homes through to executive-style builds on sizeable gardens — gives real room to manoeuvre when a principal bedroom is being given its own en-suite rather than sharing the family bathroom. We can usually relocate a waste run to wherever suits the new layout best, widen a doorway for level access without hitting a load-bearing constraint, and position the drain to suit the room shape rather than wherever the existing pipework happens to sit. That freedom doesn't remove the need for a proper structural check — older period Stoke Poges houses still need joist depth and condition assessed before a floor build-up is agreed, and a newer build still needs service runs confirmed behind the existing fit-out — but it does mean the options on the table are usually wider than a constrained property would allow."
+    },
+    {
+      "heading": "Booking your Stoke Poges wet room survey",
+      "body": "Every project starts with the £125 survey — joist depth, achievable drain position, and the ceiling below if the room is upstairs, all checked before a quote is confirmed. From there the programme runs through floor build-up and first-fix plumbing, tanking and a flood test, tiling set out from the drain outward, and a final snagging stage with water run across the full floor. We fit only, working from tiles, screen and sanitaryware you've sourced, and the written scope keeps the structural floor cost separate from the finishing specification so you can see exactly where the budget sits. Book a survey to get a firm quote for your Stoke Poges wet room."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a dressing room in a Stoke Poges house be converted into a wet room en-suite?",
+      "a": "Often, yes. The generous room sizes typical of Stoke Poges properties make converting an underused dressing room or box room into a principal en-suite one of the more common wet room projects we take on here, subject to the usual joist and drain checks at survey."
+    },
+    {
+      "q": "Does a large Stoke Poges garden plot affect wet room pricing?",
+      "a": "Not directly, but the structural freedom a larger plot often brings — more flexibility over where the drain and waste run sit — can avoid some of the more labour-intensive floor builds a constrained property needs, which does affect the final quote."
+    },
+    {
+      "q": "Will you check an older Stoke Poges property's floor joists before starting?",
+      "a": "Yes. Period detached houses need joist depth and condition assessed at survey before any floor build-up is agreed, the same as we'd do on any property, regardless of the generous plot it sits on."
+    },
+    {
+      "q": "What's included in the price of a wet room installation?",
+      "a": "Strip-out, floor build-up or lowering, first-fix plumbing, full tanking of floor and walls, large-format tiling to the fall, a flood test, and fitting the screen, WC, basin and towel radiator you've sourced. From £3,500, confirmed in writing after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation service details" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom fitting in Stoke Poges" },
+    { "href": "/guides/wet-room-cost-uk/", "anchor": "Wet room cost UK guide" },
+    { "href": "/areas/gerrards-cross/wet-room-installation/", "anchor": "Wet room installation in Gerrards Cross" },
+    { "href": "/areas/windsor/wet-room-installation/", "anchor": "Wet room installation in Windsor" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "stoke-poges" },
+    { "file": "services.json", "id": "wet-room-installation" }
+  ],
+  "primaryKeyword": "wet room installation Stoke Poges",
+  "secondaryKeywords": [
+    "wet room fitter Stoke Poges",
+    "en-suite wet room Stoke Poges",
+    "tanked wet room Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Stoke Poges wet room installation page, showing a finished result rather than a work-in-progress. Subject and action: a close-to-fixture mid shot of a brushed bronze linear drain channel set flush between rows of honed limestone floor tiles, the tiled wall rising behind it with a half-height glass panel visible at the frame's edge. Setting and work-stage: a principal en-suite wet room converted from a former dressing room in a substantial Stoke Poges detached house, finished and styled for use, early evening. Composition: low, close mid-shot angled down toward the drain channel and floor junction, the tiled wall and glass panel filling the upper background, floor tiles filling the foreground. Light and materials: warm evening light from a single wall-mounted sconce beside the vanity mixing with the last of the daylight through a small obscured window, honed grey limestone floor and wall tiles with a soft matte finish, brushed bronze drain channel and shower valve, light falling unevenly with a warm pool near the sconce fading to cooler shadow at the floor's far edge. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror, no catalog-symmetrical staging or twin fixtures, no single uniform amber wash across the whole frame, no plants, florals or candles as styling props, no shower shown running water, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-wet-room-installation-hero.webp",
+    "heroAlt": "Close-up of a brushed bronze linear drain set into honed limestone tile in a finished wet room converted from a dressing room in a Stoke Poges house, under warm evening light.",
+    "inline": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "path": "/installer/kohler-stoke-poges/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "stoke-poges",
+  "slug": "kohler-stoke-poges",
+  "seo": {
+    "title": "Kohler Bathroom Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only Kohler brassware, sanitaryware and bath installation in Stoke Poges. Large-plot layouts, 30 years' experience. Survey £125, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-stoke-poges/"
+  },
+  "h1": "Kohler bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club giving the area its best-known identity, and many properties set well back from the road on sizeable gardens. Kohler's range spans cast-iron enamel baths, vitreous china sanitaryware and contemporary brassware, which can mean three different fitting disciplines on one project — heavy-item logistics, structural fixing, and pressure and flow checks. We plan for whichever combination you're specifying, and the scale of plot around Stoke Poges usually gives that plan more room to work with than a smaller property would."
+  },
+  "sections": [
+    {
+      "heading": "Shower valves and digital taps: pressure and flow checks first",
+      "body": "A Kohler shower valve or digital tap has to be checked against your property's incoming pressure and flow before it's built into the wall, since the wrong readings can mean a valve that never performs the way it's designed to. That's a distinct discipline from fixing sanitaryware or positioning a bath, and it's work we carry out at first-fix stage, while pipework can still be adjusted if the numbers don't match what the brassware needs. On a property with its own borehole or private supply arrangement, that check becomes even more important."
+    },
+    {
+      "heading": "Structural fixing for Kohler sanitaryware",
+      "body": "Wall-hung WCs and basins from Kohler's vitreous china range rely on a concealed frame fixed into solid structure, positioned and levelled before tiling starts so the finished brackets land exactly where they need to. It's standard structural fixing, but it has to be accurate, because there's no adjusting a cistern frame once the wall around it is finished. On larger Stoke Poges properties, where a principal suite might also take on an additional en-suite, we're often fixing more than one frame across a single project."
+    },
+    {
+      "heading": "Why Stoke Poges' larger plots change what's achievable",
+      "body": "The housing around Stoke Poges ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. It means a full re-plan is more often genuinely on the table here than in a tighter property."
+    },
+    {
+      "heading": "Cast-iron baths and heavy-item logistics",
+      "body": "Where a project includes a Kohler cast-iron enamel bath, the logistics are different again: the bath has to come through the house in one piece, be supported on joists capable of taking its loaded weight, and be positioned precisely before the waste and overflow are connected. On the larger properties typical of Stoke Poges, wider doorways, more generous landings and fewer tight stair turns tend to make that part of the job more straightforward than it would be in a smaller terraced house."
+    },
+    {
+      "heading": "From survey to snagging",
+      "body": "Every project starts with a £125 survey, where we assess the room, check supply, waste and structure, and confirm what your Kohler specification will need. You buy the sanitaryware, brassware, tiles and furniture; we carry out the strip-out, first-fix, tiling, final-fix plumbing and snagging. Installations start from £3,500, with the figure reflecting the quality and scope of the work rather than a price set against anyone else in the area."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Stoke Poges property's larger plot make the installation easier?",
+      "a": "Often, yes. Houses here tend to be set well back on sizeable gardens with more room internally too, which generally gives us more flexibility on layout changes than a smaller or terraced property allows."
+    },
+    {
+      "q": "Do you check our water pressure before fitting a Kohler shower valve?",
+      "a": "Yes, pressure and flow checks against your incoming supply are carried out at first-fix stage, before any brassware is committed to the wall."
+    },
+    {
+      "q": "Do you supply the Kohler products for Stoke Poges installations?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can you add a second en-suite as part of a Kohler installation?",
+      "a": "On larger properties, where structure allows, yes. The scale of plot typical of Stoke Poges often gives more room to reposition waste runs and walls than a smaller home would."
+    },
+    {
+      "q": "What does a Kohler bathroom installation cost in Stoke Poges?",
+      "a": "Installations start from £3,500 for fit-only work, after a £125 survey. The final figure depends on the scope of strip-out, first-fix, tiling and plumbing required."
+    },
+    {
+      "q": "Do you carry out repairs to existing Kohler bathrooms in Stoke Poges?",
+      "a": "Yes, for high-end homes, with a minimum charge of £200 and £500 for emergency call-outs. Regrouting isn't offered as a standalone service."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "The full Kohler bathroom range" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom installation in Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "anchor": "Bathroom brands we fit in Stoke Poges" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding and cast-iron bath installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "Kohler installation Stoke Poges",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Stoke Poges",
+    "Kohler brassware installation Buckinghamshire",
+    "fit-only bathroom installer Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Stoke Poges. Subject and action: a concealed shower valve body being connected to copper pipework mid first-fix, a pressure gauge resting on the floor nearby, no person in shot. Setting and work-stage: a large en-suite under renovation in a substantial detached house, honed limestone wall tiles partially installed on one wall, stud wall open on another. Composition: diagonal composition with the valve and pipework in the foreground, open stud wall receding into the background, asymmetric framing. Light and materials: honed limestone tiling, matte black pipe fittings and valve body, cool overcast daylight from a rooflight above, natural matte shadows. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-stoke-poges-hero.webp",
+    "heroAlt": "Concealed Kohler shower valve being first-fixed during a bathroom installation in Stoke Poges, with honed limestone tiling underway",
+    "inline": []
+  }
+}

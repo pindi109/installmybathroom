@@ -1,0 +1,2097 @@
+{
+  "total": 279,
+  "failed": 0,
+  "warned": 68,
+  "passed": 211,
+  "items": [
+    {
+      "family": "brand-town",
+      "slug": "axor-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "axor-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "axor-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "axor-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "axor-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "axor-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "axor-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-wentworth-estate",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 678 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "bette-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 670 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-stoke-poges",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 666 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-sunningdale",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 637 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-virginia-water",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 651 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-wentworth-estate",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 588 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "burlington-windsor",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 691 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "crosswater-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-wentworth-estate",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 687 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "dornbracht-windsor",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 689 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 658 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-stoke-poges",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 675 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-sunningdale",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 631 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-virginia-water",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 625 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-wentworth-estate",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 614 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "duravit-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "geberit-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "grohe-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "hansgrohe-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 664 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kaldewei-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "kohler-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 638 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-stoke-poges",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 658 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-sunningdale",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 590 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-virginia-water",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 607 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "laufen-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 685 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-stoke-poges",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 699 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "lefroy-brooks-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "matki-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 664 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "porcelanosa-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-sunningdale",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 692 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "toto-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-wentworth-estate",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 673 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "victoria-and-albert-windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-ascot",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 668 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-gerrards-cross",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 608 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-stoke-poges",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 623 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-sunningdale",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 621 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-virginia-water",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 603 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-wentworth-estate",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 538 < 700"
+      ]
+    },
+    {
+      "family": "brand-town",
+      "slug": "villeroy-and-boch-windsor",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 627 < 700"
+      ]
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "binfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "bracknell",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "camberley",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "crowthorne",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "eton",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "finchampstead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "maidenhead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "reading",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "sandhurst",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "sunninghill",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "twyford",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "warfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "windlesham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "winkfield-row",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "winkfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "brands-in-area",
+      "slug": "wokingham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "binfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "bracknell",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "camberley",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "crowthorne",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "eton",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "finchampstead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "maidenhead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "reading",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "sandhurst",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "sunninghill",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "twyford",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "warfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "windlesham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "winkfield-row",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "winkfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "cost-town",
+      "slug": "wokingham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-accessible-luxury-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-large-format-porcelain-tiling",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-shower-toilet-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-underfloor-heating-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-walk-in-shower-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "ascot-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 648 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-ensuite-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 615 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-large-format-porcelain-tiling",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-natural-stone-and-marble-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 681 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 592 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 669 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 659 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "gerrards-cross-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-accessible-luxury-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-ensuite-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 645 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 644 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 637 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 626 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-walk-in-shower-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "stoke-poges-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 635 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-cloakroom-and-wc-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 677 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-ensuite-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 603 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 643 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 616 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 616 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 671 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "sunningdale-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 654 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-cloakroom-and-wc-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 654 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 601 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 584 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 629 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 655 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "virginia-water-wet-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 673 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-cloakroom-and-wc-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 664 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 580 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-natural-stone-and-marble-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 695 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 547 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 645 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 622 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "wentworth-estate-wet-room-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 611 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-accessible-luxury-bathrooms",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 696 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-cloakroom-and-wc-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-ensuite-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-freestanding-bath-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-full-bathroom-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-large-format-porcelain-tiling",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 621 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-natural-stone-and-marble-bathrooms",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-shower-toilet-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 616 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-steam-shower-and-steam-room-installation",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-underfloor-heating-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 668 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-walk-in-shower-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 684 < 700"
+      ]
+    },
+    {
+      "family": "service-town",
+      "slug": "windsor-wet-room-installation",
+      "status": "warn",
+      "fail": [],
+      "warn": [
+        "word count 668 < 700"
+      ]
+    },
+    {
+      "family": "survey-town",
+      "slug": "ascot",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "binfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "bracknell",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "camberley",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "crowthorne",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "eton",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "finchampstead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "gerrards-cross",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "maidenhead",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "reading",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "sandhurst",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "stoke-poges",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "sunningdale",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "sunninghill",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "twyford",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "virginia-water",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "warfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "wentworth-estate",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "windlesham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "windsor",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "winkfield-row",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "winkfield",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    },
+    {
+      "family": "survey-town",
+      "slug": "wokingham",
+      "status": "pass",
+      "fail": [],
+      "warn": []
+    }
+  ]
+}

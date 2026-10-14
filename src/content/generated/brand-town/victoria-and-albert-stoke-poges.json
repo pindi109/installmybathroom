@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-stoke-poges/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "stoke-poges",
+  "slug": "victoria-and-albert-stoke-poges",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation in Stoke Poges. Freestanding bath specialists, £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-stoke-poges/"
+  },
+  "h1": "Victoria + Albert bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, best known for Stoke Park's golf and country club, and the scale of the properties here — period detached homes and more recent executive-style builds alike, many set well back from the road — gives us considerably more room to plan a bathroom than a smaller house would allow. That's useful when the centrepiece is a Victoria + Albert freestanding bath: cast from a volcanic limestone and resin composite rather than acrylic or steel, these baths carry genuine weight, so we plan the floor loading, access route and waste position before the bath leaves the showroom."
+  },
+  "sections": [
+    {
+      "heading": "Large Stoke Poges plots and freestanding bath installation",
+      "body": "The housing around Stoke Poges ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. For a Victoria + Albert freestanding bath, which benefits from a considered position within the room, that extra space is a genuine advantage."
+    },
+    {
+      "heading": "Why weight and loading matter with this brand",
+      "body": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite, not acrylic or steel, which gives them a solid, cool-to-the-touch surface and genuine weight. That's a point that matters as much to how we get the bath into the room as it does to how it sits once installed. On a Stoke Poges job, we assess the floor structure under the proposed bath position at survey stage, confirm the access route from the entrance through to the bathroom, and set the waste position before any first-fix plumbing goes in."
+    },
+    {
+      "heading": "Adding capacity without hitting structural limits",
+      "body": "Several of the Stoke Poges projects we get asked about involve adding a second en-suite off a principal bedroom, or substantially reworking an existing bathroom's layout. On a generous plot with a period or executive-style house, relocating a waste run or widening a doorway for level access is usually a planning decision rather than a structural problem, which gives more freedom to position a Victoria + Albert freestanding bath where it works best in the room rather than where the existing pipework happens to be."
+    },
+    {
+      "heading": "What the fit-only service covers",
+      "body": "We're a fit-only installer: you buy the Victoria + Albert bath, basin, brassware, tiles and furniture, and we handle the trade side — strip-out of the existing bathroom, first-fix plumbing, tiling, final plumbing connections and snagging. The process starts with a £125 survey, where we confirm the installation plan around the bath's weight and your chosen layout, followed by installation from £3,500 depending on scope."
+    },
+    {
+      "heading": "Arranging a survey in Stoke Poges",
+      "body": "If you're planning a Victoria + Albert bathroom or en-suite in Stoke Poges, the next step is a £125 survey so we can assess the room, the floor structure and the access route properly before quoting. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you install Victoria + Albert bathrooms in Stoke Poges?",
+      "a": "Yes, we provide fit-only Victoria + Albert bathroom installation across Stoke Poges, including period and executive-style properties."
+    },
+    {
+      "q": "Can you add a second en-suite with a Victoria + Albert bath?",
+      "a": "Often, yes. On larger Stoke Poges plots, relocating a waste run or widening a doorway for level access rarely hits the structural constraints a terraced house would present, which generally makes adding an en-suite more straightforward."
+    },
+    {
+      "q": "Why does a Victoria + Albert bath need special floor loading checks?",
+      "a": "The baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, giving them genuine weight. We assess floor loading, access route and waste position at survey, before the bath leaves the showroom."
+    },
+    {
+      "q": "Do you supply the bath and fittings?",
+      "a": "No, we're fit-only. You buy the Victoria + Albert products yourself; we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How much does installation cost?",
+      "a": "Installations start from £3,500 depending on scope, with a £125 survey fee to assess the project beforehand."
+    },
+    {
+      "q": "Do you work on period houses as well as newer builds in Stoke Poges?",
+      "a": "Yes, Stoke Poges has a mix of older period detached homes and more recent executive-style builds, and we install Victoria + Albert bathrooms in both."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "The Victoria + Albert range we install",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation in Stoke Poges",
+      "href": "/areas/stoke-poges/"
+    },
+    {
+      "anchor": "Brands we fit in Stoke Poges",
+      "href": "/areas-brands/stoke-poges/"
+    },
+    {
+      "anchor": "Freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Strip-out and preparation service",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Stoke Poges",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Stoke Poges",
+    "freestanding bath installation Stoke Poges",
+    "en-suite installation Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert installation page targeting Stoke Poges. Subject and action: a honed limestone-clad bathroom with a freestanding stone-composite bath angled towards a large window, positioned centrally as the room's focal point, first-fix pipework still visible beneath an access panel nearby. Setting and work-stage: a principal bathroom in a substantial detached house, mid-installation with floor tiling complete but wall tiling only partly finished. Composition: eye-level shot from the doorway, bath centred slightly right, exposed studwork visible on the unfinished wall to balance the frame. Light and materials: soft daylight from a large window, honed limestone in pale warm grey with a matte finish, aged brass waste and overflow, uneven but believable tile sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-stoke-poges-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation in a honed limestone bathroom in Stoke Poges",
+    "inline": []
+  }
+}

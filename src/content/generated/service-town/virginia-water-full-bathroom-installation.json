@@ -1,0 +1,80 @@
+{
+  "path": "/areas/virginia-water/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Full Bathroom Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only full bathroom installation in Virginia Water from £3,500. Strip-out, tiling, plumbing and electrics. £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's housing sits on some of the largest plots in the area — substantial period houses and more recent executive-style builds, many close to the Wentworth Estate and its golf courses, set back along long driveways with gated or private road access in a number of cases. A full bathroom installation means stripping a bathroom back to brick and rebuilding it completely: new pipework, tanking, tiling, electrics and ventilation, finished with the suite you've sourced yourself. That plot size generally gives us far more flexibility on layout than a terraced property would."
+  },
+  "sections": [
+    {
+      "heading": "What's involved in a full rebuild",
+      "body": "A full bathroom installation is a ground-up rebuild, not a repair or a single-fixture replacement. We strip out the existing suite and tiling completely, renew or reposition waste and supply pipework, tank the wet areas, first-fix electrics for lighting and extraction, tile the room floor to ceiling where specified, then second-fix and snag the suite you've bought. It's the job for a bathroom where the layout needs to change, the waterproofing has failed, or you're adding fixtures the existing pipe runs can't support. Taking the room back to brick and subfloor also means anything hidden behind the old tiling — degraded membrane, an undersized waste run, or dated electrics — gets properly replaced as part of the job rather than tiled back over."
+    },
+    {
+      "heading": "What Virginia Water's plots allow for",
+      "body": "Properties near the Wentworth Estate and its golf courses tend to sit on generous plots with long driveways, and plot size generally gives us far more flexibility on layout than a terraced property would. Relocating a waste run to accommodate a freestanding bath, or repositioning a shower to make better use of natural light, rarely runs into a structural wall it can't move around on these properties. Where access is gated or via a private road, we'll agree arrangements with you at survey stage so deliveries and trade visits run smoothly across the strip-out, first-fix, tiling and second-fix stages. That same long-driveway access generally makes skip placement and material deliveries more straightforward than on a tighter urban plot, which helps keep a multi-stage full installation moving without vehicles blocking the route in and out."
+    },
+    {
+      "heading": "The process",
+      "body": "We start with a paid £125 survey to confirm pipe routes, joist direction and scope before pricing the job. The sequence then runs strip-out, first-fix plumbing and electrics, tanking, tiling, second-fix of your chosen suite, and snagging, with electrics and ventilation fitted to current Part P and Part F standards. Because you're sourcing the sanitaryware, brassware, tiles and furniture, we'll agree a delivery schedule at survey stage so the right materials are on site for each stage. Where the scope includes repositioning a waste run or a shower, that work happens during first-fix, before tanking and tiling lock the layout in, so it's confirmed at survey rather than decided on site."
+    },
+    {
+      "heading": "Arrange your survey",
+      "body": "To start a full bathroom installation in Virginia Water, call or WhatsApp 07399 651836 to book the £125 survey. Full installations start from £3,500, with the final price confirmed once we've scoped the job."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reposition a shower to improve natural light?",
+      "a": "Often, yes. Virginia Water's larger plots generally give us more flexibility on layout than a terraced property would, so repositioning a shower to make better use of a window rarely runs into a structural wall it can't move around. The survey confirms what's achievable on your property."
+    },
+    {
+      "q": "Our property has gated access — can you work around that?",
+      "a": "Yes — we'll agree access arrangements with you at survey stage so deliveries and trade visits run smoothly through each stage of the installation, whatever gated or private road arrangements are in place."
+    },
+    {
+      "q": "What does the £125 survey cover?",
+      "a": "The survey confirms pipe routes, floor joist direction, electrics, and the exact scope of strip-out needed before we fix a price. It's the step that turns a rough idea into a firm installation plan."
+    },
+    {
+      "q": "What's excluded from a full bathroom installation?",
+      "a": "We don't source sanitaryware, tiles, brassware or furniture — you buy those separately. We also don't carry out cosmetic regrouting as a standalone job."
+    },
+    {
+      "q": "How long does a full installation take in Virginia Water?",
+      "a": "Most full installations take two to three weeks from strip-out to snagging. Larger rooms or jobs that include relocating a waste run or shower can take a little longer, which we'll confirm once the survey has scoped the work."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/virginia-water/", "text": "Bathroom installation in Virginia Water" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/sunningdale/full-bathroom-installation/", "text": "Full bathroom installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/full-bathroom-installation/", "text": "Full bathroom installation on Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "full bathroom installation Virginia Water",
+  "secondaryKeywords": [
+    "full bathroom installation in Virginia Water",
+    "complete bathroom renovation Virginia Water",
+    "bathroom strip out and rebuild Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Virginia Water. Subject and action: a fully finished, empty luxury bathroom photographed immediately after installation, no people present. Setting and work-stage: a spacious bathroom in a large detached house set along a long driveway, newly tiled and fitted, staged as complete with no tools or debris in shot. Composition: wide shot from the doorway showing the full room — bath, shower enclosure, vanity and WC all in frame. Light and materials: warm walnut timber vanity and feature wall panelling against pale tiled surfaces, brushed chrome taps and shower fittings, soft overcast daylight through a window giving even, diffuse light. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a Virginia Water home with walnut timber accents and brushed chrome fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

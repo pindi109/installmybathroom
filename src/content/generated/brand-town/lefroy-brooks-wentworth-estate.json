@@ -1,0 +1,89 @@
+{
+  "path": "/installer/lefroy-brooks-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "lefroy-brooks",
+  "town": "wentworth-estate",
+  "slug": "lefroy-brooks-wentworth-estate",
+  "seo": {
+    "title": "Lefroy Brooks Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only Lefroy Brooks bathroom installation on Wentworth Estate, Virginia Water — gated access coordinated. £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/lefroy-brooks-wentworth-estate/"
+  },
+  "h1": "Lefroy Brooks bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. For properties here choosing Lefroy Brooks brassware, that means working with traditional, exposed-pipework taps, shower valves and sanitaryware rather than the concealed, minimal fittings most modern ranges use: every pipe run, bracket and wall fixing is set out to be looked at, not hidden, once the room is finished."
+  },
+  "sections": [
+    {
+      "heading": "Lefroy Brooks's exposed-pipework brassware",
+      "body": "Lefroy Brooks's traditional-style taps, shower valves and sanitaryware are built around exposed pipework, cross-head handles and period-inspired profiles — the opposite approach to the concealed, minimal fittings found in most modern bathrooms. There's no tiled or boxed-in surface to hide an imperfect joint or a poorly set bracket; the pipe run itself is part of the finished room. On an estate like Wentworth, where bathrooms are often finished to a high specification throughout, that level of visible finish needs to be planned from first-fix, not patched in afterwards."
+    },
+    {
+      "heading": "What we install, and how access works on the estate",
+      "body": "We fit Lefroy Brooks exposed shower valves and risers, cross-head taps and traditional sanitaryware as part of a fit-only service — you source the products, we strip out, first-fix, tile, plumb and snag, from £3,500. Because Wentworth Estate is private and gated, we coordinate access with the estate and any managing agent ahead of time, so deliveries, skips and our team's arrival are agreed in advance and the programme runs without delay at the gate."
+    },
+    {
+      "heading": "Why we're a practical choice for Wentworth Estate properties",
+      "body": "Being based in Bracknell puts us around 15 to 20 minutes by road from Wentworth Estate, which matters on a fit-only job where we're often back and forth between survey, first-fix and snagging visits, and where coordinating around an estate's access arrangements benefits from not being a long journey away. We work to the same fit-only process on the estate as everywhere else — survey, strip-out, first-fix, tiling, final fix, snagging — but build the estate's access requirements into the programme from the outset rather than treating them as an afterthought."
+    },
+    {
+      "heading": "Survey, install, price",
+      "body": "Every Wentworth Estate project starts with a £125 paid survey, where we check the room, agree how the exposed Lefroy Brooks pipework will be set out, and confirm access arrangements with the estate or managing agent. Installation then starts from £3,500 and covers strip-out, first-fix plumbing, tiling, final fix and snagging. You buy the Lefroy Brooks taps, shower valves, sanitaryware, tiles and furniture directly — we don't supply or mark up products, our price is for the installation."
+    },
+    {
+      "heading": "Book a Lefroy Brooks survey on Wentworth Estate",
+      "body": "If you're planning a Lefroy Brooks bathroom on Wentworth Estate, call or WhatsApp 07399 651836 to arrange a £125 survey. We'll look at the room, confirm estate access requirements, and give you an installation price from £3,500."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work directly on Wentworth Estate?",
+      "a": "Yes — we install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, around 15 to 20 minutes by road from our Bracknell base, coordinating access with the estate and any managing agent."
+    },
+    {
+      "q": "Do you supply Lefroy Brooks products for estate properties?",
+      "a": "No — we're fit-only. You buy your Lefroy Brooks taps, shower valves, sanitaryware, tiles and furniture yourself; we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How do you handle access through the estate's gates?",
+      "a": "We coordinate access with the estate and any managing agent in advance, so deliveries, skips and our visits are agreed ahead of time and the programme isn't delayed at the gate."
+    },
+    {
+      "q": "Why does Lefroy Brooks brassware need extra planning?",
+      "a": "Its traditional-style fittings use exposed pipework and cross-head handles rather than concealed fittings, so every pipe run, bracket and wall fixing is visible once finished and has to be set out properly from first-fix."
+    },
+    {
+      "q": "What does an installation cost on Wentworth Estate?",
+      "a": "Installations start from £3,500, following a £125 paid survey, with the price depending on the scope of strip-out, first-fix, tiling and plumbing work."
+    },
+    {
+      "q": "Do you offer repairs for existing bathrooms on the estate?",
+      "a": "We take on repairs for high-end homes, minimum £200, with a £500 minimum for emergency call-outs. We don't do regrouting."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/lefroy-brooks/", "text": "More on Lefroy Brooks installations" },
+    { "href": "/areas/wentworth-estate/", "text": "Bathroom installation on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "text": "Brands we install on Wentworth Estate" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "text": "Bathroom plumbing and first-fix" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "text": "Shower enclosure and screen installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "Lefroy Brooks installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Lefroy Brooks installer Wentworth Estate",
+    "gated estate bathroom installation Virginia Water",
+    "Lefroy Brooks bathroom fitter Wentworth Club"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Lefroy Brooks x Wentworth Estate bathroom installation page. Subject and action: a vertical exposed-pipework shower system — riser rail, shower head arm and cross-head control — fixed to the wall mid-installation, brackets secured, final silicone line not yet applied. Setting and work-stage: a large walk-in shower area lined in dark basalt tiling, work-in-progress with a few loose tile offcuts visible on the floor. Composition: tall vertical framing following the pipe run from floor to shower head, generous dark negative space either side. Light and materials: cool, crisp daylight suggesting an overcast estate morning, polished nickel fittings against matte anthracite basalt, nickel catching light unevenly rather than a uniform gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no plants or candles as props, no water shown running, varied believable sheen not hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/lefroy-brooks-wentworth-estate-hero.webp",
+    "heroAlt": "Exposed nickel Lefroy Brooks shower system being fitted against dark basalt tiling in a Wentworth Estate bathroom",
+    "inline": []
+  }
+}

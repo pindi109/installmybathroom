@@ -1,0 +1,101 @@
+{
+  "path": "/areas/gerrards-cross/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only Carrara marble and natural stone bathroom installation in Gerrards Cross. Correct sealing, adhesive and movement joints. From £3,500, £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms in Gerrards Cross",
+  "h1_note": "",
+  "hero": {
+    "intro": "We install fit-only, luxury bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village near Beaconsfield and Chalfont St Peter, around 25 to 30 minutes from our Bracknell base. A growing number of those projects now specify natural stone or marble — Carrara, travertine, honed limestone — rather than porcelain, and that choice changes several things about how the room gets built, from the adhesive under the stone to how the grout lines are spaced. You source the slabs or tiles, the sanitaryware and brassware; we handle the strip-out, first-fix, stone-fixing, plumbing and snagging."
+  },
+  "sections": [
+    {
+      "heading": "What changes when the spec is marble rather than porcelain",
+      "body": "Carrara and other calcareous marbles are porous and chemically reactive in a way porcelain simply isn't. They need a penetrating sealer before grouting to stop the stone absorbing adhesive moisture unevenly, and a second seal once the installation is finished, or you'll see staining around the shower tray and etching wherever an acidic product has touched the surface. The adhesive bed has to be considered too: a standard grey cementitious adhesive can show through pale, translucent marble as shadowing, so we specify a white, polymer-modified adhesive with controlled moisture release for anything light-coloured or book-matched. Grout width and movement-joint placement also need more care than on a porcelain job, because the aim with a quality marble is usually a near-continuous surface, and a wide or inconsistent joint undermines that."
+    },
+    {
+      "heading": "Travel, access and the realities of a commuter-village job",
+      "body": "Gerrards Cross is around 25 to 30 minutes from our Bracknell base, which we factor into scheduling stone deliveries and the sequencing of trades on site — slabs are heavy, need careful handling on arrival, and a delayed delivery has a bigger knock-on effect on a stone job than on a standard tiling job, since the substrate prep and movement-joint layout are planned around the exact slabs being used. We plan the programme with that in mind so the strip-out, first-fix and stone-fixing stages run in the right order without the room sitting idle waiting on material."
+    },
+    {
+      "heading": "The installation process for a stone bathroom",
+      "body": "After strip-out, we assess the existing substrate for level and rigidity, since stone's weight and movement behaviour demand a sounder base than lightweight porcelain does. First-fix plumbing is set out to your agreed layout, a waterproofed substrate is built up, and large stone pieces are dry-laid first so veining and pattern-matching are checked before anything is fixed permanently. Adhesive, movement joints and grout are chosen to suit the specific stone, followed by sealing, then sanitaryware and brassware fitting and a full snag before handover."
+    },
+    {
+      "heading": "Book a survey",
+      "body": "If you're planning a natural stone or marble bathroom in Gerrards Cross, the £125 paid survey lets us see the existing room, confirm what the stone you've chosen needs structurally and in terms of adhesive and sealing, and give you an accurate quote before booking. Fit-only installations start from £3,500. Call or WhatsApp 07399 651836 to arrange a date."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the marble or do I need to buy it myself?",
+      "a": "We're fit-only, so you source the stone along with sanitaryware, brassware and any tiles. We carry out the strip-out, first-fix, stone-fixing, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "Why does Carrara marble need sealing when porcelain tiles don't?",
+      "a": "Carrara is a calcareous, porous stone that absorbs moisture and can stain or etch without a penetrating sealer applied before grouting and again once installed. Porcelain is non-porous and doesn't need this step."
+    },
+    {
+      "q": "Does the adhesive matter with natural stone?",
+      "a": "Yes. Standard grey cementitious adhesive can show through as shadowing under pale or translucent marble, so we specify a white, polymer-modified adhesive with controlled moisture release for light-coloured or book-matched stone."
+    },
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "Around 25 to 30 minutes by road from our Bracknell base. We factor that into scheduling stone deliveries and sequencing trades so the programme runs smoothly."
+    },
+    {
+      "q": "What does a natural stone bathroom cost?",
+      "a": "Fit-only installations start from £3,500, with the exact figure depending on room size, the stone specified and any layout changes. The £125 paid survey confirms your quote."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation in Gerrards Cross",
+      "href": "/areas/gerrards-cross/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Gerrards Cross",
+      "href": "/bathroom-cost/gerrards-cross/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Stoke Poges",
+      "href": "/areas/stoke-poges/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Windsor",
+      "href": "/areas/windsor/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Gerrards Cross",
+  "secondaryKeywords": [
+    "Carrara marble bathroom Gerrards Cross",
+    "marble bathroom installer Gerrards Cross",
+    "stone bathroom fitter Buckinghamshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Gerrards Cross. Subject and action: a finished Carrara marble vanity top with soft grey veining on a white ground, paired with a single under-mount basin, surface fully cured and sealed. Setting and work-stage: a mid-size family ensuite, renovation complete, brassware fitted. Composition: three-quarter angle close on the vanity top, shallow depth of field drawing focus to the stone surface and veining, bathroom fading softly into the background. Light and materials: warm late-afternoon light raking across the counter from a side window, highlighting subtle surface texture and genuine polish variation. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Carrara marble vanity top with soft grey veining in a finished bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "path": "/areas/virginia-water/wet-room-installation/",
+  "family": "Service x town",
+  "service": "wet-room-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Wet Room Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only wet room installation in Virginia Water. Fully tanked, level-access floors with a linear or point drain. From £3,500. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/wet-room-installation/"
+  },
+  "h1": "Wet room installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's large detached properties, many close to the Wentworth Estate and its golf courses, sit on generous plots with long driveways and, in a number of cases, gated or private road access. Properties range from substantial period houses to more recent executive-style builds, and that plot size tends to give us far more flexibility on layout than a terraced property would. We fit the wet room; you choose the sanitaryware, tiles and brassware."
+  },
+  "sections": [
+    {
+      "heading": "Why plot size changes what's possible",
+      "body": "On a terraced property, a waste run is often fixed by where the soil stack already sits, and a shower can be stuck in a corner with no natural light simply because there's nowhere else for the pipework to go. Virginia Water's larger plots change that calculation. A substantial period house or an executive-style new build generally gives us room to reroute a waste run under the floor to put a freestanding bath where it actually works with the room, or to reposition the wet area itself to pick up light from a window that the original bathroom layout ignored. We still have to work within the structure that's there — joist direction, existing soil stack position and any load-bearing walls all shape the final layout — but on a generous plot those constraints rarely rule out the option you actually want, in the way they routinely do on a tighter footprint."
+    },
+    {
+      "heading": "Installation considerations for period houses and executive builds",
+      "body": "A fully tanked, level-access wet room with a floor gradient to a linear or point drain needs sound structural groundwork regardless of the age of the house. On a period property we check the suspended timber floor for deflection before we do anything else, because a floor that flexes under load will eventually crack tiles and compromise a tanking membrane no matter how well it was installed. On more recent executive-style builds the floor build-up is often simpler to work with, but access and driveway logistics — particularly where a property sits behind gates or on a private road — need to be planned into the programme from day one so that strip-out skips, material deliveries and trade vehicles don't become a daily negotiation. Either way, the drainage fall has to be built to the correct gradient from the outset; it isn't something that can be corrected after the tanking goes down."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "We start with a paid survey to confirm the floor structure, existing drainage route and the gradient needed to reach a linear or point drain, then agree a programme that accounts for gated or private road access where relevant. On site, strip-out comes first, followed by first-fix plumbing, then the floor build-up and fall, full tanking to current waterproofing standards, tiling, final plumbing connections and a full snag before we hand the room back. Fit-only installs start from £3,500. If you'd like to talk through a wet room for a Virginia Water property, call or WhatsApp 07399 651836."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you move the shower position to get better natural light?",
+      "a": "Often, yes. On the larger plots typical of Virginia Water we usually have more flexibility to reroute waste runs than you'd get on a terraced property, which means repositioning the wet area to sit under a window is frequently possible. It depends on the existing soil stack route and joist direction, which we confirm at survey."
+    },
+    {
+      "q": "Do you need to know about gated or private road access in advance?",
+      "a": "Yes, please tell us at enquiry stage. A number of properties in Virginia Water sit behind gates or on private roads, and we build any access arrangements into the programme upfront so that deliveries and trade vehicles don't hold up the job."
+    },
+    {
+      "q": "Will a period house need extra floor work before tanking?",
+      "a": "We check every suspended timber floor for deflection before tanking starts, whether the house is period or modern. A floor that flexes under load can crack tiles and compromise the waterproofing membrane later, so this check happens regardless of the property's age."
+    },
+    {
+      "q": "Can you fit a freestanding bath as well as the wet room area?",
+      "a": "In many cases, yes. The generous plot sizes common in Virginia Water often give us room to reroute a waste run specifically to accommodate a freestanding bath alongside the wet room area, in a way a tighter terraced layout wouldn't allow. We confirm feasibility at the paid survey stage."
+    },
+    {
+      "q": "What's included in the fit-only service?",
+      "a": "You source the sanitaryware, brassware, tiles and furniture; we handle strip-out, first-fix plumbing, floor build-up and fall, tanking, tiling, final plumbing and snagging. Fit-only installs start from £3,500."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation service details" },
+    { "href": "/areas/virginia-water/", "anchor": "Install My Bathroom in Virginia Water" },
+    { "href": "/guides/wet-room-cost-uk/", "anchor": "Wet room cost guide (UK)" },
+    { "href": "/areas/sunningdale/wet-room-installation/", "anchor": "Wet room installation in Sunningdale" },
+    { "href": "/areas/ascot/wet-room-installation/", "anchor": "Wet room installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "wet room installation Virginia Water",
+  "secondaryKeywords": [
+    "wet room fitter Virginia Water",
+    "level access wet room Virginia Water",
+    "fully tanked wet room installer Surrey"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a wet room installation service page targeting Virginia Water, Surrey. Subject and action: a finished level-access wet room floor with a long linear drain set flush into large-format stone-look porcelain tiles, the drain cover in a brushed brass finish. Setting and work-stage: a completed installation in a spacious en-suite within a substantial detached house, shot from low near floor level looking along the drain line toward a full-height window. Composition: low horizontal angle emphasising the gentle floor gradient and the drain's clean line, window and tiled wall visible in soft focus behind. Light and materials: bright natural daylight falling across the stone-look porcelain at a raking angle so grout lines and subtle tile texture read clearly; brushed brass drain cover with a warm, non-mirror sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-wet-room-installation-hero.webp",
+    "heroAlt": "Finished level-access wet room floor with brushed brass linear drain and large-format stone-look porcelain tiles in a Virginia Water home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

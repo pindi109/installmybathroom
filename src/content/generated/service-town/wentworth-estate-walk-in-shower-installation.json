@@ -1,0 +1,76 @@
+{
+  "path": "/areas/wentworth-estate/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Walk-In Shower Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation on Wentworth Estate, Virginia Water. Frameless enclosures, level-access trays, access coordinated with the estate.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. A walk-in shower installation here is a focused, single-area job: a frameless or semi-frameless enclosure with a level-access or low-profile tray, properly tanked and fitted. You source the sanitaryware, enclosure, tiles and brassware; we strip out, first-fix, tile, plumb and snag, coordinating access with the estate and any managing agent so the programme runs without delay at the gate."
+  },
+  "sections": [
+    {
+      "heading": "What a walk-in shower installation covers",
+      "body": "This is not a full wet room conversion or an en-suite built from scratch — it's forming a defined tray area, usually level-access, with the correct fall to waste, tanking the shower area and adjoining upstands properly, tiling, then fitting the frameless or semi-frameless glass enclosure you've chosen. The frameless look only works if the floor and walls underneath the tiling are genuinely level and square; glass has no tolerance for an out-of-true corner the way a framed shower cubicle does, so accurate setting-out before tiling starts is where the job is actually won or lost."
+    },
+    {
+      "heading": "Coordinating access with the estate",
+      "body": "Being a private, gated estate, Wentworth has its own access arrangements, and we coordinate our visits and any material deliveries — including the shower enclosure glass and tray, which both need careful handling — with the estate and the relevant managing agent in advance. This is agreed before the installation starts, so the programme of strip-out, tanking, tiling and fitting runs on schedule rather than being held up by access logistics on the day."
+    },
+    {
+      "heading": "Installation considerations for a frameless enclosure",
+      "body": "We check floor levels and existing waste position at survey, confirm the floor build-up has enough depth for the fall a level-access tray needs without creating a trip hazard at the threshold, and match the fixing system to the glass thickness the enclosure manufacturer specifies. On substantial properties built around Wentworth Club's grounds, we also check wall construction before confirming a layout, since that determines what the tanking and fixing system need to cope with."
+    },
+    {
+      "heading": "How the job runs",
+      "body": "We start with a paid £125 survey covering floor levels, waste position, wall construction and estate access requirements. From there: strip-out of the existing shower or bath, first-fix plumbing changes if the waste is moving, tanking, tiling, then fitting the tray, enclosure and brassware you've sourced, finished with a full snag check. Installs start from £3,500 on a fit-only basis, with access and delivery timing agreed with the estate well before work begins."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle access to a gated estate like Wentworth?",
+      "a": "We coordinate visits and material deliveries, including the shower enclosure glass and tray, with the estate and any managing agent in advance, so the installation programme runs without delays caused by access arrangements on the day."
+    },
+    {
+      "q": "Do you supply the enclosure and tray?",
+      "a": "No, we're fit-only. You choose and buy the enclosure, tray, tiles and brassware, and we handle strip-out, first-fix, tanking, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from Bracknell, which we factor into scheduling alongside the estate's own access requirements."
+    },
+    {
+      "q": "What's the difference between a walk-in shower and a wet room?",
+      "a": "A walk-in shower uses a defined tray, usually level-access, within a frameless or semi-frameless enclosure. A wet room tanks and falls the whole floor with no raised tray — a larger-scope, more disruptive job."
+    },
+    {
+      "q": "How much does a walk-in shower installation cost?",
+      "a": "Installs start from £3,500 on a fit-only basis, covering strip-out, first-fix, tanking, tiling, plumbing and snagging, confirmed after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/virginia-water/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Virginia Water" },
+    { "href": "/areas/ascot/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "walk-in shower installation Wentworth Estate",
+  "secondaryKeywords": [ "frameless shower enclosure Wentworth Estate", "level access shower installer Virginia Water", "walk-in shower fitter Wentworth" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Wentworth Estate walk-in shower installation service page. Subject and action: a finished frameless walk-in shower enclosure with polished nickel fixings and a wide low-profile tray, shown as a completed installation. Setting and work-stage: a high-end principal en-suite with a view towards a large window overlooking greenery, fully finished, no tools or debris visible. Composition: a frontal, slightly elevated composition showing the full width of the tray and glass panel with floor tiling extending into the foreground. Light and materials: cool, crisp daylight suggesting an overcast golf-course morning, pale grey large-format stone-effect tiles, nickel fixings with a polished but not mirrored finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished frameless walk-in shower with polished nickel fixings in a Wentworth Estate principal en-suite",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

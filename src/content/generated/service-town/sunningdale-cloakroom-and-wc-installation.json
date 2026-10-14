@@ -1,0 +1,72 @@
+{
+  "path": "/areas/sunningdale/cloakroom-and-wc-installation/",
+  "family": "Service x town",
+  "service": "cloakroom-and-wc-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Cloakroom & WC Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only cloakroom and downstairs WC installation in Sunningdale. Flexible waste runs, compact fittings, clean finish. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/cloakroom-and-wc-installation/"
+  },
+  "h1": "Cloakroom & WC installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale's name is tied to its golf courses, and the large detached houses around them — Victorian, Edwardian, inter-war and more recent executive-style builds, many on private or gated roads — give us genuine freedom when it comes to routing a waste run for a new downstairs WC. A cloakroom conversion here is rarely held back by the building; it's about choosing the right compact fittings for the space you've identified and fitting them properly."
+  },
+  "sections": [
+    {
+      "heading": "Why waste routing is easier in Sunningdale than in a terraced house",
+      "body": "The fact that governs most of our cloakroom work in Sunningdale is plot size. These are large detached properties, often on private or gated roads, and that generosity of space doesn't just apply to gardens — it applies to what's achievable inside the house too. Moving a waste run a few feet to reach a chosen cloakroom location is rarely constrained by a neighbouring structural wall the way it would be in a semi-detached or terraced property. That means when a client wants a WC fitted into, say, a hallway alcove or a converted store cupboard some distance from the existing soil stack, we have far more scope to make that work cleanly, often by falling a new run through an accessible void rather than having to chase extensively into solid floors."
+    },
+    {
+      "heading": "Fitting a WC and basin into a tight footprint, not a small bathroom",
+      "body": "A cloakroom isn't a scaled-down bathroom — the brief is different. We're putting a single WC and a basin into a space that might be under a metre and a half wide, so every element of the layout is dictated by the footprint. That means a wall-hung pan with a concealed cistern to keep the floor clear, a corner basin or compact wall-mounted basin rather than anything with a pedestal base, and the door hung to swing clear of the pan rather than into it. In Sunningdale's larger period and executive homes, the space we're converting is often generously proportioned for a cloakroom even if it's small relative to the rest of the house, which gives us a bit more latitude on basin size and tiling detail than a genuinely cramped under-stairs void would allow."
+    },
+    {
+      "heading": "The installation process",
+      "body": "We start with a paid survey at £125 to measure the space, trace the existing waste and supply pipework, and agree exactly where the new run will go before any sanitaryware is ordered. On the day, we strip out the existing space, first-fix new pipework and electrics for ventilation, tile and box in the layout, then fit the WC and basin and carry out a full snag before handover. Installs start from £3,500, with the final cost shaped mainly by how far the new waste run has to travel and whether we're working with an existing void or need to chase into solid construction."
+    },
+    {
+      "heading": "Get a quote",
+      "body": "If you're considering a cloakroom in your Sunningdale home, call or WhatsApp 07399 651836 to book the £125 survey. We'll confirm whether your chosen space works and what the waste run involves before you commit to any fittings."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far can a WC waste run travel from the existing stack?",
+      "a": "It depends on fall and route, but Sunningdale's larger detached plots generally give us more flexibility than a terraced property would. We trace the exact route at the £125 survey rather than estimating from a floor plan."
+    },
+    {
+      "q": "Do you supply the sanitaryware?",
+      "a": "No — we're fit-only. You buy the WC, basin, tiles and brassware, and we carry out the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can a macerator avoid the need for a long waste run?",
+      "a": "In some cases, yes, where gravity drainage isn't practical. We'll advise on whether a macerator or a standard gravity-fed WC is the better fit once we've seen the space and the available routes."
+    },
+    {
+      "q": "What's included in the £3,500 starting price?",
+      "a": "Strip-out, first-fix plumbing and electrics, tiling, fitting the WC and basin, and a full snag. The exact price depends on the waste run distance and any structural work needed to create the space."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation service details" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation across Sunningdale" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/ascot/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Ascot" },
+    { "href": "/areas/virginia-water/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "cloakroom WC installation Sunningdale",
+  "secondaryKeywords": [ "downstairs toilet installation Sunningdale", "cloakroom fitter Sunningdale", "WC waste run installation Sunningdale" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Sunningdale cloakroom and WC installation page. Subject and action: a finished compact cloakroom with a wall-hung WC and a slimline wall-mounted basin set against a feature wall, static and dry. Setting and work-stage: fully completed small WC room with cream Venetian plaster-effect walls and a plain pale porcelain floor tile, no visible construction mess. Composition: eye-level shot centred on the basin with the WC partially visible to the side, bright and airy framing. Light and materials: bright midday daylight from an unseen side window casting soft directional shadow, polished chrome tap and flush plate, cream and pale stone tones with a gentle varied sheen. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no running water, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-cloakroom-and-wc-installation-hero.webp",
+    "heroAlt": "Finished cloakroom with wall-hung WC and slimline basin against a cream plaster feature wall in a Sunningdale home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

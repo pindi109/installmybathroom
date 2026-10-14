@@ -1,0 +1,100 @@
+{
+  "path": "/areas/gerrards-cross/large-format-porcelain-tiling/",
+  "family": "Service x town",
+  "service": "large-format-porcelain-tiling",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Large Format Porcelain Tiling in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only large format porcelain tiling for Gerrards Cross bathrooms. Dead-flat substrates, full adhesive coverage, lippage control. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/large-format-porcelain-tiling/"
+  },
+  "h1": "Large format porcelain tiling in Gerrards Cross",
+  "hero": {
+    "intro": "Gerrards Cross is an affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. Large format porcelain tiling rewards careful planning over that kind of distance: slabs, adhesive, levelling systems and tools all need to arrive on-site in the right sequence, because once a slab is cut there's no popping back to a merchant around the corner. We work fit-only — you source the sanitaryware, brassware, tiles and furniture, we strip out, first-fix, tile, plumb and snag, with installs from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Why large format tiling needs more than a flat-looking floor",
+      "body": "A standard mosaic or small-format tile will quietly absorb a few millimetres of unevenness in the substrate because the grout lines break it up visually and structurally. A large slab won't. Any dip, hump or step in the subfloor or stud wall shows up as a shadow line, a rocking corner, or — worst case — a crack once the slab is under load. Before a single tile goes down in a Gerrards Cross bathroom, we check the substrate against a straight edge and level it with self-levelling compound or additional ply as needed, because the finish only looks effortless if the groundwork underneath genuinely is flat."
+    },
+    {
+      "heading": "Planning the fit-only programme around the drive from Bracknell",
+      "body": "Because Gerrards Cross sits around 25 to 30 minutes from our base, we plan each stage of the job as a batch rather than a series of ad-hoc visits: strip-out and first-fix on one visit, tiling on another, plumbing and snagging to follow. You'll have already bought the tiles, sanitaryware and brassware before we arrive, so our focus on-site is sequencing the work so large slabs are only handled once they're cut to their final size — repeated handling is where edges chip and corners crack, and that risk only grows with distance from the yard."
+    },
+    {
+      "heading": "Adhesive coverage and lippage control on large slabs",
+      "body": "Large format porcelain needs a full bed of adhesive — not just a bead around the edge or a few blobs in the middle — because any void underneath becomes a weak point that can crack under the point-load of someone standing on a corner. We back-butter every slab as well as combing the substrate, and we use levelling clips and spacers through the whole floor and wall run so adjacent slab edges sit flush rather than lipping against each other. It's slower than tiling with small-format stock, but it's the only way to get the clean, almost grout-free look that large format porcelain is bought for."
+    },
+    {
+      "heading": "Booking a survey for your Gerrards Cross bathroom",
+      "body": "We start every job with a paid £125 survey, where we measure up, check access, and confirm what the substrate will need before you commit to tiles. Call or WhatsApp 07399 651836 to arrange a survey date for your Gerrards Cross bathroom."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to buy the tiles before you survey the bathroom?",
+      "a": "No — the survey comes first. We'll measure the room, assess the substrate and talk through layout, then you can order tiles, sanitaryware and brassware knowing the real dimensions and any extras the installation will need."
+    },
+    {
+      "q": "What size porcelain slabs can you install in a Gerrards Cross bathroom?",
+      "a": "We regularly install large-format slabs from around 600mm x 1200mm up to bigger formats, as long as access through the property and into the bathroom allows it — we check this at survey stage."
+    },
+    {
+      "q": "Why does large format tiling cost more than standard tiles?",
+      "a": "The substrate preparation takes longer, the adhesive needs full-bed coverage rather than a few dabs, and handling oversized slabs safely usually takes two people rather than one. The material itself can also cost more per square metre than smaller tiles."
+    },
+    {
+      "q": "Can you fit large format porcelain over an old tiled floor?",
+      "a": "Sometimes, if the existing tiles are sound and flat, but more often we'll need to remove the old surface or overboard it, because any flex or unevenness underneath a rigid porcelain slab is likely to cause problems later."
+    },
+    {
+      "q": "Do you supply the tiles as well as fitting them?",
+      "a": "No — we're fit-only. You choose and buy the tiles, sanitaryware and brassware, and we handle the strip-out, first-fix, tiling, plumbing and snagging."
+    }
+  ],
+  "internalLinks": [
+    {
+      "text": "Large format porcelain tiling service",
+      "href": "/services/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Bathroom installation in Gerrards Cross",
+      "href": "/areas/gerrards-cross/"
+    },
+    {
+      "text": "How much does bathroom tiling cost in the UK?",
+      "href": "/guides/bathroom-tiling-cost-uk/"
+    },
+    {
+      "text": "Large format porcelain tiling in Stoke Poges",
+      "href": "/areas/stoke-poges/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Large format porcelain tiling in Windsor",
+      "href": "/areas/windsor/large-format-porcelain-tiling/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "large format porcelain tiling Gerrards Cross",
+  "secondaryKeywords": [
+    "large format tiling Gerrards Cross bathroom",
+    "porcelain slab tiling Gerrards Cross",
+    "fit-only bathroom tiler Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Gerrards Cross large format porcelain tiling service page. Subject and action: a finished Calacatta-marble-look large format porcelain floor meeting a matching wall slab at an internal corner, no people present. Setting and work-stage: a completed high-end bathroom installation, captured in daytime. Composition: a tight three-quarter view of the floor-to-wall junction, showing one continuous slab run with a near-invisible grout line. Light and materials: soft diffused daylight from an unseen side window, veining catching gentle directional light with a natural, slightly matte-to-satin sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf/niche/mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber/gold colour wash, no hanging plants/florals/candles as props, no water shown running, varied/believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-large-format-porcelain-tiling-hero.webp",
+    "heroAlt": "Large format Calacatta-marble-look porcelain floor and wall slab junction in a finished Gerrards Cross bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "path": "/installer/crosswater-stoke-poges/",
+  "family": "Brand × town",
+  "brand": "crosswater",
+  "town": "stoke-poges",
+  "slug": "crosswater-stoke-poges",
+  "seo": {
+    "title": "Crosswater Shower & Brassware Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only Crosswater installation for Stoke Poges homes — concealed valves, digital showers and brassware fitted from £3,500. You supply, we fit.",
+    "canonical": "https://installmybathroom.co.uk/installer/crosswater-stoke-poges/"
+  },
+  "h1": "Crosswater bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens — and that scale of property is exactly where we most often get asked to fit a second en-suite alongside the main bathroom, frequently specified with Crosswater's shower range. A concealed Crosswater valve or digital shower controller needs a stud wall chased out to a specific depth and pipework run to match, and when a second en-suite is being created from scratch off a principal bedroom, that chase depth and pipe run are decisions we're making for the first time rather than working around an existing wall. We fit only across Stoke Poges — you choose and supply the Crosswater products, we strip out, first-fix, tile, plumb and snag the installation, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Crosswater in Stoke Poges",
+      "body": "Crosswater's range covers concealed and digital shower valves, shower kits, deck-mounted and wall-mounted taps and the shower enclosures and screens that match, most of it built to sit flush against or concealed within the wall rather than proud of it. When that range is going into a brand-new second en-suite — a common request in Stoke Poges's larger houses — there's no existing pipework or wall to retrofit around, which is actually an advantage: the valve position, chase depth and pipe run can be built correctly from the outset rather than adapted to what's already there. We install whatever's been specified through your showroom or designer, whether that's a single valve or a full en-suite fit-out."
+    },
+    {
+      "heading": "Getting the wall and pipework right before the tiler arrives",
+      "body": "The performance of a concealed Crosswater valve comes down to decisions made before any tile is laid: the depth of the stud wall it sits in, the route the supply pipework takes to reach it, and whether the water pressure and flow at that point suit the valve. In a new en-suite build within a larger Stoke Poges property, we use the £125 survey to agree the wall construction and pipe route against the specific Crosswater valve being fitted, so the trim plate sits correctly once the room is finished rather than needing adjustment afterwards."
+    },
+    {
+      "heading": "How Stoke Poges's housing stock affects a typical Crosswater installation",
+      "body": "The mix of older period detached homes and more recent executive-style builds around Stoke Poges, many set well back from the road on sizeable gardens, generally gives us more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. In an older period property we still check original floor joists and existing service runs before committing to a valve position; in a newer executive-style build we're more often confirming what's already boxed in behind a previous fit-out. The survey establishes which situation applies before any quote is finalised."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We don't sell Crosswater products — you supply them through your own showroom or designer, and we handle the installation, from £3,500 for a fit-only bathroom or en-suite. If an installed Crosswater shower or tap later needs attention, repair work starts from £200 (we don't take on standalone regrouting), and any emergency call-out has a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you build a second en-suite with Crosswater fittings alongside our main bathroom?",
+      "a": "Yes — it's one of the more common requests we get in Stoke Poges's larger properties. Building the en-suite from scratch means we can set the wall depth and pipe run for a concealed Crosswater valve correctly from the start."
+    },
+    {
+      "q": "What do you check at survey for a Crosswater shower valve?",
+      "a": "We confirm the stud wall depth, the supply pipework route and the water pressure and flow reaching the valve position, all against the specific Crosswater product being fitted."
+    },
+    {
+      "q": "Do larger Stoke Poges properties cost more to fit a Crosswater bathroom in?",
+      "a": "Not automatically — pricing starts from £3,500 for a fit-only installation and depends on the scope of work, not the size of the plot. A larger property can actually simplify some of the structural decisions, such as building a new en-suite wall to the right depth from scratch."
+    },
+    {
+      "q": "Do you sell Crosswater products, or only fit them?",
+      "a": "We fit only. You source the Crosswater range through a showroom, designer or retailer, and we handle the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can you repair an existing Crosswater shower in Stoke Poges?",
+      "a": "Yes, repair work starts from £200, though we don't take on standalone regrouting, and any emergency call-out carries a £500 minimum."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/crosswater/",
+      "anchor": "All the Crosswater products we fit"
+    },
+    {
+      "href": "/areas/stoke-poges/",
+      "anchor": "Bathroom fitting in Stoke Poges"
+    },
+    {
+      "href": "/areas-brands/stoke-poges/",
+      "anchor": "Bathroom brands we fit in Stoke Poges"
+    },
+    {
+      "href": "/services/wet-room-installation/",
+      "anchor": "Wet room installation"
+    },
+    {
+      "href": "/services/tanking-and-waterproofing/",
+      "anchor": "Tanking & waterproofing"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "crosswater"
+    },
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    }
+  ],
+  "primaryKeyword": "Crosswater installer Stoke Poges",
+  "secondaryKeywords": [
+    "Crosswater bathroom installation Stoke Poges",
+    "Crosswater en-suite fitter Stoke Poges",
+    "Crosswater shower valve installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crosswater × Stoke Poges installer page, implying Crosswater's concealed thermostatic range through a close fixture shot within a new en-suite build. Subject and action: a mid shot of a round concealed thermostatic shower valve trim recessed into a tiled wall, with a small offcut of marble tile and a notched trowel left on a nearby ledge, construction-stage rather than fully finished. Setting and work-stage: a newly partitioned en-suite shell within a large Stoke Poges house, soft overcast daylight filtering through a frosted window, walls freshly tiled around the valve but skirting not yet fitted. Composition: straight-on close shot at valve height, trim plate centred slightly left of frame, a visible stud-wall edge and exposed pipe stub just out of focus to the right. Light and materials: Calacatta marble tile with warm veining, brushed bronze-finish valve trim, soft diffuse overcast light with minimal shadow, a faint sheen variance between the marble face and the matte bronze trim. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash, no plants, florals or candles as props, no water shown running, believable minor wear and uneven sheen rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/crosswater-stoke-poges-hero.webp",
+    "heroAlt": "Close shot of a brushed bronze concealed thermostatic shower valve trim set into Calacatta marble tile within a newly built en-suite in Stoke Poges.",
+    "inline": []
+  }
+}

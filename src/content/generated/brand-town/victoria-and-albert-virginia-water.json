@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-virginia-water/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "virginia-water",
+  "slug": "victoria-and-albert-virginia-water",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation in Virginia Water. Freestanding bath specialists, £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-virginia-water/"
+  },
+  "h1": "Victoria + Albert bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Relocating a waste run to accommodate a freestanding bath, or repositioning a shower to improve natural light, rarely runs into a structural wall it can't move around in Virginia Water — the large detached properties here, many close to the Wentworth Estate and set on generous plots with long driveways, give us more flexibility on layout than a terraced property would. That space suits a Victoria + Albert freestanding bath well, though its construction still shapes how we plan the job: cast from a volcanic limestone and resin composite rather than acrylic or steel, it has genuine weight, so floor loading, access and waste position are all planned before the bath leaves the showroom."
+  },
+  "sections": [
+    {
+      "heading": "Why Virginia Water's plots suit freestanding bath installations",
+      "body": "Properties in Virginia Water range from substantial period houses to more recent executive-style builds, many with long driveways and, in a number of cases, gated or private road access. Plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding bath, or repositioning a shower to improve natural light, rarely runs into a structural wall it can't move around. For a Victoria + Albert bath, that flexibility often means positioning it to make the most of a window or the proportions of the room, rather than fitting it around existing pipework."
+    },
+    {
+      "heading": "The weight of a Victoria + Albert bath and how we plan for it",
+      "body": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite, not acrylic or steel, giving them a solid, cool-to-the-touch surface and genuine weight. That's a point that matters as much to how we get the bath into the room as it does to how it sits once installed, so we plan the floor loading, the access route through the house — including any gated or private road access — and the waste position before the bath ever leaves the showroom."
+    },
+    {
+      "heading": "What's included in the fit-only service",
+      "body": "You buy the Victoria + Albert bath, basin, brassware, tiles and furniture directly; we handle the installation side — strip-out of the existing bathroom, first-fix plumbing with the waste positioned to suit the new layout, tiling, final plumbing connections and snagging once the room is finished. On a Virginia Water property with a long driveway or gated access, we also factor delivery logistics into the installation plan at survey stage."
+    },
+    {
+      "heading": "Installation considerations specific to this brand",
+      "body": "Beyond weight and access, a Victoria + Albert bath needs its exact position and waste point confirmed before first-fix plumbing goes in, since its footprint and weight differ from a standard acrylic bath. In a Virginia Water property with more generous room proportions, that usually means more freedom to position the bath centrally or near a window rather than against a single wall dictated by existing pipework."
+    },
+    {
+      "heading": "Arranging a survey in Virginia Water",
+      "body": "The process starts with a £125 survey, during which we assess the room, confirm access arrangements and agree the waste position before any work begins. Installation covers strip-out, first-fix, tiling, plumbing and snagging, from £3,500 depending on scope. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reposition plumbing for a freestanding bath in Virginia Water?",
+      "a": "Often, yes. Plot size in Virginia Water generally gives more flexibility on layout than a terraced property allows, so relocating a waste run or repositioning a shower rarely hits a structural wall it can't move around."
+    },
+    {
+      "q": "Do you supply the Victoria + Albert bath?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag the installation."
+    },
+    {
+      "q": "Why does a Victoria + Albert bath need special planning?",
+      "a": "It's cast from a volcanic limestone and resin composite rather than acrylic or steel, giving it genuine weight. We plan floor loading, access route and waste position before the bath leaves the showroom."
+    },
+    {
+      "q": "Do you handle deliveries to properties with gated or private road access?",
+      "a": "Yes, we factor access arrangements, including gated or private roads, into the installation plan at survey stage."
+    },
+    {
+      "q": "How much does a Victoria + Albert installation cost?",
+      "a": "Installations start from £3,500 depending on scope, with a £125 survey fee to assess the project beforehand."
+    },
+    {
+      "q": "What's involved in the survey?",
+      "a": "We assess the room, the floor structure, the access route through the property and agree the waste position before confirming the installation plan."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "The Victoria + Albert range we install",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation in Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "anchor": "Brands we fit in Virginia Water",
+      "href": "/areas-brands/virginia-water/"
+    },
+    {
+      "anchor": "Freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Strip-out and preparation service",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Virginia Water",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Virginia Water",
+    "freestanding bath installation Virginia Water",
+    "fit-only bathroom installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert installation page targeting Virginia Water. Subject and action: a freestanding stone-composite bath set beneath a tall window, angled to catch the light, with warm walnut timber panelling partially fitted on the adjacent wall mid-installation. Setting and work-stage: a spacious principal bathroom in a substantial detached house, first-fix plumbing complete, timber panelling only partially fixed with a few boards leaning against the wall. Composition: side-on view from across the room, bath in the lower right third, timber panelling filling the left background, window light crossing the floor diagonally. Light and materials: warm late-afternoon daylight through the tall window, rich walnut timber with visible grain, matte bronze waste fitting, natural uneven sheen on the timber surface. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-virginia-water-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation beside walnut timber panelling in a Virginia Water bathroom",
+    "inline": []
+  }
+}

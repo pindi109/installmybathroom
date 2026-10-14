@@ -1,0 +1,75 @@
+{
+  "path": "/areas/ascot/large-format-porcelain-tiling/",
+  "family": "Service × town",
+  "service": "large-format-porcelain-tiling",
+  "town": "ascot",
+  "seo": {
+    "title": "Large Format Porcelain Tiling in Ascot | Install My Bathroom",
+    "description": "Fit-only large format porcelain tiling for Ascot bathrooms. Substrate flatness checked against tile tolerance, lippage controlled row by row. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/large-format-porcelain-tiling/"
+  },
+  "h1": "Large format porcelain tiling in Ascot",
+  "hero": {
+    "intro": "Large format porcelain has one blind spot: it shows every imperfection in the surface beneath it, rather than absorbing it the way a small tile can. In Ascot, that blind spot matters more than in most towns we work in, because the housing stock here spans large detached Victorian and Edwardian houses, substantial inter-war family homes, and a good number of more recent executive-style builds on generous plots, particularly on the roads running out towards Sunningdale and Windsor. A floor or wall that has settled quietly over a century in an older Ascot house behaves very differently under a 1200x600mm slab than a flat concrete base poured for a 2000s executive build two doors down, and the survey is where we establish which situation we're actually dealing with before a single tile goes near the wall."
+  },
+  "sections": [
+    {
+      "heading": "Substrate prep across Ascot's mixed housing stock",
+      "body": "A large slab has nowhere to hide a dip or a hump the way a 300x300mm tile can, so the first job at survey is measuring your floor and walls with a straight edge against the flatness tolerance for the tile size you've chosen. In an older Ascot property — the Victorian and Edwardian houses and the inter-war homes that make up a good share of the town — it's common to find floors and walls that have moved slightly over the decades, through settlement, past patching, or simply age, and those areas get built up with a levelling compound or backer board before tiling starts. In the more recent executive-style builds further out towards Sunningdale and Windsor, the base is more often a flat, modern concrete slab needing only minor correction. Either way, the generous plot sizes common in Ascot generally give us more freedom to adjust a waste run or widen a doorway for level access than a terraced property would allow, but that layout freedom is separate from substrate condition — a bigger bathroom with an uneven floor still needs the same levelling work as a small one."
+    },
+    {
+      "heading": "Full-coverage adhesive and lippage control",
+      "body": "Once the substrate is within tolerance, each slab is back-buttered and bedded with a deformable, high-performance adhesive rated for large and heavy-format tile — full coverage front and back rather than a simple notched bed on the wall or floor alone, because partial coverage leaves voids that can crack under point load later. We use a levelling clip system as each row goes down, checking and adjusting lippage — the height difference between adjacent tile edges — before the adhesive cures rather than after the whole wall or floor is finished, when correction means lifting tiles back out. Movement joints are planned at the room's perimeter, at junctions between different substrates, and at the manufacturer's specified intervals; they're not optional, and grouting straight through one is a recognised cause of a cracked tile at that joint months later."
+    },
+    {
+      "heading": "Handling large slabs and choosing the right finish for wet zones",
+      "body": "Beyond the substrate, the practical challenge is simply moving a 1200x600mm or larger slab without damaging it — it weighs more than its surface area suggests and flexes under its own weight if carried or stored incorrectly, which is a common cause of hairline cracks that only appear once the tile is under load. We carry and store slabs flat or fully supported on edge, always with two people, and cut them on a wet saw suited to the tile's thickness, checking each cut edge for chipping before it's fixed. If your Ascot bathroom includes a shower or wet room area, we'll also talk through slip resistance for that zone specifically — a highly polished large-format porcelain that looks striking on a dry landing floor is rarely the right specification for the base of a shower, and we'll flag it at survey if your chosen tile isn't suited to where you want it."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "We start with the £125 survey, measuring your room and checking substrate flatness against your chosen tile size — deducted from your project cost if you go ahead. Substrate preparation follows wherever flatness falls outside tolerance, then set-out is planned from the room's centre lines so cut tiles land evenly at the edges and joints line through from floor to wall. Slabs are fixed with full-coverage adhesive and levelling clips row by row, then grouted, sealed and inspected for lippage, hollow spots and joint consistency before we hand the room back. Book a survey to get a fixed quote for your specific property, or call to talk through what's realistic for the room you have in mind."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a larger Ascot plot mean less substrate preparation for large format tiling?",
+      "a": "Not automatically. Larger plots generally give us more freedom on layout — relocating a waste run or widening a doorway rarely hits the structural limits a terraced house would present — but substrate flatness depends on the age and construction of the specific house, not its plot size. We check it at survey regardless of how generous the room is."
+    },
+    {
+      "q": "What size of tile counts as large format?",
+      "a": "Generally anything from around 600x600mm upward, including the large-scale slabs now common in luxury bathrooms that can run 1200x600mm or more. Above a certain size, standard tiling tools and techniques stop being adequate — handling, adhesive coverage and substrate flatness all need a different approach."
+    },
+    {
+      "q": "Can you lay large format porcelain over an existing tiled floor in an older Ascot house?",
+      "a": "Occasionally, if the existing tiling is sound, flat and well-bonded, with the right primer and a flexible tile-on-tile adhesive. In most of the older Ascot properties we survey we'd still recommend removing the existing tile, since it lets us check the substrate and any waterproofing underneath — something that can't be done once a new layer is bonded on top."
+    },
+    {
+      "q": "How long does large format tiling take compared with standard tiles?",
+      "a": "Generally a day or two longer per bathroom, because large slabs need two people to handle and place safely, full-coverage back-buttering, and more careful substrate preparation than standard-size tile. We confirm a realistic programme for your Ascot property once the survey has established the substrate's condition."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/large-format-porcelain-tiling/", "anchor": "More on our large format porcelain tiling service" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/guides/bathroom-tiling-cost-uk/", "anchor": "Bathroom tiling cost guide" },
+    { "href": "/areas/gerrards-cross/large-format-porcelain-tiling/", "anchor": "Large format porcelain tiling in Gerrards Cross" },
+    { "href": "/areas/stoke-poges/large-format-porcelain-tiling/", "anchor": "Large format porcelain tiling in Stoke Poges" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "large format porcelain tiling Ascot",
+  "secondaryKeywords": [
+    "large format tiler Ascot",
+    "porcelain slab tiling Ascot bathroom",
+    "big tile bathroom fitter Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Ascot large format porcelain tiling service-area page, a finished result shot. Subject and action: a completed en-suite bathroom with Calacatta-marble-effect large format porcelain slabs running floor to wall with minimal visible joints, a freestanding oval bath positioned beneath a tall sash window, no activity, fully staged and still. Setting and work-stage: a finished principal en-suite in a substantial Edwardian-style Ascot detached house, generous proportions reflecting a large plot, bright midday daylight pouring through the window. Composition: wide shot taken from the doorway, bath and window filling the centre of frame, slab flooring leading the eye from foreground into the room, vanity partially visible at the right edge. Light and materials: bright, slightly uneven midday daylight through the sash window mixing with one brushed brass wall light beside the vanity mirror, Calacatta-effect porcelain with soft grey veining, brushed brass bath filler and towel rail, varied sheen between the matte bath exterior and the polished slab surface. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves, mirrors or floor edges, no catalog-symmetrical twin-basin staging, no uniform gold colour wash across the frame, no plants, florals or candles as styling props, no running water, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-large-format-porcelain-tiling-hero.webp",
+    "heroAlt": "Finished en-suite bathroom in a large Ascot house with Calacatta-effect large format porcelain slabs floor to wall, freestanding bath beneath a sash window, brushed brass fittings.",
+    "inline": []
+  }
+}

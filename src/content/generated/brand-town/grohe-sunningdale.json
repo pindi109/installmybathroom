@@ -1,0 +1,81 @@
+{
+  "path": "/installer/grohe-sunningdale/",
+  "family": "Brand × town",
+  "brand": "grohe",
+  "town": "sunningdale",
+  "slug": "grohe-sunningdale",
+  "seo": {
+    "title": "GROHE Bathroom Installer in Sunningdale | Fit-Only | Install My Bathroom",
+    "description": "GROHE thermostatic valves, brassware, cistern frames and digital showers fitted in Sunningdale, fit-only from £3,500. We confirm access to private and gated roads at survey.",
+    "canonical": "https://installmybathroom.co.uk/installer/grohe-sunningdale/"
+  },
+  "h1": "GROHE bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Most of the mid-range refits we carry out in Sunningdale centre on GROHE's thermostatic shower valves and mixer taps, and the brand's reach here goes further than brassware alone once a Rapid SL cistern frame or a digital shower enters the specification. Sunningdale's identity is tied to the golf courses that share its name, and the large detached properties around them — Victorian, Edwardian, inter-war and more recent executive-style builds, a good number on private or gated roads — tend toward generous plot sizes that give us more flexibility on layout than a terraced or semi-detached property would allow, including moving a waste run to accommodate a freestanding bath without hitting neighbouring structure. GROHE's product range changes considerably depending on which part of it you've specified, which is why we treat a thermostatic valve refit, a Rapid SL frame installation and a digital shower fit as three different jobs rather than one brand-wide routine. We fit only, from £3,500, and where a property sits on a private or gated road, access and delivery timing get confirmed at survey, not worked out on the day."
+  },
+  "sections": [
+    {
+      "heading": "What we install from GROHE in Sunningdale",
+      "body": "Thermostatic shower valves and mixer taps are the GROHE fit we carry out most often in Sunningdale, usually on a mid-range bathroom refit where the layout stays broadly as it is. Rapid SL cistern frames behind wall-hung WCs come up on projects where a concealed cistern and floating pan have been specified, and digital shower and smart water products appear on the more fully specified jobs, often where the freedom of a larger plot has encouraged a more ambitious brief. Which of these applies to your project is confirmed at survey, working from exactly what's been chosen through your showroom or designer."
+    },
+    {
+      "heading": "Installation considerations specific to GROHE",
+      "body": "A thermostatic valve and mixer tap installation depends on the concealed body being set at the correct depth behind the final tile thickness, confirmed before the valve goes in rather than after tiling starts. A Rapid SL cistern frame carries the full weight of the pan and cistern on its own structural fixing rather than the wall tiles, so that fixing has to be right before any boarding or tiling closes over it. A digital shower's control unit needs its wiring route and water supply confirmed at first fix, since relocating it later means cutting into finished tiling. We work through which of these applies to your Sunningdale project before anything is ordered."
+    },
+    {
+      "heading": "How Sunningdale's housing stock and access affect a typical GROHE installation",
+      "body": "The large detached properties around Sunningdale's golf courses — a mix of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds — generally sit on generous plots, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows. Moving a waste run three feet to accommodate a freestanding bath, or repositioning a wall-hung WC to suit a Rapid SL frame's fixing requirements, is rarely constrained by neighbouring structure here. A number of Sunningdale properties sit on private or gated roads, which doesn't change the fitting detail itself but does change how we plan deliveries and site access — confirmed at survey so that materials for a cistern frame or a digital shower's components arrive when the team can actually get them on site, rather than causing a delay on fitting day."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install GROHE products in Sunningdale on a fit-only basis — you source the sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first fix, tiling, plumbing and snagging. Installations start from £3,500, beginning with a fixed-price £125 survey, deducted from your total if you go ahead, where we confirm the specification and any access arrangements your property needs."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which GROHE products do you fit most often in Sunningdale?",
+      "a": "Thermostatic shower valves and mixer taps come up most frequently on mid-range refits. Rapid SL cistern frames and digital shower or smart water products are also fitted regularly, depending on what's been specified."
+    },
+    {
+      "q": "My property is on a private or gated road — does that affect the installation?",
+      "a": "It doesn't change the fitting detail, but it does change delivery and access planning. We confirm gate codes, access windows and delivery timing at the survey, so materials arrive when the team can get them on site."
+    },
+    {
+      "q": "Can a large Sunningdale plot make moving a waste run easier?",
+      "a": "Generally, yes — a generous plot with a detached or semi-detached layout rarely runs into the structural limits a terraced property presents, which gives more flexibility when repositioning a waste run for a freestanding bath or a wall-hung WC."
+    },
+    {
+      "q": "Do you supply GROHE products or only fit them?",
+      "a": "We fit only. You source your GROHE brassware, cistern frame or digital shower products through a showroom or designer, and we handle the strip-out, first fix, tiling, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "What happens at the £125 survey for a GROHE installation?",
+      "a": "We measure the room, confirm waste and water supply, check exactly what's specified from GROHE's range, and establish what your Sunningdale property and its access need before a firm quote is written."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/grohe/", "anchor": "All the GROHE products we fit" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "Bathroom brands we fit in Sunningdale" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing & first fix" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet & concealed cistern installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "GROHE bathroom installer Sunningdale",
+  "secondaryKeywords": [
+    "GROHE installation Sunningdale",
+    "GROHE thermostatic valve fitter Sunningdale",
+    "GROHE Rapid SL cistern Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the GROHE × Sunningdale installer page, implying GROHE's thermostatic valve range through a close finished-detail shot rather than a room view. Subject and action: an unbranded thermostatic shower valve's round concealed trim and separate diverter handle, finished and clean, with a single damp patch of overspray wiped nearby and a grout float left resting on the floor tile below, just after completion of the fit. Setting and work-stage: a finished shower enclosure in a large Sunningdale detached house, tiling fully complete, grout lines crisp, early-morning light. Composition: three-quarter close shot at valve height, trim and diverter filling the left two-thirds of frame, a sliver of frameless glass screen edge visible at the right, grout float and a folded cloth in soft-focus foreground. Light and materials: Calacatta marble-effect large-format tiles, brushed brass-finish trim, cool early-morning daylight from a high window mixing with a warm handheld torch light angled across the metal to pick out its texture unevenly. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber wash across the whole frame, no plants, florals or candles as props, no water shown running from the valve, varied believable sheen between the marble-effect tile and brushed brass with no artificial over-gloss.",
+    "heroOutputPath": "heroes/brand-town/grohe-sunningdale-hero.webp",
+    "heroAlt": "Unbranded GROHE-style brushed brass thermostatic shower valve and diverter freshly fitted against Calacatta marble-effect tiling in a Sunningdale shower enclosure.",
+    "inline": []
+  }
+}

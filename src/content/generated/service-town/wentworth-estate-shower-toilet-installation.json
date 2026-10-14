@@ -1,0 +1,76 @@
+{
+  "path": "/areas/wentworth-estate/shower-toilet-installation/",
+  "family": "Service x town",
+  "service": "shower-toilet-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Shower Toilet Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only shower toilet installation on Wentworth Estate, coordinated with estate and managing-agent access. Dedicated power and water supply to the pan.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/shower-toilet-installation/"
+  },
+  "h1": "Shower toilet installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. An integrated shower-toilet unit needs its own power supply to the pan in addition to its water feed, and on an estate where every visit is coordinated through a gate or a managing agent, planning that supply correctly before work starts matters even more than usual."
+  },
+  "sections": [
+    {
+      "heading": "What a shower toilet installation actually requires",
+      "body": "A shower-toilet unit — heated seat, wash function, typically a warm-air dryer — is effectively a small electrical appliance fixed to the pan, which means a fused connection unit has to be sited outside the bathroom's zoned splash areas, fed by cable routed in during first fix. The water side is separate: an isolated feed off the mains cold supply, sized to the specific model. Both have to be settled before strip-out finishes, because reopening tiled work to add a missed cable run is the kind of delay that's especially costly to absorb when every visit to the property needs to be arranged in advance."
+    },
+    {
+      "heading": "Coordinating access on a gated estate",
+      "body": "You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500, coordinating access with the estate and any managing agent so the programme runs without delay at the gate. For a shower-toilet installation, that coordination extends to making sure survey, strip-out, first-fix and install visits are scheduled with enough notice that estate security and any managing-agent sign-off don't become a bottleneck partway through the job."
+    },
+    {
+      "heading": "Planning the power and water supply at survey",
+      "body": "At the £125 paid survey, we confirm the exact shower-toilet model specified, check its power draw and water pressure requirements, and look at the existing circuits and supply pipework already in the bathroom. On the Estate's larger properties there's typically good scope to route a new electrical supply discreetly, but we still confirm the specifics on site rather than assuming, since every property and every unit model is different."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "Once access and scope are agreed, the sequence is strip-out, first-fix plumbing and the dedicated power supply, tiling, then fitting, connecting and testing the shower-toilet unit, finishing with snagging. Call or WhatsApp 07399 651836 to arrange your survey and we'll coordinate access from there."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you manage access through the estate gate?",
+      "a": "We coordinate survey, strip-out, first-fix and installation visits with the estate and any managing agent in advance, so access is arranged ahead of each visit rather than causing delays on the day."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from our Bracknell base."
+    },
+    {
+      "q": "Do you supply the shower toilet unit itself?",
+      "a": "No — we're fit-only. You purchase the shower-toilet unit, brassware, tiles and furniture, and we carry out strip-out, first-fix, tiling, plumbing, electrical coordination and snagging."
+    },
+    {
+      "q": "Why does the power supply need planning before tiling starts?",
+      "a": "A shower-toilet unit needs a dedicated fused connection positioned correctly outside the bathroom's zoned areas. If that route isn't planned at first fix, adding it later means cutting into finished tiling, which is avoidable with proper survey planning."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation service" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/virginia-water/shower-toilet-installation/", "anchor": "Shower toilet installation in Virginia Water" },
+    { "href": "/areas/ascot/shower-toilet-installation/", "anchor": "Shower toilet installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "shower toilet installation Wentworth Estate",
+  "secondaryKeywords": [
+    "integrated shower toilet fitter Wentworth Estate",
+    "washlet style toilet installer Virginia Water",
+    "gated estate shower toilet installation Surrey"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Wentworth Estate shower-toilet-installation town page on a fit-only bathroom installer's website. Subject and action: a finished wall-hung WC fitted with an integrated shower-toilet seat unit on a concealed frame, no other sanitaryware in frame. Setting and work-stage: a completed bathroom inside a substantial gated-estate house, charcoal micro-cement walls with a contrasting pale stone floor. Composition: tight close-up composition cropped just above and below the pan, shallow depth of field blurring the far wall. Light and materials: diffused, even studio-like light with no strong directional shadow, matte graphite pipework and flush plate, micro-cement finish with a soft, slightly uneven hand-trowelled texture. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-shower-toilet-installation-hero.webp",
+    "heroAlt": "Wall-hung shower toilet unit in a Wentworth Estate bathroom with charcoal micro-cement walls and matte graphite fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

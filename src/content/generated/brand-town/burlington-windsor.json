@@ -1,0 +1,121 @@
+{
+  "path": "/installer/burlington-windsor/",
+  "family": "Brand × town",
+  "brand": "burlington",
+  "town": "windsor",
+  "slug": "burlington-windsor",
+  "seo": {
+    "title": "Burlington Bathrooms Fitted in Windsor | Fit-Only Installation",
+    "description": "We fit Burlington's classic bathroom range in Windsor's period town houses and newer homes alike, fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/burlington-windsor/"
+  },
+  "h1": "Burlington bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly in two: close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases that constrain how much material can move through the building at once; further out, more typical inter-war and post-war family homes with room to manoeuvre. Burlington's range suits the town-house character particularly well, but getting a roll-top bath or a cast cistern frame up a narrow period staircase is a genuinely different job to fitting the same range in a modern house, and we plan the route before anything is delivered. We fit Burlington's pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware across Windsor on a fit-only basis, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Moving Burlington products through a period Windsor house",
+      "body": "A roll-top bath or a cast-iron cistern frame is heavy, and in the Georgian and Victorian town houses close to Windsor's historic centre, a narrow staircase and limited rear access can turn that into the hardest part of the job before any plumbing starts. We plan the delivery and access route at survey stage — whether a bath needs to come in through a different opening, or a cistern frame needs breaking down into its component parts to get it upstairs — rather than discovering a bottleneck on fitting day."
+    },
+    {
+      "heading": "Burlington's classic forms, and where they get specified in Windsor",
+      "body": "The period town houses near the Castle often already have the proportions Burlington's range was built for, while the inter-war and post-war homes further out tend to specify the same range to introduce a traditional character the house wasn't originally designed with. Either way, pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware sit on a modern fixing standard — the bracket behind a wall-hung basin or a high-level cistern, the bearing under a bath's feet — that has to be right regardless of which type of Windsor property it's going into."
+    },
+    {
+      "heading": "Fit-only installation in Windsor",
+      "body": "We don't supply Burlington products ourselves — you source the range through a showroom, retailer or Burlington's own stockists, and we handle the strip-out, first fix, plumbing, tiling and installation, from £3,500, following a £125 survey. For the period properties nearer the centre, that survey also covers the practical question of how the products actually get into the room, which matters as much as the fixing detail once they're there."
+    },
+    {
+      "heading": "Repairs to Burlington fittings in Windsor",
+      "body": "The same access considerations that apply to installing a Burlington piece in a narrow period town house apply to repairing one later — a roll-top bath's waste fitting or a high-level cistern's bracket can usually be worked on in place without the full access and delivery planning a new piece needs. We repair Burlington fittings across Windsor from £200, with emergency call-outs from a £500 minimum. We don't take on standalone regrouting-only visits."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you fit a Burlington roll-top bath in a period Windsor town house?",
+      "a": "Yes, though narrow staircases and limited rear access near the historic centre sometimes mean planning the delivery route — or breaking a piece down to get it upstairs — before the installation itself starts."
+    },
+    {
+      "q": "Does Burlington suit a newer Windsor property as well as a period one?",
+      "a": "Yes. Homeowners in the inter-war and post-war houses further from the centre often specify Burlington's range deliberately, to introduce a traditional character."
+    },
+    {
+      "q": "Do you supply Burlington sanitaryware, or just install it?",
+      "a": "We fit only — you buy the range through a showroom or retailer, and we handle installation from £3,500."
+    },
+    {
+      "q": "What does the survey cover for a Windsor property near the Castle?",
+      "a": "Alongside the usual fixing detail for whichever Burlington pieces you've specified, we check access — staircases, doorways and rear access — since that can be the harder part of the job in a narrow period town house."
+    },
+    {
+      "q": "Is a repair to a Burlington fitting in a period Windsor house more complicated than installing one?",
+      "a": "Usually not — most repairs are worked on in place rather than needing the access planning a full new installation does. Repairs start from £200, with a £500 minimum for an emergency call-out."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/burlington/",
+      "anchor": "The full Burlington range"
+    },
+    {
+      "href": "/areas/windsor/",
+      "anchor": "Bathroom fitting in Windsor"
+    },
+    {
+      "href": "/areas-brands/windsor/",
+      "anchor": "Bathroom brands we fit in Windsor"
+    },
+    {
+      "href": "/services/freestanding-bath-installation/",
+      "anchor": "Freestanding bath installation"
+    },
+    {
+      "href": "/services/cloakroom-and-wc-installation/",
+      "anchor": "Cloakroom and WC installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    },
+    {
+      "file": "brands.json",
+      "id": "burlington"
+    },
+    {
+      "file": "repairs.json",
+      "id": "concealed-cistern-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "wall-hung-toilet-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "leaking-tap-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "bathroom-waste-and-drain-repair"
+    }
+  ],
+  "primaryKeyword": "Burlington bathroom installer Windsor",
+  "secondaryKeywords": [
+    "Burlington roll-top bath installer Windsor",
+    "fit-only Burlington installation Windsor",
+    "Burlington pedestal basin fitting"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Burlington x Windsor installer page, implying the brand's pedestal basin and period brassware in a townhouse setting through a close fixture shot. Subject and action: a three-quarter close shot on a pedestal basin with traditional cross-head taps, basin dry and static, the pedestal's curve visible below the bowl. Setting and work-stage: a finished bathroom in a Georgian-proportioned Windsor town house near the historic centre, early morning, bright low-angle light raking in through an unseen tall sash-style window. Composition: medium-close three-quarter framing on the basin bowl, taps and upper pedestal, Calacatta marble-effect splashback tile visible behind in soft focus, a defined raking shadow from the window crossing the basin. Light and materials: white fireclay basin and pedestal, brushed chrome cross-head taps, Calacatta marble-effect tile, bright low-angle morning daylight creating a sharp, directional raking shadow rather than flat light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied believable sheen on fireclay and marble-effect tile rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/burlington-windsor-hero.webp",
+    "heroAlt": "Three-quarter close shot of a pedestal basin with brushed chrome cross-head taps, raking morning light through a sash window, Windsor town house.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

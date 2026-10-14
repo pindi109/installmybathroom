@@ -1,0 +1,72 @@
+{
+  "path": "/areas/ascot/wet-room-installation/",
+  "family": "Service × town",
+  "service": "wet-room-installation",
+  "town": "ascot",
+  "seo": {
+    "title": "Wet Room Installation in Ascot | Tanked, Level-Access Floors | Install My Bathroom",
+    "description": "Fit-only wet room installation in Ascot. Tanked, level-access floors with a tested fall to drain, suited to Ascot's large detached plots. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/wet-room-installation/"
+  },
+  "h1": "Wet room installation in Ascot",
+  "hero": {
+    "intro": "Ascot grew up alongside its racecourse, and the houses that line the roads towards Sunningdale and Windsor still carry that era's generosity of scale — large detached Victorian and Edwardian properties, substantial inter-war family homes, and a run of more recent executive-style builds, most of them sitting on plots wide enough to give us real choice about where a wet room's drain actually sits. A wet room lives or dies on its fall to drain, and on a smaller or more hemmed-in property that drain position is often dictated by where the waste pipe already runs below the floor. In Ascot, that constraint eases: a generous plot rarely boxes us into a single structural option, so repositioning a waste run or widening a doorway for level access tends to be a conversation about preference rather than a fight against the building. The survey is still where that gets confirmed property by property, but it's a genuinely different starting point from a terraced house a few miles away."
+  },
+  "sections": [
+    {
+      "heading": "What a wet room installation involves",
+      "body": "A wet room starts below the floor, not at the tile. We strip back to the joists, assess how deep they run and how far the floor can realistically drop or build up, then install the drain and waste pipework at the position that gives the cleanest fall — around 1:60 to 1:80 toward the drain, checked with a laser level before anything is screeded. The entire floor and the walls up to shower height are tanked, not just the shower area, and that membrane is flood-tested before a single tile goes down. Large-format porcelain or natural stone is then laid to the fall with lippage checked row by row, since an uneven wet room floor is far more noticeable underfoot than it would be in a conventional bathroom. A glass screen or half-height panel is fitted where specified, along with WC, basin and towel radiator, and the project finishes with a full water test and snagging walkthrough before handover."
+    },
+    {
+      "heading": "Installing a wet room in a typical Ascot property",
+      "body": "The scale of plot common around Ascot — large detached Victorian and Edwardian houses through to newer executive-style builds set well back from the road — generally hands us more structural freedom than a smaller or terraced property would. That shows up most clearly in drain positioning: where a narrow property might force the fall in one fixed direction because the waste run has nowhere else to go, an Ascot plot more often lets us choose the drain position that suits the room layout rather than the other way round. In an older Victorian or Edwardian house we'll still check original joist depth and condition carefully before committing to a floor build-up, since period timber doesn't behave like a modern slab; in a newer executive-style build we're more often confirming what a previous fit-out has boxed in around existing service runs. Either way, the generous footprint typical of Ascot properties usually means a level-access door opening or a repositioned linear drain is achievable without the structural compromises a smaller home would impose."
+    },
+    {
+      "heading": "Booking a wet room survey in Ascot",
+      "body": "Every wet room installation starts with the £125 survey, where we check joist depth, confirm the achievable drain position, and look at the ceiling below if the room sits upstairs — all before any quote is written. From there the process runs through floor build-up and first-fix plumbing, tanking and a flood test, large-format tiling set out from the drain outward, and a final snagging walkthrough with water run across the full floor to confirm nothing pools. We fit only, working from the tiles, screen and sanitaryware you've sourced yourself, and the written scope separates the structural floor cost from the finishing specification so you can see exactly where your budget is going. Book your survey to get a firm quote for a wet room in your Ascot property."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a large Ascot plot make a wet room cheaper to install?",
+      "a": "Not automatically, but it often removes constraints that add cost elsewhere — a generous plot usually gives more freedom over where the drain and waste run sit, which can avoid the more awkward, labour-intensive floor builds that a boxed-in property sometimes needs. The actual price still depends on floor build-up, tanking area and tile format, confirmed at survey."
+    },
+    {
+      "q": "Can an upstairs bathroom in an Ascot house be converted to a wet room?",
+      "a": "Usually, yes. We check joist depth and the ceiling below at survey, and most Ascot houses — whether Victorian, Edwardian or a newer executive-style build — have enough depth to achieve a fall with either a lowered floor section or a slightly raised threshold."
+    },
+    {
+      "q": "Will you check my period Ascot property's original floor joists before starting?",
+      "a": "Yes. Older Victorian and Edwardian joists are assessed for depth and condition at survey before any floor build-up is agreed, since period timber doesn't always behave the same way a modern slab does under a tanked, falling floor."
+    },
+    {
+      "q": "What's included in the wet room installation price?",
+      "a": "Strip-out, floor build-up or lowering, first-fix plumbing, full tanking of floor and walls, large-format tiling to the fall, a flood test, and fitting of the screen, WC, basin and towel radiator you've sourced. Installation starts from £3,500, confirmed in writing after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation service details" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/guides/wet-room-cost-uk/", "anchor": "Wet room cost UK guide" },
+    { "href": "/areas/sunningdale/wet-room-installation/", "anchor": "Wet room installation in Sunningdale" },
+    { "href": "/areas/virginia-water/wet-room-installation/", "anchor": "Wet room installation in Virginia Water" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" },
+    { "file": "services.json", "id": "wet-room-installation" }
+  ],
+  "primaryKeyword": "wet room installation Ascot",
+  "secondaryKeywords": [
+    "wet room fitter Ascot",
+    "wet room conversion Ascot",
+    "tanked wet room Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Ascot wet room installation page, showing a finished result rather than a work-in-progress. Subject and action: a completed wet room with a level, fully tiled floor falling gently toward a central point drain, no step or tray visible anywhere in the room. Setting and work-stage: a large en-suite wet room inside a substantial Edwardian-era Ascot house, finished and styled for everyday use, daytime. Composition: wide shot taken from the open doorway looking across the full room toward a tall sash window, the point drain and floor fall visible in the foreground, a half-height glass panel and walk-in area filling the mid-ground. Light and materials: warm bright midday daylight pouring through a south-facing sash window, Calacatta marble-effect large-format porcelain floor and wall tiles with natural veining, brushed brass shower valve and towel radiator, light falling unevenly across the room with a brighter wash near the window and softer shadow toward the far wall. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror, no catalog-symmetrical staging or twin fixtures, no single uniform gold colour wash across the frame, no plants, florals or candles as styling props, no shower shown running water, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-wet-room-installation-hero.webp",
+    "heroAlt": "Finished wet room with Calacatta marble-effect tiled floor falling to a central point drain and brushed brass fittings, in a large Edwardian-era Ascot house under natural daylight.",
+    "inline": []
+  }
+}

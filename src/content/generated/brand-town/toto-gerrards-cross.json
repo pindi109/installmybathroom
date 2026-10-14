@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-gerrards-cross/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "gerrards-cross",
+  "slug": "toto-gerrards-cross",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation for Gerrards Cross homes. You buy the fixture, we handle strip-out, first-fix, tiling and plumbing. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-gerrards-cross/"
+  },
+  "h1": "TOTO bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. TOTO's Washlet and Neorest ranges are some of the most technically involved products we fit, because the electronics sit inside the fixture itself rather than being bolted on afterwards — a Washlet seat adds to a conventional pan, while a Neorest is a single integrated unit replacing the pan, cistern and seat entirely. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Two very different products, two different first-fixes",
+      "body": "The distinction between a Washlet and a Neorest matters before we lift a single tool. A Washlet seat sits on an existing or new conventional pan, so the waste run and cistern arrangement stay largely standard, with the key addition being a power supply routed discreetly to the seat. A Neorest removes that separation entirely — pan, cistern and seat become one sealed unit, which means the waste connection, supply pipework and electrical feed all have to be agreed and roughed in before any tiling or boxing-in happens. Telling us which one you've ordered, or are planning to order, at survey stage is the single biggest factor in how we set out the room."
+    },
+    {
+      "heading": "Fitting TOTO for Gerrards Cross homes",
+      "body": "Gerrards Cross sits far enough from central London and close enough to Beaconsfield and Chalfont St Peter that many of the properties we work on are larger family homes with principal suites and guest bathrooms that benefit from the quiet, hygienic finish a Washlet or Neorest gives. We fit TOTO wall-hung and close-coupled pans, Washlet seats, full Neorest units, and matching basins and brassware where specified, as part of a complete strip-out and re-fit — not as an isolated swap-in."
+    },
+    {
+      "heading": "What fit-only means for a TOTO installation",
+      "body": "Fit-only means the sanitaryware, brassware, tiles and furniture are yours to choose and buy — directly from TOTO or an approved retailer in this case — and our job is everything that turns those boxes into a working bathroom. For a TOTO installation that covers removing the old suite, first-fixing the plumbing and the extra electrical supply a Washlet or Neorest needs, tiling around the new service positions, connecting and testing the unit, and snagging before we hand the room back. Getting the electrical and structural first-fix right matters more here than with a standard ceramic WC, precisely because the electronics are built into the fixture."
+    },
+    {
+      "heading": "Survey, install, price",
+      "body": "We start every TOTO project in Gerrards Cross with a paid survey at £125. That's where we confirm the waste and water runs, check what power is realistically available near the WC position, and establish whether you're fitting a Washlet retrofit or a full Neorest replacement — because those two scenarios need different groundwork. The install itself starts from £3,500 and is quoted once we know the scope, after which we strip out, first-fix, tile, plumb, connect the unit and snag before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far is Gerrards Cross from your Bracknell base?",
+      "a": "Around 25 to 30 minutes by road, which is a normal travel distance for our fit-only projects across this part of Buckinghamshire and Berkshire."
+    },
+    {
+      "q": "Do you supply the TOTO Washlet or Neorest unit?",
+      "a": "No — we're fit-only. You buy the Washlet, Neorest, basin or brassware directly from TOTO or an approved retailer, and we handle the strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "What's the difference between a Washlet and a Neorest for first-fix purposes?",
+      "a": "A Washlet is an electronic seat added to a conventional pan, so existing waste and cistern arrangements largely stay as they are with a power run added. A Neorest replaces the pan, cistern and seat as one integrated unit, so waste, supply and electrics all need planning before tiling starts."
+    },
+    {
+      "q": "How much does a TOTO installation cost in Gerrards Cross?",
+      "a": "Fit-only installations start from £3,500, with the final price depending on whether it's a Washlet retrofit or a full Neorest replacement with additional first-fix work. We confirm the figure after the £125 survey."
+    },
+    {
+      "q": "Can you fit a Neorest into an existing bathroom layout?",
+      "a": "Usually, yes, though it needs more planning than a Washlet retrofit because the waste, water and electrical feed all have to be positioned for the integrated unit before tiling. We assess this at survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers in Gerrards Cross",
+      "href": "/areas/gerrards-cross/"
+    },
+    {
+      "anchor": "TOTO installations in Gerrards Cross",
+      "href": "/areas-brands/gerrards-cross/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Gerrards Cross",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Gerrards Cross",
+    "TOTO Washlet installation Buckinghamshire",
+    "fit-only bathroom installer Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page conveying careful, considered fitting of an integrated shower toilet. Subject and action: a wall-hung Washlet-compatible WC with the seat unit positioned beside it ready for connection, cables neatly coiled awaiting final fix, no branding visible. Setting and work-stage: a mid-sized family en-suite in a commuter-village home, first-fix nearly complete with fresh plaster visible behind partially laid travertine tiling. Composition: straight-on elevation shot at mid-height, fixture centred but asymmetric props (tools, a single tile spacer) breaking perfect symmetry. Light and materials: travertine tiling in warm stone tones, brushed bronze pipework and shower fittings, soft overcast daylight giving even, low-contrast illumination. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-gerrards-cross-hero.webp",
+    "heroAlt": "Wall-hung TOTO-style Washlet WC being first-fixed in a travertine bathroom with brushed bronze fittings in a Gerrards Cross home",
+    "inline": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "path": "/areas/windsor/steam-shower-and-steam-room-installation/",
+  "family": "Service x town",
+  "service": "steam-shower-and-steam-room-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Steam Shower & Steam Room Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only steam shower and steam room installation in Windsor. Sealed enclosures, generator siting, ventilation and electrics for town houses and family homes. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/steam-shower-and-steam-room-installation/"
+  },
+  "h1": "Steam shower & steam room installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly in two. Close to the Castle and the historic centre, there's a concentration of Georgian and Victorian town houses on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, it's more typically inter-war and post-war family homes with some newer developments. A steam shower or steam room installation needs a generator, specific ventilation and sealed enclosure construction, and which of Windsor's two housing types you're in changes how straightforward each of those is to fit in."
+  },
+  "sections": [
+    {
+      "heading": "What a steam enclosure needs that a shower doesn't",
+      "body": "A steam shower or steam room has to hold saturated steam inside a fully sealed cubicle. Every panel junction, the ceiling and the door need a close to airtight seal, the enclosure is fully tanked on every internal surface including the ceiling, and the ceiling is usually given a slight slope so condensation runs down the walls rather than dripping. The generator producing the steam sits outside the enclosure within a defined pipe-run distance, wired to its own electrical circuit and connected to a water feed and drain, with a separate control panel mounted near the door. This all has to be designed into the first fix — it can't be retrofitted into a finished shower once it's tiled and closed up."
+    },
+    {
+      "heading": "Town houses near the Castle: material access and generator siting",
+      "body": "On the Georgian and Victorian town houses near Windsor's historic centre, narrow plots, limited rear access and period staircases change the practical planning for a steam job. Moving a bulky generator unit, enclosure glass and tiling materials through a narrow stairwell has to be sequenced carefully, sometimes in smaller loads than a wider modern property would need. Generator siting is usually more constrained too — there's often no loft space directly above a town house bathroom and less depth for a dedicated plant cupboard, so the generator is more likely to sit in a compact under-stair or built-in cupboard close to the enclosure, kept within a short pipe run rather than relying on spare space elsewhere in the house."
+    },
+    {
+      "heading": "Family homes further out: more straightforward options",
+      "body": "On the inter-war, post-war and newer-development family homes further from the centre, access for materials is generally more straightforward, and there's usually a wider choice of generator locations — an airing cupboard, loft space above the enclosure, or a plant cupboard in an adjoining room. The trade-off is that these properties are, on average, a more standard build than the larger plots found elsewhere in our coverage area, so the planning focus shifts to making the most of the bathroom's existing footprint rather than relocating waste runs by any great distance."
+    },
+    {
+      "heading": "Ventilation, electrics and how the job runs",
+      "body": "A steam enclosure produces far more sustained humidity than a standard shower, so a dedicated extract point near the top of the enclosure is ducted to an external wall or roof void, and the generator runs on its own certified electrical circuit, separate from lighting and shaver-point wiring. We start with a paid survey to confirm generator siting, pipe-run length, material access through the property and extraction routing, then price the job from that. Strip-out and first fix follow, then full tanking and tiling, with the generator and controls plumbed, wired and commissioned last, including a full steam cycle test and seal check. You source the generator, controls, enclosure glass and tiles; we handle strip-out through to commissioning, from £3,500. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you fit a steam generator in a town house near Windsor Castle with a narrow staircase?",
+      "a": "Yes, but it takes more careful planning around how the generator, enclosure glass and tiles are moved through the building, and generator siting is usually closer to the enclosure — often a compact under-stair or built-in cupboard rather than a loft space. We assess access at survey."
+    },
+    {
+      "q": "Where does the generator go if there's no loft space above the bathroom?",
+      "a": "In narrower town houses we typically site it in a built-in cupboard close to the enclosure, kept within the manufacturer's pipe-run distance. On family homes further from the centre a loft space or airing cupboard is usually available instead."
+    },
+    {
+      "q": "Does a period Georgian or Victorian house need extra work for a sealed steam enclosure?",
+      "a": "Often some additional care around existing floor joists, ceiling heights and wall construction, since older town houses weren't built with a fully sealed wet room in mind. We check this at survey before pricing the job."
+    },
+    {
+      "q": "Is installation faster in the newer developments further from the centre?",
+      "a": "Material access is generally more straightforward and generator siting options are usually wider, but the core steam-specific work — sealing, tanking, ventilation and electrics — takes the same careful sequencing regardless of which part of Windsor you're in."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower and steam room installation service" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation in Windsor" },
+    { "href": "/bathroom-cost/windsor/", "anchor": "Bathroom installation costs in Windsor" },
+    { "href": "/areas/ascot/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Ascot" },
+    { "href": "/areas/sunningdale/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "steam shower installation Windsor",
+  "secondaryKeywords": [ "steam room installation Windsor", "steam shower fitter Windsor", "bathroom steam enclosure Windsor town house" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a steam shower and steam room installation page targeting Windsor homeowners. Subject and action: a finished, fully sealed steam shower enclosure, dry-styled and unoccupied, built into a compact bathroom space suggesting a period town house conversion. Setting and work-stage: a newly completed bathroom with a narrow footprint, generator control panel mounted on the wall just outside a built-in cupboard beside the enclosure. Composition: tight vertical composition emphasising the height and narrowness of the space around the enclosure. Light and materials: pale grey herringbone-pattern porcelain tiles, a polished nickel enclosure frame and door handle, soft natural light through a small sash window, believable varied sheen on the tile surface rather than uniform gloss. Constraints: no people, no text, no logos, no visible brand names on any fixture, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water or steam shown actively running.",
+    "heroOutputPath": "heroes/service-town/windsor-steam-shower-and-steam-room-installation-hero.webp",
+    "heroAlt": "Finished sealed steam shower enclosure with polished nickel frame and herringbone porcelain tiling in a narrow Windsor town house bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

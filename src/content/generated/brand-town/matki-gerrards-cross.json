@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-gerrards-cross/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "gerrards-cross",
+  "slug": "matki-gerrards-cross",
+  "seo": {
+    "title": "Matki Bathroom Installer in Gerrards Cross | Fit-Only",
+    "description": "Matki frameless shower enclosure and screen installation in Gerrards Cross, fit-only from £3,500. Accurate wall fixing and tiling sequencing before the glass arrives.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-gerrards-cross/"
+  },
+  "h1": "Matki bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Getting a Matki shower screen from a Bracknell-area supplier to a bathroom in Gerrards Cross is a twenty-five to thirty minute drive, and once a panel of that size has been cut to the exact measurements of an opening, there's no adjusting it on site if the opening turns out to be wrong. That's the detail that matters most with Matki: its enclosures and screens are built to a minimal, largely frameless aesthetic, with very little trim left to hide an inaccurate opening or an out-of-true wall, so the glass does the talking and the measuring has to be right before the order goes in, not after. We install luxury, fit-only bathrooms for homeowners across Gerrards Cross and the surrounding Buckinghamshire commuter villages — you source the Matki enclosure, sanitaryware and tiles; we strip out, first-fix, tile, fix the glass and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki in Gerrards Cross",
+      "body": "Matki is typically specified in Gerrards Cross for shower enclosures and screens designed around a clean, largely frameless run of glass, often as the centrepiece of an en-suite or family bathroom refit. The appeal is the minimal hardware — but that same minimalism means there's no deep frame to hide a mistake in the opening, the tray level or the tiling dimension beneath it. We work from the specification you've chosen, confirm exactly how the enclosure is configured and what hardware finish it uses, and build the strip-out, tiling and fixing sequence around getting the substrate correct, since the glass itself arrives pre-cut and fixed."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "Because a Matki panel is ordered to size and transported to site already cut, the wall fixing detail has to be settled before that panel leaves the supplier — there's no trimming a frameless screen down on site the way you might with a boxed, heavily-framed alternative. We measure the opening against the finished tiling plan, not the bare wall, confirm the shower tray will sit level, and check that the wall substrate at the exact hinge or channel fixing points is sound and correctly prepared. Get any of that wrong and the result isn't a quick fix on fitting day — it's a re-ordered panel and a delay, which is exactly what getting the sequence right at survey avoids."
+    },
+    {
+      "heading": "How Gerrards Cross affects a typical Matki installation",
+      "body": "Gerrards Cross sits far enough from our Bracknell base that scheduling a Matki fit means planning the full sequence in advance — strip-out, first fix, tiling, and the glass fixing itself — so that the pre-cut enclosure arrives on site exactly when the substrate is ready for it, rather than sitting around or being ordered before the opening is confirmed. As a commuter village, a lot of the properties we work on here have been extended or refitted over time rather than built from scratch, which means we're often confirming what an existing wall or floor build-up actually is before deciding where a Matki channel fixing can land, rather than assuming a standard stud or masonry detail applies."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki enclosures and screens on a fit-only basis — you choose and supply the glass, hardware finish, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, wall preparation, glass fixing and snagging. Installations across Gerrards Cross start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we measure the opening and confirm what your property's walls need before the enclosure is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you fit a Matki enclosure that's already been ordered before I book a survey?",
+      "a": "We'd recommend the survey first. Because a Matki panel is cut to size before it arrives, we need to confirm the opening, tray level and wall fixing points before the order is placed, so it's fitted correctly first time."
+    },
+    {
+      "q": "Do you supply Matki products, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling and glass installation, from £3,500."
+    },
+    {
+      "q": "How far is Gerrards Cross from your base, and does that affect scheduling?",
+      "a": "It's around 25 to 30 minutes from our Bracknell base. We plan the full fitting sequence, including when the pre-cut Matki panel should arrive, so it's ready for site exactly when the substrate is ready for it."
+    },
+    {
+      "q": "My Gerrards Cross property has been extended over the years — does that complicate a Matki fit?",
+      "a": "It can, which is why we confirm the actual wall and floor build-up at survey rather than assuming a standard detail. Extended or refitted properties sometimes have mixed stud and masonry construction behind the final finish."
+    },
+    {
+      "q": "What happens if the wall isn't true before a Matki screen is fitted?",
+      "a": "Because there's very little trim on a Matki enclosure to hide an out-of-true wall, we correct the substrate at first fix stage, before tiling and before the panel is ordered, so the finished glass line sits correctly."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom fitting in Gerrards Cross" },
+    { "href": "/areas-brands/gerrards-cross/", "anchor": "Bathroom brands we fit in Gerrards Cross" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "gerrards-cross" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Gerrards Cross",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Gerrards Cross",
+    "Matki frameless screen fitter Buckinghamshire",
+    "fit-only Matki installer Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Gerrards Cross installer page, implying Matki's frameless enclosure range through a close product detail shot rather than a full bathroom view. Subject and action: a close three-quarter view of an unbranded frameless glass screen's hinge plate being offered up to a prepared wall bracket, the hinge held just off the wall mid-alignment, no fixing complete yet. Setting and work-stage: a part-finished family bathroom in a Gerrards Cross house, honed limestone tiling freshly set around the fixing point, daytime. Composition: tight three-quarter angle at hinge height, the glass edge and hinge plate filling the centre of frame, a run of newly tiled wall and the edge of a shower tray receding into soft focus on the right, a hinge-spacing jig resting on the tray in the foreground. Light and materials: honed limestone tiling in a warm grey tone with subtle natural veining, matte black hinge and fixing hardware, soft overcast daylight from an unseen window producing even but not flat illumination, with a faint secondary shadow from a single work lamp positioned low and to the side. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the limestone and hardware with slight visible grout haze rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-gerrards-cross-hero.webp",
+    "heroAlt": "Close three-quarter shot of a frameless glass screen's matte black hinge plate being aligned to a prepared wall bracket against freshly tiled honed limestone in a Gerrards Cross bathroom.",
+    "inline": []
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "path": "/installer/kohler-ascot/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "ascot",
+  "slug": "kohler-ascot",
+  "seo": {
+    "title": "Kohler Bathroom Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only Kohler bathroom installation in Ascot. Cast-iron baths, sanitaryware and brassware fitted by a 30-year specialist. Survey £125, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-ascot/"
+  },
+  "h1": "Kohler bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's identity has been built around its racecourse for well over a century, and the large Victorian, Edwardian and executive-style houses that have grown up around it generally sit on generous plots with room to spare. Kohler's range spans cast-iron enamel baths, vitreous china sanitaryware and contemporary brassware in one collection, which on a single project can mean three quite different fitting disciplines running side by side. We plan for whichever combination you're specifying rather than a single generic approach, and in Ascot that planning is usually made easier by the scale of the property itself."
+  },
+  "sections": [
+    {
+      "heading": "Fitting a Kohler cast-iron bath on a generous Ascot plot",
+      "body": "A cast-iron enamel bath is a heavy, rigid item that has to be moved through the house in one piece, placed on floor joists capable of taking its loaded weight, and positioned so the waste and overflow line up before the enamel surface goes anywhere near a wall. On the large detached Victorian, Edwardian and inter-war houses common around Ascot, and on the more recent executive-style builds on the roads running towards Sunningdale and Windsor, that scale of plot generally gives us far more freedom on layout than a smaller property allows. Relocating a waste run to suit where the bath actually sits, or widening a doorway for level access, rarely runs into the structural limits a terraced house would present."
+    },
+    {
+      "heading": "Wall-hung sanitaryware and brassware from the same range",
+      "body": "A Kohler wall-hung WC is fixed to a concealed cistern frame and needs the frame positioned, levelled and tied into the stud or masonry before any tiling starts, so the fixing points for the pan bracket land exactly where the finished wall will be. Brassware from the same collection, whether that's a shower valve or a digital tap, needs its own pressure and flow checks against your incoming supply before it's committed to the wall. Specifying sanitaryware and brassware from one range doesn't mean the first-fix work is the same job twice; we treat the structural fixing and the pressure testing as separate disciplines within the same visit."
+    },
+    {
+      "heading": "Why Ascot's larger plots change what's possible",
+      "body": "Houses around Ascot tend to be set further back and built wider than equivalent properties in more built-up towns, partly a legacy of the wealth that's grown up alongside the racecourse over the decades. That extra space at floor level and in the loft or ceiling void above means we're less often forced to compromise a layout because a soil stack or load-bearing wall is in the way. It's one of the reasons a full re-plan — moving the bath to the far wall to make way for a double vanity, for instance — is more often achievable here than in a smaller home."
+    },
+    {
+      "heading": "The fit-only process from survey to snagging",
+      "body": "We start with a paid survey at £125, where we measure the room, check the existing supply, waste and electrics, and confirm what the Kohler products you've chosen will need in terms of structural fixing, weight-bearing and pressure. You buy the sanitaryware, brassware, tiles and furniture yourself; we handle the strip-out, first-fix plumbing and electrics, tiling, final-fix plumbing and snagging. Installs start from £3,500, and the price reflects the quality of the work, not a figure set against what anyone else in the area might charge."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you install a Kohler cast-iron bath in an upstairs bathroom in Ascot?",
+      "a": "Yes, in most cases. We check floor joist capacity and the access route — stairs, landings, door widths — at survey stage, since a cast-iron bath is considerably heavier than an acrylic or steel equivalent and needs to be planned for specifically."
+    },
+    {
+      "q": "Do you supply the Kohler sanitaryware and brassware, or do we?",
+      "a": "We're fit-only, so you source the Kohler products — bath, sanitaryware, brassware, tiles, furniture — and we handle the installation: strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Does a larger Ascot plot actually make a difference to the installation?",
+      "a": "It can. Larger, more generously built properties around Ascot often give us more freedom to move a waste run or widen a doorway for level access without hitting the structural limits that a smaller, terraced property would present."
+    },
+    {
+      "q": "How much does a Kohler bathroom installation cost in Ascot?",
+      "a": "Installations start from £3,500 for fit-only work, after a £125 paid survey. The final price depends on the scope — strip-out, first-fix, tiling, plumbing and snagging — and the specifics of the Kohler products you've chosen."
+    },
+    {
+      "q": "Do you also carry out repairs to existing Kohler bathrooms in Ascot?",
+      "a": "We take on repair work in high-end homes, with a minimum charge of £200 and a minimum of £500 for emergency call-outs. We don't offer regrouting as a standalone service."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "More about Kohler bathroom products" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom installation across Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Bathroom brands we fit in Ascot" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding and cast-iron bath installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "Kohler installation Ascot",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Ascot",
+    "Kohler cast-iron bath installation Ascot",
+    "fit-only bathroom installer Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Ascot. Subject and action: a freestanding cast-iron enamel bath being lowered onto timber floor joists by a visible mechanical lifting strap, mid-placement, no person in frame. Setting and work-stage: a part-finished large bathroom in a detached period-style house, first-fix plumbing pipework exposed at floor level, tiling not yet started on two of four walls. Composition: wide-angle three-quarter view from a low corner, bath occupies the left third, exposed joists and pipework fill the right two-thirds. Light and materials: Calacatta marble tile stacked against the far wall waiting to be fitted, brushed brass pipework fittings, soft overcast daylight through a large sash window, natural shadow falloff. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-ascot-hero.webp",
+    "heroAlt": "Cast-iron bath being fitted during a Kohler bathroom installation in Ascot, with Calacatta marble tiles waiting to be laid",
+    "inline": []
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-virginia-water/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "virginia-water",
+  "slug": "axor-virginia-water",
+  "seo": {
+    "title": "AXOR Bathroom Installer in Virginia Water | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation in Virginia Water, fit-only from £3,500. Consistent engineering and careful finish handling for new builds and period refurbishments.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-virginia-water/"
+  },
+  "h1": "AXOR bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's housing ranges from substantial period properties to more recent executive-style builds, many close to the Wentworth Estate and set on generous plots with long driveways and, in a number of cases, gated or private road access — and a good share of the AXOR work we do here is refurbishment rather than a brand-new bathroom, replacing or updating brassware in a period property that's been through more than one previous renovation. That matters with AXOR specifically, because hansgrohe's engineering behind the brand has stayed consistent across generations of the Starck, Citterio and Montreux ranges, which means a cartridge or valve component from an older installation can often still be matched, provided the exact model and generation are identified correctly before any work starts."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR in Virginia Water",
+      "body": "AXOR is hansgrohe's design-led brassware brand, and the precision engineering underneath every collaboration — Starck, Citterio, Montreux among them — is built to be serviced and maintained rather than replaced wholesale at the first sign of wear. In Virginia Water, we install AXOR basin mixers, walk-in shower valves, bath fillers and the matching trim packages on a fit-only basis, whether that's for a brand-new bathroom in one of the area's executive-style builds or a refurbishment of an existing installation in a period property."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "Where an existing AXOR installation is being updated rather than replaced outright, identifying the exact range, model and generation before ordering anything is the first job — AXOR's valve technology has stayed engineering-consistent over time, but the trim and cartridge fixings aren't universally interchangeable between generations, so getting this wrong means a mismatched part turning up on fitting day. The finish is the other consideration that doesn't change regardless of whether it's new work or a refurbishment: a brushed or matte black AXOR trim shows every scuff mark from careless handling in a way chrome never does, so we keep trims and handsets boxed until the room is genuinely ready, in a careful period-property refurbishment just as much as in a new executive-style build."
+    },
+    {
+      "heading": "How Virginia Water's housing stock affects a typical AXOR installation",
+      "body": "Virginia Water's generous plots and long driveways generally give us more flexibility on layout than a terraced property allows — relocating a waste run to accommodate a freestanding bath, or repositioning a shower for better light, rarely runs into a structural wall it can't move around. That flexibility matters just as much for a refurbishment as for new work: in an older period property we're often working around existing pipe runs from a previous AXOR installation, and the generous floor and wall void space typical of these larger plots usually makes rerouting straightforward rather than a structural constraint."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Virginia Water: you source your AXOR brassware, whether that's a new specification or a like-for-like replacement part for an existing installation, and we handle the strip-out, first fix, plumbing and final fit, from £3,500. Every project starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the exact AXOR range, generation and valve type before anything is ordered. With 30 years' experience, we know how to identify an older AXOR installation correctly and avoid a mismatched part turning up mid-job. If something needs attention after the fact, repairs start from £200, with a £500 minimum for an emergency call-out and no standalone regrouting offered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you replace brassware in an existing AXOR installation?",
+      "a": "Yes. Because hansgrohe's engineering behind AXOR has stayed consistent across generations, a cartridge or valve component can often be matched, provided the exact range and generation are identified correctly before ordering."
+    },
+    {
+      "q": "Do you work on properties with gated or private road access in Virginia Water?",
+      "a": "Yes, we regularly do. We coordinate access as part of booking the survey and the installation programme."
+    },
+    {
+      "q": "Will a brushed AXOR finish show marks during a period-property refurbishment?",
+      "a": "The same handling rules apply regardless of whether it's new work or a refurbishment — a brushed or matte black trim shows scuffs easily, so we fit the visible trim and handset last."
+    },
+    {
+      "q": "Can an AXOR valve be repositioned for a freestanding bath in an older Virginia Water property?",
+      "a": "Often, yes. Virginia Water's generous plots and long driveways generally give us more flexibility on layout than a terraced property allows, which usually makes relocating a waste run or valve straightforward."
+    },
+    {
+      "q": "Do I need to supply the AXOR brassware myself?",
+      "a": "Yes — we work fit-only, so you source your AXOR products through a showroom, retailer or designer, and we handle the installation or refurbishment."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom fitting in Virginia Water" },
+    { "href": "/areas-brands/virginia-water/", "anchor": "Bathroom brands we fit in Virginia Water" },
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "virginia-water" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Virginia Water",
+  "secondaryKeywords": [
+    "AXOR installation Virginia Water",
+    "AXOR refurbishment Virginia Water",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Virginia Water installer page, implying AXOR's basin brassware through a close vanity fixture detail rather than a full room shot. Subject and action: a close three-quarter shot of a single-lever basin mixer tap on a vanity top, static, a faint water spot on the spout consistent with a recent test run. Setting and work-stage: a finished bathroom vanity in a Virginia Water period property recently refurbished, daytime. Composition: close three-quarter angle on the tap and basin edge, travertine vanity top filling the foreground, a softly blurred walk-in shower glass panel visible at the edge of frame. Light and materials: travertine stone vanity top, brushed chrome brassware, soft overcast daylight from an unseen window giving even, gently diffused light rather than flat ambient glow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical double-basin staging, no uniform colour wash across the frame, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the travertine with minor realistic wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-virginia-water-hero.webp",
+    "heroAlt": "Close-up of a brushed chrome single-lever basin mixer tap on a travertine vanity top in a refurbished Virginia Water bathroom, soft daylight.",
+    "inline": []
+  }
+}

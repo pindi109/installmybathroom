@@ -1,0 +1,114 @@
+{
+  "path": "/installer/geberit-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "geberit",
+  "town": "wentworth-estate",
+  "slug": "geberit-wentworth-estate",
+  "seo": {
+    "title": "Geberit Bathroom Installation on Wentworth Estate | Fit-Only | Install My Bathroom",
+    "description": "Geberit concealed cisterns and AquaClean shower toilets fitted on Wentworth Estate, with access coordinated through the estate. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/geberit-wentworth-estate/"
+  },
+  "h1": "Geberit bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Wentworth Estate is private and gated, and most of our Geberit installations there start with coordinating access through the estate's managing agent before any work begins, so the programme runs without delay at the gate once we arrive to fit a concealed cistern, wall-hung WC or AquaClean shower toilet."
+  },
+  "sections": [
+    {
+      "heading": "What we install on the estate",
+      "body": "Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the sanitaryware brand we fit most often on Wentworth Estate, in homes built around Wentworth Club and its golf courses, home of the BMW PGA Championship. You source the product and we handle the strip-out, first fix, tiling, plumbing and snagging, from £3,500."
+    },
+    {
+      "heading": "Access first, fixing second",
+      "body": "Before the installation detail even comes into play, working on Wentworth Estate means coordinating access with the estate and any managing agent so the programme runs without delay at the gate — that scheduling discipline is part of every job here, arranged around 15 to 20 minutes from our Bracknell base. Once we're on site, the Geberit fitting itself follows the same process as anywhere else."
+    },
+    {
+      "heading": "Why the carrier frame still comes first",
+      "body": "Correct frame selection and structural fixing matter more with Geberit than with most brands, because the cistern and pan weight sit entirely on the carrier frame, not the wall tiles. On an estate property, that's confirmed at survey — alongside the access arrangements — so there's no conflict between site logistics and getting the fixing detail right before any wall closes up."
+    },
+    {
+      "heading": "Booking a survey",
+      "body": "Every project starts with a £125 survey, where we confirm both the frame and fixing detail for your Geberit product and the access arrangements for the estate. Installations start from £3,500, we've been fitting bathrooms for 30 years, and repairs on an existing installation start from £200."
+    },
+    {
+      "heading": "Fit-only on a managed estate",
+      "body": "Fit-only still means the same thing on Wentworth Estate as anywhere else we work: you choose and supply the Geberit concealed cistern, wall-hung WC or AquaClean shower toilet, through whichever showroom or retailer suits you, and we handle the strip-out, first fix, tiling, plumbing and snagging. What changes is the extra layer of planning around the estate's own rules for contractors and deliveries, which we build into the programme from the first conversation rather than discovering once work is already under way."
+    },
+    {
+      "heading": "Why the installation detail doesn't change behind the gate",
+      "body": "Whatever the logistics of getting on site, the Geberit fitting itself follows the same discipline everywhere: correct frame selection and structural fixing matter more with this brand than with most others, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles. A gated address doesn't relax that requirement, and the specification-level properties on Wentworth Estate are exactly where getting it wrong would be most visible and most costly to correct."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need to arrange access with the estate before fitting on Wentworth Estate?",
+      "a": "Yes — we coordinate access with the estate and any managing agent before work begins, so the programme runs without delay at the gate once we arrive."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "We're based in Bracknell, around 15 to 20 minutes by road from Wentworth Estate in Virginia Water, Surrey."
+    },
+    {
+      "q": "Why does Geberit need more careful fitting than other brands?",
+      "a": "The cistern and pan weight sit entirely on the carrier frame rather than the wall tiles, so correct frame selection and structural fixing matter more with Geberit than with most other brands we fit."
+    },
+    {
+      "q": "What does Geberit installation cost on Wentworth Estate?",
+      "a": "Fit-only installations start from £3,500, following a £125 survey. Repairs on an existing installation start from £200, with a £500 minimum call-out for emergencies."
+    },
+    {
+      "q": "Do you supply the Geberit product, or only fit it, on Wentworth Estate?",
+      "a": "We fit only on the estate just as everywhere else — you source the concealed cistern, wall-hung WC or AquaClean shower toilet, and we handle the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Does working on a gated estate change the installation standard?",
+      "a": "No — the same frame selection and structural fixing discipline applies regardless of address, because the cistern and pan weight always sits on the carrier frame rather than the wall tiles."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/geberit/",
+      "anchor": "Geberit bathroom brand page"
+    },
+    {
+      "href": "/areas/wentworth-estate/",
+      "anchor": "Bathroom fitting in Wentworth Estate"
+    },
+    {
+      "href": "/areas-brands/wentworth-estate/",
+      "anchor": "Bathroom brands we fit in Wentworth Estate"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet & concealed cistern installation"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing & first fix"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "geberit"
+    },
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    }
+  ],
+  "primaryKeyword": "Geberit installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Geberit bathroom fitter Wentworth Estate",
+    "Geberit AquaClean Wentworth Estate",
+    "fit-only Geberit installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Geberit x Wentworth Estate installer page, a finished close-mid fixture shot with a warm timber accent reflecting the estate's higher-end finish level. Subject and action: a close-mid three-quarter shot of a wall-hung WC and brushed brass flush plate set into a tiled wall beside a walnut timber vanity shelf edge, dry and static. Setting and work-stage: a finished cloakroom in a large Wentworth Estate house, daytime, bright but softened daylight through a frosted window out of frame. Composition: three-quarter framing with the flush plate sharply in focus centre-frame, the walnut shelf edge softly blurred in the foreground corner. Light and materials: warm walnut timber shelf accent, pale stone wall tile, brushed brass flush plate and fittings, bright even daylight with a soft directional fall from one side. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied believable sheen on the stone and timber rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/geberit-wentworth-estate-hero.webp",
+    "heroAlt": "Close-up of a wall-hung WC with brushed brass flush plate beside a walnut timber shelf edge in a finished Wentworth Estate cloakroom, bright daylight.",
+    "inline": []
+  }
+}

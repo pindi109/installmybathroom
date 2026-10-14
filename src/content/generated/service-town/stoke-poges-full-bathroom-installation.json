@@ -1,0 +1,80 @@
+{
+  "path": "/areas/stoke-poges/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Full Bathroom Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only full bathroom installation in Stoke Poges from £3,500. Complete strip-out, tiling, plumbing and electrics. £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges takes its best-known identity from Stoke Park's golf and country club, and the housing around it — older period detached homes alongside more recent executive-style builds, many set well back from the road on sizeable gardens — tends to sit on larger plots than you'd find in a typical suburban street. A full bathroom installation means stripping a bathroom back to brick and rebuilding it completely: new pipework, tanking, tiling, electrics and ventilation, finished with the suite you've sourced. That extra plot space generally gives us more room to manoeuvre on layout than a smaller property would allow."
+  },
+  "sections": [
+    {
+      "heading": "What counts as a full installation",
+      "body": "A full bathroom installation is a ground-up rebuild of the whole room, not a repair, a regrout, or a single-fixture replacement. We strip the existing suite and tiling out completely, renew or reposition waste and supply pipework, tank the wet areas properly, first-fix electrics for lighting and extraction, tile the room, then second-fix and snag the suite you've bought. It's the job for a bathroom that needs more than cosmetic attention — a layout that no longer suits the household, tanking that's failed behind old tiles, or a reconfiguration that adds a shower alongside the bath. Because the room is stripped back to brick and joist before anything new goes in, it's also the point at which old pipework, failed membrane behind existing tiles, or undersized extraction gets properly corrected rather than covered over again."
+    },
+    {
+      "heading": "Why Stoke Poges properties suit layout changes",
+      "body": "The houses around Stoke Park — older period detached homes and more recent executive-style builds, many set well back from the road on generous gardens — generally give us far more room to manoeuvre than a terraced property would. Relocating a waste run to reposition a bath, widening a doorway for level access, or reworking a layout to fit a second en-suite off a principal bedroom rarely runs into the structural constraints a smaller house would present. The survey still confirms exactly what's achievable on your specific property — joist direction and existing soil pipe runs always have the final say — but the starting point on these plots is usually more flexible."
+    },
+    {
+      "heading": "The installation sequence",
+      "body": "We start every full installation with a paid £125 survey, which fixes the scope and price before anything is booked in. The job then runs strip-out, first-fix plumbing and electrics, tanking, tiling, second-fix of your chosen suite, and snagging. Because you're sourcing the sanitaryware, brassware, tiles and furniture, we'll agree a delivery schedule at survey stage so the right items are on site for each stage — there's no point tiling before the shower tray has arrived. Electrics and ventilation go in to current Part P and Part F standards throughout. On a larger Stoke Poges property that's adding a layout change on top of a straightforward strip-out and rebuild, the survey is also where we confirm how any extra pipework run affects the overall programme, so the timeline you're given reflects the actual scope rather than a generic estimate."
+    },
+    {
+      "heading": "Arrange your survey",
+      "body": "To get a full bathroom installation under way in Stoke Poges, call or WhatsApp 07399 651836 to book the £125 survey. Full installations start from £3,500, and the final price depends on the scope agreed at survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you change the layout of our bathroom?",
+      "a": "Often, yes. Stoke Poges properties tend to sit on larger plots with more room to manoeuvre than a terraced house allows, which generally gives us more flexibility to relocate waste runs or widen doorways. The survey confirms exactly what's achievable based on your joist direction and existing pipework."
+    },
+    {
+      "q": "What's included in a full bathroom installation?",
+      "a": "Strip-out of the existing bathroom, new or repositioned pipework, tanking, tiling, electrics and ventilation, and fitting and snagging the suite you've sourced. We don't supply sanitaryware, tiles or brassware — that's bought separately."
+    },
+    {
+      "q": "How long does a full installation take?",
+      "a": "Most full bathroom installations take two to three weeks from strip-out to snagging, depending on room size and the extent of any layout changes. We'll confirm a programme once the survey has scoped the job."
+    },
+    {
+      "q": "Do you install a second en-suite as part of this service?",
+      "a": "A second en-suite off a principal bedroom is its own project, though the groundwork is similar to a full bathroom installation — strip-out, pipework, tanking, tiling and electrics. Talk to us at survey stage about what you're planning and we'll scope it properly."
+    },
+    {
+      "q": "Will moving pipework add much to the cost?",
+      "a": "It depends on how far a waste run needs to move and what the existing floor construction allows. We confirm exactly what's involved and price it as part of the £125 survey, so there are no surprises once the job is under way."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/stoke-poges/", "text": "Bathroom installation in Stoke Poges" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/gerrards-cross/full-bathroom-installation/", "text": "Full bathroom installation in Gerrards Cross" },
+    { "href": "/areas/windsor/full-bathroom-installation/", "text": "Full bathroom installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "stoke-poges" } ],
+  "primaryKeyword": "full bathroom installation Stoke Poges",
+  "secondaryKeywords": [
+    "full bathroom installation in Stoke Poges",
+    "complete bathroom renovation Stoke Poges",
+    "bathroom strip out and rebuild Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Stoke Poges. Subject and action: a fully finished, empty luxury bathroom photographed immediately after installation, no people present. Setting and work-stage: a spacious bathroom in a substantial detached house set back from the road, newly tiled and fitted, staged as complete with no tools or debris in shot. Composition: wide shot from the doorway capturing the full room — freestanding bath, shower enclosure, vanity and WC all in frame. Light and materials: honed limestone tiling with a soft matte finish, matte black bath filler, shower valve and taps, warm evening light low through a window casting long gentle shadows across the floor. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a Stoke Poges home with honed limestone tiling and matte black fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "path": "/installer/duravit-ascot/",
+  "family": "Brand × town",
+  "brand": "duravit",
+  "town": "ascot",
+  "slug": "duravit-ascot",
+  "seo": {
+    "title": "Duravit Bathroom Installation in Ascot | Fit-Only | Install My Bathroom",
+    "description": "We fit Duravit sanitaryware, SensoWash shower toilets and ME by Starck suites across Ascot's larger homes. Fit-only installation from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/duravit-ascot/"
+  },
+  "h1": "Duravit bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock runs from large Victorian and Edwardian houses through to inter-war family homes and executive-style new builds, many on plots generous enough that relocating a waste run or widening a doorway for level access rarely hits the structural limits a terraced house would present. That same freedom is exactly what matters when a Duravit suite is being fitted, because it opens up the layout questions a Duravit installation tends to raise early: whether a wall-hung pan goes in on Duravit's own DuraSystem frame or on a standard concealed cistern frame, and where in the room that frame actually sits once a new waste run is in place. We fit a good number of Duravit bathrooms in and around Ascot, usually specified through a showroom alongside a SensoWash shower toilet seat or a full ME by Starck suite, and on a plot with room to move, that decision gets easier to get right before a wall closes up."
+  },
+  "sections": [
+    {
+      "heading": "What we fit from Duravit",
+      "body": "Duravit sanitaryware turns up on a good number of the bathrooms we install, generally specified through a showroom rather than bought off the shelf. Two things come up often: a SensoWash shower toilet seat, which adds a washlet function to a wall-hung pan, and a full ME by Starck suite, where basin, WC and furniture are specified together as a coordinated range. Both are fit-only as far as we're concerned — you choose the Duravit specification with your showroom or designer, and we handle the strip-out, first fix, frame installation, tiling and plumbing needed to get it in properly, for Ascot properties as much as anywhere else we work."
+    },
+    {
+      "heading": "The frame decision, and why Ascot's plot sizes make it easier",
+      "body": "The detail worth settling before anything is ordered is the installation route. Duravit offers its own DuraSystem frame for some wall-hung pans, as well as compatibility with a standard concealed cistern frame, and the two aren't interchangeable once a stud wall is boarded and tiled over. On a smaller or more constrained property, that decision can be forced by what's already there — an existing waste position, a shallow stud wall, a boxed-in duct that can't move. Ascot's larger plots generally remove that constraint: with more room to reposition a waste run or build a new stud wall from scratch, we can confirm the right frame for the specific pan at survey stage, rather than working around an existing installation that was never designed for a Duravit frame in the first place."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We work fit-only across Ascot: you source the Duravit sanitaryware, brassware and tiles through your showroom or designer, and we strip out the old bathroom, first-fix the plumbing and electrics a SensoWash seat needs, install the frame, tile, plumb in the suite and snag it, with installation starting from £3,500. A £125 survey ahead of that confirms the frame route, the waste run and anything else specific to the Duravit products you've chosen, before any of it is ordered. If you've already got a Duravit specification from a showroom, or you're still deciding, book a survey and we'll confirm exactly what the installation needs before you order anything."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Duravit products, or do I need to buy them myself?",
+      "a": "We're fit-only, so you buy the Duravit sanitaryware yourself, usually through a showroom, and we handle the installation — frame, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What's the difference between Duravit's DuraSystem frame and a standard concealed cistern frame?",
+      "a": "Duravit offers its own DuraSystem frame for some wall-hung pans, as well as compatibility with a standard concealed cistern frame. They aren't interchangeable once a wall is boarded, so we confirm which route your specific pan needs at survey stage, before the stud wall goes up."
+    },
+    {
+      "q": "Can you fit a SensoWash shower toilet seat?",
+      "a": "Yes. A SensoWash seat needs power and a water supply run to the pan in addition to the standard plumbing, which we plan for at first fix rather than retrofitting afterwards."
+    },
+    {
+      "q": "Does Ascot's housing stock make a Duravit installation easier?",
+      "a": "Generally, yes. Ascot's larger plots and detached properties tend to give us more freedom to reposition a waste run or build a new stud wall for the frame, compared with a terraced property where an existing layout can force the decision."
+    },
+    {
+      "q": "How much does a Duravit bathroom installation cost in Ascot?",
+      "a": "Fit-only installation starts from £3,500, with the exact price depending on the scope of work and the specific Duravit products being fitted. A £125 survey confirms the detail before we quote."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/duravit/", "anchor": "More on the Duravit sanitaryware we fit" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "All the bathroom brands we fit in Ascot" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" },
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" },
+    { "file": "brands.json", "id": "duravit" }
+  ],
+  "primaryKeyword": "Duravit bathroom installation Ascot",
+  "secondaryKeywords": [
+    "Duravit installer Ascot",
+    "Duravit fitter Ascot",
+    "Duravit SensoWash installation Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Duravit x Ascot installer page, implying Duravit's concealed-cistern product category through a construction-stage frame detail rather than a finished room shot. Subject and action: a close-to-mid three-quarter shot of a wall-hung WC concealed cistern frame bolted upright inside an open timber stud wall, cistern body and flush pipe visible, no pan yet fitted, a spirit level resting against the frame upright. Setting and work-stage: an unfinished ensuite mid-first-fix in a large Ascot detached house, daytime, bright midday sunlight entering from an unseen window to one side. Composition: three-quarter angle from slightly below the frame's mid-height, stud timber and exposed noggins filling the background, frame sharply in focus in the foreground with the spirit level resting diagonally across it. Light and materials: pale honed limestone floor tile already laid in front of the stud wall, matte black pipework clips and flush pipe fittings on the frame, bright directional midday daylight casting a crisp-edged shadow of the stud timber across the limestone. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the limestone tile with faint dust and handling marks rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/duravit-ascot-hero.webp",
+    "heroAlt": "A Duravit-style wall-hung WC concealed cistern frame bolted into an open stud wall on honed limestone flooring, bright midday daylight, mid first-fix stage in an Ascot bathroom.",
+    "inline": []
+  }
+}

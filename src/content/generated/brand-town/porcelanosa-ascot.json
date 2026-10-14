@@ -1,0 +1,76 @@
+{
+  "path": "/installer/porcelanosa-ascot/",
+  "family": "Brand × town",
+  "brand": "porcelanosa",
+  "town": "ascot",
+  "slug": "porcelanosa-ascot",
+  "seo": {
+    "title": "Porcelanosa Installation in Ascot | Fit-Only Tiling | Install My Bathroom",
+    "description": "We fit Porcelanosa's large-format rectified porcelain across Ascot's larger detached and executive properties on a fit-only basis, from £3,500. You buy the tile, we fit it.",
+    "canonical": "https://installmybathroom.co.uk/installer/porcelanosa-ascot/"
+  },
+  "h1": "Porcelanosa installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock leans toward large, detached properties — Victorian and Edwardian houses, inter-war family homes, and a growing number of more recent executive-style builds on generous plots, particularly along the roads running towards Sunningdale and Windsor. For a Porcelanosa installation, that scale changes the job more than the brand name does: a bigger principal bathroom, or a run of matching en-suites across a larger floorplan, means a longer and more continuous span of large-format porcelain that has to come out flat and level in one go, and Porcelanosa's dense, rectified tile is exactly the material that shows up any inconsistency across that span rather than hiding it. We work fit-only across Ascot — you buy your Porcelanosa tiles, sanitaryware and brassware through a showroom or Porcelanosa's own stockists, and we handle the strip-out, substrate preparation, tiling and plumbing, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What Porcelanosa is known for, and what we install",
+      "body": "Porcelanosa is best known for large-format porcelain tiling — dense, rectified and dimensionally precise, which is part of why it's specified so often in the kind of larger bathrooms and en-suites we fit across Ascot. That precision is a genuine advantage once it's installed: rectified edges mean tighter, more consistent joints and a cleaner overall look than a pressed tile with rounded or slightly irregular edges. But precision only shows if the groundwork earns it. A tile engineered to a fraction of a millimetre will telegraph every dip, hump or inconsistency in the floor or wall underneath it, in a way a smaller, more forgiving tile simply absorbs. Fitting Porcelanosa's porcelain well is a matter of tolerance, not taste, and that's the basis we work from on every Ascot installation, whatever room it's going into."
+    },
+    {
+      "heading": "Installation considerations specific to Porcelanosa's porcelain",
+      "body": "Before a single tile goes down, we check the floor or wall for flatness and correct it where it's out — packing, levelling compound, or in some cases removing and relaying a subfloor, depending on what the survey finds. Porcelanosa's large-format tiles then need full bed coverage rather than the dot-and-dab approach that gets away with a smaller tile, a consistent joint width set with the right spacers, and careful lippage control where one tile edge meets the next, particularly across a long run. In a property with the floor area Ascot's larger detached and executive-style homes tend to offer, that run is often longer than average — a double-width principal bathroom or a full-height wall of porcelain behind a bath, rather than a tightly bounded three-piece suite. The generous plot sizes common around Ascot also tend to give us more freedom to adjust layout — relocating a waste run or widening a doorway for level access rarely meets the structural limits a terraced house would present, which in turn gives the tiling layout itself more room to be planned around full tiles rather than awkward cuts."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We don't sell Porcelanosa products — you choose and buy them yourself, and we quote for the labour and expertise needed to install them properly. That starts with a £125 survey, where we check the substrate, confirm the tile sizes and layout against the room, and flag anything that needs addressing before fitting day. Installation then runs from £3,500 for a fit-only bathroom, covering strip-out, preparation, tiling, plumbing and snagging. With 30 years' experience fitting bathrooms across Berkshire and Surrey, including a steady run of work in Ascot, we've handled the full range of what large-format porcelain demands on site. If you've already got Porcelanosa tiles specified or ordered for an Ascot bathroom, get in touch to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Porcelanosa tiles, or do we need to buy them ourselves?",
+      "a": "We work fit-only, which means you buy your Porcelanosa tiles, sanitaryware and brassware directly — through a showroom, Porcelanosa's own stockists, or a designer's specification — and we install them. Quotes reflect labour only, not a retail markup on the product."
+    },
+    {
+      "q": "Why does Porcelanosa's porcelain need a flatter substrate than other tiles?",
+      "a": "Porcelanosa's large-format tile is dense, rectified and dimensionally precise, which means it shows up an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. We check and correct the floor or wall for flatness before tiling, then set the tile with full bed coverage, consistent joint width and careful lippage control."
+    },
+    {
+      "q": "Does Ascot's larger plot size change how a Porcelanosa installation is planned?",
+      "a": "It generally helps. Ascot's larger detached and executive-style properties tend to sit on generous plots, which gives us more freedom to adjust layout — relocating a waste run or widening a doorway for level access rarely runs into the structural limits a smaller, terraced property would present."
+    },
+    {
+      "q": "Do you repair Porcelanosa tiling that's already installed?",
+      "a": "Yes, repairs start from £200, with a £500 minimum call-out for emergency work. We don't offer standalone regrouting as a service on its own."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/porcelanosa/", "anchor": "More on Porcelanosa" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "All the bathroom brands we fit in Ascot" },
+    { "href": "/services/large-format-porcelain-tiling/", "anchor": "Large format porcelain tiling" },
+    { "href": "/services/bathroom-strip-out-and-preparation/", "anchor": "Bathroom strip-out & substrate preparation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" },
+    { "file": "brands.json", "id": "porcelanosa" }
+  ],
+  "primaryKeyword": "Porcelanosa installation Ascot",
+  "secondaryKeywords": [
+    "Porcelanosa bathroom fitter Ascot",
+    "large format porcelain tiling Ascot",
+    "fit-only Porcelanosa installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Porcelanosa x Ascot installer page, implying the brand's large-format porcelain through a close construction-stage tiling detail rather than a full room shot. Subject and action: a close, low-angle shot of a trowel-notched mortar bed with a large-format porcelain floor tile being lowered into place, a spirit level resting across the adjoining tile joint to check flatness, hands and tools out of frame, caught mid-placement. Setting and work-stage: an in-progress principal bathroom floor in a large Ascot detached house, late morning, bright daylight from an unseen window. Composition: tight low three-quarter angle focused on the tile edge, notched mortar ridges and spirit level bubble, with a half-tiled run and tile spacers visible in soft focus behind. Light and materials: matte anthracite-grey large-format rectified porcelain tile, brushed brass edge trim stacked nearby, bright directional daylight raking across the mortar ridges and casting a sharp, defined shadow from the tile's leading edge. Constraints: no people, no text, no logos, no brand names visible on fixtures or packaging, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the tile and mortar rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/porcelanosa-ascot-hero.webp",
+    "heroAlt": "Close low-angle shot of a large-format anthracite porcelain floor tile being set with a spirit level checking the joint, mid-tiling stage in an Ascot bathroom.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

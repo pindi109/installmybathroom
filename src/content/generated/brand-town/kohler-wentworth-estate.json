@@ -1,0 +1,89 @@
+{
+  "path": "/installer/kohler-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "wentworth-estate",
+  "slug": "kohler-wentworth-estate",
+  "seo": {
+    "title": "Kohler Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only Kohler brassware, sanitaryware and bath installation on Wentworth Estate, Virginia Water. Gate access coordinated. Survey £125, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-wentworth-estate/"
+  },
+  "h1": "Kohler bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. A Kohler specification on an estate property often brings together cast-iron baths, vitreous china sanitaryware and contemporary brassware on one project, and we plan for whichever combination you're specifying, coordinating access with the estate and any managing agent so the programme runs without delay at the gate."
+  },
+  "sections": [
+    {
+      "heading": "Coordinating estate access for a multi-discipline installation",
+      "body": "A project that combines a Kohler cast-iron bath, wall-hung sanitaryware and brassware involves several deliveries and a longer first-fix period than a simpler bathroom, which on Wentworth Estate means coordinating gate access and timing with the estate and any managing agent in advance. Getting that logistics side right matters as much as the fitting itself — a delivery turned away at the gate because it wasn't pre-cleared can hold up a whole stage of the installation."
+    },
+    {
+      "heading": "Cast-iron bath logistics inside a gated property",
+      "body": "A cast-iron enamel bath has to travel through the house in one piece and be supported on floor joists capable of bearing its loaded weight once positioned. We assess the access route — doorways, stairs, landings — and the floor structure at survey stage, and where gate access needs scheduling for a specific delivery slot, we build that into the installation programme from the outset so the bath arrives when the room is actually ready for it."
+    },
+    {
+      "heading": "Sanitaryware fixing and brassware pressure checks",
+      "body": "A wall-hung WC needs its concealed cistern frame fixed and levelled into solid structure before tiling starts, which is standard structural fixing work. Brassware — a shower valve or digital tap — needs pressure and flow checked against the property's actual incoming supply before it's built into the wall. Running both disciplines alongside the bath installation on one programme is why we plan a Kohler specification as several interlinked jobs, not a single generic fit."
+    },
+    {
+      "heading": "The fit-only process on Wentworth Estate",
+      "body": "We start with a £125 survey to assess the room and confirm access arrangements for the estate. You source the Kohler sanitaryware, brassware, tiles and furniture; we carry out the strip-out, first-fix, tiling, final-fix plumbing and snagging. Installations start from £3,500, reaching the estate in around 15 to 20 minutes from our Bracknell base, with the price set by the quality and scope of the work."
+    },
+    {
+      "heading": "Why gate coordination matters on a private estate",
+      "body": "Wentworth Estate is private and gated, built around Wentworth Club and its golf courses and best known as home of the BMW PGA Championship, and that status means vehicle access is managed rather than open. For a Kohler installation involving a cast-iron bath, sanitaryware and brassware, several separate deliveries typically need to reach the property over the course of the project, and each one needs to be pre-cleared with the estate or managing agent. We handle that coordination as part of the programme, so the fitting work itself isn't held up waiting on a delivery stuck at the gate, confirming vehicle details and expected arrival windows in advance so the estate's own access procedures don't become the reason a stage of the installation runs late."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you coordinate access with Wentworth Estate's management before starting work?",
+      "a": "Yes, we coordinate with the estate and any managing agent in advance so deliveries and the installation programme run without delay at the gate."
+    },
+    {
+      "q": "How long does it take you to reach Wentworth Estate from Bracknell?",
+      "a": "Around 15 to 20 minutes by road, which keeps scheduling for surveys, deliveries and the installation itself straightforward."
+    },
+    {
+      "q": "Do you supply the Kohler products for a Wentworth Estate installation?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can a cast-iron bath be delivered to a gated property without delay?",
+      "a": "Yes, provided the delivery is pre-cleared with the estate. We build gate access and delivery timing into the installation programme at survey stage."
+    },
+    {
+      "q": "What does a Kohler bathroom installation cost on Wentworth Estate?",
+      "a": "Installations start from £3,500 for fit-only work, after a £125 paid survey. The final price depends on the scope of strip-out, first-fix, tiling and plumbing involved."
+    },
+    {
+      "q": "Do you carry out repairs to existing Kohler bathrooms on the estate?",
+      "a": "Yes, for high-end homes, with a minimum charge of £200 and £500 for emergency call-outs. Regrouting isn't offered as a standalone service."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "See the full Kohler bathroom range" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "Bathroom brands we fit on Wentworth Estate" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding and cast-iron bath installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "Kohler installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Wentworth Estate",
+    "Kohler brassware installation Virginia Water",
+    "fit-only bathroom installer Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Wentworth Estate. Subject and action: a digital shower control unit and valve body being wired and plumbed mid first-fix on a stud wall, a delivery crate of pipe fittings on the floor nearby, no person in shot. Setting and work-stage: a large en-suite in a gated estate property, warm sandstone wall tiling partially laid, timber floor protection sheeting covering the rest of the room. Composition: close-mid shot focused on the valve and wiring, delivery crate visible in the lower foreground for depth. Light and materials: warm sandstone tiling, brushed brass valve trim and fittings, warm low-angle late-afternoon light through a tall window, soft directional shadows. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-wentworth-estate-hero.webp",
+    "heroAlt": "Kohler digital shower valve being first-fixed during a bathroom installation on Wentworth Estate, with warm sandstone tiling underway",
+    "inline": []
+  }
+}

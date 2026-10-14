@@ -1,0 +1,76 @@
+{
+  "path": "/areas/ascot/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "ascot",
+  "seo": {
+    "title": "Walk-In Shower Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation in Ascot. Frameless and semi-frameless enclosures, level-access trays, tanking and falls done right. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock grew up around the racecourse over more than a century, leaving a mix of large detached Victorian and Edwardian houses, inter-war family homes, and executive-style builds on generous plots, especially on the roads towards Sunningdale and Windsor. That scale of plot matters for a walk-in shower installation, because getting a frameless or semi-frameless enclosure to sit right depends on being able to move waste runs and widen doorways where needed. We handle the strip-out, first-fix, tanking, tiling, plumbing and snagging — you choose the enclosure, tray and tiles."
+  },
+  "sections": [
+    {
+      "heading": "What a walk-in shower installation actually involves",
+      "body": "A walk-in shower installation is a different job from a full wet room or an en-suite build. We're not tanking an entire room or reconfiguring a whole floor plan — we're forming a level-access or low-profile tray with the correct fall to the waste, tanking the immediate shower area and upstands properly, and fitting a frameless or semi-frameless glass enclosure so it sits flush and square. Done properly, that means precise setting-out before any tiling starts, a waste position that actually suits the tray dimensions, and a frame or fixing system that matches the glass thickness the enclosure manufacturer specifies. Skipping any of those steps is where walk-in showers go wrong — a tray that's slightly out of fall, or tanking that stops short of where splash actually reaches."
+    },
+    {
+      "heading": "Why Ascot's larger plots make this easier to get right",
+      "body": "The detached Victorian, Edwardian, inter-war and executive-style homes common across Ascot generally give us far more freedom on layout than a terraced house would allow. If the existing waste position doesn't suit a level-access tray, or the doorway needs widening slightly for level-access thresholds, that kind of change rarely runs into the structural limits you'd meet in a smaller, more tightly built property. It doesn't mean every job is straightforward — period houses still have their own quirks in floor joist direction and existing pipework — but the room to manoeuvre that comes with Ascot's larger properties genuinely reduces the number of compromises we have to make on tray size, drain position and enclosure layout."
+    },
+    {
+      "heading": "Installation considerations specific to a walk-in enclosure",
+      "body": "Frameless and semi-frameless enclosures rely on accurate floor and wall tolerances — glass doesn't flex to hide an out-of-square corner the way a framed shower cubicle can. We check levels and plumb before committing to tray position, confirm the floor build-up has room for the fall needed on a level-access tray, and make sure any existing floor joists can take the waste run without compromising structure. On older Ascot properties with suspended timber floors, that often means more careful planning around joists than a solid concrete floor would require, which is one reason we survey before quoting rather than pricing from photos alone."
+    },
+    {
+      "heading": "The process, from survey to snagging",
+      "body": "Every walk-in shower installation starts with a paid £125 survey, where we check floor levels, waste position, wall construction and access before confirming scope and price. From there: strip-out of the old shower or bath, first-fix plumbing moved to the new position if needed, tanking to the shower area and any adjoining walls, tiling, then fitting the enclosure, tray and fittings you've sourced. We finish with a full snag check before we consider the job complete. Installs start from £3,500, and as a fit-only service you supply the tray, enclosure, tiles and brassware — we supply the labour, the sequencing, and the accountability for getting it right."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you install a walk-in shower in an older Ascot property without major disruption?",
+      "a": "Usually, yes. The generous plot sizes typical of Ascot's Victorian, Edwardian and inter-war housing mean we rarely have to fight structural constraints to reposition a waste run or widen a doorway for level access, which keeps disruption to the bathroom itself rather than spreading into adjoining rooms."
+    },
+    {
+      "q": "Do you supply the shower enclosure and tray?",
+      "a": "No — we're fit-only. You choose and buy the enclosure, tray, tiles and brassware, and we handle strip-out, first-fix, tanking, tiling, plumbing and snagging. This keeps the choice of materials entirely with you while we focus on getting the installation right."
+    },
+    {
+      "q": "Is a walk-in shower installation the same as a wet room?",
+      "a": "No. A wet room tanks and falls an entire floor area with no raised tray. A walk-in shower installation uses a level-access or low-profile tray within a defined enclosure, which is a smaller-scope, usually less disruptive job while still giving the frameless, barrier-free look."
+    },
+    {
+      "q": "What does the £125 survey cover?",
+      "a": "We check floor levels and fall, existing waste position, wall construction, and access for materials before confirming the installation scope and price. For executive-style and period Ascot homes alike, this is what lets us quote accurately rather than guessing from photos."
+    },
+    {
+      "q": "How long does a walk-in shower installation take?",
+      "a": "A straightforward walk-in shower installation typically runs over several days to allow tanking to cure properly before tiling, plus drying time before the enclosure is fitted. We'll confirm a schedule specific to your job at survey stage."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom installation in Ascot" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/sunningdale/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Sunningdale" },
+    { "href": "/areas/windsor/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "ascot" } ],
+  "primaryKeyword": "walk-in shower installation Ascot",
+  "secondaryKeywords": [ "frameless shower enclosure Ascot", "level access shower installer Ascot", "walk-in shower fitter Berkshire" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an Ascot walk-in shower installation service page. Subject and action: a finished frameless walk-in shower enclosure with a brushed brass frame and low-profile level-access tray, photographed as a completed installation. Setting and work-stage: a spacious period-house bathroom with tall sash-style window proportions, work fully complete, tiling and fittings finished. Composition: three-quarter angle across the enclosure showing the glass return panel and tray edge, with bathroom wall and floor tiling visible in the background for depth. Light and materials: soft morning daylight through the window casting gentle directional shadows across large-format veined marble-look porcelain tiles, brass fixings with a warm satin sheen rather than high gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished frameless walk-in shower with brushed brass frame and level-access tray in a bright Ascot bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

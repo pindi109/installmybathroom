@@ -1,0 +1,72 @@
+{
+  "path": "/areas/windsor/ensuite-installation/",
+  "family": "Service x town",
+  "service": "ensuite-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "En-Suite Installation Windsor | Install My Bathroom",
+    "description": "Fit-only en-suite installation in Windsor, from town-house conversions near the Castle to family homes further out. Stud wall to snagging, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/ensuite-installation/"
+  },
+  "h1": "En-suite installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types, and which one you're in changes how an en-suite installation actually runs. Close to the Castle and the historic centre, Georgian and Victorian town houses sit on narrow plots with limited rear access and period staircases that limit how much material can move through the building at once. Further out towards the edges of town, the housing is more typically inter-war and post-war family homes, with some newer developments on redeveloped sites, where access is usually far more straightforward. We're a fit-only installer — you choose the sanitaryware and tiles, we handle the stud wall, tanking, plumbing and finishing — and in Windsor the first thing we plan around is which of these two you're starting from."
+  },
+  "sections": [
+    {
+      "heading": "Town-house en-suites near the Castle: planning around the staircase, not just the room",
+      "body": "In a Georgian or Victorian town house close to the historic centre, the en-suite itself is often the easy part — it's getting the materials to it that takes planning. A narrow period staircase that was never designed for a bath or a shower tray to go up it, combined with limited or no rear vehicle access, means every tile, every length of board, and the stud timber all have to be moved through the building by hand, often in smaller loads than we'd use on an easier site. We account for this at survey by checking door widths, stair turns, and landing space before we quote a timeline, and by choosing fittings and board sizes, where there's a choice, that we know will physically make the journey. None of this changes what the finished en-suite looks like, but it does affect how deliveries are staged and how many additional carrying days we build into the programme compared with a property with a driveway and a side door."
+    },
+    {
+      "heading": "Family homes further out: more straightforward, same standard",
+      "body": "Inter-war and post-war family homes on the edges of Windsor, and the newer developments built on redeveloped sites, typically have wider hallways, easier parking, and staircases built to more modern proportions, so getting materials to the room is rarely a constraint in the same way. That doesn't mean the job is any less thorough — the wet area still gets fully tanked floor and walls, the floor still gets laid to a proper fall to the drain, and extraction is still ducted outside rather than left recirculating. What changes is simply how efficiently we can move through first fix and tiling, because the building itself isn't working against the schedule the way a period town house sometimes does."
+    },
+    {
+      "heading": "How the project runs, whichever type of property you're in",
+      "body": "Every en-suite starts with the £125 paid survey, where we check the existing soil stack, measure the space, and — critically in Windsor — assess the access route from the street to the room, whether that's a tight staircase in a town house or a straightforward hallway in a family home further out. From there we build the stud wall, complete first-fix plumbing and electrics, tank the wet area, tile, then carry out second fix — the shower enclosure or bath, basin, WC, taps and towel rail — finishing with a full snagging pass. A family home further out typically runs toward the shorter end of our 8 to 12 working day range; a town house with a difficult staircase and limited rear access may run a little longer purely because of how materials have to be carried in. Either way, we agree the realistic timeline at survey stage rather than guessing on day one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a narrow period staircase stop you fitting a bath or large shower tray in a town house near the Castle?",
+      "a": "Not usually — it affects how the item gets to the room, not whether it can go in at all. We check staircase turns and landing dimensions at survey, and where a particular bath or tray genuinely won't make the journey, we'll flag it before you've bought it rather than after."
+    },
+    {
+      "q": "Does a town house with difficult access cost more to fit an en-suite in than a house further out?",
+      "a": "Installs start from £3,500 and the base cost reflects the scope of the fit-out. Where access genuinely adds carrying time — narrow stairs, no rear access — that's accounted for in the programme and quote at survey stage, so there are no surprises partway through."
+    },
+    {
+      "q": "How long does an en-suite installation take in Windsor?",
+      "a": "Most projects run 8 to 12 working days. Family homes on the edges of town with easier access tend to sit toward the shorter end of that range; town houses near the historic centre with restricted access can run a little longer."
+    },
+    {
+      "q": "What if the drainage route for the en-suite is awkward because of the property's layout?",
+      "a": "We assess the route to the existing soil stack at survey. Where a gravity-fed run isn't achievable because of the layout, a macerator is the standard fallback, and we'll tell you that upfront rather than after the stud wall is built."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation in Windsor" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost guide for UK homeowners" },
+    { "href": "/areas/ascot/ensuite-installation/", "anchor": "En-suite installation in nearby Ascot" },
+    { "href": "/areas/sunningdale/ensuite-installation/", "anchor": "En-suite installation in nearby Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "en-suite installation Windsor",
+  "secondaryKeywords": [
+    "en-suite fitter Windsor town house",
+    "en-suite conversion Windsor Berkshire",
+    "fit-only en-suite installer Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an en-suite installation page covering both period town houses and family homes in Windsor. Subject and action: a compact loft-style en-suite under a sloped ceiling mid-second-fix, walnut timber vanity unit partially installed, a cut section of wall board leaning against the sloped wall. Setting and work-stage: daytime, second-fix stage, a narrow dormer window providing light, tools laid on a dust sheet near the doorway suggesting a tight period staircase just out of frame. Composition: vertical-leaning but cropped to 16:9, framed from a low angle to show the sloped ceiling line and the walnut vanity along the straight wall, conveying a compact converted space. Light and materials: cool daylight from the dormer window balanced with a warm work lamp, walnut timber vanity, pale brushed brass taps, light grey matte floor tiles. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen on timber and tile rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-ensuite-installation-hero.webp",
+    "heroAlt": "Compact loft-style en-suite installation in Windsor with walnut vanity under a sloped ceiling mid second-fix",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

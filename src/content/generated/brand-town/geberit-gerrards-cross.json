@@ -1,0 +1,110 @@
+{
+  "path": "/installer/geberit-gerrards-cross/",
+  "family": "Brand x town",
+  "brand": "geberit",
+  "town": "gerrards-cross",
+  "slug": "geberit-gerrards-cross",
+  "seo": {
+    "title": "Geberit Bathroom Installation in Gerrards Cross | Fit-Only | Install My Bathroom",
+    "description": "Geberit concealed cisterns and wall-hung WCs fitted in Gerrards Cross. Fit-only installation from £3,500, around 25-30 minutes from our Bracknell base.",
+    "canonical": "https://installmybathroom.co.uk/installer/geberit-gerrards-cross/"
+  },
+  "h1": "Geberit bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Gerrards Cross sits around 25 to 30 minutes from our Bracknell base, and most of the Geberit work we do there starts the same way every fit-only job does: you've already chosen the concealed cistern, wall-hung WC or AquaClean shower toilet, and we're brought in to strip out, first-fix, tile, plumb and snag it to the standard the product actually needs — from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "The Geberit products we fit most often",
+      "body": "Across the fit-only projects we take on in Gerrards Cross, Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the sanitaryware brand we fit most frequently. You source the product — through a showroom, a designer's specification or a retailer — and we take on the installation itself, which with Geberit means a fair amount more than hanging a pan on a wall."
+    },
+    {
+      "heading": "Frame selection and fixing, not an afterthought",
+      "body": "Correct frame selection and structural fixing matter more with Geberit than with most brands we fit, because the full weight of the cistern and pan sits on the carrier frame rather than the wall tiles. That means the frame choice, its floor and wall fixing points, and the access panel location all have to be settled before the wall closes up — there's no going back to add a stronger fixing once the tiling is finished, so we confirm it at survey, before anything is ordered."
+    },
+    {
+      "heading": "Coordinating a Gerrards Cross installation",
+      "body": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross and the surrounding commuter villages close to Beaconsfield and Chalfont St Peter, which is comfortably within range of our Bracknell base. That distance doesn't change how a Geberit frame gets fitted, but it does mean we plan the programme — survey, strip-out, first fix, tiling and snagging — around a sensible run of site visits rather than treating it as a one-off job squeezed in alongside closer work."
+    },
+    {
+      "heading": "Booking a survey",
+      "body": "Every Geberit installation in Gerrards Cross starts with a £125 survey, where we confirm the frame type, the wall or floor fixing, and anything specific about the existing plumbing before you order the product. Installations start from £3,500, we've been fitting bathrooms for 30 years, and if a Geberit installation ever needs attention after the fact, repairs start from £200."
+    },
+    {
+      "heading": "Working to a fixed specification",
+      "body": "Because we work fit-only, the Geberit product itself — which model of concealed cistern, which wall-hung pan, whether an AquaClean shower toilet is being specified instead of a standard WC — is agreed before we arrive, usually through a showroom or retailer you've already dealt with. That's useful for us as much as you: a confirmed specification means the survey can focus entirely on the fixing and plumbing detail rather than still deciding what's going in, which keeps the programme for a Gerrards Cross job moving at the same pace as work closer to Bracknell."
+    },
+    {
+      "heading": "Repairs to an existing Geberit installation",
+      "body": "Not every call we take in Gerrards Cross is a new installation — we also repair existing Geberit fittings, from £200, with a £500 minimum call-out for genuine emergencies. A flush mechanism or cistern fault is often more involved to access than with a standard close-coupled WC, precisely because the cistern sits behind the wall on its carrier frame rather than in plain view, so diagnosing the issue correctly before opening anything up matters as much on a repair as it does on a first fit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "We're based in Bracknell, around 25 to 30 minutes from Gerrards Cross by road, which is well within the area we cover for fit-only bathroom installations."
+    },
+    {
+      "q": "Do you supply Geberit products, or only fit them?",
+      "a": "We fit only. You source the Geberit sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first fix, tiling, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "Why does Geberit need a different fitting approach to a standard WC?",
+      "a": "The cistern and pan weight sit entirely on the carrier frame, not the wall tiles, so correct frame selection and structural fixing matter more with Geberit than with most brands we fit."
+    },
+    {
+      "q": "What happens at the survey stage?",
+      "a": "The £125 survey is where we confirm the frame type and fixing detail for your Geberit product before it's ordered, so there are no surprises once the wall is closed up."
+    },
+    {
+      "q": "Do you repair existing Geberit installations in Gerrards Cross, not just fit new ones?",
+      "a": "Yes — repairs on an existing Geberit installation start from £200, with a £500 minimum call-out for emergencies. Accessing a concealed cistern fault takes more care than a standard WC, since it sits behind the wall on its carrier frame."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/geberit/",
+      "anchor": "Geberit bathroom brand page"
+    },
+    {
+      "href": "/areas/gerrards-cross/",
+      "anchor": "Bathroom fitting in Gerrards Cross"
+    },
+    {
+      "href": "/areas-brands/gerrards-cross/",
+      "anchor": "Bathroom brands we fit in Gerrards Cross"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet & concealed cistern installation"
+    },
+    {
+      "href": "/services/cloakroom-and-wc-installation/",
+      "anchor": "Cloakroom & WC installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "geberit"
+    },
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "Geberit installation Gerrards Cross",
+  "secondaryKeywords": [
+    "Geberit bathroom fitter Gerrards Cross",
+    "Geberit concealed cistern Gerrards Cross",
+    "fit-only Geberit installer"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Geberit x Gerrards Cross installer page, a construction-stage detail shot implying a Geberit concealed cistern frame mid-fit. Subject and action: a close-mid shot of a metal carrier frame bolted into its floor track within an open stud wall cavity, cistern body mounted on the frame, no tiling or boarding yet closed around it, static, no people. Setting and work-stage: a first-fix stage bathroom in a Gerrards Cross family house, daytime, soft overcast daylight through a dust-sheeted window opening. Composition: mid-distance three-quarter angle showing the full frame and open stud cavity, exposed timber studs and a stack of tile boxes blurred in the background. Light and materials: galvanised steel carrier frame, brushed nickel pipe fittings, bare plasterboard and timber stud surfaces, flat, even overcast light with minimal shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED lighting of any kind, no staged symmetry, no uniform colour wash, no plants, florals or candles as props, no water shown running, realistic uneven wear and dust on the exposed studwork rather than a clean showroom finish.",
+    "heroOutputPath": "heroes/brand-town/geberit-gerrards-cross-hero.webp",
+    "heroAlt": "A Geberit-style concealed cistern carrier frame bolted into an open stud wall cavity at first-fix stage in a Gerrards Cross bathroom, soft overcast daylight.",
+    "inline": []
+  }
+}

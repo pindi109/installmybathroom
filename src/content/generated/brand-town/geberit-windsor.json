@@ -1,0 +1,106 @@
+{
+  "path": "/installer/geberit-windsor/",
+  "family": "Brand x town",
+  "brand": "geberit",
+  "town": "windsor",
+  "slug": "geberit-windsor",
+  "seo": {
+    "title": "Geberit Bathroom Installation in Windsor | Fit-Only | Install My Bathroom",
+    "description": "Geberit concealed cisterns fitted in Windsor's period town houses and family homes alike, with fixing planned around masonry or stud walls. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/geberit-windsor/"
+  },
+  "h1": "Geberit bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits into two distinct types, and it changes how we approach a Geberit install: close to the Castle, narrow Georgian and Victorian town houses often have solid masonry walls that take a carrier frame fixing well, but period staircases that limit how much material we can move through the building at once, while the inter-war and post-war homes further out tend to have stud partitions that need checking before a frame goes in."
+  },
+  "sections": [
+    {
+      "heading": "What we fit from Geberit in Windsor",
+      "body": "Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the sanitaryware brand we fit most often across both types of Windsor property, from the narrow town houses near the historic centre to the larger inter-war and post-war family homes further out. The product is the same; how we approach the fitting around it isn't."
+    },
+    {
+      "heading": "Carrier frame fixing: masonry versus stud",
+      "body": "Correct frame selection and structural fixing matter more with Geberit than with most brands, because the full weight of the cistern and pan sits on the carrier frame rather than the wall tiles. In Windsor's older town houses, a solid masonry wall can take that fixing well once we've confirmed it, but access up a narrow period staircase limits how much material and how large a frame we can move through the building at once. Further out, where stud partitions are more common, the frame fixing needs checking against the stud layout and noggin positions before the wall closes up, rather than assumed to be solid behind the plasterboard."
+    },
+    {
+      "heading": "Why this split matters for planning",
+      "body": "Close to the Castle and the historic centre, Windsor has a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes, with a scattering of newer residential developments. We plan the delivery and fitting sequence for a Geberit frame differently depending on which of the two we're working in — narrower access changes how much gets delivered at once, and wall type changes how the frame gets fixed."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We work fit-only across Windsor: you choose and supply the Geberit product, and we handle strip-out, first fix, tiling, plumbing and snagging. A £125 survey comes first — useful in Windsor particularly, since it's where we confirm wall type, access route and frame fixing before ordering — and installations start from £3,500. We've been fitting bathrooms for 30 years from our Bracknell base, and repairs start from £200."
+    },
+    {
+      "heading": "Material access through a period staircase",
+      "body": "A narrow period staircase near the Castle and historic centre isn't just an inconvenience — it sets a hard limit on how large a delivery of tile, frame and sanitaryware can go up in one trip, which changes how we sequence a Windsor job compared with a property further out that has wider, more modern access. We plan the delivery schedule around that constraint at survey stage, rather than finding out on day one that materials have to be split into smaller loads than planned."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does it matter whether my Windsor house is period or more modern?",
+      "a": "Yes — older town houses near the centre often have solid masonry walls but narrow staircases limiting material access, while homes further out typically have stud partitions that need checking against the frame's fixing points. We plan around whichever applies to your property."
+    },
+    {
+      "q": "Why does the carrier frame matter so much with Geberit?",
+      "a": "The cistern and pan weight sit entirely on the carrier frame, not the wall tiles, so correct frame selection and structural fixing matter more with Geberit than with most other brands we fit."
+    },
+    {
+      "q": "Do you supply Geberit products, or only fit them?",
+      "a": "We fit only — you choose and supply the Geberit concealed cistern, wall-hung WC or AquaClean shower toilet, and we handle strip-out, first fix, tiling, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "What does a Geberit installation cost in Windsor?",
+      "a": "Fit-only installations start from £3,500, following a £125 survey. Repairs on an existing installation start from £200, with a £500 minimum call-out for emergencies."
+    },
+    {
+      "q": "Does a narrow staircase near the Castle limit what you can fit?",
+      "a": "It limits how much material can go up in one delivery, which we plan for at survey stage, but it doesn't limit which Geberit products can be fitted — it changes the logistics, not the specification."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/geberit/",
+      "anchor": "Geberit bathroom brand page"
+    },
+    {
+      "href": "/areas/windsor/",
+      "anchor": "Bathroom fitting in Windsor"
+    },
+    {
+      "href": "/areas-brands/windsor/",
+      "anchor": "Bathroom brands we fit in Windsor"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet & concealed cistern installation"
+    },
+    {
+      "href": "/services/shower-toilet-installation/",
+      "anchor": "Shower toilet installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "geberit"
+    },
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "Geberit installation Windsor",
+  "secondaryKeywords": [
+    "Geberit bathroom fitter Windsor",
+    "Geberit concealed cistern Windsor",
+    "fit-only Geberit installer"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Geberit x Windsor installer page, a construction-stage detail shot set against exposed period masonry to reflect Windsor's older housing stock. Subject and action: a close-mid shot of a metal carrier frame fixed directly into an exposed brick masonry wall, cistern body mounted, no tiling or boarding closed around it yet, static, no people. Setting and work-stage: a first-fix stage bathroom inside a narrow Georgian town house near Windsor's historic centre, daytime, daylight entering through a small period sash window. Composition: close three-quarter angle on the frame and brick wall, a sliver of the small window and its deep masonry reveal visible at the edge of frame. Light and materials: exposed red brick masonry, galvanised steel carrier frame, brushed nickel pipe fittings, directional daylight through the small window casting a defined shaft of light across the brick. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED lighting of any kind, no staged symmetry, no uniform colour wash, no plants, florals or candles as props, no water shown running, realistic uneven texture and believable dust on the brick rather than a clean showroom finish.",
+    "heroOutputPath": "heroes/brand-town/geberit-windsor-hero.webp",
+    "heroAlt": "A Geberit-style concealed cistern carrier frame fixed into exposed brick masonry at first-fix stage in a Windsor period town house, daylight through a small sash window.",
+    "inline": []
+  }
+}

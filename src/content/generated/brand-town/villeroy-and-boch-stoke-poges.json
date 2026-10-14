@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-stoke-poges/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "stoke-poges",
+  "slug": "villeroy-and-boch-stoke-poges",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer in Stoke Poges | Fit-Only",
+    "description": "Villeroy & Boch sanitaryware, baths and ViClean shower toilet seats, fitted correctly on Stoke Poges' large plots. Fit-only from £3,500, £125 survey first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-stoke-poges/"
+  },
+  "h1": "Villeroy & Boch bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "A village of large plots and substantial houses built up around the identity of Stoke Park's golf and country club, Stoke Poges gives us more room to work with on most bathroom layouts than a smaller property allows — and that extra room is often exactly where a second en-suite or a reconfigured principal bathroom gets added using a Villeroy & Boch ViClean shower toilet seat. We fit Villeroy & Boch sanitaryware, basins, baths and ViClean products sourced through showrooms and retailers, working fit-only from £3,500: you supply the products, we handle the strip-out, first fix, plumbing, tiling and snagging."
+  },
+  "sections": [
+    {
+      "heading": "ViClean shower toilet seats: what the installation actually involves",
+      "body": "A ViClean shower toilet seat adds integrated washing and drying functions to a Villeroy & Boch pan, which means the installation needs a nearby water supply and, usually, a power supply run to the unit — neither of which a standard WC installation requires. We plan both of these at survey stage, before the wall is closed up, because retrofitting a power supply after tiling is finished is a far bigger job than running it during the first fix. In the larger Stoke Poges properties we work in, there's often more flexibility to route a supply discreetly than in a smaller bathroom, but it still has to be planned rather than assumed."
+    },
+    {
+      "heading": "Sanitaryware and basins: the glaze and the frame",
+      "body": "Villeroy & Boch's ceramics are precise and the glaze finishes hold up well over years of use, which is a large part of why the brand keeps appearing across the bathrooms we fit in Stoke Poges' larger properties. The detail that catches people out isn't the ceramic itself, though — it's that Villeroy & Boch doesn't manufacture its own carrier frame, so the flush plate, pan and concealed cistern frame need confirming as compatible generations before any of it is ordered. We check this against the specification at survey, so it's settled before fitting day rather than discovered once the wall is boarded."
+    },
+    {
+      "heading": "Large plots, more layout freedom",
+      "body": "Stoke Poges' housing ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens, and that scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. That flexibility is useful when positioning a Villeroy & Boch suite, but we still confirm what applies to your specific house at the £125 survey rather than assuming it from the plot size alone."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a ViClean shower toilet seat need anything extra fitting behind it?",
+      "a": "Yes — a nearby water supply and usually a power supply, both of which we plan and run during first fix, before the wall is closed up and tiled."
+    },
+    {
+      "q": "Do you supply Villeroy & Boch products for Stoke Poges installations?",
+      "a": "No, we're fit-only. You source the sanitaryware, basins, baths or ViClean products through a showroom or retailer, and we handle the installation from £3,500."
+    },
+    {
+      "q": "Why does the carrier frame matter for a Villeroy & Boch WC?",
+      "a": "Villeroy & Boch doesn't make its own carrier frame, so the pan, flush plate and concealed cistern frame need to be confirmed as matching generations before ordering — we check this at survey, not on fitting day."
+    },
+    {
+      "q": "Can Stoke Poges' larger plots make a second en-suite easier to add?",
+      "a": "Often, yes — the larger, more set-back properties here tend to give more flexibility for relocating waste runs and adding a second en-suite than a terraced house would allow. We confirm what's achievable for your specific house at the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom fitting in Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "anchor": "All bathroom brands we fit in Stoke Poges" },
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation" },
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "stoke-poges" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Stoke Poges",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Stoke Poges",
+    "ViClean shower toilet installer Stoke Poges",
+    "fit-only Villeroy & Boch Buckinghamshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Stoke Poges installer page, a close fixture shot implying the ViClean shower toilet product category without a full room view. Subject and action: a close mid shot of a wall-hung WC pan with its seat lifted, a discreet power cable and flexible supply hose visible running down behind the pan into a service void, work paused before final connection. Setting and work-stage: a part-finished principal en-suite in a substantial Stoke Poges detached house, tiling complete on the wet wall, service void behind the WC still open and un-boxed, daytime. Composition: three-quarter angle at seat height, pan and visible service connections in sharp foreground focus, open service void and tiled wall receding into soft background. Light and materials: dark basalt stone-effect wall tile, matte black flush plate recess trim, bright directional daylight from an unseen high window creating a defined shadow line across the pan, faint construction dust on the floor tile edge. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash, no plants or candles as props, no running water, dark stone tile shows varied matte sheen rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-stoke-poges-hero.webp",
+    "heroAlt": "Close-up of a wall-hung WC pan with service void open behind it, power cable and supply hose visible, during a Villeroy & Boch ViClean installation in a Stoke Poges en-suite.",
+    "inline": []
+  }
+}

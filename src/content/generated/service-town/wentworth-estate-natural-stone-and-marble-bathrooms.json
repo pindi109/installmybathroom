@@ -1,0 +1,100 @@
+{
+  "path": "/areas/wentworth-estate/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only Crema Marfil and natural stone bathroom installation on Wentworth Estate, Virginia Water. Gate access coordinated. From £3,500, £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms on Wentworth Estate",
+  "hero": {
+    "intro": "We install fit-only, luxury bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes from our Bracknell base. A good proportion of those projects specify Crema Marfil or another natural stone rather than porcelain, which changes the planning: deliveries, trade sequencing and site access all need coordinating with the estate and any managing agent, and the stone itself needs its own adhesive, sealing and movement-joint approach. You source the stone, sanitaryware and brassware; we strip out, first-fix, stone-fix, plumb and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Crema Marfil and natural stone: what the material demands",
+      "body": "Crema Marfil is a beige, often heavily veined limestone-marble that's porous and reactive to acidic cleaning products, so it needs a penetrating seal before grouting and again once fully installed, or staining and dulling will show within the first year. Its warm, creamy base tone also makes colour consistency between slabs important to check before fixing, since even stone from the same quarry batch can vary subtly in tone and veining density. The adhesive bed has to be a white, polymer-modified, rapid-set type with controlled moisture release rather than standard grey cementitious adhesive, which can show through as shadowing beneath the paler stone. Movement joints need careful placement too, sized to the slab dimensions rather than to a generic tile-grid spacing, since the goal with a stone like this is usually to keep joints as unobtrusive as the material allows."
+    },
+    {
+      "heading": "Coordinating access on a gated estate",
+      "body": "Wentworth Estate is private and gated, so every delivery of stone, every trade visit and every skip or waste collection needs coordinating with the estate's access arrangements and, in many cases, a managing agent. We build that coordination into the programme from the outset rather than treating it as an afterthought, because a stone job is particularly sensitive to delays — once a substrate is prepped and waiting on a specific batch of slabs, a hold-up at the gate can leave a room out of action for longer than it should be. Being only 15 to 20 minutes from our Bracknell base helps us stay responsive if access timing needs adjusting during the project."
+    },
+    {
+      "heading": "The installation process",
+      "body": "Strip-out comes first, with a check of the existing substrate for level, rigidity and damp. First-fix plumbing is set out to your agreed layout, followed by a waterproofed, rigid substrate suitable for stone's weight. Crema Marfil pieces are dry-laid and checked for tonal consistency before fixing with the correct adhesive, movement joints are set to the slab dimensions, and the stone is sealed after grouting. Sanitaryware and brassware are fitted last, with a full snag before handover, all timed around the estate's access arrangements."
+    },
+    {
+      "heading": "Arranging your survey",
+      "body": "Because gate access and stone-specific sealing both need planning in advance, every project on the estate starts with a £125 paid survey, where we confirm access arrangements alongside the room and stone requirements. Fit-only installations start from £3,500. Call or WhatsApp 07399 651836 to arrange a date."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Crema Marfil or stone, or do I source it?",
+      "a": "We're fit-only, so you source the stone, sanitaryware, brassware and any tiles. We carry out strip-out, first-fix, stone-fixing, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "How do you handle access on a gated estate like Wentworth?",
+      "a": "We coordinate deliveries, trade visits and waste collection with the estate's access arrangements and any managing agent, building this into the programme from the outset so the job runs without delay at the gate."
+    },
+    {
+      "q": "Why does Crema Marfil need sealing?",
+      "a": "It's a porous, reactive limestone-marble that will stain and dull without a penetrating seal applied before grouting and again once fully installed."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from our Bracknell base, which helps us stay responsive if access timing needs adjusting during a project."
+    },
+    {
+      "q": "What does a natural stone bathroom cost on the estate?",
+      "a": "Fit-only installations start from £3,500, with the final figure depending on room size, the stone specified and any layout changes. The £125 paid survey confirms your quote and access arrangements."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation on Wentworth Estate",
+      "href": "/areas/wentworth-estate/"
+    },
+    {
+      "anchor": "Bathroom installation costs on Wentworth Estate",
+      "href": "/bathroom-cost/wentworth-estate/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Virginia Water",
+      "href": "/areas/virginia-water/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Ascot",
+      "href": "/areas/ascot/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Wentworth Estate",
+  "secondaryKeywords": [
+    "Crema Marfil bathroom Wentworth Estate",
+    "marble bathroom installer Virginia Water",
+    "stone bathroom fitter gated estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Wentworth Estate. Subject and action: a finished Crema Marfil marble floor with warm beige tone and fine veining, extending beneath a built-in stone shower bench, surface sealed and complete. Setting and work-stage: a generous ensuite in a gated-estate house, installation finished, shower glass and brassware fitted. Composition: straight-on symmetrical view of the shower recess from the entry point, stone bench and floor leading the eye into the frame, moderate depth of field. Light and materials: bright even daylight from an obscured skylight, warm-neutral tone, stone surface showing honed finish with slight natural sheen variation across veining. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Crema Marfil marble floor and built-in shower bench in a finished bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

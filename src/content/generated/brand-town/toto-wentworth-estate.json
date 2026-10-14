@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "wentworth-estate",
+  "slug": "toto-wentworth-estate",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation on Wentworth Estate, Virginia Water. You buy the fixture, we handle first-fix and estate access. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-wentworth-estate/"
+  },
+  "h1": "TOTO bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. TOTO's Washlet and Neorest ranges are among the most technically involved products we fit, because the electronics sit inside the fixture rather than bolted on afterwards: a Washlet seat adds to a conventional pan, while a Neorest is a single integrated unit replacing the pan, cistern and seat entirely, with different structural and electrical requirements for each. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500, coordinating access with the estate and any managing agent so the programme runs without delay at the gate."
+  },
+  "sections": [
+    {
+      "heading": "Washlet or Neorest — telling us which one matters",
+      "body": "A Washlet is an electronic seat added to an existing or new conventional pan, so the waste run and cistern arrangement generally stay standard, with a power supply routed to the seat the main new element. A Neorest removes that separation entirely, becoming a single sealed unit in place of the pan, cistern and seat together — which means the waste connection, water supply and electrical feed all need agreeing and roughing in before any tiling happens. Knowing which product is specified, or being considered, before we start is what lets us plan the first-fix correctly from day one."
+    },
+    {
+      "heading": "Coordinating with estate access",
+      "body": "Wentworth Estate is private and gated, so every project we run there factors in coordinating with estate security and, where relevant, a managing agent, before deliveries and trade access are arranged. That coordination is planned alongside the survey so that once work starts, the programme isn't held up waiting at the gate — particularly important for a Neorest installation, where the first-fix electrical and plumbing work needs continuous access over several days rather than a single short visit."
+    },
+    {
+      "heading": "What we install from the TOTO range",
+      "body": "Our fit-only service on Wentworth Estate covers TOTO's wall-hung and close-coupled Washlet-compatible pans, the Washlet electronic seats, complete Neorest integrated units, and matching TOTO basins and brassware where specified. You source the products directly from TOTO or an approved retailer; we handle the strip-out of the existing suite, first-fix plumbing and electrics, tiling, connection, testing and snagging. The electronics being built into the fixture, rather than added afterwards, means the first-fix has to be right before anything gets tiled over."
+    },
+    {
+      "heading": "The process: survey, install, price",
+      "body": "We start with a paid survey at £125, where we check the existing waste and water runs, confirm what power is realistically available near the WC position, establish whether the job is a Washlet retrofit or a full Neorest replacement, and agree estate access arrangements for the works that follow. The install itself starts from £3,500, varying with scope, after which we strip out, first-fix, tile, fit and connect the unit, and snag before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle access to a gated property on Wentworth Estate?",
+      "a": "We coordinate with estate security and, where relevant, a managing agent as part of the survey and programme planning, so that deliveries and trade access are agreed before work starts and the job isn't delayed at the gate."
+    },
+    {
+      "q": "How far is Wentworth Estate from your Bracknell base?",
+      "a": "Around 15 to 20 minutes by road, making it one of the closer areas we regularly work in."
+    },
+    {
+      "q": "What's the difference between fitting a Washlet and a Neorest?",
+      "a": "A Washlet is an electronic seat added to a conventional pan with the waste run largely unchanged. A Neorest replaces the pan, cistern and seat as a single integrated unit, requiring the waste, water supply and electrical feed to be planned before tiling starts."
+    },
+    {
+      "q": "Do you supply the TOTO products?",
+      "a": "No, we're fit-only. You buy the Washlet, Neorest, basin or brassware from TOTO or an approved retailer, and we handle strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "How much does a TOTO installation cost on Wentworth Estate?",
+      "a": "Fit-only installations start from £3,500, with the final price depending on whether it's a Washlet retrofit or a full Neorest replacement with additional first-fix work. We confirm pricing after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers on Wentworth Estate",
+      "href": "/areas/wentworth-estate/"
+    },
+    {
+      "anchor": "TOTO installations on Wentworth Estate",
+      "href": "/areas-brands/wentworth-estate/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Wentworth Estate",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Wentworth Estate",
+    "TOTO Washlet installation Virginia Water",
+    "fit-only bathroom installer Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page emphasising discreet, high-end fit-out within a private estate setting. Subject and action: a wall-hung Neorest-style WC unit being connected to its concealed cistern, service panel open with pipework and a single cable neatly routed, no branding visible. Setting and work-stage: an elegant principal en-suite within a substantial estate house, tiling complete, final-fix stage with the fixture not yet fully sealed. Composition: tight three-quarter crop focusing on the fixture and open service panel, shallow depth of field blurring the room beyond. Light and materials: pale concrete-look large-format tiling, brushed brass pipework and shower valve, warm late-afternoon light entering at a low angle through a side window. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-wentworth-estate-hero.webp",
+    "heroAlt": "Wall-hung integrated shower toilet being connected to its concealed cistern in a pale concrete-look bathroom with brushed brass fittings on Wentworth Estate",
+    "inline": []
+  }
+}

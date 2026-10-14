@@ -1,0 +1,72 @@
+{
+  "path": "/areas/ascot/cloakroom-and-wc-installation/",
+  "family": "Service x town",
+  "service": "cloakroom-and-wc-installation",
+  "town": "ascot",
+  "seo": {
+    "title": "Cloakroom & WC Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only cloakroom and downstairs WC installation in Ascot. Under-stairs voids, tight footprints, space-saving fittings. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/cloakroom-and-wc-installation/"
+  },
+  "h1": "Cloakroom & WC installation in Ascot",
+  "hero": {
+    "intro": "A cloakroom isn't a small bathroom — it's a different installation problem. You're fitting a wall-hung WC and a corner or slimline basin into a footprint that was never designed to hold either, and in Ascot that footprint is most often an under-stairs void in a Victorian or Edwardian house, or an awkward hallway corner in one of the area's inter-war and executive-style homes. We handle the strip-out, first fix, tiling, plumbing and snagging; you choose the sanitaryware, brassware and tiles."
+  },
+  "sections": [
+    {
+      "heading": "Why Ascot's housing stock suits a cloakroom conversion",
+      "body": "Ascot grew up around its racecourse, and the housing that followed reflects the wealth that came with it — large detached Victorian and Edwardian houses, solid inter-war family homes, and a good number of newer executive-style builds on generous plots, particularly along the roads running towards Sunningdale and Windsor. For a full bathroom, that extra plot size and structural headroom matters a lot. For a cloakroom, it matters in a different way: these are mostly large houses with an obvious candidate space already sitting unused — an under-stairs void, a redundant store cupboard off the hall, or a boot-room corner — rather than a property where we have to fight for every inch. The scale of the house generally means there's a sensible location to put a WC without disrupting the rest of the floor plan, and because these plots give us more freedom with waste runs than a terraced house would, routing a new drainage line out to the existing stack is rarely the constraint it would be on a smaller build."
+    },
+    {
+      "heading": "What's different about fitting a cloakroom rather than a bathroom",
+      "body": "A cloakroom installation is built around compromise on space, not compromise on quality. We're typically working with a floor footprint well under what a standard bathroom would need, so fittings have to be chosen and positioned deliberately: a wall-hung WC with a concealed cistern to reclaim floor space, a corner basin or a slimline wall-mounted basin instead of a vanity unit, and door swing checked against the WC pan before anything goes in, not after. In an under-stairs void specifically, we're also working with a sloped ceiling line, which affects where the cistern and any shelving can go and often means the WC has to sit at the lower end of the space with the basin at the taller end. None of this is a scaled-down version of a full bathroom fit — it's its own discipline, and getting the layout right on paper before we start is what stops a cloakroom feeling cramped once it's finished."
+    },
+    {
+      "heading": "The installation process",
+      "body": "We start with a paid survey at £125, where we measure the space precisely, confirm where the waste and supply can run, and agree the layout with you before any sanitaryware is ordered. On installation day we strip out whatever's there — often just a cupboard carcass and some old flooring in an under-stairs conversion — then first-fix the pipework and electrics, box in and tile, fit the WC, basin and any extractor fan, and snag the finished space before we leave. Installs of this kind start from £3,500 and the programme is short, because the footprint is small; most of the time on site goes into getting the first fix exactly right given the tight tolerances, not into volume of work."
+    },
+    {
+      "heading": "Book a survey",
+      "body": "If you've got an under-stairs void, a redundant cupboard or a spare hallway corner in your Ascot home and you're weighing it up as a downstairs WC, call or WhatsApp us on 07399 651836 to arrange the £125 survey. We'll tell you honestly whether the space works and what it'll take to fit it properly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is an under-stairs void big enough for a cloakroom WC?",
+      "a": "Often, yes — it's one of the most common spaces we convert in Ascot's older detached houses. The limiting factor is usually headroom at the low end rather than floor area, which is why we survey before confirming a layout."
+    },
+    {
+      "q": "Do you supply the WC and basin?",
+      "a": "No — we're a fit-only installer. You choose and purchase the sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can you move the waste run if the stack isn't nearby?",
+      "a": "In most cases yes. Ascot's larger plots and detached layouts generally give us more flexibility to route a new waste connection than a terraced property would, though the exact run is confirmed at survey, not guessed in advance."
+    },
+    {
+      "q": "What does a cloakroom installation cost?",
+      "a": "Our fit-only installs start from £3,500, with the exact price depending on the layout, the extent of first-fix work required and the fittings you've specified. The £125 survey gives you a firm figure before you commit."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation service details" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom installation across Ascot" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/sunningdale/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Sunningdale" },
+    { "href": "/areas/windsor/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "ascot" } ],
+  "primaryKeyword": "cloakroom WC installation Ascot",
+  "secondaryKeywords": [ "downstairs toilet installation Ascot", "under stairs WC Ascot", "cloakroom fitter Ascot" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an Ascot cloakroom and WC installation page. Subject and action: a finished, compact cloakroom with a wall-hung WC with concealed cistern and a corner-mounted basin, fittings clean and dry, nothing in use. Setting and work-stage: fully completed under-stairs style cloakroom with a sloped section of ceiling visible on one side, hexagonal mosaic floor tile, matte white wall tiling to dado height above painted plaster. Composition: low camera angle looking up slightly to show the sloped ceiling line and the compact footprint, WC and basin both visible in frame. Light and materials: soft natural morning light from a small frosted window, brushed brass taps and towel ring, matte white sanitaryware, believable soft sheen on tile rather than hard gloss. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no running water, varied natural sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-cloakroom-and-wc-installation-hero.webp",
+    "heroAlt": "Finished cloakroom with wall-hung WC and corner basin fitted into an under-stairs void in an Ascot home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

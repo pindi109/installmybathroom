@@ -1,0 +1,76 @@
+{
+  "path": "/areas/stoke-poges/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Walk-In Shower Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation in Stoke Poges. Frameless enclosures, level-access trays, correct tanking and falls, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club identity sitting alongside a mix of older period detached homes and more recent executive-style builds, many set well back from the road on sizeable gardens. That scale of property shapes how we approach a walk-in shower installation here, particularly when the existing waste run doesn't suit a level-access tray or a doorway needs widening for a step-free threshold. We're fit-only: you choose the frameless or semi-frameless enclosure, tray and tiles, we handle strip-out, tanking, tiling, plumbing and snagging."
+  },
+  "sections": [
+    {
+      "heading": "A walk-in shower installation, not a full wet room",
+      "body": "It's worth being clear on scope: a walk-in shower installation forms a defined tray area, usually level-access or low-profile, within a frameless or semi-frameless glass enclosure — it isn't the same job as tanking and falling an entire wet room floor, and it isn't an en-suite build from scratch. We strip out what's there, set the new tray with the correct fall to waste, tank the shower area and upstands to the right height, tile, then fit the enclosure and fittings you've sourced. The glass is what makes or breaks the finished look, and glass only sits correctly on floors and walls that are genuinely level and square underneath the tiling."
+    },
+    {
+      "heading": "Why Stoke Poges' larger plots give us more room to work with",
+      "body": "The substantial houses typical of Stoke Poges — whether older period detached homes or the more recent executive-style builds set back on bigger gardens — generally give us far more room to manoeuvre on layout than a smaller, more tightly built property would allow. Relocating a waste run to suit a level-access tray, widening a doorway for step-free access, or working around an existing en-suite arrangement off a principal bedroom rarely runs into the kind of structural constraints you'd meet in a terraced house. That doesn't remove every complication — older properties still have their own floor and wall quirks — but it does mean fewer compromises on tray size and enclosure layout."
+    },
+    {
+      "heading": "What we check before committing to a layout",
+      "body": "Before any tray position or waste run is finalised, we confirm floor levels and fall, check whether the existing waste can be reused or needs moving, and look at wall construction to understand what the tanking and fixing system need to cope with. On larger, older Stoke Poges properties this sometimes means more care around suspended timber floors and original joist layout than a newer build would need, which is exactly why we survey in person rather than quote from photos or a floor plan alone."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "Every job starts with a paid £125 survey covering floor levels, waste position, wall construction and access. From there we strip out the existing shower or bath, carry out any first-fix plumbing changes the new waste position needs, tank the shower area properly, tile, then fit the tray, enclosure and brassware you've sourced, finishing with a full snag check. Installs start from £3,500 on a fit-only basis — you buy the products, we deliver the installation."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a walk-in shower installation disrupt the rest of the house in a Stoke Poges property?",
+      "a": "Generally less than you'd expect. The larger plots and substantial houses typical of Stoke Poges usually give us room to relocate a waste run or widen a doorway without the structural limits a terraced house would present, which tends to keep disruption contained to the bathroom itself."
+    },
+    {
+      "q": "Do you supply the tray and enclosure?",
+      "a": "No, we're fit-only. You source the tray, enclosure, tiles and brassware; we carry out strip-out, first-fix, tanking, tiling, plumbing and snagging to install them correctly."
+    },
+    {
+      "q": "Can an older period house in Stoke Poges have a level-access tray fitted?",
+      "a": "Often yes, though it depends on the existing floor build-up. We check this at survey, since suspended timber floors in older properties need more careful handling around joists than solid concrete floors do."
+    },
+    {
+      "q": "What's the difference between a walk-in shower and a wet room?",
+      "a": "A walk-in shower uses a defined tray, usually level-access, inside a frameless or semi-frameless enclosure. A wet room tanks and falls the entire floor with no raised tray at all — a larger-scope job."
+    },
+    {
+      "q": "How much does a walk-in shower installation cost in Stoke Poges?",
+      "a": "Installs start from £3,500 as a fit-only price covering strip-out, first-fix, tanking, tiling, plumbing and snagging, with the exact figure confirmed after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom installation in Stoke Poges" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/gerrards-cross/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Gerrards Cross" },
+    { "href": "/areas/windsor/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "stoke-poges" } ],
+  "primaryKeyword": "walk-in shower installation Stoke Poges",
+  "secondaryKeywords": [ "frameless shower enclosure Stoke Poges", "level access shower installer Buckinghamshire", "walk-in shower fitter Stoke Poges" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Stoke Poges walk-in shower installation service page. Subject and action: a finished frameless walk-in shower enclosure with polished chrome fixings and a minimal glass return, shown as a completed installation. Setting and work-stage: a generously proportioned bathroom in a substantial detached house, fully finished, with a view through to a second sink area suggesting a larger room beyond. Setting continued: natural stone-look floor tiles underfoot. Composition: wide shot taken slightly from above and to one side, showing the full tray and glass panel with floor tiling leading the eye towards the enclosure. Light and materials: soft overcast daylight from a tall window, large travertine-effect porcelain wall tiles, chrome fixings with a crisp but not mirror-polished sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished frameless walk-in shower with polished chrome fixings in a spacious Stoke Poges bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "path": "/areas/sunningdale/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Walk-In Shower Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation in Sunningdale. Frameless and semi-frameless enclosures, level-access trays, correct falls and tanking. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties around them — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. The generous plot sizes typical of the area usually mean more flexibility on bathroom layout than a terraced or semi-detached property allows, which matters when a walk-in shower installation needs the waste run moved to suit a level-access tray. We're fit-only: you supply the frameless or semi-frameless enclosure, tray and tiles; we strip out, tank, tile, plumb and snag."
+  },
+  "sections": [
+    {
+      "heading": "What counts as a walk-in shower installation",
+      "body": "This is a single-area job: forming a level-access or low-profile tray with the right fall to waste, tanking the shower area and adjoining upstands properly, tiling, then fitting the frameless or semi-frameless glass enclosure you've chosen. It's a different scope to a full wet room, which tanks and falls an entire floor with no raised tray, and a different scope to building an en-suite from scratch. Getting the frameless look to actually read as frameless depends on the floor and walls being properly level and square before tiling starts — the glass has no tolerance for an out-of-true corner."
+    },
+    {
+      "heading": "Why Sunningdale's plot sizes help with layout",
+      "body": "The generous plots common around Sunningdale's golf courses and private roads usually give us more flexibility than a terraced or semi-detached property allows. Moving a waste run by a few feet to get a tray into the best position relative to natural light or door swing is rarely constrained by a neighbouring structure the way it would be in a tighter semi. That flexibility matters most on level-access installations, where the waste position and floor build-up both need to accommodate the fall required — more room to adjust the layout means fewer forced compromises on tray size or enclosure shape."
+    },
+    {
+      "heading": "Installation considerations for a frameless or semi-frameless enclosure",
+      "body": "We check floor levels, existing waste position and wall construction before confirming a layout, because the fixing system for a frameless enclosure needs to match the glass thickness specified by the manufacturer, and a level-access tray needs enough depth in the floor build-up to achieve the correct fall without creating a trip hazard at the threshold. On properties with gated or private road access, we also confirm delivery logistics for glass and trays at survey stage, since these items need careful handling on site."
+    },
+    {
+      "heading": "The process from survey to finish",
+      "body": "We start with a paid £125 survey to check floor levels, waste, wall construction and access. Then: strip-out of the existing shower or bath, first-fix plumbing changes if the waste is moving, tanking, tiling, then fitting the tray, enclosure and brassware you've sourced, finished with a full snag check. Installs start from £3,500 on a fit-only basis — the products are yours to choose, the installation is ours to get right."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Sunningdale's housing stock make a walk-in shower installation easier?",
+      "a": "Generally yes. The generous plots typical of the area give more flexibility on moving a waste run or repositioning a tray than a terraced or semi-detached property would allow, which usually means fewer layout compromises."
+    },
+    {
+      "q": "Do you supply the enclosure and tray?",
+      "a": "No, we're fit-only. You choose and buy the enclosure, tray, tiles and brassware, and we carry out the strip-out, first-fix, tanking, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What's the difference between a walk-in shower and a wet room installation?",
+      "a": "A walk-in shower uses a defined tray, usually level-access, within a frameless or semi-frameless enclosure. A wet room tanks and falls the whole floor with no raised tray — a larger job in scope and disruption."
+    },
+    {
+      "q": "Can you access properties on private or gated roads?",
+      "a": "Yes, we confirm access and delivery logistics for glass and trays at the survey stage, since these are items that need careful handling and clear access arrangements."
+    },
+    {
+      "q": "How much does a walk-in shower installation cost?",
+      "a": "Installs start from £3,500 on a fit-only basis, covering strip-out, first-fix, tanking, tiling, plumbing and snagging, with the final figure confirmed after survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation in Sunningdale" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/ascot/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Ascot" },
+    { "href": "/areas/virginia-water/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "walk-in shower installation Sunningdale",
+  "secondaryKeywords": [ "frameless shower enclosure Sunningdale", "level access shower installer Berkshire", "walk-in shower fitter Sunningdale" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Sunningdale walk-in shower installation service page. Subject and action: a finished semi-frameless walk-in shower enclosure with a brushed nickel frame and level-access tray, shown as a completed installation. Setting and work-stage: a large en-suite style bathroom with a view of parkland-green light filtering in, suggesting proximity to mature grounds, fully finished with no construction debris. Composition: a low, slightly angled viewpoint emphasising the height of the glass panel and the clean line of the tray edge against dark floor tiles. Light and materials: warm late-afternoon light through a frosted window, dark charcoal large-format floor tiles contrasted with pale stone-effect wall tiles, nickel fixings with a brushed rather than mirror finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished semi-frameless walk-in shower with brushed nickel frame in a Sunningdale en-suite bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

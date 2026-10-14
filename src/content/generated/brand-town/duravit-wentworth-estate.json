@@ -1,0 +1,77 @@
+{
+  "path": "/installer/duravit-wentworth-estate/",
+  "family": "Brand × town",
+  "brand": "duravit",
+  "town": "wentworth-estate",
+  "slug": "duravit-wentworth-estate",
+  "seo": {
+    "title": "Duravit Bathroom Installation on Wentworth Estate | Fit-Only",
+    "description": "Fit-only Duravit bathroom installation on Wentworth Estate, Virginia Water — SensoWash shower toilets and ME by Starck suites, with access and delivery coordinated, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/duravit-wentworth-estate/"
+  },
+  "h1": "Duravit bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Wentworth Estate's gated access means every delivery onto the estate — including the frame and sanitaryware for a Duravit installation — has to be coordinated with the estate and, in a number of cases, a managing agent, so a scheduled delivery slot isn't missed and the programme doesn't lose a day at the gate. That makes the one decision that has to be settled before anything is ordered even more important here than elsewhere: whether a wall-hung pan goes onto Duravit's own DuraSystem frame or a standard concealed cistern frame, because the two aren't interchangeable once a stud wall is boarded, and a frame ordered to the wrong specification means a second trip through the gate to put it right. Duravit sanitaryware comes up from time to time on Wentworth Estate projects, generally specified through a showroom as a SensoWash shower toilet seat or a full ME by Starck suite, and we build the estate's access requirements into the programme from survey stage rather than discovering them once a van's already been turned away."
+  },
+  "sections": [
+    {
+      "heading": "What we fit from Duravit",
+      "body": "Duravit sanitaryware is among the ranges we fit on Wentworth Estate, generally specified through a showroom rather than bought off the shelf. A SensoWash shower toilet seat, which adds a washlet function to a wall-hung pan, and a full ME by Starck suite — basin, WC and furniture specified as a coordinated range — are the two that come up most. We're fit-only throughout: you choose and supply the Duravit products, and we handle the strip-out, frame installation, first fix, tiling and plumbing."
+    },
+    {
+      "heading": "Getting the frame right before it comes through the gate",
+      "body": "Duravit offers its own DuraSystem frame for some wall-hung pans, as well as compatibility with a standard concealed cistern frame, and the two aren't interchangeable once a wall is boarded. On an estate where every delivery has to be booked in and coordinated with a managing agent, that decision needs to be right the first time — a wrong frame ordered to the wrong specification doesn't just mean a delay in the build, it means rearranging an access slot to get a replacement through the gate. We confirm the frame route at survey stage, before anything is ordered, specifically to avoid that."
+    },
+    {
+      "heading": "Fit-only, access coordinated for you",
+      "body": "We work fit-only on Wentworth Estate: you source the Duravit sanitaryware, brassware, tiles and furniture, and we strip out, first-fix, tile, plumb and snag, from £3,500, coordinating estate and managing agent access as part of the programme. A £125 survey confirms the frame route and the delivery and access detail before anything is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you handle access and delivery coordination for Wentworth Estate?",
+      "a": "Yes — we coordinate with the estate and, where applicable, a managing agent, to book delivery and access slots as part of the programme, so the job isn't held up at the gate."
+    },
+    {
+      "q": "What's the DuraSystem frame, and why does it matter here?",
+      "a": "DuraSystem is Duravit's own frame for some wall-hung pans; others are compatible with a standard concealed cistern frame. They aren't interchangeable once a wall is boarded, which matters more on an estate where a replacement delivery means rebooking an access slot."
+    },
+    {
+      "q": "Do you supply Duravit sanitaryware, or do I need to source it?",
+      "a": "We're fit-only, so you source the Duravit products — usually through a showroom — and we handle the installation."
+    },
+    {
+      "q": "Can you fit a SensoWash shower toilet seat on Wentworth Estate?",
+      "a": "Yes. It needs a power supply and a water feed run to the pan, which we plan for at first fix."
+    },
+    {
+      "q": "What does Duravit installation cost on Wentworth Estate?",
+      "a": "From £3,500, fit-only. A £125 survey confirms the frame route and access requirements before we quote."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/duravit/", "anchor": "More on the Duravit sanitaryware we fit" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "All the bathroom brands we fit on Wentworth Estate" },
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "wentworth-estate" },
+    { "file": "brands.json", "id": "duravit" }
+  ],
+  "primaryKeyword": "Duravit bathroom installation Wentworth Estate",
+  "secondaryKeywords": [
+    "Duravit installer Wentworth Estate",
+    "Duravit fitter Virginia Water",
+    "Duravit bathroom fitter gated estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Duravit x Wentworth Estate installer page, implying Duravit's frame and sanitaryware delivery and staging process, tying to the page's theme of coordinated estate access. Subject and action: a close shot of an unboxed concealed cistern frame and a wall-hung WC pan staged together on a dust sheet, ready to be carried in for fitting, packaging material folded neatly to one side. Setting and work-stage: the hallway of a part-renovated Wentworth Estate house just inside the front door, early evening, a single warm interior ceiling light providing the main light source. Composition: close three-quarter angle looking down at the staged frame and pan on the dust sheet, hallway skirting and a section of Carrara marble flooring visible at the edges, frame and pan sharply focused in the foreground. Light and materials: Carrara marble hallway flooring, matte black frame fittings and waste components, warm single ceiling light casting an uneven pool of light with the hallway's far end falling into soft shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures or packaging, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble floor with faint scuff marks consistent with a live building project.",
+    "heroOutputPath": "heroes/brand-town/duravit-wentworth-estate-hero.webp",
+    "heroAlt": "A Duravit-style concealed cistern frame and WC pan staged on a dust sheet over Carrara marble flooring in a Wentworth Estate hallway, warm evening light, ready for fitting.",
+    "inline": []
+  }
+}

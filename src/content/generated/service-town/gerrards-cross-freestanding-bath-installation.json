@@ -1,0 +1,80 @@
+{
+  "path": "/areas/gerrards-cross/freestanding-bath-installation/",
+  "family": "Service x town",
+  "service": "freestanding-bath-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Freestanding Bath Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only freestanding bath installation in Gerrards Cross: waste routing, floor loading checks and positioning, from £3,500. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/freestanding-bath-installation/"
+  },
+  "h1": "Freestanding bath installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. A freestanding bath is one of the most specific jobs we take on: positioning the bath, routing its waste and overflow, and confirming the floor underneath can take the weight once it's full, before anything else goes back together. You source the bath, filler and waste fittings; we handle the strip-out, first-fix, tiling, plumbing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What makes a freestanding bath a different job",
+      "body": "A panelled bath against a wall hides its pipework behind a simple front panel and ties into plumbing that's usually already nearby. A freestanding bath doesn't have that luxury — the waste, overflow and filler all have to reach wherever the bath has been positioned, which is often away from every wall as the centrepiece of the room. That means the waste run is usually longer and more exposed than on a standard bath, and it has to be planned before the floor goes back down, not worked around afterwards. Getting the position agreed at survey stage is what keeps the pipework discreet and the bath exactly where it was supposed to sit."
+    },
+    {
+      "heading": "Waste, overflow and floor loading, done properly",
+      "body": "Every freestanding bath installation we do involves the same two checks: where the waste and overflow can run to reach the stack or soil pipe, and whether the floor structure underneath can carry the bath once it's full of water and a person. A full freestanding bath routinely exceeds 200kg, which is a meaningful point load if it's sitting over a span the joists weren't originally sized for. Depending on the existing floor, the waste either runs through a shallow raised plinth built around the bath's base, or through a section of floor opened up, re-routed, and reinstated. Neither approach is unusual — it's a normal part of fitting a bath that doesn't sit flush against a wall."
+    },
+    {
+      "heading": "Coordinating a job 25 to 30 minutes from our base",
+      "body": "Gerrards Cross sits close enough to Beaconsfield and Chalfont St Peter, and around half an hour from Bracknell, that we schedule it as a standard day trip for survey, delivery coordination and the installation itself — there's no premium or compromise on attention because of the distance. Because you're sourcing the bath, filler and fittings yourself as part of our fit-only model, we talk through delivery timing at survey stage too, since a freestanding bath is usually a single heavy item that needs to arrive on-site before, or very close to, the day we're ready to position it, rather than sitting in the way of the strip-out."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "We begin with a £125 paid survey to check the floor, agree the bath's position, and plan the waste and overflow route. Installation follows with strip-out of the existing bathroom, first-fix plumbing to the new position, any floor reinforcement or plinth work the survey flagged, tiling, then the bath itself goes in, gets connected, and is checked over before we sign it off. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the freestanding bath for jobs in Gerrards Cross?",
+      "a": "No. We're a fit-only installer, so you choose and buy the bath, filler, waste and overflow from a retailer or supplier of your choice. We handle everything from strip-out through to the final plumbed-in installation."
+    },
+    {
+      "q": "Does the travel distance from Bracknell affect scheduling?",
+      "a": "No. Gerrards Cross is around 25 to 30 minutes from our base, which we schedule as a standard working day for survey, delivery coordination and installation — it doesn't change the quality of the work or how we plan the job."
+    },
+    {
+      "q": "Can any bathroom floor take a freestanding bath?",
+      "a": "Most can, but it has to be checked rather than assumed, since a full freestanding bath is a significant point load. We assess the floor structure at survey and confirm whether the existing joists are adequate or whether some reinforcement is needed before positioning the bath."
+    },
+    {
+      "q": "What's involved in routing the waste for a freestanding bath?",
+      "a": "The waste and overflow need a route from the bath to the existing stack or soil pipe, which usually means running pipework either beneath a raised plinth under the bath or through an opened and reinstated section of floor, depending on where the bath sits relative to the existing plumbing."
+    },
+    {
+      "q": "What does a freestanding bath installation cost?",
+      "a": "Our fit-only installs start from £3,500, with the exact cost depending on the extent of floor work, waste routing and any other work carried out alongside the bath. We confirm a firm figure after the paid survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/freestanding-bath-installation/", "anchor": "More on our freestanding bath installation service" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom installation across Gerrards Cross" },
+    { "href": "/guides/bath-installation-cost-uk/", "anchor": "What does a bath installation cost in the UK?" },
+    { "href": "/areas/stoke-poges/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Stoke Poges" },
+    { "href": "/areas/windsor/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "freestanding bath installation Gerrards Cross",
+  "secondaryKeywords": [
+    "freestanding bath fitter Gerrards Cross",
+    "freestanding bath plumbing Buckinghamshire",
+    "fit-only bathroom installer Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Gerrards Cross freestanding bath installation service page. Subject and action: a finished freestanding bath, high-gloss white acrylic, positioned against a single wall with a matte black wall-mounted bath filler already connected. Setting and work-stage: a newly completed compact ensuite bathroom with sloped ceiling detail, renovation complete, no tools or materials left out. Composition: straight-on mid-distance shot framing the bath centrally with dark herringbone floor tiles leading the eye toward it. Light and materials: warm late-afternoon light through a small window, dark charcoal floor tiles contrasting with pale wall tiles. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-freestanding-bath-installation-hero.webp",
+    "heroAlt": "Freestanding bath installed in a compact ensuite in a Gerrards Cross home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

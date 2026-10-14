@@ -1,0 +1,70 @@
+{
+  "path": "/areas/sunningdale/ensuite-installation/",
+  "family": "Service × town",
+  "service": "ensuite-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "En-Suite Installation in Sunningdale | Fit-Only From £3,500 | Install My Bathroom",
+    "description": "Fit-only en-suite installation across Sunningdale's gated and private roads — stud wall partitions, tanking, tiling and second fix from £3,500. £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/ensuite-installation/"
+  },
+  "h1": "En-suite installation in Sunningdale",
+  "hero": {
+    "intro": "A good number of the houses we work in around Sunningdale sit on private or gated roads close to the golf courses that share the village's name, and before a single tile is ordered for an en-suite, we confirm access arrangements alongside the technical scope — delivery vehicles, parking, and sometimes a managing agent or neighbour to coordinate with, all of which affects how the programme is planned day to day. The houses themselves are a mix of Victorian and Edwardian properties, inter-war family homes and more recent executive-style builds, generally on generous plots that give far more flexibility on layout than a terraced or semi-detached property would allow — moving a waste run a few feet to serve a new en-suite is rarely constrained by a neighbouring structural wall."
+  },
+  "sections": [
+    {
+      "heading": "Gated roads and site access",
+      "body": "Private and gated roads around Sunningdale mean access is confirmed as part of the survey, not assumed from the postcode — some properties need advance notice given to a gatehouse or managing agent, and delivery and waste-removal logistics are planned around that from day one. This doesn't change the technical work itself, but it does change how the programme is scheduled, and getting it wrong on day one of an 8 to 12 working day project causes delays that are entirely avoidable with a bit of advance coordination."
+    },
+    {
+      "heading": "What generous plots give us to work with",
+      "body": "In a typical Sunningdale house on a larger plot, forming or reconfiguring an en-suite usually has more room to manoeuvre than a tighter property allows. A waste run can often be relocated a few feet to serve a repositioned shower or basin without hitting a structural wall it can't move around, and a stud wall partition for a new en-suite off a bedroom corner is rarely limited by what's load-bearing nearby. We confirm this property by property at survey rather than assuming it from the plot size alone — some older Victorian or Edwardian houses still have solid masonry walls worth checking before any partition work is priced."
+    },
+    {
+      "heading": "Technical standards and process",
+      "body": "Whatever the plot size, the room still needs full-height tanking in the shower enclosure, a tested fall to the waste, and extraction sized to Part F guidance with ducting run as directly as possible. We start with a £125 survey, confirm your layout and drainage route, then proceed through first fix, tanking, tiling, second fix and snagging — protecting bedroom carpets and furniture throughout. Book a survey if you're planning an en-suite anywhere in Sunningdale and we'll confirm access, drainage and layout together before you order any products."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need advance notice to access gated roads in Sunningdale?",
+      "a": "Often, yes — some properties require notifying a gatehouse or managing agent ahead of delivery days. We confirm this at survey so it's built into the schedule rather than causing delays once work starts."
+    },
+    {
+      "q": "Can you move a waste run to reposition a shower or basin in a Sunningdale en-suite?",
+      "a": "In many of the larger-plot properties we see, yes — there's generally more flexibility than a terraced house would allow. We confirm the specific route and any structural constraints at the £125 survey."
+    },
+    {
+      "q": "How long does an en-suite installation take in Sunningdale?",
+      "a": "Typically 8 to 12 working days for a straightforward en-suite, from strip-out or partition through to tanking, tiling, second fix and snagging."
+    },
+    {
+      "q": "What's included in the £125 survey fee?",
+      "a": "We measure floor area, check drainage route, water pressure and access — including any gated-road logistics specific to your property — and confirm a written scope and fixed quote. The fee is deducted from your project cost if you proceed."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost UK guide" },
+    { "href": "/areas/ascot/ensuite-installation/", "anchor": "En-suite installation in Ascot" },
+    { "href": "/areas/wentworth-estate/ensuite-installation/", "anchor": "En-suite installation on Wentworth Estate" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "en-suite installation Sunningdale",
+  "secondaryKeywords": ["ensuite fitters Sunningdale", "en-suite bathroom Sunningdale", "ensuite conversion Sunningdale"],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sunningdale en-suite installation page, reflecting a gated-road executive property. Subject and action: a close mid-shot of a finished basin and tap detail set into a dark stone vanity top, a single hand towel neatly folded beside the basin, still water sitting in the basin rather than running. Setting and work-stage: completed en-suite in a large executive-style detached house near Sunningdale's golf courses, daytime, bright midday light. Composition: close-to-fixture mid shot from slightly above the basin, tap and vanity top filling the frame, mirror reflecting a soft blur of ceiling rather than any fixture or text. Light and materials: dark basalt/anthracite stone vanity top against pale porcelain wall tiling, brushed nickel basin mixer, bright midday daylight from an unseen window mixing with reflected light off the stone's matte-honed surface, uneven and directional rather than flat. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror edge, no catalog-symmetrical twin basins, no uniform gold colour wash, no hanging plants, florals or arranged candles, no tap shown running, varied and believable sheen on the stone rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-ensuite-installation-hero.webp",
+    "heroAlt": "Close shot of a dark basalt vanity top with a brushed nickel basin mixer in a finished en-suite near Sunningdale's golf courses, lit by bright midday daylight.",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

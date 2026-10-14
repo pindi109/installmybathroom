@@ -1,0 +1,77 @@
+{
+  "path": "/installer/duravit-virginia-water/",
+  "family": "Brand × town",
+  "brand": "duravit",
+  "town": "virginia-water",
+  "slug": "duravit-virginia-water",
+  "seo": {
+    "title": "Duravit Bathroom Installation in Virginia Water | Fit-Only",
+    "description": "Duravit sanitaryware, SensoWash shower toilets and ME by Starck suites fitted across Virginia Water's larger homes. Fit-only installation from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/duravit-virginia-water/"
+  },
+  "h1": "Duravit bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Properties in Virginia Water tend to share a few things: large plots, long driveways, and in a number of cases gated or private road access, with houses ranging from substantial period builds to more recent executive-style homes near the Wentworth Estate's golf courses. That scale generally gives us room to reposition a shower to make better use of natural light, or move a waste run to accommodate a freestanding bath, without running into a structural wall that can't move — and the same flexibility applies when a Duravit suite is going in. Whether a wall-hung WC sits on Duravit's own DuraSystem frame or a standard concealed cistern frame is a decision that's easier to get right when the room's layout isn't fixed by existing pipework, and a full ME by Starck suite — basin, WC and furniture specified as a coordinated range — generally reads better positioned to make the most of a room's natural light than wherever a previous bathroom happened to leave the plumbing. We see Duravit specified regularly in Virginia Water, generally through a showroom, whether that's a SensoWash shower toilet seat added to a single WC or a full ME by Starck suite running through an entire bathroom."
+  },
+  "sections": [
+    {
+      "heading": "What we fit from Duravit",
+      "body": "Duravit sanitaryware is one of the ranges that comes up often in Virginia Water, generally specified through a showroom as part of a considered design rather than bought off the shelf. A SensoWash shower toilet seat, which adds a washlet function to a wall-hung pan, and a full ME by Starck suite are the two we fit most. We're fit-only throughout: you choose and supply the Duravit products, and we handle the strip-out, frame, first fix, tiling and plumbing."
+    },
+    {
+      "heading": "Repositioning for light, and the frame that follows",
+      "body": "When a bathroom or en-suite is being reworked to make better use of natural light — moving a shower away from an internal wall towards a window, for example — the WC and basin positions usually move with it. That's exactly the point at which the Duravit frame decision needs settling: DuraSystem, Duravit's own frame for some wall-hung pans, versus a standard concealed cistern frame for others. The two aren't interchangeable once a stud wall is boarded, so we confirm which route the specific pan needs at survey stage, before the new layout is built and the frame goes in."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We work fit-only across Virginia Water: you source the Duravit sanitaryware, brassware, tiles and furniture, and we strip out, first-fix, tile, plumb and snag, from £3,500. A £125 survey confirms the frame route and the new layout before anything is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reposition a shower or WC to make better use of natural light?",
+      "a": "Often, yes — Virginia Water's larger plots generally give more flexibility to move a waste run than a smaller property allows, so this is something we plan for at survey stage."
+    },
+    {
+      "q": "What's the DuraSystem frame, and why does it matter?",
+      "a": "DuraSystem is Duravit's own frame for some wall-hung pans. Other pans are compatible with a standard concealed cistern frame instead. They aren't interchangeable once a wall is boarded, so we confirm the right one before fitting starts."
+    },
+    {
+      "q": "Do you supply Duravit sanitaryware, or do I source it myself?",
+      "a": "We're fit-only, so you source the Duravit products — usually through a showroom — and we handle the installation, from strip-out to snagging."
+    },
+    {
+      "q": "Can you fit a full ME by Starck suite?",
+      "a": "Yes. We fit it as a coordinated range — basin, WC and furniture — and plan the frame and layout around where it will sit in the room."
+    },
+    {
+      "q": "What does Duravit installation cost in Virginia Water?",
+      "a": "From £3,500, fit-only. A £125 survey confirms the scope and frame route before we quote."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/duravit/", "anchor": "More on the Duravit sanitaryware we fit" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom fitting in Virginia Water" },
+    { "href": "/areas-brands/virginia-water/", "anchor": "All the bathroom brands we fit in Virginia Water" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" },
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom and WC installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "virginia-water" },
+    { "file": "brands.json", "id": "duravit" }
+  ],
+  "primaryKeyword": "Duravit bathroom installation Virginia Water",
+  "secondaryKeywords": [
+    "Duravit installer Virginia Water",
+    "Duravit fitter Surrey",
+    "ME by Starck installation Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Duravit x Virginia Water installer page, implying Duravit's concealed-frame installation through a mid first-fix detail shot near natural light, tying to the page's theme of repositioning for daylight. Subject and action: a mid shot of a concealed cistern frame and flush access plate positioned on a stud wall directly beside a window opening, frame upright and braced, no pan yet attached. Setting and work-stage: a part-reconfigured bathroom mid first-fix in a large Virginia Water house, daytime, soft natural daylight flooding in through the adjacent window opening. Composition: mid-distance three-quarter angle showing the frame against the window light, stud wall and exposed timber studs either side, frame in clear focus with the window's light slightly overexposed at the edge of frame. Light and materials: travertine floor tile laid in front of the stud wall, brushed chrome flush access plate and frame fittings, soft natural daylight entering unevenly from the window side creating a bright side and a shadowed side across the frame. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the travertine with visible natural pitting rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/duravit-virginia-water-hero.webp",
+    "heroAlt": "A Duravit-style concealed cistern frame braced on a stud wall beside a window opening on travertine flooring, soft daylight, mid first-fix in a Virginia Water bathroom.",
+    "inline": []
+  }
+}

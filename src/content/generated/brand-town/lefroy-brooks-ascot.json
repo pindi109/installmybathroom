@@ -1,0 +1,77 @@
+{
+  "path": "/installer/lefroy-brooks-ascot/",
+  "family": "Brand × town",
+  "brand": "lefroy-brooks",
+  "town": "ascot",
+  "slug": "lefroy-brooks-ascot",
+  "seo": {
+    "title": "Lefroy Brooks Installer in Ascot | Fit-Only From £3,500 | Install My Bathroom",
+    "description": "Lefroy Brooks taps, shower valves and sanitaryware installed fit-only in Ascot from £3,500. You supply the products; we handle the exposed-pipework fit properly.",
+    "canonical": "https://installmybathroom.co.uk/installer/lefroy-brooks-ascot/"
+  },
+  "h1": "Lefroy Brooks installation in Ascot",
+  "hero": {
+    "intro": "Ascot's large Victorian, Edwardian and executive-style houses give a Lefroy Brooks installation something most modern renovations don't get: room to let the pipework be part of the design, not an afterthought squeezed behind a panel. Lefroy Brooks builds its taps, shower valves and sanitaryware around exposed pipework, cross-head handles and period-inspired profiles rather than the concealed, minimal fittings most modern brassware favours — which means the fitting itself has to be as considered as the product. This page covers what Lefroy Brooks is known for, what we install from the range, how a typical Ascot property's generous plot affects that installation, and how our fit-only service works if you've already chosen or are considering the brand."
+  },
+  "sections": [
+    {
+      "heading": "What Lefroy Brooks is known for",
+      "body": "Lefroy Brooks's reputation rests on traditional-style brassware and sanitaryware that puts the plumbing on display rather than hiding it. Cross-head handles, period-inspired profiles and exposed pipe runs are the brand's signature, and they're deliberately at odds with the concealed, minimal fittings that dominate most contemporary bathroom brassware. That design choice changes what's required on site: every pipe run, bracket and wall fixing has to be set out and finished to be looked at, because once the room is complete, none of it is hidden behind a wall or under a panel."
+    },
+    {
+      "heading": "What we install from the Lefroy Brooks range",
+      "body": "We fit Lefroy Brooks taps, shower valves and sanitaryware as part of our fit-only service — you choose and supply the products, and we handle the strip-out, first fix, tiling, plumbing and snagging that gets them installed properly. Because the range is built around exposed, visible plumbing rather than concealed cisterns and valves, the first-fix stage matters more than it would with a standard modern brand: pipe runs need to be set out and finished to a standard that holds up to being seen, not just tested for a leak-free connection."
+    },
+    {
+      "heading": "Fitting Lefroy Brooks in an Ascot bathroom",
+      "body": "Ascot's housing is built around large detached Victorian and Edwardian houses, substantial inter-war family homes and more recent executive-style builds on generous plots, particularly on the roads running towards Sunningdale and Windsor. That scale of plot generally gives far more freedom on layout than a smaller property allows, and for a Lefroy Brooks installation specifically, that translates into more room to route an exposed pipe run exactly where the design calls for it, rather than compromising the layout to avoid an awkward bracket position. It doesn't make the fit any less exacting — every joint and fixing still has to be set out and finished properly — but it does mean the property itself is less likely to force a compromise on where the pipework sits."
+    },
+    {
+      "heading": "Fit-only installation, your Lefroy Brooks products",
+      "body": "We don't sell or supply Lefroy Brooks products — you source the taps, shower valves and sanitaryware, and we provide the fit-only labour to install them properly, from £3,500 for a straightforward installation. Every job starts with a £125 survey, where we confirm the scope and the specific handling a Lefroy Brooks installation needs given the exposed pipework involved. If you've already got an existing Lefroy Brooks installation that needs attention, repairs start from £200, with a £500 minimum for an emergency call-out; we don't offer standalone regrouting as a repair. Get in touch to book a survey for your Ascot bathroom."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Lefroy Brooks products, or do I need to buy them myself?",
+      "a": "We're a fit-only installer, so you source the Lefroy Brooks taps, shower valves and sanitaryware yourself and we handle the installation — strip-out, first fix, plumbing, tiling and snagging — from £3,500."
+    },
+    {
+      "q": "Why does exposed pipework cost more to fit than a concealed valve?",
+      "a": "Lefroy Brooks's exposed pipe runs, brackets and wall fixings are designed to be seen, so they have to be set out and finished to a visual standard, not just a functional one. That takes more care at first fix than a concealed cistern or valve that's hidden behind tiling."
+    },
+    {
+      "q": "Does Ascot's housing suit a Lefroy Brooks installation?",
+      "a": "Generally, yes. Ascot's large plots and detached Victorian, Edwardian and executive-style houses tend to give more flexibility on layout, which helps when positioning an exposed pipe run exactly where the design calls for it. We confirm the specifics for your property at survey."
+    },
+    {
+      "q": "What if my existing Lefroy Brooks fittings need repair?",
+      "a": "Repairs start from £200, with a £500 minimum for an emergency call-out. We don't offer standalone regrouting — if grout has failed around a Lefroy Brooks fitting, it's usually a sign of a wider issue we'd want to look at properly."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/lefroy-brooks/", "anchor": "Lefroy Brooks brand hub" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Brands we fit in Ascot" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing & first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "lefroy-brooks" },
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "Lefroy Brooks installer Ascot",
+  "secondaryKeywords": [
+    "Lefroy Brooks bathroom Ascot",
+    "Lefroy Brooks taps fitted Ascot",
+    "Lefroy Brooks installation cost Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Ascot Lefroy Brooks installer page, a close/mid product detail shot implying the brand's traditional exposed-pipework style without showing any branding. Subject and action: a wall-mounted traditional-style bath filler with a cross-head handle and exposed riser pipe, mounted above the roll edge of a freestanding bath, water still, no activity. Setting and work-stage: finished bathroom in a large Ascot house, shot framed tight to the fitting and the top third of the bath, mid-morning. Composition: close three-quarter angle shot, filler and exposed pipe run filling the centre-left of frame, bath roll-top edge and a section of wall tiling filling the rest of the foreground, shallow depth of field blurring the far wall. Light and materials: polished aged-brass-finish fitting, honed Carrara marble tiling behind, directional mid-morning daylight from an unseen side window catching the brass unevenly, one soft shadow cast by the riser pipe. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every edge or niche, no catalogue-symmetrical twin fixtures, no single uniform gold colour wash across the whole frame, no hanging ferns or candles as styling props, no running water shown, varied sheen across the brass and marble with believable minor wear.",
+    "heroOutputPath": "heroes/brand-town/lefroy-brooks-ascot-hero.webp",
+    "heroAlt": "Close detail of a traditional cross-head bath filler with exposed riser pipe in aged brass against honed Carrara marble tiling.",
+    "inline": []
+  }
+}

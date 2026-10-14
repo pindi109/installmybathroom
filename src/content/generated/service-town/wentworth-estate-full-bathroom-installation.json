@@ -1,0 +1,80 @@
+{
+  "path": "/areas/wentworth-estate/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Full Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only full bathroom installation on Wentworth Estate from £3,500. Gated access coordinated. £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Wentworth Estate is the private, gated estate in Virginia Water built around Wentworth Club and its golf courses, home of the BMW PGA Championship, and we reach it in around 15 to 20 minutes from our Bracknell base. A full bathroom installation here means stripping a bathroom back to brick and rebuilding it completely — new pipework, tanking, tiling, electrics and ventilation — finished with the suite you've sourced yourself. Because the estate is gated, coordinating access in advance is part of how we plan the job."
+  },
+  "sections": [
+    {
+      "heading": "What a full installation covers",
+      "body": "A full bathroom installation is a complete rebuild of the room, distinct from a repair, a regrout, or replacing a single fixture. The existing suite and tiling are stripped out entirely, waste and supply pipework is renewed or repositioned, the wet areas are tanked, electrics for lighting and extraction are first-fixed, the room is tiled, and the suite you've bought is fitted and snagged in. It's the service for a bathroom that needs a new layout, has failed waterproofing behind old tiles, or needs fixtures the existing pipework can't support. Because the room is stripped back to brick and joist before anything new goes in, it's also the point at which anything hidden behind the old tiling — degraded membrane, dated pipework, or undersized extraction — is found and properly replaced rather than covered over again."
+    },
+    {
+      "heading": "Coordinating access on a gated estate",
+      "body": "Because Wentworth Estate is private and gated, we coordinate access with the estate and, where relevant, your managing agent before work starts, so the programme runs without delay at the gate through strip-out, first-fix, tiling and second-fix. Being around 15 to 20 minutes from our Bracknell base means our trades can attend site regularly across the multi-stage sequence a full installation requires, which keeps the job moving once access is agreed. We'll also confirm delivery windows for the suite, tiles and brassware you've sourced against the estate's own access hours, so a full day of deliveries doesn't get held up by rules that weren't accounted for in the programme."
+    },
+    {
+      "heading": "How the job runs",
+      "body": "We begin every full installation with a paid £125 survey to confirm pipe routes, joist direction and scope before pricing. From there: strip-out, first-fix plumbing and electrics, tanking, tiling, second-fix of your chosen suite, and snagging, with electrics and ventilation fitted to current Part P and Part F standards. As you're sourcing the sanitaryware, brassware, tiles and furniture, we'll agree a delivery schedule at survey stage, coordinated with estate access, so materials reach site when each stage needs them. Skip placement and parking for trade vehicles are confirmed at survey too, since estate rules on where vehicles and waste containers can sit vary by property and need agreeing before strip-out begins."
+    },
+    {
+      "heading": "Book your survey",
+      "body": "To start a full bathroom installation on Wentworth Estate, call or WhatsApp 07399 651836 to arrange the £125 survey. Full installations start from £3,500, and we'll confirm access and managing agent requirements as part of booking the work in."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need to register with our managing agent before starting?",
+      "a": "If your property requires it, yes — we'll coordinate access with the estate and your managing agent before work starts, so there's no delay at the gate once the installation is under way."
+    },
+    {
+      "q": "How quickly can you get to site if there's an issue mid-installation?",
+      "a": "Wentworth Estate is around 15 to 20 minutes from our Bracknell base, which lets us attend regularly through the strip-out, first-fix, tiling and second-fix stages without long gaps between visits."
+    },
+    {
+      "q": "What's included in the £3,500 starting price?",
+      "a": "The starting price covers strip-out, pipework, tanking, tiling, electrics, ventilation, and fitting and snagging the suite you've sourced. Sanitaryware, brassware, tiles and furniture are bought separately, and the final price depends on scope confirmed at survey."
+    },
+    {
+      "q": "Can deliveries be coordinated with estate access rules?",
+      "a": "Yes — we agree a delivery schedule at survey stage that accounts for the estate's access arrangements, so materials arrive in the right order without delays at the gate."
+    },
+    {
+      "q": "How long does a full bathroom installation take?",
+      "a": "Most full installations take two to three weeks from strip-out to snagging. We'll give you a firm programme at survey stage once access arrangements and scope are confirmed."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/wentworth-estate/", "text": "Bathroom installation on Wentworth Estate" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/virginia-water/full-bathroom-installation/", "text": "Full bathroom installation in Virginia Water" },
+    { "href": "/areas/ascot/full-bathroom-installation/", "text": "Full bathroom installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "full bathroom installation Wentworth Estate",
+  "secondaryKeywords": [
+    "full bathroom installation Wentworth Estate Virginia Water",
+    "luxury bathroom installation Wentworth Estate",
+    "bathroom strip out and rebuild Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Wentworth Estate. Subject and action: a newly completed, empty luxury bathroom photographed immediately after installation, no people present. Setting and work-stage: a bathroom in a substantial estate house, fully tiled and fitted, staged as finished with no tools or debris visible. Composition: three-quarter angle view across the room taking in the bath, vanity and shower enclosure from one corner. Light and materials: pale limestone tiling with a soft honed finish, brushed brass taps and shower fittings, warm evening light low through a window casting soft long shadows. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a Wentworth Estate home with pale limestone tiling and brushed brass fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

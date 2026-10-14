@@ -1,0 +1,81 @@
+{
+  "path": "/installer/bette-gerrards-cross/",
+  "family": "Brand × town",
+  "brand": "bette",
+  "town": "gerrards-cross",
+  "slug": "bette-gerrards-cross",
+  "seo": {
+    "title": "Bette Bathroom Installer in Gerrards Cross | Fit-Only | Install My Bathroom",
+    "description": "Bette titanium-steel bath and shower tray installation in Gerrards Cross, fit-only from £3,500. Level, fully supported base-building for the material Bette needs.",
+    "canonical": "https://installmybathroom.co.uk/installer/bette-gerrards-cross/"
+  },
+  "h1": "Bette bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base — and because the properties we're called into here range widely rather than following one single archetype, we don't treat a Bette installation as a standard bath fit either. Bette manufactures baths and shower trays from titanium-steel finished with fused glass enamel, a rigid material with no flex in it, so the substructure gets planned around whatever floor and room we're actually working with on each individual project, not a generic template. You source the bath, tray, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Bette in Gerrards Cross",
+      "body": "We fit Bette baths and shower trays that Gerrards Cross homeowners have already specified and bought, usually through a bathroom showroom in the area or further into London given the commute. A built-in Bette bath in a family bathroom and a Bette shower tray in an en-suite are both common on the projects we see here, sometimes on the same job. We don't supply the sanitaryware; the bath or tray arrives chosen and paid for before we start, and our part is the strip-out, the base build, the waterproofing, the tiling around it and the final fit."
+    },
+    {
+      "heading": "Installation considerations specific to Bette",
+      "body": "Because the steel doesn't flex, a floor that's slightly out of level or a bearing surface with a gap in it will show up as a rock or a hollow sound once the bath is in use, in a way an acrylic bath with a standard cradle would quietly absorb. We fit Bette baths and trays with the substructure, levelling and acoustic isolation the material actually needs, built before the fixture goes anywhere near the room. The fused glass enamel finish is also harder to repair than acrylic if it's chipped on site, which matters on projects where several trades are still moving through the house after the bath or tray is in."
+    },
+    {
+      "heading": "How Gerrards Cross's property mix affects a typical Bette installation",
+      "body": "Gerrards Cross doesn't sit on one single housing archetype the way some of the surrounding villages do — it's an affluent commuter village with a genuine spread of property types and ages, which is exactly why we plan the Bette substructure around the specific floor and room in front of us rather than assuming a standard approach. A period village house and a newer build nearby can need quite different sub-base preparation even for the same Bette bath, and we confirm which applies at survey, before anything is ordered, rather than discovering it on fitting day."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Bette sanitaryware; we don't sell it. You source the bath, tray, brassware, tiles and furniture through a showroom, and we strip out, first-fix, tile, plumb and snag the room, with the installation itself from £3,500. A £125 survey ahead of any booking checks access, floor condition and waste positions. Repairs on existing bathrooms, including Bette fixtures, start from £200, with a £500 minimum on emergency call-outs and no standalone regrouting."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Bette bath or shower tray, or do I buy it?",
+      "a": "You buy it. We're a fit-only installer, so the Bette bath or tray is chosen and purchased through a showroom or retailer, and we handle the strip-out, base, waterproofing and fitting."
+    },
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "Around 25 to 30 minutes by road from Bracknell, well within the area we work across regularly."
+    },
+    {
+      "q": "Is a Bette installation different from a standard bath fit?",
+      "a": "Yes — titanium-steel doesn't flex the way acrylic does, so the base underneath has to be built dead level with proper acoustic isolation, which takes more care than a standard acrylic bath on a foam cradle."
+    },
+    {
+      "q": "Does the age of my Gerrards Cross property change the installation?",
+      "a": "It can. A period house and a newer build often need different sub-base preparation for the same Bette bath, which we confirm at survey rather than assuming one standard approach fits every property in the area."
+    },
+    {
+      "q": "What's included in the £125 survey?",
+      "a": "We check the floor structure and level, the existing waste and water positions, and the access route a Bette bath or tray will need, before anything is booked in or ordered."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/bette/", "anchor": "All the Bette products we fit" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom fitting in Gerrards Cross" },
+    { "href": "/areas-brands/gerrards-cross/", "anchor": "Bathroom brands we fit in Gerrards Cross" },
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation" },
+    { "href": "/services/bathroom-strip-out-and-preparation/", "anchor": "Bathroom strip-out & preparation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "bette" },
+    { "file": "towns.json", "id": "gerrards-cross" }
+  ],
+  "primaryKeyword": "Bette bathroom installer Gerrards Cross",
+  "secondaryKeywords": [
+    "Bette shower tray Gerrards Cross",
+    "Bette bath installation Buckinghamshire",
+    "titanium steel bath Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Bette × Gerrards Cross installer page, implying Bette's shower tray product through a close fixture detail shot rather than a full room view. Subject and action: a close mid shot looking down into the corner of a low-profile steel shower tray, a linear waste grate visible, dry and unused, no activity. Setting and work-stage: a finished en-suite in a Gerrards Cross family home, daytime with overcast light through a frosted window. Composition: mid shot, camera elevated and angled down into the tray corner, a frameless glass screen edge entering the frame on one side, limestone floor tiling extending into soft focus beyond the tray. Light and materials: honed limestone floor tiles, matte black linear waste grate, frameless glass edge, soft overcast daylight from one side mixed unevenly with a single warm vanity light visible out of focus in the background. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no styling props such as plants, florals or candles, no water shown running, varied and believable sheen with no single flat light source.",
+    "heroOutputPath": "heroes/brand-town/bette-gerrards-cross-hero.webp",
+    "heroAlt": "Close detail shot of a low-profile titanium-steel Bette shower tray corner with a matte black linear waste grate in a Gerrards Cross en-suite.",
+    "inline": []
+  }
+}

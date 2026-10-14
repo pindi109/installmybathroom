@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-stoke-poges/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "stoke-poges",
+  "slug": "axor-stoke-poges",
+  "seo": {
+    "title": "AXOR Bathroom Installer in Stoke Poges | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation in Stoke Poges, fit-only from £3,500. First-fix precision and finish handling for AXOR shower valves and digital controls.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-stoke-poges/"
+  },
+  "h1": "AXOR bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, from older period detached homes to more recent executive-style builds set well back from the road on sizeable gardens — and that scale of property is exactly where a digital or smart AXOR shower installation tends to get specified, because there's room for a proper walk-in shower or a second en-suite rather than squeezing a valve into an existing footprint. Getting an AXOR shower valve right in a property like this starts well before the final trim goes on: it starts at first fix, with the pipework, valve body and control wiring set out correctly before any wall closes around them, because an AXOR valve that's been positioned even slightly wrong is a problem you only discover once the tiling's finished."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR in Stoke Poges",
+      "body": "AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux, and the precision engineering behind every one of them extends to the digital and smart shower controls that pair with a modern valve system. In Stoke Poges, where the larger plots and period-to-executive housing mix gives us room to add a second en-suite or extend an existing bathroom, we install AXOR shower valves, digital control interfaces, basin mixers and bath fillers on a fit-only basis — you choose the range and finish, and we handle the plumbing and fitting."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "A digital or smart AXOR shower system has more going on behind the wall than a standard valve: a control module, wiring or a wireless control point, and a valve body that all need to be positioned exactly where the first-fix drawing says they will be, because there's no adjusting a buried valve once the wall's closed and tiled. We set this out carefully at first fix, checking the exact AXOR model against the manufacturer's installation requirements before any pipework is run. The finish is the other half of the job — a brushed or matte black AXOR trim shows every scuff mark from careless handling in a way chrome never does, so the control plate and handset stay boxed until the room is genuinely finished around them, and we sequence the later trades so nothing gets knocked once it's in place."
+    },
+    {
+      "heading": "How Stoke Poges's housing stock affects a typical AXOR installation",
+      "body": "Stoke Poges' larger properties and sizeable gardens generally give us more flexibility to reposition a waste run or add a second en-suite than a smaller terraced property would allow, which matters when a digital AXOR system needs a specific pipe run to work properly. In the older period detached homes, that often means working around an existing layout that's never had a digital shower run through it, so we check structural depth and existing pipe routes at survey; in the more recent executive-style builds, the void space is usually already generous enough that the main task is simply confirming it against the exact AXOR model specified."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Stoke Poges: you source your AXOR brassware, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, plumbing and final fit, from £3,500. Every project starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the exact AXOR model, valve type and control system against what's been specified, so the first-fix drawing is right before a single pipe is run. With 30 years' experience fitting brassware at this level, we plan the programme around getting the hidden first-fix detail right, not just the visible finish. If something needs attention later, repairs start from £200, with a £500 minimum for an emergency call-out and no standalone regrouting offered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why does first fix matter so much for a digital AXOR shower?",
+      "a": "A digital or smart AXOR system has a control module and valve body set behind the wall, and once it's tiled over there's no repositioning it — so we confirm the exact layout against the manufacturer's requirements before any pipework goes in."
+    },
+    {
+      "q": "Can you fit AXOR into a second en-suite in a larger Stoke Poges property?",
+      "a": "Yes. Stoke Poges' larger plots and sizeable gardens generally give us more room to add or extend an en-suite than a smaller property allows, and we plan the AXOR valve run accordingly."
+    },
+    {
+      "q": "Will a brushed or matte black AXOR control plate show marks if it's fitted early?",
+      "a": "Yes — which is why we keep the control plate and handset boxed until the room is genuinely finished, rather than fitting them early and risking damage from other trades."
+    },
+    {
+      "q": "Do you supply the AXOR shower system, or do I need to buy it myself?",
+      "a": "We work fit-only, so you source your AXOR shower system through a showroom or supplier, and we handle the first fix, plumbing and final installation."
+    },
+    {
+      "q": "What happens at the £125 survey for an AXOR installation?",
+      "a": "We go through the exact AXOR model, valve type and control system you've specified, confirm it against the property's layout, and set out the first-fix plan before anything is booked in."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom fitting in Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "anchor": "Bathroom brands we fit in Stoke Poges" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital and smart shower installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Stoke Poges",
+  "secondaryKeywords": [
+    "AXOR installation Stoke Poges",
+    "AXOR digital shower fitter Stoke Poges",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Stoke Poges installer page, implying precision first-fix work behind an AXOR digital shower system rather than a finished room shot. Subject and action: a close mid shot of a concealed shower valve body and control wiring set into an open stud wall, pipework capped and labelled, no human hands in frame, construction-stage rather than finished. Setting and work-stage: a bathroom mid-renovation in a Stoke Poges period-to-executive detached house, early evening, natural light fading. Composition: close three-quarter angle on the valve body and pipe run, exposed timber stud and insulation filling the background, a single work light positioned just out of frame casting directional light across the fitting. Light and materials: bare timber stud and plasterboard edge, brushed nickel valve body visible before trim is fitted, warm practical work light mixing with the last of the natural daylight from a window out of frame, creating uneven, directional shadow rather than flat ambient light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable surface texture on the timber and pipework rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-stoke-poges-hero.webp",
+    "heroAlt": "Close-up of a brushed nickel AXOR shower valve body and pipework set into an open stud wall mid-renovation in Stoke Poges, warm work-light.",
+    "inline": []
+  }
+}

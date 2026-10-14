@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-sunningdale/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "sunningdale",
+  "slug": "villeroy-and-boch-sunningdale",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer in Sunningdale | Fit-Only",
+    "description": "Villeroy & Boch baths and sanitaryware fitted on Sunningdale's generous plots. Fit-only installation from £3,500, £125 survey, frame compatibility confirmed first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-sunningdale/"
+  },
+  "h1": "Villeroy & Boch bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Moving a waste run three feet to accommodate a freestanding bath is rarely a problem on Sunningdale's generous plots, and it's exactly the kind of repositioning that comes up when a Villeroy & Boch bath is being installed in one of the large detached properties surrounding the town's golf courses. Sunningdale's housing mixes Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, many on private or gated roads, and the plot sizes here tend to give more flexibility on layout than a terraced or semi-detached property allows. We fit Villeroy & Boch baths, basins, sanitaryware and ViClean shower toilet seats on a fit-only basis — you supply the products, we install them, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Positioning a Villeroy & Boch bath where the plot allows it",
+      "body": "Because waste runs on a generous Sunningdale plot can usually be relocated without hitting a structural wall, a Villeroy & Boch bath doesn't have to sit wherever the existing pipework happens to be. That gives more freedom to place the bath where the light or the layout works best, but it also means more first-fix plumbing work before any tiling starts, which is why we scope this properly at survey rather than pricing it as a standard swap. The bath itself needs level, even support across its full base once it's in position — Villeroy & Boch's ceramic and acrylic baths are precise products, and an uneven base shows as a visible flex or a rocking edge that a careful first fix avoids."
+    },
+    {
+      "heading": "Frame and flush plate compatibility still applies",
+      "body": "Whatever else changes with the layout, the same product-level check applies to any Villeroy & Boch WC on the project: the brand doesn't make its own carrier frame, so the pan, flush plate and concealed cistern frame need confirming as compatible generations before ordering. This has nothing to do with Sunningdale's plot sizes or private roads — it's a detail of how Villeroy & Boch sanitaryware is specified, and we check it against the order before anything arrives on site, not after the wall is boarded and tiled."
+    },
+    {
+      "heading": "Fit-only, from £3,500, starting with a £125 survey",
+      "body": "Every Villeroy & Boch installation we quote for in Sunningdale starts with a fixed £125 survey, which is deducted from your project cost if you proceed. We measure the room, check the waste run and water supply, confirm whether the plot genuinely allows the repositioning you want, and verify frame compatibility for whatever's been specified. Installations then start from £3,500 depending on scope — we're fit-only throughout, so the quote covers labour and installation accuracy, not a markup on the Villeroy & Boch products themselves."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you move the waste run to reposition a Villeroy & Boch bath in Sunningdale?",
+      "a": "Usually, yes. Sunningdale's generous plot sizes mean relocating a waste run rarely hits the structural limits a terraced property would present, but we confirm this for your specific house at survey rather than assuming it from the plot."
+    },
+    {
+      "q": "Do you fit Villeroy & Boch products bought from a showroom?",
+      "a": "Yes. We're fit-only — you source the Villeroy & Boch sanitaryware, basins, baths or ViClean shower toilet seats, and we install them, from £3,500."
+    },
+    {
+      "q": "Why do you check the carrier frame before ordering a WC?",
+      "a": "Villeroy & Boch doesn't manufacture its own carrier frame, so the pan, flush plate and concealed cistern frame need to be confirmed as matching generations before anything's ordered, which avoids a mismatch being discovered once the wall is closed up."
+    },
+    {
+      "q": "Does working on a private or gated road in Sunningdale affect the installation?",
+      "a": "It mainly affects access arrangements for deliveries and our team, which we agree in advance. The installation itself follows the same process as any other Villeroy & Boch fit-only project."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "All bathroom brands we fit in Sunningdale" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom and WC installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunningdale" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Sunningdale",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Sunningdale",
+    "Villeroy & Boch bath fitter Sunningdale",
+    "fit-only Villeroy & Boch Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Sunningdale installer page, a mid shot of a freestanding bath base to imply precise ceramic/acrylic bath fitting without showing a full room. Subject and action: a freestanding bath tilted slightly on packers during levelling, a spirit level laid across its rim, no one touching it in frame. Setting and work-stage: a part-finished bathroom in a large Sunningdale detached house, floor screed recently laid and partially tiled, daytime, construction-stage rather than finished. Composition: low three-quarter angle focused on the bath's base and the spirit level on the rim, partially tiled floor and bare screed visible in the mid-ground. Light and materials: warm walnut-effect timber floor border tile against pale limestone field tile, brushed brass bath waste visible at the base, bright daylight from a side window casting a long uneven shadow of the bath across the unfinished floor. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants or candles as props, no running water, limestone tile shows believable matte variation and visible construction dust rather than showroom gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-sunningdale-hero.webp",
+    "heroAlt": "A freestanding bath being levelled on packers with a spirit level on its rim, in a part-tiled Sunningdale bathroom mid-installation.",
+    "inline": []
+  }
+}

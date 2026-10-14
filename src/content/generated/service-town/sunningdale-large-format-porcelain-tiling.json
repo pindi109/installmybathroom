@@ -1,0 +1,100 @@
+{
+  "path": "/areas/sunningdale/large-format-porcelain-tiling/",
+  "family": "Service x town",
+  "service": "large-format-porcelain-tiling",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Large Format Porcelain Tiling in Sunningdale | Install My Bathroom",
+    "description": "Fit-only large format porcelain tiling in Sunningdale. Flat substrates, full adhesive coverage, lippage-free finish for period and modern homes. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/large-format-porcelain-tiling/"
+  },
+  "h1": "Large format porcelain tiling in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name and the large detached properties around them — a mix of Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, often on private or gated roads. That spread of property ages matters to us before we tile a single slab: a Victorian or Edwardian suspended timber floor behaves very differently under a rigid porcelain slab than a modern concrete subfloor does, and we check which we're dealing with at survey stage. We work fit-only, from £3,500, with you sourcing the tiles, sanitaryware, brassware and furniture."
+  },
+  "sections": [
+    {
+      "heading": "Older timber floors need different substrate prep",
+      "body": "A number of the Victorian and Edwardian houses we see in Sunningdale have suspended timber floors rather than solid concrete, and timber flexes under load in a way that a rigid, low-flex porcelain slab doesn't tolerate well. Left unaddressed, that flex is what causes grout lines to crack and, in the worst cases, the tile itself to fracture. Where we find a timber subfloor, we overboard it with a rigid backer board system designed to reduce deflection before any adhesive goes down — it's an extra step, but it's the difference between a floor that lasts and one that cracks within a year."
+    },
+    {
+      "heading": "Generous plots give us room to move the layout",
+      "body": "The plot sizes around Sunningdale tend to be larger than a terraced or semi-detached property would offer, and that generally gives us more flexibility on layout — moving a waste run three feet to accommodate a freestanding bath, for example, is rarely blocked by a neighbouring structural wall the way it would be in a tighter property. Where a layout changes, the new floor area gets the same flatness check and full adhesive bed as the rest of the room, regardless of whether it's new build or a reworked corner of a period house."
+    },
+    {
+      "heading": "Full-bed adhesive and lippage control on every slab",
+      "body": "Large format porcelain needs full adhesive coverage across the entire back of the slab, not a few dabs or a perimeter bead, because any gap underneath becomes a weak spot under standing load. We comb adhesive onto the substrate and back-butter the slab itself, then use levelling clips through the run so each slab edge sits flush with its neighbour — avoiding the lippage that catches light unevenly and the dirt that collects in a slightly proud edge."
+    },
+    {
+      "heading": "Book a survey before you order tiles",
+      "body": "We start with a paid £125 survey so we can check whether your subfloor is timber or solid, assess the layout, and tell you what the installation will need before you commit to a tile order. Call or WhatsApp 07399 651836 to arrange a Sunningdale survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can large format porcelain go over a timber floor?",
+      "a": "Yes, but it needs the right preparation — typically a rigid backer board system to reduce deflection, since timber floors flex more than a rigid porcelain slab can tolerate without cracking."
+    },
+    {
+      "q": "How do you know if my floor is timber or solid before the survey?",
+      "a": "We check at survey — older Victorian and Edwardian properties in the Sunningdale area are more likely to have suspended timber floors, while newer builds are more often solid concrete, but we confirm it on-site rather than assume."
+    },
+    {
+      "q": "Can you move my bath or shower to a different wall?",
+      "a": "Often, yes — the larger plots common around Sunningdale tend to give us more room to reroute waste pipes than a smaller property would, though it depends on what the survey finds."
+    },
+    {
+      "q": "What does fit-only mean for a Sunningdale installation?",
+      "a": "You buy the sanitaryware, brassware, tiles and furniture; we handle strip-out, first-fix, tiling, plumbing and snagging, from £3,500."
+    },
+    {
+      "q": "Why do you charge for a survey?",
+      "a": "The £125 survey lets us properly check the substrate, access and layout before you buy tiles, so you're not ordering based on guesswork."
+    }
+  ],
+  "internalLinks": [
+    {
+      "text": "Large format porcelain tiling service",
+      "href": "/services/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Bathroom installation in Sunningdale",
+      "href": "/areas/sunningdale/"
+    },
+    {
+      "text": "Bathroom tiling cost guide",
+      "href": "/guides/bathroom-tiling-cost-uk/"
+    },
+    {
+      "text": "Large format porcelain tiling in Ascot",
+      "href": "/areas/ascot/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Large format porcelain tiling in Virginia Water",
+      "href": "/areas/virginia-water/large-format-porcelain-tiling/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "large format porcelain tiling Sunningdale",
+  "secondaryKeywords": [
+    "large format tiling Sunningdale bathroom",
+    "porcelain slab tiling over timber floor Sunningdale",
+    "fit-only tiler Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Sunningdale large format porcelain tiling service page. Subject and action: a finished dark basalt-look large format porcelain floor meeting a shower threshold, no people present. Setting and work-stage: a completed bathroom installation shown at floor level. Composition: a low-angle shot along the floor toward the shower threshold, emphasising a flush, minimal-grout transition between floor and shower area. Light and materials: cool, overcast daylight from a high window, dark basalt-look porcelain with a subtly varied matte-to-satin texture rather than uniform gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf/niche/mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber/gold colour wash, no hanging plants/florals/candles as props, no water shown running, varied/believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-large-format-porcelain-tiling-hero.webp",
+    "heroAlt": "Dark basalt-look large format porcelain floor meeting a flush shower threshold in a finished Sunningdale bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

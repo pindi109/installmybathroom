@@ -1,0 +1,110 @@
+{
+  "path": "/installer/bette-virginia-water/",
+  "family": "Brand x town",
+  "brand": "bette",
+  "town": "virginia-water",
+  "slug": "bette-virginia-water",
+  "seo": {
+    "title": "Bette Bathroom Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only Bette bath and shower tray installation in Virginia Water. You supply the products, we fit them properly. £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/bette-virginia-water/"
+  },
+  "h1": "Bette bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Large detached properties close to the Wentworth Estate and its golf courses define much of Virginia Water, many set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties range from substantial period houses to more recent executive-style builds, and that plot size generally gives us far more flexibility on bathroom layout than a terraced property would. It also matters that the bath going in is often a Bette: titanium-steel finished with fused glass enamel, harder and more scratch-resistant than acrylic, but reliant on a properly built base beneath it. We install Bette baths and shower trays with the substructure, levelling and acoustic isolation the material needs, using the room a typical Virginia Water property gives us to get the layout right first."
+  },
+  "sections": [
+    {
+      "heading": "Titanium-steel and fused glass enamel, properly supported",
+      "body": "A Bette bath or shower tray starts life as titanium-steel, finished with a fused glass enamel surface that resists scratching far better than acrylic. What it doesn't do is forgive an unevenly built base. Acrylic baths can absorb minor inconsistencies in a subfloor by flexing slightly; a Bette shell won't, so any movement in the structure underneath shows up as noise, a stress point, or a shell that never beds in flush against its surround. Our approach to a Bette installation is built around that fact from the first site visit."
+    },
+    {
+      "heading": "Virginia Water's generous plots change what's possible",
+      "body": "Virginia Water's housing, whether a substantial period house or a more recent executive-style build, typically sits on a generous plot, often with a long driveway and sometimes gated or private road access. That space usually gives us far more flexibility on layout than a terraced property would allow. Relocating a waste run to accommodate a freestanding Bette bath, or repositioning a shower to make better use of natural light, rarely runs into a structural wall it can't move around, which means the finished layout is driven more by what works for you than by what the building will permit."
+    },
+    {
+      "heading": "What we build underneath a Bette bath or tray",
+      "body": "Before the bath or tray goes anywhere near the room it'll sit in, we build and level a substructure sized to its exact footprint, brace it so the steel shell can't flex or rock once it's carrying weight, and isolate it acoustically so sound doesn't transmit through the floor below. Each of those is a distinct piece of work. Leaving any of them out is how a Bette installation ends up feeling loose underfoot or developing a stress crack in the enamel within the first year."
+    },
+    {
+      "heading": "The process, from £125 survey to finished install",
+      "body": "We work fit-only, meaning you buy the Bette bath or shower tray, your brassware, tiles and furniture, and we carry out everything else. A £125 survey comes first, assessing the floor, waste positions and access for your Virginia Water property and confirming what substructure your chosen model needs. From there: strip-out, first-fix plumbing, substructure build and tiling, fitting the bath or tray and brassware, and a final snag before we leave. Installs start from £3,500."
+    },
+    {
+      "heading": "Arrange a survey",
+      "body": "If a Bette bath or shower tray is part of your plans in Virginia Water, book the survey first so we can see the floor, waste run and access before anything is costed. Call or WhatsApp 07399 651836."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why can't a Bette bath just be fitted like any other bath?",
+      "a": "Because titanium-steel finished with fused glass enamel doesn't flex the way acrylic does. Any unevenness in the floor beneath it shows up as noise or stress on the enamel rather than being absorbed, so it needs a purpose-built, level, braced and acoustically isolated base."
+    },
+    {
+      "q": "Does Virginia Water's plot size actually affect the bathroom layout?",
+      "a": "It can. The generous plots typical of Virginia Water properties often give more flexibility to move a waste run or reposition a shower for better light than a terraced property's structural walls would allow."
+    },
+    {
+      "q": "Who buys the Bette bath or shower tray?",
+      "a": "You do. We work fit-only, so you purchase the bath, shower tray, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What's included in the £125 survey?",
+      "a": "We check the floor structure, waste positions and access route, and confirm the substructure, levelling and acoustic isolation your chosen Bette model will need before the job is priced."
+    },
+    {
+      "q": "What does a Bette installation cost in Virginia Water?",
+      "a": "Installs start from £3,500, with the exact figure depending on the scope of work confirmed at survey."
+    },
+    {
+      "q": "Do you install Bette shower trays as well as baths?",
+      "a": "Yes. Bette makes shower trays in the same titanium-steel and fused glass enamel finish as its baths, and they need the same levelling and substructure work underneath."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More about Bette baths and shower trays",
+      "href": "/brands/bette/"
+    },
+    {
+      "anchor": "Bathroom installation in Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "anchor": "Bathroom brands we install in Virginia Water",
+      "href": "/areas-brands/virginia-water/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Bathroom strip-out and preparation",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "bette"
+    },
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "Bette installation Virginia Water",
+  "secondaryKeywords": [
+    "Bette bath fitter Virginia Water",
+    "Bette shower tray installation Virginia Water",
+    "fit-only bathroom installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Bette bathroom installation page targeting Virginia Water. Subject and action: a close detail shot of a Bette bath's rolled rim and waste fitting, titanium-steel with a fused glass enamel finish. Setting and work-stage: a finished high-end bathroom, honed limestone flooring and wall cladding visible at the edge of frame, renovation complete. Composition: close fixture-detail shot angled down the length of the bath rim toward the waste, limestone texture softly in focus behind it. Light and materials: warm evening light low through a window, matte black waste and overflow fittings against the pale enamel, limestone showing a soft honed texture rather than polish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche or mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash across the frame, no hanging plants or florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/bette-virginia-water-hero.webp",
+    "heroAlt": "Close detail of a Bette bath rim with matte black waste fitting against honed limestone, warm evening light, Virginia Water installation",
+    "inline": []
+  }
+}

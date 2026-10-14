@@ -1,0 +1,100 @@
+{
+  "path": "/areas/wentworth-estate/large-format-porcelain-tiling/",
+  "family": "Service x town",
+  "service": "large-format-porcelain-tiling",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Large Format Porcelain Tiling on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only large format porcelain tiling for homes on Wentworth Estate, Virginia Water. Gate-coordinated access, flat substrates. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/large-format-porcelain-tiling/"
+  },
+  "h1": "Large format porcelain tiling on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. Large format porcelain slabs are heavy and need careful handling from van to bathroom, so on a gated estate with managing agent sign-off we coordinate access in advance rather than turning up and hoping. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Coordinating access for heavy slabs through the gate",
+      "body": "A single large format porcelain slab can weigh considerably more than a stack of small-format tiles covering the same area, and it needs to be carried flat and unflexed from the van to the bathroom to avoid cracking before it's even laid. On Wentworth Estate, that means agreeing delivery windows and access with the estate and any managing agent ahead of time, so our vehicle isn't held up at the gate while a fragile slab sits exposed in the back. We build that coordination into the programme from the first phone call, not as an afterthought."
+    },
+    {
+      "heading": "Why the programme matters more than usual here",
+      "body": "Because access to the estate runs through managing agent coordination, a delay at one stage — tiles arriving late, or a gate booking falling through — has more knock-on effect than it would on an unrestricted street. We sequence strip-out, first-fix, tiling, plumbing and snagging as a confirmed programme once tiles are ordered and access is agreed, so the whole job runs through the gate without the kind of delay that eats into your week."
+    },
+    {
+      "heading": "The substrate work doesn't change because the postcode does",
+      "body": "Whatever the address, large format porcelain still needs a genuinely flat substrate, full adhesive bed coverage and levelling clips to keep slab edges flush. We check the floor and walls with a straight edge before tiling, correct any unevenness with self-levelling compound or additional board, and back-butter every slab as well as combing adhesive onto the substrate — the estate setting changes the logistics, not the standard of the tiling itself."
+    },
+    {
+      "heading": "Book your survey",
+      "body": "We start with a paid £125 survey, where we check the substrate and confirm estate access requirements before you order tiles. Call or WhatsApp 07399 651836 to arrange a survey for your Wentworth Estate bathroom."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need estate approval before starting work?",
+      "a": "We coordinate access with the estate and any managing agent ahead of the job, agreeing delivery and work windows so the programme runs smoothly through the gate."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from Bracknell, which keeps logistics for deliveries and site visits straightforward."
+    },
+    {
+      "q": "Why does large format porcelain need careful handling on delivery?",
+      "a": "The slabs are heavy and can crack if flexed while being carried, so they need to be moved flat and supported from the van right through to the bathroom — more important over any distance or multi-stage access like a gated estate."
+    },
+    {
+      "q": "What does fit-only mean for a Wentworth Estate installation?",
+      "a": "You buy the sanitaryware, brassware, tiles and furniture; we handle strip-out, first-fix, tiling, plumbing and snagging, from £3,500."
+    },
+    {
+      "q": "Do I need to tell the managing agent myself, or do you handle it?",
+      "a": "We're glad to liaise directly on access logistics once you confirm who to contact — it's part of agreeing the programme before work starts."
+    }
+  ],
+  "internalLinks": [
+    {
+      "text": "Large format porcelain tiling service",
+      "href": "/services/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Bathroom installation on Wentworth Estate",
+      "href": "/areas/wentworth-estate/"
+    },
+    {
+      "text": "Bathroom tiling cost guide",
+      "href": "/guides/bathroom-tiling-cost-uk/"
+    },
+    {
+      "text": "Large format porcelain tiling in Virginia Water",
+      "href": "/areas/virginia-water/large-format-porcelain-tiling/"
+    },
+    {
+      "text": "Large format porcelain tiling in Ascot",
+      "href": "/areas/ascot/large-format-porcelain-tiling/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "wentworth-estate"
+    }
+  ],
+  "primaryKeyword": "large format porcelain tiling Wentworth Estate",
+  "secondaryKeywords": [
+    "large format tiling Wentworth Estate bathroom",
+    "porcelain slab tiling Virginia Water gated estate",
+    "fit-only tiler Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Wentworth Estate large format porcelain tiling service page. Subject and action: a finished pale limestone-look large format porcelain floor meeting a recessed skirting detail, no people present. Setting and work-stage: a completed bathroom installation in a quiet, understated setting. Composition: a close, angled view on the floor-to-skirting junction, showing the scale and weight of a single large slab edge against the wall base. Light and materials: soft, even late-morning light with gentle shadow, pale limestone-look porcelain with a subtle, slightly textured matte finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf/niche/mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber/gold colour wash, no hanging plants/florals/candles as props, no water shown running, varied/believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-large-format-porcelain-tiling-hero.webp",
+    "heroAlt": "Pale limestone-look large format porcelain floor meeting a skirting detail in a finished Wentworth Estate bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

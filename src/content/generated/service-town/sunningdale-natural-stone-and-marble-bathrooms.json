@@ -1,0 +1,100 @@
+{
+  "path": "/areas/sunningdale/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms in Sunningdale | Install My Bathroom",
+    "description": "Fit-only honed limestone and natural stone bathroom installation in Sunningdale. Correct adhesive, grout and movement joints. From £3,500, £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms in Sunningdale",
+  "hero": {
+    "intro": "Golf gives Sunningdale its name recognition, and the large detached properties around the courses — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads — tend to sit on plots generous enough to give real flexibility over bathroom layout. That flexibility counts for more than usual when the spec calls for honed limestone or another natural stone rather than porcelain, because moving a waste run three feet to position a freestanding bath under a continuous stone surface, something rarely constrained by neighbouring structure on these plots, has to be planned alongside the stone's own requirements for substrate, adhesive and sealing. We fit the stone you've sourced — strip-out, first-fix, stone-fixing, plumbing and snagging."
+  },
+  "sections": [
+    {
+      "heading": "Honed limestone and natural stone: what's different from porcelain",
+      "body": "Honed limestone has a soft, matte surface rather than a polished one, which shows scratches, etching and staining more readily if it isn't sealed correctly before grouting and again once installed. Being calcareous, it reacts to acidic cleaning products in a way porcelain never will, so the aftercare routine has to be set out clearly at handover. The adhesive underneath also needs to change: a standard grey cementitious adhesive can leave visible shadowing beneath pale limestone, so we use a white, polymer-modified, rapid-set adhesive with controlled moisture release instead. Movement joints need more careful placement too, since limestone slabs are typically larger and heavier than standard tiles, and an undersized or badly positioned joint risks cracking as the substrate settles."
+    },
+    {
+      "heading": "What Sunningdale's plots allow for layout",
+      "body": "The generous plot sizes around Sunningdale, especially on the private and gated roads near the golf courses, usually mean more flexibility on layout than a terraced or semi-detached property allows elsewhere. Moving a waste run three feet to accommodate a freestanding bath under a limestone surround is rarely constrained by neighbouring structure here, which gives us room to design the stone layout — slab direction, movement joints, falls to any wet-room drain — as a single coherent plan rather than working around fixed pipework. That's particularly valuable with natural stone, where the visual effect depends on minimising joints and keeping veining or tonal variation reading as one continuous surface."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "Strip-out comes first, along with a check of the existing substrate for level, rigidity and damp. First-fix plumbing is set out to the agreed layout, including any waste relocation the plot allows, and a waterproofed, rigid substrate is built to suit the stone's weight. Large limestone pieces are dry-laid to check tonal match before fixing with the correct adhesive, movement joints are placed at junctions and changes of plane, and the stone is sealed after grouting. Sanitaryware and brassware are fitted last, followed by a full snag before handover."
+    },
+    {
+      "heading": "Arrange your survey",
+      "body": "Because limestone and other natural stone need the substrate, adhesive and sealing planned around the specific material, every project starts with a £125 paid survey, where we look at the room and the stone you've specified and confirm an accurate quote. Fit-only installations start from £3,500. Call or WhatsApp 07399 651836 to book."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the limestone or stone, or do I source it?",
+      "a": "We're fit-only, so you source the stone, sanitaryware, brassware and any tiles. We handle strip-out, first-fix, stone-fixing, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "Why does honed limestone need sealing when polished porcelain doesn't?",
+      "a": "Honed limestone has a soft, matte, porous surface that scratches, stains and etches more easily without a penetrating seal applied before grouting and again once installed. Porcelain doesn't need this."
+    },
+    {
+      "q": "Can you move the waste for a freestanding bath on a Sunningdale property?",
+      "a": "Often yes. The generous plots around Sunningdale, particularly near the golf courses, usually give more flexibility to relocate a waste run than a terraced or semi-detached property would allow."
+    },
+    {
+      "q": "Does natural stone need a different adhesive to porcelain?",
+      "a": "Yes. We use a white, polymer-modified, rapid-set adhesive with controlled moisture release for pale stone like limestone, since standard grey adhesive can cause visible shadowing beneath it."
+    },
+    {
+      "q": "What's included in the £125 survey?",
+      "a": "We assess the existing room, the stone you've specified, and what the plot allows for layout, then confirm an accurate fit-only quote before any work is booked."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation in Sunningdale",
+      "href": "/areas/sunningdale/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Sunningdale",
+      "href": "/bathroom-cost/sunningdale/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Ascot",
+      "href": "/areas/ascot/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Virginia Water",
+      "href": "/areas/virginia-water/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Sunningdale",
+  "secondaryKeywords": [
+    "honed limestone bathroom Sunningdale",
+    "marble bathroom installer Sunningdale",
+    "stone bathroom fitter Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Sunningdale. Subject and action: a finished honed limestone floor with soft matte texture and muted tonal variation surrounding a freestanding bath, surface complete and sealed. Setting and work-stage: a spacious ensuite in a detached house near private grounds, installation finished, bath and brassware fitted. Composition: elevated three-quarter angle looking down slightly onto the floor and bath, generous negative space around the tub emphasising room scale. Light and materials: diffused daylight from a large window to one side, cool-neutral tone, limestone showing a flat matte finish rather than polish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Honed limestone floor surrounding a freestanding bath in a finished bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

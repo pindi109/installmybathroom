@@ -1,0 +1,96 @@
+{
+  "path": "/areas/gerrards-cross/accessible-luxury-bathrooms/",
+  "family": "Service x town",
+  "service": "accessible-luxury-bathrooms",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Accessible Luxury Bathrooms in Gerrards Cross | Install My Bathroom",
+    "description": "Level-access showers and reinforced, high-end accessible bathrooms for Gerrards Cross homes. Fit-only from £3,500, around 25-30 minutes from our Bracknell base.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/accessible-luxury-bathrooms/"
+  },
+  "h1": "Accessible luxury bathrooms in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. An accessible luxury bathroom is the same fit-only service built around a specific brief: a level-access shower with no step, a doorway wide enough for easy movement, and walls reinforced wherever support might be needed, all finished to the same standard as the rest of the house."
+  },
+  "sections": [
+    {
+      "heading": "Accessible doesn't mean compromised",
+      "body": "The phrase 'accessible bathroom' conjures an image for a lot of people — white plastic grab rails, a raised blue seat, signage. That's not what we build. The structural requirements are genuinely different from a standard bathroom: a level threshold instead of a step, a doorway wide enough for a wheelchair or walking frame to pass through comfortably, and timber or noggin reinforcement built into the stud walls before they're closed up, positioned exactly where a rail or seat is likely to be wanted. What changes is what's underneath the finish, not the finish itself. The tiles, the brassware, the vanity unit — those are entirely your choice, fitted to the same standard we'd use on any other bathroom in Gerrards Cross."
+    },
+    {
+      "heading": "Why we plan structural reinforcement before first-fix",
+      "body": "The single biggest mistake in accessible bathroom projects is treating the grab rail as an afterthought. A rail screwed into plasterboard alone will eventually work loose under real load. We identify, at survey stage, every point where support is wanted now or might be wanted later — beside the shower, beside the WC, along a transfer route — and build solid timber blocking into the stud wall before boarding and tiling. That decision has to be made before first-fix, which is why the survey for an accessible luxury bathroom takes longer than for a standard refit: we're planning for a wall that will need to carry real weight, invisibly, for years."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "After the £125 survey confirms the layout, waste run and reinforcement points, we strip the existing bathroom out completely, carry out any wall or doorway alterations, first-fix the plumbing and electrics around the new layout, then tile, fit the sanitaryware and fittings you've sourced, and snag the finished room. Because we're a fit-only service working across Buckinghamshire and Berkshire, we coordinate the whole programme directly with you rather than through a kitchen-and-bathroom retailer, so the sequencing between delivery of your chosen products and our installation dates stays tight."
+    },
+    {
+      "heading": "What to source before we start",
+      "body": "Because fit-only means you buy the products, it's worth having your shower tray or wet room former, taps, WC, vanity and any support rails confirmed before our first-fix date, since the reinforcement positions and waste routing depend on the exact fittings you've chosen rather than a generic layout. We'll talk you through what we need and when at survey stage, so there's no delay waiting on deliveries once the strip-out has started."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "We're based in Bracknell, around 25 to 30 minutes by road from Gerrards Cross, and we work across this part of Buckinghamshire regularly alongside nearby Beaconsfield and Chalfont St Peter."
+    },
+    {
+      "q": "Will the grab rails look like they belong in a hospital?",
+      "a": "No. We finish support rails in the same metal tone as your taps and shower fittings, so they sit as part of the room's design rather than standing out as medical equipment."
+    },
+    {
+      "q": "What's the cost for an accessible luxury bathroom?",
+      "a": "Installations start from £3,500, fit-only. The final price depends on the extent of wall reinforcement, any doorway widening, and the products you've chosen, all confirmed at the £125 survey."
+    },
+    {
+      "q": "Do you supply the sanitaryware and rails?",
+      "a": "No — this is a fit-only service. You source the sanitaryware, brassware, tiles, furniture and any support rails; we handle strip-out, structural adjustment, first-fix, tiling, plumbing and snagging."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on our accessible luxury bathroom service",
+      "href": "/services/accessible-luxury-bathrooms/"
+    },
+    {
+      "anchor": "Install My Bathroom in Gerrards Cross",
+      "href": "/areas/gerrards-cross/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Gerrards Cross",
+      "href": "/bathroom-cost/gerrards-cross/"
+    },
+    {
+      "anchor": "Accessible luxury bathrooms in Stoke Poges",
+      "href": "/areas/stoke-poges/accessible-luxury-bathrooms/"
+    },
+    {
+      "anchor": "Accessible luxury bathrooms in Windsor",
+      "href": "/areas/windsor/accessible-luxury-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "accessible luxury bathroom Gerrards Cross",
+  "secondaryKeywords": [
+    "level access shower Gerrards Cross",
+    "wet room installer Gerrards Cross",
+    "wheelchair accessible bathroom Buckinghamshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an accessible luxury bathroom service page targeting Gerrards Cross. Subject and action: a finished walk-in shower with a level threshold and a discreet horizontal support rail set into a tiled niche wall. Setting and work-stage: fully completed installation, no construction debris, styled as a finished room. Composition: low-angle three-quarter view from just inside the doorway, framing the flat threshold in the lower third of the image and the shower wall beyond. Light and materials: honed grey limestone-effect porcelain tiles, matte black shower frame and controls, warm late-afternoon sidelight entering from an unseen window casting long soft shadows across the floor. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strips under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber colour wash, no plants, candles or florals, no water shown running, varied natural sheen rather than uniform hyper-gloss, support rail finished in matching matte black with no clinical or institutional appearance.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-accessible-luxury-bathrooms-hero.webp",
+    "heroAlt": "Finished level-access shower with matte black fittings and grey limestone-effect tiling in a Gerrards Cross bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

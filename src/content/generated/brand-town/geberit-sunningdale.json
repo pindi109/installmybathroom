@@ -1,0 +1,106 @@
+{
+  "path": "/installer/geberit-sunningdale/",
+  "family": "Brand x town",
+  "brand": "geberit",
+  "town": "sunningdale",
+  "slug": "geberit-sunningdale",
+  "seo": {
+    "title": "Geberit Bathroom Installation in Sunningdale | Fit-Only | Install My Bathroom",
+    "description": "Geberit wall-hung WCs and concealed cisterns fitted alongside freestanding baths in Sunningdale. Fit-only installation from £3,500, £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/installer/geberit-sunningdale/"
+  },
+  "h1": "Geberit bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale's large detached houses, many on private or gated roads around its well-known golf courses, give us the kind of plot flexibility where moving a waste run three feet to fit a freestanding bath is rarely a problem — but fitting the Geberit wall-hung WC and concealed cistern that often sits alongside it is a different exercise, because the full weight of the pan and cistern hangs off the carrier frame, not the surrounding tiled wall."
+  },
+  "sections": [
+    {
+      "heading": "Geberit alongside a freestanding bath layout",
+      "body": "A lot of the Sunningdale bathrooms we fit are built around a freestanding bath, and the WC in that same room is very often a Geberit wall-hung pan with a concealed cistern — it keeps the room feeling uncluttered next to a bath that's already the visual focus. Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the sanitaryware brand we fit most often, and the installation detail is worth getting right given how visible that corner of the room usually is."
+    },
+    {
+      "heading": "The fixing detail that plot flexibility doesn't change",
+      "body": "Correct frame selection and structural fixing matter more with Geberit than with most brands, because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles. Moving a waste run three feet for a freestanding bath is a layout decision; fixing the frame correctly to solid structure is a separate, non-negotiable step that happens regardless of where in the room that layout ends up."
+    },
+    {
+      "heading": "What Sunningdale's plots give us room to do",
+      "body": "Sunningdale's mix of Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds tends to sit on generous plots, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows. That flexibility is what lets us plan a freestanding bath and a Geberit WC into the same room without either one compromising on position — the waste run moves to suit the bath, and the frame goes wherever gives the cleanest flush-plate line on the wall."
+    },
+    {
+      "heading": "Fit-only, start to finish",
+      "body": "We work fit-only across Sunningdale: you supply the Geberit product, bath, tiles and brassware, and we handle strip-out, first fix, tiling, plumbing and snagging. A £125 survey comes first, installations start from £3,500, and we've been doing this for 30 years from our Bracknell base. Repairs on an existing installation start from £200."
+    },
+    {
+      "heading": "Planning the room around two focal points",
+      "body": "A freestanding bath and a Geberit WC corner are both things a finished Sunningdale bathroom tends to show off rather than hide, which changes how we plan the first fix. The waste and supply runs for the bath get confirmed alongside the frame position for the WC at survey stage, so both end up exactly where the layout calls for rather than wherever the existing pipework happens to allow — generous plot sizes here mean that's usually a question of planning rather than one of structural limitation."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is Geberit so often fitted alongside a freestanding bath in Sunningdale?",
+      "a": "A wall-hung WC with a concealed cistern keeps the rest of the room uncluttered next to a freestanding bath, which is usually the visual focus of the room — it's the sanitaryware brand we fit most often in these layouts."
+    },
+    {
+      "q": "Does moving a waste run for a bath affect the Geberit fixing?",
+      "a": "No — relocating a waste run is a layout decision that Sunningdale's generous plots usually make straightforward, but the carrier frame still needs correct, separate structural fixing wherever it ends up."
+    },
+    {
+      "q": "What makes Geberit different to fit compared with other brands?",
+      "a": "The cistern and pan weight sit entirely on the carrier frame, not the wall tiles, so correct frame selection and structural fixing matter more with Geberit than with most other brands."
+    },
+    {
+      "q": "What does it cost to have Geberit fitted in Sunningdale?",
+      "a": "Fit-only installations start from £3,500, following a £125 survey. If anything needs attention later, repairs start from £200, with a £500 minimum call-out for emergencies."
+    },
+    {
+      "q": "Do you plan the bath and WC positions together?",
+      "a": "Yes — the waste and supply runs for a freestanding bath and the frame position for a Geberit WC are both confirmed at survey, so both land exactly where the layout calls for rather than wherever existing pipework allows."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/geberit/",
+      "anchor": "Geberit bathroom brand page"
+    },
+    {
+      "href": "/areas/sunningdale/",
+      "anchor": "Bathroom fitting in Sunningdale"
+    },
+    {
+      "href": "/areas-brands/sunningdale/",
+      "anchor": "Bathroom brands we fit in Sunningdale"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet & concealed cistern installation"
+    },
+    {
+      "href": "/services/shower-toilet-installation/",
+      "anchor": "Shower toilet installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "geberit"
+    },
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "Geberit installation Sunningdale",
+  "secondaryKeywords": [
+    "Geberit bathroom fitter Sunningdale",
+    "Geberit wall-hung WC Sunningdale",
+    "fit-only Geberit installer"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Geberit x Sunningdale installer page, a finished mid-shot pairing a Geberit-style WC corner with a glimpse of a freestanding bath. Subject and action: a mid-distance three-quarter shot of a wall-hung WC and brushed chrome flush plate set into a tiled wall, with the rolled edge of a freestanding bath visible at the soft-focus edge of frame, dry and static. Setting and work-stage: a finished principal bathroom in a Sunningdale detached house, daytime, soft overcast daylight through a large window out of frame. Composition: three-quarter angle with the WC and flush plate sharply in focus in the foreground-right, the bath's edge softly blurred in the background-left. Light and materials: travertine wall and floor tile, brushed chrome flush plate and bath taps, flat soft daylight with gentle, uneven falloff rather than flat ambient glow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied believable sheen on the travertine rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/geberit-sunningdale-hero.webp",
+    "heroAlt": "Close-mid shot of a wall-hung WC with brushed chrome flush plate on travertine tile, a freestanding bath edge soft-focus behind, in a finished Sunningdale bathroom.",
+    "inline": []
+  }
+}

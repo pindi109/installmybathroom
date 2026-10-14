@@ -1,0 +1,85 @@
+{
+  "path": "/installer/kohler-sunningdale/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "sunningdale",
+  "slug": "kohler-sunningdale",
+  "seo": {
+    "title": "Kohler Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only Kohler cast-iron bath and sanitaryware installation in Sunningdale, large-plot layouts. Survey £125, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-sunningdale/"
+  },
+  "h1": "Kohler bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them, many on private or gated roads with generous plot sizes. That scale usually means more flexibility on bathroom layout than a terraced or semi-detached property allows, which matters when a Kohler specification brings together a cast-iron enamel bath, vitreous china sanitaryware and contemporary brassware on the same project. We plan for whichever combination you're specifying, treating the heavy-item logistics, the structural fixing and the pressure checks as separate jobs within one installation."
+  },
+  "sections": [
+    {
+      "heading": "Moving a waste run for a Kohler freestanding bath",
+      "body": "A cast-iron enamel bath is often positioned differently to the acrylic bath it's replacing — further from the wall, angled to catch a view, or centred under a window — which means the waste run usually has to move with it. Plot sizes around Sunningdale tend to be generous, which usually means more flexibility on layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure in the way it would be in a smaller home."
+    },
+    {
+      "heading": "Heavy-item logistics for the bath itself",
+      "body": "Before any of that positioning happens, the bath has to get into the room. A cast-iron enamel bath is considerably heavier than an acrylic or steel equivalent, and it needs to travel through doorways, up staircases and around landings in one piece, then be set down on floor joists capable of bearing its loaded weight. We assess the route and the floor structure at survey stage, well before the bath is due on site, so there are no surprises on installation day."
+    },
+    {
+      "heading": "Sanitaryware and brassware: two more disciplines, one project",
+      "body": "A wall-hung WC from the same Kohler range needs a concealed cistern frame fixed and levelled into solid structure before tiling starts — straightforward structural fixing, but it has to be precise. Brassware, whether a shower valve or a digital tap, needs pressure and flow checked against your incoming supply before it's committed to the wall. Specifying across the Kohler range means we're running all three disciplines on one job, not treating the project as a single generic fit."
+    },
+    {
+      "heading": "From survey to snagging in Sunningdale",
+      "body": "We begin with a £125 survey to assess the room, the access route for the bath, and the supply and waste positions for the sanitaryware and brassware. You source the Kohler products yourself; we carry out the strip-out, first-fix, tiling, final-fix plumbing and snagging. Installations start from £3,500, a figure set by the quality and scope of the work rather than against what anyone else might be charging locally."
+    },
+    {
+      "heading": "Private and gated roads: planning access in advance",
+      "body": "A number of properties around Sunningdale sit on private or gated roads, which doesn't change the installation itself but does mean we confirm delivery access for a cast-iron bath, tiling materials and plumbing supplies as part of the survey, rather than leaving it to be worked out on the day. That's particularly relevant where the bath has to be delivered on a specific day to match the rest of the programme, since a hold-up at the gate can push back first-fix tiling that's scheduled to follow it. We factor this into the installation programme from the outset, confirming with you or the property's management exactly how deliveries should be announced, so the trades scheduled to follow the bath into the room aren't left waiting on a vehicle that hasn't yet been let through."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Kohler cast-iron bath be fitted in any Sunningdale property?",
+      "a": "In most cases, yes, though we check the access route — doorways, stairs, landings — and floor joist capacity at survey stage first, since a cast-iron bath is significantly heavier than an acrylic equivalent."
+    },
+    {
+      "q": "Does a larger plot in Sunningdale really affect the bathroom layout?",
+      "a": "It can. Generous plot sizes typical of Sunningdale often mean more flexibility on moving a waste run or repositioning a bath than a terraced or semi-detached property would allow."
+    },
+    {
+      "q": "Do you supply the Kohler bath, sanitaryware and brassware?",
+      "a": "No, we're fit-only — you source the Kohler products, and we handle the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How do you check brassware will work with our water pressure?",
+      "a": "We test pressure and flow against your incoming supply at first-fix stage, before any shower valve or tap is built into the wall, so there's still room to adjust pipework if needed."
+    },
+    {
+      "q": "What does a Kohler bathroom installation cost in Sunningdale?",
+      "a": "Installations start from £3,500 for fit-only work, following a £125 paid survey. The final cost depends on the scope of strip-out, first-fix, tiling and plumbing involved."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "Browse the Kohler bathroom range" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "Bathroom brands we fit in Sunningdale" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "Kohler installation Sunningdale",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Sunningdale",
+    "Kohler cast-iron bath installation Berkshire",
+    "fit-only bathroom installer Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Sunningdale. Subject and action: a cast-iron enamel bath resting on protective floor sheeting mid-repositioning, a tape measure stretched across the floor marking a new waste run location, no person in shot. Setting and work-stage: a spacious en-suite in a large detached house with private grounds visible through a window, dark basalt wall tiles installed on the far wall, floor still bare subfloor. Composition: wide shot from a raised angle showing the full room, bath positioned off-centre with clear sightline to the window. Light and materials: dark basalt and anthracite tiling, brushed nickel pipework and fittings stacked to one side, crisp cool daylight streaming through the window, natural directional shadows. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-sunningdale-hero.webp",
+    "heroAlt": "Cast-iron bath being repositioned during a Kohler bathroom installation in Sunningdale, with dark basalt tiling on the far wall",
+    "inline": []
+  }
+}

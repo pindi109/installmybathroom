@@ -1,0 +1,121 @@
+{
+  "path": "/installer/burlington-stoke-poges/",
+  "family": "Brand × town",
+  "brand": "burlington",
+  "town": "stoke-poges",
+  "slug": "burlington-stoke-poges",
+  "seo": {
+    "title": "Burlington Bathrooms Fitted in Stoke Poges | Fit-Only Installation",
+    "description": "We install Burlington's classic bathroom range across Stoke Poges' period and executive-style houses, fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/burlington-stoke-poges/"
+  },
+  "h1": "Burlington bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges mixes older period detached houses with more recent executive-style builds, many set well back from the road on sizeable gardens around Stoke Park — and it's the kind of housing stock where a Burlington bathroom often suits the property better than a purely contemporary range would. Burlington's pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware give a room a traditional character, whether that's matching an existing period house or adding a sense of history to a newer build. We fit Burlington ranges across Stoke Poges on a fit-only basis, from £3,500, after a £125 survey."
+  },
+  "sections": [
+    {
+      "heading": "Why Burlington suits Stoke Poges' mix of housing",
+      "body": "Older detached houses in Stoke Poges often already have the proportions a Burlington range was designed for — generous bathroom footprints, period-style joinery, high ceilings that suit a high-level WC's exposed flush pipe. In the newer executive-style builds nearby, the same range gets specified to introduce a traditional character the house wasn't originally designed with, and the fixing underneath has to work just as hard either way: a modern standard supporting pedestal and wall-hung basins, close-coupled and high-level WCs, and roll-top baths, regardless of when the house itself was built."
+    },
+    {
+      "heading": "The room Stoke Poges' plots give us to work with",
+      "body": "The scale of plot common here — large gardens, houses set back from the road, few shared party walls — generally gives us far more flexibility on layout than a smaller or terraced property would. Relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints we'd meet elsewhere, which matters for a Burlington installation, since a roll-top bath needs clearance to read as freestanding and a pedestal basin needs the right proportions around it to look period-correct rather than squeezed in."
+    },
+    {
+      "heading": "Fixing detail on a Burlington installation",
+      "body": "The classic silhouette Burlington is known for — close-coupled and high-level WCs, pedestal and wall-hung basins, roll-top baths — sits on a modern fixing standard that isn't visible once the room is finished: the bracket behind a wall-hung basin, the bearing under a roll-top bath's feet, the support behind a high-level cistern. We confirm that detail at survey stage for every Burlington piece specified, so the fixing is settled before a wall or floor closes up, not discovered on fitting day."
+    },
+    {
+      "heading": "Aftercare for a Burlington installation",
+      "body": "Once a Burlington bathroom is fitted, the kind of faults that can show up later — a wall-hung basin's hidden bracket working loose, a roll-top bath's feet shifting slightly, a high-level cistern developing a drip — are repairable rather than something you'd need to replace the whole piece for. We carry out repairs to Burlington fittings across Stoke Poges from £200, with a £500 minimum for an emergency call-out. We don't take on standalone regrouting-only visits."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Burlington suit a period Stoke Poges house, or only a newer build?",
+      "a": "Both. Its pedestal and wall-hung basins, close-coupled and high-level WCs and roll-top baths work in an older period property and are equally often specified in a newer executive-style build to add traditional character."
+    },
+    {
+      "q": "Can you add a second en-suite with a Burlington range in a Stoke Poges property?",
+      "a": "Often, yes. The larger plots and houses set back from the road around Stoke Poges generally give us more flexibility on layout and waste runs than a smaller property allows."
+    },
+    {
+      "q": "What fixing detail matters most with a Burlington wall-hung basin?",
+      "a": "The hidden support bracket behind it. It's never visible once the basin is fitted, but it's what stops the basin working loose from the wall months after installation."
+    },
+    {
+      "q": "What does a Burlington fit-only installation in Stoke Poges cost?",
+      "a": "From £3,500, following a £125 survey where we confirm the fixing route for whichever Burlington pieces you've specified."
+    },
+    {
+      "q": "Do you offer an emergency call-out for a Burlington fitting that's failed?",
+      "a": "Yes, from a £500 minimum call-out charge. Routine repairs to Burlington fittings start from £200, though we don't take on standalone regrouting-only visits."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/burlington/",
+      "anchor": "The full Burlington range"
+    },
+    {
+      "href": "/areas/stoke-poges/",
+      "anchor": "Bathroom fitting in Stoke Poges"
+    },
+    {
+      "href": "/areas-brands/stoke-poges/",
+      "anchor": "Bathroom brands we fit in Stoke Poges"
+    },
+    {
+      "href": "/services/freestanding-bath-installation/",
+      "anchor": "Freestanding bath installation"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet and concealed cistern installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    },
+    {
+      "file": "brands.json",
+      "id": "burlington"
+    },
+    {
+      "file": "repairs.json",
+      "id": "concealed-cistern-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "wall-hung-toilet-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "leaking-tap-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "bathroom-waste-and-drain-repair"
+    }
+  ],
+  "primaryKeyword": "Burlington bathroom installer Stoke Poges",
+  "secondaryKeywords": [
+    "Burlington roll-top bath fitting Stoke Poges",
+    "fit-only Burlington installation Stoke Poges",
+    "Burlington pedestal basin installer"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Burlington x Stoke Poges installer page, implying the brand's wall-hung basin and support detail through a close side-profile fixture shot. Subject and action: a side-profile close shot of a wall-hung basin viewed from a low angle showing the underside curve and the wall plane it's mounted to, a single period-style basin tap visible on the rim, static, no water. Setting and work-stage: a finished en-suite in a Stoke Poges period-style detached house, early evening, warm light from a single wall-mounted sconce just out of frame. Composition: low side-angle crop emphasising the basin's underside curve and the wall junction beneath it, a warm walnut timber shelf edge visible in soft focus to one side. Light and materials: white vitreous china basin, brushed bronze tap, warm walnut timber accent shelf, warm low-angle light from one practical wall sconce creating a defined soft shadow under the basin's curve. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no single uniform amber wash across the whole frame — light should fall unevenly from the single sconce only, no plants, florals or candles as props, no water shown running, believable varied sheen on the china and timber.",
+    "heroOutputPath": "heroes/brand-town/burlington-stoke-poges-hero.webp",
+    "heroAlt": "Low side-profile shot of a wall-hung basin's underside and brushed bronze tap against a warm walnut shelf, evening sconce light, Stoke Poges.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

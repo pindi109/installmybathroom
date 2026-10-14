@@ -1,0 +1,80 @@
+{
+  "path": "/areas/wentworth-estate/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Underfloor Heating Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only underfloor heating on Wentworth Estate, Virginia Water, with gate access and managing agent coordination built into the programme.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. Underfloor heating is one of the most requested additions on the estate, and because access here runs through a gate and often a managing agent, we plan deliveries and site visits around that from the outset."
+  },
+  "sections": [
+    {
+      "heading": "Why gate access changes how we schedule an underfloor heating job",
+      "body": "You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500, coordinating access with the estate and any managing agent so the programme runs without delay at the gate. Underfloor heating adds extra deliveries to a job — insulation boards, the heating mat or pipe, screed bags if we're going the water-fed route, plus an electrician's visit to wire in the thermostat — and each of those needs to clear the gate on schedule. We agree delivery windows and contractor passes with the estate and managing agent before work starts, so the mat or pipe goes down, gets tested, and is covered in one continuous sequence rather than being held up waiting on access."
+    },
+    {
+      "heading": "Matching the system to your particular Wentworth Estate house",
+      "body": "Houses on the estate vary in age and construction, so we don't assume a floor type before we've surveyed it. A suspended timber floor calls for a rigid insulation-backed board across the joists carrying a low-profile electric heating mat, keeping added height to a minimum while directing heat up into the room. A solid concrete slab opens up a screeded water-fed system tied into the existing central heating, which tends to cost less to run across a larger bathroom footprint. The £125 survey confirms which you have before we quote."
+    },
+    {
+      "heading": "Floor height allowance",
+      "body": "Whichever system suits your floor, underfloor heating adds height on top of what's there now — insulation, then the mat or pipe, then screed or board, then tile adhesive and tile. Totals typically run from around 15mm for a thin electric system to 70mm or more for a screeded water-fed one. We measure this against doors and any threshold at survey stage so it's planned for rather than discovered once the floor is tiled."
+    },
+    {
+      "heading": "The installation itself",
+      "body": "With access and deliveries agreed with the estate, we strip the existing floor back, make good any structural issues, lay insulation, fit and test the mat or pipe, then cover it with screed or board ahead of tiling. The thermostat is wired in, commissioned and tested, and the finished room is snagged before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you need estate or managing agent approval before starting underfloor heating work on Wentworth Estate?",
+      "a": "We coordinate access and delivery timings with the estate and any managing agent before work starts, so contractor passes and material deliveries for insulation, mat or pipe, and screed are agreed in advance."
+    },
+    {
+      "q": "How far is Wentworth Estate from your Bracknell base?",
+      "a": "Around 15 to 20 minutes by road, which lets us schedule multiple site visits and deliveries efficiently across an underfloor heating installation."
+    },
+    {
+      "q": "Which underfloor heating system suits a Wentworth Estate house?",
+      "a": "It depends on your floor. A suspended timber floor usually suits a low-profile electric mat; a solid concrete slab opens up a screeded water-fed system tied into your existing central heating. We confirm which you have at survey."
+    },
+    {
+      "q": "Will underfloor heating raise my floor height?",
+      "a": "Yes, typically by 15mm to 70mm depending on the system, once insulation, the heating element, screed or board, and tile are accounted for. We check this against doors and thresholds before work starts."
+    },
+    {
+      "q": "Can underfloor heating be added as part of a full bathroom strip-out?",
+      "a": "Yes, it's most efficient fitted during a full strip-out and refit from £3,500, sequenced alongside first-fix plumbing and before tiling."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/wentworth-estate/", "text": "Bathroom installation on Wentworth Estate" },
+    { "href": "/bathroom-cost/wentworth-estate/", "text": "Bathroom installation costs on Wentworth Estate" },
+    { "href": "/areas/virginia-water/underfloor-heating-installation/", "text": "Underfloor heating installation in Virginia Water" },
+    { "href": "/areas/ascot/underfloor-heating-installation/", "text": "Underfloor heating installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "underfloor heating installation Wentworth Estate",
+  "secondaryKeywords": [
+    "underfloor heating Wentworth Estate Virginia Water",
+    "water-fed underfloor heating gated estate",
+    "electric underfloor heating Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Wentworth Estate homeowners. Subject and action: finished heated bathroom floor in large marble-effect porcelain slabs with soft visible veining, a freestanding bath and a window seat partially in shot. Setting and work-stage: completed stage in a spacious bathroom with a tall arched window. Composition: diagonal composition with the floor joints receding towards the arched window, bath positioned to one side rather than centred. Light and materials: warm late-morning sunlight angled low across the floor, large-format marble-effect porcelain with a gentle satin sheen, muted bronze-toned bath taps. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash across the whole frame, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Finished heated bathroom floor in marble-effect porcelain slabs beside a freestanding bath on Wentworth Estate",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

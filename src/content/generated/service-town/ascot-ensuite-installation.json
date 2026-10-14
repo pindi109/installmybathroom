@@ -1,0 +1,70 @@
+{
+  "path": "/areas/ascot/ensuite-installation/",
+  "family": "Service × town",
+  "service": "ensuite-installation",
+  "town": "ascot",
+  "seo": {
+    "title": "En-Suite Installation in Ascot | Fit-Only From £3,500 | Install My Bathroom",
+    "description": "Fit-only en-suite installation for Ascot's large detached and executive-style homes — stud wall partitions, tanking, tiling and second fix from £3,500. £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/ensuite-installation/"
+  },
+  "h1": "En-suite installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing runs from large detached Victorian and Edwardian houses through to inter-war family homes and more recent executive-style builds, many sitting on generous plots along the roads towards Sunningdale and Windsor — and that scale of plot changes what's realistically achievable when you're carving an en-suite out of a bedroom corner. Where a terraced property forces a layout around an immovable party wall, a detached Ascot house on a generous plot generally gives us far more room to relocate a waste run or widen a doorway for level access without hitting the structural limits a smaller property would present. That doesn't make an en-suite installation here simple — a compact footprint still demands the same tanking, falls and extraction discipline as any larger bathroom — but it does mean the conversation at survey starts from a more flexible position than it would elsewhere."
+  },
+  "sections": [
+    {
+      "heading": "Generous plots change what's achievable",
+      "body": "In a typical Ascot detached house, forming a new en-suite from a bedroom corner usually means building a stud wall and either repositioning a door or fitting a sliding or pocket door to recover floor space. Because these houses tend to sit on larger plots than a terraced or semi-detached property, the waste run back to a soil stack is rarely the constraint it would be in a tighter building — there's more often a practical route available, or enough fall to work with, rather than a wall that can't be moved. We still check every property on its own merits at survey rather than assuming the plot size guarantees an easy job: an older Victorian or Edwardian house may have solid masonry walls and floor joists worth protecting, while a newer executive-style build is more often a case of confirming what's already boxed in behind a previous fit-out."
+    },
+    {
+      "heading": "What doesn't change, whatever the plot size",
+      "body": "A bigger house doesn't relax the technical standards a small en-suite has to meet. Full-height tanking in the shower enclosure, a tested fall to the waste, and sealed pipe penetrations before the first tile goes down are the same whether the room is a converted box room or a principal-suite en-suite off a large master bedroom. Where gravity drainage to the soil stack isn't achievable, we price a macerator solution at survey rather than discovering it mid-project. Extraction is sized to the room in line with Part F guidance, with ducting run as directly as possible to an external wall, and any new lighting or fan circuit is installed to Part P standards. None of this scales down just because the surrounding property is large."
+    },
+    {
+      "heading": "How the project runs",
+      "body": "We start with a fixed £125 survey to check floor area, door swing, drainage route and water pressure, and confirm whether your intended layout is achievable before you order anything. From there: stud wall and first-fix plumbing and electrics, full-height tanking left to cure, tiling set out to minimise cut pieces in a tight footprint, then second fix and a full snagging walkthrough. A straightforward en-suite usually runs 8 to 12 working days from strip-out to completion, with bedroom carpets and furniture protected throughout. If you're planning an en-suite in an Ascot property, book a survey and we'll tell you honestly what your specific house allows before you commit to products."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you add an en-suite to an Ascot house that doesn't currently have one?",
+      "a": "Often, yes — forming a stud wall partition off a bedroom corner is within scope, coordinated with first-fix plumbing and electrics. Whether it's achievable in your specific house depends on drainage route and floor area, which we confirm at the £125 survey."
+    },
+    {
+      "q": "Does a larger Ascot plot mean a lower installation price?",
+      "a": "Not directly. Plot size tends to give more layout freedom, but the fixed costs of an en-suite — tanking, first fix, testing and snagging — are broadly the same regardless of the surrounding house size. Installation is from £3,500."
+    },
+    {
+      "q": "How long does an en-suite installation take in a typical Ascot property?",
+      "a": "Usually 8 to 12 working days from strip-out to snagging for a straightforward en-suite, whether it's a conversion from an existing room or a new stud-wall partition off a bedroom."
+    },
+    {
+      "q": "What happens if there's no convenient drainage route to a soil stack?",
+      "a": "We check this at survey. Sometimes a macerator unit for the WC is the practical answer, or a raised floor section to achieve the fall a shower waste needs — we'll confirm which applies and price it honestly before you order fittings."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost UK guide" },
+    { "href": "/areas/sunningdale/ensuite-installation/", "anchor": "En-suite installation in Sunningdale" },
+    { "href": "/areas/virginia-water/ensuite-installation/", "anchor": "En-suite installation in Virginia Water" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "en-suite installation Ascot",
+  "secondaryKeywords": ["ensuite fitters Ascot", "en-suite bathroom Ascot", "ensuite conversion Ascot"],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Ascot en-suite installation page, showing a finished, compact en-suite in a large detached house. Subject and action: a finished en-suite shower and vanity corner, water sitting still and beaded on the honed tile rather than running, towels folded on an open shelf beside the basin. Setting and work-stage: completed en-suite off a principal bedroom in a substantial Edwardian-style Ascot detached house, daytime, bright midday light. Composition: wide shot taken from the open doorway looking across the full width of the room, shower enclosure in the left third, vanity and mirror filling the centre, a sliver of the bedroom carpet visible at the bottom edge of frame. Light and materials: Calacatta marble-effect floor and half-height wall tiling with directional veining, brushed brass shower frame and basin mixer, bright midday daylight through a small frosted window mixing unevenly with a single wall light beside the mirror. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror edge, no catalog-symmetrical twin basins, no uniform gold colour wash across the frame, no hanging plants, florals or arranged candles, no shower or tap shown running, varied and believable sheen on the tile and brassware rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-ensuite-installation-hero.webp",
+    "heroAlt": "Finished en-suite with Calacatta marble-effect tiling and brushed brass fittings in a large detached house in Ascot, shot from the bedroom doorway in bright daylight.",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

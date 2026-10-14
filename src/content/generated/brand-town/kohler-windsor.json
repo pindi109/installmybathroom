@@ -1,0 +1,85 @@
+{
+  "path": "/installer/kohler-windsor/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "windsor",
+  "slug": "kohler-windsor",
+  "seo": {
+    "title": "Kohler Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only Kohler bath, sanitaryware and brassware installation in Windsor, including narrow-access town houses. Survey £125, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-windsor/"
+  },
+  "h1": "Kohler bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: Georgian and Victorian town houses close to the Castle and historic centre, many on narrow plots with limited rear access and period staircases, and more typical inter-war and post-war family homes further out towards the edges of town. A Kohler specification can involve a cast-iron enamel bath, vitreous china sanitaryware and contemporary brassware on the same project, and which of Windsor's two property types you're in changes how we plan the heavy-item logistics in particular."
+  },
+  "sections": [
+    {
+      "heading": "Cast-iron baths in Windsor's period town houses",
+      "body": "Close to the Castle and the historic centre, Windsor has a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. A cast-iron enamel bath is heavy and has to travel through the house in one piece, so in these properties we plan the route — door widths, stair turns, landing space — in detail at survey stage, sometimes scheduling the bath delivery around a specific access window rather than assuming it can simply be carried in."
+    },
+    {
+      "heading": "The same bath, an easier route, further from the centre",
+      "body": "Further out towards the edges of Windsor, the housing is more typically inter-war and post-war family homes, with a scattering of newer residential developments on redeveloped sites. These properties generally have wider doorways, more generous staircases and fewer of the access constraints a narrow-plotted period town house presents, which makes the logistics side of fitting a cast-iron bath, or moving sanitaryware to a new wall, considerably more straightforward."
+    },
+    {
+      "heading": "Sanitaryware and brassware: structural fixing and pressure checks",
+      "body": "Wherever the property sits in Windsor, a wall-hung WC from Kohler's range needs its concealed cistern frame fixed and levelled into solid structure before tiling begins, and any shower valve or digital tap needs its pressure and flow checked against the incoming supply before it's built into the wall. Those two disciplines don't change with the property type; what changes is how much we can adjust the layout around them, which is more constrained in a narrow period town house than in a more recent build."
+    },
+    {
+      "heading": "The fit-only process from survey to snagging",
+      "body": "Every project starts with a £125 survey, where we assess the room, the access route through the property, and what your chosen Kohler products will need structurally. You source the sanitaryware, brassware, tiles and furniture; we carry out the strip-out, first-fix, tiling, final-fix plumbing and snagging. Installations start from £3,500, with the figure reflecting the quality and scope of the work rather than being set against any other installer's pricing."
+    },
+    {
+      "heading": "Matching the installation plan to Windsor's two property types",
+      "body": "Because Windsor's housing splits fairly cleanly between narrow-plotted Georgian and Victorian town houses near the Castle and more typical inter-war and post-war family homes further out, we treat the survey as the point where the right plan for the specific property gets set, not a generic checklist. A period town house might need the bath delivery timed around a narrow staircase and a specific access window, while a post-war family home further from the centre can usually accommodate a more straightforward delivery and fit. Either way, the structural fixing for sanitaryware and the pressure checks for brassware stay the same regardless of which type of Windsor property we're working in."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Kohler cast-iron bath be fitted in a Windsor town house near the Castle?",
+      "a": "Often, yes, but narrow plots and period staircases near the historic centre mean we plan the access route in detail at survey stage, and in some cases schedule the delivery around a specific access window."
+    },
+    {
+      "q": "Is it easier to fit a Kohler bathroom in a newer Windsor property?",
+      "a": "Generally, yes. Properties further out towards the edges of Windsor tend to have wider doorways and more generous staircases, which makes moving a cast-iron bath or repositioning sanitaryware more straightforward than in a narrow town house."
+    },
+    {
+      "q": "Do you supply the Kohler products for a Windsor installation?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Do you check water pressure for Kohler brassware in Windsor?",
+      "a": "Yes, pressure and flow are checked against your incoming supply at first-fix stage, before any shower valve or tap is built into the wall."
+    },
+    {
+      "q": "What does a Kohler bathroom installation cost in Windsor?",
+      "a": "Installations start from £3,500 for fit-only work, after a £125 paid survey. The final cost depends on the scope of strip-out, first-fix, tiling and plumbing required, and on access considerations for the property type."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "Discover the Kohler bathroom range" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation in Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "Bathroom brands we fit in Windsor" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding and cast-iron bath installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "Kohler installation Windsor",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Windsor",
+    "Kohler cast-iron bath installation Windsor",
+    "fit-only bathroom installer Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Windsor. Subject and action: a cast-iron enamel bath being carried on a trolley through a narrow period hallway doorway mid-delivery, protective corner guards fitted to the door frame, no person in shot. Setting and work-stage: a Georgian town house interior near a historic centre, narrow staircase visible in the background, Carrara marble tiles stacked in the hallway ready for the bathroom. Composition: vertical-leaning composition emphasising the narrow doorway and staircase, bath trolley positioned just inside the threshold. Light and materials: Carrara marble tile stack, brushed bronze door and stair fittings, soft diffused daylight from a hallway window, subtle cool shadows. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-windsor-hero.webp",
+    "heroAlt": "Cast-iron bath being delivered through a narrow period hallway during a Kohler bathroom installation in Windsor",
+    "inline": []
+  }
+}

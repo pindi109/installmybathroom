@@ -1,0 +1,98 @@
+{
+  "path": "/installer/dornbracht-windsor/",
+  "family": "Brand × town",
+  "brand": "dornbracht",
+  "town": "windsor",
+  "slug": "dornbracht-windsor",
+  "seo": {
+    "title": "Dornbracht Installation in Windsor | Fit-Only Bathroom Fitting | Install My Bathroom",
+    "description": "Dornbracht brassware fitted and protected through Windsor's narrow period staircases and wider suburban homes alike. Fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/dornbracht-windsor/"
+  },
+  "h1": "Dornbracht bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types: close to the Castle and the historic centre, Georgian and Victorian town houses with narrow plots, limited rear access and period staircases that constrain how much material can be moved through the building at once; further out, more typically inter-war and post-war family homes with easier access. Getting a Dornbracht specification through a period staircase without a mark on it is as much a logistics question as a plumbing one — it's a German brassware house known for sculptural handle and spout design, in finishes that are genuinely difficult to replicate elsewhere, and a scuff on a brushed Dark Platinum finish is far more visible, and far more expensive to put right, than the same knock on a mainstream brand. We plan the move and the fit together before a Windsor installation starts, fitting Dornbracht brassware fit-only across both sides of the town's housing stock."
+  },
+  "sections": [
+    {
+      "heading": "Narrow access near the historic centre",
+      "body": "Georgian and Victorian town houses near Windsor Castle and the historic centre often have narrow plots, limited rear access and period staircases that limit how much can be carried through the building at once. Moving boxed Dornbracht brassware up a tight period staircase without a scuff to the finish or a knock to the packaging takes planning before fitting day — confirming the route, the staging point, and who's handling the product at each stage, rather than working it out on arrival. Where a staircase genuinely won't take a larger item safely, that's exactly the kind of constraint we want flagged at survey stage, not discovered halfway up the stairs with the product in hand."
+    },
+    {
+      "heading": "Easier access further from the centre",
+      "body": "Further out towards the edges of Windsor, housing is more typically inter-war and post-war family homes, plus some newer developments on redeveloped sites, generally with easier access than the period town houses nearer the centre. That makes the logistics side more straightforward, but it doesn't change the finish and rough-in precision a Dornbracht installation needs — the same scuff on a brushed Dark Platinum tap is just as visible in a 1930s semi as it is in a Georgian town house."
+    },
+    {
+      "heading": "Why the fitting margin is smaller with Dornbracht",
+      "body": "Nothing about the plumbing itself is unusual with Dornbracht — the principles are the same as any other brand. What's smaller is the tolerance for error: a rough-in valve set a few millimetres out of position, or a marked finish, is far more visible and far more costly to correct than on a mainstream product. We confirm rough-in dimensions against the Dornbracht spec at survey stage, whichever side of Windsor's housing stock the job is in."
+    },
+    {
+      "heading": "Fit-only across Windsor",
+      "body": "We work fit-only across Windsor: you source your Dornbracht brassware through a showroom or retailer, and we handle strip-out, first fix, plumbing, access planning and snagging, from £3,500. A £125 survey comes first, where narrow-access town houses get a route and staging plan, and wider suburban properties get the same rough-in precision check. With 30 years' experience across both sides of Windsor's housing stock, that planning step is where a Dornbracht fit goes right."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Dornbracht brassware be fitted in a period Windsor town house with a narrow staircase?",
+      "a": "Yes — we plan the access route and staging point at survey stage, so boxed brassware is carried through a narrow period staircase without damage to the finish or the packaging."
+    },
+    {
+      "q": "Is Dornbracht easier to fit in Windsor's newer suburban homes?",
+      "a": "Access is usually more straightforward further from the historic centre, but the finish and rough-in precision Dornbracht demands is the same regardless of which part of Windsor the property is in."
+    },
+    {
+      "q": "Why does a scuffed Dornbracht finish cost more to put right than a mainstream brand?",
+      "a": "Finishes such as brushed Dark Platinum are genuinely difficult to replicate elsewhere, so a mark on the finish is far more visible and expensive to correct than the same knock on a standard product."
+    },
+    {
+      "q": "Do you supply Dornbracht brassware, or only install it?",
+      "a": "Only install it. We work fit-only, so you source the product and we handle everything from strip-out through to snagging, from £3,500."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/dornbracht/",
+      "anchor": "More about Dornbracht"
+    },
+    {
+      "href": "/areas/windsor/",
+      "anchor": "Bathroom fitting in Windsor"
+    },
+    {
+      "href": "/areas-brands/windsor/",
+      "anchor": "All the brands we fit in Windsor"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing & first fix"
+    },
+    {
+      "href": "/services/shower-enclosure-and-screen-installation/",
+      "anchor": "Shower enclosure & screen installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    },
+    {
+      "file": "brands.json",
+      "id": "dornbracht"
+    }
+  ],
+  "primaryKeyword": "Dornbracht installation Windsor",
+  "secondaryKeywords": [
+    "Dornbracht bathroom fitter Windsor",
+    "Dornbracht brassware installer Windsor",
+    "fit-only Dornbracht Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Install My Bathroom Dornbracht x Windsor installer page, a close fixture shot implying the brand through a basin tap detail in a period setting. Subject and action: a close mid shot of a sculptural single-lever basin mixer tap with a slender raised spout, mounted on a period-style pedestal basin, static scene, no water running. Setting and work-stage: a finished bathroom in a Georgian town house near Windsor's historic centre, daytime, soft natural light through a tall sash window. Composition: close three-quarter angle on the tap and basin rim, a sliver of original period skirting visible in soft focus at the frame's base. Light and materials: honed grey limestone splashback, brushed brass brassware finish, soft directional daylight from the sash window casting a defined but gentle shadow across the basin. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied believable sheen on the stone rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/dornbracht-windsor-hero.webp",
+    "heroAlt": "Close three-quarter shot of a brushed brass Dornbracht-style basin mixer tap on a period-style pedestal basin against a honed grey limestone splashback in a finished Windsor town house bathroom, soft sash-window light.",
+    "inline": []
+  }
+}

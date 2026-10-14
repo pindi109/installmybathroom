@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-gerrards-cross/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "gerrards-cross",
+  "slug": "victoria-and-albert-gerrards-cross",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation in Gerrards Cross, Buckinghamshire. 30 years' experience, £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-gerrards-cross/"
+  },
+  "h1": "Victoria + Albert bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. A Victoria + Albert freestanding bath is a common request on these jobs, and it comes with its own planning requirements: the baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, giving them genuine weight, so floor loading, access route and waste position are all worked out before the bath leaves the showroom. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Fit-only Victoria + Albert installation for Gerrards Cross homes",
+      "body": "Our model is straightforward: you buy the Victoria + Albert bath, basin, brassware, tiles and furniture from your chosen suppliers, and we carry out the installation. For a village like Gerrards Cross, within easy reach of our Bracknell base, that typically means a site visit to survey the room, a stripped-out and re-plumbed bathroom, full tiling, and a snagged, finished installation at the end. The brand's freestanding baths tend to be the centrepiece of the room, so we plan the rest of the layout — flooring, tiling, lighting positions — around where that bath will sit."
+    },
+    {
+      "heading": "Why Victoria + Albert's construction changes the installation plan",
+      "body": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite, not acrylic or steel, which gives them a solid, cool-to-the-touch surface and genuine weight. That's a point that matters as much to how we get the bath into the room as it does to how it sits once installed. We plan the floor loading, the access route through the house, and the waste position before the bath ever leaves the showroom, so there are no surprises on delivery day — particularly important in a property where the bathroom might be on an upper floor."
+    },
+    {
+      "heading": "The survey and installation process",
+      "body": "We start with a paid survey, £125, where we look at the room, the access route from the front door through to the bathroom, and the floor structure where the bath will sit. From there we confirm the waste position and plan first-fix plumbing accordingly. Installation covers strip-out of the existing bathroom, first-fix, tiling, final plumbing connections and snagging once everything is finished. Projects start from £3,500 depending on scope, and because we're fit-only, you keep full control over which Victoria + Albert products you buy and where from."
+    },
+    {
+      "heading": "What's included, and what isn't",
+      "body": "We handle everything on the trade side of the job: removing the old bathroom, adjusting plumbing and waste runs to suit the new Victoria + Albert bath, tiling the room, connecting and testing all plumbing, and snagging the finished installation. What we don't do is sell or supply the bath, basin, brassware, tiles or furniture — that stays with you, which gives you full choice over the Victoria + Albert range and your preferred supplier, with us focused purely on getting it installed properly."
+    },
+    {
+      "heading": "Booking an installation in Gerrards Cross",
+      "body": "If you're planning a Victoria + Albert bathroom in Gerrards Cross, the first step is the £125 survey, which lets us assess the room properly before quoting the installation. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you cover Gerrards Cross for Victoria + Albert installations?",
+      "a": "Yes. We install luxury, fit-only bathrooms across Gerrards Cross, around 25 to 30 minutes by road from our Bracknell base."
+    },
+    {
+      "q": "Do you supply the Victoria + Albert bath?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag the installation."
+    },
+    {
+      "q": "Why does a Victoria + Albert bath need special planning before installation?",
+      "a": "The baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, giving them genuine weight. We plan floor loading, access route and waste position before the bath leaves the showroom."
+    },
+    {
+      "q": "How much does installation cost in Gerrards Cross?",
+      "a": "Installations start from £3,500, with a £125 survey fee to assess the room and plan the job beforehand."
+    },
+    {
+      "q": "What does the fit-only service include?",
+      "a": "Strip-out of the existing bathroom, first-fix plumbing, tiling, final plumbing connections and snagging. You buy the Victoria + Albert products yourself."
+    },
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "Around 25 to 30 minutes by road from our base in Bracknell."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "The Victoria + Albert range we install",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation in Gerrards Cross",
+      "href": "/areas/gerrards-cross/"
+    },
+    {
+      "anchor": "Brands we fit in Gerrards Cross",
+      "href": "/areas-brands/gerrards-cross/"
+    },
+    {
+      "anchor": "Freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Strip-out and preparation service",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Gerrards Cross",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Gerrards Cross",
+    "freestanding bath installation Buckinghamshire",
+    "fit-only bathroom installer Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert installation page targeting Gerrards Cross. Subject and action: a freestanding stone-composite bath set lengthways against a half-tiled travertine wall, with stacked travertine tiles and tiling tools resting nearby mid-job. Setting and work-stage: a mid-sized family bathroom in a commuter-village house, tiling in progress, bath already positioned and protected with a dust sheet draped loosely over one end. Composition: three-quarter view from a corner, bath filling the right half of frame, a window on the left casting a long shadow across the floor. Light and materials: overcast daylight through a frosted window, warm beige travertine with visible natural pitting, matte brushed nickel waste, floor tiles only partially grouted to show mid-progress. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelving or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-gerrards-cross-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation against a travertine tiled wall in a Gerrards Cross bathroom",
+    "inline": []
+  }
+}

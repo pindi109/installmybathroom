@@ -1,0 +1,110 @@
+{
+  "path": "/installer/kaldewei-sunningdale/",
+  "family": "Brand x town",
+  "brand": "kaldewei",
+  "town": "sunningdale",
+  "slug": "kaldewei-sunningdale",
+  "seo": {
+    "title": "Kaldewei Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only Kaldewei steel bath and shower tray installation in Sunningdale. Survey £125, installs from £3,500. 30 years' experience, high-end homes.",
+    "canonical": "https://installmybathroom.co.uk/installer/kaldewei-sunningdale/"
+  },
+  "h1": "Kaldewei bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Kaldewei baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded like most sanitaryware, which means the installation is less about stopping flex and more about getting an even, accurate bearing across the full base. That suits Sunningdale well: best known for the golf courses that share its name and the large detached Victorian, Edwardian and executive-style homes surrounding them, many on private or gated roads, the generous plot sizes here usually give us more flexibility on layout than a terraced or semi-detached property would allow."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Kaldewei",
+      "body": "We're a fit-only installer, so Sunningdale clients buy their Kaldewei bath, shower tray, brassware, tiles and furniture directly, and we handle the rest: strip-out of the existing bathroom, first-fix plumbing, installation of the Kaldewei unit itself, tiling around it, and a full snagging pass before handover. Kaldewei's steel construction gives a different feel to acrylic — rigid, hard-enamelled, and pressed rather than moulded — and that construction shapes several of the decisions we make on site, from how the base is supported to how the surface is protected while other trades finish the room."
+    },
+    {
+      "heading": "Installation considerations specific to Kaldewei",
+      "body": "A pressed-steel Kaldewei bath or shower tray doesn't flex the way an acrylic unit on a support frame does, so the installation priority shifts: instead of managing flex, we're making sure the subfloor and support structure give even, accurate bearing across the entire base before the unit is set. Any unevenness underneath can transfer into noise or movement later, so this is checked properly at first-fix rather than patched with packers afterwards. The titanium enamel surface is hard and chip-resistant in daily use, but it needs protecting from the other trades — tilers, plumbers, decorators — still working in the room, which is a different sequencing consideration than with some other sanitaryware finishes."
+    },
+    {
+      "heading": "Working in Sunningdale",
+      "body": "Sunningdale's identity is built around its golf courses and the large detached properties around them — a mix of Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, many on private or gated roads. The generous plot sizes typical of the area usually give us more flexibility on bathroom layout than a terraced or semi-detached property would allow. Moving a waste run a few feet to accommodate a Kaldewei freestanding bath, for example, is rarely constrained by neighbouring structure the way it would be in a tighter terrace, which opens up layout options from the first conversation."
+    },
+    {
+      "heading": "The fit-only process",
+      "body": "Every installation starts with a £125 paid survey, where we look at the existing plumbing, access, subfloor condition and anything specific to the Kaldewei unit you've chosen — bath or shower tray, size and weight all affect the support detail. We then confirm the installation plan and price, with fit-only installs starting from £3,500 depending on scope. Once your products are on site, we carry out the strip-out, first-fix, installation, tiling and plumbing, finishing with a thorough snagging check so everything is right before we hand the room back to you."
+    },
+    {
+      "heading": "Get a quote for your Sunningdale bathroom",
+      "body": "If you've bought a Kaldewei bath or shower tray for a Sunningdale property and need a fit-only installer who understands pressed-steel installation detail, call or WhatsApp 07399 651836 to book a £125 survey. We'll look at the room and the access, including private or gated road arrangements where relevant, and give you a clear price before work begins."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a Kaldewei bath harder to install than an acrylic one?",
+      "a": "Not harder, but different. Because it's pressed steel rather than cast or moulded, the focus is on even, accurate bearing across the full base rather than the flex-control an acrylic support frame provides."
+    },
+    {
+      "q": "Do you install on private or gated roads in Sunningdale?",
+      "a": "Yes, we regularly work on properties on private and gated roads around Sunningdale. We'll confirm any access arrangements during the survey so the installation runs smoothly."
+    },
+    {
+      "q": "Can a Kaldewei freestanding bath be repositioned within the room?",
+      "a": "Often, yes. The generous plot sizes typical of Sunningdale properties usually give more flexibility to move a waste run or reposition fittings than a smaller terraced property would allow, though it depends on the specific layout."
+    },
+    {
+      "q": "What does the £125 survey cover?",
+      "a": "The survey assesses the existing bathroom, plumbing, access and subfloor, and, for a Kaldewei installation specifically, the support detail needed for a rigid pressed-steel bath or shower tray."
+    },
+    {
+      "q": "How much does installation cost?",
+      "a": "Fit-only installations start from £3,500 depending on scope, confirmed after the £125 survey."
+    },
+    {
+      "q": "Do you handle repairs to existing Kaldewei bathrooms?",
+      "a": "We carry out repairs on high-end homes, minimum £200, with a £500 minimum for emergency call-outs. Regrouting is not something we offer as a standalone service."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on Kaldewei bathroom products",
+      "href": "/brands/kaldewei/"
+    },
+    {
+      "anchor": "Bathroom installation across Sunningdale",
+      "href": "/areas/sunningdale/"
+    },
+    {
+      "anchor": "Brands we fit in Sunningdale",
+      "href": "/areas-brands/sunningdale/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Walk-in shower installation",
+      "href": "/services/walk-in-shower-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "kaldewei"
+    },
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "Kaldewei installation Sunningdale",
+  "secondaryKeywords": [
+    "Kaldewei bath installer Sunningdale",
+    "Kaldewei shower tray fitting Sunningdale",
+    "fit-only Kaldewei bathroom Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kaldewei installation page highlighting shower tray edge detail against a warm natural material palette. Subject and action: low wide-angle view along the leading edge of a Kaldewei titanium-enamelled steel shower tray set into a travertine-tiled wet room floor, threshold strip half-fitted. Setting and work-stage: mid-build wet room in a large detached house, travertine tiles laid on three walls, one still exposed to screed. Composition: wide low-angle shot emphasising the horizontal line of the tray against the tiled floor, strong leading lines toward a window. Light and materials: warm late-afternoon raking light through a tall window, brushed bronze shower channel and valve catching the light unevenly, travertine's natural pitting visible. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kaldewei-sunningdale-hero.webp",
+    "heroAlt": "Kaldewei steel shower tray edge being fitted into a travertine-tiled wet room floor in a Sunningdale home",
+    "inline": []
+  }
+}

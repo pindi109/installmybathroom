@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-ascot/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "ascot",
+  "slug": "victoria-and-albert-ascot",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation in Ascot. Freestanding bath specialists, 30 years' experience, £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-ascot/"
+  },
+  "h1": "Victoria + Albert bathroom installation in Ascot",
+  "hero": {
+    "intro": "The large plots around Ascot's racecourse, and the Victorian, Edwardian and executive-style houses built on them over the past century or so, tend to give us far more room to plan a bathroom around than a smaller property allows. That matters with a Victoria + Albert freestanding bath, because these baths are cast from a volcanic limestone and resin composite rather than acrylic or steel — they carry genuine weight, and we plan the floor loading, access route and waste position before the bath ever leaves the showroom. In a generously proportioned Ascot home, that planning is usually about sequencing the job well rather than working around structural limits."
+  },
+  "sections": [
+    {
+      "heading": "Why larger Ascot plots suit a Victoria + Albert installation",
+      "body": "Ascot's housing stock grew up alongside the racecourse, and a good number of the Victorian, Edwardian and inter-war family homes in the area — along with the more recent executive-style builds on roads towards Sunningdale and Windsor — sit on generous plots. That scale generally gives us far more freedom on layout than a smaller property allows: relocating a waste run to suit a freestanding Victoria + Albert bath, or widening a doorway to create level access to an en-suite, rarely runs into the structural limits a terraced house would present. It's one of the reasons freestanding baths from this brand work so well in Ascot's larger properties."
+    },
+    {
+      "heading": "The weight of a Victoria + Albert bath, and why it changes the plan",
+      "body": "Victoria + Albert cast their freestanding baths from a volcanic limestone and resin composite, not acrylic or steel. That gives the bath a solid, cool-to-the-touch surface and genuine weight — noticeably more than a standard acrylic freestanding bath of the same size. It's a point that matters as much to how we get the bath into the room as it does to how it sits once installed, so floor loading, the access route through the house, and the waste position all get planned before the bath leaves the showroom, not worked out on the day it arrives."
+    },
+    {
+      "heading": "What we install from the Victoria + Albert range",
+      "body": "We're a fit-only installer: you choose and buy the Victoria + Albert bath, basin and any matching furniture directly, and we handle everything needed to get it installed properly — strip-out of the existing bathroom, first-fix plumbing and waste relocation, tiling, final plumbing connections, and snagging once the room is finished. Because Victoria + Albert's freestanding baths are a different proposition structurally to a standard acrylic bath, we plan the installation sequence around the bath's specific weight and dimensions rather than treating it as a like-for-like swap."
+    },
+    {
+      "heading": "Installation considerations specific to this brand",
+      "body": "Beyond weight, a Victoria + Albert freestanding bath needs its waste and overflow position set before first-fix plumbing goes in, and the access route from the front door to the bathroom checked for width and any tight turns on stairs or landings. In Ascot's larger properties this is usually straightforward — generous hallways, wider staircases and principal bathrooms with room to manoeuvre are common on these plots — but we still confirm it at survey rather than assume it, because every house is different even within the same road."
+    },
+    {
+      "heading": "The fit-only process and price",
+      "body": "We start with a paid survey at £125, where we assess the room, confirm floor loading and access for the Victoria + Albert bath, and agree the waste position and installation sequence. From there, installation covers strip-out, first-fix, tiling, plumbing and snagging, with projects starting from £3,500 depending on scope. You buy the bath, basin, brassware, tiles and furniture yourselves; we handle the installation end to end. Call or WhatsApp 07399 651836 to arrange a survey for your Ascot bathroom."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Victoria + Albert bath, or do we buy it?",
+      "a": "We're fit-only, so you buy the Victoria + Albert bath, basin, brassware, tiles and furniture yourselves. We handle the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does the weight of a Victoria + Albert bath matter for installation?",
+      "a": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, giving them genuine weight. We plan floor loading, access route and waste position before the bath leaves the showroom."
+    },
+    {
+      "q": "How much does a Victoria + Albert installation cost in Ascot?",
+      "a": "Installations start from £3,500 depending on scope. We charge a £125 survey fee upfront to assess the room and plan the installation properly."
+    },
+    {
+      "q": "Can you move the waste position for a freestanding bath in an Ascot house?",
+      "a": "Often, yes. Many Ascot properties sit on generous plots with larger bathrooms, which usually gives more flexibility on layout and waste runs than a smaller terraced property would allow. We confirm what's possible at survey."
+    },
+    {
+      "q": "Do you cover all areas of Ascot?",
+      "a": "Yes, we install Victoria + Albert bathrooms throughout Ascot and the surrounding area."
+    },
+    {
+      "q": "How long does a Victoria + Albert bathroom installation take?",
+      "a": "It depends on the scope of the project and the specific room. We confirm a realistic programme at survey once we've seen the space and the bath you've chosen."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More about Victoria + Albert bathroom products",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation across Ascot",
+      "href": "/areas/ascot/"
+    },
+    {
+      "anchor": "Brands we install in Ascot",
+      "href": "/areas-brands/ascot/"
+    },
+    {
+      "anchor": "Our freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Bathroom strip-out and preparation",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Ascot",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Ascot",
+    "freestanding bath installation Ascot",
+    "fit-only bathroom installer Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert bathroom installation page targeting Ascot. Subject and action: a large freestanding stone-composite bath positioned diagonally near a tall sash window, mid-installation with protective floor boards still visible at the room's edge. Setting and work-stage: a spacious principal bathroom in a large period-style house, first-fix plumbing complete, Calacatta marble tiling partially laid on one wall. Composition: wide angle from the doorway, bath in the left third, window light spilling across the floor, some exposed studwork visible through an open door to a utility space. Light and materials: soft natural daylight from the sash window, Calacatta marble slab with warm grey veining, brushed brass waste visible, varied believable sheen on the stone rather than uniform gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-ascot-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation in a large Ascot bathroom with Calacatta marble tiling",
+    "inline": []
+  }
+}

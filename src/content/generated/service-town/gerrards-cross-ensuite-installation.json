@@ -1,0 +1,70 @@
+{
+  "path": "/areas/gerrards-cross/ensuite-installation/",
+  "family": "Service × town",
+  "service": "ensuite-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "En-Suite Installation in Gerrards Cross | Fit-Only From £3,500 | Install My Bathroom",
+    "description": "Fit-only en-suite installation in Gerrards Cross, Buckinghamshire — stud wall partitions, tanking, tiling and second fix from £3,500. £125 survey, 30 years' experience.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/ensuite-installation/"
+  },
+  "h1": "En-suite installation in Gerrards Cross",
+  "hero": {
+    "intro": "Gerrards Cross is the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base — far enough that we plan the day around it rather than treating it as a quick add-on between closer jobs, which matters when a project needs a fitting team on site daily for the better part of two weeks. An en-suite installation here follows exactly the same fit-only model we run everywhere: you source the sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first fix, tanking, tiling, plumbing and snagging. What differs town to town is less the method and more the logistics and property specifics we confirm at survey, so that's where we start before any quote is written."
+  },
+  "sections": [
+    {
+      "heading": "What a £125 survey confirms before you commit",
+      "body": "Because every Gerrards Cross property is different regardless of the village's general character, we don't price an en-suite installation from a floor plan alone. At survey we check the available floor area, door swing, the route back to a soil stack or whether a macerator solution is the realistic answer, and water pressure — important in any en-suite, but especially one serving a principal bedroom used as the main morning shower. We also confirm structural detail for a stud wall partition if you're forming a new en-suite from a bedroom corner rather than converting an existing room, since the scope and quote differ meaningfully between the two."
+    },
+    {
+      "heading": "Scheduling and site logistics for a commuter-village project",
+      "body": "A project that runs 8 to 12 working days needs a fitting team on site consistently, so we plan travel and material logistics into the schedule from the outset rather than treating the distance as an afterthought. Deliveries, waste removal and daily access are all confirmed at survey alongside the technical scope, so there's no gap between the quote you receive and what actually happens once work starts. Bedroom carpets and furniture are protected with dust sheets for the full duration, and noisy work — cutting, chasing, drilling — is scheduled during the day."
+    },
+    {
+      "heading": "Tanking, drainage and finishing standards",
+      "body": "Whatever the property, the technical standards don't flex: full-height tanking in the shower enclosure, a tested fall to the waste, sealed pipe penetrations, and extraction sized to the room under Part F guidance with ducting run as directly as possible. Electrical work for lighting, shaver sockets and extractor fans is completed to Part P standards. We finish with a full snagging walkthrough before handover. If you're planning an en-suite in Gerrards Cross, book a £125 survey and we'll confirm an honest scope and fixed quote before you order anything."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you cover Gerrards Cross from your Bracknell base?",
+      "a": "Yes — it's around 25 to 30 minutes by road from Bracknell, and we build that into project scheduling so the fitting team is on site consistently for the full programme, usually 8 to 12 working days for a straightforward en-suite."
+    },
+    {
+      "q": "What do I need to buy myself for an en-suite installation?",
+      "a": "We're fit-only, so sanitaryware, brassware, tiles and furniture are sourced by you. We confirm exact dimensions at the £125 survey so nothing arrives too large for the room before we start."
+    },
+    {
+      "q": "Can you build a new en-suite where one doesn't currently exist?",
+      "a": "Yes, including stud wall partitioning and door repositioning off a bedroom corner, coordinated with first-fix plumbing and electrics. This is scoped and costed at survey alongside any drainage or layout considerations specific to your property."
+    },
+    {
+      "q": "Is the £125 survey fee separate from the installation cost?",
+      "a": "It's deducted from your total project cost if you go ahead with an installation through us, so it isn't an additional charge on top of the quote."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom fitting in Gerrards Cross" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost UK guide" },
+    { "href": "/areas/stoke-poges/ensuite-installation/", "anchor": "En-suite installation in Stoke Poges" },
+    { "href": "/areas/windsor/ensuite-installation/", "anchor": "En-suite installation in Windsor" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "gerrards-cross" }
+  ],
+  "primaryKeyword": "en-suite installation Gerrards Cross",
+  "secondaryKeywords": ["ensuite fitters Gerrards Cross", "en-suite bathroom Gerrards Cross", "ensuite conversion Buckinghamshire"],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Gerrards Cross en-suite installation page, showing a finished compact en-suite in a substantial commuter-belt family home. Subject and action: a finished en-suite vanity and WC corner, a neatly folded stack of towels on an open shelf, mirror reflecting soft daylight rather than any fixture or text. Setting and work-stage: completed en-suite off a principal bedroom in a large detached family house, daytime, soft overcast light. Composition: three-quarter angle taken from just inside the doorway, vanity and mirror filling the right two-thirds of frame, WC partially visible in the near foreground, door frame cropping the left edge. Light and materials: honed limestone floor and half-height wall tiling with a soft, matte grain, brushed bronze basin mixer and towel rail, soft overcast daylight through a frosted window mixing with one warm vanity light above the mirror. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror edge, no catalog-symmetrical twin basins, no uniform gold colour wash, no hanging plants, florals or arranged candles, no tap or shower shown running, varied and believable sheen on the limestone and brassware rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-ensuite-installation-hero.webp",
+    "heroAlt": "Finished en-suite with honed limestone tiling and brushed bronze fittings in a family home in Gerrards Cross, shot at a three-quarter angle in soft daylight.",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

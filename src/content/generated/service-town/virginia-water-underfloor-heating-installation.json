@@ -1,0 +1,80 @@
+{
+  "path": "/areas/virginia-water/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Underfloor Heating Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only underfloor heating for Virginia Water bathrooms, from period houses to executive-style builds on generous plots near Wentworth.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties here range from substantial period houses to more recent executive-style builds, and that range shapes which underfloor heating system makes sense in any given bathroom."
+  },
+  "sections": [
+    {
+      "heading": "Period houses and executive builds need different approaches",
+      "body": "A substantial period house in Virginia Water is more likely to have a bathroom over a suspended timber floor, with joists and boards rather than a solid slab beneath. We check joist span, spacing and condition before specifying anything, and typically carry a low-profile electric heating mat on a rigid insulation-backed board across the joists, so the heat goes up into the room rather than down into the void. In the more recent executive-style builds common here, a solid concrete ground floor is more typical, which makes a screeded water-fed system — tied into the existing central heating — a realistic option as well as electric."
+    },
+    {
+      "heading": "Generous plots mean more room to deal with a changed floor level",
+      "body": "Plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around. That same flexibility is useful when underfloor heating changes the finished floor level: with room to adjust a threshold or door swing without hitting a load-bearing wall, we have more options for keeping the transition into the hallway or bedroom level and tidy."
+    },
+    {
+      "heading": "Floor build-up and height allowance",
+      "body": "Underfloor heating adds to the existing floor depth regardless of which system you choose — insulation, then the heating mat or pipe, then screed or board, then tile adhesive and tile. Typical totals run from around 15mm for a thin electric mat system to 70mm or more for a screeded water-fed system. We measure this against your doors and any step into an adjoining room during the survey, so the finished floor height is planned rather than discovered too late."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "Once the survey has confirmed floor type and system, we strip the existing floor back, make good any joists or slab issues, lay insulation, fit the mat or pipe and test it, then cover it with screed or board ahead of tiling. The thermostat is wired in, commissioned and tested, and we snag the finished room before handing the bathroom back to you."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can underfloor heating be fitted in a period house in Virginia Water?",
+      "a": "Yes. Where the bathroom sits over a suspended timber floor, we fit a rigid insulation-backed board across the joists to carry a low-profile electric heating mat, keeping the added height to a minimum."
+    },
+    {
+      "q": "Is water-fed underfloor heating an option in Virginia Water's newer builds?",
+      "a": "Where a bathroom sits on a solid concrete slab, which is more common in the area's executive-style builds, a screeded water-fed system tied into the existing central heating is usually a realistic option."
+    },
+    {
+      "q": "Will underfloor heating cause problems if I'm also repositioning the shower or bath?",
+      "a": "Generally no. The generous plots typical of Virginia Water give more flexibility to move a waste run or reposition fittings alongside a floor height change than a smaller terraced property allows."
+    },
+    {
+      "q": "How much extra floor height does underfloor heating add?",
+      "a": "Typically 15mm to 70mm once insulation, the heating element, screed or board, and the tile and adhesive are all accounted for, depending on which system suits your floor."
+    },
+    {
+      "q": "Do you need to see my floor before quoting?",
+      "a": "Yes. The £125 survey confirms whether you have a suspended timber floor or a solid slab, which determines the system we recommend."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/virginia-water/", "text": "Bathroom installation in Virginia Water" },
+    { "href": "/bathroom-cost/virginia-water/", "text": "Bathroom installation costs in Virginia Water" },
+    { "href": "/areas/sunningdale/underfloor-heating-installation/", "text": "Underfloor heating installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/underfloor-heating-installation/", "text": "Underfloor heating installation on Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "underfloor heating installation Virginia Water",
+  "secondaryKeywords": [
+    "electric underfloor heating Virginia Water",
+    "water-fed underfloor heating Surrey",
+    "heated bathroom floor installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Virginia Water homeowners. Subject and action: electric heating mat being unrolled and pressed onto a grey insulation board, cable loops partially fixed, a roll of the mat still coiled at one edge of frame. Setting and work-stage: construction stage, straight-down macro composition on the floor itself within a gutted bathroom, tile trowel and a notched spreader resting at the frame edge. Composition: straight-down macro shot filling the frame with the mat and insulation board texture, slight diagonal tension from the unrolled coil. Light and materials: neutral artificial work-light with a faint cool cast, matte grey polished-concrete-look porcelain tile samples leaning just in shot, dull black cable sheath. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Electric underfloor heating mat being fitted over an insulation board during a bathroom installation in Virginia Water",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "path": "/installer/porcelanosa-windsor/",
+  "family": "Brand x town",
+  "brand": "porcelanosa",
+  "town": "windsor",
+  "slug": "porcelanosa-windsor",
+  "seo": {
+    "title": "Porcelanosa Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only Porcelanosa bathroom installation in Windsor. Strip-out, tiling, plumbing and snagging - you choose the tile. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/porcelanosa-windsor/"
+  },
+  "h1": "Porcelanosa bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases; further out, more typically inter-war and post-war family homes, with some newer developments on redeveloped sites. Porcelanosa's large-format porcelain can go into either type of property, but the practicalities differ - in a narrow Windsor town house, moving a slab of rectified porcelain up a period staircase takes more planning than in a modern house with a wider hallway, and either way the substrate still needs to be checked and prepared flat before the tile goes down."
+  },
+  "sections": [
+    {
+      "heading": "Flatness first: why Porcelanosa is unforgiving",
+      "body": "Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise - which is exactly why it punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. Fitting it well is a matter of tolerance, not taste: the floor or wall is checked and prepared flat first, then the tile is set with the correct bed coverage, joint width and lippage control to let the material's own precision show through."
+    },
+    {
+      "heading": "Two housing types, two sets of access challenges",
+      "body": "Close to Windsor Castle and the historic centre, there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes, with a scattering of newer residential developments on sites that have been redeveloped over the years. In a period town house, we plan deliveries of large-format Porcelanosa slabs around what the staircase and doorways can actually take, moving material in smaller, safer loads; in the more open inter-war and post-war properties, wider hallways and rear access usually mean fewer constraints on how the job is sequenced."
+    },
+    {
+      "heading": "What we install from the Porcelanosa range",
+      "body": "We fit Porcelanosa's large-format porcelain across floors, walls, shower enclosures and wet rooms, including pale limestone-look finishes alongside marble-look and stone-look options. As a fit-only installer, you buy the tile along with your sanitaryware, brassware and furniture, and we handle everything from strip-out through to the finished, fully fitted room."
+    },
+    {
+      "heading": "Setting large-format tile correctly",
+      "body": "Large slabs need full solid-bed adhesive coverage rather than spot bonding, because any void beneath a tile this size will eventually crack under foot traffic or thermal movement. We keep joint widths narrow and consistent to suit the rectified edge, use lippage-control systems to pull adjacent tiles level while the adhesive is still workable, and build in movement joints at room boundaries and around fixed items like baths, so the finished surface can move without cracking at the grout line."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We start with a paid survey at £125, where we check floor levels, substrate condition and - in a period Windsor property - access routes through the building for large-format material. Installation covers strip-out of the existing bathroom, first-fix plumbing and electrics, tiling, final-fix plumbing and snagging, with installs starting from £3,500 depending on room size and scope. You buy the tile, sanitaryware, brassware and furniture directly; we handle everything to do with fitting it, insured throughout."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Porcelanosa tiles, or do I buy them?",
+      "a": "You buy the tile directly - we're a fit-only installer, so you choose and purchase your Porcelanosa tile, sanitaryware, brassware and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "We're in a period town house near the Castle - can you still fit large-format tile?",
+      "a": "Yes. Narrow plots, limited rear access and period staircases in that part of Windsor just mean we plan deliveries in smaller, carefully sequenced loads rather than moving everything in at once. We'll confirm the access route at survey."
+    },
+    {
+      "q": "Why does floor flatness matter so much with large-format porcelain?",
+      "a": "Porcelanosa's large-format tile is dense, rectified and dimensionally precise, which means it has very little give at the edges. An uneven substrate shows up as lippage between tiles, so we check and prepare the floor or wall flat before setting it."
+    },
+    {
+      "q": "How much does a bathroom installation cost?",
+      "a": "Installs start from £3,500, with a £125 paid survey beforehand to confirm scope and price for your specific room."
+    },
+    {
+      "q": "Do you do bathroom repairs as well as full installs?",
+      "a": "Yes, for high-end homes, with a £200 minimum and a £500 minimum for emergency call-outs. We don't do regrouting as a standalone repair."
+    },
+    {
+      "q": "How do I book a survey?",
+      "a": "Call or WhatsApp 07399 651836 to arrange a paid survey at £125, where we'll assess your Windsor bathroom, including access, and discuss your Porcelanosa tile plans."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/porcelanosa/", "text": "More about Porcelanosa large-format porcelain" },
+    { "href": "/areas/windsor/", "text": "Bathroom installation across Windsor" },
+    { "href": "/areas-brands/windsor/", "text": "Brands we fit in Windsor" },
+    { "href": "/services/natural-stone-and-marble-bathrooms/", "text": "Natural stone and marble bathroom fitting" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "Porcelanosa installation Windsor",
+  "secondaryKeywords": [
+    "Porcelanosa bathroom fitter Windsor",
+    "large-format porcelain tiling Windsor",
+    "Porcelanosa tile installer Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Porcelanosa x Windsor bathroom installation page. Subject and action: a three-quarter view of a part-tiled bathroom wall in pale limestone-look large-format porcelain, upper courses dry-laid and spaced with tile spacers awaiting final fixing. Setting and work-stage: mid-installation inside a period town house bathroom with a narrow window suggesting a tighter floorplan, tools laid out on a dust sheet below. Composition: three-quarter wall-tile shot angled slightly upward, showing the transition from fixed tile at the base to dry-laid tile higher up the wall. Light and materials: bright, cool morning light through a small window, pale limestone-look porcelain with a soft, slightly uneven honed sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/porcelanosa-windsor-hero.webp",
+    "heroAlt": "Three-quarter view of pale limestone-look large-format Porcelanosa wall tiling mid-installation in a Windsor period town house bathroom",
+    "inline": []
+  }
+}

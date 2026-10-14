@@ -1,0 +1,106 @@
+{
+  "path": "/installer/geberit-ascot/",
+  "family": "Brand x town",
+  "brand": "geberit",
+  "town": "ascot",
+  "slug": "geberit-ascot",
+  "seo": {
+    "title": "Geberit Bathroom Installation in Ascot | Fit-Only | Install My Bathroom",
+    "description": "Geberit concealed cisterns, wall-hung WCs and AquaClean shower toilets, fitted correctly in Ascot's larger homes. Fit-only installation from £3,500, £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/installer/geberit-ascot/"
+  },
+  "h1": "Geberit bathroom installation in Ascot",
+  "hero": {
+    "intro": "The large plots that define Ascot's Victorian, Edwardian and executive-style houses give us real freedom when we're planning a bathroom layout — relocating a waste run or widening a doorway for level access rarely runs into the structural limits a smaller property would present. But a Geberit concealed cistern and wall-hung WC don't care how much space surrounds them: the full weight of the pan and cistern sits on the carrier frame, not the wall tiles, and that frame still needs a proper structural fixing regardless of how generous the room is."
+  },
+  "sections": [
+    {
+      "heading": "What we fit from Geberit",
+      "body": "Geberit's concealed cisterns, wall-hung WCs and AquaClean shower toilets are the most common sanitaryware brand we fit, and that's as true in Ascot's larger houses as anywhere else we work. The appeal is obvious on a design level — a wall-hung pan and a flush plate instead of a visible cistern reads as cleaner in a large, well-specified bathroom or en-suite — but the installation itself is a different job to a standard close-coupled WC, and that's where correct frame selection and fixing becomes the deciding factor in how the finished product actually performs."
+    },
+    {
+      "heading": "Why the carrier frame is the part that matters",
+      "body": "Because the cistern and pan weight sit entirely on the carrier frame rather than the wall tiles, the frame has to be selected and fixed correctly before any tiling goes in around it — there's no retrofitting a stronger fixing once the wall is closed up. We confirm the frame type, the floor and wall fixing points, and the access requirement for future maintenance at survey stage, not on fitting day, so the flush plate and panel sit flush and the pan stays solid under daily use for years rather than months."
+    },
+    {
+      "heading": "What Ascot's larger plots mean in practice",
+      "body": "The scale of plot common in Ascot — large detached houses on generous grounds towards Sunningdale and Windsor — generally gives us far more freedom on layout than a smaller property allows. That flexibility is genuinely useful when we're planning where a Geberit frame and its access panel sit within a new layout, or when a second en-suite is being added rather than squeezed into an existing footprint. It doesn't change the fixing requirement itself, but it does mean we're rarely working around the kind of structural constraint that a terraced house in a tighter town would present."
+    },
+    {
+      "heading": "Fit-only, from survey to snagging",
+      "body": "We work fit-only across Ascot: you choose and supply the Geberit products, tiles and brassware, and we handle the strip-out, first fix, tiling, plumbing and snagging. Every project starts with a £125 survey, where we confirm the frame and fixing detail before anything is ordered, and installations start from £3,500. We've been doing this for 30 years from our base in Bracknell, a short drive from Ascot, and if anything needs attention after the fit, repairs start from £200."
+    },
+    {
+      "heading": "What we check before a Geberit frame goes in",
+      "body": "At survey, before any Geberit product is ordered, we confirm three things: the frame generation and model match what's been specified, the floor and wall fixing points are sound enough to carry the full cistern and pan weight, and the access panel position works with the finished tiling layout. In a large Ascot property that's rarely about working around existing constraints — it's about making sure a straightforward job stays straightforward, because the frame is permanently behind the wall once the tiling is on, and it is not a part of the installation we want to be revisiting."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Geberit products, or just fit them?",
+      "a": "We fit only — you choose and supply the Geberit concealed cistern, wall-hung WC or AquaClean shower toilet, through whichever showroom or retailer suits you, and we handle the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does a Geberit installation cost more attention than a standard WC?",
+      "a": "The cistern and pan weight sit entirely on the carrier frame rather than the wall tiles, so correct frame selection and structural fixing matter more with Geberit than with most brands. Getting that detail right at first fix is what keeps the pan solid long term."
+    },
+    {
+      "q": "Does Ascot's housing stock make a Geberit installation easier?",
+      "a": "The larger plots common around Ascot generally give us more freedom on layout — relocating a waste run or adding a second en-suite rarely hits a structural limit — but the carrier frame still needs the same correct fixing regardless of the size of the room."
+    },
+    {
+      "q": "How much does a Geberit bathroom installation cost in Ascot?",
+      "a": "Fit-only installations start from £3,500, with every project beginning with a £125 survey. Repairs on an existing installation start from £200, with a £500 minimum call-out for emergencies."
+    },
+    {
+      "q": "What do you check at survey before a Geberit frame is ordered?",
+      "a": "We confirm the frame generation matches the specified product, that the floor and wall fixing points can carry the full cistern and pan weight, and that the access panel position suits the finished tiling layout — all before anything is ordered."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/geberit/",
+      "anchor": "Geberit bathroom brand page"
+    },
+    {
+      "href": "/areas/ascot/",
+      "anchor": "Bathroom fitting in Ascot"
+    },
+    {
+      "href": "/areas-brands/ascot/",
+      "anchor": "Bathroom brands we fit in Ascot"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet & concealed cistern installation"
+    },
+    {
+      "href": "/services/shower-toilet-installation/",
+      "anchor": "Shower toilet installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "geberit"
+    },
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    }
+  ],
+  "primaryKeyword": "Geberit installation Ascot",
+  "secondaryKeywords": [
+    "Geberit bathroom fitter Ascot",
+    "Geberit concealed cistern Ascot",
+    "fit-only Geberit installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Geberit x Ascot installer page, a close fixture-detail shot implying a Geberit wall-hung WC installation without showing any branding. Subject and action: a close three-quarter shot of a wall-hung WC pan and a rectangular flush plate set into a tiled wall, static, freshly installed with no motion or water. Setting and work-stage: a finished en-suite in a large Ascot executive-style house, daytime, bright natural light entering from an unseen side window. Composition: tight three-quarter framing on the pan and flush plate, the cistern wall filling the midground, a soft-focus sliver of tiled floor in the foreground. Light and materials: Calacatta marble-effect porcelain tile on the wall, matte black flush plate and soft-close seat hinge, bright directional daylight casting a defined but soft shadow beneath the pan. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical fittings, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble-effect tile rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/geberit-ascot-hero.webp",
+    "heroAlt": "Close-up of a wall-hung WC pan and matte black flush plate against Calacatta marble-effect tile in a finished Ascot en-suite, bright natural daylight.",
+    "inline": []
+  }
+}

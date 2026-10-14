@@ -1,0 +1,76 @@
+{
+  "path": "/areas/virginia-water/walk-in-shower-installation/",
+  "family": "Service x town",
+  "service": "walk-in-shower-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Walk-In Shower Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only walk-in shower installation in Virginia Water. Frameless enclosures, level-access trays, falls and tanking done properly. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/walk-in-shower-installation/"
+  },
+  "h1": "Walk-in shower installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. That plot size generally gives us far more flexibility on layout than a terraced property would — including repositioning a shower to improve natural light, which is one of the more common requests we get on walk-in shower installations here. We're fit-only: you source the frameless or semi-frameless enclosure, tray and tiles; we strip out, tank, tile, plumb and snag."
+  },
+  "sections": [
+    {
+      "heading": "Repositioning for light, not just for space",
+      "body": "A walk-in shower installation is a defined, single-area job — forming a level-access or low-profile tray inside a frameless or semi-frameless enclosure, properly tanked and tiled, rather than a full wet room or an en-suite built from scratch. In Virginia Water specifically, the generous plot sizes mean repositioning a shower to make better use of natural light from an existing window, rather than leaving it tucked in the darkest corner of the room, rarely runs into a structural wall it can't move around. That's a genuine advantage over tighter properties, where the shower often has to go wherever the existing waste already is."
+    },
+    {
+      "heading": "What moving the waste run actually involves",
+      "body": "Relocating a waste run to support a repositioned tray means extending or rerouting the soil pipe while maintaining the fall needed for the new shower position, then confirming the floor build-up has enough depth for a level-access tray without creating a step at the threshold. On period houses with substantial period character, as well as more recent executive-style builds, we check floor joist direction and any existing service runs before committing to a new layout, since that affects how straightforward the waste relocation will be."
+    },
+    {
+      "heading": "Access for gated and private roads",
+      "body": "A number of Virginia Water properties sit behind gated or private road access with long driveways, so we confirm delivery logistics for the tray and enclosure glass at survey stage — these are items that need careful handling on site and clear access arrangements agreed in advance, rather than assumed on the day. It's a small logistical detail, but one that keeps the installation programme running without delays caused by deliveries that can't reach the house."
+    },
+    {
+      "heading": "How we run the job",
+      "body": "Every installation starts with a paid £125 survey: floor levels, existing waste position, wall construction, natural light and access are all checked before we confirm layout and price. From there: strip-out, first-fix plumbing changes for the new waste position, tanking, tiling, then fitting the tray, enclosure and brassware you've sourced, finished with a full snag check. Installs start from £3,500 on a fit-only basis."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a walk-in shower be repositioned to get better natural light?",
+      "a": "Often, yes. The generous plots typical of Virginia Water mean relocating a waste run to reposition a shower towards an existing window rarely hits a structural wall it can't move around, unlike in a more tightly built property."
+    },
+    {
+      "q": "Do you supply the enclosure and tray?",
+      "a": "No, we're fit-only. You choose and buy the enclosure, tray, tiles and brassware, and we carry out strip-out, first-fix, tanking, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can you deliver materials to a gated or private road property?",
+      "a": "Yes — we confirm delivery logistics and access arrangements for the tray and enclosure glass during the survey, so there are no delays caused by deliveries that can't reach the house on the day."
+    },
+    {
+      "q": "What's the difference between a walk-in shower and a wet room?",
+      "a": "A walk-in shower uses a defined tray, usually level-access, within a frameless or semi-frameless enclosure. A wet room tanks and falls the entire floor with no raised tray at all, which is a larger-scope job."
+    },
+    {
+      "q": "How much does a walk-in shower installation cost?",
+      "a": "Installs start from £3,500 on a fit-only basis, covering strip-out, first-fix, tanking, tiling, plumbing and snagging. We confirm the exact figure after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation service" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation in Virginia Water" },
+    { "href": "/guides/walk-in-shower-cost-uk/", "anchor": "Walk-in shower cost guide" },
+    { "href": "/areas/sunningdale/walk-in-shower-installation/", "anchor": "Walk-in shower installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/walk-in-shower-installation/", "anchor": "Walk-in shower installation on Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "walk-in shower installation Virginia Water",
+  "secondaryKeywords": [ "frameless shower enclosure Virginia Water", "level access shower installer Surrey", "walk-in shower fitter Virginia Water" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Virginia Water walk-in shower installation service page. Subject and action: a finished frameless walk-in shower enclosure with an antique bronze frame and low-profile tray, positioned beside a window to show the light-repositioning angle, shown as a completed installation. Setting and work-stage: a principal-bedroom en-suite in a large detached house, fully finished, tiling and glass complete. Composition: shot facing towards the window wall so the enclosure is lit from the side, with the tray visible in the foreground and the window framing the background. Light and materials: bright midday daylight streaming through the window, warm honey-toned limestone-effect wall tiles, bronze fixings with a matte, slightly aged finish rather than polished brass. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-walk-in-shower-installation-hero.webp",
+    "heroAlt": "Finished frameless walk-in shower with antique bronze frame beside a window in a Virginia Water en-suite",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

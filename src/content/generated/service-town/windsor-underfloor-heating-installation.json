@@ -1,0 +1,80 @@
+{
+  "path": "/areas/windsor/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Underfloor Heating Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only underfloor heating for Windsor bathrooms, from narrow-plot Georgian town houses near the Castle to post-war family homes further out.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access; further out, inter-war and post-war family homes and newer residential developments. Underfloor heating works in both, but the practical constraints of getting materials in and a system fitted are very different depending on which part of Windsor you're in."
+  },
+  "sections": [
+    {
+      "heading": "Narrow town houses near the Castle: access is the real constraint",
+      "body": "Many properties close to the Castle sit on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. That's as relevant to underfloor heating as it is to any other part of a bathroom strip-out: insulation boards, bags of screed or self-levelling compound, and rolls of heating mat all have to go up a narrow period staircase in manageable loads rather than arrive as one bulk delivery. These town houses are also more likely to have a suspended timber floor beneath the bathroom, so we check joist condition and span before fitting a rigid insulation-backed board to carry a low-profile electric mat — the system that adds the least height and the fewest heavy deliveries, which matters when every bag has to be carried up by hand."
+    },
+    {
+      "heading": "Further out: post-war homes and newer developments give more flexibility",
+      "body": "Inter-war and post-war family homes on the edges of Windsor, along with newer residential developments on redeveloped sites, are more likely to have wider access and a solid concrete ground floor. That opens up a screeded water-fed underfloor heating system tied into the existing central heating as a realistic option alongside electric, and makes material access far more straightforward than in the older town houses nearer the centre."
+    },
+    {
+      "heading": "Floor height allowance applies either way",
+      "body": "Whichever part of Windsor you're in, underfloor heating adds to the existing floor depth — insulation, then the heating mat or pipe, then screed or board, then tile adhesive and tile. Totals typically run from around 15mm for a thin electric mat system up to 70mm or more for a screeded water-fed one. In a narrow Georgian or Victorian town house, that height change needs checking carefully against period skirting, door architraves and staircases that weren't built with modern floor build-ups in mind; in a newer property, there's usually more tolerance."
+    },
+    {
+      "heading": "How we run the job",
+      "body": "At survey we confirm floor type, access constraints and the right system. We then strip the existing floor back, check and make good joists or slab, lay insulation, fit and test the mat or pipe, cover it with screed or board, and hand over to tiling. The thermostat is wired in, commissioned and tested, and we snag the finished room before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can underfloor heating be fitted in a narrow Georgian town house near Windsor Castle?",
+      "a": "Yes, but access shapes the approach. Materials go up period staircases in manageable loads, and we typically specify a low-profile electric mat over an insulation-backed board, which keeps deliveries and added floor height to a minimum."
+    },
+    {
+      "q": "Is water-fed underfloor heating an option in Windsor?",
+      "a": "It usually suits the newer, wider-access properties further from the centre with a solid concrete floor, where a screeded system tied into the existing central heating is more straightforward to fit."
+    },
+    {
+      "q": "Will underfloor heating cause problems with period skirting or door architraves?",
+      "a": "It can if the added floor height isn't planned for. We check the expected build-up against period skirting, architraves and staircases at survey stage, particularly in town houses near the Castle."
+    },
+    {
+      "q": "How much extra height does underfloor heating add to a Windsor bathroom floor?",
+      "a": "Typically 15mm to 70mm depending on the system, once insulation, the heating element, screed or board, and tile are accounted for."
+    },
+    {
+      "q": "Do you check access before quoting for a central Windsor property?",
+      "a": "Yes. The £125 survey covers both the floor type and how materials will get in and up to the bathroom, which matters more in narrow period town houses than in newer developments."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/windsor/", "text": "Bathroom installation in Windsor" },
+    { "href": "/bathroom-cost/windsor/", "text": "Bathroom installation costs in Windsor" },
+    { "href": "/areas/ascot/underfloor-heating-installation/", "text": "Underfloor heating installation in Ascot" },
+    { "href": "/areas/sunningdale/underfloor-heating-installation/", "text": "Underfloor heating installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "underfloor heating installation Windsor",
+  "secondaryKeywords": [
+    "electric underfloor heating Windsor",
+    "water-fed underfloor heating Windsor",
+    "heated bathroom floor installer Windsor town house"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Windsor homeowners. Subject and action: insulation boards being laid and screed prepared across a narrow bathroom floor, a hand trowel resting on a half-finished screed pass, construction stage mid-way through the floor build-up. Setting and work-stage: a tight, narrow period bathroom near a town centre, exposed original skirting board at low level showing the gap left for the new floor build-up. Composition: tight, confined composition shot from one end of the narrow room looking towards a small sash window, walls close in on both sides emphasising the restricted space. Light and materials: flat overcast daylight through the small window, terracotta-toned reclaimed floor tile samples stacked against the wall, pale grey insulation board, dull trowel marks in the fresh screed. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Underfloor heating insulation boards and screed being laid in a narrow period bathroom near Windsor town centre",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "path": "/installer/hansgrohe-stoke-poges/",
+  "family": "Brand x town",
+  "brand": "hansgrohe",
+  "town": "stoke-poges",
+  "slug": "hansgrohe-stoke-poges",
+  "seo": {
+    "title": "hansgrohe Bathroom Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only hansgrohe shower and brassware installation for Stoke Poges homes. Paid survey, fixed from £3,500. 30 years' experience, insured, no subcontractors.",
+    "canonical": "https://installmybathroom.co.uk/installer/hansgrohe-stoke-poges/"
+  },
+  "h1": "hansgrohe bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges' large plots and substantial houses — many set well back from the road around Stoke Park's golf and country club — give us room most smaller properties can't offer, which matters when a hansgrohe shower system is going in as part of a wider layout change. hansgrohe brassware and shower systems appear on more of our specification sheets than almost any other single brand, usually paired with sanitaryware from Duravit, Villeroy & Boch or Laufen. The engineering is consistent across the range, so fitting is predictable; what actually decides performance is water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up."
+  },
+  "sections": [
+    {
+      "heading": "Why hansgrohe turns up so often on our Stoke Poges jobs",
+      "body": "When a Stoke Poges client hands us a spec for a principal bathroom or a new en-suite, hansgrohe is usually sitting in the shower and basin mixer line, alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. It's not a coincidence — the range is consistent enough across different price points that we can plan a first fix with confidence, knowing the valve geometry and connection standards won't throw up surprises partway through. For the larger, more complex layouts common around Stoke Park, that consistency is useful, because it's one less variable when we're also solving for pipe runs across a bigger footprint."
+    },
+    {
+      "heading": "What we install for hansgrohe specifications",
+      "body": "We fit the full range of hansgrohe shower and brassware products that come through on a client's spec: concealed thermostatic shower valves, exposed mixers, rainfall and overhead shower arms, handheld sets, and basin, bath and bidet mixers. Install My Bathroom works fit-only — you source the hansgrohe products along with your tiles, sanitaryware and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging. On Stoke Poges properties with the space to support it, we often see larger wet rooms or walk-in shower areas specified with hansgrohe overhead and handheld combinations, which we plan around from first fix rather than retrofitting."
+    },
+    {
+      "heading": "Installation considerations specific to the brand",
+      "body": "The variables that decide how a hansgrohe system actually performs in use are water pressure, rough-in depth and whether the valve body was set correctly before the wall closed up. We check incoming pressure and flow before committing to a concealed valve position, confirm the rough-in depth against the specific model's requirements, and set the valve body square and at the correct depth before boarding and tiling go over it — because once the wall is closed, correcting a misaligned valve means opening it back up. On Stoke Poges jobs where we're relocating a waste run or widening a doorway for level access, we sequence the first fix so the hansgrohe valve positions are confirmed before any of that structural work is finished off."
+    },
+    {
+      "heading": "What Stoke Poges properties give us to work with",
+      "body": "Stoke Poges is a village of large plots and substantial houses, ranging from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow — relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. For a hansgrohe installation specifically, that extra space often means we can position a concealed valve and overhead arm exactly where the client wants it, rather than working around a structural wall or an awkward joist run."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We start with a paid survey at £125, where we assess the existing plumbing, structure and your intended layout, including where hansgrohe fittings will sit and whether current water pressure supports them. From there we quote the installation — fit-only work on a project like this starts from £3,500, depending on scope. Once agreed, we strip out the old bathroom, carry out first-fix plumbing and any structural changes, tile, install the sanitaryware and your hansgrohe brassware and shower system, then snag everything before handover. You're responsible for sourcing the hansgrohe products and other fittings in good time for the install dates we agree."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the hansgrohe shower or brassware, or do I need to buy it?",
+      "a": "We're fit-only, so you source the hansgrohe products — along with your sanitaryware, tiles and furniture — and we handle the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Will my water pressure suit a hansgrohe shower system?",
+      "a": "We check incoming water pressure and flow at survey stage, because it's one of the main factors that determines how a hansgrohe shower system actually performs once installed."
+    },
+    {
+      "q": "Can you reposition plumbing for a hansgrohe installation on a Stoke Poges property?",
+      "a": "Often, yes. Many Stoke Poges houses sit on larger plots with more room to manoeuvre, so relocating a waste run or repositioning a valve is usually more straightforward than it would be in a smaller, terraced property."
+    },
+    {
+      "q": "How much does a hansgrohe bathroom installation cost?",
+      "a": "Fit-only installations start from £3,500. The exact price depends on the scope of work, which we confirm after the £125 paid survey."
+    },
+    {
+      "q": "What happens if the hansgrohe valve rough-in depth doesn't match the wall build-up?",
+      "a": "We confirm rough-in depth against the specific hansgrohe model's requirements during first fix, before boarding and tiling go over it, so the valve body sits correctly and doesn't need to be opened up again later."
+    },
+    {
+      "q": "Do you cover repairs to existing hansgrohe systems in Stoke Poges?",
+      "a": "We take on repair work for high-end homes, with a minimum charge of £200 and a £500 minimum for emergency call-outs. We don't carry out regrouting."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/hansgrohe/", "anchor": "See all hansgrohe installations we fit" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom installation across Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "anchor": "Brands we fit in Stoke Poges" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital and smart shower installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "hansgrohe installation Stoke Poges",
+  "secondaryKeywords": [
+    "hansgrohe shower installer Stoke Poges",
+    "hansgrohe brassware fitter Buckinghamshire",
+    "fit-only hansgrohe bathroom Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a hansgrohe shower valve installation page targeting a large-plot village setting. Subject and action: a concealed thermostatic shower valve and separate rainfall shower arm being set into a part-tiled wall recess, valve body exposed mid-installation with tiling partially complete around it. Setting and work-stage: a generously proportioned en-suite under construction, Calacatta marble tiles laid on two walls and bare render visible on the third, brushed brass fixtures. Composition: close-mid shot angled across the shower recess so both the exposed valve body and the finished tiled section are visible in frame, slight diagonal line to show depth. Light and materials: soft natural daylight from an unseen window to camera-left, Calacatta marble with visible veining catching highlights, brushed brass valve plate with a warm but varied sheen. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/hansgrohe-stoke-poges-hero.webp",
+    "heroAlt": "Concealed hansgrohe-style shower valve being fitted into a part-tiled Calacatta marble shower recess during a bathroom installation in Stoke Poges",
+    "inline": []
+  }
+}

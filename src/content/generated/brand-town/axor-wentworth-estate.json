@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-wentworth-estate/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "wentworth-estate",
+  "slug": "axor-wentworth-estate",
+  "seo": {
+    "title": "AXOR Bathroom Installer on Wentworth Estate | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation on Wentworth Estate, Virginia Water, fit-only from £3,500. Gate-coordinated access and careful finish handling.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-wentworth-estate/"
+  },
+  "h1": "AXOR bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "Wentworth Estate in Virginia Water, Surrey, is the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship, around 15 to 20 minutes by road from our Bracknell base — and every project we take on there runs through the estate and any managing agent to coordinate access, so the programme isn't held up at the gate. That coordination matters for an AXOR installation specifically, because getting materials and a finished digital shower system through a managed gate and onto site without damage in transit takes the same discipline as handling the brassware once it's actually being fitted."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR on Wentworth Estate",
+      "body": "AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux. On Wentworth Estate, we install AXOR digital and smart shower systems, basin mixers, walk-in shower valves and en-suite brassware packages on a fit-only basis — you source the specific AXOR range through a showroom or designer, and we strip out, first-fix, tile, plumb and snag the installation, coordinating delivery and access through the estate's gate system as part of the programme."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "A digital AXOR shower system brings a control interface and valve body that have to be positioned correctly at first fix, with wiring or a wireless control point set out before the wall closes around it — the same precision that applies to any AXOR installation, but with more riding on getting it right first time given the access coordination involved in getting back on site for a correction. The finish detail doesn't change because the setting is a gated estate rather than anywhere else: a brushed or matte black AXOR trim shows every scuff mark from careless handling in a way chrome never does, so we keep the final control plate and handset boxed until the en-suite is genuinely finished around it."
+    },
+    {
+      "heading": "How Wentworth Estate's access affects a typical AXOR installation",
+      "body": "Coordinating deliveries and trade access through the estate's gate and any managing agent means we plan the sequence of when AXOR materials arrive, rather than having brassware sitting on site exposed to other trades for longer than it needs to be. Because booking a delivery or a correction visit on the estate takes advance planning with the gate and managing agent, we're more deliberate here than usual about getting the first-fix layout and the finish protection right in one pass, rather than relying on being able to pop back easily if something's missed."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only on Wentworth Estate: you choose your AXOR brassware and the rest of your bathroom specification, and we handle the strip-out, first fix, plumbing, tiling and final fit, from £3,500, coordinating all site access with the estate and managing agent in advance. Every project starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the exact AXOR system — including any digital shower components — and plan the access and delivery schedule around the estate's requirements. With 30 years' experience, we know how to protect a precision brassware finish through a longer, more coordinated delivery and fit process. If anything needs attention after the fact, repairs start from £200, with a £500 minimum for an emergency call-out and no standalone regrouting offered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you coordinate access to Wentworth Estate for an AXOR installation?",
+      "a": "We liaise with the estate and any managing agent in advance to book deliveries and trade access through the gate, planning the programme so it runs without delay."
+    },
+    {
+      "q": "Does gated estate access affect how AXOR brassware is protected before fitting?",
+      "a": "Yes — we plan when materials arrive on site so brassware isn't sitting exposed to other trades for longer than necessary, which matters more when access itself takes planning."
+    },
+    {
+      "q": "Can you fit a digital or smart AXOR shower system on Wentworth Estate?",
+      "a": "Yes. We position the control interface and valve body correctly at first fix, which matters even more given the coordination involved in returning to site for any correction."
+    },
+    {
+      "q": "Do I need to supply the AXOR brassware myself?",
+      "a": "Yes — we work fit-only, so you source your AXOR products and we handle the installation, from first fix through to the final trim."
+    },
+    {
+      "q": "What does an AXOR bathroom installation cost on Wentworth Estate?",
+      "a": "Installations start from £3,500. Every project begins with a £125 survey, where we confirm the AXOR specification and the access arrangements together."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom fitting on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "Bathroom brands we fit on Wentworth Estate" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital and smart shower installation" },
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Wentworth Estate",
+  "secondaryKeywords": [
+    "AXOR installation Wentworth Estate",
+    "AXOR digital shower Wentworth Estate",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Wentworth Estate installer page, implying AXOR's digital shower system through a close fixture detail rather than a full room shot. Subject and action: a close mid shot of a digital shower control interface and overhead shower arm mounted on a tiled wall, static, no water running. Setting and work-stage: a finished en-suite in a house on Wentworth Estate, early evening. Composition: close three-quarter angle on the control interface and arm, tiled wall filling the mid-ground, a softly blurred edge of a walk-in shower glass panel at the frame's margin. Light and materials: dark basalt/anthracite tile, matte black brassware, warm light from a single practical wall fixture mixing with the last of the natural daylight through an unseen window, creating uneven, directional shadow rather than flat ambient glow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash spread evenly across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the basalt tile with minor realistic wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-wentworth-estate-hero.webp",
+    "heroAlt": "Close-up of a matte black AXOR digital shower control interface against dark basalt tile in a finished Wentworth Estate en-suite, warm evening light.",
+    "inline": []
+  }
+}

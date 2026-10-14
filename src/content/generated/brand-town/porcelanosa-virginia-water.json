@@ -1,0 +1,88 @@
+{
+  "path": "/installer/porcelanosa-virginia-water/",
+  "family": "Brand x town",
+  "brand": "porcelanosa",
+  "town": "virginia-water",
+  "slug": "porcelanosa-virginia-water",
+  "seo": {
+    "title": "Porcelanosa Bathroom Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only Porcelanosa bathroom installation in Virginia Water. Strip-out, tiling, plumbing and snagging - you choose the tile. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/porcelanosa-virginia-water/"
+  },
+  "h1": "Porcelanosa bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. That scale gives us room to plan a layout properly before a single tile goes down, which matters with Porcelanosa's large-format porcelain: it's dense, rectified and dimensionally precise, and any dip in the substrate beneath it becomes visible as lippage rather than disappearing into the grout line."
+  },
+  "sections": [
+    {
+      "heading": "Flatness first: why Porcelanosa is unforgiving",
+      "body": "Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise - which is exactly why it punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. Fitting it well is a matter of tolerance, not taste: the floor or wall is checked and prepared flat first, then the tile is set with the correct bed coverage, joint width and lippage control to let the material's own precision show through rather than expose every imperfection beneath it."
+    },
+    {
+      "heading": "Plot size and layout in Virginia Water",
+      "body": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties here range from substantial period houses to more recent executive-style builds, and plot size generally gives us far more flexibility on layout than a terraced property would - relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around. That same flexibility means we can plan a continuous run of large-format Porcelanosa tile across a bigger floor without it being interrupted by an awkward pinch point."
+    },
+    {
+      "heading": "What we install from the Porcelanosa range",
+      "body": "We fit Porcelanosa's large-format porcelain across floors, walls, shower enclosures and wet rooms, including dark basalt and anthracite-look finishes as well as lighter marble-look options. As a fit-only installer, you buy the tile along with your sanitaryware, brassware and furniture, and we handle everything from strip-out through to the finished, fully fitted room."
+    },
+    {
+      "heading": "Setting large-format tile correctly",
+      "body": "A tile this size needs full solid-bed adhesive coverage rather than spot bonding, because any void underneath will eventually crack under foot traffic or thermal movement. We keep joint widths narrow and consistent to suit the rectified edge, use lippage-control systems to pull adjacent tiles level while the adhesive is still workable, and plan in movement joints at room boundaries and around fixed items like baths and shower trays, so the finished surface can move without cracking at the grout line."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We begin with a paid survey at £125, assessing floor levels, substrate condition and access, and discussing how your chosen Porcelanosa tile affects preparation and layout. Installation covers strip-out of the existing bathroom, first-fix plumbing and electrics, tiling, final-fix plumbing and snagging, with installs starting from £3,500 depending on room size and scope. You buy the tile, sanitaryware, brassware and furniture directly; we handle everything to do with fitting it, insured throughout."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Porcelanosa tiles, or do I buy them?",
+      "a": "You buy the tile directly - we're a fit-only installer, so you choose and purchase your Porcelanosa tile, sanitaryware, brassware and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does floor flatness matter so much with large-format porcelain?",
+      "a": "Porcelanosa's large-format tile is dense, rectified and dimensionally precise, which means it has very little give at the edges. An uneven substrate shows up as lippage between tiles, so we check and prepare the floor or wall flat before setting it, with the correct bed coverage and joint width to control it."
+    },
+    {
+      "q": "Can you reposition the shower or bath to make better use of the room?",
+      "a": "Often, yes. Properties in Virginia Water tend to sit on generous plots, which usually gives more flexibility on layout than a terraced property allows, so repositioning a shower for better natural light or moving a waste run for a freestanding bath is often achievable - we'll confirm at survey."
+    },
+    {
+      "q": "How much does a bathroom installation cost?",
+      "a": "Installs start from £3,500, with a £125 paid survey beforehand to confirm scope and price for your specific room."
+    },
+    {
+      "q": "Do you do bathroom repairs as well as full installs?",
+      "a": "Yes, for high-end homes, with a £200 minimum and a £500 minimum for emergency call-outs. We don't do regrouting as a standalone repair."
+    },
+    {
+      "q": "How do I book a survey?",
+      "a": "Call or WhatsApp 07399 651836 to arrange a paid survey at £125, where we'll assess your Virginia Water bathroom and discuss your Porcelanosa tile plans."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/porcelanosa/", "text": "More about Porcelanosa large-format porcelain" },
+    { "href": "/areas/virginia-water/", "text": "Bathroom installation across Virginia Water" },
+    { "href": "/areas-brands/virginia-water/", "text": "Brands we fit in Virginia Water" },
+    { "href": "/services/large-format-porcelain-tiling/", "text": "Large-format porcelain tiling service" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "towns.json", "id": "virginia-water" }
+  ],
+  "primaryKeyword": "Porcelanosa installation Virginia Water",
+  "secondaryKeywords": [
+    "Porcelanosa bathroom fitter Virginia Water",
+    "large-format porcelain tiling Virginia Water",
+    "Porcelanosa tile installer Surrey"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Porcelanosa x Virginia Water bathroom installation page. Subject and action: an extreme close-up of a grout line between two large-format dark basalt-look porcelain slabs, a grout float and spacer wedges resting just out of frame, the joint freshly struck and not yet fully cured. Setting and work-stage: late-stage tiling detail shot, focus on the precision of the rectified edge meeting edge with minimal, even joint width. Composition: tight close-up grout-line detail shot, shallow depth of field with the joint running diagonally across the frame. Light and materials: cool, diffused north-facing light with soft shadow definition along the joint, dark basalt and anthracite-look porcelain with a matte-to-satin sheen that varies subtly across the surface. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/porcelanosa-virginia-water-hero.webp",
+    "heroAlt": "Close-up of a precise grout line between large-format dark basalt-look Porcelanosa tiles in a Virginia Water bathroom",
+    "inline": []
+  }
+}

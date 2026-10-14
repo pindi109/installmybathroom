@@ -1,0 +1,76 @@
+{
+  "path": "/areas/windsor/shower-toilet-installation/",
+  "family": "Service x town",
+  "service": "shower-toilet-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Shower Toilet Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only shower toilet installation in Windsor. We plan the power and water supply to the pan around narrow-plot town houses and wider family homes alike.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/shower-toilet-installation/"
+  },
+  "h1": "Shower toilet installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types, and that split matters more for a shower-toilet installation than it would for a standard refit, because this work depends on getting a dedicated power supply and a separate water feed to the pan — and how easily that's done varies sharply between the two. Close to the Castle, narrow plots and period staircases limit how materials and cable can move through the building; further out, more typical family housing gives us more conventional routes to work with."
+  },
+  "sections": [
+    {
+      "heading": "Why this installation needs planning, not just plumbing",
+      "body": "An integrated shower-toilet unit runs a heated seat, a wash function and often a dryer off mains power, which means it needs its own fused connection unit, correctly zoned and positioned outside the bathroom's splash areas, with cable routed to it at first fix rather than added afterwards. The water supply is a separate piece of work again: an isolated feed off the mains cold supply, sized to the unit specified. Getting the sequencing wrong — fitting the pan before the power route is confirmed, for instance — is how installations end up needing finished tiling reopened."
+    },
+    {
+      "heading": "Central Windsor: Georgian and Victorian town houses",
+      "body": "Close to the Castle and the historic centre, there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. For a shower-toilet installation in one of these properties, we plan the power route around existing circuits carefully, since narrow stud walls and period joinery give less room to improvise a new cable path than a modern build would. We also sequence deliveries and strip-out around the staircase constraints so materials move through the house in manageable stages rather than all at once."
+    },
+    {
+      "heading": "Further out: inter-war and post-war family homes",
+      "body": "Further from the centre, the housing is more typically inter-war and post-war family homes, with a scattering of newer residential developments on sites that have been redeveloped over the years. These properties generally give us more straightforward access and more conventional routes for both the water supply and the new electrical connection a shower-toilet unit needs, which usually makes planning more predictable than in the town-house stock nearer the Castle."
+    },
+    {
+      "heading": "Survey, process and cost",
+      "body": "At the £125 paid survey, we assess which of these two property types yours falls into, check existing supplies, and confirm the power and water route for your chosen shower-toilet unit. From there: strip-out, first-fix plumbing and electrics, tiling, fitting and testing the unit, then snagging. We're fit-only, with installs from £3,500. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a period town house near the Castle make this installation harder?",
+      "a": "It changes the planning rather than ruling anything out. Narrow plots, limited rear access and period staircases mean we plan the power and water routes more carefully and sequence material movement through the house in stages, rather than assuming the open access a newer build would allow."
+    },
+    {
+      "q": "Is the process different for a post-war family home further from the centre?",
+      "a": "The core technical requirements are the same, but access and routing are usually more straightforward, which tends to make planning the new power supply and water feed more predictable."
+    },
+    {
+      "q": "What exactly does the electrical work involve?",
+      "a": "A dedicated fused connection unit sited outside the bathroom's zoned splash areas, fed by cable routed in during first fix, to power the shower-toilet unit's heated seat, wash function and dryer."
+    },
+    {
+      "q": "Do you supply the unit or only fit it?",
+      "a": "Fit-only. You purchase the shower-toilet unit, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing, electrical coordination and snagging, from £3,500."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation service" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation in Windsor" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/ascot/shower-toilet-installation/", "anchor": "Shower toilet installation in Ascot" },
+    { "href": "/areas/sunningdale/shower-toilet-installation/", "anchor": "Shower toilet installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "shower toilet installation Windsor",
+  "secondaryKeywords": [
+    "integrated shower toilet fitter Windsor",
+    "washlet style toilet installer Windsor",
+    "period town house shower toilet installation Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Windsor shower-toilet-installation town page on a fit-only bathroom installer's website. Subject and action: a finished wall-hung WC fitted with an integrated shower-toilet seat unit on a concealed frame, no other sanitaryware in frame. Setting and work-stage: a completed bathroom inside a narrow Georgian or Victorian town house near the historic centre, classic white metro-tiled wet wall with a dado-height trim line. Composition: narrow vertical-feeling composition reflecting the tight plot, pan framed centrally with a sash-window reveal partially visible at one edge. Light and materials: soft daylight filtering through a frosted sash window, polished nickel pipework and flush plate, white metro tile with a gentle, slightly uneven handmade-look glaze. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-shower-toilet-installation-hero.webp",
+    "heroAlt": "Wall-hung shower toilet unit in a Windsor town house bathroom with white metro tiling and polished nickel fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

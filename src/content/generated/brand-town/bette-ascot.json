@@ -1,0 +1,81 @@
+{
+  "path": "/installer/bette-ascot/",
+  "family": "Brand × town",
+  "brand": "bette",
+  "town": "ascot",
+  "slug": "bette-ascot",
+  "seo": {
+    "title": "Bette Bathroom Installer in Ascot | Fit-Only | Install My Bathroom",
+    "description": "Bette titanium-steel bath and shower tray installation in Ascot, fit-only from £3,500. We build the level, fully supported base the material actually needs.",
+    "canonical": "https://installmybathroom.co.uk/installer/bette-ascot/"
+  },
+  "h1": "Bette bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's large detached plots, whether a Victorian villa, an inter-war family house or a newer executive-style build on the roads out towards Sunningdale and Windsor, tend to give us more freedom at survey stage than a tighter, terraced property would, and that freedom matters when the fixture going in is Bette. Bette manufactures baths and shower trays from titanium-steel finished with fused glass enamel — a material that's harder and more scratch-resistant than acrylic, but unforgiving of a poorly built base underneath it. In a house with room to relocate a waste run or widen a doorway for level access, we can plan the substructure a Bette bath actually needs properly, rather than working around constraints a smaller property would impose. We fit only, working from whatever Bette bath or tray you've specified and bought through a showroom, and the base-building detail is where most of the work genuinely happens, not the final fit."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Bette in Ascot",
+      "body": "Across Ascot projects we fit Bette baths — both built-in and freestanding — into principal bathrooms, and Bette shower trays into walk-in enclosures and en-suites, all specified and bought by the homeowner through a bathroom showroom. We don't supply sanitaryware ourselves, in keeping with the fit-only model the business runs on; the bath or tray arrives on site already chosen, and our work is the strip-out, the base, the waterproofing, the tiling around it and the final fit. Which Bette product ends up in your project depends entirely on what's been specified before we arrive, and a freestanding bath and a built-in shower tray need genuinely different site preparation even though both are the same titanium-steel material underneath."
+    },
+    {
+      "heading": "Installation considerations specific to Bette",
+      "body": "Because titanium-steel doesn't flex the way an acrylic bath shell does, any unevenness in the floor or any gap in the bearing underneath shows up as a rock, a creak or a hollow-sounding tap on the enamel, rather than being quietly absorbed the way it might under a standard foam cradle. We fit Bette baths and trays with the substructure, levelling and acoustic isolation the material actually needs — a fully supported, dead-level base built before the bath goes anywhere near the room, not adjusted once it's in place. The fused glass enamel surface is also harder to repair than acrylic if it's chipped by a careless knock from another trade still working through the house, so on a multi-trade project we sequence the fit to protect the finished surface rather than leaving it exposed."
+    },
+    {
+      "heading": "How Ascot's housing stock affects a typical Bette installation",
+      "body": "Ascot's large detached Victorian, Edwardian, inter-war and executive-style homes generally give us more room to plan a Bette installation properly than a smaller or more constrained property would. Relocating a waste run to reposition a bath, or widening a doorway for level access, rarely runs into the structural limits a terraced house would present, which is useful groundwork for a heavier, rigid steel product that isn't repositioned casually once it's on site. That said, a bigger plot doesn't change the core requirement — in an older Victorian or Edwardian Ascot house we still check original floor joists and existing waste runs before committing to a position, and in a newer executive-style build we're more often confirming what a previous fit-out has already boxed in. Either way, the survey establishes what your specific house allows, not what the postcode suggests."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Bette products on a fit-only basis — you choose and buy the bath, shower tray, brassware, tiles and furniture through a showroom or retailer, and we handle the strip-out, first fix, tiling, plumbing and snagging. Installations start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm exactly what's been specified and what your Ascot property needs to fit it properly. Repairs to existing bathrooms, including Bette fixtures, start from £200, with a £500 minimum on emergency call-outs and no standalone regrouting."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Bette products, or just fit them?",
+      "a": "We fit only. You source your Bette bath, shower tray or brassware through a showroom or retailer, and we handle the installation — strip-out, first fix, tiling, plumbing and snagging — from £3,500."
+    },
+    {
+      "q": "Why does a Bette bath need a different base to an acrylic one?",
+      "a": "Titanium-steel doesn't flex the way acrylic does, so any unevenness in the floor or gap in the bearing underneath shows up as a rock or a hollow sound once the bath is in use. We build a fully supported, dead-level base before the bath goes anywhere near the room."
+    },
+    {
+      "q": "Will my large Ascot plot make a Bette installation easier?",
+      "a": "Generally, yes — more room to relocate a waste run or widen a doorway makes planning the installation easier, which matters for a heavier, rigid steel product. But we still check floor joists and existing pipe runs at survey, whatever the size of the property."
+    },
+    {
+      "q": "Can a Bette shower tray be chipped during the rest of a build?",
+      "a": "The fused glass enamel is harder and more scratch-resistant than acrylic, but a sharp knock from another trade can still chip it and it can't be buffed out. On multi-trade projects we sequence the work to protect the finished surface."
+    },
+    {
+      "q": "What does the £125 survey check before a Bette installation?",
+      "a": "We measure the room, confirm waste and water supply positions, check the floor structure and loading, and establish what your Ascot property needs to support the bath or tray properly — a freestanding bath and a shower tray need different things confirmed before a quote is finalised."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/bette/", "anchor": "All the Bette products we fit" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Bathroom brands we fit in Ascot" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "bette" },
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "Bette bathroom installer Ascot",
+  "secondaryKeywords": [
+    "Bette bath installation Ascot",
+    "Bette shower tray fitter Ascot",
+    "titanium steel bath Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Bette × Ascot installer page, implying Bette's titanium-steel bath product through a close product detail shot rather than a full room view. Subject and action: a close three-quarter view of a built-in steel bath's rolled enamel rim and overflow fitting, static and water-free, with a spirit level resting along the rim edge, mid-installation rather than finished. Setting and work-stage: a principal bathroom under construction in a large Ascot executive-style house, tiled surround substantially complete but sealant not yet run, morning. Composition: close-to-fixture shot, camera low and angled along the bath rim, the rim and overflow filling the centre of frame, a stretch of marble-tiled surround receding into soft focus behind. Light and materials: Calacatta marble tiles, brushed brass overflow and waste cover, morning daylight raking low across the enamel surface and showing its sheen unevenly, one corner of the bath still in shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no styling props such as plants, florals or candles, no water shown running, varied and believable sheen on the enamel and marble with no single flat light source.",
+    "heroOutputPath": "heroes/brand-town/bette-ascot-hero.webp",
+    "heroAlt": "Close mid-installation shot of a built-in titanium-steel Bette bath's enamel rim and overflow against a Calacatta marble surround in an Ascot principal bathroom.",
+    "inline": []
+  }
+}

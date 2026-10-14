@@ -1,0 +1,102 @@
+{
+  "path": "/installer/crosswater-virginia-water/",
+  "family": "Brand × town",
+  "brand": "crosswater",
+  "town": "virginia-water",
+  "slug": "crosswater-virginia-water",
+  "seo": {
+    "title": "Crosswater Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only Crosswater shower, valve and brassware installation for Virginia Water homes near Wentworth. Products you choose, fitted properly, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/crosswater-virginia-water/"
+  },
+  "h1": "Crosswater bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's larger detached properties, many close to the Wentworth Estate and its golf courses, tend to sit on generous plots with long driveways and, in places, gated or private road access. That space generally gives us more flexibility on layout than a terraced property allows — repositioning a shower to make better use of natural light, for instance, rarely runs into a structural wall it can't move around. With Crosswater's shower range specifically, that kind of repositioning has to happen early rather than as an afterthought, because a concealed valve or digital shower controller is built into the wall it sits in, and moving the shower means moving the wall build-up and pipe run that valve depends on before any tiling starts. We fit only in Virginia Water: you choose and supply the Crosswater products, we handle the installation, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Crosswater in Virginia Water",
+      "body": "Crosswater's range covers concealed and digital shower valves, deck-mounted and wall-mounted taps, and the shower enclosures and screens that match, most of it designed to sit flush or concealed rather than proud of the wall or worktop. We also fit Crosswater's wall-mounted bath fillers, which need the same attention to supply pipework position and wall preparation as a concealed shower valve, particularly where a freestanding bath is being positioned away from an existing wall — a layout change that's genuinely possible in a lot of Virginia Water's larger properties. We install whichever part of the range has been specified through your own showroom or designer, from a single tap or valve swap in an existing bathroom to a full reconfiguration built around a new freestanding bath and separate shower."
+    },
+    {
+      "heading": "Deciding where the shower goes, before the valve goes in",
+      "body": "Because Crosswater's concealed and digital shower valves sit built into the wall rather than fixed to its surface, the position of the shower effectively has to be fixed before the wall around it is built, not adjusted afterwards. We use the £125 survey to settle that position against the specific Crosswater valve or digital controller being fitted, so the pipework and wall depth are built to suit it from the outset, rather than being discovered as a problem once tiling is underway."
+    },
+    {
+      "heading": "How Virginia Water's housing stock affects a typical Crosswater installation",
+      "body": "Virginia Water's properties range from substantial period houses to more recent executive-style builds, and plot size generally gives us far more flexibility on layout than a terraced property would — relocating a waste run to accommodate a freestanding bath, or repositioning a shower to improve natural light, rarely runs into a structural wall it can't move around. Where a property sits close to the Wentworth Estate on a gated or private road, that doesn't change the installation detail but does factor into how we plan access and deliveries around the strip-out and first-fix stages, particularly the stage where a concealed Crosswater valve is built into the wall. We confirm what your specific property allows at survey, rather than assuming it from the road it sits on or the size of the plot alone."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We don't sell Crosswater products ourselves — you supply them, and we fit them, from £3,500 for a fit-only bathroom in Virginia Water. If a Crosswater shower or tap we've already installed needs attention later, repairs start from £200 (standalone regrouting isn't something we take on), and emergency call-outs carry a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reposition our shower to make better use of natural light?",
+      "a": "Often, yes, particularly in Virginia Water's larger properties where plot size gives more flexibility — but with Crosswater's concealed and digital valves, that position needs to be fixed before the wall is built around it, which we settle at survey."
+    },
+    {
+      "q": "Do you fit Crosswater bath fillers as well as showers?",
+      "a": "Yes, including wall-mounted bath fillers, which need the same care over supply pipework position and wall preparation as a concealed shower valve."
+    },
+    {
+      "q": "Is the £125 survey fee deducted from the final price?",
+      "a": "Yes, the £125 survey fee is fixed and comes off your total project cost if you go ahead with the installation."
+    },
+    {
+      "q": "Does a gated or private road affect the installation?",
+      "a": "It doesn't change the installation detail, but we plan access and deliveries around it at survey stage so the job isn't held up once it starts."
+    },
+    {
+      "q": "Do you supply Crosswater products, or only fit them?",
+      "a": "We fit only. You source the Crosswater range through a showroom, designer or retailer, and we handle the strip-out, first fix, tiling, plumbing and snagging from £3,500."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/crosswater/",
+      "anchor": "All the Crosswater products we fit"
+    },
+    {
+      "href": "/areas/virginia-water/",
+      "anchor": "Bathroom fitting in Virginia Water"
+    },
+    {
+      "href": "/areas-brands/virginia-water/",
+      "anchor": "Bathroom brands we fit in Virginia Water"
+    },
+    {
+      "href": "/services/vanity-unit-installation/",
+      "anchor": "Vanity unit installation"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing & first fix"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "crosswater"
+    },
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "Crosswater installer Virginia Water",
+  "secondaryKeywords": [
+    "Crosswater bathroom installation Virginia Water",
+    "Crosswater shower fitter Virginia Water",
+    "Crosswater bath filler installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crosswater × Virginia Water installer page, implying Crosswater's bath-filler and brassware range through a close fixture shot beside a freestanding bath. Subject and action: a close three-quarter shot of a wall-mounted bath filler spout positioned above the rolled edge of a freestanding bath, a folded towel draped loosely over the bath's far edge, static and finished rather than mid-use. Setting and work-stage: a finished bathroom extension in a large Virginia Water house, soft overcast daylight coming through a nearby window, late afternoon. Composition: three-quarter angle focused on the filler spout and the bath's rolled rim, a warm timber wall panel softening into the background, spout and rim sharply focused in the foreground. Light and materials: warm walnut timber wall panelling, matte black wall-mounted filler spout, soft diffuse overcast light with a gentle directional fall from the window, visible grain texture in the timber. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the timber with minor, believable wear.",
+    "heroOutputPath": "heroes/brand-town/crosswater-virginia-water-hero.webp",
+    "heroAlt": "Close shot of a matte black wall-mounted Crosswater-style bath filler above a freestanding bath against warm walnut panelling in a Virginia Water bathroom, soft afternoon light.",
+    "inline": []
+  }
+}

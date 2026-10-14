@@ -1,0 +1,98 @@
+{
+  "path": "/installer/dornbracht-virginia-water/",
+  "family": "Brand × town",
+  "brand": "dornbracht",
+  "town": "virginia-water",
+  "slug": "dornbracht-virginia-water",
+  "seo": {
+    "title": "Dornbracht Installation in Virginia Water | Fit-Only Bathroom Fitting | Install My Bathroom",
+    "description": "Dornbracht brassware fitted across Virginia Water's larger detached properties, with the layout freedom and finish precision the brand needs. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/dornbracht-virginia-water/"
+  },
+  "h1": "Dornbracht bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's larger plots — many close to the Wentworth Estate, with long driveways and, in a number of cases, gated access — tend to give more flexibility on layout than a terraced property allows: repositioning a shower to improve natural light, or moving a waste run to accommodate a freestanding bath, rarely runs into a structural wall it can't move around. That flexibility is useful background for a Dornbracht specification, because the brand itself doesn't flex: it's a German brassware house known for sculptural handle and spout design, in finishes that are genuinely difficult to replicate elsewhere, and a scuff on a brushed Dark Platinum tap or a rough-in a few millimetres out is far more visible — and costlier to fix — than the same error on a mainstream brand. We fit Dornbracht brassware across Virginia Water on a fit-only basis, working the layout freedom to its advantage while holding the finish to the standard it needs."
+  },
+  "sections": [
+    {
+      "heading": "What Dornbracht brings to a Virginia Water bathroom",
+      "body": "Properties around Virginia Water, from substantial period houses to more recent executive-style builds, often support a bathroom specification with the scale and budget for design-led brassware. Dornbracht's sculptural handle and spout design fits that brief: taps, mixers and shower valves meant to be noticed, in finishes that are genuinely difficult to replicate elsewhere. Getting the layout right — repositioning a shower for better light, for example — is only half the specification; getting the brassware itself fitted without marking the finish is the other half, and it's the half that gets overlooked if the project is treated as a design exercise rather than a fitting one."
+    },
+    {
+      "heading": "Layout freedom doesn't reduce the finish risk",
+      "body": "A Virginia Water property's larger plot often means we can reposition a shower or move a waste run with more freedom than a smaller house would allow. That's genuinely useful for planning where Dornbracht brassware sits, but it doesn't change the installation discipline the brand needs once position is decided: rough-in dimensions confirmed against the manufacturer's spec before any wall closes up, and the finished brassware protected from scuffs and splashed tile adhesive through every later trade on site. We also confirm which pipework route a repositioned shower actually needs before any floor is opened up, since a longer plot gives more options for the run but doesn't remove the need to get the fall and connection right first time."
+    },
+    {
+      "heading": "Working near Wentworth Estate",
+      "body": "A number of Virginia Water properties sit close to the Wentworth Estate, some with gated or private road access, which we factor into scheduling deliveries and access for the fitting programme — separate from the installation itself, but relevant to keeping a Dornbracht fit-out on schedule once work is under way. Where a property shares an access road with neighbours or a managing agent, we confirm delivery windows in advance so a boxed Dornbracht consignment isn't left waiting at a shared gate any longer than it needs to be."
+    },
+    {
+      "heading": "Fit-only, Dornbracht included",
+      "body": "We work fit-only across Virginia Water: you source your Dornbracht brassware, and we handle strip-out, first fix, plumbing, tiling coordination and snagging, from £3,500. A £125 survey comes first, confirming the exact products specified and the rough-in positions the layout allows. With 30 years' experience, that's where a Dornbracht installation is planned properly rather than adjusted on the day."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Virginia Water's larger plot size make Dornbracht easier to fit?",
+      "a": "It gives more flexibility on layout — repositioning a shower or moving a waste run is usually more straightforward — but it doesn't reduce the precision Dornbracht's finishes and rough-in tolerances demand."
+    },
+    {
+      "q": "Do you work on properties near the Wentworth Estate with gated access?",
+      "a": "Yes — we factor gated or private road access into scheduling deliveries and the fitting programme for properties around Virginia Water and Wentworth Estate."
+    },
+    {
+      "q": "Why is a scuff on Dornbracht brassware more costly to fix than on another brand?",
+      "a": "Dornbracht's finishes, such as brushed Dark Platinum, are genuinely difficult to replicate elsewhere, so a damaged finish is far more visible and expensive to correct than on a mainstream product."
+    },
+    {
+      "q": "Do I need to buy Dornbracht brassware before booking a survey?",
+      "a": "No — the £125 survey is where we confirm what's being specified and plan the installation. You can finalise the Dornbracht products before or shortly after."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/dornbracht/",
+      "anchor": "More about Dornbracht"
+    },
+    {
+      "href": "/areas/virginia-water/",
+      "anchor": "Bathroom fitting in Virginia Water"
+    },
+    {
+      "href": "/areas-brands/virginia-water/",
+      "anchor": "All the brands we fit in Virginia Water"
+    },
+    {
+      "href": "/services/walk-in-shower-installation/",
+      "anchor": "Walk-in shower installation"
+    },
+    {
+      "href": "/services/freestanding-bath-installation/",
+      "anchor": "Freestanding bath installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    },
+    {
+      "file": "brands.json",
+      "id": "dornbracht"
+    }
+  ],
+  "primaryKeyword": "Dornbracht installation Virginia Water",
+  "secondaryKeywords": [
+    "Dornbracht bathroom fitter Virginia Water",
+    "Dornbracht brassware installer Virginia Water",
+    "fit-only Dornbracht Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Install My Bathroom Dornbracht x Virginia Water installer page, a close fixture shot implying the brand through a shower control detail. Subject and action: a close mid shot of a sculptural concealed shower valve plate and cross-handle control set into a tiled wall, a few beads of water on the metal from a recently finished test run, no active spray. Setting and work-stage: a finished walk-in shower area in a large Virginia Water detached house, late afternoon, warm low-angle natural light through an unseen window. Composition: tight three-quarter angle on the valve plate and handle, textured stone tiling filling the soft-focus background. Light and materials: warm walnut-toned timber shower bench edge visible at the frame's lower corner, honed limestone tiling, matte black brassware finish, warm late-afternoon light mixing unevenly with ambient shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical fixtures, no single uniform amber colour wash across the whole frame, no plants, florals or candles as props, no water shown actively running or spraying, varied believable sheen on the stone and metal rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/dornbracht-virginia-water-hero.webp",
+    "heroAlt": "Close three-quarter shot of a matte black Dornbracht-style concealed shower valve and cross-handle against honed limestone tiling in a finished Virginia Water shower, warm late-afternoon light.",
+    "inline": []
+  }
+}

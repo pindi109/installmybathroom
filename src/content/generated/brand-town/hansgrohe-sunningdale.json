@@ -1,0 +1,89 @@
+{
+  "path": "/installer/hansgrohe-sunningdale/",
+  "family": "Brand x town",
+  "brand": "hansgrohe",
+  "town": "sunningdale",
+  "slug": "hansgrohe-sunningdale",
+  "seo": {
+    "title": "hansgrohe Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only hansgrohe shower and brassware fitting for Sunningdale homes near the golf courses. Paid survey, installs from £3,500. 30 years' experience, insured.",
+    "canonical": "https://installmybathroom.co.uk/installer/hansgrohe-sunningdale/"
+  },
+  "h1": "hansgrohe bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale's large detached properties — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads surrounding the golf courses — tend to sit on generous plots, which gives us more flexibility on layout than a smaller house allows. hansgrohe brassware and shower systems turn up on more of our specification sheets than almost any other single brand, usually as the shower and basin mixer package alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. The engineering is consistent across the range, which keeps fitting predictable; what actually decides performance is water pressure, rough-in depth and whether the valve body was set correctly before the wall closed up."
+  },
+  "sections": [
+    {
+      "heading": "hansgrohe on the Sunningdale specification sheet",
+      "body": "A large proportion of the specifications we receive for Sunningdale bathrooms include hansgrohe as the shower and basin mixer package, usually sitting alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. Because the engineering is consistent across the hansgrohe range, we can plan the first fix with a reasonable degree of certainty about valve geometry and connection standards before the client has even finalised every fitting. That matters on larger Sunningdale properties where the bathroom might be one part of a wider renovation involving several wet areas at once."
+    },
+    {
+      "heading": "What we install from the hansgrohe range",
+      "body": "On a fit-only basis, we install the hansgrohe products specified by the client: concealed and exposed shower valves, overhead and handheld shower sets, and basin, bath and bidet mixers. You buy the hansgrohe fittings along with your sanitaryware, tiles and furniture; we handle the strip-out, first-fix, tiling, plumbing and snagging. Sunningdale's generous plot sizes mean we regularly fit larger walk-in shower areas or wet rooms with hansgrohe overhead and handheld combinations, which we plan into the first fix rather than squeezing in later."
+    },
+    {
+      "heading": "Getting the installation right: pressure, depth and valve alignment",
+      "body": "The variables that actually decide how well a hansgrohe system performs are water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up. We test incoming pressure and flow before finalising a concealed valve position, match the rough-in depth to the specific hansgrohe model being fitted, and set the valve body accurately before boarding and tiling cover it, because correcting it afterwards means reopening the wall. On a Sunningdale property where we're moving a waste run three feet to accommodate a freestanding bath, as plot size often allows, we confirm the hansgrohe valve position relative to that new layout before the first fix is finished."
+    },
+    {
+      "heading": "What Sunningdale's housing stock means for layout",
+      "body": "Sunningdale is best known for the golf courses that share its name and the large detached properties surrounding them, with plot sizes here tending to be generous. That usually means more flexibility on bathroom layout than a terraced or semi-detached property allows — moving a waste run to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure. For a hansgrohe shower installation, that translates into more freedom to position the concealed valve and shower arm exactly where it suits the room, rather than working around what's already there."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "Every project starts with a paid survey at £125, covering the existing plumbing, structure and the proposed layout, including where hansgrohe fittings will sit and whether current water pressure is adequate. We then quote the installation, which starts from £3,500 for fit-only work and varies with scope. Once confirmed, we strip out the existing bathroom, complete first-fix plumbing and any structural work, tile, fit the sanitaryware and your hansgrohe brassware, and snag the finished job before handover. Sourcing the hansgrohe products in time for the agreed install dates is your responsibility under this fit-only arrangement."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to buy the hansgrohe products myself?",
+      "a": "Yes — we're fit-only, so you source the hansgrohe brassware and shower system along with your sanitaryware, tiles and furniture, and we carry out the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Does Sunningdale's housing give you more options for where to position the shower?",
+      "a": "Generally yes. The generous plot sizes typical of Sunningdale properties usually mean more flexibility on layout than a terraced or semi-detached home allows, including moving waste runs for a freestanding bath or repositioning a shower valve."
+    },
+    {
+      "q": "What affects how well a hansgrohe shower performs once fitted?",
+      "a": "Mainly water pressure, rough-in depth and whether the valve body was set correctly before the wall closed up. We check all three during survey and first fix."
+    },
+    {
+      "q": "How much does fit-only hansgrohe installation cost in Sunningdale?",
+      "a": "Installations start from £3,500, with the final price depending on scope, confirmed after the £125 paid survey."
+    },
+    {
+      "q": "Can you fit hansgrohe systems in a gated or private road property?",
+      "a": "Yes, we regularly work on properties on private and gated roads around Sunningdale, coordinating access as needed for the survey and installation."
+    },
+    {
+      "q": "Do you repair existing hansgrohe installations?",
+      "a": "We carry out repairs on high-end homes, minimum £200, with a £500 minimum for emergency call-outs. We don't do regrouting."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/hansgrohe/", "anchor": "View our hansgrohe installation work" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "Brands we fit in Sunningdale" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital and smart shower installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "hansgrohe installation Sunningdale",
+  "secondaryKeywords": [
+    "hansgrohe shower fitter Sunningdale",
+    "hansgrohe brassware installer Berkshire",
+    "fit-only hansgrohe bathroom Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a hansgrohe brassware installation page set in a large detached-house context. Subject and action: an exposed wall-mounted shower mixer and handheld shower set being connected to copper pipework protruding from an unfinished wall, tools absent, fitting mid-connection. Setting and work-stage: a spacious bathroom first-fix stage, travertine tiles stacked and partially laid on the floor, matte black pipework brackets, one wall freshly boarded. Composition: wide-ish shot showing the exposed pipework and mixer against the part-finished wall, camera at waist height looking slightly upward to give the room scale. Light and materials: cool overcast daylight through a large window off-frame to the right, travertine's warm stone tones contrasting with matte black fittings, subtle shadow variation across the stone. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/hansgrohe-sunningdale-hero.webp",
+    "heroAlt": "Exposed hansgrohe-style wall-mounted shower mixer being connected during first fix in a Sunningdale bathroom with travertine tiling",
+    "inline": []
+  }
+}

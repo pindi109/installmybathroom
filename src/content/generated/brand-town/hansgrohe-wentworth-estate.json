@@ -1,0 +1,89 @@
+{
+  "path": "/installer/hansgrohe-wentworth-estate/",
+  "family": "Brand x town",
+  "brand": "hansgrohe",
+  "town": "wentworth-estate",
+  "slug": "hansgrohe-wentworth-estate",
+  "seo": {
+    "title": "hansgrohe Bathroom Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only hansgrohe shower and brassware installation for Wentworth Estate homes, Virginia Water. Paid survey, installs from £3,500. Gate access coordinated.",
+    "canonical": "https://installmybathroom.co.uk/installer/hansgrohe-wentworth-estate/"
+  },
+  "h1": "hansgrohe bathroom installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. hansgrohe brassware and shower systems appear on more of our specification sheets than almost any other single brand, usually as the shower and basin mixer package alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. The engineering is consistent across the range, which keeps fitting predictable — what decides performance is water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up."
+  },
+  "sections": [
+    {
+      "heading": "hansgrohe on Wentworth Estate specifications",
+      "body": "A large share of the bathroom specifications we receive for Wentworth Estate properties include hansgrohe as the shower and basin mixer package, typically alongside sanitaryware from Duravit, Villeroy & Boch or Laufen. The consistency of the hansgrohe range across different price points means we can plan the first fix with confidence in the valve geometry and connection standards, which matters on estate properties where access is coordinated and we need the programme to run without delay once we're through the gate."
+    },
+    {
+      "heading": "What we install from the hansgrohe range",
+      "body": "We fit the hansgrohe products specified for the project — concealed and exposed shower valves, overhead and handheld shower sets, and basin, bath and bidet mixers. As a fit-only installer, you source the hansgrohe fittings along with your sanitaryware, tiles and furniture, and we strip out, first-fix, tile, plumb and snag, from £3,500. We coordinate access with the estate and any managing agent so deliveries and trades move through without holding up the programme at the gate."
+    },
+    {
+      "heading": "Pressure, rough-in depth and valve alignment",
+      "body": "The variables that actually decide how well a hansgrohe system performs are water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up. On a Wentworth Estate project, we check incoming water pressure and flow before confirming a concealed valve position, match the rough-in depth to the specific hansgrohe model being installed, and set the valve body accurately before boarding and tiling cover it — reopening a wall to correct a misaligned valve is avoidable with the right checks at first fix, and avoiding that kind of rework matters when access through the gate is scheduled in advance."
+    },
+    {
+      "heading": "Working within the estate: access and programme",
+      "body": "Wentworth Estate is private and gated, home to Wentworth Club and its golf courses and the BMW PGA Championship, around 15 to 20 minutes by road from our Bracknell base. We coordinate access with the estate and any managing agent for every stage of the job — survey, strip-out, deliveries, first fix and the final snag — so the programme runs without delay at the gate. That coordination is built into how we plan the hansgrohe installation from the outset, rather than something we work around once we're on site."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We start with a paid survey at £125 to assess the existing plumbing, structure and intended layout, including where hansgrohe fittings will sit and whether water pressure supports them, and to confirm access arrangements with the estate. We then quote the work, with installation starting from £3,500 depending on scope. Once agreed, we strip out the existing bathroom, carry out first-fix plumbing and any structural changes, tile, fit the sanitaryware and your hansgrohe brassware and shower system, and snag before handover. You're responsible for sourcing the hansgrohe products and other fittings in time for the agreed install dates."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you handle access arrangements for Wentworth Estate?",
+      "a": "Yes, we coordinate access with the estate and any managing agent at survey, delivery and installation stages, so the programme runs without delay at the gate."
+    },
+    {
+      "q": "Do I need to buy the hansgrohe products myself?",
+      "a": "Yes — we're fit-only, so you source the hansgrohe brassware and shower system along with your sanitaryware, tiles and furniture, and we handle the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How far is Wentworth Estate from your base?",
+      "a": "Around 15 to 20 minutes by road from our Bracknell base."
+    },
+    {
+      "q": "What determines how well a hansgrohe shower system performs once fitted?",
+      "a": "Mainly water pressure, rough-in depth, and whether the valve body was set correctly before the wall closed up. We check all three during the survey and first fix."
+    },
+    {
+      "q": "How much does a hansgrohe bathroom installation cost on Wentworth Estate?",
+      "a": "Installations start from £3,500, with the final price depending on scope, confirmed after the £125 paid survey."
+    },
+    {
+      "q": "Do you repair existing hansgrohe installations on the estate?",
+      "a": "We carry out repair work on high-end homes, minimum £200, with a £500 minimum for emergency call-outs. We don't carry out regrouting."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/hansgrohe/", "anchor": "View our hansgrohe installation work" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/areas-brands/wentworth-estate/", "anchor": "Brands we fit on Wentworth Estate" },
+    { "href": "/services/digital-and-smart-shower-installation/", "anchor": "Digital and smart shower installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "hansgrohe" },
+    { "file": "towns.json", "id": "wentworth-estate" }
+  ],
+  "primaryKeyword": "hansgrohe installation Wentworth Estate",
+  "secondaryKeywords": [
+    "hansgrohe shower installer Wentworth Estate",
+    "hansgrohe brassware fitter Virginia Water",
+    "fit-only hansgrohe bathroom Wentworth Estate"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a hansgrohe shower installation page on a private gated estate. Subject and action: a brushed nickel thermostatic shower mixer and separate handheld holder being secured to a part-tiled wall, bracket fixings visible, installation mid-progress. Setting and work-stage: a substantial en-suite shower area, dark basalt tiles laid floor to mid-wall, upper wall freshly skimmed plaster, single niche shelf without any strip lighting. Composition: straight-on mid-distance shot of the shower wall showing the mixer, handheld holder and the tiled/plaster transition clearly. Light and materials: cool natural daylight from a tall window to the side, dark basalt's matte depth contrasting with the brushed nickel's softly varied reflections. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable surface sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/hansgrohe-wentworth-estate-hero.webp",
+    "heroAlt": "Brushed nickel hansgrohe-style shower mixer being fitted into a dark basalt-tiled en-suite wall during installation on Wentworth Estate",
+    "inline": []
+  }
+}

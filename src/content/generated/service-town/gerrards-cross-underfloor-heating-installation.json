@@ -1,0 +1,80 @@
+{
+  "path": "/areas/gerrards-cross/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Underfloor Heating Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only electric and water-fed underfloor heating for bathrooms in Gerrards Cross, around 25-30 minutes from our Bracknell base.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. Underfloor heating is one of the most common additions clients ask us to fit alongside a full bathroom strip-out, and because every Gerrards Cross floor is different, we start by establishing exactly what's underneath yours."
+  },
+  "sections": [
+    {
+      "heading": "Why we check the subfloor before we quote",
+      "body": "You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500 — and underfloor heating sits inside that first-fix stage, fitted before anything is tiled. Because we cover the full span of Gerrards Cross as a commuter village with housing of varying ages, we don't assume a floor type on the phone. The £125 survey is where we lift a section of existing flooring or inspect from below where access allows, confirm whether you have a suspended timber floor or a solid slab, and establish how much height we have to work with before specifying electric mat or water-fed pipe."
+    },
+    {
+      "heading": "Coordinating the specialists a 25 to 30 minute radius job needs",
+      "body": "Underfloor heating isn't a single-trade job. Depending on the system, it can involve an electrician to wire in the thermostat and isolator, a screeder if you're going down the water-fed route, and careful sequencing with the tiler so nothing is covered before it's been tested. Working a 25 to 30 minute radius out of Bracknell means we plan these visits together rather than piecemeal, so the mat or pipe goes down, gets tested, and is covered in a single continuous run rather than a job that stretches out over separate site visits with gaps in between."
+    },
+    {
+      "heading": "Floor height allowance and what it means for your bathroom",
+      "body": "Every underfloor heating system adds height to the existing floor — insulation layer, then mat or pipe, then screed or backer board, then adhesive and tile on top. That total build-up typically runs from around 15mm for a thin electric mat system up to 70mm or more for a screeded water-fed system. We measure this against your door threshold and any transition into a hallway or bedroom at survey stage, because it's far cheaper to plan for a threshold strip or a door undercut before work starts than to discover a door won't close once the floor is finished."
+    },
+    {
+      "heading": "The process, start to finish",
+      "body": "Once the survey confirms subfloor type and system, we strip the existing floor back, make good any structural issues, lay insulation, then the heating mat or pipe, test it, cover it with screed or board, and hand over to tiling. The thermostat is wired, commissioned and tested before we snag the finished room and hand the bathroom back."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you cover underfloor heating installation in Gerrards Cross?",
+      "a": "Yes. Gerrards Cross sits around 25 to 30 minutes by road from our Bracknell base and we regularly fit underfloor heating as part of bathroom strip-outs in the area."
+    },
+    {
+      "q": "How do you know which underfloor heating system suits my house?",
+      "a": "We check the subfloor at the £125 survey. A suspended timber floor usually points to a low-profile electric mat; a solid concrete slab opens up water-fed underfloor heating tied into the existing boiler."
+    },
+    {
+      "q": "Will underfloor heating affect my bathroom door?",
+      "a": "It can, because every system adds some height to the floor. We measure the expected build-up against your door threshold during the survey and plan for an undercut or threshold strip if needed."
+    },
+    {
+      "q": "Is underfloor heating fitted as part of a full bathroom install or as a standalone job?",
+      "a": "Both. It's most efficient as part of a full strip-out and refit from £3,500, but we can also fit it into an existing floor plan if the bathroom isn't otherwise being changed."
+    },
+    {
+      "q": "What does underfloor heating installation involve?",
+      "a": "Stripping the existing floor back, laying insulation, fitting the electric mat or water-fed pipe, testing it, covering it with screed or board, then tiling over the top and wiring in the thermostat."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/gerrards-cross/", "text": "Bathroom installation in Gerrards Cross" },
+    { "href": "/bathroom-cost/gerrards-cross/", "text": "Bathroom installation costs in Gerrards Cross" },
+    { "href": "/areas/stoke-poges/underfloor-heating-installation/", "text": "Underfloor heating installation in Stoke Poges" },
+    { "href": "/areas/windsor/underfloor-heating-installation/", "text": "Underfloor heating installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "underfloor heating installation Gerrards Cross",
+  "secondaryKeywords": [
+    "electric underfloor heating Gerrards Cross",
+    "water-fed underfloor heating Buckinghamshire",
+    "bathroom underfloor heating fitter Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Gerrards Cross homeowners. Subject and action: finished heated bathroom floor, large-format porcelain tile fully laid and grouted, thermostat dial visible low on the wall. Setting and work-stage: completed stage, shot from an elevated three-quarter angle looking across the finished floor towards a freestanding bath and a window. Composition: elevated three-quarter view with strong leading lines along the tile joints towards the window light, bath partially in frame. Light and materials: soft diffused daylight through a frosted window, large-format pale grey porcelain tile with a matte-satin finish, brushed nickel thermostat fascia. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Finished heated bathroom floor in large-format porcelain tile with a wall-mounted thermostat, Gerrards Cross",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

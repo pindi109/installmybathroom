@@ -1,0 +1,72 @@
+{
+  "path": "/areas/wentworth-estate/cloakroom-and-wc-installation/",
+  "family": "Service x town",
+  "service": "cloakroom-and-wc-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Cloakroom & WC Installation on the Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only cloakroom and downstairs WC installation on the Wentworth Estate, Virginia Water. Gate access coordinated. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/cloakroom-and-wc-installation/"
+  },
+  "h1": "Cloakroom & WC installation on the Wentworth Estate",
+  "hero": {
+    "intro": "We install fit-only cloakrooms and downstairs WCs for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. You choose the WC, basin, tiles and brassware; we strip out, first-fix, tile, plumb and snag, coordinating with the estate and any managing agent so the gate and the programme both run without delay."
+  },
+  "sections": [
+    {
+      "heading": "Why access planning matters as much as the installation itself",
+      "body": "Working on a private, gated estate changes how a small project like a cloakroom installation has to be managed, even though the trade work is identical to anywhere else. Before we schedule a start date, we confirm vehicle access with the estate or the relevant managing agent, agree delivery windows for tiles and sanitaryware so they're not left waiting at the gate, and make sure our team has whatever authorisation is needed to come and go across the installation period. For a cloakroom specifically — a short, focused job rather than a multi-week full bathroom refit — this planning is proportionally more important, because a single delayed delivery or a missed access slot can eat into a programme that might otherwise only run a few days."
+    },
+    {
+      "heading": "What a cloakroom conversion involves on an estate property",
+      "body": "Wentworth Estate homes are large by any standard, and a downstairs cloakroom here is almost always an addition of convenience — a second WC for family, guests or staff that takes pressure off the principal bathrooms. The installation itself is a precise small-footprint job: a wall-hung WC with a concealed cistern to keep the floor clear, and a corner or slimline wall-mounted basin sized to the space rather than to what would look right in a larger room. Because these are substantial properties, the space being converted — often a store room off a hallway or a corner of a larger utility area — tends to be generously proportioned for a cloakroom even though it's a small room in the context of the house, which gives a little more scope on basin choice and tiling detail than a genuinely tight under-stairs void would allow."
+    },
+    {
+      "heading": "How we run the project",
+      "body": "We start with a £125 survey to measure the space and confirm waste and water routing, and this is also when we agree access arrangements for the installation period. On the day, we strip out the existing space, first-fix new pipework and any electrics for ventilation, tile and box in the layout, then fit and connect the WC and basin before a full snag. Fit-only installs start from £3,500, with timing on an estate property generally dictated more by agreed access windows than by the scope of the trade work itself, which for a cloakroom is modest."
+    },
+    {
+      "heading": "Arrange a survey",
+      "body": "If you're planning a cloakroom on your Wentworth Estate property, call or WhatsApp 07399 651836 to book the £125 survey. Let us know your estate access requirements at that point so we can build them into the programme from the outset."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you manage access through the estate gate?",
+      "a": "We agree arrival times, vehicle details and any required authorisation with the estate or managing agent before work starts, and we build deliveries of tiles and sanitaryware around those same access windows."
+    },
+    {
+      "q": "Do you supply the WC and basin?",
+      "a": "No — we're fit-only. You source the sanitaryware, brassware and tiles, and we handle strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "How long does a cloakroom installation take on an estate property?",
+      "a": "The trade work itself is typically a matter of days given the small footprint. Overall programme length depends more on agreed access windows with the estate than on the scope of the installation."
+    },
+    {
+      "q": "What's included in the £3,500 starting price?",
+      "a": "Strip-out, first-fix plumbing and electrics, tiling, fitting the WC and basin, and a full snag, with access coordination handled as part of the planning rather than charged separately."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation service details" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on the Wentworth Estate" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/virginia-water/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Virginia Water" },
+    { "href": "/areas/ascot/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "cloakroom WC installation Wentworth Estate",
+  "secondaryKeywords": [ "downstairs toilet installation Wentworth Estate", "gated estate bathroom installer Virginia Water", "cloakroom fitter Wentworth Estate" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Wentworth Estate cloakroom and WC installation page. Subject and action: a finished compact cloakroom with a wall-hung WC and wall-mounted basin set beneath a tall narrow window, static and dry. Setting and work-stage: fully completed small WC room with travertine-effect floor tile and plain painted walls, understated and restrained finish befitting a large estate house. Composition: tight crop centred on the basin and window, WC visible at the frame edge, emphasising quiet detail over the whole room. Light and materials: soft diffused light as if from an overcast sky through a frosted rooflight, brushed bronze tap and flush plate, warm stone tones with a soft matte-to-satin variation. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no running water, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-cloakroom-and-wc-installation-hero.webp",
+    "heroAlt": "Finished travertine-floored cloakroom with wall-hung WC and basin beneath a narrow window on the Wentworth Estate",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

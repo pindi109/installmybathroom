@@ -1,0 +1,72 @@
+{
+  "path": "/areas/windsor/wet-room-installation/",
+  "family": "Service x town",
+  "service": "wet-room-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Wet Room Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only wet room installation in Windsor, from Castle-area town houses to post-war family homes. Fully tanked, level-access floors. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/wet-room-installation/"
+  },
+  "h1": "Wet room installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types. Close to the Castle and the historic centre, Georgian and Victorian town houses sit on narrow plots with limited rear access and period staircases that constrain how much material can move through the building at once. Further out, towards the edges of town, the housing is more typically inter-war and post-war family homes, with a scattering of newer developments on redeveloped sites — and each type changes how we plan a wet room installation."
+  },
+  "sections": [
+    {
+      "heading": "Two Windsor property types, two installation plans",
+      "body": "A Georgian or Victorian town house close to the Castle presents a different job to a post-war family home on the edge of town, and we plan each differently from the outset. In the historic centre, narrow plots and limited rear access mean there's often no realistic route to carry old sanitaryware out, or new materials in, other than through the front door and up a period staircase — and that staircase itself limits how much can move through the building in a single day. Further out, inter-war and post-war homes and the newer developments built on redeveloped sites generally offer wider access, more storage space for materials on site, and fewer constraints on how quickly strip-out and delivery can happen."
+    },
+    {
+      "heading": "Managing materials and access on a narrow plot",
+      "body": "Where a property sits on a narrow plot with limited rear access and a period staircase, we sequence deliveries and strip-out specifically around what the staircase and access route can take, rather than assuming a standard skip-and-go approach will work. That usually means smaller, more frequent material deliveries timed to the day's work rather than one bulk drop, and careful handling of tiling and tanking materials so nothing has to be man-handled back down a tight staircase after being carried up. On the inter-war, post-war and newer-build properties further from the centre, this kind of sequencing is rarely needed in the same way, and the job typically runs to a more conventional delivery and strip-out schedule."
+    },
+    {
+      "heading": "The wet room build itself",
+      "body": "Regardless of which part of Windsor the property sits in, the core build is the same: we check the floor structure and, on suspended timber floors, test for deflection before anything else happens, because a floor that flexes will crack tiles and compromise the tanking membrane later. From there it's floor build-up and gradient to a linear or point drain, full tanking to current waterproofing standards, tiling, first and final-fix plumbing, and a complete snag before handover. Fit-only installs start from £3,500. If you're planning a wet room in Windsor, call or WhatsApp 07399 651836 to arrange a paid survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you install a wet room in a Georgian or Victorian town house near the Castle?",
+      "a": "Yes. We plan these jobs around the narrow plot, limited rear access and period staircase typical of that part of Windsor — sequencing deliveries and strip-out to suit what the staircase and access route can actually take, rather than using a standard approach that assumes wide access."
+    },
+    {
+      "q": "Does a period staircase slow the installation down?",
+      "a": "It can affect how materials move through the building, so we schedule smaller, more frequent deliveries timed to the day's work rather than one bulk drop. This is factored into the programme at survey stage, not discovered partway through the job."
+    },
+    {
+      "q": "Is the process different for newer Windsor developments?",
+      "a": "The core wet room build — floor structure check, gradient to the drain, tanking, tiling and plumbing — is the same everywhere. What differs is access and delivery logistics, and newer developments and post-war homes on the edge of town generally allow a more straightforward schedule than a narrow, Castle-area plot."
+    },
+    {
+      "q": "Do you check the floor before fitting a wet room in an older Windsor property?",
+      "a": "Yes, every suspended timber floor is checked for deflection before tanking starts. This applies to Georgian and Victorian properties just as much as inter-war or post-war homes, because a floor that moves under load will eventually crack tiles and compromise the waterproofing."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation service details" },
+    { "href": "/areas/windsor/", "anchor": "Install My Bathroom in Windsor" },
+    { "href": "/guides/wet-room-cost-uk/", "anchor": "Wet room cost guide (UK)" },
+    { "href": "/areas/ascot/wet-room-installation/", "anchor": "Wet room installation in Ascot" },
+    { "href": "/areas/sunningdale/wet-room-installation/", "anchor": "Wet room installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "wet room installation Windsor",
+  "secondaryKeywords": [
+    "wet room fitter Windsor",
+    "level access wet room Windsor town house",
+    "fully tanked wet room installer Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a wet room installation service page targeting Windsor. Subject and action: a finished level-access wet room floor in pale limestone-effect tile with a compact point drain finished in brushed nickel, set centrally in frame. Setting and work-stage: a completed installation inside a period town house bathroom, shot at eye level in a three-quarter view showing the floor meeting a tiled wall and a glimpse of an original skirting board. Composition: eye-level three-quarter angle, drain slightly off-centre, skirting and wall junction visible to ground the space as a period property rather than a generic render. Light and materials: warm tungsten work-light typical of an occupied renovation site, casting directional shadow across the limestone-effect tile texture; brushed nickel drain cover with a soft, varied sheen rather than a mirror finish. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-wet-room-installation-hero.webp",
+    "heroAlt": "Finished level-access wet room floor with brushed nickel point drain and pale limestone-effect tile in a Windsor period property",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "path": "/installer/toto-ascot/",
+  "family": "Brand x town",
+  "brand": "toto",
+  "town": "ascot",
+  "slug": "toto-ascot",
+  "seo": {
+    "title": "TOTO Washlet & Neorest Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only TOTO Washlet and Neorest installation across Ascot. You buy the fixture, we handle the structural and electrical first-fix. Survey from £125.",
+    "canonical": "https://installmybathroom.co.uk/installer/toto-ascot/"
+  },
+  "h1": "TOTO bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock has grown up around the racecourse for more than a century, and it shows in the scale of the plots: large detached Victorian and Edwardian houses, inter-war family homes, and executive-style builds on generous gardens, especially on the roads running towards Sunningdale and Windsor. That kind of space matters when a TOTO Washlet or Neorest is going in, because these aren't bolt-on accessories — the electronics sit inside the fixture itself, and a Neorest in particular replaces the pan, cistern and seat as one integrated unit with its own structural and electrical requirements. We install TOTO fit-only across Ascot: you source the fixture, we handle the first-fix that gets it working properly."
+  },
+  "sections": [
+    {
+      "heading": "Washlet or Neorest — why it changes the first-fix",
+      "body": "A TOTO Washlet is an electronic seat that adds to a conventional pan — the existing soil pipe, waste run and cistern largely stay as they are, with the main addition being a nearby power supply run to the seat itself. A Neorest is a different proposition entirely: it's a single integrated unit that replaces the pan, cistern and seat together, which means the waste connection, water supply and electrical feed all have to be planned before any tiling goes down, not retrofitted afterwards. Knowing which one a client has ordered — or is planning to order — changes how we set out the room from day one, including where the isolation valve sits and how much space we leave behind the unit for servicing."
+    },
+    {
+      "heading": "Ascot's larger plots give us more room to work with",
+      "body": "The detached houses around Ascot, particularly the inter-war and executive-style builds on bigger plots, generally give us far more freedom on layout than a terraced or semi-detached property allows. Relocating a waste run to get a Neorest positioned where the client wants it, or widening a doorway for level access to an en-suite, rarely runs into the structural limits that a smaller house would present. That flexibility is useful with TOTO's integrated units specifically, because the extra width and depth behind the fixture for servicing access is easier to find when the room itself isn't boxed in by load-bearing walls on every side."
+    },
+    {
+      "heading": "What we install from the TOTO range",
+      "body": "We fit the full TOTO Washlet and Neorest lineup as part of a fit-only bathroom installation — wall-hung and close-coupled Washlet-compatible pans, the Washlet seats themselves, and Neorest integrated units, alongside TOTO basins and brassware where a client has specified them. You buy the products directly from TOTO or an approved retailer; we handle the strip-out of the old suite, first-fix plumbing and electrics, tiling, final connection and snagging. Because the electronics sit inside the fixture rather than being an add-on, getting the first-fix right the first time matters more with TOTO than with a standard ceramic suite."
+    },
+    {
+      "heading": "The process: survey, install, price",
+      "body": "We start with a paid survey at £125, where we look at the existing waste and water runs, check what power is available near the WC position, and confirm whether the installation is a Washlet retrofit or a full Neorest replacement — the two need different groundwork. From there we quote the install, which for a fit-only bathroom in Ascot starts from £3,500 depending on scope. Once agreed, we strip out the old bathroom, first-fix the plumbing, electrics and any structural changes the Neorest's integrated cistern requires, tile, fit the suite, and snag before handover."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a separate electrician for a TOTO Neorest in Ascot?",
+      "a": "No — our first-fix includes running the power supply the Neorest needs to its position, as part of the fit-only installation. We plan that during the survey so it's in place before tiling, not an afterthought."
+    },
+    {
+      "q": "Can a Washlet be added to an existing pan rather than replacing it?",
+      "a": "Yes, a Washlet is an electronic seat that adds to a conventional pan, so in many cases the existing pan and waste run can stay as they are. We'll confirm compatibility at survey."
+    },
+    {
+      "q": "Does a larger Ascot property make the installation easier?",
+      "a": "Generally, yes. The bigger plots around Ascot mean less structural restriction on moving a waste run or widening access, which gives more flexibility when positioning an integrated Neorest unit than a smaller terraced bathroom would allow."
+    },
+    {
+      "q": "Do you supply the TOTO products?",
+      "a": "No, we're fit-only — you buy the Washlet, Neorest, basin or brassware from TOTO or an approved retailer, and we handle the strip-out, first-fix, tiling, plumbing, electrics and snagging."
+    },
+    {
+      "q": "How much does a TOTO bathroom installation cost in Ascot?",
+      "a": "Fit-only installations start from £3,500, varying with the scope of work — whether it's a Washlet retrofit or a full Neorest replacement with first-fix electrics changes the quote. We confirm exact pricing after the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "TOTO bathroom brand",
+      "href": "/brands/toto/"
+    },
+    {
+      "anchor": "bathroom installers in Ascot",
+      "href": "/areas/ascot/"
+    },
+    {
+      "anchor": "TOTO installations in Ascot",
+      "href": "/areas-brands/ascot/"
+    },
+    {
+      "anchor": "shower toilet installation",
+      "href": "/services/shower-toilet-installation/"
+    },
+    {
+      "anchor": "wall-hung toilet and concealed cistern installation",
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "toto"
+    },
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    }
+  ],
+  "primaryKeyword": "TOTO installation Ascot",
+  "secondaryKeywords": [
+    "TOTO Neorest fitter Ascot",
+    "TOTO Washlet installation Ascot",
+    "fit-only bathroom installer Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a TOTO brand-town installer page conveying precision fit-out of an integrated shower toilet. Subject and action: a wall-hung Neorest-style integrated WC unit fixed to a tiled wall, shown mid-installation with the concealed cistern panel partially open beside it, no fixture branding visible. Setting and work-stage: a large en-suite bathroom in a detached period-adjacent home, first-fix stage with some wall tiling complete and some substrate still exposed around the service void. Composition: three-quarter angle from waist height, fixture slightly off-centre to the left, generous negative space on the right showing the exposed cistern cavity. Light and materials: Calacatta marble tiling with soft grey veining, brushed brass fittings and shower valve, daylight from an unseen window creating a single directional shadow across the floor. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/toto-ascot-hero.webp",
+    "heroAlt": "Wall-hung integrated shower toilet unit being installed in a Calacatta marble bathroom with brushed brass fittings in an Ascot home",
+    "inline": []
+  }
+}

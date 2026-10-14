@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-sunningdale/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "sunningdale",
+  "slug": "victoria-and-albert-sunningdale",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation in Sunningdale. Freestanding bath specialists, £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-sunningdale/"
+  },
+  "h1": "Victoria + Albert bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Moving a waste run three feet to accommodate a freestanding bath is rarely a problem in Sunningdale, where the large detached properties around the area's well-known golf courses — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds on private or gated roads — tend to sit on generous plots with plenty of flexibility on layout. A Victoria + Albert freestanding bath makes good use of that space, though it brings its own requirements: cast from a volcanic limestone and resin composite rather than acrylic or steel, it carries genuine weight, so we plan the floor loading, access route and waste position before it ever leaves the showroom."
+  },
+  "sections": [
+    {
+      "heading": "Generous plots, more flexibility on layout",
+      "body": "Plot sizes in Sunningdale tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows. Moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure. That matters directly for a Victoria + Albert installation, because the bath often works best positioned to take advantage of a window, a fireplace, or simply more space around it than the original plumbing layout allows for."
+    },
+    {
+      "heading": "Why Victoria + Albert's materials change the installation plan",
+      "body": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite, not acrylic or steel, which gives them a solid, cool-to-the-touch surface and genuine weight. That's a point that matters as much to how we get the bath into the room as it does to how it sits once installed. We plan the floor loading, the access route through the house — including any private or gated road access that needs coordinating ahead of delivery — and the waste position before the bath leaves the showroom."
+    },
+    {
+      "heading": "What we install, and what stays with you",
+      "body": "We're a fit-only installer, so you buy the Victoria + Albert bath, basin, brassware, tiles and furniture directly, and we take care of the trade work: strip-out, first-fix plumbing with the waste repositioned as needed, tiling, final plumbing connections and snagging once the room is finished. On a Sunningdale property with more space to work with, that often means the bath can be positioned centrally or at an angle rather than pushed against a single wall to fit existing pipework."
+    },
+    {
+      "heading": "Installation considerations specific to this brand",
+      "body": "Beyond the waste relocation, a Victoria + Albert bath needs its exact position confirmed before first-fix plumbing goes in, since the weight and footprint differ from a standard acrylic bath. We also check the access route for width and any tight turns, which on a larger Sunningdale property with wider hallways and principal bathrooms tends to be straightforward, though we confirm it at survey rather than assuming it."
+    },
+    {
+      "heading": "Booking a survey in Sunningdale",
+      "body": "The process starts with a £125 survey, where we assess the room, confirm the waste position and plan the installation around the bath's weight. Installation then covers strip-out, first-fix, tiling, plumbing and snagging, from £3,500 depending on scope. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you move the waste position for a freestanding bath in Sunningdale?",
+      "a": "Often, yes. Plot sizes in Sunningdale tend to be generous, which usually means more flexibility on layout than a terraced or semi-detached property allows, including moving a waste run to suit a freestanding bath."
+    },
+    {
+      "q": "Do you supply the Victoria + Albert bath?",
+      "a": "No, we're fit-only. You buy the bath, basin, brassware, tiles and furniture; we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does a Victoria + Albert bath need special installation planning?",
+      "a": "The baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, giving them genuine weight. We plan floor loading, access route and waste position before the bath leaves the showroom."
+    },
+    {
+      "q": "Do you work on properties with gated or private road access in Sunningdale?",
+      "a": "Yes. Many Sunningdale properties sit on private or gated roads, and we coordinate access for delivery and installation as part of the survey."
+    },
+    {
+      "q": "How much does installation cost?",
+      "a": "Installations start from £3,500 depending on scope, with a £125 survey fee upfront."
+    },
+    {
+      "q": "What's included in the fit-only service?",
+      "a": "Strip-out of the existing bathroom, first-fix plumbing, tiling, final plumbing connections and snagging once the installation is complete."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "The Victoria + Albert range we install",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation in Sunningdale",
+      "href": "/areas/sunningdale/"
+    },
+    {
+      "anchor": "Brands we fit in Sunningdale",
+      "href": "/areas-brands/sunningdale/"
+    },
+    {
+      "anchor": "Freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Strip-out and preparation service",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Sunningdale",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Sunningdale",
+    "freestanding bath installation Sunningdale",
+    "fit-only bathroom installer Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert installation page targeting Sunningdale. Subject and action: a freestanding stone-composite bath positioned at an angle in the centre of a dark basalt-tiled bathroom, with tiling tools and offcuts stacked near the far wall mid-job. Setting and work-stage: a large principal bathroom in a detached house near a golf course setting, first-fix plumbing visible through an open access hatch, wall tiling roughly two-thirds complete. Composition: low wide-angle shot from a corner of the room, bath positioned slightly off-centre to the right, dark tiled wall filling the background, a tall narrow window on the left. Light and materials: cool overcast daylight through the narrow window, dark basalt and anthracite tiles with a soft matte sheen, brushed black waste fitting, natural shadow gradients across the stone. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-sunningdale-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation in a dark basalt-tiled bathroom in Sunningdale",
+    "inline": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "path": "/installer/dornbracht-ascot/",
+  "family": "Brand × town",
+  "brand": "dornbracht",
+  "town": "ascot",
+  "slug": "dornbracht-ascot",
+  "seo": {
+    "title": "Dornbracht Installation in Ascot | Fit-Only Bathroom Fitting | Install My Bathroom",
+    "description": "Dornbracht brassware fitted to the standard it demands, across Ascot's large detached and executive-style homes. Fit-only installation from £3,500; £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/installer/dornbracht-ascot/"
+  },
+  "h1": "Dornbracht bathroom installation in Ascot",
+  "hero": {
+    "intro": "The detached Victorian, Edwardian and executive-style houses around Ascot generally give us more freedom on layout than a smaller property allows — moving a waste run or widening a doorway for level access rarely runs into the structural limits a terraced house would present. That extra room doesn't make Dornbracht any easier to fit, though. It's a German brassware house known for sculptural handle and spout design and for finishes that are genuinely difficult to replicate elsewhere, and the margin for error on installation is small: a scuff on a brushed Dark Platinum finish or a rough-in set a few millimetres out is far more visible, and far more expensive to put right, than the same mistake on a mainstream brand. We install Dornbracht brassware across Ascot on a fit-only basis — you supply the product, we handle the strip-out, first fix, plumbing and fitting it needs to look right from the day it's finished."
+  },
+  "sections": [
+    {
+      "heading": "What Dornbracht brings to an Ascot bathroom",
+      "body": "Dornbracht is a German brassware house, and what tends to draw an Ascot specification towards it is the sculptural handle and spout design — taps, mixers and shower valves shaped to read as considered rather than catalogue-standard, in finishes that are genuinely difficult to replicate elsewhere. In a large detached or executive-style property with the scale to support a design-led bathroom scheme, that's often exactly the point of the specification: the brassware is chosen to be looked at, not just operated. Fitting it well means protecting that intent all the way through the installation, not just getting the water running on handover day."
+    },
+    {
+      "heading": "Why the fitting margin is smaller with Dornbracht",
+      "body": "Nothing about installing Dornbracht brassware is unusual in its own right — the plumbing principles are the same as any other brand. What changes is the tolerance for error. A scuff on a brushed Dark Platinum finish, or a rough-in valve set a few millimetres out of position, is far more visible — and far more expensive to put right — than the same slip on a mainstream product. On an Ascot installation that means confirming exact rough-in dimensions against the specific Dornbracht spec sheet before first fix, protecting finished brassware through every later trade still on site, and sequencing the fit so the exposed finish only goes in once the risk of knocks, dust and tile adhesive splash has largely passed."
+    },
+    {
+      "heading": "Ascot's larger plots, and what that changes",
+      "body": "The scale of plot common around Ascot's racecourse-adjacent roads, and towards Sunningdale and Windsor, generally gives us more freedom to reposition a waste run, widen a doorway, or re-route first-fix pipework than a smaller property allows. That flexibility helps when a Dornbracht specification calls for a particular tap or valve position relative to a bath or basin — but it doesn't reduce the need to get that position exactly right first time. We use the layout freedom a larger Ascot property gives us to plan the rough-in properly, rather than treating the extra space as licence to adjust on the day."
+    },
+    {
+      "heading": "Fit-only, Dornbracht included",
+      "body": "We work fit-only across Ascot: you choose and buy your Dornbracht brassware through a showroom or retailer of your choice, and we handle everything from strip-out through first fix, plumbing, tiling coordination and snagging, from £3,500. A £125 survey comes first, so we can confirm the exact Dornbracht products specified and plan the rough-in before anything is ordered. With 30 years' experience fitting bathrooms across Berkshire and Surrey, including a consistent run of design-led brassware specifications, we know what a Dornbracht installation needs to go right the first time."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Dornbracht products, or just fit them?",
+      "a": "Just fit them. We work fit-only, so you buy your Dornbracht brassware through a showroom or retailer, and we handle the strip-out, first fix, plumbing and installation it needs, from £3,500."
+    },
+    {
+      "q": "Why is Dornbracht more expensive to fit than a mainstream brand?",
+      "a": "The plumbing itself isn't harder, but the margin for error is smaller. A scuff on a brushed Dark Platinum finish, or a rough-in set a few millimetres out, is far more visible and far more costly to correct than the same mistake on a mainstream product, so we build in more care at survey and fitting stage."
+    },
+    {
+      "q": "Does a larger Ascot plot make a Dornbracht installation easier?",
+      "a": "It helps with layout — moving a waste run or repositioning a shower is usually more straightforward on a larger plot than in a terraced house — but it doesn't change the precision Dornbracht's finishes and rough-in tolerances demand."
+    },
+    {
+      "q": "What happens if a Dornbracht tap or valve needs repairing later?",
+      "a": "We offer repairs from £200, with a £500 minimum call-out for emergencies. We don't offer standalone regrouting as a repair service."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/dornbracht/",
+      "anchor": "More about Dornbracht"
+    },
+    {
+      "href": "/areas/ascot/",
+      "anchor": "Bathroom fitting in Ascot"
+    },
+    {
+      "href": "/areas-brands/ascot/",
+      "anchor": "All the brands we fit in Ascot"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing & first fix"
+    },
+    {
+      "href": "/services/freestanding-bath-installation/",
+      "anchor": "Freestanding bath installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    },
+    {
+      "file": "brands.json",
+      "id": "dornbracht"
+    }
+  ],
+  "primaryKeyword": "Dornbracht installation Ascot",
+  "secondaryKeywords": [
+    "Dornbracht bathroom fitter Ascot",
+    "Dornbracht brassware installer Ascot",
+    "fit-only Dornbracht Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Install My Bathroom Dornbracht x Ascot installer page, implying the brand through a close fixture detail rather than a generic room shot. Subject and action: a close-to-mid three-quarter shot of a sculptural single-lever deck-mounted bath filler positioned at the end of a freestanding bath, still water sitting in the bath beneath it from a recently completed test run, no motion or splashing. Setting and work-stage: a finished en-suite bathroom in a large Ascot detached house extension, daytime, bright midday light. Composition: high three-quarter angle focused tightly on the filler and the bath rim, honed stone bath surround filling the soft-focus background. Light and materials: honed travertine bath surround, brushed Dark Platinum brassware finish, bright directional midday daylight from an unseen roof light casting a defined but soft-edged shadow of the filler across the water surface. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical fixtures, no uniform gold colour wash, no plants, florals or candles as props, no water shown actively running, varied and believable sheen on the stone with faint realistic water spotting rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/dornbracht-ascot-hero.webp",
+    "heroAlt": "Close three-quarter shot of a brushed Dark Platinum Dornbracht-style deck-mounted bath filler against a honed travertine bath surround in a finished Ascot en-suite, bright midday light.",
+    "inline": []
+  }
+}

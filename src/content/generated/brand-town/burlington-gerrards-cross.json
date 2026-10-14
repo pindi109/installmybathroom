@@ -1,0 +1,121 @@
+{
+  "path": "/installer/burlington-gerrards-cross/",
+  "family": "Brand × town",
+  "brand": "burlington",
+  "town": "gerrards-cross",
+  "slug": "burlington-gerrards-cross",
+  "seo": {
+    "title": "Burlington Bathroom Installation in Gerrards Cross | Fit-Only | Install My Bathroom",
+    "description": "Fit-only Burlington bathroom installation in Gerrards Cross — close-coupled and high-level WCs, pedestal and wall-hung basins, roll-top baths, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/burlington-gerrards-cross/"
+  },
+  "h1": "Burlington bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Gerrards Cross is one of the affluent Buckinghamshire commuter villages we cover from our Bracknell base, close to Beaconsfield and Chalfont St Peter, and it's a town where homeowners often want a bathroom that reads as considered and classic rather than obviously contemporary — which is where Burlington tends to come in. The brand's close-coupled and high-level WCs, pedestal and wall-hung basins, roll-top baths and period-style brassware give a room a traditional silhouette without asking you to live with Victorian plumbing behind it. We fit Burlington ranges across Gerrards Cross on a fit-only basis: you source the range, we handle the installation, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Burlington's range, and the fixing standard underneath it",
+      "body": "Burlington reproduces classic bathroom forms — pedestal and wall-hung basins, close-coupled and high-level WCs, roll-top baths and period-style brassware — with a modern fixing standard underneath the traditional silhouette. That matters because the parts of the installation that make a period look convincing — a high-level cistern bracket, a wall-hung basin's hidden support, the exact alignment of a pedestal behind its basin — are never visible in the finished room. Any mistake there doesn't show up at handover; it shows up as a loose basin or a strained cistern months later."
+    },
+    {
+      "heading": "Fitting Burlington products in Gerrards Cross",
+      "body": "A lot of the Gerrards Cross work we're brought in on has already been specified through a showroom or retailer before we arrive at survey stage, which suits Burlington's range well, since the brand's classic forms are usually chosen deliberately rather than picked off a shelf. We confirm the frame, bracket and fixing detail for whichever Burlington pieces you've chosen — a concealed cistern behind a high-level WC, the support bearing a wall-hung basin, the plinth a roll-top bath sits on — before any wall or floor closes up, so there's no surprise on fitting day."
+    },
+    {
+      "heading": "The fit-only model, applied to Burlington",
+      "body": "We don't sell or supply Burlington products ourselves — you choose and buy the range through whichever showroom, retailer or stockist suits you, and the quote we give reflects the labour and fitting complexity honestly, with no retail margin on the products bundled in. For a brand like Burlington, where the finished look depends almost entirely on installation detail rather than the product alone, that separation matters: our job is getting the fixing right, not selling you the range."
+    },
+    {
+      "heading": "Repairs to a Burlington installation",
+      "body": "A Burlington installation can develop the same faults as any bathroom over time — a wall-hung basin's bracket working loose, a high-level cistern starting to drip, a pedestal shifting slightly out of alignment. We carry out repairs to Burlington fittings across Gerrards Cross from £200, and emergency call-outs from a £500 minimum where it can't wait. Standalone regrouting-only visits aren't something we take on, but a genuine fixing or plumbing fault on a Burlington piece is."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Burlington a brand you supply, or do I need to buy it myself?",
+      "a": "We fit only — you buy your Burlington range through a showroom or retailer, and we handle the strip-out, plumbing, tiling and fitting, from £3,500."
+    },
+    {
+      "q": "Why does a traditional brand like Burlington need careful fitting if the forms are classic?",
+      "a": "Because the silhouette is traditional but the fixing underneath is a modern standard — a high-level cistern bracket, a wall-hung basin's hidden support, or a pedestal's alignment all need to be right, and none of it is visible once the room is finished."
+    },
+    {
+      "q": "Do you work with Gerrards Cross bathroom showrooms?",
+      "a": "Yes. Most of the Burlington specifications we fit in Gerrards Cross have already been through a showroom or retailer before we're brought in at survey stage."
+    },
+    {
+      "q": "What does a Burlington installation in Gerrards Cross start from?",
+      "a": "Fit-only installation starts from £3,500, following a £125 survey where we confirm the fixing detail for your specific Burlington range."
+    },
+    {
+      "q": "What if a Burlington fitting you've installed develops a fault later?",
+      "a": "We repair Burlington installations from £200, with emergency call-outs from a £500 minimum. We don't do standalone regrouting-only visits, but fixing and plumbing faults are within scope."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/burlington/",
+      "anchor": "The full Burlington range"
+    },
+    {
+      "href": "/areas/gerrards-cross/",
+      "anchor": "Bathroom fitting in Gerrards Cross"
+    },
+    {
+      "href": "/areas-brands/gerrards-cross/",
+      "anchor": "Bathroom brands we fit in Gerrards Cross"
+    },
+    {
+      "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/",
+      "anchor": "Wall-hung toilet and concealed cistern installation"
+    },
+    {
+      "href": "/services/cloakroom-and-wc-installation/",
+      "anchor": "Cloakroom and WC installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    },
+    {
+      "file": "brands.json",
+      "id": "burlington"
+    },
+    {
+      "file": "repairs.json",
+      "id": "concealed-cistern-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "wall-hung-toilet-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "leaking-tap-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "bathroom-waste-and-drain-repair"
+    }
+  ],
+  "primaryKeyword": "Burlington bathroom installer Gerrards Cross",
+  "secondaryKeywords": [
+    "Burlington wall-hung basin fitting Gerrards Cross",
+    "fit-only Burlington installation Gerrards Cross",
+    "Burlington high-level WC installer"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Burlington x Gerrards Cross installer page, implying the brand's pedestal basin and period brassware through a close fixture shot. Subject and action: a three-quarter angle looking down onto a pedestal basin with a pair of traditional cross-head basin taps, basin bowl dry and static, a folded plain white hand towel draped once over the pedestal's edge. Setting and work-stage: a finished cloakroom in a Gerrards Cross family house, daytime, soft overcast light through an unseen window. Composition: medium-close framing centred on the basin bowl and taps, the pedestal's upper curve visible below, honed limestone splashback tile softly out of focus behind. Light and materials: white fireclay basin and pedestal, brushed nickel cross-head taps, honed limestone wall tile, soft even overcast daylight with gentle directional fall from one side, no harsh shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform amber colour wash, no plants, florals or candles as props, no water shown running, varied natural sheen on the fireclay rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/burlington-gerrards-cross-hero.webp",
+    "heroAlt": "Overhead three-quarter view of a pedestal basin with brushed nickel cross-head taps against honed limestone tile, soft overcast daylight, Gerrards Cross.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

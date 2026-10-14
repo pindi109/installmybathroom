@@ -1,0 +1,100 @@
+{
+  "path": "/areas/stoke-poges/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only travertine and natural stone bathroom installation in Stoke Poges. Correct substrate, adhesive, sealing and movement joints. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, its best-known identity tied to Stoke Park's golf and country club, with homes ranging from older period detached properties to more recent executive-style builds set well back from the road on sizeable gardens. That kind of scale is useful when a client wants a floor and wall surface built from a continuous run of travertine or honed stone rather than porcelain, because the installation needs room to plan around substrate movement, waste relocation and the slab or tile layout before a single piece is fixed. We fit the stone you've sourced — strip-out, first-fix, stone-fixing, plumbing and snagging — taking full advantage of the structural flexibility these properties typically offer."
+  },
+  "sections": [
+    {
+      "heading": "Travertine and natural stone: a different set of rules",
+      "body": "Travertine, like other calcareous stones, is porous and often has natural pitting that needs filling or leaving open as a design choice before sealing — a decision that has to be made before grouting, not after. It also needs a penetrating sealer prior to grouting to stop the stone drawing moisture unevenly from the adhesive, and a second seal once the installation is complete. The adhesive bed matters more than with porcelain too: travertine is heavier and more moisture-sensitive, so we use a white or stone-specific polymer-modified adhesive with controlled moisture release rather than a standard cementitious mix, which can cause staining or uneven curing beneath a porous stone. Grout width and movement-joint placement are planned to suit the stone's natural variation, since travertine rarely has the uniform edges of a rectified porcelain tile."
+    },
+    {
+      "heading": "Why Stoke Poges' larger plots make a difference",
+      "body": "Many of the period and executive-style houses around Stoke Poges sit on sizeable gardens, set well back from the road, which generally gives us far more room to manoeuvre on layout than a smaller property allows. Relocating a waste run to position a stone-clad wet room exactly where the light falls, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. That matters specifically for a stone job because the whole surface — slab layout, falls to a wet-room drain, movement joints at every change of plane — needs planning as one continuous design rather than being squeezed around fixed pipework."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "We strip out the existing room and check the substrate for level, rigidity and any damp before anything new is built. First-fix plumbing follows your agreed layout, including any waste relocation the plot allows, then a waterproofed, rigid substrate is prepared to take the stone's weight. Large pieces are dry-laid first to plan pitting, veining and pattern before fixing with the correct adhesive, and movement joints are placed at junctions and changes of plane. Once grouted, the stone is sealed, then sanitaryware and brassware are fitted and the room snagged before handover."
+    },
+    {
+      "heading": "Arranging a survey",
+      "body": "A natural stone bathroom needs planning around the specific slab or tiles you've chosen, which is why we always start with the £125 paid survey — we look at the existing room, the stone, and what the plot allows, and give you an accurate quote before anything is booked. Fit-only installations start from £3,500. Call or WhatsApp 07399 651836 to arrange a date."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the travertine or stone, or do I source it?",
+      "a": "We're fit-only, so you source the stone, sanitaryware, brassware and any tiles. We carry out the strip-out, first-fix, stone-fixing, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "Does travertine need filling and sealing before it's installed?",
+      "a": "Travertine often has natural pitting that needs filling or leaving open as a deliberate finish, and it needs a penetrating seal before grouting and again once installed, since it's a porous, calcareous stone."
+    },
+    {
+      "q": "Can you relocate the waste or widen a doorway in a Stoke Poges house?",
+      "a": "Often yes. The sizeable gardens and set-back plots common around Stoke Poges usually give us more room to reposition a waste run or widen a doorway for level access than a smaller or terraced property would allow."
+    },
+    {
+      "q": "Why does the adhesive matter with natural stone?",
+      "a": "Travertine and other calcareous stones are heavier and more moisture-sensitive than porcelain, so a standard cementitious adhesive can cause staining or uneven curing. We use a white or stone-specific polymer-modified adhesive instead."
+    },
+    {
+      "q": "What does a natural stone bathroom cost?",
+      "a": "Fit-only installations start from £3,500, with the final figure depending on room size, the stone specified and any layout changes. The £125 paid survey confirms your quote."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation in Stoke Poges",
+      "href": "/areas/stoke-poges/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Stoke Poges",
+      "href": "/bathroom-cost/stoke-poges/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Gerrards Cross",
+      "href": "/areas/gerrards-cross/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Windsor",
+      "href": "/areas/windsor/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Stoke Poges",
+  "secondaryKeywords": [
+    "travertine bathroom installer Stoke Poges",
+    "marble bathroom Stoke Poges",
+    "stone bathroom fitter Buckinghamshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Stoke Poges. Subject and action: a finished travertine floor with natural pitting and warm tonal variation, extending into a curbless wet-room shower area, surface honed and sealed. Setting and work-stage: a large ensuite in a period-style country house, installation complete, drain and fittings in place. Composition: eye-level shot taken from the doorway looking across the floor towards the shower recess, strong horizontal lines of grout joints leading into the frame. Light and materials: soft morning light through a frosted window, neutral-warm tone, stone surface showing matte honed texture rather than gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Honed travertine floor with natural pitting in a finished wet-room bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

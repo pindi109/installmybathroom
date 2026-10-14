@@ -1,0 +1,76 @@
+{
+  "path": "/areas/ascot/underfloor-heating-installation/",
+  "family": "Service x town",
+  "service": "underfloor-heating-installation",
+  "town": "ascot",
+  "seo": {
+    "title": "Underfloor Heating Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only underfloor heating for Ascot bathrooms, matched to suspended timber floors in older houses and solid slabs in newer executive builds.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/underfloor-heating-installation/"
+  },
+  "h1": "Underfloor heating installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock runs from large Victorian and Edwardian houses through to inter-war family homes and more recent executive-style builds on generous plots, particularly on the roads towards Sunningdale and Windsor. That mix means the floor structure under an Ascot bathroom varies a great deal from one property to the next, and the underfloor heating system we specify has to follow the floor, not the other way round."
+  },
+  "sections": [
+    {
+      "heading": "Suspended timber floors and solid slabs, side by side",
+      "body": "In the older Victorian and Edwardian houses that make up a good part of Ascot's housing stock, bathrooms are commonly built over a suspended timber floor rather than a solid slab: joists carrying floorboards or old tongue-and-groove decking, with a void underneath. Before we specify anything we check joist spacing, span and condition, because that governs how much weight and build-up the floor can take and whether it needs strengthening first. We typically fit a rigid insulation-backed board over the joists to carry a low-profile electric heating mat, so the heat is directed up into the room rather than lost into the void below. In Ascot's more recent executive-style builds, bathrooms more often sit on a solid concrete ground-floor slab, which opens up water-fed underfloor heating as an option too, screeded directly over an insulation layer and tied into the existing central heating system rather than running on its own electric circuit."
+    },
+    {
+      "heading": "Why Ascot's generous plots give us more room to get the build-up right",
+      "body": "Ascot's larger detached properties, particularly those on the bigger plots towards Sunningdale and Windsor, generally give us far more freedom on layout than a smaller terraced property allows. That matters for underfloor heating because the total floor build-up — insulation, heating mat or pipe, screed or board, then tile adhesive and tile — typically adds somewhere between 15mm and 70mm on top of the existing floor, depending on the system. On a generous plot with room to reconfigure a layout, we have more scope to deal with that height change sensibly: adjusting a threshold, planing a door, or in some cases relocating a waste run to suit a reworked floor level, rather than being forced into a compromise by a tight stud wall or a neighbouring structure we can't touch."
+    },
+    {
+      "heading": "The installation process",
+      "body": "After the paid survey confirms which floor type you have and which system suits it, we strip the existing bathroom floor back to the subfloor or slab, make good any joists or screed as needed, then lay the insulation layer that stops heat being wasted downward. The electric mat or water-fed pipe goes down next, tested before anything is covered, followed by a screed or a tile backer board bonded over the top. Tiling follows once that's cured, with movement joints built in where the manufacturer specifies them. The thermostat is wired in and commissioned, and the heating system is tested again before we sign off and snag the finished room."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can underfloor heating go into an older Ascot house with a suspended timber floor?",
+      "a": "Yes, but the approach is different to a solid slab. We check the joists first and usually fit a rigid insulation-backed board across them to carry an electric heating mat, directing the heat upward rather than into the void beneath the floor."
+    },
+    {
+      "q": "Will underfloor heating raise my bathroom floor height noticeably?",
+      "a": "It depends on the system, but expect somewhere between 15mm and 70mm of extra build-up for insulation, mat or pipe, screed or board, adhesive and tile combined. We account for this against doors and thresholds at survey stage."
+    },
+    {
+      "q": "Electric or water-fed underfloor heating — which suits an Ascot bathroom better?",
+      "a": "Electric mats suit most retrofits, especially over suspended timber floors, because they add less height. Water-fed systems suit solid concrete slabs and new screed floors, and tend to cost less to run tied into an existing boiler."
+    },
+    {
+      "q": "Can underfloor heating go under any tile?",
+      "a": "Most porcelain and ceramic tiles are suitable. Natural stone can need a specific adhesive and movement joint specification, which we build into the installation."
+    },
+    {
+      "q": "Do you survey the floor before quoting for underfloor heating?",
+      "a": "Yes. The £125 survey includes checking whether your floor is suspended timber or solid, which determines the system we recommend and the final floor build-up."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/underfloor-heating-installation/", "text": "More on our underfloor heating installation service" },
+    { "href": "/areas/ascot/", "text": "Bathroom installation in Ascot" },
+    { "href": "/bathroom-cost/ascot/", "text": "Bathroom installation costs in Ascot" },
+    { "href": "/areas/sunningdale/underfloor-heating-installation/", "text": "Underfloor heating installation in Sunningdale" },
+    { "href": "/areas/windsor/underfloor-heating-installation/", "text": "Underfloor heating installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "ascot" } ],
+  "primaryKeyword": "underfloor heating installation Ascot",
+  "secondaryKeywords": [
+    "electric underfloor heating Ascot bathroom",
+    "water-fed underfloor heating Ascot",
+    "heated bathroom floor installer Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an underfloor heating installation page targeting Ascot homeowners. Subject and action: close-up flat-lay of electric heating mat cable being fixed to a rigid insulation board across exposed floor joists, mid-installation, no tiling yet. Setting and work-stage: first-fix construction stage inside a stripped bathroom in a large detached house, exposed timber joists visible at the frame edge, natural stone sample tiles stacked nearby awaiting laying. Composition: overhead flat-lay shot looking straight down at the mat and insulation board, cable run forming a loose serpentine pattern, frame filled edge to edge. Light and materials: cool grey morning light through an unseen window, matte insulation board surface, dull copper-toned cable sheath, pale limestone tile samples stacked to one side. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-underfloor-heating-installation-hero.webp",
+    "heroAlt": "Electric underfloor heating mat being fitted over a rigid insulation board across exposed floor joists during a bathroom strip-out in Ascot",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

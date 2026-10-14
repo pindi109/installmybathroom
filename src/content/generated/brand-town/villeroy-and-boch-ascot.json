@@ -1,0 +1,73 @@
+{
+  "path": "/installer/villeroy-and-boch-ascot/",
+  "family": "Brand × town",
+  "brand": "villeroy-and-boch",
+  "town": "ascot",
+  "slug": "villeroy-and-boch-ascot",
+  "seo": {
+    "title": "Villeroy & Boch Bathroom Installer in Ascot | Fit-Only | Install My Bathroom",
+    "description": "Fit-only Villeroy & Boch installation in Ascot — sanitaryware, basins, baths and ViClean shower toilet seats fitted correctly, from £3,500. £125 survey first.",
+    "canonical": "https://installmybathroom.co.uk/installer/villeroy-and-boch-ascot/"
+  },
+  "h1": "Villeroy & Boch bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's large detached Victorian and Edwardian houses, together with the inter-war family homes and more recent executive-style builds on the generous plots running towards Sunningdale and Windsor, give us more room to plan a bathroom layout properly than a smaller property typically allows. That matters for Villeroy & Boch installations specifically, because the brand's sanitaryware, basins, baths and ViClean shower toilet seats are precise, hard-glazed products that reward a carefully planned first fix rather than a rushed one. We fit Villeroy & Boch products sourced through showrooms and retailers across Berkshire, and we're a fit-only installer — you choose and supply the products, we handle the labour, the plumbing and the finish."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Villeroy & Boch",
+      "body": "The Villeroy & Boch products that come through our projects most often are sanitaryware, basins and baths, plus ViClean shower toilet seats on more specified bathrooms. The ceramics are consistently precise and the glaze finishes are hard-wearing, which is part of why the brand turns up repeatedly across the installations we've carried out in and around Ascot. None of that changes how the room is plumbed or tiled, but it does change how the final fix is handled — a chipped edge or a poorly bedded basin is more noticeable on a finish this precise than on a budget product, so handling and final positioning get more care, not less."
+    },
+    {
+      "heading": "The detail that actually needs planning: frame and flush plate compatibility",
+      "body": "Villeroy & Boch doesn't manufacture its own carrier frame for wall-hung WCs, which means the pan, the flush plate and the concealed cistern frame all have to be confirmed as compatible generations before anything is ordered — not discovered once the wall is boarded and the frame is already fixed. We check this at survey stage against whatever's been specified, because a mismatch here means re-ordering a flush plate or, worse, opening up a finished wall. In a generously sized Ascot property this rarely clashes with the structural layout, but it's a product-level detail that has nothing to do with plot size and everything to do with ordering the right parts the first time."
+    },
+    {
+      "heading": "How Ascot's plot sizes affect a typical installation",
+      "body": "Because Ascot's housing stock tends to sit on larger plots, relocating a waste run or widening a doorway for level access rarely hits the structural limits a terraced house further into town would present. That gives more flexibility when positioning a Villeroy & Boch suite — a freestanding bath, a repositioned basin run, or a larger wall-hung WC layout — without the installation being dictated purely by where the existing pipework happens to sit. We still confirm all of this at the £125 survey rather than assuming it from the size of the plot, because an older Victorian or Edwardian property can still have constraints a newer executive-style build doesn't."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply Villeroy & Boch products, or just fit them?",
+      "a": "We fit only. You choose and supply your Villeroy & Boch sanitaryware, basins, baths or ViClean shower toilet seats through a showroom or retailer, and we handle the strip-out, first fix, plumbing and finish."
+    },
+    {
+      "q": "Why does the carrier frame matter with Villeroy & Boch?",
+      "a": "Villeroy & Boch doesn't make its own carrier frame, so the pan, flush plate and concealed cistern frame need to be confirmed as compatible generations before ordering. We check this at survey so it isn't discovered after the wall is boarded."
+    },
+    {
+      "q": "Does Ascot's larger plot sizes make a Villeroy & Boch installation easier?",
+      "a": "Often, yes — more layout flexibility and fewer structural constraints than a terraced property. But we still check waste runs, supply and the existing building fabric at survey on every property, regardless of plot size."
+    },
+    {
+      "q": "What does the £125 survey cover for a Villeroy & Boch installation?",
+      "a": "We measure the room, check the waste and water supply, confirm the frame and flush plate compatibility for whatever's been specified, and give you a written scope and fixed quote. The fee comes off your project cost if you go ahead."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/villeroy-and-boch/", "anchor": "Villeroy & Boch bathroom brand hub" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "All bathroom brands we fit in Ascot" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet and concealed cistern installation" },
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" },
+    { "file": "brands.json", "id": "villeroy-and-boch" }
+  ],
+  "primaryKeyword": "Villeroy & Boch bathroom installer Ascot",
+  "secondaryKeywords": [
+    "Villeroy & Boch installation Ascot",
+    "fit-only Villeroy & Boch Ascot",
+    "ViClean shower toilet installer Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Villeroy & Boch x Ascot installer page, implying the brand's ceramic precision through a close fixture detail rather than a full room shot. Subject and action: a close three-quarter shot of a wall-hung ceramic basin mid-installation, a fitter's hand just out of frame having set it, a spirit level resting against the basin's underside bracket, no motion blur. Setting and work-stage: a part-finished principal en-suite in a large Ascot executive-style house, first-fix complete, tiling finished on the wet wall but the basin not yet fully bedded, daytime. Composition: tight angle from slightly below the basin rim, bracket and fixing visible in sharp foreground focus, tiled wall receding softly into the background. Light and materials: honed travertine wall tile, brushed nickel basin bracket and waste, bright but slightly diffused daylight from a high window casting a soft directional shadow under the basin rim, faint plaster dust still visible on the skirting. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical twin basins, no uniform gold colour wash, no plants or candles as styling props, no running water, varied believable sheen on the travertine with minor realistic dust and wear rather than showroom gloss.",
+    "heroOutputPath": "heroes/brand-town/villeroy-and-boch-ascot-hero.webp",
+    "heroAlt": "Close-up of a wall-hung ceramic basin being fitted to a brushed nickel bracket against honed travertine tile in a part-finished Ascot en-suite.",
+    "inline": []
+  }
+}

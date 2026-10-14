@@ -1,0 +1,110 @@
+{
+  "path": "/installer/bette-windsor/",
+  "family": "Brand x town",
+  "brand": "bette",
+  "town": "windsor",
+  "slug": "bette-windsor",
+  "seo": {
+    "title": "Bette Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only Bette bath and shower tray installation in Windsor, from period town houses to family homes. £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/bette-windsor/"
+  },
+  "h1": "Bette bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: Georgian and Victorian town houses close to the Castle and historic centre, many on narrow plots with limited rear access and period staircases, and inter-war or post-war family homes further out, with some newer developments on redeveloped sites. That split matters when the bath going in is a Bette, a titanium-steel shell finished in fused glass enamel that's heavier and less forgiving than acrylic both to move through a building and to install. We plan the route in and the substructure underneath a Bette differently depending on which type of Windsor property we're working in."
+  },
+  "sections": [
+    {
+      "heading": "Bette's weight and finish, and why both matter to installation",
+      "body": "Bette baths and shower trays are made from titanium-steel finished with fused glass enamel, a combination noticeably heavier and more rigid than the acrylic used in most retail ranges. The finish is genuinely more scratch-resistant and durable day to day, but the shell itself won't flex to cover for an uneven base, and its weight means access and manoeuvring through the building need planning before strip-out starts, not worked out on the day."
+    },
+    {
+      "heading": "Windsor's two housing types, and what each means for access",
+      "body": "Close to the Castle and the historic centre, Windsor's Georgian and Victorian town houses often sit on narrow plots with limited rear access and period staircases, which constrain how much material, including a Bette bath's titanium-steel shell, can be moved through the building at any one time. Further out, inter-war and post-war family homes and some newer developments generally offer wider access and fewer staircase turns. We assess which situation applies at survey, so the route a Bette bath takes into the bathroom is planned rather than improvised."
+    },
+    {
+      "heading": "Building the right base before the bath goes in",
+      "body": "Wherever the property sits in Windsor, the substructure underneath a Bette bath or tray gets the same attention: level, braced against movement, and acoustically isolated so the steel doesn't transmit noise through the floor below. A period town house with older joists and a newer executive build need the same three things done properly, even if the groundwork to get there looks different in each case."
+    },
+    {
+      "heading": "The fit-only process in Windsor",
+      "body": "You buy the Bette bath or shower tray, brassware, tiles and furniture; we handle everything from strip-out through to snagging. The £125 survey is where we check floor structure, confirm the access route for a narrow period staircase or a wider modern hallway, and work out what substructure your chosen model needs. From there: strip-out, first-fix plumbing, substructure and tiling, fitting the bath and brassware, and a final snag. Installs start from £3,500."
+    },
+    {
+      "heading": "Book a £125 survey",
+      "body": "Whether you're in a period town house near the Castle or a family home further out, book a survey before planning goes any further so we can confirm access and substructure for a Bette bath or tray. Call or WhatsApp 07399 651836."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a narrow Windsor town house be a problem for fitting a Bette bath?",
+      "a": "It needs planning rather than being a problem. Georgian and Victorian town houses near the Castle often have narrow plots, limited rear access and period staircases, so we assess the access route at survey before deciding how the bath is brought in."
+    },
+    {
+      "q": "Why is a Bette bath heavier to install than an acrylic one?",
+      "a": "It's made from titanium-steel rather than moulded acrylic, which makes it noticeably heavier and means access and manoeuvring through the building need to be planned in advance."
+    },
+    {
+      "q": "Do newer Windsor properties need the same substructure work as period ones?",
+      "a": "Yes. Whether it's a period town house or an inter-war or newer family home, the substructure underneath a Bette bath or tray needs to be level, braced and acoustically isolated in the same way."
+    },
+    {
+      "q": "Who supplies the bath and tiles?",
+      "a": "You do. We work fit-only, so you buy the Bette bath or shower tray, brassware, tiles and furniture, and we carry out strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "What does the survey check?",
+      "a": "Floor structure, waste position, and the access route through the property, including any period staircase or narrow hallway, plus what substructure your chosen Bette model will need."
+    },
+    {
+      "q": "What's the cost of a Bette installation in Windsor?",
+      "a": "Installs start from £3,500, with the final figure depending on the scope confirmed at the £125 survey."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More about Bette baths and shower trays",
+      "href": "/brands/bette/"
+    },
+    {
+      "anchor": "Bathroom installation in Windsor",
+      "href": "/areas/windsor/"
+    },
+    {
+      "anchor": "Bathroom brands we install in Windsor",
+      "href": "/areas-brands/windsor/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Bathroom strip-out and preparation",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "bette"
+    },
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "Bette installation Windsor",
+  "secondaryKeywords": [
+    "Bette bath fitter Windsor",
+    "Bette shower tray installation Windsor",
+    "fit-only bathroom installer Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Bette bathroom installation page targeting Windsor. Subject and action: a Bette bath and matching shower tray, titanium-steel with a fused glass enamel finish, installed in a finished bathroom. Setting and work-stage: a completed high-end bathroom in a period town house, warm walnut timber vanity and wall panelling visible. Composition: wide room shot from the doorway, capturing the bath, a section of timber panelling and part of a sash window. Light and materials: warm evening light through the sash window, brushed chrome bath and shower fittings, walnut timber grain visible with a natural oiled sheen rather than high gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche or mirror at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash across the frame, no hanging plants or florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/bette-windsor-hero.webp",
+    "heroAlt": "Bette bath and shower tray with brushed chrome fittings in a walnut-panelled bathroom, warm evening light, Windsor installation",
+    "inline": []
+  }
+}

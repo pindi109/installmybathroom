@@ -1,0 +1,72 @@
+{
+  "path": "/areas/virginia-water/cloakroom-and-wc-installation/",
+  "family": "Service x town",
+  "service": "cloakroom-and-wc-installation",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Cloakroom & WC Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only cloakroom and downstairs WC installation in Virginia Water. Gated access coordinated, compact footprints fitted properly. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/cloakroom-and-wc-installation/"
+  },
+  "h1": "Cloakroom & WC installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's large detached houses — many close to the Wentworth Estate, set on generous plots with long driveways and, in a number of cases, gated or private road access — tend to have an obvious spot for a downstairs cloakroom already sitting unused. The work itself is a precise, small-footprint job: a wall-hung WC and a compact basin fitted properly, not a miniature bathroom."
+  },
+  "sections": [
+    {
+      "heading": "Why plot size works in your favour here",
+      "body": "Properties in Virginia Water range from substantial period houses to more recent executive-style builds, and the scale of these plots generally gives us far more flexibility on layout than a terraced property would. For a cloakroom conversion, that flexibility shows up most clearly in waste routing: relocating a run to reach a hallway cupboard or an unused corner off a boot room rarely runs into a structural wall it can't move around, which is often exactly the problem that rules out a cloakroom in a tighter semi-detached house. It also means the space available for the conversion is usually a genuine, separate room or void rather than a sliver carved out of an already-tight floor plan, which gives a bit more room to get the proportions of the finished WC right."
+    },
+    {
+      "heading": "Coordinating access on gated and private roads",
+      "body": "A meaningful number of the properties we work on in Virginia Water sit on gated or private road access, with long driveways between the road and the house. That doesn't change the installation itself, but it does change how we plan the job: we agree arrival times and any access codes or managing agent contact in advance, and we make sure deliveries of tiles, sanitaryware and waste materials are scheduled so they don't sit at a gate waiting to be let in. For a cloakroom project specifically, where the on-site work itself is often only a matter of days, getting access logistics right at the planning stage matters more than it would on a longer full-bathroom job, since there's less time on site to absorb a delayed delivery."
+    },
+    {
+      "heading": "What the installation involves",
+      "body": "We start with a £125 survey to measure the space, confirm the waste and water routing, and agree the final layout — wall-hung WC with concealed cistern, and a corner or slimline basin chosen to suit the footprint. On installation day we strip out the existing space, first-fix the new plumbing and any electrics for ventilation, tile and box in, then fit and connect the WC and basin before a full snag. Fit-only installs start from £3,500, and because the floor area involved is small, the job is usually quick relative to a full bathroom, with most of the time going into precise first-fix work rather than volume of material."
+    },
+    {
+      "heading": "Book a survey",
+      "body": "If you're planning a cloakroom in your Virginia Water home, call or WhatsApp 07399 651836 to arrange the £125 survey. Let us know at that point if your property has gated or private road access so we can plan the visit accordingly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you work around gated or private road access?",
+      "a": "Yes — we coordinate arrival times and access details in advance, which is common practice for the Virginia Water properties we work on. Let us know when booking the survey and we'll plan around it."
+    },
+    {
+      "q": "Do you supply the WC and basin?",
+      "a": "No — we're fit-only. You source the sanitaryware, brassware and tiles, and we carry out the strip-out, first fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Will the large plot make it easier to route a new waste pipe?",
+      "a": "Generally yes. Virginia Water's larger properties usually give us more flexibility on layout and waste routing than a terraced or semi-detached house would, though the exact route is confirmed at survey."
+    },
+    {
+      "q": "How long does a cloakroom installation take on site?",
+      "a": "It's typically quicker than a full bathroom given the smaller footprint, though exact timing depends on the extent of first-fix work and whether a new stud partition needs building."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation service details" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation across Virginia Water" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/sunningdale/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation in Sunningdale" },
+    { "href": "/areas/wentworth-estate/cloakroom-and-wc-installation/", "anchor": "Cloakroom & WC installation on the Wentworth Estate" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "virginia-water" } ],
+  "primaryKeyword": "cloakroom WC installation Virginia Water",
+  "secondaryKeywords": [ "downstairs toilet installation Virginia Water", "cloakroom fitter Virginia Water", "gated access bathroom installer Virginia Water" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Virginia Water cloakroom and WC installation page. Subject and action: a finished compact cloakroom with a wall-hung WC and corner basin, with the door ajar showing a glimpse of a hallway beyond, static and dry. Setting and work-stage: fully completed small WC room with deep green patterned tile wainscot to dado height and plain cream paint above, period cornicing suggesting an older detached house. Composition: wide shot taken from just outside the open door, showing the threshold and the full room beyond. Light and materials: late afternoon warm-cool mixed light from a landing window spilling through the doorway, aged unlacquered brass tap and flush plate, deep green and cream tones with varied sheen between tile and painted plaster. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no running water, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-cloakroom-and-wc-installation-hero.webp",
+    "heroAlt": "Finished cloakroom with green patterned tile wainscot and wall-hung WC seen through an open door in a Virginia Water home",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

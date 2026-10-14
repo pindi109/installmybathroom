@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-stoke-poges/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "stoke-poges",
+  "slug": "matki-stoke-poges",
+  "seo": {
+    "title": "Matki Bathroom Installer in Stoke Poges | Fit-Only",
+    "description": "Matki frameless shower enclosure and screen installation in Stoke Poges, fit-only from £3,500. Tray-level sequencing and precise wall fixing on every job.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-stoke-poges/"
+  },
+  "h1": "Matki bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges houses tend to sit on plots large enough that a bathroom refit rarely has to compromise on layout, and that's a useful starting point when the enclosure being specified is Matki, because the sequencing underneath the glass matters as much as the space around it. Matki's shower enclosures and screens are built to a minimal, largely frameless aesthetic, with almost no trim left to disguise an uneven wall or a shower tray that isn't quite level — the glass does the talking, which means the tray, the tiling and the wall fixing points all have to be settled and correct before a single panel is ordered. Whether it's going into an older period detached house or a newer executive-style build set well back from the road, we work through that sequence at survey, then fit only — you choose the Matki enclosure, we handle the strip-out, first fix, tiling, wall fixing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki in Stoke Poges",
+      "body": "Matki turns up in Stoke Poges most often as a shower enclosure or screen specified for its minimal, largely frameless look, usually in a principal en-suite or a family bathroom where a clean run of glass is the design intent. Because the hardware is kept deliberately minimal, there's very little margin to disguise an inaccurate opening, an out-of-true wall, or an unlevel tray underneath it — so we treat the preparation work as the main event, not a formality ahead of a simple screen fit. We work from whatever's been specified through a showroom or designer and build the strip-out, first fix and tiling sequence specifically around what that enclosure needs to sit correctly."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "The detail we focus on hardest with a Matki job is the shower tray. A largely frameless screen has no deep frame to absorb a tray that's slightly out of level or a tile line that's a few millimetres off the ordered dimension, so we set and check the tray before tiling begins, confirm the finished tile thickness against the glass order, and only then release the opening measurement to be cut. The wall fixing points for the hinges or channel also need to land on correctly prepared, sound substrate — not a patch of plaster or a stud position chosen for convenience — because once the glass is cut to size, there's no trimming it to fit a fixing point that's slightly wrong."
+    },
+    {
+      "heading": "How Stoke Poges's housing stock affects a typical Matki installation",
+      "body": "Stoke Poges's large plots and substantial houses, from older period detached homes to more recent executive-style builds set well back from the road, generally give us more scope to get the layout and the substrate right before a Matki enclosure goes in. Relocating a waste run, widening a recess, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present, which means the sequencing we need for a frameless screen — tray first, tiling to the confirmed dimension, fixing points checked — can usually be planned properly rather than squeezed around an existing footprint. In an older period property we still check solid wall fixings and existing floor joists before confirming a tray position; in a newer build we're more often verifying what a previous fit-out has already established."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki enclosures and screens on a fit-only basis — you choose and supply the glass, hardware finish, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, tray setting, wall fixing and snagging. Installations across Stoke Poges start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the tray position, the tile dimension and the wall fixing points before the enclosure is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is the shower tray so important to get right before a Matki screen is ordered?",
+      "a": "A largely frameless Matki screen has almost no deep frame to absorb a tray that's out of level. We set and check the tray before tiling, so the finished opening matches the exact dimension the glass is cut to."
+    },
+    {
+      "q": "Do you supply Matki enclosures, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki shower enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling and glass fixing, from £3,500."
+    },
+    {
+      "q": "Will Stoke Poges's larger plots make a Matki installation easier?",
+      "a": "Generally, yes — more room usually means a layout or waste run can be adjusted properly rather than compromised. But the tray level, tiling dimension and wall fixing detail still get checked at survey regardless of plot size."
+    },
+    {
+      "q": "Can a Matki screen be fitted in an older Stoke Poges period property?",
+      "a": "Yes. We check solid wall fixings and existing floor joists at survey before confirming a tray position, since period construction can differ from a newer executive-style build behind the finished surfaces."
+    },
+    {
+      "q": "What does the £125 survey check before a Matki installation?",
+      "a": "We confirm the tray position and level, the finished tiling dimension the glass will be ordered to, and that the wall substrate at the fixing points is sound — all before the enclosure is ordered."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom fitting in Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "anchor": "Bathroom brands we fit in Stoke Poges" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/tanking-and-waterproofing/", "anchor": "Tanking & waterproofing" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Stoke Poges",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Stoke Poges",
+    "Matki frameless screen fitter Buckinghamshire",
+    "fit-only Matki installer Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Stoke Poges installer page, implying Matki's frameless enclosure range through a close fixture detail shot rather than a full room view. Subject and action: a close mid shot of an unbranded glass shower panel's lower edge resting just above a freshly set shower tray, a spirit level laid flat across the tray rim checking level, panel not yet fixed down. Setting and work-stage: a principal en-suite under construction in a substantial Stoke Poges house, marble tiling freshly laid around the tray, early evening. Composition: close-to-fixture mid shot at tray height, the tray rim and glass edge filling the lower half of frame, a run of newly tiled wall receding into soft focus behind, a tile spacer and spirit level resting on the tray in the foreground. Light and materials: Carrara marble tiling with fine grey veining, brushed bronze fixing hardware visible at the panel edge, warm low evening daylight from an unseen window mixing with a single clipped work lamp, creating uneven, directional light across the tray rather than flat illumination. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber or gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the marble with faint dust and sealant residue consistent with an active fit rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-stoke-poges-hero.webp",
+    "heroAlt": "Close mid shot of a frameless glass shower panel edge resting above a freshly set tray with a spirit level checking true, Carrara marble tiling, brushed bronze hardware, Stoke Poges en-suite.",
+    "inline": []
+  }
+}

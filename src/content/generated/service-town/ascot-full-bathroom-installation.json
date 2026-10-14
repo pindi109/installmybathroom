@@ -1,0 +1,76 @@
+{
+  "path": "/areas/ascot/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "ascot",
+  "seo": {
+    "title": "Full Bathroom Installation in Ascot | Install My Bathroom",
+    "description": "Fit-only full bathroom installation in Ascot. Complete strip-out, tiling, plumbing and electrics from £3,500. Paid £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/ascot/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot is racecourse country, and the housing that has grown up around it over the last century — large detached Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds on generous plots, particularly towards Sunningdale and Windsor — tends to give us room to work properly. A full bathroom installation means taking a room back to brick and rebuilding it from scratch: new waste and supply pipework, tanking, tiling, electrics and ventilation, finished with the suite you've chosen. On Ascot's larger plots, that rebuild rarely runs into the structural limits a smaller house would impose."
+  },
+  "sections": [
+    {
+      "heading": "What's included in a full installation",
+      "body": "A full bathroom installation is a different job to an en-suite fit, a wet room conversion or swapping out a single fixture. We strip the room back to the studwork and floor joists, remove the old suite and tiling entirely, and rebuild from there: repositioning or renewing waste and supply pipework, fitting new tanking to wet areas, running first-fix electrics for extraction and lighting, then tiling floor to ceiling where specified before second-fixing the suite you've sourced — bath, shower enclosure, basin, WC, taps and furniture — and snagging it in. It's the job to choose when a bathroom needs more than redecorating: when the layout no longer works, the waterproofing has failed, or you're combining fixtures that weren't there before."
+    },
+    {
+      "heading": "What Ascot's housing stock means for the rebuild",
+      "body": "Much of Ascot's housing sits on generous plots — large detached Victorian and Edwardian houses nearer the racecourse, inter-war family homes, and executive-style builds further out towards Sunningdale and Windsor. That scale generally gives us far more freedom on layout than a terraced or semi-detached property would. Relocating a waste run to put a bath under a window instead of against an internal wall, widening a doorway for level access, or repositioning a shower to use a different wall for drainage rarely runs into the structural limits a smaller property would present. It doesn't remove the need for a proper survey — floor joist direction and existing soil pipe routes still dictate what's realistic — but it does mean more of what you want on paper tends to be buildable."
+    },
+    {
+      "heading": "How the job runs, start to finish",
+      "body": "Every full installation starts with a paid £125 survey, which is where we confirm pipe routes, joist direction, electrics and exactly what the strip-out will involve before any price is fixed. From there the sequence is strip-out, first-fix plumbing and electrics, tanking, tiling, second-fix, and snagging. Because you're sourcing the suite, tiles, and brassware yourself, we'll agree a delivery schedule with you so materials are on site when each trade needs them — there's little point tiling before the shower tray has arrived. Ventilation and electrics are installed to current Part P and Part F requirements throughout, and on a full rebuild that usually means a new extraction run as well as rewired lighting and shaver points."
+    },
+    {
+      "heading": "Ready to get a full bathroom installation under way",
+      "body": "If you're planning a full bathroom installation in Ascot, the next step is the £125 survey — call or WhatsApp 07399 651836 and we'll get a date in the diary. Full installations start from £3,500 depending on scope, and because we're fit-only, you stay in control of the products while we handle everything from strip-out to final snag."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a full bathroom installation take in Ascot?",
+      "a": "Most full installations take two to three weeks from strip-out to snagging, depending on the size of the room and whether we're rerouting waste or supply pipework. Larger Ascot properties with bigger bathrooms or en-suite combinations can run longer — we'll give you a realistic programme after the survey."
+    },
+    {
+      "q": "Do I need to buy the bathroom suite before you start?",
+      "a": "You don't need everything on site on day one, but we'll agree a delivery schedule at survey stage so key items — the shower tray, bath, and tiles especially — arrive in time for each stage. We're fit-only, so sourcing sanitaryware, brassware, tiles and furniture is down to you."
+    },
+    {
+      "q": "Can you move the layout around, or are we stuck with what's there?",
+      "a": "On Ascot's larger properties we can usually reposition waste runs, move a shower to a different wall, or widen a doorway without hitting structural limits. It depends on existing floor joist direction and soil pipe routes, which is exactly what the survey confirms before we price the job."
+    },
+    {
+      "q": "What's not included in a full bathroom installation?",
+      "a": "We don't source sanitaryware, tiles, brassware or furniture — that's on you. We also don't do cosmetic regrouting as a standalone job. Everything from strip-out through plumbing, tiling, electrics and snagging of your chosen suite is included."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/ascot/", "text": "Bathroom installation in Ascot" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/sunningdale/full-bathroom-installation/", "text": "Full bathroom installation in Sunningdale" },
+    { "href": "/areas/windsor/full-bathroom-installation/", "text": "Full bathroom installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "ascot" } ],
+  "primaryKeyword": "full bathroom installation Ascot",
+  "secondaryKeywords": [
+    "full bathroom installation in Ascot",
+    "complete bathroom renovation Ascot",
+    "bathroom strip out and rebuild Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Ascot. Subject and action: a fully finished, empty luxury bathroom shown immediately after installation, no people present. Setting and work-stage: a spacious family bathroom in a large detached house, newly tiled and fitted, staged as complete with no tools or debris visible. Composition: wide shot taken from the doorway showing the full room — bath, shower enclosure, vanity and WC all in frame. Light and materials: Calacatta marble-effect tiling floor to ceiling, brushed brass taps and shower fittings, bright midday daylight through a frosted window casting soft directional shadows. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/ascot-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a large Ascot home with Calacatta marble tiling and brushed brass fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

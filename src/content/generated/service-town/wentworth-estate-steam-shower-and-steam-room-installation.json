@@ -1,0 +1,72 @@
+{
+  "path": "/areas/wentworth-estate/steam-shower-and-steam-room-installation/",
+  "family": "Service x town",
+  "service": "steam-shower-and-steam-room-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "Steam Shower & Steam Room Installation on Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only steam shower and steam room installation on Wentworth Estate, Virginia Water. Sealed enclosures, generator siting, estate access coordinated. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/steam-shower-and-steam-room-installation/"
+  },
+  "h1": "Steam shower & steam room installation on Wentworth Estate",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners on Wentworth Estate in Virginia Water, Surrey — the private, gated estate built around Wentworth Club and its golf courses, home of the BMW PGA Championship — around 15 to 20 minutes by road from our Bracknell base. A steam shower or steam room installation involves more deliveries and more trades on site than a standard bathroom refit, so coordinating access with the estate and any managing agent so the programme runs without delay at the gate is part of how we plan the job from the outset."
+  },
+  "sections": [
+    {
+      "heading": "Why a steam enclosure needs more planning than a shower",
+      "body": "A steam shower or steam room has to hold saturated steam inside a fully sealed cubicle — every panel junction, the ceiling and the door need a close to airtight seal, with full tanking behind every internal surface including the ceiling, and usually a slightly sloped ceiling so condensation tracks down the walls rather than dripping. The generator that produces the steam sits outside the enclosure within a defined pipe-run distance, connected to mains electrics, a water feed and a drain, with a separate low-voltage control panel mounted near the door. This has to be designed into the first fix before any tanking or tiling starts — it isn't an upgrade you bolt onto a finished shower."
+    },
+    {
+      "heading": "Coordinating deliveries and access through the estate gate",
+      "body": "A steam installation typically brings more through the gate than a standard bathroom job: the generator unit itself, enclosure glass, extraction ducting materials, and additional site visits for strip-out, first fix, tanking, tiling and a separate commissioning visit once the generator is wired in. On Wentworth Estate, we agree delivery windows and visitor or contractor passes with the managing agent in advance, book slots for the bulkier generator delivery specifically, and keep to the estate's access and parking rules throughout, so the extra trades involved in a steam job don't create friction at the gate partway through the programme."
+    },
+    {
+      "heading": "Ventilation and electrics for a steam installation",
+      "body": "A steam enclosure produces continuous, sustained humidity well beyond what a standard bathroom extractor fan is sized for, so a dedicated extract point is fitted near the top of the enclosure and ducted out to an external wall or roof void. The generator runs on its own electrical circuit, separate from lighting and shaver-point wiring, sized to the unit's output and certified under Part P on completion. Both have to be first-fixed before tanking and tiling close the enclosure up, which is why the sequencing on a steam job is tighter than on a standard shower refit."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "We start with a paid survey to confirm generator siting, pipe-run length, extraction routing, estate access arrangements and any structural work the enclosure needs. Strip-out and first fix follow — waste relocation, the generator's water, drain and electrical supply, and extraction ducting, all going in before anything is covered up. Full tanking covers every enclosure surface, then tiling, with the generator and controls plumbed, wired and commissioned last, including a full steam cycle test and seal check before handover. Being 15 to 20 minutes from our Bracknell base means we can return promptly for commissioning or any seal adjustment without the delay a longer round trip would add. You source the generator, controls, enclosure glass and tiles; we handle strip-out through to commissioning, from £3,500. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you manage access to Wentworth Estate for a steam installation?",
+      "a": "We agree delivery windows and contractor passes with the estate's managing agent in advance, booking a specific slot for the generator delivery since it's bulkier than standard shower materials, and follow the estate's access and parking rules for every visit."
+    },
+    {
+      "q": "How many site visits does a steam shower installation need compared to a standard shower?",
+      "a": "Typically more: survey, strip-out and first fix, tanking and tiling, and a separate commissioning visit once the generator and controls are wired in, where we run a full steam cycle and check every seal. We plan estate access around each of these in advance."
+    },
+    {
+      "q": "Do you supply the steam generator or just install it?",
+      "a": "We're fit-only. You choose and purchase the generator, control panel, enclosure glass and tiles; we handle strip-out, first fix, tanking, tiling, plumbing, electrics coordination and snagging, from £3,500."
+    },
+    {
+      "q": "Can you fit a steam room into an existing bathroom rather than a new build?",
+      "a": "Yes, provided the enclosure can be fully sealed and tanked and there's a workable location for the generator within the manufacturer's pipe-run distance, typically an adjoining airing cupboard or loft space. We assess this at survey."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower and steam room installation service" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/bathroom-cost/wentworth-estate/", "anchor": "Bathroom installation costs on Wentworth Estate" },
+    { "href": "/areas/virginia-water/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Virginia Water" },
+    { "href": "/areas/ascot/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Ascot" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "steam shower installation Wentworth Estate",
+  "secondaryKeywords": [ "steam room installation Wentworth Estate", "steam shower fitter Virginia Water", "bathroom steam enclosure Wentworth Estate" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a steam shower and steam room installation page targeting Wentworth Estate homeowners. Subject and action: a finished, fully sealed steam shower enclosure with frameless glass, dry-styled and unoccupied, door closed with a visible seal along its edge. Setting and work-stage: a newly completed bathroom in a substantial estate house, generator control panel mounted on the wall beside the enclosure. Composition: low-angle shot taken from near floor height looking up slightly at the enclosure, emphasising its height and the sealed ceiling line. Light and materials: graphite-grey large-format porcelain tiles, dark bronze frameless glass fixings, cool overcast daylight from a high window, subdued and varied sheen on the dark tile surface rather than uniform gloss. Constraints: no people, no text, no logos, no visible brand names on any fixture, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water or steam shown actively running.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-steam-shower-and-steam-room-installation-hero.webp",
+    "heroAlt": "Finished sealed steam shower enclosure with dark bronze frameless glass and graphite porcelain tiling in a Wentworth Estate bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "path": "/areas/virginia-water/natural-stone-and-marble-bathrooms/",
+  "family": "Service x town",
+  "service": "natural-stone-and-marble-bathrooms",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Natural Stone & Marble Bathrooms in Virginia Water | Install My Bathroom",
+    "description": "Fit-only dark basalt and natural stone bathroom installation in Virginia Water. Correct substrate, sealing and movement joints. From £3,500, £125 survey.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/natural-stone-and-marble-bathrooms/"
+  },
+  "h1": "Natural stone & marble bathrooms in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water's large detached properties, many close to the Wentworth Estate and its golf courses, sit on generous plots with long driveways and, in a number of cases, gated or private road access. That scale of plot gives us far more flexibility on layout than a terraced property allows, which matters when a client specifies a dark basalt or other natural stone floor rather than porcelain, since the stone's weight, movement characteristics and sealing needs often call for repositioning a shower or relocating a waste run to make the surface work as one continuous design rather than fitting around existing pipework. We install the stone you've sourced — strip-out, first-fix, stone-fixing, plumbing and snagging — from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Dark basalt and natural stone: the practical differences",
+      "body": "Dark basalt is dense and low-porosity compared with marble or limestone, but it's still a natural stone, which means it needs a dedicated sealer to protect against etching from acidic products and to maintain its depth of colour over time — skip this and a dark stone can develop a dull, patchy look within a year or two as minerals leach unevenly. Because basalt slabs are often larger and heavier than standard porcelain tiles, the substrate underneath has to be stiffer and better supported, and the adhesive needs enough open time and bond strength to handle the extra weight without slumping. Movement joints also need to be sized correctly at every change of plane; on a dark, large-format stone, a badly placed or undersized joint is far more visually obvious than it would be on a smaller porcelain tile."
+    },
+    {
+      "heading": "How Virginia Water's plots affect the layout",
+      "body": "Properties here range from substantial period houses to more recent executive-style builds, and the plot size generally gives us far more flexibility on layout than a terraced property would. Relocating a waste run to accommodate a freestanding bath on a basalt plinth, or repositioning a shower to improve natural light across a dark stone floor, rarely runs into a structural wall it can't move around. That matters more than usual with a dark, large-format stone, because uneven light across the surface shows up far more obviously than it would on a lighter porcelain tile, so getting the window and shower position right as part of the layout plan is worth the extra consideration."
+    },
+    {
+      "heading": "How we carry out the installation",
+      "body": "We begin with strip-out and a check of the existing substrate for level, rigidity and damp, since basalt's weight demands a sound base. First-fix plumbing follows your agreed layout, including any waste relocation the plot allows, and a waterproofed, reinforced substrate is prepared. Large stone pieces are dry-laid to check colour consistency before fixing, movement joints are set at every junction and change of plane, and the stone is sealed after grouting to protect its colour and finish. Sanitaryware and brassware are fitted last, with a full snag before handover."
+    },
+    {
+      "heading": "Book your survey",
+      "body": "Dark stone in particular needs the substrate, sealing and lighting considered together, which is why every project starts with a £125 paid survey — we assess the room, the stone specified, and what the plot allows, then confirm an accurate quote. Fit-only installations start from £3,500. Call or WhatsApp 07399 651836 to arrange a date."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the basalt or stone, or do I source it?",
+      "a": "We're fit-only, so you source the stone, sanitaryware, brassware and any tiles. We carry out strip-out, first-fix, stone-fixing, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "Does dark basalt need sealing even though it's a dense stone?",
+      "a": "Yes. Basalt is lower-porosity than marble or limestone but still needs a dedicated sealer to protect against etching and to keep its colour depth consistent over time."
+    },
+    {
+      "q": "Can you reposition a shower or move the waste in a Virginia Water property?",
+      "a": "Often yes. The generous plots common around Virginia Water, many near the Wentworth Estate, usually give far more flexibility on layout than a terraced property would allow."
+    },
+    {
+      "q": "Why do movement joints matter more with dark, large-format stone?",
+      "a": "A badly placed or undersized movement joint is more visually obvious on a dark, large-format surface than on a smaller porcelain tile, so joint sizing and placement are planned carefully at every change of plane."
+    },
+    {
+      "q": "What does a natural stone bathroom cost?",
+      "a": "Fit-only installations start from £3,500, with the final figure depending on room size, the stone specified and any layout changes. The £125 paid survey confirms your quote."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "Natural stone & marble bathroom installation",
+      "href": "/services/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Bathroom installation in Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Virginia Water",
+      "href": "/bathroom-cost/virginia-water/"
+    },
+    {
+      "anchor": "Natural stone bathrooms in Sunningdale",
+      "href": "/areas/sunningdale/natural-stone-and-marble-bathrooms/"
+    },
+    {
+      "anchor": "Natural stone bathrooms on Wentworth Estate",
+      "href": "/areas/wentworth-estate/natural-stone-and-marble-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "natural stone bathroom Virginia Water",
+  "secondaryKeywords": [
+    "dark basalt bathroom Virginia Water",
+    "marble bathroom installer Virginia Water",
+    "stone bathroom fitter Surrey"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a natural stone and marble bathroom installation service page targeting Virginia Water. Subject and action: a finished dark basalt floor with subtle flecked texture and deep charcoal tone, extending beneath a stone-clad bath plinth, surface sealed and complete. Setting and work-stage: a large principal ensuite in a substantial detached house, installation finished, brassware fitted. Composition: low-angle shot along the floor plane towards the plinth, strong directional lines emphasising the stone's scale and depth of colour. Light and materials: cool late-afternoon sidelight from a tall window casting soft shadow across the basalt's texture, dark tone with genuine subtle sheen variation rather than flat matte or high gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings unless a genuine double vanity, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/virginia-water-natural-stone-and-marble-bathrooms-hero.webp",
+    "heroAlt": "Dark basalt floor beneath a stone-clad bath plinth in a finished bathroom installation",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

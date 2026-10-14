@@ -1,0 +1,76 @@
+{
+  "path": "/areas/gerrards-cross/shower-toilet-installation/",
+  "family": "Service x town",
+  "service": "shower-toilet-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Shower Toilet Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only shower toilet installation in Gerrards Cross, around 25-30 minutes from our Bracknell base. Power and water supply fitted to the pan correctly.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/shower-toilet-installation/"
+  },
+  "h1": "Shower toilet installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. An integrated shower-toilet unit is a different proposition to a conventional WC: it needs its own power supply to the pan alongside its water feed, and getting that sequencing right at first fix is what separates a smooth installation from one that needs reopening later."
+  },
+  "sections": [
+    {
+      "heading": "Why a shower toilet is more than a plumbing job",
+      "body": "A conventional close-coupled toilet needs a soil connection and a cold feed to the cistern, and that's it. A shower-toilet unit — whether it's a fully integrated pan or a seat-based unit retrofitted to an existing WC — adds a heated seat, a wash function, usually a warm-air dryer, and on higher-spec models a deodoriser, all of which run off mains electricity. That means a fused connection unit has to be positioned outside the bathroom's zoned splash areas, with cable routed to reach it safely, and the water side needs its own isolated feed with the correct valve arrangement for the model specified. We plan both at survey stage, because moving a power route after tiling is finished is expensive and avoidable."
+    },
+    {
+      "heading": "Fit-only, and what that means for you in Gerrards Cross",
+      "body": "You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag, from £3,500. For a shower-toilet installation specifically, that first-fix stage is where the electrical and water supply routes get set, well before any tile goes up. We work this out at the paid £125 survey against the exact unit model you've chosen, so the quote reflects what your specific installation actually needs rather than a generic estimate."
+    },
+    {
+      "heading": "Practical considerations for Gerrards Cross homes",
+      "body": "Gerrards Cross properties vary from older detached houses to newer executive-style builds, and the deciding factor for a shower-toilet installation is rarely the age of the house but the existing electrical and water infrastructure already in the bathroom. Where there's an existing shaver socket or nearby ring circuit, extending a supply to a new fused connection unit is usually a contained job. Where there isn't, we'll discuss the route with you at survey so there are no surprises once strip-out starts. Because the village sits around 25 to 30 minutes from our Bracknell base, scheduling survey and install visits together is straightforward."
+    },
+    {
+      "heading": "What happens on site",
+      "body": "After survey, we strip out the existing suite, first-fix the plumbing and the dedicated power supply to the pan, tile, then fit and connect the shower-toilet unit itself, testing both the wash function and the electrics before snagging and handover. Call or WhatsApp 07399 651836 to arrange your survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "Around 25 to 30 minutes by road from our Bracknell base, which we factor into scheduling survey and installation visits."
+    },
+    {
+      "q": "Does a shower toilet unit need rewiring work beyond the bathroom?",
+      "a": "Usually not beyond extending a supply from an existing circuit to a new, correctly zoned fused connection unit near the pan. We confirm the exact route at survey rather than assuming."
+    },
+    {
+      "q": "Will you supply the shower toilet pan itself?",
+      "a": "No — we're fit-only. You purchase the shower-toilet unit, brassware, tiles and furniture, and we handle the strip-out, first-fix, tiling, plumbing, electrical coordination and snagging."
+    },
+    {
+      "q": "What's included in the £125 survey?",
+      "a": "We confirm the specific unit's power and water requirements, check the existing supplies in your bathroom, and agree the routes for cable and pipework before any quote is finalised."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation service" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom installation in Gerrards Cross" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/stoke-poges/shower-toilet-installation/", "anchor": "Shower toilet installation in Stoke Poges" },
+    { "href": "/areas/windsor/shower-toilet-installation/", "anchor": "Shower toilet installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "shower toilet installation Gerrards Cross",
+  "secondaryKeywords": [
+    "integrated shower toilet fitter Gerrards Cross",
+    "washlet style installer Buckinghamshire",
+    "shower toilet power supply installation Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Gerrards Cross shower-toilet-installation town page on a fit-only bathroom installer's website. Subject and action: a finished wall-hung WC with an integrated shower-toilet seat unit mounted on a concealed frame, room otherwise empty of other sanitaryware. Setting and work-stage: a completed family bathroom in a Buckinghamshire commuter-village house, warm grey Venetian-plaster-effect walls with a contrasting tiled wet-wall section behind the pan. Composition: straight-on frontal view at seated eye height, pan centred slightly left of frame, generous negative wall space to the right. Light and materials: soft overcast daylight through a frosted window, even and diffused, matte black flush plate and pipework, large-format porcelain floor tile with a subtle honed finish. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss throughout.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-shower-toilet-installation-hero.webp",
+    "heroAlt": "Wall-hung shower toilet unit installed in a Gerrards Cross family bathroom with Venetian-plaster-effect walls and matte black fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

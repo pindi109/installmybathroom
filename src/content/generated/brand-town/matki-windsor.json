@@ -1,0 +1,81 @@
+{
+  "path": "/installer/matki-windsor/",
+  "family": "Brand × town",
+  "brand": "matki",
+  "town": "windsor",
+  "slug": "matki-windsor",
+  "seo": {
+    "title": "Matki Bathroom Installer in Windsor | Fit-Only",
+    "description": "Matki frameless shower enclosure and screen installation in Windsor, fit-only from £3,500. Accurate wall fixing and tiling sequencing, for period and modern homes alike.",
+    "canonical": "https://installmybathroom.co.uk/installer/matki-windsor/"
+  },
+  "h1": "Matki bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits into two quite different eras, and a Matki installation looks different depending on which side of that split your property falls. Close to the Castle and the historic centre, narrow Georgian and Victorian town houses with limited rear access and period staircases constrain how much can be moved through the building at once; further out, inter-war and post-war family homes, along with newer redeveloped sites, tend to offer more straightforward access and more conventional stud or masonry walls. What doesn't change between the two is what Matki demands of the preparation: its enclosures and screens are built to a minimal, largely frameless aesthetic, with almost no trim to hide an inaccurate opening or an uneven wall, so the glass has to be ordered against measurements that are already correct, whichever part of Windsor the property sits in. We fit only — you choose the Matki enclosure through a showroom or designer, and we handle the strip-out, first fix, tiling, wall fixing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Matki in Windsor",
+      "body": "Matki is specified across Windsor for shower enclosures and screens built around a clean, largely frameless run of glass, often in a refurbished town house bathroom near the centre or a family bathroom in one of the town's more modern developments further out. The minimal hardware is the appeal, but it also means there's very little trim to disguise an inaccurate opening, an out-of-true wall, or a tray that isn't level — so the installation is really about getting the substrate right, wherever in Windsor the property happens to sit. We work from the configuration and hardware finish already chosen, and build the strip-out, first fix and tiling sequence around the precise opening the glass will be cut to."
+    },
+    {
+      "heading": "Installation considerations specific to Matki",
+      "body": "The wall fixing is the detail we check hardest on a Matki job, because the hinge or channel fixing points need sound, correctly prepared backing, and because the panel itself arrives pre-cut with no scope to trim it on site if something's slightly wrong. We confirm the opening against the finished tiling dimension, check the tray sits level, and verify the wall substrate at the exact fixing points before the glass is ordered — not after it's delivered. A largely frameless screen leaves no deep trim to absorb any discrepancy in those measurements, which is precisely why we treat the preparation stage as the part of the job that determines whether the rest goes smoothly."
+    },
+    {
+      "heading": "How Windsor's housing stock affects a typical Matki installation",
+      "body": "In a Georgian or Victorian town house near the centre, narrow rear access and a period staircase can constrain how a pre-cut Matki glass panel is moved into the bathroom, so we plan that route and the delivery timing at survey rather than on the fitting day itself; solid period walls generally take a fixing well once any uneven original plaster is addressed. Further out, in an inter-war, post-war or newer development property, access is usually more straightforward, but stud wall construction means we confirm there's solid backing exactly where the hinge or channel fixings need to land before boarding and tiling cover it. Either way, Windsor's split housing stock means we don't assume a standard approach — we establish what a specific property needs at survey."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install Matki enclosures and screens on a fit-only basis — you choose and supply the glass, hardware finish, sanitaryware and tiles, and we handle the strip-out, first fix, tiling, wall preparation, glass fixing and snagging. Installations across Windsor start from £3,500, and every project begins with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the access route, the opening dimension and the wall fixing points before the enclosure is ordered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Matki glass panel be moved through a narrow Windsor town house?",
+      "a": "In most cases, yes, but we plan the access route and delivery timing at survey, since a pre-cut panel can't be reduced in size on site to fit around a tight period staircase or rear access."
+    },
+    {
+      "q": "Do you supply Matki enclosures, or just fit them?",
+      "a": "We fit only. You choose and buy your Matki shower enclosure or screen through a showroom or designer, and we handle the strip-out, first fix, tiling and glass installation, from £3,500."
+    },
+    {
+      "q": "Will a stud wall in a newer Windsor property hold a Matki fixing properly?",
+      "a": "Yes, provided solid backing is confirmed exactly where the hinge or channel fixings need to land. We check this at survey and, where needed, add backing at first fix before boarding and tiling."
+    },
+    {
+      "q": "Is a period property near Windsor Castle harder to fit a Matki enclosure into?",
+      "a": "The access route can be more constrained, but the solid masonry walls common in these properties generally take a fixing well once any uneven original plaster is corrected, which we check at survey."
+    },
+    {
+      "q": "What does the £125 survey check before a Matki installation in Windsor?",
+      "a": "We confirm the delivery and access route for the pre-cut panel, measure the opening against the finished tiling plan, and check the wall substrate at the fixing points, before the enclosure is ordered."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/matki/", "anchor": "All the Matki products we fit" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom fitting in Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "Bathroom brands we fit in Windsor" },
+    { "href": "/services/shower-enclosure-and-screen-installation/", "anchor": "Shower enclosure & screen installation" },
+    { "href": "/services/bathroom-strip-out-and-preparation/", "anchor": "Bathroom strip-out & preparation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "matki" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "Matki bathroom installer Windsor",
+  "secondaryKeywords": [
+    "Matki shower enclosure installation Windsor",
+    "Matki frameless screen fitter Berkshire",
+    "fit-only Matki installer Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Matki × Windsor installer page, implying Matki's frameless enclosure range through a close mid fixture shot rather than a full room view. Subject and action: a close mid shot of an unbranded glass screen's hinge being fitted to a wall bracket in a narrow period-proportioned bathroom, a tape measure left resting across the tiled sill nearby, hinge not yet fully tightened. Setting and work-stage: a refurbished town house bathroom near Windsor's historic centre, mid-fit-out, honed limestone tiling freshly set, early evening. Composition: close-to-fixture mid shot at hinge height, the glass edge and bracket filling the centre of frame, a sliver of a narrow window reveal visible at the edge suggesting the tight proportions of a period town house, tape measure and pencil resting on the tiled sill in the foreground. Light and materials: honed limestone tiling in a pale warm grey tone, brushed brass hinge and bracket hardware, warm low evening light from the narrow window mixing with a single handheld work lamp, producing uneven, directional shadow across the bracket rather than flat ambient light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform amber or gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the limestone and hardware with faint handling marks rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/matki-windsor-hero.webp",
+    "heroAlt": "Close mid shot of a frameless glass screen hinge being fitted to a brushed brass wall bracket against honed limestone tiling in a narrow Windsor town house bathroom, warm evening light.",
+    "inline": []
+  }
+}

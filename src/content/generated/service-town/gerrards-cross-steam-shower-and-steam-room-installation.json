@@ -1,0 +1,72 @@
+{
+  "path": "/areas/gerrards-cross/steam-shower-and-steam-room-installation/",
+  "family": "Service x town",
+  "service": "steam-shower-and-steam-room-installation",
+  "town": "gerrards-cross",
+  "seo": {
+    "title": "Steam Shower & Steam Room Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only steam shower and steam room installation in Gerrards Cross. Sealed enclosures, generator siting, ventilation and electrics. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/gerrards-cross/steam-shower-and-steam-room-installation/"
+  },
+  "h1": "Steam shower & steam room installation in Gerrards Cross",
+  "hero": {
+    "intro": "We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. A steam shower or steam room is more involved than a standard enclosure refit — it needs a fully sealed cubicle, a dedicated generator, and ventilation and electrics designed for sustained heat and moisture rather than a normal shower cycle. You source the generator, controls, tiles and enclosure glass; we handle strip-out, first fix, tanking, tiling, plumbing and snagging, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What makes a steam enclosure different from a shower cubicle",
+      "body": "A conventional shower enclosure is designed to shed water and tolerate some air exchange around the door and panel joints. A steam enclosure has to hold saturated steam inside a sealed space, so every junction — the panels, the ceiling, the door — needs a close to airtight seal, full tanking behind every surface including the ceiling, and a slightly sloped ceiling so condensation runs down the walls rather than dripping back down on you. The generator that produces the steam sits outside the enclosure within a defined pipe run, connected to mains electrics, a water feed and a drain, and the control panel that sets temperature and run time is wired separately and mounted within reach of the door. None of this can be bolted on after the fact — it has to be designed into the first fix before any boarding or tiling goes in."
+    },
+    {
+      "heading": "Why proximity to our Bracknell base matters for a steam job",
+      "body": "A steam installation typically needs more site visits than a straightforward shower swap: the initial paid survey to confirm generator siting and pipe runs, the strip-out and first fix stage, tanking and tiling, and a separate commissioning visit once the generator and controls are wired in, where we run a full steam cycle and check every seal before signing the job off. At 25 to 30 minutes from our Bracknell base, Gerrards Cross sits comfortably within range for that kind of staged programme without the scheduling friction that a longer round trip can introduce — we can return promptly if a seal needs adjusting after the first commissioning run, rather than treating it as a one-shot job."
+    },
+    {
+      "heading": "Ventilation and electrical requirements",
+      "body": "Steam enclosures generate far more sustained humidity than a standard shower, so extraction needs to be sized and positioned specifically for it — usually a dedicated extract point near the top of the enclosure, ducted out to an external wall or the roof void rather than relying on the bathroom's general extractor fan. The generator's electrical supply is its own circuit, sized to the unit's output and certified under Part P on completion, kept entirely separate from the lighting and shaver point circuits. Getting this sequencing right — ventilation and electrics first-fixed before tanking and tiling — is what separates a steam installation from a shower refit with an enclosure swapped in."
+    },
+    {
+      "heading": "How the installation runs",
+      "body": "We start with a paid survey to confirm generator location, pipe run length, extraction routing and any structural requirements for the enclosure, and price the job from that. On site, strip-out and first fix cover waste relocation, the generator's water, drain and electrical supply, and the extraction ducting, all going in before anything is covered up. Full tanking follows every enclosure surface, then tiling, with the generator and controls plumbed, wired and commissioned last — including a full steam cycle test and a seal check before handover. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far in advance should I book a steam shower installation in Gerrards Cross?",
+      "a": "We recommend booking the survey as soon as you've chosen your generator, controls and enclosure glass, since the generator's pipe run and electrical requirements shape the first-fix plan. From survey to a confirmed installation slot typically depends on current workload, so earlier is better."
+    },
+    {
+      "q": "Can you fit a steam room into an existing en-suite rather than a new build?",
+      "a": "Yes, provided the enclosure can be fully sealed and tanked and there's a sensible location for the generator within the manufacturer's pipe run distance — typically an adjoining airing cupboard or loft space. We assess this at survey."
+    },
+    {
+      "q": "Do you supply the steam generator or just fit it?",
+      "a": "We're fit-only. You choose and buy the generator, control panel, enclosure glass, tiles and any seating; we handle strip-out, first fix, tanking, tiling, plumbing, electrics coordination and snagging, from £3,500."
+    },
+    {
+      "q": "What's involved in commissioning a steam generator after installation?",
+      "a": "Once the generator and controls are plumbed and wired, we run a full steam cycle to check pipe and panel seals under real operating conditions, adjust anything that needs it, and confirm the extraction is clearing humidity properly before we sign the job off."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower and steam room installation service" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom installation in Gerrards Cross" },
+    { "href": "/bathroom-cost/gerrards-cross/", "anchor": "Bathroom installation costs in Gerrards Cross" },
+    { "href": "/areas/stoke-poges/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Stoke Poges" },
+    { "href": "/areas/windsor/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Windsor" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "gerrards-cross" } ],
+  "primaryKeyword": "steam shower installation Gerrards Cross",
+  "secondaryKeywords": [ "steam room installation Gerrards Cross", "steam shower fitter Buckinghamshire", "bathroom steam enclosure Gerrards Cross" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a steam shower and steam room installation page targeting Gerrards Cross homeowners. Subject and action: a finished, fully sealed steam room enclosure, dry-styled and unoccupied, built-in bench seat visible along one wall, door closed. Setting and work-stage: a newly completed bathroom in a detached commuter-village home, generator control panel mounted on the wall outside the enclosure. Composition: diagonal, slightly low composition cutting across the enclosure corner so the bench and the sealed door frame are both in view. Light and materials: dark grey slate-effect large-format tiles, a matte black enclosure frame and door handle, warm late-afternoon light angled in from a side window, believable varied sheen on the tile and glass rather than uniform gloss. Constraints: no people, no text, no logos, no visible brand names on any fixture, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water or steam shown actively running.",
+    "heroOutputPath": "heroes/service-town/gerrards-cross-steam-shower-and-steam-room-installation-hero.webp",
+    "heroAlt": "Finished sealed steam room enclosure with matte black frame, bench seat and slate-effect tiling in a Gerrards Cross bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "path": "/installer/crosswater-ascot/",
+  "family": "Brand × town",
+  "brand": "crosswater",
+  "town": "ascot",
+  "slug": "crosswater-ascot",
+  "seo": {
+    "title": "Crosswater Installer in Ascot | Fit-Only | Install My Bathroom",
+    "description": "Crosswater shower valve, digital control and brassware installation in Ascot, fit-only from £3,500. You supply the products through your showroom; we fit them.",
+    "canonical": "https://installmybathroom.co.uk/installer/crosswater-ascot/"
+  },
+  "h1": "Crosswater bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing has grown up around its racecourse for well over a century, and the result is a lot of large detached Victorian and Edwardian houses alongside inter-war family homes and more recent executive-style builds on generous plots, particularly on the roads running towards Sunningdale and Windsor. That scale of plot usually gives us more freedom on layout than a smaller property allows, and that freedom matters more than usual when the brassware going in is Crosswater. Crosswater's contemporary shower systems and brassware lean heavily on concealed valves, digital controls and minimal deck-mounted taps — fittings built to disappear into the wall or worktop rather than sit proud of it — which means the work that decides how well the finished shower performs happens well before a tiler gets near the room. In a larger Ascot property we're rarely fighting a stud wall that's too thin to take a concealed valve body at the right depth; we're confirming it's built correctly in the first place. We fit Crosswater products supplied through your own showroom or designer across Ascot on a fit-only basis."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Crosswater in Ascot",
+      "body": "Crosswater is known for contemporary bathroom brassware and shower systems: concealed and digital shower valves, shower kits and shower toilets, deck-mounted and wall-mounted basin and bath taps, and the shower enclosures and screens that match them. None of it is sold through us directly — you choose and supply the Crosswater range through a showroom, designer or retailer, and across Ascot we install whatever's been specified at survey stage, from a single replacement valve in an existing bathroom to a full shower, vanity and en-suite fit-out in a larger executive-style property. The installation detail changes depending on which part of the range is going in, which is why we work through the specification properly rather than treating every Crosswater job the same."
+    },
+    {
+      "heading": "Why the wall behind a Crosswater valve matters",
+      "body": "Because so much of Crosswater's range is built to sit flush or concealed rather than proud of the wall, the detail that determines whether it performs well is settled before the tiler ever arrives: the depth and construction of the wall the valve body sits in, the route the supply pipework takes behind it, and whether the water pressure and flow reaching that point actually suit the valve or digital controller being fitted. Get the wall build-up wrong and a concealed valve either won't sit at the right depth for its trim plate, or it's harder to service later. In Ascot's larger properties, where we're often building a new stud wall from scratch rather than retrofitting around an existing one, we use the survey to confirm the exact wall thickness and pipe run the specified Crosswater valve needs, and build to that, rather than discovering a mismatch once the tiles are on."
+    },
+    {
+      "heading": "How Ascot's housing stock affects a typical Crosswater installation",
+      "body": "Ascot's large detached Victorian, Edwardian, inter-war and executive-style homes generally give us more room to plan a Crosswater installation properly than a smaller or more constrained property would. Relocating a waste run or widening a doorway for level access rarely runs into the structural limits a terraced house would present, and the same generosity applies to building a stud wall to the correct depth for a concealed valve or digital shower controller — it's rarely a case of making do with what's already there. That said, a bigger plot doesn't mean we skip the checks: in an older Victorian or Edwardian Ascot house we still confirm original floor joists and existing pipe runs before committing to a valve position, and in a newer executive-style build we're more often confirming what a previous fit-out has already boxed in. Either way, the survey tells us what your specific house allows, not the postcode."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We don't supply Crosswater products ourselves — you buy them through a showroom, retailer or designer, and we fit them. Every project starts with a fixed-price £125 survey at the property, deducted from the final cost if you go ahead, where we check the exact wall, waste and water pressure detail your Crosswater installation needs in your specific Ascot home. Installation itself starts from £3,500 for a fit-only bathroom. If you later need a repair to an installed Crosswater shower or tap, our repair work starts from £200, though we don't carry out standalone regrouting, and any emergency call-out carries a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you sell Crosswater products, or just fit them?",
+      "a": "We fit only. You buy your Crosswater shower, brassware or sanitaryware through a showroom, retailer or designer, and we handle the strip-out, first fix, tiling, plumbing and installation, from £3,500."
+    },
+    {
+      "q": "Why does the wall matter so much for a Crosswater shower valve?",
+      "a": "Crosswater's shower valves and digital controls are built to sit concealed behind the wall rather than proud of it, so the wall's depth, the pipework behind it and the water pressure reaching it all have to be right before tiling starts — that's exactly what we check at survey."
+    },
+    {
+      "q": "Does Ascot's larger plot size make a Crosswater installation easier?",
+      "a": "It often gives us more room to build a stud wall to the correct depth without hitting the structural limits a smaller or terraced property would present, but we still confirm the exact detail at survey rather than assuming it from the plot size."
+    },
+    {
+      "q": "Can you repair a Crosswater shower we already have fitted?",
+      "a": "Yes, repair work on an installed Crosswater shower or tap starts from £200. We don't take on standalone regrouting jobs on their own, and any emergency call-out carries a £500 minimum."
+    },
+    {
+      "q": "Is the £125 survey fee deducted from the final installation price?",
+      "a": "Yes. The £125 is a fixed fee for the visit itself, and it comes off your total project cost if you go ahead with the installation."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/crosswater/",
+      "anchor": "All the Crosswater products we fit"
+    },
+    {
+      "href": "/areas/ascot/",
+      "anchor": "Bathroom fitting in Ascot"
+    },
+    {
+      "href": "/areas-brands/ascot/",
+      "anchor": "Bathroom brands we fit in Ascot"
+    },
+    {
+      "href": "/services/digital-and-smart-shower-installation/",
+      "anchor": "Digital & smart shower installation"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing & first fix"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "crosswater"
+    },
+    {
+      "file": "towns.json",
+      "id": "ascot"
+    }
+  ],
+  "primaryKeyword": "Crosswater installer Ascot",
+  "secondaryKeywords": [
+    "Crosswater bathroom installation Ascot",
+    "Crosswater shower fitter Ascot",
+    "Crosswater concealed valve Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crosswater × Ascot installer page, implying Crosswater's concealed-valve brassware range through a close product detail shot rather than a full room view. Subject and action: a close three-quarter shot of an unbranded concealed shower valve trim plate set into a tiled wall, a spirit level still resting against the tile edge beside it, mid-installation rather than finished. Setting and work-stage: a part-finished en-suite in a large Ascot executive-style house, tiling freshly completed around the valve with faint grout haze still visible, daytime. Composition: close-to-fixture mid shot at valve height, the trim plate filling the left-centre of frame, a run of newly tiled wall softening into the background on the right, spirit level and a loose tile offcut in the foreground. Light and materials: honed limestone tiles in a warm grey tone, brushed brass-finish trim plate, directional daylight from an unseen window mixing with a single clipped work lamp, producing uneven highlight across the metal rather than flat light. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on tile and metal with slight visible grout haze consistent with a recent fit.",
+    "heroOutputPath": "heroes/brand-town/crosswater-ascot-hero.webp",
+    "heroAlt": "Close mid-installation shot of a brushed brass concealed shower valve trim set into freshly tiled honed limestone in an Ascot en-suite.",
+    "inline": []
+  }
+}

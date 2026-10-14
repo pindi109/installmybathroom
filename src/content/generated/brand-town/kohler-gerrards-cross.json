@@ -1,0 +1,85 @@
+{
+  "path": "/installer/kohler-gerrards-cross/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "gerrards-cross",
+  "slug": "kohler-gerrards-cross",
+  "seo": {
+    "title": "Kohler Bathroom Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only Kohler sanitaryware and brassware installation in Gerrards Cross, 25-30 mins from our Bracknell base. Survey £125, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-gerrards-cross/"
+  },
+  "h1": "Kohler bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Kohler's range spans cast-iron enamel baths, vitreous china sanitaryware and contemporary brassware, which in practice means a single project can involve three quite different fitting disciplines side by side. We install luxury, fit-only bathrooms for homeowners across Gerrards Cross, the affluent Buckinghamshire commuter village close to Beaconsfield and Chalfont St Peter, around 25 to 30 minutes by road from our Bracknell base. You source the Kohler sanitaryware, brassware, tiles and furniture; we plan for whichever combination you're specifying, strip out, first-fix, tile, plumb and snag, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Wall-hung Kohler sanitaryware: the structural work behind the finish",
+      "body": "A wall-hung WC from Kohler's vitreous china range relies on a concealed cistern frame that has to be fixed, levelled and secured into solid structure before any tiling begins, because the pan itself bolts onto brackets that line up with the finished wall surface, not the stud behind it. Get that first-fix wrong by even a few millimetres and the pan sits at an angle or the flush plate won't seat properly. It's standard structural fixing work, but it has to be right the first time, since there's no adjusting it once the wall is tiled over."
+    },
+    {
+      "heading": "Brassware pressure and flow checks before anything is committed",
+      "body": "Contemporary brassware — a shower valve, a digital tap, a concealed mixer — needs its incoming pressure and flow checked against your property's supply before it's built into the wall. That's a different discipline again from fixing a cistern frame or positioning a cast-iron bath, and it's one reason we treat a Kohler specification as several interlinked jobs rather than one generic fit. We confirm these checks at first-fix stage, while there's still room to adjust pipework if the readings don't match what the brassware needs."
+    },
+    {
+      "heading": "Installing for homeowners across Gerrards Cross",
+      "body": "Gerrards Cross sits close to Beaconsfield and Chalfont St Peter, and we reach the village in around 25 to 30 minutes from our Bracknell base, which keeps scheduling straightforward for survey visits, deliveries and the installation itself. As with any fit-only project, the sanitaryware, brassware, tiles and furniture are down to you to source; our side of the job is the installation — strip-out, first-fix, tiling, final-fix plumbing and snagging — carried out to the standard a Kohler specification deserves."
+    },
+    {
+      "heading": "The fit-only process, start to finish",
+      "body": "A £125 survey comes first, where we assess the existing room, check supply and waste positions, and confirm what your chosen Kohler products will need structurally. From there, installations start from £3,500, covering strip-out of the old bathroom, first-fix plumbing and electrics, tiling, final-fix plumbing, and a snagging pass before we hand the room back. The price is set by the quality and scope of the work, not by undercutting anyone else operating in the area."
+    },
+    {
+      "heading": "Planning a Kohler specification around a commuter village property",
+      "body": "Gerrards Cross properties vary from older detached houses to more recently built family homes, and the mix of sanitaryware and brassware you specify from the Kohler range usually drives how long first-fix takes, more than the size of the house itself. A cistern frame for a wall-hung WC, pressure testing for a concealed shower valve, and the final positioning of a freestanding bath are three separate pieces of work that we sequence so each one is finished and checked before the next stage of tiling closes it in. Being close to Beaconsfield and Chalfont St Peter also means parts and fittings can usually be sourced or exchanged quickly if a delivery needs adjusting mid-project."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take you to reach Gerrards Cross from Bracknell?",
+      "a": "Around 25 to 30 minutes by road, which keeps survey visits and the installation itself straightforward to schedule."
+    },
+    {
+      "q": "Do you supply Kohler sanitaryware and brassware for Gerrards Cross installs?",
+      "a": "No, we're fit-only — you buy the Kohler sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does a wall-hung Kohler WC need special first-fix attention?",
+      "a": "The concealed cistern frame has to be fixed and levelled precisely before tiling, because the pan brackets line up with the finished wall surface. Any inaccuracy at that stage is very hard to correct afterwards."
+    },
+    {
+      "q": "What does a Kohler bathroom installation cost in Gerrards Cross?",
+      "a": "Installations start from £3,500 for fit-only work, following a £125 paid survey. Final cost depends on the scope of strip-out, first-fix, tiling and plumbing involved."
+    },
+    {
+      "q": "Can you check whether our water pressure suits a Kohler digital tap or shower valve?",
+      "a": "Yes, we check pressure and flow against your incoming supply as part of the first-fix work, before the brassware is committed to the wall."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "Explore the Kohler bathroom range" },
+    { "href": "/areas/gerrards-cross/", "anchor": "Bathroom installation in Gerrards Cross" },
+    { "href": "/areas-brands/gerrards-cross/", "anchor": "Bathroom brands we fit in Gerrards Cross" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix service" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "gerrards-cross" }
+  ],
+  "primaryKeyword": "Kohler installation Gerrards Cross",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Gerrards Cross",
+    "Kohler sanitaryware installation Buckinghamshire",
+    "fit-only bathroom installer Gerrards Cross"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Gerrards Cross. Subject and action: a wall-hung WC concealed cistern frame fixed to a stud wall mid-installation, spirit level resting against the frame, no person in shot. Setting and work-stage: a mid-renovation family bathroom in a Buckinghamshire village house, plasterboard removed on one wall to expose the frame, travertine floor tiles already laid. Composition: straight-on eye-level shot centred on the cistern frame, room extending symmetrically either side but with deliberately uneven furniture placement to avoid a catalogue look. Light and materials: travertine tile flooring, brushed bronze pipe fittings stacked nearby, warm late-afternoon light through a frosted window casting long soft shadows. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-gerrards-cross-hero.webp",
+    "heroAlt": "Concealed cistern frame for a Kohler wall-hung WC being fitted during a bathroom installation in Gerrards Cross",
+    "inline": []
+  }
+}

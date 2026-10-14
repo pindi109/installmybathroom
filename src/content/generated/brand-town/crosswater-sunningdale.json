@@ -1,0 +1,102 @@
+{
+  "path": "/installer/crosswater-sunningdale/",
+  "family": "Brand × town",
+  "brand": "crosswater",
+  "town": "sunningdale",
+  "slug": "crosswater-sunningdale",
+  "seo": {
+    "title": "Crosswater Bathroom Fitting in Sunningdale | Install My Bathroom",
+    "description": "Fit-only Crosswater shower and brassware installation in Sunningdale. We check wall build-up, pipework and water pressure before fitting, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/crosswater-sunningdale/"
+  },
+  "h1": "Crosswater bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached houses around them — Victorian and Edwardian properties, inter-war family homes and more recent executive-style builds, a number of them on private or gated roads. Plot sizes here tend to be generous, which often means more flexibility on layout than a smaller or terraced property allows: moving a waste run a few feet to fit a freestanding bath, for example, rarely runs into a structural wall it can't move around. That flexibility is useful, but it's not the detail that decides whether a Crosswater digital shower actually performs once it's fitted — that comes down to the water pressure and flow reaching the valve, which we confirm against the specific Crosswater system before a single tile goes up. We work fit-only in Sunningdale: you supply the Crosswater products, we install them, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Crosswater in Sunningdale",
+      "body": "A significant part of Crosswater's range is built around digital shower technology — controllers that set temperature and flow from a panel rather than a traditional valve handle — alongside more conventional concealed thermostatic valves, deck-mounted taps and the enclosures that match them. We install whichever of these has been specified through your showroom or designer, from a single valve replacement to a full shower and vanity fit-out, and across Sunningdale's larger properties it's common for the digital end of the range to be the realistic choice, given the extra wall depth and routing a bigger house allows. Crosswater's deck-mounted taps also turn up regularly on vanity and freestanding bath specifications here, fitted with the same minimal, flush profile as the rest of the range."
+    },
+    {
+      "heading": "Why water pressure and flow matter for a Crosswater digital shower",
+      "body": "Digital shower controllers in particular are sensitive to the water pressure and flow available at the point they're plumbed in; specify and fit one without checking that first, and the controller can underperform regardless of how well it's installed. The same attention applies to a standard concealed valve — the wall depth, the pipe route behind it and the pressure reaching it all need confirming before any tiling starts. We check this at survey against the exact Crosswater model being fitted, not generically, so the system performs the way it's supposed to once the room is finished."
+    },
+    {
+      "heading": "How Sunningdale's housing stock and access affect the job",
+      "body": "Sunningdale's Victorian, Edwardian, inter-war and executive-style houses generally sit on generous plots, which usually means more flexibility on layout than a terraced or semi-detached property allows — moving a waste run to accommodate a freestanding bath is rarely constrained by neighbouring structure. A number of these properties also sit on private or gated roads, which doesn't change the installation itself but does change how we plan deliveries, parking and site access around the strip-out and first-fix stages. We agree both the layout flexibility and the access arrangements at survey, alongside the wall, waste and pressure checks a Crosswater installation needs, so the programme runs without avoidable delay once work starts."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We don't supply Crosswater products — you buy them through your own showroom or designer, and we handle the strip-out, first fix, tiling, plumbing and snagging, from £3,500 for a fit-only installation. Repairs to an already-fitted Crosswater shower or tap start from £200 (we don't take on standalone regrouting), and emergency call-outs carry a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does my water pressure affect a Crosswater digital shower?",
+      "a": "Yes. Digital shower controllers are sensitive to the water pressure and flow available at the plumbed-in point, so we check this against the specific Crosswater model at survey before anything is fitted."
+    },
+    {
+      "q": "We're on a private or gated road in Sunningdale — does that affect the job?",
+      "a": "It doesn't change the installation itself, but we plan deliveries, parking and site access around it at survey stage so the strip-out and first-fix work isn't held up once it starts."
+    },
+    {
+      "q": "Can you move a waste run to fit a freestanding bath with Crosswater brassware?",
+      "a": "In many of Sunningdale's larger, detached properties, yes — the plot and structure usually allow more flexibility than a terraced house would, but we confirm it against your specific layout at survey."
+    },
+    {
+      "q": "Do you supply Crosswater products, or just fit them?",
+      "a": "We fit only. You choose and supply the Crosswater range through a showroom, designer or retailer, and we handle the installation from £3,500."
+    },
+    {
+      "q": "What happens if the water pressure isn't right for the Crosswater system we've chosen?",
+      "a": "We flag it at the £125 survey, before anything is ordered or fitted, so you can adjust the specification or address the pressure issue rather than discovering it once the shower is installed."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/crosswater/",
+      "anchor": "All the Crosswater products we fit"
+    },
+    {
+      "href": "/areas/sunningdale/",
+      "anchor": "Bathroom fitting in Sunningdale"
+    },
+    {
+      "href": "/areas-brands/sunningdale/",
+      "anchor": "Bathroom brands we fit in Sunningdale"
+    },
+    {
+      "href": "/services/digital-and-smart-shower-installation/",
+      "anchor": "Digital & smart shower installation"
+    },
+    {
+      "href": "/services/shower-enclosure-and-screen-installation/",
+      "anchor": "Shower enclosure & screen installation"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "crosswater"
+    },
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    }
+  ],
+  "primaryKeyword": "Crosswater installer Sunningdale",
+  "secondaryKeywords": [
+    "Crosswater bathroom installation Sunningdale",
+    "Crosswater digital shower fitter Sunningdale",
+    "Crosswater installation gated road"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crosswater × Sunningdale installer page, implying Crosswater's digital shower technology through a close fixture shot rather than a full room view. Subject and action: a close low-angle shot looking up at a concealed shower valve plate paired with a separate digital shower controller pad mounted beside it, both newly fitted, a small microfibre cloth draped over a nearby shower arm. Setting and work-stage: a finished shower enclosure in a large Sunningdale executive-style house, bright midday daylight entering from a high window. Composition: low three-quarter angle looking slightly upward at the valve and controller pad, dark stone wall filling the background, the two fittings sharply focused in the lower-centre of frame. Light and materials: dark basalt-effect anthracite stone tile, brushed nickel-finish valve and controller housing, bright directional daylight from above casting a crisp but not harsh highlight across the metal, visible texture variation in the stone. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the stone and metal with no uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/crosswater-sunningdale-hero.webp",
+    "heroAlt": "Low-angle close shot of a brushed nickel concealed shower valve and digital shower controller pad against dark basalt stone tile in a Sunningdale shower enclosure, bright midday light.",
+    "inline": []
+  }
+}

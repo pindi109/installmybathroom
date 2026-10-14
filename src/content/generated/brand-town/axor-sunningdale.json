@@ -1,0 +1,81 @@
+{
+  "path": "/installer/axor-sunningdale/",
+  "family": "Brand × town",
+  "brand": "axor",
+  "town": "sunningdale",
+  "slug": "axor-sunningdale",
+  "seo": {
+    "title": "AXOR Bathroom Installer in Sunningdale | Fit-Only | Install My Bathroom",
+    "description": "AXOR brassware installation in Sunningdale, fit-only from £3,500. Valve commissioning and finish handling for freestanding baths and wet rooms.",
+    "canonical": "https://installmybathroom.co.uk/installer/axor-sunningdale/"
+  },
+  "h1": "AXOR bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties around them — Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads — tend to have the generous plot sizes that make room for a freestanding bath or a proper wet room rather than a standard enclosed shower. Both of those set-ups put more demand on an AXOR valve than a simple mixer tap does: a freestanding bath filler has to be commissioned and pressure-tested before the floor around it is finished, and a wet-room valve has to sit correctly within a fully tanked and tiled space with no cabinet or panel to hide a mistake behind."
+  },
+  "sections": [
+    {
+      "heading": "What we install from AXOR in Sunningdale",
+      "body": "AXOR is hansgrohe's design-led brassware brand, built around collaborations such as AXOR Starck, AXOR Citterio and AXOR Montreux. In Sunningdale, where the larger plots and private roads tend to come with bigger bathrooms, we install AXOR freestanding bath fillers, wet-room shower valves, basin mixers and the trim and handset packages that go with each, on a fit-only basis — you specify and supply the AXOR range, and we fit it correctly to the property."
+    },
+    {
+      "heading": "Installation considerations specific to AXOR",
+      "body": "A freestanding bath filler needs its own concealed valve and waste run set out exactly to the bath's fixing points, confirmed before the floor is finished rather than adjusted afterwards. A wet-room installation raises the stakes again, because the AXOR valve sits inside a fully tanked, tiled space with no access panel behind it — any leak or incorrect setting becomes a problem that's expensive to put right once the room is finished, so we test every connection before tiling closes over it. On the finish side, the same rule applies as with every AXOR installation: a brushed or matte black trim shows scuffs from careless handling in a way chrome never does, so the visible handset and trim plate go on last, once the rest of the room is genuinely done."
+    },
+    {
+      "heading": "How Sunningdale's housing stock affects a typical AXOR installation",
+      "body": "Moving a waste run three feet to suit a freestanding AXOR bath filler is something Sunningdale's generous plot sizes usually make possible, but the valve and its deck or floor mounting still have to be commissioned and pressure-tested before anything is sealed in — plot size buys us flexibility on where things go, not a shortcut on how they're fitted. The private and gated roads common here also mean more of our Sunningdale projects are substantial renovations of existing large properties, where we're as often confirming what an earlier installation already has in place as we are planning a new layout from scratch."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Sunningdale: you choose your AXOR brassware and the rest of your bathroom specification, and we handle the strip-out, tanking, first fix, plumbing, tiling and final fit, from £3,500. Every project starts with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the exact AXOR valve type — whether that's a freestanding bath filler or a wet-room shower valve — against the layout and plot you're working with. With 30 years' experience, we know what pressure-testing and commissioning a concealed valve properly looks like before it's sealed behind tiling. If anything needs attention after the fact, repairs start from £200, with a £500 minimum for an emergency call-out and no standalone regrouting offered."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can an AXOR valve be repositioned to suit a freestanding bath?",
+      "a": "Often, yes — Sunningdale's generous plot sizes usually give us the flexibility to move a waste run or valve position to suit a freestanding bath, something a smaller terraced property wouldn't always allow."
+    },
+    {
+      "q": "Why does a wet-room AXOR valve need more testing than a standard shower?",
+      "a": "A wet-room valve sits inside a fully tanked, tiled space with no access panel behind it, so we pressure-test and check every connection before tiling closes over it — there's no going back in to fix a leak afterwards."
+    },
+    {
+      "q": "Do I need to buy the AXOR bath filler or valve myself?",
+      "a": "Yes. We work fit-only, so you source your AXOR products and we handle the installation, from the concealed valve through to the finished trim."
+    },
+    {
+      "q": "Will a brushed AXOR finish mark easily during a wet-room installation?",
+      "a": "It can if it's fitted too early — we fit the visible trim and handset last, once tanking, tiling and other trades are finished, to avoid marking a brushed or matte black finish."
+    },
+    {
+      "q": "What does an AXOR freestanding bath installation cost in Sunningdale?",
+      "a": "It depends on the scope of the wider project, but full installations start from £3,500. We confirm the detail at the £125 survey before anything is booked in."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/axor/", "anchor": "More on AXOR brassware" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "Bathroom brands we fit in Sunningdale" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/wet-room-installation/", "anchor": "Wet room installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "axor" },
+    { "file": "towns.json", "id": "sunningdale" }
+  ],
+  "primaryKeyword": "AXOR bathroom installer Sunningdale",
+  "secondaryKeywords": [
+    "AXOR installation Sunningdale",
+    "AXOR freestanding bath installation",
+    "fit-only AXOR installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the AXOR × Sunningdale installer page, implying AXOR's freestanding bath brassware through a close fixture detail rather than a full room shot. Subject and action: a close low-angle shot of a floor-mounted freestanding bath filler and handset beside the foot of a freestanding bath, static, no water running. Setting and work-stage: a finished bathroom in a Sunningdale detached house near the golf courses, daytime. Composition: close low three-quarter angle focused on the bath filler base and handset, the curved edge of the freestanding bath filling the foreground, dark tiled floor receding into soft focus behind. Light and materials: dark basalt/anthracite floor tile, brushed brass bath filler and handset, bright midday daylight entering from an unseen tall window, creating a crisp but not harsh shadow of the filler across the tile. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the basalt tile and brassware with faint realistic wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/axor-sunningdale-hero.webp",
+    "heroAlt": "Close-up of a brushed brass freestanding bath filler and handset against dark basalt floor tile in a finished Sunningdale bathroom, bright daylight.",
+    "inline": []
+  }
+}

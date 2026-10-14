@@ -1,0 +1,80 @@
+{
+  "path": "/areas/windsor/freestanding-bath-installation/",
+  "family": "Service x town",
+  "service": "freestanding-bath-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Freestanding Bath Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only freestanding bath installation in Windsor: waste routing, floor loading and access planning for town houses or family homes. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/freestanding-bath-installation/"
+  },
+  "h1": "Freestanding bath installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types. Close to the Castle and the historic centre there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much can be moved through the building at once; further out, the housing is more typically inter-war and post-war family homes, with newer residential developments on redeveloped sites. A freestanding bath is usually delivered as one large, heavy item, so which of those two property types you're in has a real bearing on how it gets installed, not just where the waste ends up."
+  },
+  "sections": [
+    {
+      "heading": "Getting the bath into the building",
+      "body": "Before any plumbing question comes up, a freestanding bath has to physically get into the room, and that's where Windsor's two housing types genuinely differ. In the Georgian and Victorian town houses near the Castle and historic centre, narrow staircases and limited rear access can make manoeuvring a large single-piece bath upstairs a real planning question, sometimes requiring the bath to go in before other work is finished, or via a route checked in advance rather than assumed on the day. In the inter-war, post-war and newer developments further out, wider staircases and more generous access generally make this part of the job far more straightforward."
+    },
+    {
+      "heading": "Positioning the bath and routing the waste",
+      "body": "Once the bath is in the room, it needs the waste, overflow and filler plumbed to wherever it's going to stand — usually a longer, more visible run than a standard panelled bath needs, since a freestanding bath is often positioned away from a wall as a feature. That pipework typically runs beneath the bath, either through a shallow raised plinth or via a section of floor opened up and reinstated for the purpose. In town houses with constrained floor plans, the bath's position is often more fixed by the room's proportions; in larger inter-war and post-war homes there's usually more flexibility to choose where it sits before the waste route is planned around it."
+    },
+    {
+      "heading": "Floor loading, old and new",
+      "body": "A full freestanding bath with someone in it can exceed 200kg, and that load needs floor joists able to carry it, or a wider bearing point where they can't. Georgian and Victorian town houses typically have older suspended timber floors and period staircases, so we check joist condition, spacing and direction carefully before confirming a bath position — these floors can generally take a freestanding bath, but it needs verifying rather than assuming, given the age of the structure. Inter-war, post-war and newer-build homes further out tend to have more predictable floor construction, which usually simplifies this check."
+    },
+    {
+      "heading": "How the job runs",
+      "body": "We start with the £125 paid survey, where we check access and manoeuvring routes into the room, assess the floor structure, and agree the bath's final position. From there: strip-out of the existing bathroom, first-fix plumbing, any floor reinforcement or plinth work identified, tiling around the fixed pipework, then fitting and connecting the bath before a final snag and sign-off. You source the bath and fittings; we handle strip-out through to final connection, from £3,500. Call or WhatsApp 07399 651836 to arrange a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a freestanding bath get up a narrow Georgian staircase in central Windsor?",
+      "a": "Often yes, but it needs checking at survey rather than assumed. Narrow plots, limited rear access and period staircases in town houses near the Castle can make manoeuvring a single large bath upstairs a genuine planning question, which we assess and plan a route for before scheduling delivery."
+    },
+    {
+      "q": "Is a freestanding bath installation easier in homes further out from the centre?",
+      "a": "Generally, yes, on the access side — inter-war, post-war and newer-build homes further from the historic centre tend to have wider staircases and more generous access, which usually simplifies getting the bath into the room."
+    },
+    {
+      "q": "Do older Windsor town houses need extra floor checks for a freestanding bath?",
+      "a": "Yes — Georgian and Victorian town houses typically have older suspended timber floors, so we check joist condition, spacing and direction carefully before confirming a bath position, given the age of the structure."
+    },
+    {
+      "q": "Do you supply the freestanding bath?",
+      "a": "No, we're fit-only. You choose and buy the bath, filler, waste and overflow fittings; we carry out strip-out, first-fix plumbing, floor work, tiling and snagging."
+    },
+    {
+      "q": "What does a freestanding bath installation cost in Windsor?",
+      "a": "Our installs start from £3,500. Costs vary with access requirements, floor work and waste routing, which we confirm after the paid survey — town houses with access constraints can sometimes need more planning time than homes further out."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/freestanding-bath-installation/", "anchor": "More on our freestanding bath installation service" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom installation across Windsor" },
+    { "href": "/guides/bath-installation-cost-uk/", "anchor": "What does a bath installation cost in the UK?" },
+    { "href": "/areas/ascot/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Ascot" },
+    { "href": "/areas/sunningdale/freestanding-bath-installation/", "anchor": "Freestanding bath installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "freestanding bath installation Windsor",
+  "secondaryKeywords": [
+    "freestanding bath fitter Windsor",
+    "freestanding bath town house installation Windsor",
+    "freestanding bath access and delivery Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Windsor freestanding bath installation service page. Subject and action: a finished slipper-style roll-top cast iron bath in a cream enamel finish, positioned under a sash window with an antique brass wall-mounted filler already connected. Setting and work-stage: a narrow, newly completed Georgian town house bathroom with exposed period cornice detail, renovation fully finished, no tools or materials visible. Composition: tight vertical-feeling frame from a slightly lower angle emphasising the room's narrow period proportions and tall window. Light and materials: low warm afternoon sun streaming through the sash window, aged parquet-style floor, pale plaster-toned walls. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-freestanding-bath-installation-hero.webp",
+    "heroAlt": "Roll-top freestanding bath in a narrow Georgian town house bathroom in Windsor",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

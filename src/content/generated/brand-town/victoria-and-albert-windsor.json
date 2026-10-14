@@ -1,0 +1,110 @@
+{
+  "path": "/installer/victoria-and-albert-windsor/",
+  "family": "Brand x town",
+  "brand": "victoria-and-albert",
+  "town": "windsor",
+  "slug": "victoria-and-albert-windsor",
+  "seo": {
+    "title": "Victoria + Albert Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only Victoria + Albert bathroom installation in Windsor. Freestanding bath specialists, £125 survey, installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/victoria-and-albert-windsor/"
+  },
+  "h1": "Victoria + Albert bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types: Georgian and Victorian town houses close to the Castle, many on narrow plots with limited rear access and period staircases, and more typically inter-war and post-war family homes further out towards the edges of town. Both bring different questions for a Victoria + Albert freestanding bath, which is cast from a volcanic limestone and resin composite rather than acrylic or steel and carries genuine weight — so we plan the floor loading, access route and waste position before the bath ever leaves the showroom, which matters even more on a property with a narrow staircase than it does on a wide modern one."
+  },
+  "sections": [
+    {
+      "heading": "Two kinds of Windsor property, two different access plans",
+      "body": "Close to the Castle and the historic centre, there's a concentration of Georgian and Victorian town houses, many on narrow plots with limited rear access and period staircases that constrain how much material can be moved through the building at once. Further out, the housing is more typically inter-war and post-war family homes, with a scattering of newer developments on redeveloped sites. For a Victoria + Albert installation, the access survey looks quite different depending on which type of property it is — a town-centre house needs a careful route plan through narrow stairwells, while an inter-war or post-war home is usually more straightforward."
+    },
+    {
+      "heading": "Why the bath's weight matters most on a narrow staircase",
+      "body": "Victoria + Albert's freestanding baths are cast from a volcanic limestone and resin composite, not acrylic or steel, giving them a solid, cool-to-the-touch surface and genuine weight — a point that matters as much to how we get the bath into the room as it does to how it sits once installed. In a Windsor town house with a period staircase and limited rear access, that weight is exactly the kind of detail that needs resolving at survey stage, well before delivery day, rather than discovered on the doorstep."
+    },
+    {
+      "heading": "Planning the installation around the property type",
+      "body": "We plan the floor loading, the access route and the waste position before the bath leaves the showroom in every case, but the specifics vary by property. On a narrower Georgian or Victorian town house, that might mean confirming the bath can navigate a tight stairwell or whether it needs to go in through a rear access point instead. On an inter-war or post-war family home with more conventional room proportions, the planning is usually more about waste position and tiling sequence than access."
+    },
+    {
+      "heading": "What's included in the fit-only service",
+      "body": "You buy the Victoria + Albert bath, basin, brassware, tiles and furniture directly; we handle strip-out of the existing bathroom, first-fix plumbing, tiling, final plumbing connections and snagging once the room is finished. Because we survey access and loading before anything is ordered or delivered, there's no risk of a bath arriving at a Windsor town house only to find it won't clear the stairs."
+    },
+    {
+      "heading": "Arranging a survey in Windsor",
+      "body": "The process starts with a £125 survey, during which we assess the room, the access route — whether that's a period staircase or a more straightforward modern layout — and agree the waste position. Installation covers strip-out, first-fix, tiling, plumbing and snagging, from £3,500 depending on scope. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Victoria + Albert bath fit through a Windsor town house staircase?",
+      "a": "It depends on the property. Many Georgian and Victorian town houses close to Windsor's historic centre have narrow plots and period staircases with limited rear access, so we confirm the access route at survey before anything is ordered."
+    },
+    {
+      "q": "Do you supply the Victoria + Albert bath?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture; we strip out, first-fix, tile, plumb and snag."
+    },
+    {
+      "q": "Why does the weight of a Victoria + Albert bath matter?",
+      "a": "The baths are cast from a volcanic limestone and resin composite rather than acrylic or steel, giving them genuine weight. We plan floor loading, access route and waste position before the bath leaves the showroom."
+    },
+    {
+      "q": "Do you cover properties outside Windsor town centre too?",
+      "a": "Yes. We install across Windsor, including the inter-war and post-war family homes further out towards the edges of town, as well as newer developments."
+    },
+    {
+      "q": "How much does installation cost?",
+      "a": "Installations start from £3,500 depending on scope, with a £125 survey fee to assess the project beforehand."
+    },
+    {
+      "q": "What happens if the bath won't fit through a narrow staircase?",
+      "a": "This is exactly what the survey is for — we check access before the bath is ordered, so any issue with a narrow stairwell or limited rear access is identified and planned around early, not discovered on delivery day."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "The Victoria + Albert range we install",
+      "href": "/brands/victoria-and-albert/"
+    },
+    {
+      "anchor": "Bathroom installation in Windsor",
+      "href": "/areas/windsor/"
+    },
+    {
+      "anchor": "Brands we fit in Windsor",
+      "href": "/areas-brands/windsor/"
+    },
+    {
+      "anchor": "Freestanding bath installation service",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Strip-out and preparation service",
+      "href": "/services/bathroom-strip-out-and-preparation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "victoria-and-albert"
+    },
+    {
+      "file": "towns.json",
+      "id": "windsor"
+    }
+  ],
+  "primaryKeyword": "Victoria + Albert installation Windsor",
+  "secondaryKeywords": [
+    "Victoria + Albert bathroom fitter Windsor",
+    "freestanding bath installation Windsor",
+    "fit-only bathroom installer Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Victoria + Albert installation page targeting Windsor. Subject and action: a freestanding stone-composite bath positioned against a warm sandstone-clad wall near a sash window, angled slightly towards the room's centre, with a narrow period staircase visible through an open doorway in the background. Setting and work-stage: a bathroom in a Georgian town house, first-fix plumbing complete, sandstone tiling finished on one wall and bare plaster on the opposite wall awaiting tiling. Composition: angled shot from the doorway showing the staircase sliver in the background, bath occupying the centre-left, sash window light falling across the untiled wall. Light and materials: warm low-angle daylight through the sash window, warm honey-toned sandstone with visible natural grain, aged brass waste fitting, varied matte-to-satin sheen across the stone. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/victoria-and-albert-windsor-hero.webp",
+    "heroAlt": "Freestanding Victoria + Albert style bath mid-installation against a sandstone wall in a Windsor Georgian town house bathroom",
+    "inline": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "path": "/installer/laufen-ascot/",
+  "family": "Brand × town",
+  "brand": "laufen",
+  "town": "ascot",
+  "slug": "laufen-ascot",
+  "seo": {
+    "title": "Laufen Bathroom Installation in Ascot | SaphirKeramik Fit-Only | Install My Bathroom",
+    "description": "We fit Laufen sanitaryware across Ascot's large detached and executive-style homes — SaphirKeramik basins and pans installed fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/laufen-ascot/"
+  },
+  "h1": "Laufen bathroom installation in Ascot",
+  "hero": {
+    "intro": "Ascot's housing stock runs from large detached Victorian and Edwardian houses through to the executive-style builds that have gone up on the roads towards Sunningdale and Windsor, and nearly all of it shares one thing: generous plot sizes that give us far more freedom over layout than a smaller or terraced property would allow. That matters for a Laufen bathroom in a particular way, because the brand's SaphirKeramik basins and pans are thinner and sharper-edged than standard vitreous china, and the extra flexibility a big Ascot plot gives us over waste runs and access routes is exactly what lets us plan a delivery and handling sequence that keeps those pieces away from the knocks a tighter site would risk. We install Laufen sanitaryware fit-only across Ascot — you choose and supply the pieces, we handle the strip-out, first fix, tiling and plumbing that gets them fitted properly, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "What Laufen makes, and what we install",
+      "body": "Laufen is a Swiss sanitaryware manufacturer, and the material that sets its ranges apart is SaphirKeramik — a ceramic composite that lets Laufen produce basins and WC pans with noticeably finer rims and sharper geometry than standard vitreous china allows. In practice that means the washbasins, countertop basins, wall-hung pans and cloakroom basins we install from Laufen's ranges in Ascot look and feel markedly different to a conventional ceramic suite: the rim profiles are slimmer, the lines crisper, and the overall silhouette more sculptural. We fit these pieces as part of a full bathroom installation, an en-suite refit, or a standalone cloakroom update, working from whatever you've specified through a showroom or designer rather than supplying the products ourselves."
+    },
+    {
+      "heading": "Installing SaphirKeramik: what changes on site",
+      "body": "SaphirKeramik is a strong material once it's fixed in place, but it's less forgiving of a knock in transit or on site than a heavier, more conventional basin — the thinness that gives it its sharp rim profile also means handling and sequencing get more attention from us than they would with a standard ceramic range. On a Laufen job we plan exactly when each piece arrives on site, how it's stored between delivery and fitting, and in what order the room goes together so a fragile basin or pan isn't left exposed to knocks from other trades still working around it. None of that changes the plumbing or structural fixing itself, which follows the same wall-hung cistern frame or countertop support principles as any other brand — it changes the discipline around the final handling and installation stage."
+    },
+    {
+      "heading": "Fitting Laufen into an Ascot property",
+      "body": "A generous Ascot plot — whether it's a Victorian villa, an inter-war family home or a more recent executive-style build — generally gives us more room to plan a sensible delivery and storage sequence than a smaller, more constrained site would. Relocating a waste run or widening a doorway for level access rarely runs into the structural limits a terraced house would present, which also means we can usually keep a fragile Laufen piece in its packaging, in a safe part of the property, right up until the point it's needed, rather than having it sat exposed in a cramped hallway waiting for its turn. We confirm the exact handling and fitting sequence for your specific property at survey, not on the day the pieces arrive."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Ascot, which means you source your Laufen sanitaryware and brassware through a showroom, designer or retailer, and we handle the strip-out, first fix, tiling, plumbing, fitting and snagging that turns it into a finished bathroom. Installations start from £3,500, and every project begins with a fixed-price £125 survey so the quote reflects your actual property rather than a generic estimate. If you're specifying Laufen sanitaryware for a bathroom, en-suite or cloakroom in Ascot, get in touch to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What makes Laufen sanitaryware different to fit?",
+      "a": "Laufen's SaphirKeramik material produces basins and WC pans with thinner rims and sharper geometry than standard vitreous china. The pieces are strong once fixed, but less forgiving of a knock in transit or on site, so we give handling and sequencing more attention than with a standard ceramic range."
+    },
+    {
+      "q": "Do you supply Laufen products, or just install them?",
+      "a": "We fit only. You source your Laufen sanitaryware and brassware through a showroom, designer or retailer, and we handle the strip-out, first fix, plumbing, tiling and fitting."
+    },
+    {
+      "q": "Does Ascot's larger housing stock make a Laufen installation easier?",
+      "a": "It generally gives us more flexibility over layout, waste runs and storage space on site, which helps us plan a safer handling sequence for fragile SaphirKeramik pieces. It doesn't change the fixing or plumbing itself, which we confirm at survey regardless of property size."
+    },
+    {
+      "q": "How much does a Laufen bathroom installation in Ascot cost?",
+      "a": "Fit-only installation starts from £3,500. Every project begins with a fixed-price £125 survey so the quote reflects your specific property and the Laufen pieces you've specified."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/laufen/", "anchor": "More on Laufen bathrooms we fit" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Bathroom brands we fit in Ascot" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet & concealed cistern installation" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "ascot" },
+    { "file": "brands.json", "id": "laufen" }
+  ],
+  "primaryKeyword": "Laufen bathroom installation Ascot",
+  "secondaryKeywords": [
+    "Laufen fitter Ascot",
+    "SaphirKeramik installation Ascot",
+    "Laufen sanitaryware Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Laufen x Ascot installer page, implying the brand's SaphirKeramik basin geometry through a close fixture detail rather than a full room shot. Subject and action: a close three-quarter shot of a slim-rimmed countertop washbasin with sharply chamfered edges, freshly fitted onto a floating vanity shelf, a single thin streak of water drying near the drain from a just-completed test fill. Setting and work-stage: a nearly finished ensuite in a large Ascot executive-style house, daytime, mid-afternoon light angling low through an unseen window. Composition: tight three-quarter angle at counter height, the basin's sharp rim edge filling the foreground in crisp focus, a honed stone vanity top and the soft-focus edge of a brushed-bronze tap visible behind it. Light and materials: honed travertine vanity top, brushed bronze tap body, low-angle directional daylight raking across the basin's chamfered rim to throw a defined edge-shadow, faint realistic water spotting near the plug. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold wash across the frame, no plants, florals or candles as props, no water shown actively running, varied believable sheen on the stone with minor real wear rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/laufen-ascot-hero.webp",
+    "heroAlt": "Close-up of a slim-rimmed Laufen-style countertop basin with a sharply chamfered edge on a honed travertine vanity top in a nearly finished Ascot ensuite, low afternoon daylight.",
+    "inline": []
+  }
+}

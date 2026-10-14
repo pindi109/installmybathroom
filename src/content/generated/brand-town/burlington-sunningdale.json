@@ -1,0 +1,121 @@
+{
+  "path": "/installer/burlington-sunningdale/",
+  "family": "Brand × town",
+  "brand": "burlington",
+  "town": "sunningdale",
+  "slug": "burlington-sunningdale",
+  "seo": {
+    "title": "Burlington Bathroom Installation in Sunningdale | Roll-Top Baths & More",
+    "description": "Fit-only Burlington installation in Sunningdale, including freestanding roll-top baths, pedestal basins and high-level WCs, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/burlington-sunningdale/"
+  },
+  "h1": "Burlington bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale's large detached properties — a mix of Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, many on private or gated roads around the golf courses the area is known for — tend to have the kind of generous plot that makes fitting a Burlington roll-top bath straightforward rather than a compromise. Moving a waste run three feet to get a freestanding bath sitting correctly in the room is rarely constrained by a neighbouring structure here, and that flexibility extends to the rest of Burlington's range too: pedestal and wall-hung basins, close-coupled and high-level WCs, and period-style brassware. We fit Burlington bathrooms across Sunningdale on a fit-only basis, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Burlington's roll-top bath, and the plot flexibility Sunningdale offers",
+      "body": "A Burlington roll-top bath only reads as freestanding if there's genuine space around it — clearance on all sides, a waste run positioned so the bath sits where it should rather than where the existing pipework allows. Sunningdale's generous plots generally give us that freedom: moving a waste run three feet to accommodate a freestanding bath is rarely a problem we'd run into the structural limits of a terraced property on. The same applies to the rest of the range — a pedestal basin or a high-level WC both need the right proportions around them to look period-correct."
+    },
+    {
+      "heading": "The rest of the Burlington range we fit",
+      "body": "Beyond the roll-top bath, we regularly fit Burlington's close-coupled and high-level WCs, pedestal and wall-hung basins, and period-style brassware across Sunningdale. Each piece is built around a classic form with a modern fixing standard underneath — a high-level WC's exposed flush pipe needs a correctly positioned cistern bracket behind the wall, and a wall-hung basin needs its hidden support confirmed before the wall closes up. We go through that detail at survey stage for every Burlington piece in the specification."
+    },
+    {
+      "heading": "Fit-only installation in Sunningdale",
+      "body": "We don't supply Burlington products — you buy the range through a showroom, retailer or Burlington's own stockists, and we handle the strip-out, first fix, plumbing, tiling and installation from £3,500, following a £125 survey. A good number of the properties we work on around Sunningdale sit on private or gated roads, and we build that into the programme at survey stage so access and delivery don't hold up the fit."
+    },
+    {
+      "heading": "Repairs to Burlington fittings in Sunningdale",
+      "body": "A roll-top bath's waste fitting, a high-level WC's flush pipe, or a wall-hung basin's bracket can all develop a fault over time, and that's a repair rather than a full reinstallation in most cases. We carry out repairs to Burlington fittings across Sunningdale from £200, with emergency call-outs from a £500 minimum where it needs same-day attention. Standalone regrouting-only visits aren't something we take on."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you fit a Burlington freestanding bath in a Sunningdale property?",
+      "a": "Yes — Sunningdale's generous plots generally give us the flexibility to move a waste run and position the bath correctly, which is often harder to do on a smaller or terraced property."
+    },
+    {
+      "q": "Do you need to come and survey the property before quoting?",
+      "a": "Yes, a £125 survey, where we confirm the fixing detail for whichever Burlington pieces you've specified and plan access if the property is on a private or gated road."
+    },
+    {
+      "q": "Do you supply the Burlington products, or do I buy them separately?",
+      "a": "We fit only — you choose and buy Burlington sanitaryware and brassware through a showroom or retailer, and we handle installation from £3,500."
+    },
+    {
+      "q": "What Burlington products do you fit most often in Sunningdale?",
+      "a": "Roll-top baths given the plot sizes here, along with pedestal and wall-hung basins, close-coupled and high-level WCs, and period-style brassware."
+    },
+    {
+      "q": "Can you repair a Burlington roll-top bath's waste fitting?",
+      "a": "Yes — that's the kind of fault we repair from £200, rather than needing to replace the bath. Emergency call-outs start from a £500 minimum."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/burlington/",
+      "anchor": "The full Burlington range"
+    },
+    {
+      "href": "/areas/sunningdale/",
+      "anchor": "Bathroom fitting in Sunningdale"
+    },
+    {
+      "href": "/areas-brands/sunningdale/",
+      "anchor": "Bathroom brands we fit in Sunningdale"
+    },
+    {
+      "href": "/services/cloakroom-and-wc-installation/",
+      "anchor": "Cloakroom and WC installation"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing and first fix"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "sunningdale"
+    },
+    {
+      "file": "brands.json",
+      "id": "burlington"
+    },
+    {
+      "file": "repairs.json",
+      "id": "concealed-cistern-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "wall-hung-toilet-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "leaking-tap-repair"
+    },
+    {
+      "file": "repairs.json",
+      "id": "bathroom-waste-and-drain-repair"
+    }
+  ],
+  "primaryKeyword": "Burlington bathroom installer Sunningdale",
+  "secondaryKeywords": [
+    "Burlington roll-top bath installer Sunningdale",
+    "fit-only Burlington installation Sunningdale",
+    "Burlington high-level WC fitting"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Burlington x Sunningdale installer page, implying the brand's high-level WC and exposed flush pipe through a close fixture detail shot. Subject and action: a straight-on close shot of a high-level WC cistern mounted above head height with its exposed chrome flush pipe running down to a close-coupled-style pan below, static, dry. Setting and work-stage: a finished WC/cloakroom in a large Sunningdale detached house, midday, bright direct daylight from an unseen side window. Composition: vertical-emphasis framing with the cistern in the upper third, the flush pipe running centrally down the frame, the pan's upper rim just entering the lower edge, dark basalt anthracite stone wall tile filling the background. Light and materials: white vitreous china cistern and pan, polished chrome flush pipe and lever, dark basalt anthracite stone tile, bright midday daylight creating a crisp highlight along the chrome pipe against the dark stone. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical fixtures, no uniform colour wash, no plants, florals or candles as props, no water shown running or flushing, varied believable sheen on the stone tile rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/burlington-sunningdale-hero.webp",
+    "heroAlt": "Straight-on close shot of a high-level WC cistern and exposed chrome flush pipe against dark basalt stone tile, bright midday light, Sunningdale.",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "aspectRatio": "16:9",
+    "inline": []
+  }
+}

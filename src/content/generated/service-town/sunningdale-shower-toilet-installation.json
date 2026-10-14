@@ -1,0 +1,76 @@
+{
+  "path": "/areas/sunningdale/shower-toilet-installation/",
+  "family": "Service x town",
+  "service": "shower-toilet-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Shower Toilet Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only shower toilet installation in Sunningdale. We route a dedicated power and water supply to the pan, using the layout flexibility of larger plots.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/shower-toilet-installation/"
+  },
+  "h1": "Shower toilet installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties that surround them give us room to work with that a smaller house doesn't. Fitting an integrated shower-toilet unit means routing a dedicated power supply to the pan as well as its own water feed, and on the private and gated roads common here, that usually means more flexibility in where the pan itself can sit."
+  },
+  "sections": [
+    {
+      "heading": "Power and water: the two supplies a standard toilet never needed",
+      "body": "A shower-toilet unit — heated seat, wash function, often a dryer — behaves like a small electrical appliance bolted to the sanitaryware, which means it needs a fused connection unit sited correctly outside the room's zoned splash areas, fed by cable that's planned in at first fix rather than chased in afterwards. The water side needs its own isolated feed off the mains cold supply, distinct from the waste connection a conventional pan uses. Both have to be resolved before tiling starts, which is why we treat a shower-toilet installation as its own scope of work rather than a like-for-like toilet swap."
+    },
+    {
+      "heading": "What Sunningdale's housing stock gives us to work with",
+      "body": "The mix here is of Victorian and Edwardian houses, inter-war family homes, and more recent executive-style builds, many on private or gated roads. Plot sizes tend to be generous, which usually means more flexibility on bathroom layout than a terraced or semi-detached property allows: moving a waste run three feet to accommodate a freestanding bath, for example, is rarely constrained by neighbouring structure. The same generosity applies to running a new electrical supply for a shower-toilet pan — there's typically more loft or stud-wall space to route cable discreetly than a tightly built terrace would offer."
+    },
+    {
+      "heading": "Planning the installation around gated and private roads",
+      "body": "Where a property sits on a private or gated road, we factor access timing into the survey visit so the installation itself isn't held up on day one. Beyond access, the practical considerations are the same as any shower-toilet job: confirming the exact unit's power draw and water pressure requirements, checking the existing circuits and supply pipework in the room, and agreeing routes before strip-out begins. We're fit-only — you source the unit, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging, from £3,500."
+    },
+    {
+      "heading": "How the work runs",
+      "body": "A £125 paid survey comes first, where we confirm the unit model and plan the power and water routes. Strip-out, first-fix plumbing and electrics, tiling, and fitting of the shower-toilet unit follow, finishing with testing and snagging. Call or WhatsApp 07399 651836 to arrange a visit."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a gated road affect how you plan the installation?",
+      "a": "We factor access arrangements into the survey visit so timing is agreed in advance, but the technical scope of the shower-toilet installation itself — power and water supply to the pan — is the same regardless of the road."
+    },
+    {
+      "q": "Can you move the pan to a different wall for a freestanding bath layout?",
+      "a": "Often, yes. Generous plot sizes around Sunningdale usually give more flexibility to reposition a waste run or a water supply than a terraced or semi-detached property would allow, which can free up space for a freestanding bath elsewhere in the room."
+    },
+    {
+      "q": "What's included in the fit-only price?",
+      "a": "Strip-out, first-fix plumbing and electrics, tiling, installation and connection of the shower-toilet unit, and snagging, from £3,500. You purchase the unit, brassware, tiles and furniture separately."
+    },
+    {
+      "q": "Why do I need a survey before a quote?",
+      "a": "The power and water requirements vary by shower-toilet model, and the existing supplies in your bathroom determine how much new first-fix work is needed. The £125 survey confirms both before we finalise a price."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/shower-toilet-installation/", "anchor": "Shower toilet installation service" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation in Sunningdale" },
+    { "href": "/guides/toilet-installation-cost-uk/", "anchor": "Toilet installation cost guide" },
+    { "href": "/areas/ascot/shower-toilet-installation/", "anchor": "Shower toilet installation in Ascot" },
+    { "href": "/areas/virginia-water/shower-toilet-installation/", "anchor": "Shower toilet installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "shower toilet installation Sunningdale",
+  "secondaryKeywords": [
+    "integrated shower toilet fitter Sunningdale",
+    "washlet style toilet installer Sunningdale",
+    "shower toilet pan power supply Sunningdale"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Sunningdale shower-toilet-installation town page on a fit-only bathroom installer's website. Subject and action: a finished wall-hung WC fitted with an integrated shower-toilet seat unit on a concealed frame, room otherwise free of other fixtures. Setting and work-stage: a completed bathroom in a large detached house near a golf course, dark bookmatched marble-effect tile forming a feature panel behind the pan. Composition: high angle looking slightly downward onto the pan, centred composition with visible floor tiling in the foreground. Light and materials: cool blue-grey overcast light, polished chrome pipework and flush plate, dark marble-effect tile with a semi-polished, vein-matched finish. Constraints: no people, no text, no logos, no brand names visible on any fixture, no LED strip lighting under shelves or mirrors, no twin symmetrical fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/sunningdale-shower-toilet-installation-hero.webp",
+    "heroAlt": "Wall-hung shower toilet unit in a Sunningdale bathroom with dark bookmatched marble-effect tiling and polished chrome fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

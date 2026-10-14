@@ -1,0 +1,81 @@
+{
+  "path": "/installer/grohe-windsor/",
+  "family": "Brand × town",
+  "brand": "grohe",
+  "town": "windsor",
+  "slug": "grohe-windsor",
+  "seo": {
+    "title": "GROHE Bathroom Installer in Windsor | Fit-Only | Install My Bathroom",
+    "description": "GROHE brassware, cistern frame and digital shower installation in Windsor, fit-only from £3,500. We plan access for both town-centre and newer Windsor properties at survey.",
+    "canonical": "https://installmybathroom.co.uk/installer/grohe-windsor/"
+  },
+  "h1": "GROHE bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two character types, and which one a project falls into changes how we sequence a GROHE installation before it changes anything about the products themselves. Close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases constrain how much material can be moved through the building at once, which means a Rapid SL cistern frame's panel and a digital shower's control components often arrive and get fitted in planned stages rather than all on one day. Further out, towards the edges of town, inter-war and post-war family homes and newer residential developments on redeveloped sites rarely present the same constraint, and a GROHE installation there runs on a more conventional single-visit sequence. Either way, we fit the same range — thermostatic valves and mixer taps, Rapid SL cistern frames, and digital shower or smart water products — fit-only, from £3,500, with access and sequencing confirmed before fitting starts, not worked out on the stairs."
+  },
+  "sections": [
+    {
+      "heading": "What we install from GROHE in Windsor",
+      "body": "We fit GROHE's full range across Windsor: thermostatic shower valves and mixer taps on mid-range refits, Rapid SL cistern frames behind wall-hung WCs where a concealed cistern and floating pan have been specified, and digital shower or smart water products on more fully specified projects. The product mix doesn't change much between the two housing types, but the installation detail and the order in which materials arrive on site often do, which is confirmed at survey before anything is ordered."
+    },
+    {
+      "heading": "Installation considerations specific to GROHE",
+      "body": "A Rapid SL cistern frame's structural fixing into the wall or floor has to be correct before any boarding or tiling closes over it, because the pan and cistern's full weight sits on the frame rather than the tiles. A digital shower's control unit needs its wiring route and water supply confirmed at first fix, since relocating it later means cutting into finished tiling. A thermostatic valve needs its concealed body set to the correct depth for the final tile thickness. None of that changes between a Georgian town house and a newer Windsor development — what changes is how and when the components for each get moved into the room."
+    },
+    {
+      "heading": "How Windsor's housing stock affects a typical GROHE installation",
+      "body": "Close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots, with limited rear access and period staircases, genuinely constrain how much can be moved through the building at once. For a GROHE installation, that generally means a Rapid SL frame's components and a digital shower's control unit and wiring materials are delivered and staged in sequence rather than all arriving on day one, so the staircase and corridors aren't blocked and nothing gets damaged in transit through a tight period stairwell. Further out towards the edges of Windsor, inter-war and post-war family homes and newer developments on redeveloped sites typically offer more straightforward access, and a GROHE installation there runs on the same single-visit delivery and fitting sequence we'd use on most projects. We confirm which situation applies to your property at survey, and plan deliveries accordingly rather than assuming either way."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We install GROHE products across Windsor on a fit-only basis — you source the sanitaryware, brassware, tiles and furniture, and we handle the strip-out, first fix, tiling, plumbing and snagging. Installations start from £3,500, beginning with a fixed-price £125 survey, deducted from your project cost if you go ahead, where we confirm the GROHE specification and, where relevant, the staged access plan your property needs."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a period town house near Windsor Castle limit what GROHE products I can have fitted?",
+      "a": "No, but it can change how materials get into the room. Narrow plots and period staircases mean we often stage deliveries and components in sequence rather than bringing everything in on one day, confirmed at survey."
+    },
+    {
+      "q": "Is a GROHE installation quicker in a newer Windsor property?",
+      "a": "Access is often more straightforward in inter-war, post-war or newer developments towards the edges of town, which can simplify delivery and sequencing, though the fitting detail for each GROHE product is the same wherever it's installed."
+    },
+    {
+      "q": "What's checked at survey before a GROHE Rapid SL frame is fitted in Windsor?",
+      "a": "We check the wall or floor's structural fixing points for the frame, and — particularly in a period town-centre property — confirm access routes and staircases so delivery and fitting can be sequenced without damage or delay."
+    },
+    {
+      "q": "Do you supply GROHE products, or just install them?",
+      "a": "We fit only. You source your GROHE brassware, cistern frame or digital shower products through a showroom or designer, and we handle the strip-out, first fix, tiling, plumbing and snagging from £3,500."
+    },
+    {
+      "q": "How do I book a GROHE installation in Windsor?",
+      "a": "Start with the fixed-price £125 survey. We'll measure the room, confirm what's specified from GROHE's range, check access through your property, and give you a firm quote before any work is booked."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/grohe/", "anchor": "All the GROHE products we fit" },
+    { "href": "/areas/windsor/", "anchor": "Bathroom fitting in Windsor" },
+    { "href": "/areas-brands/windsor/", "anchor": "Bathroom brands we fit in Windsor" },
+    { "href": "/services/wall-hung-toilet-and-concealed-cistern-installation/", "anchor": "Wall-hung toilet & concealed cistern installation" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing & first fix" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "grohe" },
+    { "file": "towns.json", "id": "windsor" }
+  ],
+  "primaryKeyword": "GROHE bathroom installer Windsor",
+  "secondaryKeywords": [
+    "GROHE installation Windsor",
+    "GROHE fitter Windsor town centre",
+    "GROHE Rapid SL cistern Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the GROHE × Windsor installer page, implying GROHE's brassware range through a staged-delivery product shot distinct from the other six hero images in this batch. Subject and action: an unbranded mixer tap body and a separate thermostatic valve body, still in protective foam sleeves, resting on a narrow half-landing step beside a period timber banister, positioned mid-way through being carried up in stages. Setting and work-stage: a narrow period staircase in a Georgian town house near Windsor's historic centre, stripped runner carpet on the stair treads, bare plaster wall alongside, mid-morning light. Composition: tight vertical-leaning composition looking up the stairwell, the foam-wrapped valve bodies in sharp foreground on the step, the banister spindles and a turn in the staircase receding into soft focus above. Light and materials: aged timber banister with worn varnish, bare lime-plaster wall with visible patch repairs, directional mid-morning daylight falling from an unseen stair window above, crossing the frame at a steep angle and leaving the lower stair in shadow. Constraints: no people, no text, no logos, no brand names visible on fixtures or packaging, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold or amber colour wash, no plants, florals or candles as props, no water shown running, varied believable sheen and wear across the aged timber and patched plaster.",
+    "heroOutputPath": "heroes/brand-town/grohe-windsor-hero.webp",
+    "heroAlt": "Foam-wrapped unbranded GROHE-style valve and mixer tap bodies resting on a narrow period staircase mid-delivery in a Georgian Windsor town house.",
+    "inline": []
+  }
+}

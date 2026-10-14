@@ -1,0 +1,72 @@
+{
+  "path": "/areas/sunningdale/steam-shower-and-steam-room-installation/",
+  "family": "Service x town",
+  "service": "steam-shower-and-steam-room-installation",
+  "town": "sunningdale",
+  "seo": {
+    "title": "Steam Shower & Steam Room Installation in Sunningdale | Install My Bathroom",
+    "description": "Fit-only steam shower and steam room installation in Sunningdale. Sealed enclosures, generator siting, ventilation and electrics handled for you. From £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/sunningdale/steam-shower-and-steam-room-installation/"
+  },
+  "h1": "Steam shower & steam room installation in Sunningdale",
+  "hero": {
+    "intro": "Sunningdale is best known for the golf courses that share its name, and the large detached properties around them — a mix of Victorian and Edwardian houses, inter-war family homes and more recent executive-style builds, many on private or gated roads. Plot sizes here tend to be generous, which matters for a steam shower or steam room: a sealed enclosure, a dedicated generator and dedicated ventilation need more planning around layout than a standard shower, and a larger plot usually gives that planning somewhere to go."
+  },
+  "sections": [
+    {
+      "heading": "Why a steam enclosure needs a different build to a shower",
+      "body": "A steam shower or steam room holds saturated steam inside a sealed cubicle rather than simply shedding water the way a standard shower does. That means every panel junction, the ceiling and the door all need a close to airtight seal, full tanking behind every internal surface including the ceiling, and usually a slightly sloped ceiling so condensation tracks down the walls instead of dripping. The generator producing the steam sits outside the enclosure, within a defined pipe-run distance, connected to mains electrics, a water feed and a drain, with its own low-voltage control panel mounted near the door. This all has to be designed into the first fix — it isn't a feature you retrofit into a finished shower."
+    },
+    {
+      "heading": "What generous Sunningdale plots mean for layout and access",
+      "body": "On the larger detached properties typical of Sunningdale, moving a waste run a few feet to position a steam enclosure where it gets natural light, or to shorten the generator's pipe run, is rarely constrained by neighbouring structure the way it would be in a terraced or semi-detached house. Many properties here sit on private or gated roads, which is worth flagging early: deliveries of the generator, enclosure glass and tiles, and our own access for survey and installation visits, sometimes need coordinating with estate management or a gate code in advance, so we build that into the programme rather than discovering it on the day."
+    },
+    {
+      "heading": "Ventilation and electrics for a steam installation",
+      "body": "A steam enclosure produces far more sustained humidity than a normal shower cycle, so it needs a dedicated extract point, usually near the top of the enclosure, ducted out to an external wall or roof void rather than relying on the bathroom's general extractor fan. The generator's electrical supply runs on its own circuit, separate from lighting and shaver-point wiring, sized to the unit and certified under Part P once installed. Sequencing matters here — ventilation ducting and the generator's electrical and plumbing supply all have to go in during first fix, before tanking and tiling close the enclosure up."
+    },
+    {
+      "heading": "How the installation is run",
+      "body": "We begin with a paid survey to confirm generator siting, pipe-run length, extraction routing, access arrangements for a gated or private road, and any structural work the enclosure needs, and price the job from there. Strip-out and first fix follow — waste relocation, the generator's water, drain and electrical supply, and extraction ducting, all in before anything is covered up. Full tanking covers every surface inside the enclosure, then tiling, with the generator and controls plumbed, wired and commissioned last, including a full steam cycle test and seal check before handover. You source the generator, controls, enclosure glass and tiles; we handle strip-out through to commissioning, from £3,500. Call or WhatsApp 07399 651836 to book a survey."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "My property is on a private road — does that affect scheduling a steam installation?",
+      "a": "It can, mainly around access for deliveries and our installation visits. If there's a gate code, intercom or managing agent involved, let us know at survey stage so we can build it into the programme rather than losing time on the day."
+    },
+    {
+      "q": "Can the steam enclosure be positioned to use natural light from a window?",
+      "a": "Often yes on the larger Sunningdale plots, where moving a waste run to reposition the enclosure rarely hits a structural wall. We assess the practical options at survey, including how that affects the generator's pipe run."
+    },
+    {
+      "q": "Do you install steam rooms in period Victorian or Edwardian houses?",
+      "a": "Yes, provided the enclosure can be fully sealed and tanked and there's a workable location for the generator within pipe-run distance. Period houses sometimes need more care around existing floor joists and ceiling heights, which we assess at survey."
+    },
+    {
+      "q": "What's the difference between a steam shower and a steam room?",
+      "a": "A steam shower is typically a glass enclosure similar in footprint to a standard shower, fitted with a generator and sealed for steam use. A steam room is usually a larger, fully tiled space, sometimes with a bench, designed purely for steam bathing rather than also functioning as a everyday shower."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/steam-shower-and-steam-room-installation/", "anchor": "Steam shower and steam room installation service" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom installation in Sunningdale" },
+    { "href": "/bathroom-cost/sunningdale/", "anchor": "Bathroom installation costs in Sunningdale" },
+    { "href": "/areas/ascot/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Ascot" },
+    { "href": "/areas/virginia-water/steam-shower-and-steam-room-installation/", "anchor": "Steam shower installation in Virginia Water" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "sunningdale" } ],
+  "primaryKeyword": "steam shower installation Sunningdale",
+  "secondaryKeywords": [ "steam room installation Sunningdale", "steam shower fitter Sunningdale", "bathroom steam enclosure Sunningdale" ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a steam shower and steam room installation page targeting Sunningdale homeowners. Subject and action: a finished, fully sealed steam shower enclosure, dry-styled and unoccupied, door closed with a visible seal along its edge. Setting and work-stage: a newly completed bathroom in a large detached house near private golf-course grounds, generator control panel mounted on the wall beside the enclosure. Composition: close-cropped shot focused tightly on the enclosure corner and door seal, cutting off the wider room. Light and materials: charcoal micro-cement-effect walls inside the enclosure, a brushed nickel frame and door handle, soft diffused light with no single strong source, muted believable sheen rather than glossy reflection. Constraints: no people, no text, no logos, no visible brand names on any fixture, no LED strip lighting under shelves or niches, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles, no water or steam shown actively running.",
+    "heroOutputPath": "heroes/service-town/sunningdale-steam-shower-and-steam-room-installation-hero.webp",
+    "heroAlt": "Finished sealed steam shower enclosure with brushed nickel frame and charcoal micro-cement-effect walls in a Sunningdale bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

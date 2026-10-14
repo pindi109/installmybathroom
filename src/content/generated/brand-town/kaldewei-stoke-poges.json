@@ -1,0 +1,110 @@
+{
+  "path": "/installer/kaldewei-stoke-poges/",
+  "family": "Brand x town",
+  "brand": "kaldewei",
+  "town": "stoke-poges",
+  "slug": "kaldewei-stoke-poges",
+  "seo": {
+    "title": "Kaldewei Bathroom Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only Kaldewei steel bath and shower tray installation in Stoke Poges. Survey £125, installs from £3,500. 30 years' experience, high-end homes.",
+    "canonical": "https://installmybathroom.co.uk/installer/kaldewei-stoke-poges/"
+  },
+  "h1": "Kaldewei bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, best known for Stoke Park's golf and country club, with properties ranging from older period detached homes to more recent executive-style builds set well back on sizeable gardens. That extra room to manoeuvre suits Kaldewei's titanium-enamelled steel baths and shower trays well: because the material is pressed rather than cast or moulded, getting an even, accurate bearing across the full base matters more than the flex-control an acrylic bath support needs, and the larger layouts common in Stoke Poges homes give us the space to get that detail right."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Kaldewei",
+      "body": "We fit Kaldewei's range of steel baths and shower trays for clients across Stoke Poges who have already chosen their products. Kaldewei's baths and trays are pressed from titanium-enamelled steel rather than cast or moulded in the way most sanitaryware is made, which gives a different feel underfoot and a harder, glossier enamel surface than acrylic. You buy the bath, shower tray, brassware, tiles and furniture; we handle the strip-out, first-fix plumbing, installation, tiling around the unit, and the final snagging. Because it's fit-only, you keep control of the product budget and the brand, and we focus on getting the installation right."
+    },
+    {
+      "heading": "Installation considerations specific to Kaldewei",
+      "body": "Because a Kaldewei bath or shower tray is a rigid pressed-steel unit, the installation detail is less about preventing flex — as it would be with an acrylic bath on a flexible support frame — and more about making sure the full base is bearing evenly across a true, level surface before the unit goes down. Any high spot or gap under the steel will eventually print through as noise or movement, so we check the subfloor and support frame carefully rather than relying on packers to compensate afterwards. The enamel surface is hard-wearing but chip-sensitive during the build itself, so we protect it properly while first-fix plumbing, tiling and other trades are still working around it, rather than fitting it last and hoping for the best."
+    },
+    {
+      "heading": "Working in Stoke Poges",
+      "body": "The housing stock around Stoke Poges — from older period detached houses to newer executive-style builds, many set well back from the road on sizeable gardens — generally gives us far more room to work with on layout than a smaller or more tightly built property would allow. Relocating a waste run to suit a Kaldewei freestanding bath, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. That flexibility doesn't change the fit-only process, but it does mean more layout options are usually on the table from the first survey."
+    },
+    {
+      "heading": "The fit-only process",
+      "body": "We start with a paid survey at £125, where we assess the room, the existing plumbing and waste runs, access, and anything specific to a Kaldewei installation such as subfloor levelness and support detail. From there we agree the installation plan and price — fit-only installs start from £3,500 depending on scope. Once your Kaldewei bath or shower tray and other products are on site, we carry out the strip-out, first-fix, installation, tiling and plumbing, and finish with a full snagging pass before handover. You stay in control of what you've bought; we're responsible for how it goes in."
+    },
+    {
+      "heading": "Get a quote for your Stoke Poges bathroom",
+      "body": "If you've chosen Kaldewei for a bathroom or en-suite in Stoke Poges and need a fit-only installer, call or WhatsApp us on 07399 651836 to arrange a £125 survey. We'll assess the room, talk through the installation detail specific to a pressed-steel bath or shower tray, and give you a clear price before any work starts."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Kaldewei bath or shower tray, or do I buy it myself?",
+      "a": "We're fit-only, so you buy the Kaldewei product directly — we don't supply sanitaryware, brassware, tiles or furniture. We handle everything involved in getting it installed correctly."
+    },
+    {
+      "q": "Why does a Kaldewei bath need different installation handling to an acrylic one?",
+      "a": "Kaldewei baths and shower trays are pressed from titanium-enamelled steel rather than cast or moulded, so they're rigid rather than flexible. The key detail is an even, accurate bearing across the full base, rather than the flex-control an acrylic support frame is designed for."
+    },
+    {
+      "q": "Can you install a Kaldewei bath in an older Stoke Poges property?",
+      "a": "Yes. Many of the period detached homes around Stoke Poges have the room to adjust layout where needed, and we assess the existing subfloor and waste runs during the survey to make sure the installation detail is right for a steel unit."
+    },
+    {
+      "q": "How much does a Kaldewei fit-only installation cost?",
+      "a": "Installs start from £3,500 depending on scope, following a £125 paid survey where we confirm the detail and give you a firm price."
+    },
+    {
+      "q": "Will the enamel surface get damaged during the rest of the build?",
+      "a": "The enamel is hard and durable once in place, but it is chip-sensitive while other trades are still working around it. We protect it properly through first-fix, tiling and finishing so it reaches handover undamaged."
+    },
+    {
+      "q": "Do you work on repairs as well as new installations?",
+      "a": "We carry out repairs on high-end homes, with a minimum charge of £200 and a £500 minimum for emergency call-outs. We don't offer regrouting as a standalone service."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on Kaldewei bathroom products",
+      "href": "/brands/kaldewei/"
+    },
+    {
+      "anchor": "Bathroom installation across Stoke Poges",
+      "href": "/areas/stoke-poges/"
+    },
+    {
+      "anchor": "Brands we fit in Stoke Poges",
+      "href": "/areas-brands/stoke-poges/"
+    },
+    {
+      "anchor": "Freestanding bath installation",
+      "href": "/services/freestanding-bath-installation/"
+    },
+    {
+      "anchor": "Walk-in shower installation",
+      "href": "/services/walk-in-shower-installation/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "kaldewei"
+    },
+    {
+      "file": "towns.json",
+      "id": "stoke-poges"
+    }
+  ],
+  "primaryKeyword": "Kaldewei installation Stoke Poges",
+  "secondaryKeywords": [
+    "Kaldewei bath installer Stoke Poges",
+    "Kaldewei shower tray fitting Stoke Poges",
+    "fit-only Kaldewei bathroom Stoke Poges"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kaldewei installation page emphasising precise steel bath support detail. Subject and action: close-up of a Kaldewei titanium-enamelled steel bath's base edge being lowered onto a level mortar bed, support points visible beneath the rim. Setting and work-stage: mid-installation in a large period-house bathroom extension, first-fix pipework capped nearby, Calacatta marble slab tiling partially fixed on one wall. Composition: tight macro-style angle along the bath's rim and foot, shallow depth of field drawing focus to the bearing surface. Light and materials: soft diffused daylight from a large sash window, brushed brass waste and overflow fittings catching a gentle highlight, Calacatta marble veining visible but not dominant. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kaldewei-stoke-poges-hero.webp",
+    "heroAlt": "Close-up of a Kaldewei steel bath edge being levelled during installation in a Stoke Poges bathroom with Calacatta marble tiling",
+    "inline": []
+  }
+}

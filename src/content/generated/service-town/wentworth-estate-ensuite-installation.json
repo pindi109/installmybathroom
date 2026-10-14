@@ -1,0 +1,72 @@
+{
+  "path": "/areas/wentworth-estate/ensuite-installation/",
+  "family": "Service x town",
+  "service": "ensuite-installation",
+  "town": "wentworth-estate",
+  "seo": {
+    "title": "En-Suite Installation Wentworth Estate | Install My Bathroom",
+    "description": "Fit-only en-suite installation for homeowners on Wentworth Estate, Virginia Water. Stud wall, tanking, plumbing and tiling, from £3,500. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/wentworth-estate/ensuite-installation/"
+  },
+  "h1": "En-suite installation on Wentworth Estate",
+  "hero": {
+    "intro": "Wentworth Estate is the private, gated estate in Virginia Water, Surrey, built around Wentworth Club and its golf courses and best known as home of the BMW PGA Championship. We fit luxury, fit-only en-suites for homeowners here, roughly 15 to 20 minutes by road from our Bracknell base. You source the sanitaryware, brassware, tiles and furniture; we handle the stud wall, first-fix, tanking, tiling and plumbing, from £3,500 — and because the estate is gated, we coordinate access with estate security and any managing agent in advance so the programme runs without delay at the barrier."
+  },
+  "sections": [
+    {
+      "heading": "Working inside a gated estate changes the logistics, not the standard",
+      "body": "An en-suite installation on Wentworth Estate is, underneath the access arrangements, the same job as anywhere else — a stud wall, a tanked wet area, first-fix plumbing, tiling, then second fix and snagging. What's different is everything around that work. Estate security typically requires vehicles and visitors to be registered in advance, and a managing agent may have requirements around working hours, parking for vans, or noisy trades like tiling cutting. None of that is a problem for us, but it does mean the programme needs to be planned around the gate rather than just around the job. We confirm the access arrangements for the full installation — strip-out, deliveries of materials, skip collection, and every visit through second fix — at the same time we book the survey, so there's no day where a van gets turned away because nobody told the gatehouse it was coming."
+    },
+    {
+      "heading": "Fit-only, and what that means in practice here",
+      "body": "Because we're fit-only, the sanitaryware, brassware, tiles and bathroom furniture are yours to choose — many homeowners on the estate are working with an interior designer, architect, or their own very specific brief, and our job is to execute that brief to a high standard rather than sell you a package. That split works well for an en-suite specifically, because en-suites are usually compact, high-spec spaces where the choice of fittings does most of the visual work — a well-chosen freestanding bath, a feature tap, or a particular stone-effect tile can define the room, and you're free to source those pieces from wherever gives you the result you want. Our side of the job is the part that doesn't show once it's finished but matters most: a stud wall built square and sound, a fully tanked wet area under every tile, correct falls to the drain, and ducted extraction sized properly for the room, all fitted to the standard the rest of the house warrants."
+    },
+    {
+      "heading": "How the project runs",
+      "body": "The £125 paid survey comes first, where we assess the existing soil stack and plumbing routes, confirm the stud wall position, and talk through the estate's access requirements with you so we can plan the programme around them from day one. From there we build the stud wall and complete first-fix plumbing and electrics, tank the wet area fully, tile, then move to second fix — fitting the shower enclosure or bath, basin, WC, taps and heated towel rail — followed by a full snagging walkthrough. Most en-suite installations of this kind run 8 to 12 working days depending on scope and how smoothly estate access runs alongside the build. We keep you informed at each stage, and because access through the gate has to be arranged in advance, we'll always confirm van and skip movements with you before they're needed rather than on the day."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do you handle access through the Wentworth Estate gates?",
+      "a": "We register vehicle and visitor access with estate security and liaise with any managing agent in advance of each stage of the work — survey, deliveries, strip-out, and the trades visits through to snagging — so the programme isn't held up at the barrier on the day."
+    },
+    {
+      "q": "Does working on a gated estate add to the cost of the installation?",
+      "a": "Installs start from £3,500 and the final price is driven by the scope of the fit-out — stud wall, first-fix plumbing, tiling and finishing — rather than the estate's access arrangements. Coordinating gate and parking access is part of how we plan the programme, not a separate charge."
+    },
+    {
+      "q": "Can you work to a brief from our interior designer or architect?",
+      "a": "Yes. As a fit-only installer we're used to executing a brief set by someone else — whether that's a designer's spec sheet or your own plan — and our focus is on delivering the stud wall, tanking, plumbing and tiling to match it precisely."
+    },
+    {
+      "q": "How long does an en-suite installation take on Wentworth Estate?",
+      "a": "Most projects run 8 to 12 working days from first-fix to final snagging, though the exact timeline depends on the scope of the work and how access through the estate is scheduled alongside it."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/wentworth-estate/", "anchor": "Bathroom installation on Wentworth Estate" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost guide for UK homeowners" },
+    { "href": "/areas/ascot/ensuite-installation/", "anchor": "En-suite installation in nearby Ascot" },
+    { "href": "/areas/gerrards-cross/ensuite-installation/", "anchor": "En-suite installation in nearby Gerrards Cross" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "wentworth-estate" } ],
+  "primaryKeyword": "en-suite installation Wentworth Estate",
+  "secondaryKeywords": [
+    "en-suite fitter Wentworth Estate Virginia Water",
+    "luxury en-suite installation gated estate Surrey",
+    "fit-only en-suite Wentworth Club area"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an en-suite installation page serving a luxury gated-estate property on Wentworth Estate. Subject and action: a compact en-suite mid-tiling stage, dark basalt-effect stone tiles being set on the wet wall, a stack of cut tiles and a notched trowel resting on a folded dust sheet. Setting and work-stage: early evening light through a small obscured-glass window, tiling in progress, tanking membrane visible at the untiled edge of the shower recess. Composition: tight, slightly angled framing emphasising the compact footprint typical of an en-suite, shower recess and vanity wall both visible. Light and materials: warm low evening daylight mixed with a single work lamp for contrast, dark basalt stone tiling, aged brass fittings laid out ready for second fix, matte black shower valve. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under shelves or mirrors, no catalog-symmetrical twin fittings, no uniform amber or gold colour wash across the whole frame, no hanging plants or candles, no water shown running, varied believable sheen on the stone rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/wentworth-estate-ensuite-installation-hero.webp",
+    "heroAlt": "En-suite installation mid-tiling with dark basalt stone tiles and aged brass fittings on Wentworth Estate",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

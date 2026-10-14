@@ -1,0 +1,80 @@
+{
+  "path": "/areas/windsor/full-bathroom-installation/",
+  "family": "Service x town",
+  "service": "full-bathroom-installation",
+  "town": "windsor",
+  "seo": {
+    "title": "Full Bathroom Installation in Windsor | Install My Bathroom",
+    "description": "Fit-only full bathroom installation in Windsor from £3,500. Strip-out, tiling, plumbing and electrics. £125 survey. Call 07399 651836.",
+    "canonical": "https://installmybathroom.co.uk/areas/windsor/full-bathroom-installation/"
+  },
+  "h1": "Full bathroom installation in Windsor",
+  "hero": {
+    "intro": "Windsor's housing splits fairly cleanly into two types: close to the Castle and the historic centre, Georgian and Victorian town houses on narrow plots with limited rear access and period staircases; further out, inter-war and post-war family homes and newer developments with more straightforward access. A full bathroom installation means stripping a bathroom back to brick and rebuilding it completely — new pipework, tanking, tiling, electrics and ventilation — finished with the suite you've sourced. Which part of Windsor you're in changes how we plan the logistics of getting materials in and waste out, even though the installation itself follows the same sequence."
+  },
+  "sections": [
+    {
+      "heading": "What a full installation involves",
+      "body": "A full bathroom installation is a complete rebuild, not a repair, a regrout, or a single-fixture swap. We strip the existing suite and tiling out entirely, renew or reposition waste and supply pipework, tank the wet areas, first-fix electrics for lighting and extraction, tile the room, then second-fix and snag the suite you've bought. It's the service for a bathroom that needs a different layout, has failed waterproofing behind old tiles, or needs fixtures the existing pipe runs can't support. Because the room goes back to brick and subfloor, anything hidden behind the old tiling — degraded membrane, ageing pipework, or undersized extraction, common enough in Windsor's older town houses — gets found and properly replaced rather than tiled back over."
+    },
+    {
+      "heading": "Why location within Windsor matters for logistics",
+      "body": "In the Georgian and Victorian town houses near the Castle and historic centre, narrow plots, limited rear access and period staircases constrain how much material can be moved through the building at once — that affects how we sequence deliveries and waste removal on a full installation, where a complete strip-out and a new suite both have to travel through the same tight route. Further out, in Windsor's inter-war, post-war and newer developments, access is typically more straightforward, which usually means materials and skips can move in and out with fewer constraints on timing. We confirm which situation applies to your property at survey stage and plan the programme accordingly."
+    },
+    {
+      "heading": "The installation sequence",
+      "body": "Every full installation starts with a paid £125 survey to confirm pipe routes, joist direction, access constraints and scope before pricing. The job then runs strip-out, first-fix plumbing and electrics, tanking, tiling, second-fix of your chosen suite, and snagging, with electrics and ventilation installed to current Part P and Part F standards. On a town-centre property with a period staircase, we'll plan strip-out waste removal and suite delivery in smaller, sequenced loads rather than assuming everything can move through in one go. That sequencing is confirmed in detail at survey stage, alongside the usual checks on pipe routes and joist direction, so the programme you're given reflects your property's actual access rather than a generic estimate."
+    },
+    {
+      "heading": "Book your survey",
+      "body": "If you're planning a full bathroom installation in Windsor, call or WhatsApp 07399 651836 to arrange the £125 survey — we'll confirm access logistics for your specific property as part of that visit. Full installations start from £3,500."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "We're in a Georgian town house near the Castle — does that make the job harder?",
+      "a": "It changes how we plan logistics rather than what's achievable. Narrow plots, limited rear access and period staircases mean we sequence strip-out waste removal and suite delivery in smaller loads, which we confirm at survey stage."
+    },
+    {
+      "q": "Is a full bathroom installation easier in the newer parts of Windsor?",
+      "a": "Generally access is more straightforward in Windsor's inter-war, post-war and newer developments, which can simplify the logistics of skips and deliveries, but the installation itself — strip-out, pipework, tanking, tiling, electrics and snagging — is the same job regardless of location."
+    },
+    {
+      "q": "How long does a full bathroom installation take in Windsor?",
+      "a": "Most full installations take two to three weeks from strip-out to snagging. Town-centre properties with restricted access for materials can take a little longer to sequence, which we'll factor into the programme at survey stage."
+    },
+    {
+      "q": "What's not included in the installation price?",
+      "a": "Sanitaryware, tiles, brassware and furniture are bought separately — we're fit-only. The price covers strip-out, pipework, tanking, tiling, electrics, ventilation, and fitting and snagging your chosen suite."
+    },
+    {
+      "q": "How much does a full bathroom installation cost in Windsor?",
+      "a": "Full installations start from £3,500. The final price depends on room size, access logistics, and finish specification, which the £125 survey confirms before any work is booked in."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/full-bathroom-installation/", "text": "Full bathroom installation service" },
+    { "href": "/areas/windsor/", "text": "Bathroom installation in Windsor" },
+    { "href": "/guides/how-much-does-a-luxury-bathroom-installation-cost-uk/", "text": "How much does a luxury bathroom installation cost?" },
+    { "href": "/areas/ascot/full-bathroom-installation/", "text": "Full bathroom installation in Ascot" },
+    { "href": "/areas/sunningdale/full-bathroom-installation/", "text": "Full bathroom installation in Sunningdale" }
+  ],
+  "factsUsed": [ { "file": "towns.json", "id": "windsor" } ],
+  "primaryKeyword": "full bathroom installation Windsor",
+  "secondaryKeywords": [
+    "full bathroom installation in Windsor",
+    "complete bathroom renovation Windsor",
+    "bathroom strip out and rebuild Windsor"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a full bathroom installation service page targeting Windsor. Subject and action: a fully finished, empty luxury bathroom photographed immediately after installation, no people present. Setting and work-stage: a bathroom in a period town house near a historic centre, newly tiled and fitted, staged as complete with no tools or debris in shot. Composition: wide shot from the doorway showing the full room — bath, shower enclosure, vanity and WC all in frame. Light and materials: warm sandstone tiling on walls and floor, brushed bronze taps and shower fittings, bright midday daylight through a sash window casting crisp shadows. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings unless genuinely a double vanity, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/windsor-full-bathroom-installation-hero.webp",
+    "heroAlt": "Finished full bathroom installation in a Windsor period town house with warm sandstone tiling and brushed bronze fittings",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

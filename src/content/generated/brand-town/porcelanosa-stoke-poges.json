@@ -1,0 +1,88 @@
+{
+  "path": "/installer/porcelanosa-stoke-poges/",
+  "family": "Brand x town",
+  "brand": "porcelanosa",
+  "town": "stoke-poges",
+  "slug": "porcelanosa-stoke-poges",
+  "seo": {
+    "title": "Porcelanosa Bathroom Installation in Stoke Poges | Install My Bathroom",
+    "description": "Fit-only Porcelanosa bathroom installation in Stoke Poges. Strip-out, tiling, plumbing and snagging - you choose the tile. Installs from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/porcelanosa-stoke-poges/"
+  },
+  "h1": "Porcelanosa bathroom installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village built on scale - large plots, substantial houses, and the kind of room to manoeuvre that a terraced property simply doesn't offer. That space matters when you're fitting Porcelanosa's large-format porcelain, because the tile's dense, rectified precision only looks right on a substrate that's been checked and prepared flat first. In a Stoke Poges house with generous room dimensions, we can plan layout changes - relocating a waste run, widening a doorway, adding a second en-suite - without running into the structural limits a smaller property would impose, and that same freedom carries through into how carefully we prepare the floor or wall before a single Porcelanosa tile goes down."
+  },
+  "sections": [
+    {
+      "heading": "Flatness first: why Porcelanosa is unforgiving",
+      "body": "Porcelanosa's large-format porcelain is dense, rectified and dimensionally precise - which is exactly why it punishes an uneven substrate or an inconsistent joint far more visibly than a smaller, more forgiving tile would. A rectified tile has almost no inherent play in its edges, so if the floor beneath it isn't flat to within a few millimetres across the full run, the tile will telegraph every dip and high spot as lippage - a visible step between adjacent tile edges that no amount of grouting will hide. Fitting it well is a matter of tolerance, not taste: we check the floor or wall and prepare it flat first, then set the tile with the correct bed coverage, joint width and lippage control to let the material's own precision show through, rather than fight against it."
+    },
+    {
+      "heading": "Stoke Poges gives us room to plan properly",
+      "body": "Stoke Poges is a village of large plots and substantial houses, with Stoke Park's golf and country club giving the area its best-known identity. The housing around it ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. That scale generally gives us far more room to manoeuvre on layout than a smaller property would allow - relocating a waste run, widening a doorway for level access, or adding a second en-suite off a principal bedroom rarely runs into the structural constraints a terraced house would present. In practice that means more freedom to choose where a large-format floor tile runs continuously through a wet-room threshold, or where a feature wall of book-matched slabs can sit without being broken up by an awkward stud wall."
+    },
+    {
+      "heading": "What we install from the Porcelanosa range",
+      "body": "We fit Porcelanosa's large-format porcelain floor and wall tiles, including book-matched and marble-look finishes, as part of a fully fitted bathroom. You choose and buy the tile, sanitaryware, brassware and furniture, and we handle everything from strip-out through to the finished room - floors, walls, shower enclosures and wet-room tanking where the tile itself is Porcelanosa porcelain, set out to minimise cut pieces and keep grout lines consistent across the run."
+    },
+    {
+      "heading": "Getting the detail right with large-format tile",
+      "body": "Large-format rectified tile needs a different approach to setting than a standard-size tile. We use full solid-bed adhesive coverage rather than spot-bonding, because any void under a slab this size will eventually crack under foot traffic or thermal movement. Joint width is kept narrow and consistent to suit the rectified edge, and we use lippage-control systems to pull adjacent tiles level with each other while the adhesive is still workable. Movement joints are planned in at room boundaries and against fixed items like baths, so the tiled surface can expand and contract without cracking at the grout line."
+    },
+    {
+      "heading": "The fit-only process: survey, install, price",
+      "body": "We start with a paid survey at £125, where we measure the room, check floor levels and substrate condition, and talk through what your Porcelanosa tile choice needs in terms of preparation. From there, installation covers strip-out of the existing bathroom, first-fix plumbing and electrics, tiling, final-fix plumbing, and snagging, with installs starting from £3,500 depending on room size and scope. You buy the tile, sanitaryware, brassware and furniture directly; we handle everything to do with fitting it, insured and planned around your household."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you supply the Porcelanosa tiles, or do I buy them?",
+      "a": "You buy the tile directly - we're a fit-only installer, so you choose and purchase your Porcelanosa tile, sanitaryware, brassware and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Why does floor flatness matter so much with large-format porcelain?",
+      "a": "Porcelanosa's large-format tile is dense, rectified and dimensionally precise, which means it has very little give at the edges. An uneven substrate shows up as lippage between tiles, so we check and prepare the floor or wall flat before setting it, with the correct bed coverage and joint width to control it."
+    },
+    {
+      "q": "Can you change our bathroom layout, or are we stuck with the existing one?",
+      "a": "In Stoke Poges, plot sizes and house scale often give us more room to work with than a terraced property would. We can discuss relocating a waste run, widening a doorway, or adding an en-suite at survey stage."
+    },
+    {
+      "q": "How much does a bathroom installation cost?",
+      "a": "Installs start from £3,500, with a £125 paid survey beforehand to confirm scope and price for your specific room."
+    },
+    {
+      "q": "Do you do bathroom repairs as well as full installs?",
+      "a": "Yes, for high-end homes, with a £200 minimum and a £500 minimum for emergency call-outs. We don't do regrouting as a standalone repair."
+    },
+    {
+      "q": "How do I book a survey?",
+      "a": "Call or WhatsApp 07399 651836 to arrange a paid survey at £125, where we'll assess your Stoke Poges bathroom and discuss your Porcelanosa tile plans."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/porcelanosa/", "text": "More about Porcelanosa large-format porcelain" },
+    { "href": "/areas/stoke-poges/", "text": "Bathroom installation across Stoke Poges" },
+    { "href": "/areas-brands/stoke-poges/", "text": "Brands we fit in Stoke Poges" },
+    { "href": "/services/natural-stone-and-marble-bathrooms/", "text": "Natural stone and marble bathroom fitting" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "porcelanosa" },
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "Porcelanosa installation Stoke Poges",
+  "secondaryKeywords": [
+    "Porcelanosa bathroom fitter Stoke Poges",
+    "large-format porcelain tiling Stoke Poges",
+    "Porcelanosa tile installer Buckinghamshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Porcelanosa x Stoke Poges bathroom installation page. Subject and action: a trowel with notched adhesive ridges resting beside a freshly set large-format marble-look porcelain floor, the final slab propped against the wall ready to lay. Setting and work-stage: mid-installation in a spacious bathroom shell with first-fix pipework capped off and tile layout chalk-lined across the floor. Composition: wide floor-level shot looking across the tiled floor toward a large window, strong leading lines along the minimal rectified grout joints. Light and materials: soft overcast daylight falling through a large window, Calacatta/Carrara marble-look porcelain with believable varied sheen rather than uniform gloss. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants, florals or candles as props, no water shown running.",
+    "heroOutputPath": "heroes/brand-town/porcelanosa-stoke-poges-hero.webp",
+    "heroAlt": "Large-format Calacatta marble-look porcelain floor being laid in a spacious Stoke Poges bathroom mid-installation",
+    "inline": []
+  }
+}

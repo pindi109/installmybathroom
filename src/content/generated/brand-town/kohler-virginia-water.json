@@ -1,0 +1,85 @@
+{
+  "path": "/installer/kohler-virginia-water/",
+  "family": "Brand x town",
+  "brand": "kohler",
+  "town": "virginia-water",
+  "slug": "kohler-virginia-water",
+  "seo": {
+    "title": "Kohler Bathroom Installation in Virginia Water | Install My Bathroom",
+    "description": "Fit-only Kohler sanitaryware, brassware and bath installation in Virginia Water, near Wentworth. Survey £125, installs from £3,500. 30 years' experience.",
+    "canonical": "https://installmybathroom.co.uk/installer/kohler-virginia-water/"
+  },
+  "h1": "Kohler bathroom installation in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its well-known golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. That plot size generally gives us far more flexibility on layout than a terraced property would, which is useful when a Kohler specification brings a wall-hung WC, a shower valve and perhaps a cast-iron bath into the same project. We plan for whichever combination you're specifying, not a single generic approach."
+  },
+  "sections": [
+    {
+      "heading": "Repositioning sanitaryware to improve a Virginia Water bathroom",
+      "body": "Relocating a waste run to accommodate a freestanding bath, or repositioning a shower to improve natural light, rarely runs into a structural wall it can't move around on the larger properties typical of Virginia Water. That same flexibility applies to Kohler sanitaryware: a wall-hung WC can often be moved to a wall that suits the new layout better, provided the concealed cistern frame is fixed and levelled into solid structure before tiling begins, which is standard structural fixing work carried out at first-fix stage."
+    },
+    {
+      "heading": "Brassware pressure checks on larger properties",
+      "body": "Properties near the Wentworth Estate often have more complex plumbing runs than a smaller house, sometimes including private supply arrangements or longer pipe runs from a central plant room. A Kohler shower valve or digital tap needs its pressure and flow checked against the actual supply reaching the bathroom, not just the mains figure, before it's committed to the wall. We carry out these checks during first-fix, while there's still scope to adjust pipework if the readings don't match what the brassware is designed for."
+    },
+    {
+      "heading": "Cast-iron bath logistics on generous plots",
+      "body": "Where a cast-iron enamel bath is part of the specification, the main consideration is simply getting it into the room in one piece and onto joists that can carry its loaded weight. The generous plots and wider internal layouts common around Virginia Water, with long driveways and in some cases gated access, tend to make the access route more straightforward than a smaller or more enclosed property would, though we still assess doorways, stairs and floor structure at survey stage before confirming the plan."
+    },
+    {
+      "heading": "The fit-only process, survey to snagging",
+      "body": "Every project starts with a £125 survey, where we check the room, the access route, and the supply and waste positions against what your Kohler products will need. You buy the sanitaryware, brassware, tiles and furniture; we carry out strip-out, first-fix, tiling, final-fix plumbing and snagging. Installations start from £3,500, with the figure set by the scope and quality of the work rather than against any other installer's pricing."
+    },
+    {
+      "heading": "Long driveways and private access near Wentworth",
+      "body": "A number of properties close to the Wentworth Estate sit behind long driveways or gated and private road access, which affects delivery planning more than the installation work itself. A cast-iron bath, tiling materials and plumbing supplies all need to reach the house on schedule for first-fix and tiling to run in sequence, so we confirm access arrangements at survey stage rather than assuming a standard delivery route will apply. It's a small piece of planning that keeps a multi-discipline Kohler installation moving without gaps between stages, and it matters more the longer the driveway or the more restricted the access, since a delivery that's turned away or delayed at the entrance can hold up every trade scheduled to follow it that day."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you reposition a Kohler WC or shower to improve a bathroom's layout in Virginia Water?",
+      "a": "Often, yes. The larger plots and layouts typical of Virginia Water rarely constrain us the way a terraced property's structural walls would, so repositioning sanitaryware or a shower for better light or flow is usually achievable."
+    },
+    {
+      "q": "Do you check water pressure for Kohler brassware on larger properties?",
+      "a": "Yes. We check pressure and flow against the actual supply reaching the bathroom, which matters more on larger properties that may have longer pipe runs or private supply arrangements."
+    },
+    {
+      "q": "Do you supply the Kohler products for a Virginia Water installation?",
+      "a": "No, we're fit-only. You source the sanitaryware, brassware, tiles and furniture, and we handle strip-out, first-fix, tiling, plumbing and snagging."
+    },
+    {
+      "q": "Can a cast-iron bath be installed in a gated or private-access property?",
+      "a": "Yes, we plan the access route and timing at survey stage, which allows us to coordinate deliveries and the bath's route through the house in advance."
+    },
+    {
+      "q": "What does a Kohler bathroom installation cost in Virginia Water?",
+      "a": "Installations start from £3,500 for fit-only work, after a £125 paid survey. The final price depends on the scope of strip-out, first-fix, tiling and plumbing required."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kohler/", "anchor": "View the full Kohler bathroom range" },
+    { "href": "/areas/virginia-water/", "anchor": "Bathroom installation in Virginia Water" },
+    { "href": "/areas-brands/virginia-water/", "anchor": "Bathroom brands we fit in Virginia Water" },
+    { "href": "/services/bathroom-plumbing-and-first-fix/", "anchor": "Bathroom plumbing and first-fix" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kohler" },
+    { "file": "towns.json", "id": "virginia-water" }
+  ],
+  "primaryKeyword": "Kohler installation Virginia Water",
+  "secondaryKeywords": [
+    "Kohler bathroom fitter Virginia Water",
+    "Kohler sanitaryware installation Surrey",
+    "fit-only bathroom installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for a Kohler-branded bathroom installation page targeting Virginia Water. Subject and action: a wall-hung WC pan being offered up to a concealed cistern frame mid-fit, a spirit level and spanner resting on a nearby ledge, no person in shot. Setting and work-stage: a large principal en-suite in a detached house, warm walnut timber vanity carcass installed but worktop not yet fitted, pale concrete-look floor tiles laid. Composition: angled three-quarter view showing both the WC fixing and the timber vanity in the same frame, balanced but not mirrored. Light and materials: warm walnut timber joinery, pale concrete-look floor tiling, brushed chrome fittings, soft natural light from a window just out of frame, gentle warm-cool contrast. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or niche at once, no catalog-symmetrical twin fittings, no single uniform amber or gold colour wash, no hanging plants or candles as props, no water shown running, varied and believable sheen rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/brand-town/kohler-virginia-water-hero.webp",
+    "heroAlt": "Wall-hung Kohler WC being fitted to a concealed cistern frame during a bathroom installation in Virginia Water",
+    "inline": []
+  }
+}

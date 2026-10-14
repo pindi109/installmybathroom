@@ -1,0 +1,73 @@
+{
+  "path": "/installer/kaldewei-ascot/",
+  "family": "Brand × town",
+  "brand": "kaldewei",
+  "town": "ascot",
+  "slug": "kaldewei-ascot",
+  "seo": {
+    "title": "Kaldewei Installation in Ascot | Flush Steel Baths & Trays | Install My Bathroom",
+    "description": "We install client-supplied Kaldewei steel baths and shower trays across Ascot's larger properties, including flush and low-profile models. Fit-only, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/kaldewei-ascot/"
+  },
+  "h1": "Kaldewei installation in Ascot",
+  "hero": {
+    "intro": "Ascot's larger plots and executive-style builds give us more room to plan a bathroom layout than most properties allow, but a flush or low-profile Kaldewei bath or shower tray still depends on one thing extra space doesn't solve: the sub-floor height and waste fall have to be set before the finished floor goes down. Ascot's housing runs from large detached Victorian and Edwardian houses to inter-war family homes and more recent executive-style builds on generous plots, particularly on the roads towards Sunningdale and Windsor, and that scale usually gives us far more freedom on layout — relocating a waste run or widening a doorway for level access rarely runs into the structural limits a smaller property would present. Install My Bathroom fits Kaldewei's titanium-enamelled steel baths, shower trays and panel systems across Ascot on a fit-only basis: you supply the product, we handle the installation detail steel enamel specifically needs."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Kaldewei in Ascot's larger bathrooms",
+      "body": "Kaldewei's range covers built-in, freestanding and bath-in-bath steel enamel baths, low-profile and flush-fit models, standard and low-profile shower trays, matching panel systems and support frame kits, and combination bath-and-shower-tray units for projects that want one enamelled piece doing both jobs. Kaldewei doesn't produce brassware, so whichever taps, fillers or shower valves you've specified separately are fitted once we've confirmed waste, overflow and any tap-hole position against the exact Kaldewei model — worth settling early in Ascot, where a generous principal suite often means a freestanding bath and a separate walk-in shower specified from two different brands at once."
+    },
+    {
+      "heading": "Why a flush Kaldewei tray needs planning before the floor goes down",
+      "body": "Several Kaldewei shower trays and baths support a low-profile or genuinely flush, floor-level installation, which suits the larger, more contemporary en-suites common in Ascot's executive-style new-builds. The trade-off is that there's very little tolerance to adjust height once the surrounding floor is finished, so the sub-floor build-up and the waste fall have to be planned before tiling starts, not worked around afterwards. This is also where Ascot's generous plot sizes help in a different way: more room on layout often means we can route the waste run to wherever gives the best fall for a flush installation, rather than being forced to compromise the floor height to make a fixed waste position work. We settle this detail at survey, alongside the usual requirement for level, even bearing across the full base of the bath or tray — Kaldewei's steel is rigid rather than flexible, so an unevenly packed support, not the product, is what eventually causes the enamel to crack."
+    },
+    {
+      "heading": "Fit-only, across every Ascot property type",
+      "body": "Whether it's a period Victorian house or a new executive-style build, we work fit-only across Ascot: you choose and supply your Kaldewei product, and we carry out the strip-out, first fix, tanking, tiling, plumbing and snagging needed to install it, from £3,500. A £125 survey comes first, where we check the sub-floor, waste position and layout freedom your specific plot allows, so the flush or low-profile installation you want is planned properly rather than discovered to be impossible once the floor's gone down. Book a survey to get a firm quote for your Ascot bathroom."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a Kaldewei bath or shower tray be fitted completely flush with the floor?",
+      "a": "Several Kaldewei models support a low-profile or genuinely flush installation, but the sub-floor height and waste fall need planning before the finished floor is laid, since there's very little room to adjust afterwards."
+    },
+    {
+      "q": "Does Ascot's larger plot size make a Kaldewei installation easier?",
+      "a": "It often helps with layout — generous plots typically give more flexibility over where a waste run sits, which makes planning a flush installation more straightforward than in a property with fixed structural constraints. It doesn't change the core installation detail Kaldewei's steel enamel needs, though."
+    },
+    {
+      "q": "Do I need to buy my Kaldewei bath through you?",
+      "a": "No. We're fit-only, so you supply the Kaldewei bath, tray or sanitaryware — through a showroom, retailer or designer — and we handle the installation across Ascot."
+    },
+    {
+      "q": "Why does a steel Kaldewei bath need a different support than acrylic?",
+      "a": "Kaldewei's steel is rigid rather than flexible, so the support is about even, accurate bearing across the full base rather than preventing flex. We fit the manufacturer's own support feet or frame system, levelled and packed to the real sub-floor rather than an assumed flat one."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/kaldewei/", "anchor": "Kaldewei installation detail" },
+    { "href": "/areas/ascot/", "anchor": "Bathroom fitting in Ascot" },
+    { "href": "/areas-brands/ascot/", "anchor": "Bathroom brands we fit in Ascot" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/walk-in-shower-installation/", "anchor": "Walk-in shower installation" }
+  ],
+  "factsUsed": [
+    { "file": "brands.json", "id": "kaldewei" },
+    { "file": "towns.json", "id": "ascot" }
+  ],
+  "primaryKeyword": "Kaldewei installation Ascot",
+  "secondaryKeywords": [
+    "Kaldewei bath fitter Ascot",
+    "flush Kaldewei shower tray Ascot",
+    "Kaldewei shower tray installation Ascot"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Ascot Kaldewei installer page, a close construction-stage shot implying a flush steel shower tray installation rather than a finished room. Subject and action: a shallow titanium-enamelled steel shower tray being bedded into a fresh mortar screed, a spirit level resting across its rim checking for flush alignment with the surrounding floor, no finished tiling yet. Setting and work-stage: a construction-stage en-suite in a contemporary Ascot executive-style extension, bright midday daylight. Composition: high three-quarter angle looking down onto the tray and screed, the tray rim and spirit level filling the mid-ground, bare studwork wall soft-focus in the background. Light and materials: large-format grey porcelain tile stacked at the edge of frame, a matte black waste cover set into the tray, bright direct midday daylight through an unseen window casting a crisp, defined shadow of the spirit level across the tray. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED light strips anywhere in frame, no catalog-symmetrical staging or perfectly centred fixtures, no uniform amber or gold colour wash, no plants, florals or candles as props, no water shown running, varied and believable sheen on the porcelain tile rather than uniform gloss.",
+    "heroOutputPath": "heroes/brand-town/kaldewei-ascot-hero.webp",
+    "heroAlt": "A shallow titanium-enamelled steel shower tray being bedded flush into fresh mortar screed with a spirit level across its rim, bright midday daylight in a contemporary Ascot en-suite under construction.",
+    "inline": []
+  }
+}

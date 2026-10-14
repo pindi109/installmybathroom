@@ -1,0 +1,102 @@
+{
+  "path": "/installer/crosswater-gerrards-cross/",
+  "family": "Brand × town",
+  "brand": "crosswater",
+  "town": "gerrards-cross",
+  "slug": "crosswater-gerrards-cross",
+  "seo": {
+    "title": "Crosswater Bathroom Installation in Gerrards Cross | Install My Bathroom",
+    "description": "Fit-only Crosswater shower and brassware installation for homeowners in Gerrards Cross. You source the products, we fit them, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/crosswater-gerrards-cross/"
+  },
+  "h1": "Crosswater bathroom installation in Gerrards Cross",
+  "hero": {
+    "intro": "Gerrards Cross is the kind of affluent Buckinghamshire commuter village where a bathroom refit is as likely to start with a showroom appointment as with a local supplier, and Crosswater's brassware turns up on a lot of those specifications — slim deck-mounted taps, minimal-profile shower valves and digital controllers designed to sit flush rather than stand proud of a worktop or wall. We're based in Bracknell, around 25 to 30 minutes away by road, and we work fit-only across Gerrards Cross: you choose and supply the Crosswater products through your own showroom or designer, and we strip out, first-fix, tile, plumb and snag the installation from £3,500. With Crosswater specifically, getting that minimal, flush-fitting look right depends on decisions made before the tiler arrives, not on the tap itself."
+  },
+  "sections": [
+    {
+      "heading": "What we install from Crosswater in Gerrards Cross",
+      "body": "Crosswater's reputation is built on contemporary brassware and shower systems: deck-mounted and wall-mounted taps with a slim, minimal profile, concealed and digital shower valves that put the controls on a panel rather than a traditional handle, and the shower enclosures and screens designed to match. None of it is meant to be bought off a shelf and bolted straight on — a concealed valve or a flush deck-mounted tap depends on the fixing and pipework behind it being built to that exact product's specification. In Gerrards Cross we install whatever has been specified through your showroom or designer, from a single replacement valve to a full shower and vanity fit-out."
+    },
+    {
+      "heading": "What a Crosswater installation actually depends on",
+      "body": "A deck-mounted Crosswater tap only sits flush and minimal if the worktop or bath it's fixed into has been prepared to the right thickness and the supply pipework is routed to meet it in the right place — get that wrong and the tap sits proud, at an angle, or needs reworking after the surface is already fitted. The same logic applies to concealed shower valves: the wall cavity, pipe depth, and the water pressure and flow reaching the valve all need to be confirmed and built correctly before any tile goes up. We check all of this against your specific Crosswater product list at the £125 survey, which is deducted from the final cost if you go ahead."
+    },
+    {
+      "heading": "How Gerrards Cross's property pattern affects the job",
+      "body": "Gerrards Cross sits around 25 to 30 minutes from our Bracknell base, close to Beaconsfield and Chalfont St Peter, and the specification we're handed here has often already been through a showroom consultation before we arrive at survey. That tends to mean the Crosswater product list is settled early, which works in the installation's favour — we can confirm the exact wall, worktop and pipework requirements for that specific range well before fitting day, rather than making decisions on site. Where a property hasn't had its layout touched in years, that early confirmation is also when we flag anything the existing walls or supply pipework will need changed to suit the chosen Crosswater fittings."
+    },
+    {
+      "heading": "Fit-only, and what it means for your project",
+      "body": "We don't hold Crosswater stock or sell the products — you source them, we install them, from £3,500 for a fit-only bathroom in Gerrards Cross. Repairs to an already-installed Crosswater shower or tap start from £200, though we don't carry out standalone regrouting on its own, and any emergency call-out has a £500 minimum."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you repair a Crosswater shower that's already installed?",
+      "a": "Yes, repair work on an installed Crosswater shower or tap starts from £200. We don't take on standalone regrouting jobs, and any emergency call-out carries a £500 minimum."
+    },
+    {
+      "q": "Do I need to buy Crosswater products before you survey the property?",
+      "a": "No, but if you already have a specification from a showroom or designer, bringing it to the £125 survey lets us confirm the exact wall, worktop and pipework detail that specific Crosswater range needs."
+    },
+    {
+      "q": "How far is Gerrards Cross from your base?",
+      "a": "We're based in Bracknell, around 25 to 30 minutes away by road, and we work across Gerrards Cross on the same fit-only basis as everywhere else we cover."
+    },
+    {
+      "q": "Why does a deck-mounted tap need special preparation?",
+      "a": "Crosswater's deck-mounted taps are designed to sit with a slim, minimal profile, which means the worktop or bath thickness and the supply pipework beneath it need to be prepared to the tap's exact specification, or it won't sit flush."
+    },
+    {
+      "q": "Do you work from a showroom specification rather than starting from scratch?",
+      "a": "Yes, a lot of the Crosswater specification we fit in Gerrards Cross has already been through a showroom or designer before we're brought in, and we work through that existing product list at survey rather than starting from nothing."
+    }
+  ],
+  "internalLinks": [
+    {
+      "href": "/brands/crosswater/",
+      "anchor": "All the Crosswater products we fit"
+    },
+    {
+      "href": "/areas/gerrards-cross/",
+      "anchor": "Bathroom fitting in Gerrards Cross"
+    },
+    {
+      "href": "/areas-brands/gerrards-cross/",
+      "anchor": "Bathroom brands we fit in Gerrards Cross"
+    },
+    {
+      "href": "/services/walk-in-shower-installation/",
+      "anchor": "Walk-in shower installation"
+    },
+    {
+      "href": "/services/bathroom-plumbing-and-first-fix/",
+      "anchor": "Bathroom plumbing & first fix"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "brands.json",
+      "id": "crosswater"
+    },
+    {
+      "file": "towns.json",
+      "id": "gerrards-cross"
+    }
+  ],
+  "primaryKeyword": "Crosswater installer Gerrards Cross",
+  "secondaryKeywords": [
+    "Crosswater bathroom installation Gerrards Cross",
+    "Crosswater shower fitter Gerrards Cross",
+    "fit-only Crosswater installation"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Crosswater × Gerrards Cross installer page, implying Crosswater's deck-mounted brassware range through a close vanity fixture shot. Subject and action: a tight three-quarter shot of a deck-mounted basin mixer tap fixed into a vanity worktop, a folded dust sheet pushed to one side and a single screwdriver resting nearby, just after fitting rather than fully styled. Setting and work-stage: a nearly finished vanity area in a Gerrards Cross family home, warm early-evening light coming through an unseen window, one practical pendant light already switched on above. Composition: close three-quarter angle focused on the tap and worktop edge, a sliver of mirror frame visible out of focus behind, tap and worktop sharply in focus in the foreground. Light and materials: travertine-topped vanity surface, matte black deck-mounted tap, warm directional light from the pendant mixing unevenly with the fading daylight from the window, soft shadow cast by the tap across the worktop. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no twin symmetrical basins, no uniform gold colour wash across the whole frame, no plants, florals or candles as props, no water shown running, varied and believable sheen on the travertine with no uniform high gloss.",
+    "heroOutputPath": "heroes/brand-town/crosswater-gerrards-cross-hero.webp",
+    "heroAlt": "Close shot of a matte black deck-mounted basin mixer tap on a travertine vanity top in a Gerrards Cross home, warm evening light from one pendant fixture.",
+    "inline": []
+  }
+}

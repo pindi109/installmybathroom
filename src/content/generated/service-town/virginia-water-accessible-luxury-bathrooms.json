@@ -1,0 +1,96 @@
+{
+  "path": "/areas/virginia-water/accessible-luxury-bathrooms/",
+  "family": "Service x town",
+  "service": "accessible-luxury-bathrooms",
+  "town": "virginia-water",
+  "seo": {
+    "title": "Accessible Luxury Bathrooms in Virginia Water | Install My Bathroom",
+    "description": "Level-access showers and reinforced walls built around Virginia Water's generous plots, finished to a high-end standard. Fit-only from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/virginia-water/accessible-luxury-bathrooms/"
+  },
+  "h1": "Accessible luxury bathrooms in Virginia Water",
+  "hero": {
+    "intro": "Virginia Water is known for its large detached properties, many close to the Wentworth Estate and its golf courses, set on generous plots with long driveways and, in a number of cases, gated or private road access. Properties here range from substantial period houses to more recent executive-style builds, and that plot size generally gives us far more flexibility on layout than a terraced property would — which matters directly when the work involves re-routing a waste point, repositioning a shower, or widening a doorway for level access."
+  },
+  "sections": [
+    {
+      "heading": "Where accessible luxury bathroom work differs from a standard refit",
+      "body": "Three things set this service apart from a normal bathroom installation. The shower floor has to run level with the rest of the room, which usually means relocating the waste rather than dropping a tray in where the old one sat. The doorway needs enough clear width for a wheelchair or walking frame to pass through without difficulty, which can mean altering the frame or moving a stud wall. And any wall that might eventually carry a grab rail or seat needs solid blocking built in before boarding, decided before tiling starts rather than retrofitted later. We plan all three during the survey, and none of them need to be visible once the room is finished — support can be finished in whatever metal tone you've chosen for the rest of the fittings."
+    },
+    {
+      "heading": "Why Virginia Water's plots suit this kind of layout change",
+      "body": "Relocating a waste run to accommodate a freestanding bath or repositioning a shower to improve natural light rarely runs into a structural wall it can't move around, because plot size here generally gives far more flexibility on layout than a terraced property allows. That same flexibility applies to the structural changes behind an accessible luxury bathroom — moving a waste point for a level threshold, or widening a doorway, tends to be a more open conversation on a substantial Virginia Water plot than it would be in a tightly built property elsewhere."
+    },
+    {
+      "heading": "What the survey covers",
+      "body": "At the £125 survey we check the fall to the existing drain and what moving it would involve, the floor build-up and joist layout, which walls are structural versus stud, and where reinforcement should sit based on how you'll use the room. On a generous plot, including properties with long driveways or gated access near the Wentworth Estate, we often find more than one workable layout rather than being locked into the position of the existing suite."
+    },
+    {
+      "heading": "The build sequence",
+      "body": "Once the layout is agreed, we strip the existing bathroom out, carry out the waste re-route and any doorway or wall alterations, build in the reinforcement, then first-fix plumbing and electrics. Tiling follows, then the final fit of the sanitaryware, brassware and furniture you've sourced, and finally snagging. Fit-only means the products are entirely yours to choose — we build the accessible structure and finish it to the same high standard as any other bathroom we install locally."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does a larger plot in Virginia Water make level access easier to fit?",
+      "a": "Generally, yes. The generous plot sizes and detached layouts common here mean relocating a waste run or widening a doorway rarely runs into a structural wall it can't move around, unlike in a more tightly built terraced property."
+    },
+    {
+      "q": "Will the support rails look out of place in a high-end bathroom?",
+      "a": "No. We finish rails and reinforced areas in the same metal tone as your taps and shower fittings, so the room reads as a design-led bathroom rather than a clinical adaptation."
+    },
+    {
+      "q": "What does the installation cost?",
+      "a": "Fit-only installations start from £3,500. The final figure depends on the extent of layout change and your chosen products, confirmed at the £125 survey."
+    },
+    {
+      "q": "Can you work around gated or private road access?",
+      "a": "Yes, this is common in Virginia Water. We agree access and delivery arrangements with you at survey stage so the programme isn't held up once work begins."
+    }
+  ],
+  "internalLinks": [
+    {
+      "anchor": "More on our accessible luxury bathroom service",
+      "href": "/services/accessible-luxury-bathrooms/"
+    },
+    {
+      "anchor": "Install My Bathroom in Virginia Water",
+      "href": "/areas/virginia-water/"
+    },
+    {
+      "anchor": "Bathroom installation costs in Virginia Water",
+      "href": "/bathroom-cost/virginia-water/"
+    },
+    {
+      "anchor": "Accessible luxury bathrooms in Sunningdale",
+      "href": "/areas/sunningdale/accessible-luxury-bathrooms/"
+    },
+    {
+      "anchor": "Accessible luxury bathrooms on Wentworth Estate",
+      "href": "/areas/wentworth-estate/accessible-luxury-bathrooms/"
+    }
+  ],
+  "factsUsed": [
+    {
+      "file": "towns.json",
+      "id": "virginia-water"
+    }
+  ],
+  "primaryKeyword": "accessible luxury bathroom Virginia Water",
+  "secondaryKeywords": [
+    "level access shower Virginia Water",
+    "wet room installation Surrey",
+    "wheelchair accessible bathroom installer Virginia Water"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for an accessible luxury bathroom service page targeting Virginia Water. Subject and action: a finished accessible bathroom with a repositioned walk-in shower near a window and a level threshold visible in the foreground. Setting and work-stage: fully completed installation styled for a substantial period or executive-style house. Composition: diagonal composition leading the eye from the threshold towards the window, shot at a slight downward angle. Light and materials: warm taupe large-format tiles, aged brass fittings, golden hour side light streaming across the floor creating long warm shadows. Constraints: no people, no text, no logos, no visible brand names on fixtures, no LED strips under every shelf or niche, no catalog-symmetrical twin fittings, no single uniform amber colour wash, no plants, candles or florals, no water shown running, varied natural sheen rather than uniform hyper-gloss, support rail finished in matching aged brass with no clinical or institutional appearance.",
+    "heroOutputPath": "heroes/service-town/virginia-water-accessible-luxury-bathrooms-hero.webp",
+    "heroAlt": "Finished level-access shower with aged brass fittings and warm taupe tiling in a Virginia Water bathroom",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

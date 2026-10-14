@@ -1,0 +1,70 @@
+{
+  "path": "/areas/stoke-poges/ensuite-installation/",
+  "family": "Service × town",
+  "service": "ensuite-installation",
+  "town": "stoke-poges",
+  "seo": {
+    "title": "En-Suite Installation in Stoke Poges | Fit-Only From £3,500 | Install My Bathroom",
+    "description": "Fit-only en-suite installation in Stoke Poges, including second en-suites off a principal bedroom. Stud wall partitions, tanking, tiling and second fix from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/areas/stoke-poges/ensuite-installation/"
+  },
+  "h1": "En-suite installation in Stoke Poges",
+  "hero": {
+    "intro": "Stoke Poges is a village of large plots and substantial houses, best known locally for Stoke Park's golf and country club, and the housing around it ranges from older period detached homes to more recent executive-style builds, many set well back from the road on sizeable gardens. One job we see repeatedly in a village like this is adding a second en-suite off a principal bedroom — a project that relies almost entirely on the kind of structural freedom a large plot and solid-walled detached house give us, rather than something that would be straightforward in a smaller or more tightly built property. That scale generally means relocating a waste run, widening a doorway for level access, or forming a stud wall partition rarely runs into the structural constraints a terraced house would present."
+  },
+  "sections": [
+    {
+      "heading": "Adding a second en-suite off a principal bedroom",
+      "body": "Where a Stoke Poges house already has a family bathroom and a smaller en-suite serving a guest room, we're frequently asked whether a second, dedicated en-suite can be built off the principal bedroom itself. In a substantial detached property on a generous plot, the answer is usually yes — a stud wall partition is formed across part of the bedroom, first-fix plumbing routed to a soil stack or, where the run won't allow it, a macerator solution confirmed at survey, and electrics for lighting and an extractor fan installed ahead of boarding. The work is coordinated so the partition carries supply and waste exactly where needed, rather than retrofitting pipework around a wall that's already up."
+    },
+    {
+      "heading": "Why this still needs the same technical discipline",
+      "body": "A second en-suite in a large house doesn't get a lighter technical standard than a first one. Full-height tanking in the shower enclosure, a tested fall to the waste, and sealed pipe penetrations are non-negotiable regardless of how generous the surrounding plot is. Extraction is sized to the room under Part F guidance, with ducting run as directly as possible to an external wall rather than through several bends that quietly reduce real-world performance. Any new electrical circuit for the fan, lighting or shaver socket is completed to Part P standards and signed off by a registered electrician."
+    },
+    {
+      "heading": "Process and what you supply",
+      "body": "We start with a £125 survey to confirm floor area, door swing, drainage route and water pressure, and to establish whether your intended layout — including a new stud wall if you're creating the en-suite from scratch — is achievable. From there: partition and first fix, tanking left to cure, tiling, then second fix and a full snagging walkthrough, typically 8 to 12 working days. You source the sanitaryware, enclosure, brassware and tiles; we confirm exact dimensions against the room before you order, so nothing arrives too large for the finished footprint."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can you add a second en-suite off a principal bedroom in a Stoke Poges house?",
+      "a": "In most of the substantial detached properties we see in Stoke Poges, yes — the plot size and solid construction typically give enough structural freedom for a stud wall partition and new drainage route, confirmed at the £125 survey."
+    },
+    {
+      "q": "Does a larger Stoke Poges plot reduce the cost of an en-suite?",
+      "a": "Not directly — labour for tanking, first fix and snagging is broadly the same regardless of plot size. Installation is from £3,500, with the plot mainly affecting layout flexibility rather than price."
+    },
+    {
+      "q": "What if there's no soil stack near the new en-suite location?",
+      "a": "We check this at survey. A macerator unit for the WC is often the practical solution where the gravity drainage run won't reach, and we'll price and confirm this before you commit to a layout."
+    },
+    {
+      "q": "How long does forming a new en-suite from a bedroom corner take?",
+      "a": "Usually 8 to 12 working days from the stud wall and first fix through to tanking, tiling, second fix and snagging, with bedroom carpets and furniture protected throughout."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/services/ensuite-installation/", "anchor": "En-suite installation service details" },
+    { "href": "/areas/stoke-poges/", "anchor": "Bathroom fitting in Stoke Poges" },
+    { "href": "/guides/ensuite-cost-uk/", "anchor": "En-suite cost UK guide" },
+    { "href": "/areas/gerrards-cross/ensuite-installation/", "anchor": "En-suite installation in Gerrards Cross" },
+    { "href": "/areas/sunningdale/ensuite-installation/", "anchor": "En-suite installation in Sunningdale" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "stoke-poges" }
+  ],
+  "primaryKeyword": "en-suite installation Stoke Poges",
+  "secondaryKeywords": ["second en-suite Stoke Poges", "ensuite fitters Stoke Poges", "en-suite bathroom Stoke Poges"],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Stoke Poges en-suite installation page, focused on a second en-suite formed off a principal bedroom. Subject and action: a close mid-shot of a finished shower valve and basin corner, a single folded towel draped over an open rail, no movement or running water. Setting and work-stage: completed en-suite built into a former corner of a principal bedroom in a substantial detached Stoke Poges house, early evening, warm practical light rather than daylight. Composition: close-to-fixture mid shot angled slightly downward, shower valve and basin mixer filling the centre of frame, a sliver of the stud wall partition's tiled return visible at the right edge. Light and materials: warm walnut timber vanity unit against honed stone floor tiling, matte black shower valve and basin mixer, a single warm wall light beside the mirror casting uneven directional light with real shadow, no other light source active. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting under every shelf or mirror edge, no catalog-symmetrical staging, no uniform amber wash across the whole frame, no hanging plants, florals or arranged candles, no tap or shower shown running, varied and believable sheen on the timber and stone rather than uniform hyper-gloss.",
+    "heroOutputPath": "heroes/service-town/stoke-poges-ensuite-installation-hero.webp",
+    "heroAlt": "Close shot of a matte black shower valve and walnut vanity in a second en-suite built off a principal bedroom in Stoke Poges, lit by a single warm wall light.",
+    "aspectRatio": "16:9",
+    "targetWidth": 1834,
+    "targetHeight": 1024,
+    "inline": []
+  }
+}

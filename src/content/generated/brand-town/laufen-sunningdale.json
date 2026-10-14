@@ -1,0 +1,77 @@
+{
+  "path": "/installer/laufen-sunningdale/",
+  "family": "Brand × town",
+  "brand": "laufen",
+  "town": "sunningdale",
+  "slug": "laufen-sunningdale",
+  "seo": {
+    "title": "Laufen Bathroom Installation in Sunningdale | SaphirKeramik Fit-Only | Install My Bathroom",
+    "description": "We fit Laufen sanitaryware across Sunningdale's private and gated roads — SaphirKeramik basins and pans installed fit-only, access coordinated from survey, from £3,500.",
+    "canonical": "https://installmybathroom.co.uk/installer/laufen-sunningdale/"
+  },
+  "h1": "Laufen bathroom installation in Sunningdale",
+  "hero": {
+    "intro": "A good number of the large detached houses we work on in Sunningdale sit behind private or gated residential roads, built up over the Victorian, Edwardian, inter-war and more recent executive periods around the area's golf courses, and that generally gives us the plot space to do things like move a waste run three feet to accommodate a freestanding bath without running into neighbouring structure. It also changes the practical side of a Laufen installation before a single pipe is touched: SaphirKeramik, the thin-rimmed ceramic composite behind Laufen's basins and pans, needs a delivery that's timed and coordinated properly, and a private or gated road means confirming access for a delivery vehicle is part of the plan we agree at survey, not an afterthought on the day. We fit Laufen sanitaryware fit-only across Sunningdale, from £3,500."
+  },
+  "sections": [
+    {
+      "heading": "Laufen's SaphirKeramik ranges",
+      "body": "Laufen is a Swiss sanitaryware manufacturer, and SaphirKeramik is the material that sets its ranges apart — a ceramic composite that produces basins and WC pans with finer rims and sharper geometry than standard vitreous china allows. The washbasins, countertop basins and wall-hung pans we fit from Laufen in Sunningdale carry that same slim, sculptural look, and we install them as part of full bathroom refits, en-suite installations and cloakroom updates, to whatever's been specified through a showroom or designer."
+    },
+    {
+      "heading": "Access and delivery on a private or gated road",
+      "body": "Where a Sunningdale property sits on a private or gated road, we confirm delivery access at survey rather than leaving it to be worked out on the day a Laufen piece arrives. That matters more with this brand than with a heavier, more conventional range, because SaphirKeramik's thinner rim profile is less forgiving of a knock in transit, and an uncoordinated delivery — a van turned away at a gate, or a piece left waiting outside while access is sorted — is exactly the kind of avoidable risk we plan around."
+    },
+    {
+      "heading": "Why generous plots help the fitting sequence",
+      "body": "The same plot size that lets us move a waste run three feet for a freestanding bath without hitting neighbouring structure also gives us more room on site to store a fragile Laufen basin or pan safely until it's needed. A bigger property generally means more space away from other trades, which is exactly where a delicate piece needs to sit between arriving on site and being fitted."
+    },
+    {
+      "heading": "Fit-only, from £3,500",
+      "body": "We work fit-only across Sunningdale: you source your Laufen sanitaryware and brassware, and we handle the strip-out, first fix, tiling, plumbing and fitting. Every project starts with a fixed-price £125 survey, where we confirm layout, access and the fitting sequence together. Installations start from £3,500."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you coordinate access for a gated Sunningdale property?",
+      "a": "Yes. Where a property sits on a private or gated road, we confirm delivery access at the £125 survey so a Laufen piece isn't left waiting outside on fitting day."
+    },
+    {
+      "q": "What is SaphirKeramik?",
+      "a": "SaphirKeramik is Laufen's ceramic composite, used to produce basins and WC pans with thinner rims and sharper geometry than standard vitreous china. It's strong once fixed but needs careful handling in transit."
+    },
+    {
+      "q": "Can you move a waste run to fit a freestanding bath in a Sunningdale property?",
+      "a": "Often, yes. Generous plot sizes in Sunningdale mean relocating a waste run rarely runs into the structural limits a smaller property would present, though we confirm this at survey on a case-by-case basis."
+    },
+    {
+      "q": "How much does a Laufen bathroom installation cost in Sunningdale?",
+      "a": "Fit-only installation starts from £3,500, with a fixed-price £125 survey at the outset of every project."
+    }
+  ],
+  "internalLinks": [
+    { "href": "/brands/laufen/", "anchor": "More on Laufen bathrooms we fit" },
+    { "href": "/areas/sunningdale/", "anchor": "Bathroom fitting in Sunningdale" },
+    { "href": "/areas-brands/sunningdale/", "anchor": "Bathroom brands we fit in Sunningdale" },
+    { "href": "/services/freestanding-bath-installation/", "anchor": "Freestanding bath installation" },
+    { "href": "/services/vanity-unit-installation/", "anchor": "Vanity unit installation" }
+  ],
+  "factsUsed": [
+    { "file": "towns.json", "id": "sunningdale" },
+    { "file": "brands.json", "id": "laufen" }
+  ],
+  "primaryKeyword": "Laufen bathroom installation Sunningdale",
+  "secondaryKeywords": [
+    "Laufen fitter Sunningdale",
+    "SaphirKeramik installation Sunningdale",
+    "Laufen sanitaryware Berkshire"
+  ],
+  "generatedAt": "2026-10-14",
+  "templateVersion": "v1",
+  "image": {
+    "heroPrompt": "Purpose: hero image for the Laufen x Sunningdale installer page, implying Laufen's product precision through a close bath-filler and tub-edge detail rather than a full room shot. Subject and action: a close mid-shot of a freestanding bath's slim overflow and a brushed brass floor-standing bath filler positioned beside it, static, just-fitted condition. Setting and work-stage: a finished bathroom in a large detached Sunningdale house behind a private road, late morning, soft overcast daylight through an unseen window. Composition: side-on three-quarter angle at bath-rim height, the bath's slender overflow rim sharp in the foreground, the brass filler and a Calacatta marble floor tile visible in softer focus behind. Light and materials: Calacatta marble floor tile, brushed brass bath filler, soft diffused overcast daylight producing gentle, low-contrast shadow under the bath's rolled edge. Constraints: no people, no text, no logos, no brand names visible on fixtures, no LED strip lighting anywhere in frame, no catalog-symmetrical staging, no uniform gold colour wash across the whole frame, no plants, florals or candles as props, no water shown actively running or filling, varied believable sheen on the marble with minor realistic wear.",
+    "heroOutputPath": "heroes/brand-town/laufen-sunningdale-hero.webp",
+    "heroAlt": "Close-up of a freestanding bath's slender overflow rim and a brushed brass floor-standing filler in a finished Sunningdale bathroom, soft overcast daylight.",
+    "inline": []
+  }
+}
