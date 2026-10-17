@@ -102,27 +102,42 @@ const resolvedOgImage =
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#0F766E" />
 
-    <!-- Fonts — preloaded then swapped to stylesheet so the external request
-         doesn't block initial render; <noscript> covers the no-JS case. -->
+    <!-- Fonts and chat-widget CSS — both non-critical for first paint (the page's
+         own Tailwind stylesheet is what the layout actually depends on). Injected
+         on DOMContentLoaded rather than rel=preload/immediately, so they never
+         compete for bandwidth with that critical stylesheet or the LCP hero image
+         on slow connections. DOMContentLoaded only fires once the critical
+         stylesheet has already loaded (pending stylesheets delay script
+         execution), so this is the earliest safe point. <noscript> covers the
+         no-JS case. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
+    <script>
+      (function () {
+        function loadStylesheet(href) {
+          var link = document.createElement("link");
+          link.rel = "stylesheet";
+          link.href = href;
+          document.head.appendChild(link);
+        }
+        function loadNonCriticalStyles() {
+          loadStylesheet("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+          loadStylesheet("/css/chat-widget.css");
+        }
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", loadNonCriticalStyles);
+        } else {
+          loadNonCriticalStyles();
+        }
+      })();
+    </script>
     <noscript>
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       />
+      <link rel="stylesheet" href="/css/chat-widget.css" />
     </noscript>
-
-    <!-- Amy chat widget styles — non-critical (widget is injected by deferred JS
-         after load), so load it the same non-blocking way. -->
-    <link rel="preload" as="style" href="/css/chat-widget.css" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="/css/chat-widget.css" /></noscript>
 
     <!-- Global styles are injected by Astro via the frontmatter import below.
          DECISION: Imported in frontmatter (not <link>) so Astro/Vite bundles and
