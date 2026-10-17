@@ -53,14 +53,27 @@ const resolvedOgImage =
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content={noindex ? "noindex, nofollow" : "index, follow"} />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DY4W7ZMZL"></script>
+    <!-- Google tag (gtag.js) — script itself loaded after window `load` so it
+         doesn't compete with critical-path requests / main thread during initial render. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-7DY4W7ZMZL');
+
+      function imbLoadGtag() {
+        if (window.__imbGtagLoaded) return;
+        window.__imbGtagLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-7DY4W7ZMZL';
+        document.head.appendChild(s);
+      }
+      if (document.readyState === 'complete') {
+        imbLoadGtag();
+      } else {
+        window.addEventListener('load', imbLoadGtag);
+      }
     </script>
 
     <title>{title}</title>
@@ -89,16 +102,27 @@ const resolvedOgImage =
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#0F766E" />
 
-    <!-- Fonts -->
+    <!-- Fonts — preloaded then swapped to stylesheet so the external request
+         doesn't block initial render; <noscript> covers the no-JS case. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      />
+    </noscript>
 
-    <!-- Amy chat widget styles -->
-    <link rel="stylesheet" href="/css/chat-widget.css" />
+    <!-- Amy chat widget styles — non-critical (widget is injected by deferred JS
+         after load), so load it the same non-blocking way. -->
+    <link rel="preload" as="style" href="/css/chat-widget.css" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="/css/chat-widget.css" /></noscript>
 
     <!-- Global styles are injected by Astro via the frontmatter import below.
          DECISION: Imported in frontmatter (not <link>) so Astro/Vite bundles and
