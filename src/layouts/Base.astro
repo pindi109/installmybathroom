@@ -62,18 +62,13 @@ const resolvedOgImage =
       gtag('config', 'G-7DY4W7ZMZL');
 
       function imbLoadGtag() {
-        if (window.__imbGtagLoaded) return;
-        window.__imbGtagLoaded = true;
         var s = document.createElement('script');
         s.async = true;
         s.src = 'https://www.googletagmanager.com/gtag/js?id=G-7DY4W7ZMZL';
         document.head.appendChild(s);
       }
-      if (document.readyState === 'complete') {
-        imbLoadGtag();
-      } else {
-        window.addEventListener('load', imbLoadGtag);
-      }
+      window.imbRunAfterLoad = window.imbRunAfterLoad || [];
+      window.imbRunAfterLoad.push(imbLoadGtag);
     </script>
 
     <title>{title}</title>
@@ -103,31 +98,38 @@ const resolvedOgImage =
     <meta name="theme-color" content="#0F766E" />
 
     <!-- Fonts and chat-widget CSS — both non-critical for first paint (the page's
-         own Tailwind stylesheet is what the layout actually depends on). Injected
-         on DOMContentLoaded rather than rel=preload/immediately, so they never
-         compete for bandwidth with that critical stylesheet or the LCP hero image
-         on slow connections. DOMContentLoaded only fires once the critical
-         stylesheet has already loaded (pending stylesheets delay script
-         execution), so this is the earliest safe point. <noscript> covers the
+         own Tailwind stylesheet is what the layout actually depends on). Queued
+         to run after window `load` (same queue as the gtag script above) so
+         they never compete for bandwidth with that critical stylesheet or the
+         LCP hero image on slow connections — DOMContentLoaded fires as soon as
+         HTML parsing finishes, which is too early (well before Footer.css or
+         the hero image have actually finished downloading); `load` is the
+         first point nothing critical is still in flight. <noscript> covers the
          no-JS case. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script>
-      (function () {
+      function imbLoadNonCriticalStyles() {
         function loadStylesheet(href) {
           var link = document.createElement("link");
           link.rel = "stylesheet";
           link.href = href;
           document.head.appendChild(link);
         }
-        function loadNonCriticalStyles() {
-          loadStylesheet("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-          loadStylesheet("/css/chat-widget.css");
+        loadStylesheet("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+        loadStylesheet("/css/chat-widget.css");
+      }
+      window.imbRunAfterLoad = window.imbRunAfterLoad || [];
+      window.imbRunAfterLoad.push(imbLoadNonCriticalStyles);
+
+      (function () {
+        function runQueue() {
+          window.imbRunAfterLoad.forEach(function (fn) { fn(); });
         }
-        if (document.readyState === "loading") {
-          document.addEventListener("DOMContentLoaded", loadNonCriticalStyles);
+        if (document.readyState === "complete") {
+          runQueue();
         } else {
-          loadNonCriticalStyles();
+          window.addEventListener("load", runQueue);
         }
       })();
     </script>
