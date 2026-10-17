@@ -8,6 +8,9 @@ export default defineConfig({
   site: "https://installmybathroom.co.uk",
   trailingSlash: "always",
   output: "static",
+  build: {
+    inlineStylesheets: "always",
+  },
   vite: {
     plugins: [tailwindcss()],
   },

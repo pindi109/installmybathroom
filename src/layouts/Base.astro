@@ -301,13 +301,39 @@ const resolvedOgImage =
       })();
     </script>
 
-    <!-- Fade-up animation (IntersectionObserver, respects prefers-reduced-motion) -->
+    <!-- Fade-up animation (IntersectionObserver, respects prefers-reduced-motion).
+         Elements already inside the initial viewport (hero copy, above-the-fold
+         CTAs) are shown immediately instead of waiting for the observer + the
+         0.6s opacity transition — that delay was making whichever fade-up
+         element happened to be largest above the fold the LCP candidate, adding
+         ~1s of pure animation delay on top of its actual render time. -->
     <script>
       (function () {
+        const elements = document.querySelectorAll(".fade-up");
         const prefersReduced = window.matchMedia(
           "(prefers-reduced-motion: reduce)"
         ).matches;
-        if (prefersReduced) return;
+
+        if (prefersReduced) {
+          elements.forEach((el) => el.classList.add("visible"));
+          return;
+        }
+
+        const viewportHeight = window.innerHeight;
+        // Read all geometry first, then write all classList changes — avoids
+        // forced-reflow thrashing from interleaving reads/writes per element.
+        const tops = Array.from(elements, (el) => el.getBoundingClientRect().top);
+        const toObserve = [];
+
+        elements.forEach((el, i) => {
+          if (tops[i] < viewportHeight) {
+            el.classList.add("visible", "fade-up-instant");
+          } else {
+            toObserve.push(el);
+          }
+        });
+
+        if (!toObserve.length) return;
 
         const observer = new IntersectionObserver(
           (entries) => {
@@ -321,9 +347,7 @@ const resolvedOgImage =
           { threshold: 0.12 }
         );
 
-        document.querySelectorAll(".fade-up").forEach((el) => {
-          observer.observe(el);
-        });
+        toObserve.forEach((el) => observer.observe(el));
       })();
     </script>
   </body>

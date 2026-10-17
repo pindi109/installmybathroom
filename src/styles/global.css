@@ -70,5 +70,6 @@
   @media (max-width: 768px) { .section { padding: 60px 0; } .section-sm { padding: 40px 0; } }
   .fade-up { opacity: 0; transform: translateY(20px); transition: opacity .6s ease, transform .6s ease; }
   .fade-up.visible { opacity: 1; transform: translateY(0); }
+  .fade-up.fade-up-instant { transition: none; }
   @media (prefers-reduced-motion: reduce) { .fade-up { opacity: 1; transform: none; transition: none; } }
 }
